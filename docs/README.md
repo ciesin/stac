@@ -1,6 +1,6 @@
 # CIESIN SEDAC STAC Browser
 
-This folder is ready to publish with GitHub Pages.
+Preview of the CIESIN STAC with data incorporated from GRID3, Harvard Dataverse, and NASA EarthData. 
 
 ## Contents
 
@@ -18,7 +18,7 @@ The browser is a static Vue page that loads Vue from a CDN. It does not require 
 
 ## Regenerate
 
-From `D:\codex`:
+From `WORKIN DIRECTORY`:
 
 ```powershell
 python .\scripts\build_category_stac_catalog.py --items-csv .\outputs\main_item_list\ciesin_main_stac_item_list.csv --assets-csv .\outputs\main_asset_list\ciesin_main_stac_asset_list.csv --output-dir .\outputs\category_stac --clean
