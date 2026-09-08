@@ -9454,6 +9454,37 @@
     "item_href": "stac/collections/ciesin-sedac-climate/items/ciesin-sedac-sdp-cpop-b2.json"
   },
   {
+    "id": "global-0-25-degree-future-drought-layers-1980-2100-based-on-downscaled-cmip6-models-and-ssp-rcp",
+    "collection": "ciesin-sedac-climate",
+    "category": "Climate",
+    "title": "Global 0.25-Degree Future Drought Layers (1980-2100) Based on Downscaled CMIP6 Models and SSP-RCP Combinations, Version 1",
+    "description": "The data for this project are stored on the Northeast Storage Exchange (NESE). Follow the instructions for large data download found on our website: Downloading data from NESE via Globus: Quick Start Droughts are a natural phenomenon with significant impact on society and the environment. Their frequency and severity are projected to increase toward the end of the century, which makes urgent the analysis of future drought characteristics to inform stakeholders and to allow the investigation of their effects on different domains. In this study, we developed Future Global Drought Layers composed of SPI and SPEI indices for 23 GCMs of the NEX-GDDP-CMIP6 dataset, including historical (1980-2014) data and 4 future projections (2015-2100) under four climate scenarios: SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5. The drought indices were calculated for 3-, 6- and 12-month timescales. The data is gridded in a regular latitude-longitude format, with a spatial resolution of 0.25ï¿½ï¿½ (~25 km) and monthly time resolut",
+    "datetime": "2025-10-01T00:00:00Z",
+    "start_datetime": null,
+    "end_datetime": null,
+    "bbox": null,
+    "asset_count": 24,
+    "source_counts": {
+      "harvard_dataverse_file": 24
+    },
+    "role_counts": {
+      "data": 24
+    },
+    "type_counts": {
+      "application/pdf": 1,
+      "application/x-7z-compressed": 23
+    },
+    "nasa_doi": null,
+    "harvard_doi": "10.7910/DVN/05FVSE",
+    "sedac_doi": "10.7910/DVN/05FVSE",
+    "license": "other",
+    "keywords": [],
+    "match_status": "nasa_missing;harvard_found",
+    "item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
+    "citation": null,
+    "item_href": "stac/collections/ciesin-sedac-climate/items/global-0-25-degree-future-drought-layers-1980-2100-based-on-downscaled-cmip6-models-and-ssp-rcp.json"
+  },
+  {
     "id": "ciesin-sedac-sdp-ggdp-b2",
     "collection": "ciesin-sedac-climate",
     "category": "Climate",
@@ -20332,6 +20363,37 @@
     "item_href": "stac/collections/ciesin-sedac-governance/items/ciesin-sedac-cd-agenda21.json"
   },
   {
+    "id": "geocoded-cbp-apprehensions-from-central-america-and-mexico-fy-2010-fy-2022",
+    "collection": "ciesin-sedac-governance",
+    "category": "Governance",
+    "title": "Geocoded CBP Apprehensions from Central America and Mexico (FY 2010 - FY 2022)",
+    "description": "The dataset provides geocoded places of origin of migrants apprehended under U.S.C. Title 8 at the US Southwest border by the US Border Patrol over the period from fiscal year 2010 to fiscal year 2022. For each record of apprehension, we geocoded the place of birth of migrants using information about the place, state or department, and country of birth provided by the US Border Patrol. To do so, we built a custom Python script that leveraged OpenStreetMap to geocode the place of birth of all the migrants from Mexico and Central America (Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica, Panama, Belize). Out of a total of 5,113,232 apprehensions from migrants from Central America and Mexico over the period, we geolocated the place of birth of migrants for 4,685,026 apprehensions, of which 3,474,536 were located at the settlement or county (municipio) level. The remaining 1,210,490 apprehensions could only be geolocated at the state or department level. The underlying records of apprehensions were obtained by David Leblang (University of Virginia) through a Freedom of Information Act (FOIA) request.",
+    "datetime": "2026-07-16T00:00:00Z",
+    "start_datetime": null,
+    "end_datetime": null,
+    "bbox": null,
+    "asset_count": 3,
+    "source_counts": {
+      "harvard_dataverse_file": 3
+    },
+    "role_counts": {
+      "data": 3
+    },
+    "type_counts": {
+      "application/pdf": 2,
+      "text/csv": 1
+    },
+    "nasa_doi": null,
+    "harvard_doi": "10.7910/DVN/F5IU1D",
+    "sedac_doi": "10.7910/DVN/F5IU1D",
+    "license": "other",
+    "keywords": [],
+    "match_status": "nasa_missing;harvard_found",
+    "item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
+    "citation": null,
+    "item_href": "stac/collections/ciesin-sedac-governance/items/geocoded-cbp-apprehensions-from-central-america-and-mexico-fy-2010-fy-2022.json"
+  },
+  {
     "id": "ciesin-sedac-wacvm-pglf-200813",
     "collection": "ciesin-sedac-governance",
     "category": "Governance",
@@ -24265,52 +24327,6 @@
     "item_href": "stac/collections/ciesin-sedac-health/items/ciesin-sedac-wacvm-dhs.json"
   },
   {
-    "id": "ciesin-sedac-cd-fundgis",
-    "collection": "ciesin-sedac-imagery-base-maps-earth-cover",
-    "category": "Imagery/Base Maps/Earth Cover",
-    "title": "China Dimensions Data Collection: Fundamental GIS: Digital Chart of China, 1:1M, Version 1",
-    "description": "The Fundamental GIS: Digital Chart of China, 1:1M, Version 1 consists of vector maps of China and surrounding areas. The maps include roads, railroads, drainage systems, contours, populated places, and urbanized areas for China proper, as well as for China and neighboring countries. The maps are at a scale of one to one million (1:1M). This data set is produced in collaboration with the University of Washington as part of the China in Time and Space (CITAS) project and the Columbia University Center for International Earth Science Information Network (CIESIN).",
-    "datetime": "1996-09-30T00:00:00Z",
-    "start_datetime": "1993-01-01T00:00:00.000Z",
-    "end_datetime": "1993-12-31T00:00:00.000Z",
-    "bbox": [
-      73.0,
-      18.0,
-      135.0,
-      54.0
-    ],
-    "asset_count": 2,
-    "source_counts": {
-      "nasa_cmr_granule": 2
-    },
-    "role_counts": {
-      "data": 1,
-      "metadata": 1
-    },
-    "type_counts": {
-      "application/octet-stream": 2
-    },
-    "nasa_doi": "10.7927/H4QC01D2",
-    "harvard_doi": null,
-    "sedac_doi": "10.7927/H4QC01D2",
-    "license": "other",
-    "keywords": [
-      "Boundaries",
-      "China",
-      "Country",
-      "EARTH SCIENCE > HUMAN DIMENSIONS > BOUNDARIES",
-      "Earth Science",
-      "Human Dimensions",
-      "Imagery/Base Maps/Earth Cover",
-      "Infrastructure",
-      "Province"
-    ],
-    "match_status": "nasa_found;harvard_missing",
-    "item_status": "ready",
-    "citation": null,
-    "item_href": "stac/collections/ciesin-sedac-imagery-base-maps-earth-cover/items/ciesin-sedac-cd-fundgis.json"
-  },
-  {
     "id": "ciesin-sedac-cd-maps-bibdb",
     "collection": "ciesin-sedac-infrastructure",
     "category": "Infrastructure",
@@ -24368,6 +24384,52 @@
     "item_status": "ready",
     "citation": null,
     "item_href": "stac/collections/ciesin-sedac-infrastructure/items/ciesin-sedac-cd-maps-bibdb.json"
+  },
+  {
+    "id": "ciesin-sedac-cd-fundgis",
+    "collection": "ciesin-sedac-infrastructure",
+    "category": "Infrastructure",
+    "title": "China Dimensions Data Collection: Fundamental GIS: Digital Chart of China, 1:1M, Version 1",
+    "description": "The Fundamental GIS: Digital Chart of China, 1:1M, Version 1 consists of vector maps of China and surrounding areas. The maps include roads, railroads, drainage systems, contours, populated places, and urbanized areas for China proper, as well as for China and neighboring countries. The maps are at a scale of one to one million (1:1M). This data set is produced in collaboration with the University of Washington as part of the China in Time and Space (CITAS) project and the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "1996-09-30T00:00:00Z",
+    "start_datetime": "1993-01-01T00:00:00.000Z",
+    "end_datetime": "1993-12-31T00:00:00.000Z",
+    "bbox": [
+      73.0,
+      18.0,
+      135.0,
+      54.0
+    ],
+    "asset_count": 2,
+    "source_counts": {
+      "nasa_cmr_granule": 2
+    },
+    "role_counts": {
+      "data": 1,
+      "metadata": 1
+    },
+    "type_counts": {
+      "application/octet-stream": 2
+    },
+    "nasa_doi": "10.7927/H4QC01D2",
+    "harvard_doi": null,
+    "sedac_doi": "10.7927/H4QC01D2",
+    "license": "other",
+    "keywords": [
+      "Boundaries",
+      "China",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > BOUNDARIES",
+      "Earth Science",
+      "Human Dimensions",
+      "Imagery/Base Maps/Earth Cover",
+      "Infrastructure",
+      "Province"
+    ],
+    "match_status": "nasa_found;harvard_missing",
+    "item_status": "ready",
+    "citation": null,
+    "item_href": "stac/collections/ciesin-sedac-infrastructure/items/ciesin-sedac-cd-fundgis.json"
   },
   {
     "id": "ciesin-sedac-uspat-desluis",
@@ -31126,6 +31188,39 @@
     "item_href": "stac/collections/ciesin-sedac-population/items/ciesin-sedac-grumpv1-ext.json"
   },
   {
+    "id": "global-urban-demographic-dataset-gudd-version-1",
+    "collection": "ciesin-sedac-population",
+    "category": "Population",
+    "title": "Global Urban Demographic Dataset (GUDD), version 1",
+    "description": "The Global Urban Demographic Dataset (GUDD), version 1, provides globally consistent city-level estimates of urban demographic structure and population change for the period 2000ï¿½ï¿½ï¿½2020. The dataset was developed by intersecting annual WorldPop gridded age-sex population estimates with urban centre boundaries from the Global Human Settlement Layer Urban Centre Database (GHS-UCDB). The dataset includes outputs generated using both static urban boundaries, fixed to a common spatial definition, and dynamic urban boundaries that vary through time. These data support comparative analyses of urban demographic change across more than 10,000 cities worldwide and enable evaluation of age structure, sex structure, total population change, natural increase, and estimated net migration in a harmonized global framework. The dataset is intended to support research on urbanization, migration, demographic transition, climate vulnerability, and urban pla",
+    "datetime": "2024-11-01T00:00:00Z",
+    "start_datetime": null,
+    "end_datetime": null,
+    "bbox": null,
+    "asset_count": 9,
+    "source_counts": {
+      "harvard_dataverse_file": 9
+    },
+    "role_counts": {
+      "data": 9
+    },
+    "type_counts": {
+      "application/octet-stream": 2,
+      "application/pdf": 1,
+      "text/csv": 1,
+      "text/tab-separated-values": 5
+    },
+    "nasa_doi": null,
+    "harvard_doi": "10.7910/DVN/GMV8WG",
+    "sedac_doi": "10.7910/DVN/GMV8WG",
+    "license": "other",
+    "keywords": [],
+    "match_status": "nasa_missing;harvard_found",
+    "item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
+    "citation": null,
+    "item_href": "stac/collections/ciesin-sedac-population/items/global-urban-demographic-dataset-gudd-version-1.json"
+  },
+  {
     "id": "ciesin-sedac-gpwv3-popcount",
     "collection": "ciesin-sedac-population",
     "category": "Population",
@@ -34478,6 +34573,39 @@
     "item_status": "ready",
     "citation": null,
     "item_href": "stac/collections/ciesin-sedac-population/items/ciesin-sedac-wacvm-popproj-203050.json"
+  },
+  {
+    "id": "city-segments-layer-v1",
+    "collection": "ciesin-sedac-poverty",
+    "category": "Poverty",
+    "title": "City Segments Layer v1",
+    "description": "The City Segments Layer v1 is a geospatial dataset identifying sub-city areas with high building density and low road connectivity, serving as a proxy for neighborhood socioeconomic status (SES). Available for 5,218 urban centers across 107 low- and middle-income countries, it enables spatial analysis of urban vulnerabilities. City segment boundaries align with navigable roads and water features, ensuring relevance for fieldwork applications. Each segment has a minimum estimated population of 400 people to produce units similar to census enumeration areas. The dataset integrates multiple open geospatial sources: Global Human Settlement Layer Urban Center Database (GHS-UCDB, 2019) for city boundaries, OpenStreetMap (OSM) via Global Urban Street Networks (GUSN) for roads, OSM via GeoFabrik for water features, and Overture Maps for building footprints. Urban areas are segmented through a multi-step geoprocessing workflow. Major zones are first defined by primary roads, waterways, and city boundaries. Within these, city segments are created using secondary roads and smaller waterways. Voronoi diagrams from building centroids support fine-scale urban morphology analysis, including road access and parcel size variation. This dataset provides a standardized framework for analyzing area-level urban deprivations and assets, and has potential to support local-to-international development indicator monitoring, policymakers, researchers, and field practitioners upon further validation.",
+    "datetime": "2025-03-17T00:00:00Z",
+    "start_datetime": null,
+    "end_datetime": null,
+    "bbox": null,
+    "asset_count": 215,
+    "source_counts": {
+      "harvard_dataverse_file": 215
+    },
+    "role_counts": {
+      "data": 215
+    },
+    "type_counts": {
+      "application/pdf": 1,
+      "application/zipped-shapefile": 107,
+      "text/csv": 6,
+      "text/tab-separated-values": 101
+    },
+    "nasa_doi": null,
+    "harvard_doi": "10.7910/DVN/XLRSF0",
+    "sedac_doi": "10.7910/DVN/XLRSF0",
+    "license": "other",
+    "keywords": [],
+    "match_status": "nasa_missing;harvard_found",
+    "item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
+    "citation": null,
+    "item_href": "stac/collections/ciesin-sedac-poverty/items/city-segments-layer-v1.json"
   },
   {
     "id": "ciesin-sedac-spatialecon-lgii-v1",
@@ -37926,6 +38054,39 @@
     "item_href": "stac/collections/ciesin-sedac-society/items/ciesin-sedac-gpwv3-natiden.json"
   },
   {
+    "id": "2024-environmental-performance-index-epi",
+    "collection": "ciesin-sedac-sustainability",
+    "category": "Sustainability",
+    "title": "2024 Environmental Performance Index (EPI)",
+    "description": "The 2024 Environmental Performance Index (EPI) provides a data-driven summary of the state of sustainability around the world. Using 58 performance indicators across 11 issue categories, the EPI ranks 180 countries on climate change performance, environmental health, and ecosystem vitality. These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future.",
+    "datetime": "2026-07-26T00:00:00Z",
+    "start_datetime": null,
+    "end_datetime": null,
+    "bbox": null,
+    "asset_count": 11,
+    "source_counts": {
+      "harvard_dataverse_file": 11
+    },
+    "role_counts": {
+      "data": 11
+    },
+    "type_counts": {
+      "application/pdf": 3,
+      "application/zip": 3,
+      "text/csv": 1,
+      "text/tab-separated-values": 4
+    },
+    "nasa_doi": null,
+    "harvard_doi": "10.7910/DVN/ZLAHG0",
+    "sedac_doi": "10.7910/DVN/ZLAHG0",
+    "license": "other",
+    "keywords": [],
+    "match_status": "nasa_missing;harvard_found",
+    "item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
+    "citation": null,
+    "item_href": "stac/collections/ciesin-sedac-sustainability/items/2024-environmental-performance-index-epi.json"
+  },
+  {
     "id": "ciesin-sedac-cesic-2006nfa",
     "collection": "ciesin-sedac-sustainability",
     "category": "Sustainability",
@@ -39774,75 +39935,9 @@
     "item_href": "stac/collections/ciesin-sedac-sustainability/items/ciesin-sedac-water-wsim-gldas-v1.json"
   },
   {
-    "id": "2024-environmental-performance-index-epi",
-    "collection": "ciesin-sedac-uncategorized",
-    "category": "Uncategorized",
-    "title": "2024 Environmental Performance Index (EPI)",
-    "description": "The 2024 Environmental Performance Index (EPI) provides a data-driven summary of the state of sustainability around the world. Using 58 performance indicators across 11 issue categories, the EPI ranks 180 countries on climate change performance, environmental health, and ecosystem vitality. These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future.",
-    "datetime": "2026-07-26T00:00:00Z",
-    "start_datetime": null,
-    "end_datetime": null,
-    "bbox": null,
-    "asset_count": 11,
-    "source_counts": {
-      "harvard_dataverse_file": 11
-    },
-    "role_counts": {
-      "data": 11
-    },
-    "type_counts": {
-      "application/pdf": 3,
-      "application/zip": 3,
-      "text/csv": 1,
-      "text/tab-separated-values": 4
-    },
-    "nasa_doi": null,
-    "harvard_doi": "10.7910/DVN/ZLAHG0",
-    "sedac_doi": "10.7910/DVN/ZLAHG0",
-    "license": "other",
-    "keywords": [],
-    "match_status": "nasa_missing;harvard_found",
-    "item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
-    "citation": null,
-    "item_href": "stac/collections/ciesin-sedac-uncategorized/items/2024-environmental-performance-index-epi.json"
-  },
-  {
-    "id": "city-segments-layer-v1",
-    "collection": "ciesin-sedac-uncategorized",
-    "category": "Uncategorized",
-    "title": "City Segments Layer v1",
-    "description": "The City Segments Layer v1 is a geospatial dataset identifying sub-city areas with high building density and low road connectivity, serving as a proxy for neighborhood socioeconomic status (SES). Available for 5,218 urban centers across 107 low- and middle-income countries, it enables spatial analysis of urban vulnerabilities. City segment boundaries align with navigable roads and water features, ensuring relevance for fieldwork applications. Each segment has a minimum estimated population of 400 people to produce units similar to census enumeration areas. The dataset integrates multiple open geospatial sources: Global Human Settlement Layer Urban Center Database (GHS-UCDB, 2019) for city boundaries, OpenStreetMap (OSM) via Global Urban Street Networks (GUSN) for roads, OSM via GeoFabrik for water features, and Overture Maps for building footprints. Urban areas are segmented through a multi-step geoprocessing workflow. Major zones are first defined by primary roads, waterways, and city boundaries. Within these, city segments are created using secondary roads and smaller waterways. Voronoi diagrams from building centroids support fine-scale urban morphology analysis, including road access and parcel size variation. This dataset provides a standardized framework for analyzing area-level urban deprivations and assets, and has potential to support local-to-international development indicator monitoring, policymakers, researchers, and field practitioners upon further validation.",
-    "datetime": "2025-03-17T00:00:00Z",
-    "start_datetime": null,
-    "end_datetime": null,
-    "bbox": null,
-    "asset_count": 215,
-    "source_counts": {
-      "harvard_dataverse_file": 215
-    },
-    "role_counts": {
-      "data": 215
-    },
-    "type_counts": {
-      "application/pdf": 1,
-      "application/zipped-shapefile": 107,
-      "text/csv": 6,
-      "text/tab-separated-values": 101
-    },
-    "nasa_doi": null,
-    "harvard_doi": "10.7910/DVN/XLRSF0",
-    "sedac_doi": "10.7910/DVN/XLRSF0",
-    "license": "other",
-    "keywords": [],
-    "match_status": "nasa_missing;harvard_found",
-    "item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
-    "citation": null,
-    "item_href": "stac/collections/ciesin-sedac-uncategorized/items/city-segments-layer-v1.json"
-  },
-  {
     "id": "envclim-grids-global-urban-environmental-vulnerability-and-climate-risk-500m-resolution-circa-20",
-    "collection": "ciesin-sedac-uncategorized",
-    "category": "Uncategorized",
+    "collection": "ciesin-sedac-urban",
+    "category": "Urban",
     "title": "EnvClim Grids: Global Urban Environmental Vulnerability and Climate Risk, 500m Resolution (circa 2020ï¿½ï¿½ï¿",
     "description": "EnvClim Grids is a global geospatial dataset characterizing current environmental vulnerability and future climate risk for urban populations, with a focus on lower- and middle-income countries (LMICs). The dataset covers 11,422 urban centers worldwide, as defined by the Global Human Settlement Urban Centres Database (GHS-UCDB 2024), including all cities with ï¿½ï¿½ï¿½50,000 residents. A novel socioeconomic vulnerability layer is included for cities in 91 LMICs, identifying neighborhood-scale ï¿½ï¿½ï¿½low SESï¿½ï¿½ï¿½ areas based on higher building density and lower road connectivity relative to similar-sized cities nationally. The dataset integrates 17 global public datasets into 7 indicators of current environmental vulnerability (unsafe air pollution, warm spells, extreme heat, water scarcity, hurricane-force winds, storm surge flooding, seasonal river/surface flooding) and 6 indicators of projected future climate risk (2050, SSP2-RCP4.5) (extreme heat, water scarcity, hurricane-force winds, storm surge river flooding, and landslide susceptibility). All indicators are harmonized to a ï¿½ï¿½ï¿½500ï¿½ï¿½500 m grid for comparability across cities, enabling analysis of intersecting socioeconomic and environmental vulnerabilities at the sub-city level where data coverage allows. City-level and national summaries can be generated to support adaptation planning, risk prioritization, and investment",
     "datetime": "2026-01-01T00:00:00Z",
@@ -39869,102 +39964,7 @@
     "match_status": "nasa_missing;harvard_found",
     "item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
     "citation": null,
-    "item_href": "stac/collections/ciesin-sedac-uncategorized/items/envclim-grids-global-urban-environmental-vulnerability-and-climate-risk-500m-resolution-circa-20.json"
-  },
-  {
-    "id": "geocoded-cbp-apprehensions-from-central-america-and-mexico-fy-2010-fy-2022",
-    "collection": "ciesin-sedac-uncategorized",
-    "category": "Uncategorized",
-    "title": "Geocoded CBP Apprehensions from Central America and Mexico (FY 2010 - FY 2022)",
-    "description": "The dataset provides geocoded places of origin of migrants apprehended under U.S.C. Title 8 at the US Southwest border by the US Border Patrol over the period from fiscal year 2010 to fiscal year 2022. For each record of apprehension, we geocoded the place of birth of migrants using information about the place, state or department, and country of birth provided by the US Border Patrol. To do so, we built a custom Python script that leveraged OpenStreetMap to geocode the place of birth of all the migrants from Mexico and Central America (Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica, Panama, Belize). Out of a total of 5,113,232 apprehensions from migrants from Central America and Mexico over the period, we geolocated the place of birth of migrants for 4,685,026 apprehensions, of which 3,474,536 were located at the settlement or county (municipio) level. The remaining 1,210,490 apprehensions could only be geolocated at the state or department level. The underlying records of apprehensions were obtained by David Leblang (University of Virginia) through a Freedom of Information Act (FOIA) request.",
-    "datetime": "2026-07-16T00:00:00Z",
-    "start_datetime": null,
-    "end_datetime": null,
-    "bbox": null,
-    "asset_count": 3,
-    "source_counts": {
-      "harvard_dataverse_file": 3
-    },
-    "role_counts": {
-      "data": 3
-    },
-    "type_counts": {
-      "application/pdf": 2,
-      "text/csv": 1
-    },
-    "nasa_doi": null,
-    "harvard_doi": "10.7910/DVN/F5IU1D",
-    "sedac_doi": "10.7910/DVN/F5IU1D",
-    "license": "other",
-    "keywords": [],
-    "match_status": "nasa_missing;harvard_found",
-    "item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
-    "citation": null,
-    "item_href": "stac/collections/ciesin-sedac-uncategorized/items/geocoded-cbp-apprehensions-from-central-america-and-mexico-fy-2010-fy-2022.json"
-  },
-  {
-    "id": "global-0-25-degree-future-drought-layers-1980-2100-based-on-downscaled-cmip6-models-and-ssp-rcp",
-    "collection": "ciesin-sedac-uncategorized",
-    "category": "Uncategorized",
-    "title": "Global 0.25-Degree Future Drought Layers (1980-2100) Based on Downscaled CMIP6 Models and SSP-RCP Combinations, Version 1",
-    "description": "The data for this project are stored on the Northeast Storage Exchange (NESE). Follow the instructions for large data download found on our website: Downloading data from NESE via Globus: Quick Start Droughts are a natural phenomenon with significant impact on society and the environment. Their frequency and severity are projected to increase toward the end of the century, which makes urgent the analysis of future drought characteristics to inform stakeholders and to allow the investigation of their effects on different domains. In this study, we developed Future Global Drought Layers composed of SPI and SPEI indices for 23 GCMs of the NEX-GDDP-CMIP6 dataset, including historical (1980-2014) data and 4 future projections (2015-2100) under four climate scenarios: SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5. The drought indices were calculated for 3-, 6- and 12-month timescales. The data is gridded in a regular latitude-longitude format, with a spatial resolution of 0.25ï¿½ï¿½ (~25 km) and monthly time resolut",
-    "datetime": "2025-10-01T00:00:00Z",
-    "start_datetime": null,
-    "end_datetime": null,
-    "bbox": null,
-    "asset_count": 24,
-    "source_counts": {
-      "harvard_dataverse_file": 24
-    },
-    "role_counts": {
-      "data": 24
-    },
-    "type_counts": {
-      "application/pdf": 1,
-      "application/x-7z-compressed": 23
-    },
-    "nasa_doi": null,
-    "harvard_doi": "10.7910/DVN/05FVSE",
-    "sedac_doi": "10.7910/DVN/05FVSE",
-    "license": "other",
-    "keywords": [],
-    "match_status": "nasa_missing;harvard_found",
-    "item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
-    "citation": null,
-    "item_href": "stac/collections/ciesin-sedac-uncategorized/items/global-0-25-degree-future-drought-layers-1980-2100-based-on-downscaled-cmip6-models-and-ssp-rcp.json"
-  },
-  {
-    "id": "global-urban-demographic-dataset-gudd-version-1",
-    "collection": "ciesin-sedac-uncategorized",
-    "category": "Uncategorized",
-    "title": "Global Urban Demographic Dataset (GUDD), version 1",
-    "description": "The Global Urban Demographic Dataset (GUDD), version 1, provides globally consistent city-level estimates of urban demographic structure and population change for the period 2000ï¿½ï¿½ï¿½2020. The dataset was developed by intersecting annual WorldPop gridded age-sex population estimates with urban centre boundaries from the Global Human Settlement Layer Urban Centre Database (GHS-UCDB). The dataset includes outputs generated using both static urban boundaries, fixed to a common spatial definition, and dynamic urban boundaries that vary through time. These data support comparative analyses of urban demographic change across more than 10,000 cities worldwide and enable evaluation of age structure, sex structure, total population change, natural increase, and estimated net migration in a harmonized global framework. The dataset is intended to support research on urbanization, migration, demographic transition, climate vulnerability, and urban pla",
-    "datetime": "2024-11-01T00:00:00Z",
-    "start_datetime": null,
-    "end_datetime": null,
-    "bbox": null,
-    "asset_count": 9,
-    "source_counts": {
-      "harvard_dataverse_file": 9
-    },
-    "role_counts": {
-      "data": 9
-    },
-    "type_counts": {
-      "application/octet-stream": 2,
-      "application/pdf": 1,
-      "text/csv": 1,
-      "text/tab-separated-values": 5
-    },
-    "nasa_doi": null,
-    "harvard_doi": "10.7910/DVN/GMV8WG",
-    "sedac_doi": "10.7910/DVN/GMV8WG",
-    "license": "other",
-    "keywords": [],
-    "match_status": "nasa_missing;harvard_found",
-    "item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
-    "citation": null,
-    "item_href": "stac/collections/ciesin-sedac-uncategorized/items/global-urban-demographic-dataset-gudd-version-1.json"
+    "item_href": "stac/collections/ciesin-sedac-urban/items/envclim-grids-global-urban-environmental-vulnerability-and-climate-risk-500m-resolution-circa-20.json"
   },
   {
     "id": "ciesin-sedac-wacvm-econsi",
