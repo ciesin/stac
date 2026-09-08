@@ -1,0 +1,260 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-grandv1-dams",
+  "collection": "ciesin-sedac-infrastructure",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -153.03,
+          -45.88
+        ],
+        [
+          176.82,
+          -45.88
+        ],
+        [
+          176.82,
+          70.4
+        ],
+        [
+          -153.03,
+          70.4
+        ],
+        [
+          -153.03,
+          -45.88
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -153.03,
+    -45.88,
+    176.82,
+    70.4
+  ],
+  "properties": {
+    "title": "Global Reservoir and Dam Database, Version 1 (GRanDv1): Dams, Revision 01",
+    "description": "The Global Reservoir and Dam Database, Version 1, Revision 01 (v1.01) contains 6,862 records of reservoirs and their associated dams with a cumulative storage capacity of 6,197 cubic km. The dams were geospatially referenced and assigned to polygons depicting reservoir outlines at high spatial resolution. Dams have multiple attributes, such as name of the dam and impounded river, primary use, nearest city, height, area and volume of reservoir, and year of construction (or commissioning). While the main focus was to include all dams associated with reservoirs that have a storage capacity of more than 0.1 cubic kilometers, many smaller dams and reservoirs were added where data were available. The data were compiled by Lehner et al. (2011) and are distributed by the Global Water System Project (GWSP) and by the Columbia University Center for International Earth Science Information Network (CIESIN). For details please refer to the Technical Documentation which is provided with the data.",
+    "datetime": "2011-12-22T00:00:00Z",
+    "start_datetime": "2011-01-01T00:00:00.000Z",
+    "end_datetime": "2011-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Climate",
+      "Continent",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > SURFACE WATER FEATURES > LAKES/RESERVOIRS",
+      "Earth Science",
+      "Global",
+      "Infrastructure",
+      "Inland Waters",
+      "Lakes/Reservoirs",
+      "Land Use",
+      "Population",
+      "Surface Water",
+      "Surface Water Features",
+      "Terrestrial Hydrosphere",
+      "Water"
+    ],
+    "sci:doi": "10.7927/H4N877QK",
+    "ciesin:category": "Infrastructure",
+    "ciesin:tags": "Infrastructure, Land Use, Population, Water, Climate, Continent, Global, Inland Waters, Earth Science, Terrestrial Hydrosphere, Surface Water, Surface Water Features, Lakes/Reservoirs",
+    "ciesin:nasa_doi": "10.7927/H4N877QK",
+    "ciesin:harvard_doi": "10.7910/DVN/MCIBVA",
+    "ciesin:sedac_doi": "10.7927/H4N877QK",
+    "ciesin:purpose": "To provide a geographically explicit and reliable database of dams for the scientific community.",
+    "ciesin:data_format": "vector, map, map service; journal article",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\grand-v1-dams-rev01.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "The GRanDv1: Dams map layer is part of the Global Reservoir and Dam Database, Version 1 (GRanDv1): Dams, Revision 01 data set. It displays dams that were geospatially referenced and assigned to polygons depicting reservoir outlines at high spatial resolution. See more information at https://doi.org/10.7927/H4N877QK.",
+        "attrdefs": "",
+        "attrlabl": "grand-v1-dams-rev01"
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4N877QK",
+      "type": "text/html",
+      "title": "H4N877QK"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1890/100125",
+      "type": "text/html",
+      "title": "100125"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4HH6H08",
+      "type": "text/html",
+      "title": "H4HH6H08"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/grand-v1/grand-v1-dams-rev01/dams-rev01-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "dams-rev01-global-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/grand-v1-dams-rev01/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/grand-v1-dams-rev01/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/grand-v1-dams-rev01/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4N877QK",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-grandv1-dams.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "dams-rev01-global-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/grand-v1/grand-v1-dams-rev01/dams-rev01-global-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "dams-rev01-global-shp.zip",
+      "description": "Global data in Shapefile format from the Global Reservoir and Dam Database, Version 1 (GRanDv1): Dams, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4N877QK",
+      "ciesin:harvard_doi": "10.7910/DVN/MCIBVA",
+      "ciesin:source_dataset_id": "C3540929865-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425367-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4n877qk": {
+      "href": "https://doi.org/10.7927/H4N877QK",
+      "type": "application/octet-stream",
+      "title": "dams-rev01-global-shp.zip",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4N877QK",
+      "ciesin:harvard_doi": "10.7910/DVN/MCIBVA",
+      "ciesin:source_dataset_id": "C3540929865-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425367-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "dams-rev01-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/grand-v1/grand-v1-dams-rev01/dams-rev01-global.pdf",
+      "type": "application/pdf",
+      "title": "dams-rev01-global-shp.zip",
+      "description": "Global map in PDF format from the Global Reservoir and Dam Database, Version 1 (GRanDv1): Dams, Revision 01 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4N877QK",
+      "ciesin:harvard_doi": "10.7910/DVN/MCIBVA",
+      "ciesin:source_dataset_id": "C3540929865-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425367-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "dams-rev01-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/grand-v1/grand-v1-dams-rev01/dams-rev01-global.png",
+      "type": "image/png",
+      "title": "dams-rev01-global-shp.zip",
+      "description": "Global map in PNG format from the Global Reservoir and Dam Database, Version 1 (GRanDv1): Dams, Revision 01 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4N877QK",
+      "ciesin:harvard_doi": "10.7910/DVN/MCIBVA",
+      "ciesin:source_dataset_id": "C3540929865-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425367-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "dams-rev01-global-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/grand-v1/grand-v1-dams-rev01/dams-rev01-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "dams-rev01-global-shp.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4N877QK",
+      "ciesin:harvard_doi": "10.7910/DVN/MCIBVA",
+      "ciesin:source_dataset_id": "C3540929865-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425367-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "dams-rev01-global-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808587",
+      "type": "application/zipped-shapefile",
+      "title": "dams-rev01-global-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1402582,
+      "checksum:md5": "61f310b5306bf39c034a1a0fe1745c03",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:59:12Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4N877QK",
+      "ciesin:harvard_doi": "10.7910/DVN/MCIBVA",
+      "ciesin:source_dataset_id": "11646198",
+      "ciesin:source_file_id": "11808587",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    }
+  }
+}

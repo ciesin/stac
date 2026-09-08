@@ -1,0 +1,240 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-cd-cty-popag-gis",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          73.0,
+          18.0
+        ],
+        [
+          135.0,
+          18.0
+        ],
+        [
+          135.0,
+          54.0
+        ],
+        [
+          73.0,
+          54.0
+        ],
+        [
+          73.0,
+          18.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    73.0,
+    18.0,
+    135.0,
+    54.0
+  ],
+  "properties": {
+    "title": "China Dimensions Data Collection: China County-Level Data on Population (Census) and Agriculture, Keyed to 1:1M GIS Map",
+    "description": "The China County-Level Data on Population (Census) and Agriculture, Keyed To 1:1M GIS Map consists of census, agricultural economic, and boundary data for the administrative regions of China for 1990. The census data includes urban and rural residency, age and sex distribution, educational attainment, illiteracy, marital status, childbirth, mortality, immigration (since 1985), industrial/economic activity, occupation, and ethnicity. The agricultural economic data encompasses rural population, labor force, forestry, livestock and fishery, commodities, equipment, utilities, irrigation, and output value. The boundary data are at a scale of one to one million (1:1M) at the county level. This data set is produced in collaboration with the University of Washington as part of the China in Time and Space (CITAS) project, University of California-Davis China in Time and Space (CITAS) project, and the Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "1997-02-28T00:00:00Z",
+    "start_datetime": "1985-01-01T00:00:00.000Z",
+    "end_datetime": "1990-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Agriculture",
+      "Agriculture Production",
+      "Boundaries",
+      "China",
+      "Country",
+      "County",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ECONOMIC RESOURCES > AGRICULTURE PRODUCTION",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Earth Science",
+      "Economic Resources",
+      "Economy",
+      "Farming",
+      "Human Dimensions",
+      "Population",
+      "Province",
+      "Society"
+    ],
+    "sci:doi": "10.7927/H43N21B3",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Country, Province, County, Boundaries, Economy, Farming, Society, Agriculture, Population, Earth Science, Human Dimensions, Economic Resources, Agriculture Production",
+    "ciesin:nasa_doi": "10.7927/H43N21B3",
+    "ciesin:sedac_doi": "10.7927/H43N21B3",
+    "ciesin:purpose": "To provide information on China's population and agricultural economy from the 1990 census, and geocoded 1990 China county boundary GIS data at 1:1M.",
+    "ciesin:data_format": "vector; tabular; document",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\cddc-china-population-census-and-agriculture.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_missing",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H43N21B3",
+      "type": "text/html",
+      "title": "H43N21B3"
+    },
+    {
+      "rel": "related",
+      "href": "https://sedac.ciesin.columbia.edu/china/popuhealth/popagri/census90credit.html",
+      "type": "text/html",
+      "title": "census90credit.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4RB72JW",
+      "type": "text/html",
+      "title": "H4RB72JW"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4QC01D2",
+      "type": "text/html",
+      "title": "H4QC01D2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4C24TCF",
+      "type": "text/html",
+      "title": "H4C24TCF"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4GT5K3V",
+      "type": "text/html",
+      "title": "H4GT5K3V"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4KK98PS",
+      "type": "text/html",
+      "title": "H4KK98PS"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4MK69T5",
+      "type": "text/html",
+      "title": "H4MK69T5"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4ZW1HVD",
+      "type": "text/html",
+      "title": "H4ZW1HVD"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H47D2S2F",
+      "type": "text/html",
+      "title": "H47D2S2F"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4V40S4D",
+      "type": "text/html",
+      "title": "H4V40S4D"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4FT8HZ2",
+      "type": "text/html",
+      "title": "H4FT8HZ2"
+    },
+    {
+      "rel": "related",
+      "href": "https://sedac.ciesin.columbia.edu/china/popuhealth/popagri/census90sources.html",
+      "type": "text/html",
+      "title": "census90sources.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/cddc/cddc-china-population-census-and-agriculture/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/cddc-china-population-census-and-agriculture/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H43N21B3",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-cd-cty-popag-gis.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data-download": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/data/set/cd-china-population-census-and-agriculture/data-download",
+      "type": "application/octet-stream",
+      "title": "https://sedac.ciesin.columbia.edu/data/set/cddc-china-population-census-and-agriculture/data-download",
+      "description": "China data in ArcInfo Interchange, DBF format for the years 1985-1990 from the China Dimensions Data Collection: China County-Level Data on Population (Census) and Agriculture, Keyed to 1:1M GIS Map data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H43N21B3",
+      "ciesin:source_dataset_id": "C3540910546-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553503016-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h43n21b3": {
+      "href": "https://doi.org/10.7927/H43N21B3",
+      "type": "application/octet-stream",
+      "title": "https://sedac.ciesin.columbia.edu/data/set/cddc-china-population-census-and-agriculture/data-download",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H43N21B3",
+      "ciesin:source_dataset_id": "C3540910546-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553503016-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    }
+  }
+}

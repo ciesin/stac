@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CIESIN STAC Browser</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  </head>
+  <body>
+    <div id="app" v-cloak>
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Category STAC catalog</p>
+          <h1><button class="home-title" type="button" @click="goHome">CIESIN STAC Browser</button></h1>
+        </div>
+        <nav class="top-actions" aria-label="Catalog links">
+          <a href="./stac/catalog.json">Catalog JSON</a>
+          <a href="./stac/items-index.json">Item Index</a>
+          <a href="./stac/summary.json">Summary JSON</a>
+        </nav>
+      </header>
+
+      <main class="page">
+        <section class="search-panel">
+          <label class="search-box" for="search">
+            Search datasets
+            <input id="search" v-model.trim="query" type="search" placeholder="Title, DOI, keyword, collection">
+          </label>
+          <div class="control-grid">
+            <label>
+              Category
+              <select v-model="categoryFilter">
+                <option value="">All categories</option>
+                <option v-for="category in categories" :key="category" :value="category">{{ category }}</option>
+              </select>
+            </label>
+            <label>
+              Status
+              <select v-model="statusFilter">
+                <option value="">Any status</option>
+                <option v-for="status in statuses" :key="status" :value="status">{{ status }}</option>
+              </select>
+            </label>
+            <label>
+              Source
+              <select v-model="sourceFilter">
+                <option value="">Any source</option>
+                <option v-for="source in assetSources" :key="source" :value="source">{{ sourceName(source) }}</option>
+              </select>
+            </label>
+            <label>
+              Role
+              <select v-model="roleFilter">
+                <option value="">Any role</option>
+                <option v-for="role in assetRoles" :key="role" :value="role">{{ role }}</option>
+              </select>
+            </label>
+            <label>
+              Sort
+              <select v-model="sortKey">
+                <option value="category">Category</option>
+                <option value="title">Title</option>
+                <option value="assets">Assets</option>
+                <option value="updated">Time</option>
+              </select>
+            </label>
+          </div>
+        </section>
+
+        <section class="stats-grid" aria-label="Catalog stats">
+          <div>
+            <strong>{{ items.length.toLocaleString() }}</strong>
+            <span>datasets</span>
+          </div>
+          <div>
+            <strong>{{ collectionCount.toLocaleString() }}</strong>
+            <span>collections</span>
+          </div>
+          <div>
+            <strong>{{ allAssets.toLocaleString() }}</strong>
+            <span>attached assets</span>
+          </div>
+          <div>
+            <strong>{{ unmatchedAssets.toLocaleString() }}</strong>
+            <span>unattached rows</span>
+          </div>
+        </section>
+
+        <section v-if="!selected" class="dashboard">
+          <section class="highlight-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Collections</p>
+                <h2>Browse By Category</h2>
+              </div>
+              <button type="button" @click="toggleAllCategories">{{ showAllCategories ? 'Show fewer' : 'View all' }}</button>
+            </div>
+            <div class="compact-grid">
+              <button v-for="row in categoryCards" :key="row.category" type="button" class="compact-card" @click="filterCategory(row.category)">
+                <strong>{{ row.category }}</strong>
+                <small>{{ row.items.toLocaleString() }} datasets · {{ row.assets.toLocaleString() }} assets</small>
+              </button>
+            </div>
+          </section>
+
+          <section class="highlight-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Most assets</p>
+                <h2>Large Dataset Families</h2>
+              </div>
+              <button type="button" @click="showBrowse('assets')">View all by assets</button>
+            </div>
+            <div class="highlight-grid">
+              <button v-for="item in popularItems" :key="item.id" type="button" class="feature-card" @click="selectItem(item)">
+                <span>{{ item.category }}</span>
+                <strong>{{ item.title }}</strong>
+                <small>{{ item.asset_count.toLocaleString() }} assets · {{ itemSourceLabel(item) }}</small>
+              </button>
+            </div>
+          </section>
+
+          <section class="highlight-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Time</p>
+                <h2>Recent Or Newly Dated Records</h2>
+              </div>
+              <button type="button" @click="showBrowse('updated')">View all by time</button>
+            </div>
+            <div class="highlight-grid">
+              <button v-for="item in recentItems" :key="item.id" type="button" class="feature-card" @click="selectItem(item)">
+                <span>{{ yearLabel(item) }}</span>
+                <strong>{{ item.title }}</strong>
+                <small>{{ item.category }} · {{ statusLabel(item) }}</small>
+              </button>
+            </div>
+          </section>
+        </section>
+
+        <section v-else class="detail-pane">
+          <button type="button" class="back-button" @click="closeDetail">Back to results</button>
+          <div class="detail-head">
+            <div>
+              <p class="eyebrow">{{ selected.category || 'CIESIN dataset' }}</p>
+              <h2>{{ selected.title }}</h2>
+            </div>
+            <div class="badge-row">
+              <span>{{ selected.asset_count.toLocaleString() }} assets</span>
+              <span>{{ statusLabel(selected) }}</span>
+            </div>
+          </div>
+
+          <div class="summary-layout">
+            <section class="summary-text">
+              <p>{{ selected.description || 'No description was available from the source metadata.' }}</p>
+              <div class="doi-row">
+                <a v-if="selectedProps['ciesin:sedac_doi']" :href="doiHref(selectedProps['ciesin:sedac_doi'])" target="_blank" rel="noreferrer">SEDAC DOI</a>
+                <a v-if="selectedProps['ciesin:nasa_doi']" :href="doiHref(selectedProps['ciesin:nasa_doi'])" target="_blank" rel="noreferrer">NASA DOI</a>
+                <a v-if="selectedProps['ciesin:harvard_doi']" :href="doiHref(selectedProps['ciesin:harvard_doi'])" target="_blank" rel="noreferrer">Harvard DOI</a>
+                <a :href="collectionHref(selected)" target="_blank" rel="noreferrer">Collection JSON</a>
+                <a :href="selected.item_href" target="_blank" rel="noreferrer">STAC Item</a>
+              </div>
+            </section>
+
+            <section class="map-panel" aria-label="Bounding box preview">
+              <canvas ref="mapCanvas" width="520" height="280"></canvas>
+              <p>{{ bboxLabel }}</p>
+            </section>
+          </div>
+
+          <section class="detail-grid">
+            <section class="info-panel">
+              <div class="panel-head">
+                <p class="eyebrow">Temporal</p>
+                <h3>Date Coverage</h3>
+              </div>
+              <dl class="info-list">
+                <template v-for="row in temporalRows" :key="row[0]">
+                  <dt>{{ row[0] }}</dt>
+                  <dd>{{ row[1] }}</dd>
+                </template>
+              </dl>
+            </section>
+
+            <section class="info-panel">
+              <div class="panel-head">
+                <p class="eyebrow">Publication</p>
+                <h3>Identifiers</h3>
+              </div>
+              <dl class="info-list">
+                <template v-for="row in publicationRows" :key="row[0]">
+                  <dt>{{ row[0] }}</dt>
+                  <dd>{{ row[1] }}</dd>
+                </template>
+              </dl>
+            </section>
+
+            <section class="info-panel wide-panel">
+              <div class="panel-head">
+                <p class="eyebrow">Geospatial</p>
+                <h3>Spatial Metadata</h3>
+              </div>
+              <dl class="info-list two-column">
+                <template v-for="row in geospatialRows" :key="row[0]">
+                  <dt>{{ row[0] }}</dt>
+                  <dd>{{ row[1] }}</dd>
+                </template>
+              </dl>
+            </section>
+
+            <section class="info-panel" v-if="dataStructureRows.length">
+              <div class="panel-head">
+                <p class="eyebrow">Structure</p>
+                <h3>Fields And Raster</h3>
+              </div>
+              <dl class="info-list">
+                <template v-for="row in dataStructureRows" :key="row[0]">
+                  <dt>{{ row[0] }}</dt>
+                  <dd>{{ row[1] }}</dd>
+                </template>
+              </dl>
+            </section>
+
+            <section class="info-panel">
+              <div class="panel-head">
+                <p class="eyebrow">Use</p>
+                <h3>Purpose</h3>
+              </div>
+              <p>{{ selectedProps['ciesin:purpose'] || 'No purpose statement was available.' }}</p>
+            </section>
+          </section>
+
+          <section class="published-work">
+            <div>
+              <span>Collection</span>
+              <strong>{{ selected.category }}</strong>
+            </div>
+            <div>
+              <span>Citation</span>
+              <p>{{ selectedProps['sci:citation'] || selected.citation || 'No source-provided citation was available.' }}</p>
+            </div>
+            <div v-if="contactRows.length">
+              <span>Contacts</span>
+              <p>{{ contactRows.join(' · ') }}</p>
+            </div>
+          </section>
+
+          <section class="keyword-strip" v-if="selected.keywords && selected.keywords.length">
+            <span v-for="keyword in selected.keywords.slice(0, 18)" :key="keyword">{{ keyword }}</span>
+          </section>
+
+          <section class="asset-toolbar">
+            <label for="assetSearch">Asset search</label>
+            <input id="assetSearch" v-model.trim="assetQuery" type="search" placeholder="Filename, type, role, source, DOI">
+            <select v-model="assetSourceFilter">
+              <option value="">All asset sources</option>
+              <option v-for="source in selectedAssetSources" :key="source" :value="source">{{ sourceName(source) }}</option>
+            </select>
+            <select v-model="assetRoleFilter">
+              <option value="">All roles</option>
+              <option v-for="role in selectedAssetRoles" :key="role" :value="role">{{ role }}</option>
+            </select>
+          </section>
+
+          <section class="asset-table" aria-label="Assets">
+            <table>
+              <thead>
+                <tr>
+                  <th>Asset</th>
+                  <th>Role</th>
+                  <th>Type</th>
+                  <th>Source</th>
+                  <th>Size</th>
+                  <th>DOI</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="asset in visibleAssets" :key="asset.key">
+                  <td>
+                    <a :href="asset.href" target="_blank" rel="noreferrer">{{ asset.title || asset.key }}</a>
+                    <small>{{ asset.description }}</small>
+                  </td>
+                  <td>{{ (asset.roles || []).join(', ') }}</td>
+                  <td>{{ asset.type || 'unknown' }}</td>
+                  <td>{{ sourceName(asset['ciesin:source']) }}</td>
+                  <td>{{ formatBytes(asset['file:size']) }}</td>
+                  <td>{{ asset['ciesin:ac_doi'] || asset['ciesin:sedac_doi'] || asset['ciesin:harvard_doi'] || asset['ciesin:nasa_doi'] }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </section>
+
+        <section class="results-panel">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Catalog results</p>
+              <h2>{{ filteredItems.length.toLocaleString() }} Matching Datasets</h2>
+            </div>
+            <div class="pager" v-if="pageCount > 1">
+              <button type="button" :disabled="page === 1" @click="page -= 1">Previous</button>
+              <span>{{ page }} / {{ pageCount }}</span>
+              <button type="button" :disabled="page === pageCount" @click="page += 1">Next</button>
+            </div>
+          </div>
+          <div class="results-grid">
+            <button v-for="item in pagedItems" :key="item.id" type="button" class="result-card" @click="selectItem(item)">
+              <strong>{{ item.title }}</strong>
+              <span>{{ item.category }}</span>
+              <small>{{ item.asset_count.toLocaleString() }} assets · {{ statusLabel(item) }}</small>
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

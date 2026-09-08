@@ -1,0 +1,315 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-chrr-ndh-lslide-mrd",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          -58.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -58.0,
+    180.0,
+    85.0
+  ],
+  "properties": {
+    "title": "Global Landslide Mortality Risks and Distribution",
+    "description": "The Global Landslide Mortality Risks and Distribution is a 2.5 minute grid of global landslide mortality risks. Gridded Population of the World, Version 3 (GPWv3) data provide a baseline estimation of population per grid cell from which to estimate potential mortality risks due to landslide hazard. Mortality loss estimates per hazard event are caculated using regional, hazard-specific mortality records of the Emergency Events Database (EM-DAT) that span the 20 years between 1981 and 2000. Data regarding the frequency and distribution of landslide hazard are obtained from the Global Landslide Hazard Distribution data set. In order to more accurately reflect the confidence associated with the data and procedures, the potential mortality estimate range is classified into deciles, 10 classes of increasing risk with an approximately equal number of grid cells per class, producing a relative estimate of landslide-based mortality risks. This data set is the result of collaboration among the Columbia University Center for Hazards and Risk Research (CHRR), International Bank for Reconstruction and Development/The World Bank, and Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2005-12-31T00:00:00Z",
+    "start_datetime": "2000-01-01T00:00:00.000Z",
+    "end_datetime": "2000-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Agriculture",
+      "Avalanche",
+      "Continent",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > LANDSLIDES",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION > MORTALITY",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > AVALANCHE",
+      "Earth Science",
+      "Global",
+      "Hazards",
+      "Health",
+      "Human Dimensions",
+      "Inland Waters",
+      "Landslides",
+      "Mortality",
+      "Natural Hazards",
+      "Population",
+      "Snow/Ice",
+      "Society",
+      "Sustainability",
+      "Terrestrial Hydrosphere"
+    ],
+    "sci:doi": "10.7927/H4JH3J4N",
+    "sci:citation": "Formerly the National Imagery and Mapping Agency (NIMA).",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Agriculture, Hazards, Sustainability, Inland Waters, Health, Society, Global, Continent, Earth Science, Human Dimensions, Natural Hazards, Landslides, Terrestrial Hydrosphere, Snow/Ice, Avalanche, Population, Mortality",
+    "ciesin:nasa_doi": "10.7927/H4JH3J4N",
+    "ciesin:harvard_doi": "10.7910/DVN/4SWPYJ",
+    "ciesin:sedac_doi": "10.7927/H4JH3J4N",
+    "ciesin:purpose": "To provide a means of assessing global landslide mortality risks and distribution.",
+    "ciesin:data_format": "raster, map, map service; report; model; raster digital data; vector digital data; raster, map service",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\ndh-landslide-mortality-risks-distribution.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4JH3J4N",
+      "type": "text/html",
+      "title": "H4JH3J4N"
+    },
+    {
+      "rel": "related",
+      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+      "type": "text/html",
+      "title": "Natural-disaster-hotspots-A-global-risk-analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4P848VZ",
+      "type": "text/html",
+      "title": "H4P848VZ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H49021PW",
+      "type": "text/html",
+      "title": "H49021PW"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4DR2SDX",
+      "type": "text/html",
+      "title": "H4DR2SDX"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.cia.gov/library/publications/the-world-factbook/",
+      "type": "text/html",
+      "title": "the-world-factbook"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.nga.mil",
+      "type": "text/html",
+      "title": "www.nga.mil"
+    },
+    {
+      "rel": "related",
+      "href": "http://edcdaac.usgs.gov/glcc/glcc.asp",
+      "type": "text/html",
+      "title": "glcc.asp"
+    },
+    {
+      "rel": "related",
+      "href": "https://sedac.ciesin.columbia.edu/gpw-v2/",
+      "type": "text/html",
+      "title": "gpw-v2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4639MPP",
+      "type": "text/html",
+      "title": "H4639MPP"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ndh/ndh-landslide-mortality-risks-distribution/landslide-mortality-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "landslide-mortality-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.worldbank.org/data/wdi2000",
+      "type": "text/html",
+      "title": "wdi2000"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-landslide-mortality-risks-distribution/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-landslide-mortality-risks-distribution/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-landslide-mortality-risks-distribution/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4JH3J4N",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-chrr-ndh-lslide-mrd.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "gdlndmrt-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ndh/ndh-landslide-mortality-risks-distribution/gdlndmrt.zip",
+      "type": "application/x-zip-compressed",
+      "title": "gdlndmrt.zip",
+      "description": "Raster data in ASCII and DBF formats from the Global Landslide Mortality Risks and Distribution data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4JH3J4N",
+      "ciesin:harvard_doi": "10.7910/DVN/4SWPYJ",
+      "ciesin:source_dataset_id": "C3550191066-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278786-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4jh3j4n": {
+      "href": "https://doi.org/10.7927/H4JH3J4N",
+      "type": "application/octet-stream",
+      "title": "gdlndmrt.zip",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4JH3J4N",
+      "ciesin:harvard_doi": "10.7910/DVN/4SWPYJ",
+      "ciesin:source_dataset_id": "C3550191066-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278786-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "landslide-mortality-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-landslide-mortality-risks-distribution/landslide-mortality.pdf",
+      "type": "application/pdf",
+      "title": "gdlndmrt.zip",
+      "description": "Global map in PDF format from the Global Landslide Mortality Risks and Distribution data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4JH3J4N",
+      "ciesin:harvard_doi": "10.7910/DVN/4SWPYJ",
+      "ciesin:source_dataset_id": "C3550191066-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278786-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "landslide-mortality-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-landslide-mortality-risks-distribution/landslide-mortality.png",
+      "type": "image/png",
+      "title": "gdlndmrt.zip",
+      "description": "Global map in PNG format from the Global Landslide Mortality Risks and Distribution data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4JH3J4N",
+      "ciesin:harvard_doi": "10.7910/DVN/4SWPYJ",
+      "ciesin:source_dataset_id": "C3550191066-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278786-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "landslide-mortality-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-landslide-mortality-risks-distribution/landslide-mortality-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "gdlndmrt.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4JH3J4N",
+      "ciesin:harvard_doi": "10.7910/DVN/4SWPYJ",
+      "ciesin:source_dataset_id": "C3550191066-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278786-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "gdlndmrt-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11804886",
+      "type": "application/zip",
+      "title": "gdlndmrt.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 493780,
+      "checksum:md5": "05ab31dc16041bca49b89f634a09e921",
+      "created": "2025-07-22T00:00:00Z",
+      "updated": "2025-09-04T21:16:15Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4JH3J4N",
+      "ciesin:harvard_doi": "10.7910/DVN/4SWPYJ",
+      "ciesin:source_dataset_id": "11646183",
+      "ciesin:source_file_id": "11804886",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

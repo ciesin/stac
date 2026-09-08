@@ -1,0 +1,178 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-infrastructure",
+  "title": "CIESIN SEDAC - Infrastructure",
+  "description": "CIESIN SEDAC datasets categorized as Infrastructure.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -203085.754424,
+          -1733004.800696,
+          3123206.053124,
+          1544176.523214
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1997-02-28T00:00:00Z",
+          "2026-01-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-cd-maps-bibdb.json",
+      "type": "application/geo+json",
+      "title": "China Dimensions Data Collection: China Maps Bibliographic Database"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uspat-desluis.json",
+      "type": "application/geo+json",
+      "title": "Dar es Salaam Land Use and Informal Settlement Data Set"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ulandsat-hbase-v1.json",
+      "type": "application/geo+json",
+      "title": "Global Human Built-up And Settlement Extent (HBASE) Dataset From Landsat"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ulandsat-gmis-v1.json",
+      "type": "application/geo+json",
+      "title": "Global Man-made Impervious Surface (GMIS) Dataset From Landsat"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-grandv1-dams.json",
+      "type": "application/geo+json",
+      "title": "Global Reservoir and Dam Database, Version 1 (GRanDv1): Dams, Revision 01"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uspat-guppd-v1.json",
+      "type": "application/geo+json",
+      "title": "Global Urban Polygons and Points Dataset (GUPPD), Version 1"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---health-facilities-v8.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Facilities v8.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---health-facilities-v9.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Facilities v9.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---nord-kivu--geospatial-data-layers.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Nord-Kivu- Geospatial Data Layers"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---religious-centers-v1.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Religious Centers v1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---roads-v1.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Roads v1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---schools-v1.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Schools v1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---travel-time-friction-surface-v1.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Travel Time Friction Surface v1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod-ituri-geospatial-data-layers.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD – Ituri – Geospatial Data Layers"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-nga---health-facilities-v2.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 NGA - Health Facilities v2.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-nga---health-facilities-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 NGA - Health Facilities v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-nga---roads-v1.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 NGA - Roads v1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-nga---travel-time-friction-surface-v1.0-mix-travel-time.json",
+      "type": "application/geo+json",
+      "title": "GRID3 NGA - Travel Time Friction Surface v1.0 : Mix Travel Time"
+    },
+    {
+      "rel": "item",
+      "href": "./items/sierra-leone-national-health-facilities-dataset-version-01.json",
+      "type": "application/geo+json",
+      "title": "Sierra Leone National Health Facilities Dataset Version 01"
+    },
+    {
+      "rel": "item",
+      "href": "./items/u-s-census-grids-demographic-and-housing-characteristics-file-dhc-2020.json",
+      "type": "application/geo+json",
+      "title": "U.S. Census Grids Demographic and Housing Characteristics File (DHC), 2020"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-wacvm-jrcma.json",
+      "type": "application/geo+json",
+      "title": "West Africa Coastal Vulnerability Mapping: Subset of JRC Map of Accessibility"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-wacvm-osm-roads.json",
+      "type": "application/geo+json",
+      "title": "West Africa Coastal Vulnerability Mapping: Subset of OpenStreetMap (OSM) Roads"
+    }
+  ]
+}

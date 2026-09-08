@@ -1,0 +1,193 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-geo-mex-rastergis",
+  "collection": "ciesin-sedac-population",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -117.0,
+          14.0
+        ],
+        [
+          -86.0,
+          14.0
+        ],
+        [
+          -86.0,
+          33.0
+        ],
+        [
+          -117.0,
+          33.0
+        ],
+        [
+          -117.0,
+          14.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -117.0,
+    14.0,
+    -86.0,
+    33.0
+  ],
+  "properties": {
+    "title": "Georeferenced Population Datasets of Mexico (GEO-MEX): Raster Based GIS Coverage of Mexican Population",
+    "description": "The Raster Based GIS Coverage of Mexican Population is a gridded coverage (1 x 1 km) of Mexican population. The data were converted from vector into raster. The population figures were derived based on available point data (the population of known localities - 30,000 in all). Cell values were derived using a weighted moving average function (Burrough, 1986), and then calculated based on known population by state. The result from this conversion is a coverage whose population data is based on square grid cells rather than a series of vectors. This data set is produced by the Columbia University Center for International Earth Science Information Network (CIESIN) in collaboration with the Instituto Nacional de Estadistica Geografia e Informatica (INEGI).",
+    "datetime": "1994-12-31T00:00:00Z",
+    "start_datetime": "1990-01-01T00:00:00.000Z",
+    "end_datetime": "1990-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Boundaries",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > BOUNDARIES",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Earth Science",
+      "Framework Data",
+      "Human Dimensions",
+      "Mexico",
+      "Population",
+      "Society",
+      "State"
+    ],
+    "sci:doi": "10.7927/H41N7Z2Z",
+    "ciesin:category": "Population",
+    "ciesin:tags": "Country, State, Society, Framework Data, Population, Earth Science, Human Dimensions, Boundaries",
+    "ciesin:nasa_doi": "10.7927/H41N7Z2Z",
+    "ciesin:sedac_doi": "10.7927/H41N7Z2Z",
+    "ciesin:purpose": "To provide raster based GIS coverage of Mexican population for data integration.",
+    "ciesin:data_format": "raster; tabular; vector",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\geo-mex-mexico-raster-based-population-gis.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_missing",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H41N7Z2Z",
+      "type": "text/html",
+      "title": "H41N7Z2Z"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H45D8PS8",
+      "type": "text/html",
+      "title": "H45D8PS8"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4S46PV7",
+      "type": "text/html",
+      "title": "H4S46PV7"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4959FH0",
+      "type": "text/html",
+      "title": "H4959FH0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4WW7FKN",
+      "type": "text/html",
+      "title": "H4WW7FKN"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/geo-mex/geo-mex-mexico-raster-based-population-gis/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/geo-mex-mexico-raster-based-population-gis/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H41N7Z2Z",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-geo-mex-rastergis.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data-download": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/data/set/geo-mex-mexico-raster-based-population-gis/data-download",
+      "type": "application/octet-stream",
+      "title": "https://sedac.ciesin.columbia.edu/data/set/geo-mex-mexico-raster-based-population-gis/data-download",
+      "description": "Mexico data in ArcInfo Interchange format for the year 1990 from the Georeferenced Population Datasets of Mexico (GEO-MEX): Raster Based GIS Coverage of Mexican Population data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H41N7Z2Z",
+      "ciesin:source_dataset_id": "C3540931378-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504127-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h41n7z2z": {
+      "href": "https://doi.org/10.7927/H41N7Z2Z",
+      "type": "application/octet-stream",
+      "title": "https://sedac.ciesin.columbia.edu/data/set/geo-mex-mexico-raster-based-population-gis/data-download",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H41N7Z2Z",
+      "ciesin:source_dataset_id": "C3540931378-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504127-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    }
+  }
+}

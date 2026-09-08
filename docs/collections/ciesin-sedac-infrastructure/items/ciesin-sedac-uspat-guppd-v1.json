@@ -1,0 +1,300 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-uspat-guppd-v1",
+  "collection": "ciesin-sedac-infrastructure",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Global Urban Polygons and Points Dataset (GUPPD), Version 1",
+    "description": "The Global Urban Polygons and Points Dataset (GUPPD), Version 1 is a global data set of 123,034 urban settlements with place names and population for the years 1975-2030 in five-year increments. The data set builds on and expands the European Commission, Joint Research Centre's (JRC) 2015 Global Human Settlement (GHS) Urban Centre Database (UCDB). The JRC Settlement Model (GHS-SMOD) data set includes a hierarchy of urban settlements, from urban centre (level 30), to dense urban cluster (level 23), to semi-dense urban cluster (level 22). The UCDB only includes level 30, whereas the GUPPDv1 adds levels 23 and 22, and uses open data sources to both check and validate the names that JRC assigned to its UCDB polygons and to label the newly added settlements. The methodology described in the documentation was able to consistently label a greater percentage of UCDB polygons than were previously labeled by JRC.",
+    "datetime": "2024-07-10T00:00:00Z",
+    "start_datetime": "1975-01-01T00:00:00.000Z",
+    "end_datetime": "2030-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "EARTH SCIENCE > HUMAN DIMENSIONS > HUMAN SETTLEMENTS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION > POPULATION SIZE",
+      "Earth Science",
+      "Global",
+      "Human Dimensions",
+      "Human Settlements",
+      "Infrastructure",
+      "Land Use",
+      "Population",
+      "Population Size",
+      "Society",
+      "Urban"
+    ],
+    "sci:doi": "10.7927/brq1-xc29",
+    "ciesin:category": "Infrastructure",
+    "ciesin:tags": "Infrastructure, Land Use, Population, Urban, Global, Earth Science, Human Dimensions, Human Settlements, Population Size, Society",
+    "ciesin:nasa_doi": "10.7927/BRQ1-XC29",
+    "ciesin:harvard_doi": "10.7910/DVN/ER5NFR",
+    "ciesin:sedac_doi": "10.7927/brq1-xc29",
+    "ciesin:purpose": "To validate and expand upon JRC's Urban Centre Database (UCDB) to provide place names and population data for settlements around the world.",
+    "ciesin:data_format": "vector, map; documentation",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\urbanspatial-guppd-v1.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/brq1-xc29",
+      "type": "text/html",
+      "title": "brq1-xc29"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://opendatacommons.org/licenses/odbl",
+      "type": "text/html",
+      "title": "odbl"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.openstreetmap.org/copyright",
+      "type": "text/html",
+      "title": "copyright"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/89j7-zw60",
+      "type": "text/html",
+      "title": "89j7-zw60"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/urbanspatial/urbanspatial-guppd-v1/urbanspatial-guppd-v1-population-growth-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "urbanspatial-guppd-v1-population-growth-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/urbanspatial-guppd-v1/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/urbanspatial-guppd-v1/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/brq1-xc29",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-uspat-guppd-v1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "urbanspatial-guppd-v1-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-guppd-v1/urbanspatial-guppd-v1-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "urbanspatial-guppd-v1-gdb",
+      "description": "Global data in Geodatabase format for the years 1975-2030 from the Global Urban Polygons and Points Dataset (GUPPD), Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/BRQ1-XC29",
+      "ciesin:harvard_doi": "10.7910/DVN/ER5NFR",
+      "ciesin:source_dataset_id": "C3540929235-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502945-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "brq1-xc29": {
+      "href": "https://doi.org/10.7927/brq1-xc29",
+      "type": "application/octet-stream",
+      "title": "urbanspatial-guppd-v1-gdb",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/BRQ1-XC29",
+      "ciesin:harvard_doi": "10.7910/DVN/ER5NFR",
+      "ciesin:source_dataset_id": "C3540929235-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502945-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "urbanspatial-guppd-v1-population-growth-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/urbanspatial/urbanspatial-guppd-v1/urbanspatial-guppd-v1-population-growth.pdf",
+      "type": "application/pdf",
+      "title": "urbanspatial-guppd-v1-gdb",
+      "description": "Global population growth map for the years 2015, 2020, 2025 and 2030 in PDF format from the Global Urban Polygons and Points Dataset (GUPPD), Version 1data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/BRQ1-XC29",
+      "ciesin:harvard_doi": "10.7910/DVN/ER5NFR",
+      "ciesin:source_dataset_id": "C3540929235-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502945-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "urbanspatial-guppd-v1-population-growth-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/urbanspatial/urbanspatial-guppd-v1/urbanspatial-guppd-v1-population-growth.png",
+      "type": "image/png",
+      "title": "urbanspatial-guppd-v1-gdb",
+      "description": "Global population growth map for the years 2015, 2020, 2025 and 2030 in PNG format from the Global Urban Polygons and Points Dataset (GUPPD), Version 1 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/BRQ1-XC29",
+      "ciesin:harvard_doi": "10.7910/DVN/ER5NFR",
+      "ciesin:source_dataset_id": "C3540929235-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502945-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "urbanspatial-guppd-v1-population-growth-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/urbanspatial/urbanspatial-guppd-v1/urbanspatial-guppd-v1-population-growth-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "urbanspatial-guppd-v1-gdb",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/BRQ1-XC29",
+      "ciesin:harvard_doi": "10.7910/DVN/ER5NFR",
+      "ciesin:source_dataset_id": "C3540929235-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502945-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "urbanspatial-guppd-v1-gpkg-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-guppd-v1/urbanspatial-guppd-v1-gpkg.zip",
+      "type": "application/x-zip-compressed",
+      "title": "urbanspatial-guppd-v1-gpkg",
+      "description": "Global data in Geopackage format for the years 1975-2030 from the Global Urban Polygons and Points Dataset (GUPPD), Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/BRQ1-XC29",
+      "ciesin:harvard_doi": "10.7910/DVN/ER5NFR",
+      "ciesin:source_dataset_id": "C3540929235-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502947-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "urbanspatial-guppd-v1-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812647",
+      "type": "application/zip",
+      "title": "urbanspatial-guppd-v1-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 57939372,
+      "checksum:md5": "495167179fbc48769c39e5f2e4e332d4",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-08T18:05:17Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/BRQ1-XC29",
+      "ciesin:harvard_doi": "10.7910/DVN/ER5NFR",
+      "ciesin:source_dataset_id": "11646213",
+      "ciesin:source_file_id": "11812647",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "urbanspatial-guppd-v1-gpkg-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812646",
+      "type": "application/zip",
+      "title": "urbanspatial-guppd-v1-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 65355075,
+      "checksum:md5": "69d92e3523ccc4840679287a21bf4a25",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-08T18:05:17Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/BRQ1-XC29",
+      "ciesin:harvard_doi": "10.7910/DVN/ER5NFR",
+      "ciesin:source_dataset_id": "11646213",
+      "ciesin:source_file_id": "11812646",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

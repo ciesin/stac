@@ -1,0 +1,320 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-pend-gdis",
+  "collection": "ciesin-sedac-hazards",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -58.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -58.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Geocoded Disasters (GDIS) Dataset",
+    "description": "The Geocoded Disasters (GDIS) Dataset is a geocoded extension of a selection of natural disasters from the Centre for Research on the Epidemiology of Disasters' (CRED) Emergency Events Database (EM-DAT). The data set encompasses 39,953 locations for 9,924 disasters that occurred worldwide in the years 1960 to 2018. All floods, storms (typhoons, monsoons etc.), earthquakes, landslides, droughts, volcanic activity and extreme temperatures that were recorded in EM-DAT during these 58 years and could be geocoded are included in the data set. The highest spatial resolution in the data set corresponds to administrative level 3 (usually district/commune/village) in the Global Administrative Areas database (GADM, 2018). The vast majority of the locations are administrative level 1 (typically state/province/region).",
+    "datetime": "2021-03-10T00:00:00Z",
+    "start_datetime": "1960-01-01T00:00:00.000Z",
+    "end_datetime": "2018-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Climatology/Meteorology/Atmosphere",
+      "Cyclones",
+      "Droughts",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > DROUGHTS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > EARTHQUAKES",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > FLOODS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > LANDSLIDES",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > TROPICAL CYCLONES > CYCLONES",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > VOLCANIC ERUPTIONS",
+      "Earth Science",
+      "Earthquakes",
+      "Floods",
+      "Global",
+      "Hazards",
+      "Human Dimensions",
+      "Landslides",
+      "Natural Hazards",
+      "Tropical Cyclones",
+      "Volcanic Eruptions"
+    ],
+    "sci:doi": "10.7927/zz3b-8y61",
+    "ciesin:category": "Hazards",
+    "ciesin:tags": "Hazards, Global, Climatology/Meteorology/Atmosphere, Earth Science, Human Dimensions, Natural Hazards, Droughts, Earthquakes, Floods, Landslides, Tropical Cyclones, Cyclones, Volcanic Eruptions",
+    "ciesin:nasa_doi": "10.7927/ZZ3B-8Y61",
+    "ciesin:harvard_doi": "10.7910/DVN/7UW1YK",
+    "ciesin:sedac_doi": "10.7927/zz3b-8y61",
+    "ciesin:purpose": "To provide the subnational location for different types of natural disasters recorded in EM-DAT between 1960-2018.",
+    "ciesin:data_format": "raster, map; journal article",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\pend-gdis-1960-2018.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/zz3b-8y61",
+      "type": "text/html",
+      "title": "zz3b-8y61"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1038/s41597-021-00846-6",
+      "type": "text/html",
+      "title": "s41597-021-00846-6"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/pend/pend-gdis-1960-2018/pend-gdis-1960-2018-death-rate-africa-2009-2018-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "pend-gdis-1960-2018-death-rate-africa-2009-2018-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/pend-gdis-1960-2018/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/pend-gdis-1960-2018/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/zz3b-8y61",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-pend-gdis.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "pend-gdis-1960-2018-disasterlocations-gpkg-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/pend/pend-gdis-1960-2018/pend-gdis-1960-2018-disasterlocations-gpkg.zip",
+      "type": "application/x-zip-compressed",
+      "title": "pend-gdis-1960-2018-disasterlocations-gpkg.zip",
+      "description": "Global geography of each unit data in Geopackage format for the years 1960-2018 from the Geocoded Disasters (GDIS) Datase data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/ZZ3B-8Y61",
+      "ciesin:harvard_doi": "10.7910/DVN/7UW1YK",
+      "ciesin:source_dataset_id": "C3540930147-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502915-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "61jv-th84": {
+      "href": "https://doi.org/10.7927/61jv-th84",
+      "type": "application/octet-stream",
+      "title": "pend-gdis-1960-2018-disasterlocations-gpkg.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/ZZ3B-8Y61",
+      "ciesin:harvard_doi": "10.7910/DVN/7UW1YK",
+      "ciesin:source_dataset_id": "C3540930147-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502915-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "pend-gdis-1960-2018-disasterlocations-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/pend/pend-gdis-1960-2018/pend-gdis-1960-2018-disasterlocations-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "pend-gdis-1960-2018-disasterlocations-gdb.zip",
+      "description": "Global geography of each unit data in Geodatabase format for the years 1960-2018 from the Geocoded Disasters (GDIS) Datase data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/ZZ3B-8Y61",
+      "ciesin:harvard_doi": "10.7910/DVN/7UW1YK",
+      "ciesin:source_dataset_id": "C3540930147-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502916-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "pend-gdis-1960-2018-disasterlocations-csv-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/pend/pend-gdis-1960-2018/pend-gdis-1960-2018-disasterlocations-csv.zip",
+      "type": "application/x-zip-compressed",
+      "title": "pend-gdis-1960-2018-disasterlocations-csv.zip",
+      "description": "Global disaster location centroids data in CSV format for the years 1960-2018 from the Geocoded Disasters (GDIS) Datase data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/ZZ3B-8Y61",
+      "ciesin:harvard_doi": "10.7910/DVN/7UW1YK",
+      "ciesin:source_dataset_id": "C3540930147-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502918-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "pend-gdis-1960-2018-priogrid-key-csv-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/pend/pend-gdis-1960-2018/pend-gdis-1960-2018-priogrid-key-csv.zip",
+      "type": "application/x-zip-compressed",
+      "title": "pend-gdis-1960-2018-priogrid-key-csv.zip",
+      "description": "Global PRIOGRID intergration key data in CSV format for the years 1960-2018 from the Geocoded Disasters (GDIS) Datase data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/ZZ3B-8Y61",
+      "ciesin:harvard_doi": "10.7910/DVN/7UW1YK",
+      "ciesin:source_dataset_id": "C3540930147-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502921-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "pend-gdis-1960-2018-disasterlocations-csv-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715968",
+      "type": "application/zip",
+      "title": "pend-gdis-1960-2018-disasterlocations-csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1094158,
+      "checksum:md5": "5cec1675e10cfb0357e996c5edcb8e08",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2026-02-20T20:20:27Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/ZZ3B-8Y61",
+      "ciesin:harvard_doi": "10.7910/DVN/7UW1YK",
+      "ciesin:source_dataset_id": "11646133",
+      "ciesin:source_file_id": "11715968",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "pend-gdis-1960-2018-disasterlocations-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715969",
+      "type": "application/zip",
+      "title": "pend-gdis-1960-2018-disasterlocations-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 990637271,
+      "checksum:md5": "bb7989507826786ad0eb32ed0de1061c",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2026-02-20T20:20:27Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/ZZ3B-8Y61",
+      "ciesin:harvard_doi": "10.7910/DVN/7UW1YK",
+      "ciesin:source_dataset_id": "11646133",
+      "ciesin:source_file_id": "11715969",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "pend-gdis-1960-2018-disasterlocations-gpkg-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715966",
+      "type": "application/zip",
+      "title": "pend-gdis-1960-2018-disasterlocations-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2195787943,
+      "checksum:md5": "d86904e35016a7101100281f9172242c",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2026-02-20T20:20:27Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/ZZ3B-8Y61",
+      "ciesin:harvard_doi": "10.7910/DVN/7UW1YK",
+      "ciesin:source_dataset_id": "11646133",
+      "ciesin:source_file_id": "11715966",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "pend-gdis-1960-2018-priogrid-key-csv-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715967",
+      "type": "application/zip",
+      "title": "pend-gdis-1960-2018-priogrid-key-csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1024475,
+      "checksum:md5": "210558fc59a9783a43278a22f259428c",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2026-02-20T20:20:27Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/ZZ3B-8Y61",
+      "ciesin:harvard_doi": "10.7910/DVN/7UW1YK",
+      "ciesin:source_dataset_id": "11646133",
+      "ciesin:source_file_id": "11715967",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

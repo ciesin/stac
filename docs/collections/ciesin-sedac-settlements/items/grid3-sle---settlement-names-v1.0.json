@@ -1,0 +1,166 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "grid3-sle---settlement-names-v1.0",
+  "collection": "ciesin-sedac-settlements",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -13.295618,
+          6.932621
+        ],
+        [
+          -10.279584,
+          6.932621
+        ],
+        [
+          -10.279584,
+          9.99908
+        ],
+        [
+          -13.295618,
+          9.99908
+        ],
+        [
+          -13.295618,
+          6.932621
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -13.295618,
+    6.932621,
+    -10.279584,
+    9.99908
+  ],
+  "properties": {
+    "title": "GRID3 SLE - Settlement Names v1.0",
+    "description": "The data are provided in geodatabase file formats. File name: GRID3_SLE_settlement_names_v1.0.gdb with the following layers: GRID3_SLE_settlement_names_v1.0 codebook_settlement_names Extent: Sierra Leone Coordinate system: GCS WGS 1984 For full methodological details, please see data release notes available for download here . Download the data as a zip file . Dataset citation: Center for International Earth Science Information Network (CIESIN), Columbia University, Statistics Sierra Leone, and Sierra Leone Ministry of Basic and Senior Secondary Education. 2023. GRID3 SLE - Settlement Names v1. 0. New York: Geo-Referenced Infrastructure and Demographic Data for Development (GRID3). https://doi.org/10.7916/bxa4-bv46. Accessed DAY MONTH YEAR",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "GRID3",
+      "SLE",
+      "Settlement Names",
+      "Settlements",
+      "Sierra Leone"
+    ],
+    "sci:doi": "10.7916/bxa4-bv46",
+    "sci:citation": "Dataset citation: Center for International Earth Science Information Network (CIESIN), Columbia University, Statistics Sierra Leone, and Sierra Leone Ministry of Basic and Senior Secondary Education . 2023. GRID3 SLE - Settlement Names v1.0. New York: Geo-Referenced Infrastructure and Demographic Data for Development (GRID3). https://doi.org/10.7916/bxa4-bv46. Accessed DAY MONTH YEAR",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": "GRID3",
+    "ciesin:sedac_doi": "10.7916/bxa4-bv46",
+    "ciesin:purpose": "The GRID3 SLE - Settlement Names v1.0 dataset consists of settlement points with name, and location in Sierra Leone.",
+    "ciesin:supplemental_info": "For more information, see the accompanying Data Release Notes (PDF), https://doi.org/10.7916/bxa4-bv46",
+    "ciesin:field_count": 0,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN)",
+      "Geo-Referenced Infrastructure and Demographic Data for Development (GRID3)",
+      "Sierra Leone Ministry of Basic and Senior Secondary Education",
+      "Statistics Sierra Leone",
+      "info@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\GRID3 SLE - Settlement Names v1.0.xml",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7916/bxa4-bv46",
+      "type": "text/html",
+      "title": "bxa4-bv46"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "type": "text/html",
+      "title": "legalcode"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ve3w-2h47/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/yjmg-jg61/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/bxa4-bv46",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./grid3-sle---settlement-names-v1.0.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "download-1": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ve3w-2h47/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_SLE_SettlementNames_DataReleaseNotes_V1.pdf",
+      "description": "GRID3_SLE_SettlementNames_DataReleaseNotes_V1.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 697303,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/BXA4-BV46",
+      "ciesin:ac_doi": "10.7916/BXA4-BV46",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1sYM9q3C_UnbEqy1noduQ52G2ETbtKHfC/view?usp=drive_link",
+      "ciesin:source_file_id": "1",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/yjmg-jg61/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_SLE_SettlementNames_v1.zip",
+      "description": "GRID3_SLE_SettlementNames_v1.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 907018,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/BXA4-BV46",
+      "ciesin:ac_doi": "10.7916/BXA4-BV46",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1sYM9q3C_UnbEqy1noduQ52G2ETbtKHfC/view?usp=drive_link",
+      "ciesin:source_file_id": "2",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    }
+  }
+}

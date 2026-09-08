@@ -1,0 +1,421 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-sdei-uhi2013",
+  "collection": "ciesin-sedac-climate",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -176.2,
+          -54.86
+        ],
+        [
+          179.46,
+          -54.86
+        ],
+        [
+          179.46,
+          78.28
+        ],
+        [
+          -176.2,
+          78.28
+        ],
+        [
+          -176.2,
+          -54.86
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -176.2,
+    -54.86,
+    179.46,
+    78.28
+  ],
+  "properties": {
+    "title": "Global Urban Heat Island (UHI) Data Set, 2013",
+    "description": "The Urban Heat Island (UHI) effect represents the relatively higher temperatures found in urban areas compared to surrounding rural areas owing to higher proportions of impervious surfaces and the release of waste heat from vehicles and heating and cooling systems. Paved surfaces and built structures tend to absorb shortwave radiation from the sun and release long-wave radiation after a lag of a few hours. The Global Urban Heat Island (UHI) Data Set, 2013, estimates the land surface temperature within urban areas in degrees Celsius (average summer daytime maximum and average summer nighttime minimum) as well as the difference between those temperatures and the temperatures in surrounding rural areas, defined as a 10km buffer around the urban extent. Urban extents are from SEDACs Global Rural-Urban Mapping Project, Version 1 (GRUMPv1), and land surface temperatures are from SEDACs Global Summer Land Surface Temperature (LST) Grids, 2013, which are derived from the Aqua Level-3 Moderate Resolution Imaging Spectroradiometer (MODIS) Version 5 global daytime and nighttime Land Surface Temperature (LST) 8-day composite data (MYD11A2). For most regions, the UHI data set provides the average daytime maximum (1:30 p.m. overpass) and average nighttime minimum (1:30 a.m. overpass) temperatures in urban and rural areas, and the urban-rural temperature differences, derived from LST data representing a 40-day time-span during July-August (Julian days 185-224) in the northern hemisphere and January-February (Julian days 001-040) in the southern hemisphere. LST grid cells with missing values resulting from high cloud cover in tropical regions were filled with daytime maximum and nighttime minimum LST values from April-May 2013 in the northern hemisphere and December 2013-January 2014 in the southern hemisphere, where available. Some data gaps remain in areas where data were insufficient (e.g., Central Africa).",
+    "datetime": "2016-10-21T00:00:00Z",
+    "start_datetime": "2013-01-01T00:00:00.000Z",
+    "end_datetime": "2013-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Africa",
+      "Asia",
+      "Australia",
+      "Climate",
+      "Climatology/Meteorology/Atmosphere",
+      "EARTH SCIENCE > LAND SURFACE > SURFACE THERMAL PROPERTIES > LAND SURFACE TEMPERATURE",
+      "Earth Science",
+      "Europe",
+      "Global",
+      "Hazards",
+      "Health",
+      "Infrastructure",
+      "Land Surface",
+      "Land Surface Temperature",
+      "Land Use",
+      "North America",
+      "Oceania",
+      "Remote Sensing",
+      "South America",
+      "Surface Thermal Properties",
+      "Sustainability",
+      "Urban"
+    ],
+    "sci:doi": "10.7927/H4H70CRF",
+    "ciesin:category": "Climate",
+    "ciesin:tags": "Climate, Hazards, Health, Infrastructure, Remote Sensing, Sustainability, Urban, Land Use, Global, Climatology/Meteorology/Atmosphere, Earth Science, Land Surface, Surface Thermal Properties, Land Surface Temperature",
+    "ciesin:nasa_doi": "10.7927/H4H70CRF",
+    "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+    "ciesin:sedac_doi": "10.7927/H4H70CRF",
+    "ciesin:purpose": "To provide a global data set of average summer daytime maximum/nighttime minimum land surface temperatures (LSTs) for urban extents, as well as the LST difference between the urban area and the buffer.",
+    "ciesin:data_format": "vector, tabular, map, map service; raster, map, map service; document",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\sdei-global-uhi-2013.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4H70CRF",
+      "type": "text/html",
+      "title": "H4H70CRF"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "http://doi.org/10.7927/H408638T",
+      "type": "text/html",
+      "title": "H408638T"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H44M92HC",
+      "type": "text/html",
+      "title": "H44M92HC"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-urban-day-mean-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-uhi-2013-urban-day-mean-global-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-uhi-2013/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-uhi-2013/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-uhi-2013/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4H70CRF",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-sdei-uhi2013.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "sdei-global-uhi-2013-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-uhi-2013-shp.zip",
+      "description": "Global data in Shapefile format from the Globa lUrban Heat Island (UHI) Data Set,2013",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425765-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4h70crf": {
+      "href": "https://doi.org/10.7927/H4H70CRF",
+      "type": "application/octet-stream",
+      "title": "sdei-global-uhi-2013-shp.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425765-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-uhi-2013-urban-day-mean-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-urban-day-mean-global.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-uhi-2013-shp.zip",
+      "description": "UHI Average Summer Daytime Maximum Surface Temperature map in PDF format from the Global Urban Heat Island (UHI), 2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425765-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-uhi-2013-urban-day-tdiff-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-urban-day-tdiff-global.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-uhi-2013-shp.zip",
+      "description": "UHI Average Summer Daytime Maximum Surface Temperature map in PDF format from the Global Urban Heat Island (UHI), 2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425765-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-uhi-2013-urban-day-mean-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-urban-day-mean-global.png",
+      "type": "image/png",
+      "title": "sdei-global-uhi-2013-shp.zip",
+      "description": "UHI Average Summer Daytime Maximum Surface Temperature map in PNG format from the Global Urban Heat Island (UHI) Data Set, 2013.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425765-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-uhi-2013-urban-day-tdiff-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-urban-day-tdiff-global.png",
+      "type": "image/png",
+      "title": "sdei-global-uhi-2013-shp.zip",
+      "description": "UHI Average Summer Daytime Maximum Surface Temperature map in PNG format from the Global Urban Heat Island (UHI), 2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425765-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-uhi-2013-urban-day-mean-global-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-urban-day-mean-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-uhi-2013-shp.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425765-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "sdei-global-uhi-2013-xlsx-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-xlsx.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-uhi-2013-xlsx.zip",
+      "description": "Table of Urban Extents created from the attribute table of the shapefile data in Excel format from the Globa lUrban Heat Island (UHI) Data Set,2013",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425767-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-uhi-2013-urban-night-mean-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-urban-night-mean-global.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-uhi-2013-xlsx.zip",
+      "description": "UHIAverageSummerNighttimeMinimumSurfaceTemperaturemapinPDFformatfromtheGlobalUrbanHeatIsland(UHI)DataSet,2013dataset.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425767-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-uhi-2013-urban-night-tdiff-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-urban-night-tdiff-global.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-uhi-2013-xlsx.zip",
+      "description": "UHI Average Summer Nighttime Minimum Surface Temperature map in PDF format from the Global Urban Heat Island (UHI), 2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425767-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-uhi-2013-urban-night-mean-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-urban-night-mean-global.png",
+      "type": "image/png",
+      "title": "sdei-global-uhi-2013-xlsx.zip",
+      "description": "UHI Average Summer Nighttime Minimum Surface Temperature map in PNG format from the Global Urban Heat Island (UHI) Data Set, 2013.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425767-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-uhi-2013-urban-night-tdiff-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-urban-night-tdiff-global.png",
+      "type": "image/png",
+      "title": "sdei-global-uhi-2013-xlsx.zip",
+      "description": "UHI Average Summer Nighttime Minimum Surface Temperature map in PNG format from the Global Urban Heat Island (UHI), 2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425767-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-uhi-2013-urban-night-mean-global-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-urban-night-mean-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-uhi-2013-xlsx.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "C3550192492-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425767-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "sdei-global-uhi-2013-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812639",
+      "type": "application/zipped-shapefile",
+      "title": "sdei-global-uhi-2013-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 23384562,
+      "checksum:md5": "1a11f21b9e4950dc4f1edbb5b55e0466",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-08T20:05:01Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "11646212",
+      "ciesin:source_file_id": "11812639",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "sdei-global-uhi-2013-xlsx-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812640",
+      "type": "application/zip",
+      "title": "sdei-global-uhi-2013-xlsx.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7033223,
+      "checksum:md5": "ea538d647b56fa302a0166623d11ef63",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-08T20:05:01Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4H70CRF",
+      "ciesin:harvard_doi": "10.7910/DVN/KXWF35",
+      "ciesin:source_dataset_id": "11646212",
+      "ciesin:source_file_id": "11812640",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

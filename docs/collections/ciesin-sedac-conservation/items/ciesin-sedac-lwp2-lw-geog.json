@@ -1,0 +1,673 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-lwp2-lw-geog",
+  "collection": "ciesin-sedac-conservation",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Last of the Wild Project, Version 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic)",
+    "description": "The Last of the Wild Dataset of the Last of the Wild Project, Version 2, 2005 (LWP-2) is derived from the LWP-2 Human Footprint Dataset. The gridded data are classified according to their raster value (wild = 0-10; not wild >10). The ten largest polygons of more than 5 square kilometers within each biome by realm are selected and identified. The dataset in Clarke 1866 Geographic Coordinate System is produced by the Wildlife Conservation Society (WCS) and the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2005-12-31T00:00:00Z",
+    "start_datetime": "1995-01-01T00:00:00.000Z",
+    "end_datetime": "2004-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Africa",
+      "Anthropogenic/Human Influenced Ecosystems",
+      "Asia",
+      "Biosphere",
+      "Biota",
+      "Conservation",
+      "Continent",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "Earth Science",
+      "Ecosystems",
+      "Environment",
+      "Europe",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Surface",
+      "Land Use",
+      "Land Use/Land Cover",
+      "North America",
+      "Oceania",
+      "Planning/Cadastre",
+      "Remote Sensing",
+      "South America",
+      "Sustainability"
+    ],
+    "sci:doi": "10.7927/H4348H83",
+    "ciesin:category": "Conservation",
+    "ciesin:tags": "Biota, Environment, Imagery/Base Maps/Earth Cover, Planning/Cadastre, Global, Continent, Earth Science, Land Surface, Land Use/Land Cover, Biosphere, Ecosystems, Anthropogenic/Human Influenced Ecosystems, Conservation, Land Use, Remote Sensing, Sustainability",
+    "ciesin:nasa_doi": "10.7927/H4348H83",
+    "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+    "ciesin:sedac_doi": "10.7927/H4348H83",
+    "ciesin:purpose": "To provide an updated map of wild areas in geographic projection which can be used in wildlife conservation planning, natural resource management, and research on human-environment interactions.",
+    "ciesin:supplemental_info": "To reproduce this dataset, the following steps are recommended: 1) Classify the Human Footprint grid according to raster value (wild = 0-10; not wild >10). 2) Eliminate all polygons <5 square kilometers. Changes from the LWP 2002 to LWP 2005 include the following: 1) The populated and USGS urban polygons layers are replaced by CIESIN Global Rural Urban Mapping Project (GRUMP) urban extent layer. 2) The USGS Global land Cover Characteristics layer is replaced with EU Joint Research Centre Global Land Cover 2000 dataset. 3) The roads layer is updated using Latin America and Caribbean Roads data compiled by Centro Internacional de Agricultura Tropical (CIAT). Africa roads are updated from compilation of Africa roads data by Andy Nelson.",
+    "ciesin:data_format": "vector, map, map service; raster, map, map service; raster; vector",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\wildareas-v2-last-of-the-wild-geographic.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4348H83",
+      "type": "text/html",
+      "title": "H4348H83"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4M61H5F",
+      "type": "text/html",
+      "title": "H4M61H5F"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4GF0RFQ",
+      "type": "text/html",
+      "title": "H4GF0RFQ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4ZC80SS",
+      "type": "text/html",
+      "title": "H4ZC80SS"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4BP00QC",
+      "type": "text/html",
+      "title": "H4BP00QC"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H46W980H",
+      "type": "text/html",
+      "title": "H46W980H"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/wildareas-v2/wildareas-v2-last-of-the-wild-geographic/ltw-world-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ltw-world-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v2-last-of-the-wild-geographic/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v2-last-of-the-wild-geographic/maps/",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v2-last-of-the-wild-geographic/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v2-last-of-the-wild-geographic/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4348H83",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-lwp2-lw-geog.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "ltw-global-geo-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wildareas-v2/wildareas-v2-last-of-the-wild-geographic/ltw-global-geo.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ltw-global-geo.zip",
+      "description": "Global data in Shapefile format from the Last of the Wild Project, Version 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267361-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4348h83": {
+      "href": "https://doi.org/10.7927/H4348H83",
+      "type": "application/octet-stream",
+      "title": "ltw-global-geo.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267361-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-world-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-world.pdf",
+      "type": "application/pdf",
+      "title": "ltw-global-geo.zip",
+      "description": "Global map in PDF format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267361-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-world-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-world.png",
+      "type": "image/png",
+      "title": "ltw-global-geo.zip",
+      "description": "Global map in PNG format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267361-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-world-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-world-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ltw-global-geo.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267361-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "ltw-africa-geo-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-africa-geo-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ltw-africa-geo-grid.zip",
+      "description": "Africa data in Shapefile format from the Last of the Wild Project, Version 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267371-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "ltw-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-africa.pdf",
+      "type": "application/pdf",
+      "title": "ltw-africa-geo-grid.zip",
+      "description": "Africa map in PDF format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267371-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-africa.png",
+      "type": "image/png",
+      "title": "ltw-africa-geo-grid.zip",
+      "description": "Africa map in PNG format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267371-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-africa-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-africa-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ltw-africa-geo-grid.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267371-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "ltw-asia-geo-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-asia-geo-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ltw-asia-geo-grid.zip",
+      "description": "Asia data in Shapefile format from the Last of the Wild Project, Version 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267374-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "ltw-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-asia.pdf",
+      "type": "application/pdf",
+      "title": "ltw-asia-geo-grid.zip",
+      "description": "Asia map in PDF format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267374-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-asia.png",
+      "type": "image/png",
+      "title": "ltw-asia-geo-grid.zip",
+      "description": "Asia map in PNG format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267374-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-asia-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-asia-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ltw-asia-geo-grid.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267374-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "ltw-europe-geo-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-europe-geo-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ltw-europe-geo-grid.zip",
+      "description": "Europe data in Shapefile format from the Last of the Wild Project, Version 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267375-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "ltw-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-europe.pdf",
+      "type": "application/pdf",
+      "title": "ltw-europe-geo-grid.zip",
+      "description": "Europe map in PDF format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267375-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-europe.png",
+      "type": "image/png",
+      "title": "ltw-europe-geo-grid.zip",
+      "description": "Europe map in PNG format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267375-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-europe-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-europe-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ltw-europe-geo-grid.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267375-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "ltw-n-america-geo-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-n-america-geo-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ltw-n-america-geo-grid.zip",
+      "description": "North America data in Shapefile format from the Last of the Wild Project, Version 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267378-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/north-america.pdf",
+      "type": "application/pdf",
+      "title": "ltw-n-america-geo-grid.zip",
+      "description": "North America map in PDF format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267378-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/north-america.png",
+      "type": "image/png",
+      "title": "ltw-n-america-geo-grid.zip",
+      "description": "North America map in PNG format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267378-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "north-america-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/north-america-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ltw-n-america-geo-grid.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267378-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "ltw-oceania-geo-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-oceania-geo-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ltw-oceania-geo-grid.zip",
+      "description": "Oceania data in Shapefile format from the Last of the Wild Project, Version 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267383-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "ltw-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-oceania.pdf",
+      "type": "application/pdf",
+      "title": "ltw-oceania-geo-grid.zip",
+      "description": "Oceania map in PDF format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267383-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-oceania.png",
+      "type": "image/png",
+      "title": "ltw-oceania-geo-grid.zip",
+      "description": "Oceania map in PNG format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267383-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-oceania-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-oceania-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ltw-oceania-geo-grid.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267383-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "ltw-s-america-geo-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-s-america-geo-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ltw-s-america-geo-grid.zip",
+      "description": "South America data in Shapefile format from the Last of the Wild Project, Version 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267428-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "ltw-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-south-america.pdf",
+      "type": "application/pdf",
+      "title": "ltw-s-america-geo-grid.zip",
+      "description": "South America map in PDF format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267428-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-south-america.png",
+      "type": "image/png",
+      "title": "ltw-s-america-geo-grid.zip",
+      "description": "South America map in PNG format from the Last of the Wild Project, ersion 2, 2005 (LWP-2): Last of the Wild Dataset (Geographic).",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267428-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-south-america-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v2/wildareas-v2-human-influence-index-geographic/ltw-south-america-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ltw-s-america-geo-grid.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "C3550196806-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267428-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "ltw-global-geo-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815571",
+      "type": "application/zipped-shapefile",
+      "title": "ltw-global-geo.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 29036161,
+      "checksum:md5": "42b0238dde8e44cec16c64a56e5fed82",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-08T17:16:03Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4348H83",
+      "ciesin:harvard_doi": "10.7910/DVN/0AO45H",
+      "ciesin:source_dataset_id": "11646269",
+      "ciesin:source_file_id": "11815571",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    }
+  }
+}

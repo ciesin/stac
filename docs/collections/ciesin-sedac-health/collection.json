@@ -1,0 +1,166 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-health",
+  "title": "CIESIN SEDAC - Health",
+  "description": "CIESIN SEDAC datasets categorized as Health.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1997-02-28T00:00:00Z",
+          "2024-08-16T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-aqdh-pm25com-us-1km.json",
+      "type": "application/geo+json",
+      "title": "Annual Mean PM2.5 Components (EC, NH4, NO3, OC, SO4) 50m Urban and 1km Non-Urban Area Grids for Contiguous U.S., 2000-2019 v1"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-aqdh-trace-us-1km.json",
+      "type": "application/geo+json",
+      "title": "Annual Mean PM2.5 Components Trace Elements (TEs) 50m Urban and 1km Non-Urban Area Grids for Contiguous U.S., 2000-2019, v1"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdei-apm25-urban.json",
+      "type": "application/geo+json",
+      "title": "Annual PM2.5 Concentrations for Countries and Urban Areas, 1998-2016"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-cd-hos-epi-50-85.json",
+      "type": "application/geo+json",
+      "title": "China Dimensions Data Collection: Chinese County-Level Data on Hospitals and Epidemiology Stations, 1950-1985"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-aqdh-ctmap-2003-2018.json",
+      "type": "application/geo+json",
+      "title": "Country Trends in Major Air Pollutants"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-aqdh-dao3-us-1km.json",
+      "type": "application/geo+json",
+      "title": "Daily 8-Hour Maximum and Annual O3 Concentrations for the Contiguous United States, 1-km Grids, v1 (2000 - 2016)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-aqdh-dao3-us-1km-1-10.json",
+      "type": "application/geo+json",
+      "title": "Daily 8-Hour Maximum and Annual O3 Concentrations for the Contiguous United States, 1-km Grids, Version 1.10 (2000-2016)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-aqdh-no2-us-1km.json",
+      "type": "application/geo+json",
+      "title": "Daily and Annual NO2 Concentrations for the Contiguous United States, 1-km Grids, v1 (2000 - 2016)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-aqdh-dano2-us-1km-1-10.json",
+      "type": "application/geo+json",
+      "title": "Daily and Annual NO2 Concentrations for the Contiguous United States, 1-km Grids, Version 1.10 (2000-2016)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-aqdh-dapm25-us-1km.json",
+      "type": "application/geo+json",
+      "title": "Daily and Annual PM2.5 Concentrations for the Contiguous United States, 1-km Grids, v1 (2000 - 2016)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-aqdh-dapm25-us-1km-1-10.json",
+      "type": "application/geo+json",
+      "title": "Daily and Annual PM2.5 Concentrations for the Contiguous United States, 1-km Grids, Version 1.10 (2000-2016)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-aqdh-pm25o3no2-zipcode.json",
+      "type": "application/geo+json",
+      "title": "Daily and Annual PM2.5, O3, and NO2 Concentrations at ZIP Codes for the Contiguous U.S., 2000-2016, v1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdei-no2.json",
+      "type": "application/geo+json",
+      "title": "Global 3-Year Running Mean Ground-Level Nitrogen Dioxide (NO2) Grids from GOME, SCIAMACHY and GOME-2"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdei-gwrpm25-mmsaod-4gl03.json",
+      "type": "application/geo+json",
+      "title": "Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdei-gwrpm25-mmsvaod-5gl04.json",
+      "type": "application/geo+json",
+      "title": "Global Annual PM2.5 Grids from MODIS, MISR, SeaWiFS and VIIRS Aerosol Optical Depth (AOD), 1998-2022, V5.GL.04"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pmp-imr-v2-01.json",
+      "type": "application/geo+json",
+      "title": "Global Subnational Infant Mortality Rates, Version 2.01"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pmp-imr.json",
+      "type": "application/geo+json",
+      "title": "Poverty Mapping Project: Global Subnational Infant Mortality Rates"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pmp-saepi.json",
+      "type": "application/geo+json",
+      "title": "Poverty Mapping Project: Small Area Estimates of Poverty and Inequality"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pmp-ubn.json",
+      "type": "application/geo+json",
+      "title": "Poverty Mapping Project: Unsatisfied Basic Needs"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-wacvm-dhs.json",
+      "type": "application/geo+json",
+      "title": "West Africa Coastal Vulnerability Mapping: Demographic and Health Survey Data Sets"
+    }
+  ]
+}

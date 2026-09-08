@@ -1,0 +1,361 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-ipcc-sres-1x1em",
+  "collection": "ciesin-sedac-climate",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "IPCC Special Report on Emissions Scenarios (SRES) 1x1 Degree Gridded Emissions Dataset",
+    "description": "The Intergovernmental Panel on Climate Change (IPCC) Special Report on Emissions Scenarios (SRES) 1x1 Degree Gridded Emissions Dataset consists of global gridded emissions for greenhouse gases (GHGs) projected every 10 years beginning in 1990 through 2100. The grids are produced for reactive gases Methane (CH4), Carbon Monoxide (CO), Nitrogen Oxides (NOx), and Non-Methane Volatile Organic Compounds (NMVOC), along with Sulfur Dioxide (SO2), based on the IPCC SRES Emissions Scenarios Data Set Version 1.1. This data set is produced by the IPCC and is distributed by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2000-07-31T00:00:00Z",
+    "start_datetime": "1990-01-01T00:00:00.000Z",
+    "end_datetime": "2100-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Africa",
+      "Air Quality",
+      "Asia",
+      "Atmosphere",
+      "China",
+      "Climate",
+      "Continent",
+      "EARTH SCIENCE > ATMOSPHERE > AIR QUALITY > EMISSIONS",
+      "Earth Science",
+      "Emissions",
+      "Environment",
+      "Europe",
+      "Global",
+      "Latin America",
+      "Middle East",
+      "Southeastern Asia",
+      "Southern Asia"
+    ],
+    "sci:doi": "10.7927/H4RV0KMH",
+    "ciesin:category": "Climate",
+    "ciesin:tags": "Global, Continent, Environment, Climate, Earth Science, Atmosphere, Air Quality, Emissions",
+    "ciesin:nasa_doi": "10.7927/H4RV0KMH",
+    "ciesin:harvard_doi": "10.7910/DVN/XCE6YL",
+    "ciesin:sedac_doi": "10.7927/H4RV0KMH",
+    "ciesin:purpose": "To provide gridded emissions data that can be used in interdisciplinary studies of the environment.",
+    "ciesin:supplemental_info": "The emissions data are not completely identical to those in Appendix VII of the SRES report as published by Cambridge University Press (2000). In a small number of cases, slight corrections were made after the publication of the document to prevent negative emissions, which occurred as a result of the standardization procedure.",
+    "ciesin:data_format": "raster, tabular; tabular; document, map, map service; journal article; tabular, map service; report",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\ipcc-gridded-emissions.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4RV0KMH",
+      "type": "text/html",
+      "title": "H4RV0KMH"
+    },
+    {
+      "rel": "related",
+      "href": "http://sres.ciesin.columbia.edu/htmls/team&orgs.html",
+      "type": "text/html",
+      "title": "team&orgs.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4N29TWJ",
+      "type": "text/html",
+      "title": "H4N29TWJ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4HD7SKJ",
+      "type": "text/html",
+      "title": "H4HD7SKJ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H41C1TT4",
+      "type": "text/html",
+      "title": "H41C1TT4"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4WM1BB7",
+      "type": "text/html",
+      "title": "H4WM1BB7"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4XG9P2R",
+      "type": "text/html",
+      "title": "H4XG9P2R"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4542KJV",
+      "type": "text/html",
+      "title": "H4542KJV"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4FT8J0X",
+      "type": "text/html",
+      "title": "H4FT8J0X"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1017/CBO9781107415379.023",
+      "type": "text/html",
+      "title": "CBO9781107415379.023"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ipcc/ipcc-gridded-emissions/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "http://journals.sfu.ca/int_assess/index.php/iaj/article/download/239/",
+      "type": "text/html",
+      "title": "239"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ipcc-gridded-emissions/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4RV0KMH",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-ipcc-sres-1x1em.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "so2-values-csv": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ipcc/ipcc-gridded-emissions/so2-values.csv",
+      "type": "application/vnd.ms-excel",
+      "title": "so2-values.csv",
+      "description": "Sulfur Dioxide data in CSV format from the IPCC Special Report on Emissions Scenarios (SRES) 1x1 Degree Gridded Emissions Dataset data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4RV0KMH",
+      "ciesin:harvard_doi": "10.7910/DVN/XCE6YL",
+      "ciesin:source_dataset_id": "C3550193863-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200391-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4rv0kmh": {
+      "href": "https://doi.org/10.7927/H4RV0KMH",
+      "type": "application/octet-stream",
+      "title": "so2-values.csv",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4RV0KMH",
+      "ciesin:harvard_doi": "10.7910/DVN/XCE6YL",
+      "ciesin:source_dataset_id": "C3550193863-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200391-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "so2-grids-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ipcc/ipcc-gridded-emissions/so2-grids.zip",
+      "type": "application/x-zip-compressed",
+      "title": "so2-grids.zip",
+      "description": "Sulfur Dioxide data in ASCII format from the IPCC Special Report on Emissions Scenarios (SRES) 1x1 Degree Gridded Emissions Dataset data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4RV0KMH",
+      "ciesin:harvard_doi": "10.7910/DVN/XCE6YL",
+      "ciesin:source_dataset_id": "C3550193863-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200403-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "reactive-gases-csv": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ipcc/ipcc-gridded-emissions/reactive-gases.csv",
+      "type": "application/vnd.ms-excel",
+      "title": "reactive-gases.csv",
+      "description": "Reactive Gases data in CSV format from the IPCC Special Report on Emissions Scenarios (SRES) 1x1 Degree Gridded Emissions Dataset data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4RV0KMH",
+      "ciesin:harvard_doi": "10.7910/DVN/XCE6YL",
+      "ciesin:source_dataset_id": "C3550193863-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200413-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "reactive-gases-grids-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ipcc/ipcc-gridded-emissions/reactive-gases-grids.zip",
+      "type": "application/x-zip-compressed",
+      "title": "reactive-gases-grids.zip",
+      "description": "Reactive Gases data in ASCII format from the IPCC Special Report on Emissions Scenarios (SRES) 1x1 Degree Gridded Emissions Dataset data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4RV0KMH",
+      "ciesin:harvard_doi": "10.7910/DVN/XCE6YL",
+      "ciesin:source_dataset_id": "C3550193863-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200420-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "reactive-gases-grids-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815524",
+      "type": "application/zip",
+      "title": "reactive-gases-grids.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 20344341,
+      "checksum:md5": "e33aff8e5080588bfec00a8cfb916f12",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:33:41Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4RV0KMH",
+      "ciesin:harvard_doi": "10.7910/DVN/XCE6YL",
+      "ciesin:source_dataset_id": "11646256",
+      "ciesin:source_file_id": "11815524",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "reactive-gases-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815521",
+      "type": "text/tab-separated-values",
+      "title": "reactive-gases.tab",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11686,
+      "checksum:md5": "2704bf275a75482a148e26bf0095fca6",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:33:41Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4RV0KMH",
+      "ciesin:harvard_doi": "10.7910/DVN/XCE6YL",
+      "ciesin:source_dataset_id": "11646256",
+      "ciesin:source_file_id": "11815521",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "so2-grids-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815523",
+      "type": "application/zip",
+      "title": "so2-grids.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2898385,
+      "checksum:md5": "5c2317a4953de76b7e39ec782801f3f0",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:33:41Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4RV0KMH",
+      "ciesin:harvard_doi": "10.7910/DVN/XCE6YL",
+      "ciesin:source_dataset_id": "11646256",
+      "ciesin:source_file_id": "11815523",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "so2-values-csv-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815522",
+      "type": "text/csv",
+      "title": "so2-values.csv",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2903,
+      "checksum:md5": "a9281071d5a7896b1356078fdfac515e",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:33:41Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4RV0KMH",
+      "ciesin:harvard_doi": "10.7910/DVN/XCE6YL",
+      "ciesin:source_dataset_id": "11646256",
+      "ciesin:source_file_id": "11815522",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Comma Separated Values"
+    }
+  }
+}

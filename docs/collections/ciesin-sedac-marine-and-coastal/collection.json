@@ -1,0 +1,70 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-marine-and-coastal",
+  "title": "CIESIN SEDAC - Marine and Coastal",
+  "description": "CIESIN SEDAC datasets categorized as Marine and Coastal.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -55.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2001-12-31T00:00:00Z",
+          "2023-12-19T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-cesic-wellbeing.json",
+      "type": "application/geo+json",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: The Wellbeing of Nations"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv3-coastlines.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 3 (GPWv3): Coastlines"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv3-landgeog.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 3 (GPWv3): Land and Geographic Unit Area Grids"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uscg-ussvig01.json",
+      "type": "application/geo+json",
+      "title": "U.S. Social Vulnerability Index Grids, Revision 01"
+    }
+  ]
+}

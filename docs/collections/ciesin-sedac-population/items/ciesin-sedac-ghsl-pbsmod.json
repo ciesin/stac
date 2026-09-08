@@ -1,0 +1,841 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-ghsl-pbsmod",
+  "collection": "ciesin-sedac-population",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid",
+    "description": "The Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set provides gridded data on human population (GHS-POP), built-up area (GHS-BUILT), and degree of urbanization (GHS-SMOD) across four time periods: 1975, 1990, 2000, and 2014 (BUILT) or 2015 (POP, SMOD). GHS-BUILT describes the percent built-up area for each 30 arc-second grid cell (approximately 1 km at the equator) based on Landsat imagery from each of the four time periods. GHS-POP consists of census data from the 2010 round of global census from Gridded Population of the World, Version 4, Revision 10 (GPWv4.10) spatially-allocated within census units based on the percent built-up areas from GHS-BUILT. GHS-SMOD uses GHS-BUILT and GHS-POP in order to develop a standardized classification of degree of urbanization grid. The original data from the Joint Research Centre of the European Commission (JRC-EC) has been combined into a single data package in GeoTIFF format and reprojected from Mollweide Equal Area into WGS84 at 9 arc-second and 30 arc-second horizontal resolutions in order to support integration with a variety of global raster data sets.",
+    "datetime": "2021-07-29T00:00:00Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "EARTH SCIENCE > HUMAN DIMENSIONS > HUMAN SETTLEMENTS > URBAN AREAS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Earth Science",
+      "Global",
+      "Human Dimensions",
+      "Human Settlements",
+      "Population",
+      "Society",
+      "Urban",
+      "Urban Areas"
+    ],
+    "sci:doi": "10.7927/h4154f0w",
+    "ciesin:category": "Population",
+    "ciesin:tags": "Society, Earth Science, Human Dimensions, Population, Human Settlements, Urban Areas, Urban, Global",
+    "ciesin:nasa_doi": "10.7927/H4154F0W",
+    "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+    "ciesin:sedac_doi": "10.7927/h4154f0w",
+    "ciesin:purpose": "To provide global data on human population, built up area, and degree of urbanization for the years 1975, 1990, 2000, and 2014/2015 in the World Geodetic System 1984 (WGS84) geographic coordinate system.",
+    "ciesin:data_format": "raster, map; report; documentation",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\ghsl-population-built-up-estimates-degree-urban-smod.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/h4154f0w",
+      "type": "text/html",
+      "title": "h4154f0w"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.2760/290498",
+      "type": "text/html",
+      "title": "290498"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/tg7r-n260",
+      "type": "text/html",
+      "title": "tg7r-n260"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-pop-2015-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-pop-2015-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ghsl-population-built-up-estimates-degree-urban-smod/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ghsl-population-built-up-estimates-degree-urban-smod/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ghsl-population-built-up-estimates-degree-urban-smod/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/h4154f0w",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-ghsl-pbsmod.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200001-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aqdh/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200001-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-30ss-v1-geotiff.zip",
+      "description": "Global 30 arc-second data in GeoTIFF format for the year 1975 from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197881-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4154f0w": {
+      "href": "https://doi.org10.7927/h4154f0w",
+      "type": "application/octet-stream",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-30ss-v1-geotiff.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197881-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-built-1975-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-built-1975.pdf",
+      "type": "application/pdf",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-30ss-v1-geotiff.zip",
+      "description": "Global Human Settlement Built-up Grid map for the year 1975 in PDF format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197881-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-pop-1975-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-pop-1975.pdf",
+      "type": "application/pdf",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-30ss-v1-geotiff.zip",
+      "description": "Global Human Population Grid map for the year 1975 in PDF format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197881-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-built-1975-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-built-1975.png",
+      "type": "image/png",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-30ss-v1-geotiff.zip",
+      "description": "Global Human Settlement Built-up Grid map for the year 1975 in PNG format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197881-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-pop-1975-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-pop-1975.png",
+      "type": "image/png",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-30ss-v1-geotiff.zip",
+      "description": "Global Human Population Grid map for the year 1975 in PNG format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197881-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-built-1975-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-built-1975-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-30ss-v1-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197881-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-pop-1975-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-pop-1975-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-30ss-v1-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197881-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200001-rds-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aqdh/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200001-rds.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-9ss-v1-geotiff.zip",
+      "description": "Global 9 arc-second data in GeoTIFF format for the year 1975 from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197883-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200002-rds-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aqdh/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200002-rds.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff.zip",
+      "description": "Global 9 arc-second data in GeoTIFF format for the year 1990 from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200479-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-built-1990-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-built-1990.pdf",
+      "type": "application/pdf",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff.zip",
+      "description": "Global Human Settlement Built-up Grid map for the year 1990 in PDF format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200479-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-pop-1990-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-pop-1990.pdf",
+      "type": "application/pdf",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff.zip",
+      "description": "Global Human Population Grid map for the year 1990 in PDF format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200479-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-smod-1990-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-smod-1990.pdf",
+      "type": "application/pdf",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff.zip",
+      "description": "Global Human Settlement Degree of Urbanization Settlement Model Grid map for the year 1990 in PDF format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200479-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-built-1990-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-built-1990.png",
+      "type": "image/png",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff.zip",
+      "description": "Global Human Settlement Built-up Grid map for the year 1990 in PNG format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200479-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-pop-1990-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-pop-1990.png",
+      "type": "image/png",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff.zip",
+      "description": "Global Human Population Grid map for the year 1990 in PNG format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200479-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-smod-1990-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-smod-1990.png",
+      "type": "image/png",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff.zip",
+      "description": "Global Human Settlement Degree of Urbanization Settlement Model Grid map for the year 1990 in PNG format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200479-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-built-1990-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-built-1990-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200479-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-pop-1990-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-pop-1990-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200479-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-smod-1990-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-smod-1990-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200479-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200002-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aqdh/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200002-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-30ss-v1-geotiff.zip",
+      "description": "Global 30 arc-second data in GeoTIFF format for the year 1990 from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200480-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200003-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aqdh/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200003-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff.zip",
+      "description": "Global 30 arc-second data in GeoTIFF format for the year 2000 from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550281609-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-built-2000-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-built-2000.pdf",
+      "type": "application/pdf",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff.zip",
+      "description": "Global Human Settlement Built-up Grid map for the year 2000 in PDF format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550281609-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-pop-2000-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-pop-2000.pdf",
+      "type": "application/pdf",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff.zip",
+      "description": "Global Human Population Grid map for the year 2000 in PDF format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550281609-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-smod-2000-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-smod-2000.pdf",
+      "type": "application/pdf",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff.zip",
+      "description": "Global Human Settlement Degree of Urbanization Settlement Model Grid map for the year 2000 in PDF format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550281609-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-built-2000-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-built-2000.png",
+      "type": "image/png",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff.zip",
+      "description": "Global Human Settlement Built-up Grid map for the year 2000 in PNG format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550281609-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-pop-2000-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-pop-2000.png",
+      "type": "image/png",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff.zip",
+      "description": "Global Human Population Grid map for the year 2000 in PNG format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550281609-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-smod-2000-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-smod-2000.png",
+      "type": "image/png",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff.zip",
+      "description": "Global Human Settlement Degree of Urbanization Settlement Model Grid map for the year 2000 in PNG format from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550281609-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-built-2000-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-built-2000-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550281609-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-pop-2000-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-pop-2000-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550281609-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-smod-2000-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-smod-2000-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550281609-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200003-rds-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aqdh/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200003-rds.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-9ss-v1-geotiff.zip",
+      "description": "Global 9 arc-second data in GeoTIFF format for the year 2000 from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550281610-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200004-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aqdh/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200004-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2014-2015-30ss-v1-geotiff.zip",
+      "description": "Global 30 arc-second data in GeoTIFF format for the years 2014 and 2015 from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553444123-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200004-rds-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aqdh/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016-200004-rds.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2014-2015-9ss-v1-geotiff.zip",
+      "description": "Global 9 arc-second data in GeoTIFF format for the years 2014 and 2015 from the Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "C3550190429-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553444124-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-30ss-v1-geotiff-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906633",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-30ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 351415724,
+      "checksum:md5": "bddf39bcad0a5e783e49e5198aead682",
+      "created": "2025-08-13T00:00:00Z",
+      "updated": "2025-09-10T18:11:46Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "11646181",
+      "ciesin:source_file_id": "11906633",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-9ss-v1-geotiff-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906639",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-9ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2007939251,
+      "checksum:md5": "2c895f349614b42fa590ec923fbed6ca",
+      "created": "2025-08-13T00:00:00Z",
+      "updated": "2025-09-10T18:11:46Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "11646181",
+      "ciesin:source_file_id": "11906639",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-30ss-v1-geotiff-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906636",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-30ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 358395294,
+      "checksum:md5": "117192754a9f2ae87c39ab232f4e9c12",
+      "created": "2025-08-13T00:00:00Z",
+      "updated": "2025-09-10T18:11:46Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "11646181",
+      "ciesin:source_file_id": "11906636",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906642",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1720752342,
+      "checksum:md5": "d8999f66c4ce0c9c5f469298c02ca6ac",
+      "created": "2025-08-13T00:00:00Z",
+      "updated": "2025-09-10T18:11:46Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "11646181",
+      "ciesin:source_file_id": "11906642",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906634",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 366761479,
+      "checksum:md5": "fc7ef919519e7f7ef46a27505046c60e",
+      "created": "2025-08-13T00:00:00Z",
+      "updated": "2025-09-10T18:11:46Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "11646181",
+      "ciesin:source_file_id": "11906634",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-9ss-v1-geotiff-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906647",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-9ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1745110861,
+      "checksum:md5": "e7758ff5145aa59b6887b7c2c62f41ff",
+      "created": "2025-08-13T00:00:00Z",
+      "updated": "2025-09-10T18:11:46Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "11646181",
+      "ciesin:source_file_id": "11906647",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2014-2015-30ss-v1-geotiff-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906635",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2014-2015-30ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 384801279,
+      "checksum:md5": "f0ff73a9f7586f53ec8086be2c1e14ee",
+      "created": "2025-08-13T00:00:00Z",
+      "updated": "2025-09-10T18:11:46Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "11646181",
+      "ciesin:source_file_id": "11906635",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2014-2015-9ss-v1-geotiff-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906648",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2014-2015-9ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1831557555,
+      "checksum:md5": "069544847b4a03ae420126d726bec719",
+      "created": "2025-08-13T00:00:00Z",
+      "updated": "2025-09-10T18:11:46Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4154F0W",
+      "ciesin:harvard_doi": "10.7910/DVN/BEWJN2",
+      "ciesin:source_dataset_id": "11646181",
+      "ciesin:source_file_id": "11906648",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

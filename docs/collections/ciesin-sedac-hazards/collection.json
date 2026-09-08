@@ -1,0 +1,226 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-hazards",
+  "title": "CIESIN SEDAC - Hazards",
+  "description": "CIESIN SEDAC datasets categorized as Hazards.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-09-13T00:00:00Z",
+          "2021-03-10T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ssf-hwspdcmv2.json",
+      "type": "application/geo+json",
+      "title": "ATSDR Hazardous Waste Site Polygon Data with CIESIN Modifications, Version 2"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ssf-hwspdv2.json",
+      "type": "application/geo+json",
+      "title": "ATSDR Hazardous Waste Site Polygon Data, Version 2"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pend-gdis.json",
+      "type": "application/geo+json",
+      "title": "Geocoded Disasters (GDIS) Dataset"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-cyclone-hfd.json",
+      "type": "application/geo+json",
+      "title": "Global Cyclone Hazard Frequency and Distribution"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-cyclone-mrd.json",
+      "type": "application/geo+json",
+      "title": "Global Cyclone Mortality Risks and Distribution"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-cyclone-pelrd.json",
+      "type": "application/geo+json",
+      "title": "Global Cyclone Proportional Economic Loss Risk Deciles"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-cyclone-telrd.json",
+      "type": "application/geo+json",
+      "title": "Global Cyclone Total Economic Loss Risk Deciles"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-equake-pga.json",
+      "type": "application/geo+json",
+      "title": "Global Earthquake Hazard Distribution - Peak Ground Acceleration"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-equake-hfd.json",
+      "type": "application/geo+json",
+      "title": "Global Earthquake Hazard Frequency and Distribution"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-equake-mrd.json",
+      "type": "application/geo+json",
+      "title": "Global Earthquake Mortality Risks and Distribution"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-equake-pelrd.json",
+      "type": "application/geo+json",
+      "title": "Global Earthquake Proportional Economic Loss Risk Deciles"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-equake-telrd.json",
+      "type": "application/geo+json",
+      "title": "Global Earthquake Total Economic Loss Risk Deciles"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdei-gfed4-cltab.json",
+      "type": "application/geo+json",
+      "title": "Global Fire Emissions Indicators, Country-Level Tabular Data: 1997-2015"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdei-gfed4-grids.json",
+      "type": "application/geo+json",
+      "title": "Global Fire Emissions Indicators, Grids: 1997-2015"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-multi-hfd.json",
+      "type": "application/geo+json",
+      "title": "Global Multihazard Frequency and Distribution"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-multi-mrd.json",
+      "type": "application/geo+json",
+      "title": "Global Multihazard Mortality Risks and Distribution"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-multi-pelrd.json",
+      "type": "application/geo+json",
+      "title": "Global Multihazard Proportional Economic Loss Risk Deciles"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-multi-telrd.json",
+      "type": "application/geo+json",
+      "title": "Global Multihazard Total Economic Loss Risk Deciles"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-volcano-hfd.json",
+      "type": "application/geo+json",
+      "title": "Global Volcano Hazard Frequency and Distribution"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-volcano-mrd.json",
+      "type": "application/geo+json",
+      "title": "Global Volcano Mortality Risks and Distribution"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-volcano-pelrd.json",
+      "type": "application/geo+json",
+      "title": "Global Volcano Proportional Economic Loss Risk Deciles"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-chrr-ndh-volcano-telrd.json",
+      "type": "application/geo+json",
+      "title": "Global Volcano Total Economic Loss Risk Deciles"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-energy-nppcla.json",
+      "type": "application/geo+json",
+      "title": "Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-energy-nppl.json",
+      "type": "application/geo+json",
+      "title": "Population Exposure Estimates in Proximity to Nuclear Power Plants, Locations"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ssf-epanplspdcmv2.json",
+      "type": "application/geo+json",
+      "title": "U.S. EPA National Priorities List (NPL) Sites Point Data with CIESIN Modifications, Version 2"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pend-allomstxsf1.json",
+      "type": "application/geo+json",
+      "title": "U.S. Population Grids (Summary File 1), 2000: Alabama, Louisiana, Mississippi and Texas, Alpha Version"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pend-hsf1.json",
+      "type": "application/geo+json",
+      "title": "U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pend-nosf1.json",
+      "type": "application/geo+json",
+      "title": "U.S. Population Grids (Summary File 1), 2000: New Orleans Metropolitan Statistical Area, Alpha Version"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pend-allomssf3.json",
+      "type": "application/geo+json",
+      "title": "U.S. Population Grids (Summary File 3), 2000: Alabama, Louisiana, and Mississippi, Alpha Version"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pend-nosf3.json",
+      "type": "application/geo+json",
+      "title": "U.S. Population Grids (Summary File 3), 2000: New Orleans Metropolitan Statistical Area, Alpha Version"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-geo-mex-popdbmex",
+  "collection": "ciesin-sedac-population",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -117.0,
+          14.0
+        ],
+        [
+          -87.0,
+          14.0
+        ],
+        [
+          -87.0,
+          33.0
+        ],
+        [
+          -117.0,
+          33.0
+        ],
+        [
+          -117.0,
+          14.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -117.0,
+    14.0,
+    -87.0,
+    33.0
+  ],
+  "properties": {
+    "title": "Georeferenced Population Datasets of Mexico (GEO-MEX): Population Database of Mexico",
+    "description": "The Population Database of Mexico contains geographically referenced population data for Mexican states, municipalities and localities from the 1990 Mexican population and housing census. The data include population by gender and age group for approximately 83.7% of the Mexican population. This data set is produced by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "1994-12-31T00:00:00Z",
+    "start_datetime": "1990-01-01T00:00:00.000Z",
+    "end_datetime": "1990-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Earth Science",
+      "Human Dimensions",
+      "Mexico",
+      "Population",
+      "Society",
+      "State"
+    ],
+    "sci:doi": "10.7927/H45D8PS8",
+    "ciesin:category": "Population",
+    "ciesin:tags": "Country, State, Society, Population, Earth Science, Human Dimensions",
+    "ciesin:nasa_doi": "10.7927/H45D8PS8",
+    "ciesin:sedac_doi": "10.7927/H45D8PS8",
+    "ciesin:purpose": "To provide geographically referenced population data for Mexico for conducting assessments of human interactions with the environment.",
+    "ciesin:data_format": "tabular; vector; raster",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\geo-mex-mexico-population-db.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_missing",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H45D8PS8",
+      "type": "text/html",
+      "title": "H45D8PS8"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4S46PV7",
+      "type": "text/html",
+      "title": "H4S46PV7"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4959FH0",
+      "type": "text/html",
+      "title": "H4959FH0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4WW7FKN",
+      "type": "text/html",
+      "title": "H4WW7FKN"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H41N7Z2Z",
+      "type": "text/html",
+      "title": "H41N7Z2Z"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/geo-mex/geo-mex-mexico-population-db/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/geo-mex-mexico-population-db/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H45D8PS8",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-geo-mex-popdbmex.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data-download": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/data/set/geo-mex-mexico-population-db/data-download",
+      "type": "application/octet-stream",
+      "title": "https://sedac.ciesin.columbia.edu/data/set/geo-mex-mexico-population-db/data-download",
+      "description": "Mexico data in SYLK format for the year 1990 from the Georeferenced Population Datasets of Mexico (GEO-MEX): Population Database of Mexico data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H45D8PS8",
+      "ciesin:source_dataset_id": "C3540929616-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504128-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h45d8ps8": {
+      "href": "https://doi.org/10.7927/H45D8PS8",
+      "type": "application/octet-stream",
+      "title": "https://sedac.ciesin.columbia.edu/data/set/geo-mex-mexico-population-db/data-download",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H45D8PS8",
+      "ciesin:source_dataset_id": "C3540929616-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504128-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    }
+  }
+}

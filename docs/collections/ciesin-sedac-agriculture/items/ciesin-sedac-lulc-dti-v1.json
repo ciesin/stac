@@ -1,0 +1,1218 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-lulc-dti-v1",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -179.999995,
+          -89.999679
+        ],
+        [
+          179.999989,
+          -89.999679
+        ],
+        [
+          179.999989,
+          84.158781
+        ],
+        [
+          -179.999995,
+          84.158781
+        ],
+        [
+          -179.999995,
+          -89.999679
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -179.999995,
+    -89.999679,
+    179.999989,
+    84.158781
+  ],
+  "properties": {
+    "title": "Development Threat Index",
+    "description": "The Development Threat Index data set is a terrestrial global, future development threat map based on combining these resources: agricultural expansion, urban expansion, conventional oil and gas, unconventional oil and gas, coal, mining, biofuels, solar, and wind. Each threat ranked potential development from 0-100 with 100 indicating the highest potential for future development of the resource and were produced at a 50 square kilometer (km2) grid cell resolution, excluding all cells overlapping Antarctica and those with >50% considered marine.",
+    "datetime": "2019-05-16T00:00:00Z",
+    "start_datetime": "2015-01-01T00:00:00.000Z",
+    "end_datetime": "2015-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Agriculture",
+      "Conservation",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SUSTAINABILITY",
+      "Earth Science",
+      "Environment",
+      "Global",
+      "Hazards",
+      "Health",
+      "Human Dimensions",
+      "Infrastructure",
+      "Land Use",
+      "Population",
+      "Remote Sensing",
+      "Sustainability",
+      "Urban"
+    ],
+    "sci:doi": "10.7927/61jv-th84",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Environment, Agriculture, Conservation, Hazards, Health, Infrastructure, Land Use, Population, Remote Sensing, Sustainability, Urban, Earth Science, Human Dimensions, Global",
+    "ciesin:nasa_doi": "10.7927/61JV-TH84",
+    "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+    "ciesin:sedac_doi": "10.7927/61jv-th84",
+    "ciesin:purpose": "To provide a future development threat map based on combining these resources: agricultural expansion, urban expansion, conventional oil and gas, unconventional oil and gas, coal, mining, biofuels, solar, and wind.",
+    "ciesin:data_format": "raster, map, map service; journal article",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\lulc-development-threat-index.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/61jv-th84",
+      "type": "text/html",
+      "title": "61jv-th84"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1371/journal.pone.0138334",
+      "type": "text/html",
+      "title": "journal.pone.0138334"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-threat-index-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-development-threat-index/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-development-threat-index/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-development-threat-index/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/61jv-th84",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-lulc-dti-v1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "lulc-development-threat-index-biofuels-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-biofuels-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-biofuels-mollweide-geotiff.zip",
+      "description": "Biofuels data in the Mollweide Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406539-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "61jv-th84": {
+      "href": "https://doi.org/10.7927/61jv-th84",
+      "type": "application/octet-stream",
+      "title": "lulc-development-threat-index-biofuels-mollweide-geotiff.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406539-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-threat-index-agriculturalexpansion-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-agriculturalexpansion.png",
+      "type": "image/png",
+      "title": "lulc-development-threat-index-biofuels-mollweide-geotiff.zip",
+      "description": "Global Biofuels map for the year 2015 in PDF format from the Development Threat Index data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406539-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-threat-index-biofuels-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-biofuels.png",
+      "type": "image/png",
+      "title": "lulc-development-threat-index-biofuels-mollweide-geotiff.zip",
+      "description": "Global Biofuels map for the year 2015 in PNG format from the Development Threat Index data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406539-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-threat-index-biofuels-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-biofuels-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-threat-index-biofuels-mollweide-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406539-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-threat-index-unconventionaloilandgas-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-unconventionaloilandgas-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-unconventionaloilandgas-mollweide-geotiff.zip",
+      "description": "Unconventional Oil and Gas data in the Mollweide Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406554-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-solar-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-solar.png",
+      "type": "image/png",
+      "title": "lulc-development-threat-index-unconventionaloilandgas-mollweide-geotiff.zip",
+      "description": "Global Unconventional Oil and Gas map for the year 2015 in PDF format from the Development Threat Index data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406554-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-threat-index-unconventionaloilandgas-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-unconventionaloilandgas.png",
+      "type": "image/png",
+      "title": "lulc-development-threat-index-unconventionaloilandgas-mollweide-geotiff.zip",
+      "description": "Global Unconventional Oil and Gas map for the year 2015 in PNG format from the Development Threat Index data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406554-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-threat-index-unconventionaloilandgas-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-unconventionaloilandgas-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-threat-index-unconventionaloilandgas-mollweide-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406554-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-threat-index-agriculturalexpansion-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-agriculturalexpansion-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-agriculturalexpansion-geographic-geotiff.zip",
+      "description": "Agricultural Expansion data in the Geographic Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406561-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index.png",
+      "type": "image/png",
+      "title": "lulc-development-threat-index-agriculturalexpansion-geographic-geotiff.zip",
+      "description": "Global Agricultural Expansion map for the year 2015 in PDF format from the Development Threat Index data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406561-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-threat-index-agriculturalexpansion-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-agriculturalexpansion-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-threat-index-agriculturalexpansion-geographic-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406561-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-threat-index-biofuels-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-biofuels-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-biofuels-geographic-geotiff.zip",
+      "description": "Biofuels data in the Geographic Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406577-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-conventionaloilandgas-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-conventionaloilandgas-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-conventionaloilandgas-geographic-geotiff.zip",
+      "description": "Conventional Oil and Gas data in the Geographic Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406592-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-coal-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-coal.png",
+      "type": "image/png",
+      "title": "lulc-development-threat-index-conventionaloilandgas-geographic-geotiff.zip",
+      "description": "Global Conventional Oil and Gas map for the year 2015 in PDF format from the Development Threat Index data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406592-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-threat-index-conventionaloilandgas-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-conventionaloilandgas.png",
+      "type": "image/png",
+      "title": "lulc-development-threat-index-conventionaloilandgas-geographic-geotiff.zip",
+      "description": "Global Conventional Oil and Gas map for the year 2015 in PNG format from the Development Threat Index data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406592-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-threat-index-conventionaloilandgas-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-conventionaloilandgas-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-threat-index-conventionaloilandgas-geographic-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406592-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-threat-index-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-mollweide-geotiff.zip",
+      "description": "Development Threat Index data in the Mollweide Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406600-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-wind-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-wind.png",
+      "type": "image/png",
+      "title": "lulc-development-threat-index-mollweide-geotiff.zip",
+      "description": "Global Development Threat Index map for the year 2015 in PDF format from the Development Threat Index data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406600-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-threat-index-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-threat-index-mollweide-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406600-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-threat-index-urbanexpansion-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-urbanexpansion-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-urbanexpansion-mollweide-geotiff.zip",
+      "description": "Urban Expansion data in the Mollweide Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406608-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-urbanexpansion-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-urbanexpansion.png",
+      "type": "image/png",
+      "title": "lulc-development-threat-index-urbanexpansion-mollweide-geotiff.zip",
+      "description": "Global Urban Expansion map for the year 2015 in PNG format from the Development Threat Index data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406608-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-threat-index-urbanexpansion-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-urbanexpansion-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-threat-index-urbanexpansion-mollweide-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406608-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-threat-index-mining-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-mining-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-mining-geographic-geotiff.zip",
+      "description": "Mining data in the Geographic Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406615-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-mining-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-mining.png",
+      "type": "image/png",
+      "title": "lulc-development-threat-index-mining-geographic-geotiff.zip",
+      "description": "Global Mining map for the year 2015 in PNG format from the Development Threat Index data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406615-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-threat-index-mining-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-mining-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-threat-index-mining-geographic-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406615-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-threat-index-coal-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-coal-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-coal-mollweide-geotiff.zip",
+      "description": "Coal data in the Mollweide Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406625-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-coal-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-coal-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-threat-index-coal-mollweide-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406625-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-threat-index-mining-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-mining-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-mining-mollweide-geotiff.zip",
+      "description": "Mining data in the Mollweide Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406631-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-coal-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-coal-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-coal-geographic-geotiff.zip",
+      "description": "Coal data in the Geographic Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406640-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-solar-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-solar-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-solar-geographic-geotiff.zip",
+      "description": "Solar data in the Geographic Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406649-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-solar-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-solar-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-threat-index-solar-geographic-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406649-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-threat-index-wind-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-wind-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-wind-geographic-geotiff.zip",
+      "description": "Wind data in the Geographic Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406656-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-wind-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index-wind-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-threat-index-wind-geographic-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406656-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-threat-index-unconventionaloilandgas-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-unconventionaloilandgas-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-unconventionaloilandgas-geographic-geotiff.zip",
+      "description": "Unconventional Oil and Gas data in the Geographic Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406665-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-solar-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-solar-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-solar-mollweide-geotiff.zip",
+      "description": "Solar data in the Mollweide Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406676-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-conventionaloilandgas-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-conventionaloilandgas-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-conventionaloilandgas-mollweide-geotiff.zip",
+      "description": "Conventional Oil and Gas data in the Mollweide Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406693-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-wind-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-wind-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-wind-mollweide-geotiff.zip",
+      "description": "Wind data in the Mollweide Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406707-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-urbanexpansion-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-urbanexpansion-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-urbanexpansion-geographic-geotiff.zip",
+      "description": "Urban Expansion data in the Geographic Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406717-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-geographic-geotiff.zip",
+      "description": "Development Threat Index data in the Geographic Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406723-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-threat-index/lulc-development-threat-index.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-threat-index-geographic-geotiff.zip",
+      "description": "Global Development Threat Index map for the year 2015 in PDF format from the Development Threat Index data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406723-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-threat-index-agriculturalexpansion-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-threat-index/lulc-development-threat-index-agriculturalexpansion-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-threat-index-agriculturalexpansion-mollweide-geotiff.zip",
+      "description": "Agricultural Expansion data in the Mollweide Projection and in GeoTIFF format for the year 2015 from the Development Threat Index data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "C3556405724-ESDIS",
+      "ciesin:source_granule_concept_id": "G3556406740-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-threat-index-agriculturalexpansion-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715745",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-agriculturalexpansion-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 220045,
+      "checksum:md5": "a91984cf35aa45e9126580b77d50590c",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715745",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-agriculturalexpansion-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715750",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-agriculturalexpansion-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 223180,
+      "checksum:md5": "09858a0e0b9d94bd24c6279bf111f461",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715750",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-biofuels-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715738",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-biofuels-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 213755,
+      "checksum:md5": "101a4649be2e6d23f17b958dcd322a2b",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715738",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-biofuels-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715741",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-biofuels-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 217141,
+      "checksum:md5": "c8738d48bfcb7be46a49b73f9a27317a",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715741",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-coal-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715740",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-coal-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10453,
+      "checksum:md5": "5e9f73eac7d6561f44b06687ba25053e",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715740",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-coal-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715756",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-coal-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10456,
+      "checksum:md5": "b4234720afdd28df5b63041d4ca4ccc0",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715756",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-conventionaloilandgas-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715742",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-conventionaloilandgas-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 194835,
+      "checksum:md5": "ad7f5f92d1f71a974f1347ee01d444fc",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715742",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-conventionaloilandgas-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715748",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-conventionaloilandgas-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 194902,
+      "checksum:md5": "3e81b5ff534f99987f46f91d92b06ce0",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715748",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715753",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 202761,
+      "checksum:md5": "8794db1d54a29a02d1bc231a035d11b9",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715753",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-mining-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715757",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-mining-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 205253,
+      "checksum:md5": "c62b3c2103a809af146e0789176f28b9",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715757",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-mining-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715755",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-mining-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 205028,
+      "checksum:md5": "f791caa97c15ba1aafb2a4882a08a5f3",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715755",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715743",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 203923,
+      "checksum:md5": "1b66af1678d4e1b49376020162a30049",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715743",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-solar-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715747",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-solar-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 244421,
+      "checksum:md5": "ae6283c8eae217f9dfa74c13076b5c98",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715747",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-solar-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715749",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-solar-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 248260,
+      "checksum:md5": "f7482d2ec7ba0358373fad4943b9edba",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715749",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-unconventionaloilandgas-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715754",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-unconventionaloilandgas-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 179721,
+      "checksum:md5": "d8d24fbbd0fee25ee6728a441bea14a1",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715754",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-unconventionaloilandgas-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715744",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-unconventionaloilandgas-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 179838,
+      "checksum:md5": "8e44b10ef8a77382c82342f0858564fe",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715744",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-urbanexpansion-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715739",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-urbanexpansion-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 189682,
+      "checksum:md5": "ebaf7427d3f85cd27d5350e04bf8081e",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715739",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-urbanexpansion-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715751",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-urbanexpansion-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 191602,
+      "checksum:md5": "917b5a02d0a310bcc2df80147802352f",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715751",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-wind-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715752",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-wind-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 250974,
+      "checksum:md5": "be1cf17616402a8ca595e14a8d36b206",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715752",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-threat-index-wind-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715746",
+      "type": "application/zip",
+      "title": "lulc-development-threat-index-wind-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 250294,
+      "checksum:md5": "d8de14272d24b7733aadd58bc22946ed",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-09T18:00:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/61JV-TH84",
+      "ciesin:harvard_doi": "10.7910/DVN/MMGOWR",
+      "ciesin:source_dataset_id": "11646130",
+      "ciesin:source_file_id": "11715746",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

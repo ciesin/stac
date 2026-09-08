@@ -1,0 +1,231 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "global-urban-demographic-dataset-gudd-version-1",
+  "collection": "ciesin-sedac-uncategorized",
+  "geometry": null,
+  "properties": {
+    "title": "Global Urban Demographic Dataset (GUDD), version 1",
+    "description": "The Global Urban Demographic Dataset (GUDD), version 1, provides globally consistent city-level estimates of urban demographic structure and population change for the period 2000ï¿½ï¿½ï¿½2020. The dataset was developed by intersecting annual WorldPop gridded age-sex population estimates with urban centre boundaries from the Global Human Settlement Layer Urban Centre Database (GHS-UCDB). The dataset includes outputs generated using both static urban boundaries, fixed to a common spatial definition, and dynamic urban boundaries that vary through time. These data support comparative analyses of urban demographic change across more than 10,000 cities worldwide and enable evaluation of age structure, sex structure, total population change, natural increase, and estimated net migration in a harmonized global framework. The dataset is intended to support research on urbanization, migration, demographic transition, climate vulnerability, and urban pla",
+    "datetime": "2024-11-01T00:00:00Z",
+    "license": "other",
+    "sci:doi": "10.7910/DVN/GMV8WG",
+    "ciesin:category": "Uncategorized",
+    "ciesin:harvard_doi": "10.7910/DVN/GMV8WG",
+    "ciesin:sedac_doi": "10.7910/DVN/GMV8WG",
+    "ciesin:field_count": 0,
+    "ciesin:item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
+    "ciesin:xml_found": "no",
+    "ciesin:source_match_status": "nasa_missing;harvard_found"
+  },
+  "links": [
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/GMV8WG",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./global-urban-demographic-dataset-gudd-version-1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "gudd-all-dynamic-boundaries-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13670832",
+      "type": "text/tab-separated-values",
+      "title": "gudd_all_dynamic_boundaries.tab",
+      "description": "Contains raw population counts for each age-sex cohort, derived using dynamic urban boundaries",
+      "roles": [
+        "data"
+      ],
+      "file:size": 158313648,
+      "checksum:md5": "9fab167c31bf8275c66d0118b67f1ccd",
+      "created": "2026-04-15T00:00:00Z",
+      "updated": "2026-04-23T00:04:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/GMV8WG",
+      "ciesin:source_dataset_id": "13663875",
+      "ciesin:source_file_id": "13670832",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "gudd-all-static-boundaries-csv": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13669706",
+      "type": "text/csv",
+      "title": "gudd_all_static_boundaries.csv",
+      "description": "Contains raw population counts for each age-sex cohort, derived using static boundaries.",
+      "roles": [
+        "data"
+      ],
+      "file:size": 171318533,
+      "checksum:md5": "cd74de727341bd7776047944ea834ec0",
+      "created": "2026-04-14T00:00:00Z",
+      "updated": "2026-04-23T00:04:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/GMV8WG",
+      "ciesin:source_dataset_id": "13663875",
+      "ciesin:source_file_id": "13669706",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Comma Separated Values"
+    },
+    "gudd-annual-metrics-dynamic-boundaries-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13670834",
+      "type": "text/tab-separated-values",
+      "title": "gudd_annual_metrics_dynamic_boundaries.tab",
+      "description": "Contains demographic indicators calculated for each city and year, derived using dynamic urban boundaries",
+      "roles": [
+        "data"
+      ],
+      "file:size": 139651900,
+      "checksum:md5": "c5d9b08f8a92ba1a5573ca89338ebce6",
+      "created": "2026-04-15T00:00:00Z",
+      "updated": "2026-04-23T00:04:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/GMV8WG",
+      "ciesin:source_dataset_id": "13663875",
+      "ciesin:source_file_id": "13670834",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "gudd-annual-metrics-static-boundaries-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13669704",
+      "type": "text/tab-separated-values",
+      "title": "gudd_annual_metrics_static_boundaries.tab",
+      "description": "Contains demographic indicators calculated for each city and year, derived using static boundaries.",
+      "roles": [
+        "data"
+      ],
+      "file:size": 152925323,
+      "checksum:md5": "fe58e2f658bb84a23d6e4f2ec8d084ea",
+      "created": "2026-04-14T00:00:00Z",
+      "updated": "2026-04-23T00:04:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/GMV8WG",
+      "ciesin:source_dataset_id": "13663875",
+      "ciesin:source_file_id": "13669704",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "gudd-change-2000-2020-dynamic-boundaries-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13670835",
+      "type": "text/tab-separated-values",
+      "title": "gudd_change_2000_2020_dynamic_boundaries.tab",
+      "description": "Contains total change in demographic indicators between 2000 and 2020, derived using dynamic urban boundaries",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4301899,
+      "checksum:md5": "bc39ea6a56e74b95c69310b69d00a43b",
+      "created": "2026-04-15T00:00:00Z",
+      "updated": "2026-04-23T00:04:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/GMV8WG",
+      "ciesin:source_dataset_id": "13663875",
+      "ciesin:source_file_id": "13670835",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "gudd-change-2000-2020-static-boundaries-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13669707",
+      "type": "text/tab-separated-values",
+      "title": "gudd_change_2000_2020_static_boundaries.tab",
+      "description": "Contains total change in demographic indicators between 2000 and 2020, derived using static boundaries.",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5739414,
+      "checksum:md5": "e2f78efc66eea76e67c4fca430b0330d",
+      "created": "2026-04-14T00:00:00Z",
+      "updated": "2026-04-23T00:04:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/GMV8WG",
+      "ciesin:source_dataset_id": "13663875",
+      "ciesin:source_file_id": "13669707",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "gudd-dataset-documentation-v1-0-pdf": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13674920",
+      "type": "application/pdf",
+      "title": "gudd_dataset_documentation_v1_0.pdf",
+      "description": "README",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6546504,
+      "checksum:md5": "0da2481abe31d83a9b74bfb9e14af6bc",
+      "created": "2026-04-17T00:00:00Z",
+      "updated": "2026-04-23T00:04:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/GMV8WG",
+      "ciesin:source_dataset_id": "13663875",
+      "ciesin:source_file_id": "13674920",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "gudd-dynamic-boundaries-lookup-geoparquet": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13670833",
+      "type": "application/octet-stream",
+      "title": "gudd_dynamic_boundaries_lookup.geoparquet",
+      "description": "Polygon boundary lookup file for the corresponding boundary framework, derived using dynamic urban boundaries",
+      "roles": [
+        "data"
+      ],
+      "file:size": 58092418,
+      "checksum:md5": "76e1a6279db97b3eb9cfef4cd6a579bb",
+      "created": "2026-04-15T00:00:00Z",
+      "updated": "2026-04-23T00:04:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/GMV8WG",
+      "ciesin:source_dataset_id": "13663875",
+      "ciesin:source_file_id": "13670833",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "gudd-static-boundaries-lookup-geoparquet": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13669705",
+      "type": "application/octet-stream",
+      "title": "gudd_static_boundaries_lookup.geoparquet",
+      "description": "Polygon boundary lookup file for the corresponding boundary framework, derived using static boundaries.",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3157603,
+      "checksum:md5": "78f6ec96ffe85336865bd021e957db83",
+      "created": "2026-04-14T00:00:00Z",
+      "updated": "2026-04-23T00:04:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/GMV8WG",
+      "ciesin:source_dataset_id": "13663875",
+      "ciesin:source_file_id": "13669705",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    }
+  }
+}

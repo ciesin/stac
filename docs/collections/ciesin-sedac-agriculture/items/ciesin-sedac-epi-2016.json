@@ -1,0 +1,618 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-epi-2016",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -55.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -55.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "2016 Environmental Performance Index (EPI)",
+    "description": "The 2016 Environmental Performance Index (EPI) ranks 180 countries on 20 performance indicators in the following 9 policy categories: health impacts, air quality, water and sanitation, water resources, agriculture, forests, fisheries, biodiversity and habitat, and climate and energy. These categories track performance and progress on two broad policy objectives, environmental health and ecosystem vitality. The EPI's proximity-to-target methodology facilitates cross-country comparisons among economic and regional peer groups. The data set includes the 2016 EPI and component scores, backcast EPI scores for 1950-2016, and time-series source data. The 2016 EPI was formally released in Davos, Switzerland, at the annual meeting of the World Economic Forum on January 23, 2016. These are the result of collaboration between the Yale Center for Environmental Law and Policy (YCELP) and Yale Data-Driven Environmental Solutions Group, Yale University, Columbia University Center for International Earth Science Information Network (CIESIN), and the World Economic Forum (WEF). The Interactive Website for the 2016 EPI is at https://epi.yale.edu.",
+    "datetime": "2016-06-23T00:00:00Z",
+    "start_datetime": "1950-01-01T00:00:00.000Z",
+    "end_datetime": "2016-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Afghanistan",
+      "Agriculture",
+      "Albania",
+      "Algeria",
+      "Angola",
+      "Antigua and Barbuda",
+      "Argentina",
+      "Armenia",
+      "Australia",
+      "Austria",
+      "Azerbaijan",
+      "Bahamas",
+      "Bahrain",
+      "Bangladesh",
+      "Barbados",
+      "Belarus",
+      "Belgium",
+      "Belize",
+      "Benin",
+      "Bhutan",
+      "Bolivia",
+      "Bosnia and Herzegovina",
+      "Botswana",
+      "Brazil",
+      "Brunei",
+      "Bulgaria",
+      "Burkina Faso",
+      "Burundi",
+      "Cambodia",
+      "Cameroon",
+      "Canada",
+      "Cape Verde",
+      "Central African Republic",
+      "Chad",
+      "Chile",
+      "China",
+      "Climate",
+      "Colombia",
+      "Comoros",
+      "Congo",
+      "Congo, Democratic",
+      "Conservation",
+      "Costa Rica",
+      "Cote d'Ivoire",
+      "Country",
+      "Croatia",
+      "Cuba",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "Djibouti",
+      "Dominica",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SUSTAINABILITY > ENVIRONMENTAL SUSTAINABILITY",
+      "Earth Science",
+      "Economy",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Environment",
+      "Environmental Sustainability",
+      "Equatorial Guinea",
+      "Eritrea",
+      "Estonia",
+      "Ethiopia",
+      "Fiji",
+      "Finland",
+      "France",
+      "Gabon",
+      "Gambia",
+      "Georgia",
+      "Germany",
+      "Ghana",
+      "Global",
+      "Governance",
+      "Greece",
+      "Greenland",
+      "Guatemala",
+      "Guinea",
+      "Guinea-Bissau",
+      "Guyana",
+      "Haiti",
+      "Health",
+      "Honduras",
+      "Human Dimensions",
+      "Hungary",
+      "Iceland",
+      "India",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Jamaica",
+      "Japan",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kiribati",
+      "Kuwait",
+      "Kyrgyztan",
+      "Laos",
+      "Latvia",
+      "Lebanon",
+      "Lesotho",
+      "Liberia",
+      "Libya",
+      "Lithuania",
+      "Luxembourg",
+      "Macedonia",
+      "Madagascar",
+      "Malawi",
+      "Malaysia",
+      "Maldives",
+      "Mali",
+      "Malta",
+      "Marine and  Coastal",
+      "Marine and Coastal",
+      "Mauritania",
+      "Mauritius",
+      "Mexico",
+      "Moldova",
+      "Mongolia",
+      "Montenegro",
+      "Morocco",
+      "Mozambique",
+      "Myanmar",
+      "Namibia",
+      "Nepal",
+      "Netherlands",
+      "New Zealand",
+      "Nicaragua",
+      "Niger",
+      "Nigeria",
+      "Norway",
+      "Oman",
+      "Pakistan",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Qatar",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "Samoa",
+      "Sao Tome and Principe",
+      "Saudi Arabia",
+      "Senegal",
+      "Serbia",
+      "Seychelles",
+      "Sierra Leone",
+      "Singapore",
+      "Slovakia",
+      "Slovenia",
+      "Society",
+      "Solomon Islands",
+      "Somalia",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sri Lanka",
+      "Sudan",
+      "Suriname",
+      "Sustainability",
+      "Swaziland",
+      "Sweden",
+      "Switzerland",
+      "Syrian Arab Republic",
+      "Taiwan",
+      "Tajikistan",
+      "Tanzania",
+      "Thailand",
+      "Timor-Leste",
+      "Togo",
+      "Tonga",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Turkmenistan",
+      "Uganda",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Uruguay",
+      "Uzbekistan",
+      "Vanuatu",
+      "Venezuela",
+      "Viet Nam",
+      "Water",
+      "Yemen",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "sci:doi": "10.7927/H4FX77CS",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Agriculture, Climate, Conservation, Governance, Health, Marine and  Coastal, Sustainability, Water, Economy, Environment, Society, Country, Earth Science, Human Dimensions, Environmental Sustainability",
+    "ciesin:nasa_doi": "10.7927/H4FX77CS",
+    "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+    "ciesin:sedac_doi": "10.7927/H4FX77CS",
+    "ciesin:purpose": "To provide quantitative metrics for evaluating a country's environmental performance in different policy categories relative to clearly defined targets.",
+    "ciesin:data_format": "document, tabular, map, map service; report; document, tabular, map; document, tabular, map service",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\epi-environmental-performance-index-2016.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4FX77CS",
+      "type": "text/html",
+      "title": "H4FX77CS"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.13140/RG.2.2.19868.90249",
+      "type": "text/html",
+      "title": "RG.2.2.19868.90249"
+    },
+    {
+      "rel": "related",
+      "href": "https://epi.yale.edu",
+      "type": "text/html",
+      "title": "epi.yale.edu"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H44M92GX",
+      "type": "text/html",
+      "title": "H44M92GX"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4HT2M77",
+      "type": "text/html",
+      "title": "H4HT2M77"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4D21VHT",
+      "type": "text/html",
+      "title": "H4D21VHT"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H48913SG",
+      "type": "text/html",
+      "title": "H48913SG"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4416V05",
+      "type": "text/html",
+      "title": "H4416V05"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.epi.yale.edu",
+      "type": "text/html",
+      "title": "www.epi.yale.edu"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4X928CF",
+      "type": "text/html",
+      "title": "H4X928CF"
+    },
+    {
+      "rel": "related",
+      "href": "https://epi.envirocenter.yale.edu/node/36476",
+      "type": "text/html",
+      "title": "36476"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/f54c-0r44",
+      "type": "text/html",
+      "title": "f54c-0r44"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.13140/RG.2.2.21182.51529",
+      "type": "text/html",
+      "title": "RG.2.2.21182.51529"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/epi/epi-environmental-performance-index-2016/epi2016-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "epi2016-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/epi-environmental-performance-index-2016/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/epi-environmental-performance-index-2016/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/epi-environmental-performance-index-2016/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4FX77CS",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-epi-2016.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "2016-epi-full-report-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2016/2016-epi-full-report.pdf",
+      "type": "application/pdf",
+      "title": "2016-epi-full-report.pdf",
+      "description": "Full Report and Analysis data in PDF format from the 2016 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FX77CS",
+      "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+      "ciesin:source_dataset_id": "C3540911781-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122215-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4fx77cs": {
+      "href": " https://doi.org/10.7927/H4FX77CS",
+      "type": "application/octet-stream",
+      "title": "2016-epi-full-report.pdf",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FX77CS",
+      "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+      "ciesin:source_dataset_id": "C3540911781-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122215-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2016-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2016/epi2016-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "2016-epi-full-report.pdf",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FX77CS",
+      "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+      "ciesin:source_dataset_id": "C3540911781-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122215-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "2016-epi-metadata-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2016/2016-epi-metadata.pdf",
+      "type": "application/pdf",
+      "title": "2016-epi-metadata.pdf",
+      "description": "Indicator Metadata data in PDF format from the 2016 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FX77CS",
+      "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+      "ciesin:source_dataset_id": "C3540911781-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122218-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2016-epi-xlsx-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2016/2016-epi-xlsx.zip",
+      "type": "application/x-zip-compressed",
+      "title": "2016-epi-xlsx.zip",
+      "description": "2016 EPI data in Excel format from the 2016 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FX77CS",
+      "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+      "ciesin:source_dataset_id": "C3540911781-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122222-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2016-epi-raw-data-time-series-xlsx-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2016/2016-epi-raw-data-time-series-xlsx.zip",
+      "type": "application/x-zip-compressed",
+      "title": "2016-epi-raw-data-time-series-xlsx.zip",
+      "description": "2016 EPI Raw Time Series data in Excel format from the 2016 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FX77CS",
+      "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+      "ciesin:source_dataset_id": "C3540911781-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122228-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2016-epi-ancillary-data-xlsx-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2016/2016-epi-ancillary-data-xlsx.zip",
+      "type": "application/x-zip-compressed",
+      "title": "2016-epi-ancillary-data-xlsx.zip",
+      "description": "2016 EPI Ancillary data in Excel format from the 2016 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FX77CS",
+      "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+      "ciesin:source_dataset_id": "C3540911781-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122233-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2016-epi-ancillary-data-xlsx-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12026491",
+      "type": "application/zip",
+      "title": "2016-epi-ancillary-data-xlsx.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1975113,
+      "checksum:md5": "39f4c303df21ef7958b6ed2e1909549d",
+      "created": "2025-09-03T00:00:00Z",
+      "updated": "2025-09-10T18:44:12Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FX77CS",
+      "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+      "ciesin:source_dataset_id": "11632692",
+      "ciesin:source_file_id": "12026491",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "2016-epi-full-report-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12026490",
+      "type": "application/pdf",
+      "title": "2016-epi-full-report.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16190863,
+      "checksum:md5": "bc9fe6fb4a5efebc2d38aec987260992",
+      "created": "2025-09-03T00:00:00Z",
+      "updated": "2025-09-10T18:44:12Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FX77CS",
+      "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+      "ciesin:source_dataset_id": "11632692",
+      "ciesin:source_file_id": "12026490",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2016-epi-metadata-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12026492",
+      "type": "application/pdf",
+      "title": "2016-epi-metadata.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 337401,
+      "checksum:md5": "9bc261ba4e1b8bfe70c9eb5fe935dc5a",
+      "created": "2025-09-03T00:00:00Z",
+      "updated": "2025-09-10T18:44:12Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FX77CS",
+      "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+      "ciesin:source_dataset_id": "11632692",
+      "ciesin:source_file_id": "12026492",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2016-epi-raw-data-time-series-xlsx-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12026488",
+      "type": "application/zip",
+      "title": "2016-epi-raw-data-time-series-xlsx.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 726970,
+      "checksum:md5": "26131b1cf20f7f974018f475d2082010",
+      "created": "2025-09-03T00:00:00Z",
+      "updated": "2025-09-10T18:44:12Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FX77CS",
+      "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+      "ciesin:source_dataset_id": "11632692",
+      "ciesin:source_file_id": "12026488",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "2016-epi-xlsx-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12026489",
+      "type": "application/zip",
+      "title": "2016-epi-xlsx.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 956305,
+      "checksum:md5": "67f08319278b78d337a66d51c9deeff6",
+      "created": "2025-09-03T00:00:00Z",
+      "updated": "2025-09-10T18:44:12Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FX77CS",
+      "ciesin:harvard_doi": "10.7910/DVN/WCFHPJ",
+      "ciesin:source_dataset_id": "11632692",
+      "ciesin:source_file_id": "12026489",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-lwp2-hf-ighp",
+  "collection": "ciesin-sedac-conservation",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -16139650.0,
+          -6815472.0
+        ],
+        [
+          19600350.0,
+          -6815472.0
+        ],
+        [
+          19600350.0,
+          8849527.0
+        ],
+        [
+          -16139650.0,
+          8849527.0
+        ],
+        [
+          -16139650.0,
+          -6815472.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -16139650.0,
+    -6815472.0,
+    19600350.0,
+    8849527.0
+  ],
+  "properties": {
+    "title": "Last of the Wild Project, Version 2, 2005 (LWP-2): Global Human Footprint Dataset (IGHP)",
+    "description": "The Global Human Footprint Dataset of the Last of the Wild Project, Version 2, 2005 (LWP-2) is the Human Influence Index (HII) normalized by biome. The HII is a global dataset of 1-kilometer grid cells, created from nine global data layers covering human population pressure (population density), human land use and infrastructure (built-up areas, nighttime lights, land use/land cover), and human access (coastlines, roads, railroads, navigable rivers). The dataset in Interrupted Goode Homolosine Projection (IGHP) is produced by the Wildlife Conservation Society (WCS) and Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2005-12-31T00:00:00Z",
+    "start_datetime": "1995-01-01T00:00:00.000Z",
+    "end_datetime": "2004-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Anthropogenic/Human Influenced Ecosystems",
+      "Biosphere",
+      "Biota",
+      "Conservation",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "Earth Science",
+      "Ecosystems",
+      "Environment",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Surface",
+      "Land Use",
+      "Land Use/Land Cover",
+      "Planning/Cadastre",
+      "Remote Sensing",
+      "Sustainability"
+    ],
+    "sci:doi": "10.7927/H4GF0RFQ",
+    "ciesin:category": "Conservation",
+    "ciesin:tags": "Biota, Environment, Imagery/Base Maps/Earth Cover, Planning/Cadastre, Global, Conservation, Land Use, Remote Sensing, Sustainability, Earth Science, Land Surface, Land Use/Land Cover, Biosphere, Ecosystems, Anthropogenic/Human Influenced Ecosystems",
+    "ciesin:nasa_doi": "10.7927/H4GF0RFQ",
+    "ciesin:harvard_doi": "10.7910/DVN/5K3OBU",
+    "ciesin:sedac_doi": "10.7927/H4GF0RFQ",
+    "ciesin:purpose": "To provide an updated map of anthropogenic impacts on the environment in Interrupted Goode Homolosine Projection which can be used in wildlife conservation planning, natural resource management, and research on human-environment interactions.",
+    "ciesin:supplemental_info": "Changes from the LWP 2002 to LWP 2005 include the following: 1) The populated and USGS urban polygons layers are replaced by CIESIN Global Rural Urban Mapping Project (GRUMP) urban extent layer. 2) The USGS Global land Cover Characteristics layer is replaced with EU Joint Research Centre Global Land Cover 2000 dataset. 3) The roads layer is updated using Latin America and Caribbean Roads data compiled by Centro Internacional de Agricultura Tropical (CIAT). Africa roads are updated from compilation of Africa roads data by Andy Nelson. Users should note that Human Footprint data could not be computed for some islands where terrestrial biome data is not available.",
+    "ciesin:data_format": "raster; journal article; vector, map, map service; vector; raster, map, map service",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\wildareas-v2-human-footprint-ighp.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4GF0RFQ",
+      "type": "text/html",
+      "title": "H4GF0RFQ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4CN71V6",
+      "type": "text/html",
+      "title": "H4CN71V6"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1641/0006-3568(2002)052[0891:THFATL]2.0.CO;2",
+      "type": "text/html",
+      "title": "0006-3568(2002)052[0891:THFATL]2.0.CO;2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4348H83",
+      "type": "text/html",
+      "title": "H4348H83"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4ZC80SS",
+      "type": "text/html",
+      "title": "H4ZC80SS"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4BP00QC",
+      "type": "text/html",
+      "title": "H4BP00QC"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H46W980H",
+      "type": "text/html",
+      "title": "H46W980H"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/wildareas-v2/wildareas-v2-human-footprint-ighp/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-ighp/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4GF0RFQ",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-lwp2-hf-ighp.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "hfp-global-ighp-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wildareas-v2/wildareas-v2-human-footprint-ighp/hfp-global-ighp-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "hfp-global-ighp-grid.zip",
+      "description": "Global 1 km grid data in Arc Info Grid format from the Last of the Wild Project, Version 2,2005 (LWP-2): Global Human Footprint Dataset(IGHP)",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4GF0RFQ",
+      "ciesin:harvard_doi": "10.7910/DVN/5K3OBU",
+      "ciesin:source_dataset_id": "C3550196834-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267427-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4gf0rfq": {
+      "href": "https://doi.org/10.7927/H4GF0RFQ",
+      "type": "application/octet-stream",
+      "title": "hfp-global-ighp-grid.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4GF0RFQ",
+      "ciesin:harvard_doi": "10.7910/DVN/5K3OBU",
+      "ciesin:source_dataset_id": "C3550196834-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267427-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "hfp-s-america-geo-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wildareas-v2/wildareas-v2-human-footprint-geographic/hfp-s-america-geo-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "hpf-global-ighp-grid.zip",
+      "description": "Global 1 km data in Grid format from the Last of the Wild Project, Version 2,2005 (LWP-2): Global Human Footprint Dataset(IGHP)",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4GF0RFQ",
+      "ciesin:harvard_doi": "10.7910/DVN/5K3OBU",
+      "ciesin:source_dataset_id": "C3550196834-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267441-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "hfp-s-america-geo-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815555",
+      "type": "application/zip",
+      "title": "hfp-s-america-geo-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7048662,
+      "checksum:md5": "44153eddce205ab3e04c91a6b7a28716",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-08T17:23:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4GF0RFQ",
+      "ciesin:harvard_doi": "10.7910/DVN/5K3OBU",
+      "ciesin:source_dataset_id": "11646266",
+      "ciesin:source_file_id": "11815555",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

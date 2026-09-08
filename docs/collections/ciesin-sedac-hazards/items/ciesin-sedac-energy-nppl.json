@@ -1,0 +1,248 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-energy-nppl",
+  "collection": "ciesin-sedac-hazards",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -124.21,
+          -34.0
+        ],
+        [
+          166.45,
+          -34.0
+        ],
+        [
+          166.45,
+          68.05
+        ],
+        [
+          -124.21,
+          68.05
+        ],
+        [
+          -124.21,
+          -34.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -124.21,
+    -34.0,
+    166.45,
+    68.05
+  ],
+  "properties": {
+    "title": "Population Exposure Estimates in Proximity to Nuclear Power Plants, Locations",
+    "description": "The Population Exposure Estimates in Proximity to Nuclear Power Plants, Locations data set combines information from a global data set developed by Declan Butler of Nature News and the Power Reactor Information System (PRIS), an up-to-date database of nuclear reactors maintained by the International Atomic Energy Agency (IAEA). The locations of nuclear reactors around the world are represented as point features associated with reactor specification and performance history attributes as of March 2012.",
+    "datetime": "2015-01-21T00:00:00Z",
+    "start_datetime": "1956-01-01T00:00:00.000Z",
+    "end_datetime": "2012-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Argentina",
+      "Armenia",
+      "Belgium",
+      "Brazil",
+      "Bulgaria",
+      "Canada",
+      "China",
+      "Country",
+      "Czech Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ENVIRONMENTAL IMPACTS > NUCLEAR RADIATION EXPOSURE",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > PUBLIC HEALTH > RADIATION EXPOSURE",
+      "Earth Science",
+      "Environmental Impacts",
+      "Finland",
+      "France",
+      "Germany",
+      "Global",
+      "Hazards",
+      "Human Dimensions",
+      "Hungary",
+      "India",
+      "Infrastructure",
+      "Iran",
+      "Italy",
+      "Japan",
+      "Kazakhstan",
+      "Lithuania",
+      "Mexico",
+      "Netherlands",
+      "Nuclear Radiation Exposure",
+      "Pakistan",
+      "Population",
+      "Public Health",
+      "Radiation Exposure",
+      "Romania",
+      "Russia",
+      "Slovakia",
+      "Slovenia",
+      "Society",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Taiwan",
+      "Ukraine",
+      "United Kingdom",
+      "United States of America"
+    ],
+    "sci:doi": "10.7927/H4WH2MXH",
+    "ciesin:category": "Hazards",
+    "ciesin:tags": "Hazards, Infrastructure, Population, Country, Global, Society, Earth Science, Human Dimensions, Public Health, Radiation Exposure, Environmental Impacts, Nuclear Radiation Exposure",
+    "ciesin:nasa_doi": "10.7927/H4WH2MXH",
+    "ciesin:harvard_doi": "10.7910/DVN/AG3JE3",
+    "ciesin:sedac_doi": "10.7927/H4WH2MXH",
+    "ciesin:purpose": "To provide a global data set of point locations and attributes describing nuclear power plants and reactors.",
+    "ciesin:data_format": "vector, tabular, map service; journal article; tabular",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\energy-pop-exposure-nuclear-plants-locations.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4WH2MXH",
+      "type": "text/html",
+      "title": "H4WH2MXH"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1038/472400a",
+      "type": "text/html",
+      "title": "472400a"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H41834D6",
+      "type": "text/html",
+      "title": "H41834D6"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/energy/energy-pop-exposure-nuclear-plants-locations/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/energy-pop-exposure-nuclear-plants-locations/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/energy-pop-exposure-nuclear-plants-locations/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4WH2MXH",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-energy-nppl.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "energy-pop-exposure-nuclear-plants-locations-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/energy/energy-pop-exposure-nuclear-plants-locations/energy-pop-exposure-nuclear-plants-locations.zip",
+      "type": "application/x-zip-compressed",
+      "title": "energy-pop-exposure-nuclear-plants-locations.zip",
+      "description": "Tabular data in Shapefile, and CSV formats from the Population Exposure Estimates in Proximity to Nuclear Power Plants, Locations data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4WH2MXH",
+      "ciesin:harvard_doi": "10.7910/DVN/AG3JE3",
+      "ciesin:source_dataset_id": "C3550191794-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200445-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4wh2mxh": {
+      "href": "https://doi.org/10.7927/H4WH2MXH",
+      "type": "application/octet-stream",
+      "title": "energy-pop-exposure-nuclear-plants-locations.zip",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4WH2MXH",
+      "ciesin:harvard_doi": "10.7910/DVN/AG3JE3",
+      "ciesin:source_dataset_id": "C3550191794-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200445-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "energy-pop-exposure-nuclear-plants-locations-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831930",
+      "type": "application/zipped-shapefile",
+      "title": "energy-pop-exposure-nuclear-plants-locations.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 806491,
+      "checksum:md5": "c2948139f50a4373b83a7693148caf9c",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-10T18:51:46Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4WH2MXH",
+      "ciesin:harvard_doi": "10.7910/DVN/AG3JE3",
+      "ciesin:source_dataset_id": "11646304",
+      "ciesin:source_file_id": "11831930",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    }
+  }
+}

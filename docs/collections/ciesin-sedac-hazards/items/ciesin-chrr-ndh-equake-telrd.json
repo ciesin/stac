@@ -1,0 +1,314 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-chrr-ndh-equake-telrd",
+  "collection": "ciesin-sedac-hazards",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          86.0
+        ],
+        [
+          -180.0,
+          86.0
+        ],
+        [
+          -180.0,
+          -58.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -58.0,
+    180.0,
+    86.0
+  ],
+  "properties": {
+    "title": "Global Earthquake Total Economic Loss Risk Deciles",
+    "description": "The Global Earthquake Total Economic Loss Risk Deciles is a 2.5 minute grid of global earthquake total economic loss risks. A process of spatially allocating Gross Domestic Product (GDP) based upon the Sachs et al. (2003) methodology is utilized. First the proportional contributions of subnational units to their respective national GDP are determined using sources of various origin. The contribution rates are then applied to published World Bank Development Indicators to determine a GDP value for the subnational unit. Once the national GDP has been spatially stratified into the smallest administrative units available, GDP values for grid cells are derived using Gridded Population of the World, Version 3 (GPWv3) data population distributions. A per capita contribution value is determined within each subnational unit, and then this value is multiplied by the population per grid cell. Once a GDP value has been determined on a per grid cell basis, then the regionally variable loss rate as derived from the historical records of EM-DAT is used to determine the total economic loss risks posed to a grid cell by earthquake hazards. The final surface does not present absolute values of total economic loss, but rather a relative decile (1-10 with increasing risk) ranking of grid cells based upon the calculated economic loss risks. This data set is the result of collaboration among the Columbia University Center for Hazards and Risk Research (CHRR), International Bank for Reconstruction and Development/The World Bank, and Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2005-12-31T00:00:00Z",
+    "start_datetime": "2000-01-01T00:00:00.000Z",
+    "end_datetime": "2000-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Continent",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > EARTHQUAKES",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS",
+      "Earth Science",
+      "Earthquakes",
+      "Economy",
+      "Geoscientific Information",
+      "Global",
+      "Hazards",
+      "Human Dimensions",
+      "Natural Hazards",
+      "Socioeconomics",
+      "Sustainability"
+    ],
+    "sci:doi": "10.7927/H4TX3C9F",
+    "sci:citation": "Formerly the National Imagery and Mapping Agency (NIMA).",
+    "ciesin:category": "Hazards",
+    "ciesin:tags": "Hazards, Sustainability, Geoscientific Information, Economy, Continent, Global, Earth Science, Human Dimensions, Natural Hazards, Earthquakes, Socioeconomics",
+    "ciesin:nasa_doi": "10.7927/H4TX3C9F",
+    "ciesin:harvard_doi": "10.7910/DVN/859D1N",
+    "ciesin:sedac_doi": "10.7927/H4TX3C9F",
+    "ciesin:purpose": "To provide a spatial surface of the total economic impacts of global earthquake hazard.",
+    "ciesin:data_format": "raster, map, map service; report; model; raster digital data; vector digital data; raster, map service",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\ndh-earthquake-total-economic-loss-risk-deciles.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4TX3C9F",
+      "type": "text/html",
+      "title": "H4TX3C9F"
+    },
+    {
+      "rel": "related",
+      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+      "type": "text/html",
+      "title": "Natural-disaster-hotspots-A-global-risk-analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4BZ63ZS",
+      "type": "text/html",
+      "title": "H4BZ63ZS"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4765C7S",
+      "type": "text/html",
+      "title": "H4765C7S"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H43F4MH2",
+      "type": "text/html",
+      "title": "H43F4MH2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4ZP4415",
+      "type": "text/html",
+      "title": "H4ZP4415"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.cia.gov/library/publications/the-world-factbook/",
+      "type": "text/html",
+      "title": "the-world-factbook"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.nga.mil",
+      "type": "text/html",
+      "title": "www.nga.mil"
+    },
+    {
+      "rel": "related",
+      "href": "http://edcdaac.usgs.gov/glcc/glcc.asp",
+      "type": "text/html",
+      "title": "glcc.asp"
+    },
+    {
+      "rel": "related",
+      "href": "https://sedac.ciesin.columbia.edu/gpw-v2/",
+      "type": "text/html",
+      "title": "gpw-v2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4639MPP",
+      "type": "text/html",
+      "title": "H4639MPP"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ndh/ndh-earthquake-total-economic-loss-risk-deciles/earthquake-total-economic-loss-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "earthquake-total-economic-loss-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.worldbank.org/data/wdi2000",
+      "type": "text/html",
+      "title": "wdi2000"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-total-economic-loss-risk-deciles/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-total-economic-loss-risk-deciles/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-total-economic-loss-risk-deciles/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4TX3C9F",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-chrr-ndh-equake-telrd.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "gdpgagdp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ndh/ndh-earthquake-total-economic-loss-risk-deciles/gdpgagdp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "gdpgagdp.zip",
+      "description": "Raster data in ASCII and DBF formats from the Global Earthquake Total Economic Loss Risk Deciles data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TX3C9F",
+      "ciesin:harvard_doi": "10.7910/DVN/859D1N",
+      "ciesin:source_dataset_id": "C3550190668-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278778-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4tx3c9f": {
+      "href": "https://doi.org/10.7927/H4TX3C9F",
+      "type": "application/octet-stream",
+      "title": "gdpgagdp.zip",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TX3C9F",
+      "ciesin:harvard_doi": "10.7910/DVN/859D1N",
+      "ciesin:source_dataset_id": "C3550190668-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278778-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "earthquake-total-economic-loss-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-earthquake-total-economic-loss-risk-deciles/earthquake-total-economic-loss.pdf",
+      "type": "application/pdf",
+      "title": "gdpgagdp.zip",
+      "description": "Global map in PDF format from the Global Earthquake Total Economic Loss Risk Deciles data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TX3C9F",
+      "ciesin:harvard_doi": "10.7910/DVN/859D1N",
+      "ciesin:source_dataset_id": "C3550190668-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278778-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "earthquake-total-economic-loss-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-earthquake-total-economic-loss-risk-deciles/earthquake-total-economic-loss.png",
+      "type": "image/png",
+      "title": "gdpgagdp.zip",
+      "description": "Global map in PNG format from the Global Earthquake Total Economic Loss Risk Deciles data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TX3C9F",
+      "ciesin:harvard_doi": "10.7910/DVN/859D1N",
+      "ciesin:source_dataset_id": "C3550190668-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278778-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "earthquake-total-economic-loss-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-earthquake-total-economic-loss-risk-deciles/earthquake-total-economic-loss-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "gdpgagdp.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TX3C9F",
+      "ciesin:harvard_doi": "10.7910/DVN/859D1N",
+      "ciesin:source_dataset_id": "C3550190668-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278778-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "gdpgagdp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787132",
+      "type": "application/zip",
+      "title": "gdpgagdp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 486127,
+      "checksum:md5": "91e0a69277cc59a92f2b5ec728b1fc58",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T17:15:46Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TX3C9F",
+      "ciesin:harvard_doi": "10.7910/DVN/859D1N",
+      "ciesin:source_dataset_id": "11646163",
+      "ciesin:source_file_id": "11787132",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

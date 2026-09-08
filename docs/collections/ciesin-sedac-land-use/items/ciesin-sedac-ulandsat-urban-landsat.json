@@ -1,0 +1,1833 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-ulandsat-urban-landsat",
+  "collection": "ciesin-sedac-land-use",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -55.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -55.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Urban Landsat: Cities from Space",
+    "description": "The Urban Landsat: Cities from Space data set contains images for 66 urban areas and the raw, underlying data for 28 of these places. Each image shows a Landsat false color composite in UTM projection. The R/G/B layers correspond to TM/ETM+ bands 7/4/2. Each pixel is 30x30 meters in area and most images are 30x30 km in area. A 2% linear stretch has been applied to the images. The Landsat data files contain six reflected bands of calibrated exoatmospheric reflectance stored in ENVI band sequential (BSQ) format. Geographic coordinates are included in the header files. The data files contain 1000x1000x6 4 byte floating point numbers as indicated in the header files.",
+    "datetime": "2006-12-31T00:00:00Z",
+    "start_datetime": "1999-01-01T00:00:00.000Z",
+    "end_datetime": "2003-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Afghanistan",
+      "Austria",
+      "Brazil",
+      "Canada",
+      "China",
+      "Country",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > HUMAN SETTLEMENTS > URBAN AREAS",
+      "Earth Science",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Haiti",
+      "Human Dimensions",
+      "Human Settlements",
+      "Hungary",
+      "Imagery/Base Maps/Earth Cover",
+      "India",
+      "Land Use",
+      "Lebanon",
+      "Nepal",
+      "Nigeria",
+      "North Korea",
+      "Remote Sensing",
+      "Russia",
+      "Syria",
+      "Taiwan",
+      "United States of America",
+      "Urban",
+      "Urban Areas",
+      "Vietnam"
+    ],
+    "sci:doi": "10.7927/H4SQ8XB1",
+    "ciesin:category": "Land Use",
+    "ciesin:tags": "Land Use, Remote Sensing, Urban, Country, Imagery/Base Maps/Earth Cover, Earth Science, Human Dimensions, Human Settlements, Urban Areas",
+    "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+    "ciesin:sedac_doi": "10.7927/H4SQ8XB1",
+    "ciesin:purpose": "To serve a wide user community by providing composite Landsat images and raw data for urban areas that can be used in interdisciplinary studies of remote sensing and the environment.",
+    "ciesin:supplemental_info": "Further information is available from the Landsat Data Users Handbook. The Landsat data files (w/o extensions) are in binary format that should be readable by many different software packages. The header files (.hdr) contain the geographic coordinates and pixel dimensions in ENVI format. Storing the header information in a separate file allows many different packages to share the same data file, thereby saving considerable storage space.The data files are band sequential (BSQ) 4 byte floating point stored as row, column and band. Knowing the dimensions, bit depth and order is all that is necessary to open the binary file.",
+    "ciesin:data_format": "raster, map; journal article",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\ulandsat-cities-from-space.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_missing",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4SQ8XB1",
+      "type": "text/html",
+      "title": "H4SQ8XB1"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1080/01431160310001654950",
+      "type": "text/html",
+      "title": "01431160310001654950"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ulandsat/ulandsat-cities-from-space/atlanta-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "atlanta-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ulandsat-cities-from-space/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ulandsat-cities-from-space/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4SQ8XB1",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-ulandsat-urban-landsat.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "lagos-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/lagos.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lagos.zip",
+      "description": "Lagos, Nigeria Landsat image as of 2/6/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419879-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4sq8xb1": {
+      "href": "https://doi.org/10.7927/H4SQ8XB1",
+      "type": "application/octet-stream",
+      "title": "lagos.zip",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419879-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lagos-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/lagos.pdf",
+      "type": "application/pdf",
+      "title": "lagos.zip",
+      "description": "Lagos, Nigeria map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419879-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lagos-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/lagos.png",
+      "type": "image/png",
+      "title": "lagos.zip",
+      "description": "Lagos, Nigeria map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419879-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lagos-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/lagos-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lagos.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419879-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "tianjin-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/tianjin.zip",
+      "type": "application/x-zip-compressed",
+      "title": "tianjin.zip",
+      "description": "Tianjin, China Landsat image as of 3/6/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419896-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "tianjin-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/tianjin.pdf",
+      "type": "application/pdf",
+      "title": "tianjin.zip",
+      "description": "Tianjin, China map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419896-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "tianjin-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/tianjin.png",
+      "type": "image/png",
+      "title": "tianjin.zip",
+      "description": "Tianjin, China map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419896-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "tianjin-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/tianjin-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "tianjin.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419896-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "st-petersburg-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/st-petersburg.zip",
+      "type": "application/x-zip-compressed",
+      "title": "st-petersburg.zip",
+      "description": "St. Petersburg, Russia Landsat image as of 4/25/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419917-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "st-petersburg-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/st-petersburg.pdf",
+      "type": "application/pdf",
+      "title": "st-petersburg.zip",
+      "description": "St. Petersburg, Russia map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419917-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "st-petersburg-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/st-petersburg.png",
+      "type": "image/png",
+      "title": "st-petersburg.zip",
+      "description": "St. Petersburg, Russia map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419917-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "st-petersburg-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/st-petersburg-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "st-petersburg.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419917-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "pyongyang-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/pyongyang.zip",
+      "type": "application/x-zip-compressed",
+      "title": "pyongyang.zip",
+      "description": "Pyongyang, North Korea Landsat image as of 5/6/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419931-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "pyongyang-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/pyongyang.pdf",
+      "type": "application/pdf",
+      "title": "pyongyang.zip",
+      "description": "Pyongyang, North Korea map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419931-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "pyongyang-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/pyongyang.png",
+      "type": "image/png",
+      "title": "pyongyang.zip",
+      "description": "Pyongyang, North Korea map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419931-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "pyongyang-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/pyongyang-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "pyongyang.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419931-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "sao-paulo-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/sao-paulo.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sao-paulo.zip",
+      "description": "Sau Paulo, Brazil Landsat image as of 6/17/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419944-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sao-paulo-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/sao-paulo.pdf",
+      "type": "application/pdf",
+      "title": "sao-paulo.zip",
+      "description": "Sau Paulo, Brazil map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419944-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sao-paulo-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/sao-paulo.png",
+      "type": "image/png",
+      "title": "sao-paulo.zip",
+      "description": "Sau Paulo, Brazil map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419944-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sao-paulo-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/sao-paulo-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sao-paulo.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419944-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "chicago-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/chicago.zip",
+      "type": "application/x-zip-compressed",
+      "title": "chicago.zip",
+      "description": "Chicago, Illinois Landsat image as of 7/2/2001 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419960-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "chicago-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/chicago.pdf",
+      "type": "application/pdf",
+      "title": "chicago.zip",
+      "description": "Chicago, Illinois map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419960-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "chicago-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/chicago.png",
+      "type": "image/png",
+      "title": "chicago.zip",
+      "description": "Chicago, Illinois map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419960-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "chicago-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/chicago-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "chicago.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419960-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "san-francisco-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/san-francisco.zip",
+      "type": "application/x-zip-compressed",
+      "title": "san-francisco.zip",
+      "description": "San Francisco, California Landsat image as of 7/7/1999 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419980-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "san-francisco-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/san-francisco.pdf",
+      "type": "application/pdf",
+      "title": "san-francisco.zip",
+      "description": "San Francisco, California map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419980-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "san-francisco-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/san-francisco.png",
+      "type": "image/png",
+      "title": "san-francisco.zip",
+      "description": "San Francisco, California map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419980-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "san-francisco-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/san-francisco-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "san-francisco.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419980-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "calgary-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/calgary.zip",
+      "type": "application/x-zip-compressed",
+      "title": "calgary.zip",
+      "description": "Calgary, Canada Landsat image as of 7/9/1999 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419988-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "calgary-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/calgary.pdf",
+      "type": "application/pdf",
+      "title": "calgary.zip",
+      "description": "Calgary, Canada map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419988-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "calgary-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/calgary.png",
+      "type": "image/png",
+      "title": "calgary.zip",
+      "description": "Calgary, Canada map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419988-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "calgary-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/calgary-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "calgary.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419988-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "santo-domingo-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/santo-domingo.zip",
+      "type": "application/x-zip-compressed",
+      "title": "santo-domingo.zip",
+      "description": "Santo Domingo, Dominican Republic Landsat image as of 9/22/1999 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419991-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "santo-domingo-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/santo-domingo.pdf",
+      "type": "application/pdf",
+      "title": "santo-domingo.zip",
+      "description": "Santo Domingo, Dominican Republic map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419991-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "santo-domingo-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/santo-domingo.png",
+      "type": "image/png",
+      "title": "santo-domingo.zip",
+      "description": "Santo Domingo, Dominican Republic map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419991-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "santo-domingo-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/santo-domingo-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "santo-domingo.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419991-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "kabul-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/kabul.zip",
+      "type": "application/x-zip-compressed",
+      "title": "kabul.zip",
+      "description": "Kabul, Afghanistan Landsat image as of 10/31/2001 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419999-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "kabul-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/kabul.pdf",
+      "type": "application/pdf",
+      "title": "kabul.zip",
+      "description": "Kabul, Afghanistan map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419999-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "kabul-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/kabul.png",
+      "type": "image/png",
+      "title": "kabul.zip",
+      "description": "Kabul, Afghanistan map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419999-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "kabul-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/kabul-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "kabul.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419999-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "san-salvador-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/san-salvador.zip",
+      "type": "application/x-zip-compressed",
+      "title": "san-salvador.zip",
+      "description": "San Salvador, El Salvador Landsat image as of 12/31/1999 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552420002-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "san-salvador-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/san-salvador.pdf",
+      "type": "application/pdf",
+      "title": "san-salvador.zip",
+      "description": "San Salvador, El Salvador map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552420002-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "san-salvador-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/san-salvador.png",
+      "type": "image/png",
+      "title": "san-salvador.zip",
+      "description": "San Salvador, El Salvador map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552420002-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "san-salvador-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/san-salvador-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "san-salvador.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552420002-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "miami-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/miami.zip",
+      "type": "application/x-zip-compressed",
+      "title": "miami.zip",
+      "description": "Miami, Florida Landsat image as of 5/25/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501633-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "miami-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/miami.pdf",
+      "type": "application/pdf",
+      "title": "miami.zip",
+      "description": "Miami, Florida map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501633-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "miami-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/miami.png",
+      "type": "image/png",
+      "title": "miami.zip",
+      "description": "Miami, Florida map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501633-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "miami-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/miami-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "miami.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501633-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "shanghai-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/shanghai.zip",
+      "type": "application/x-zip-compressed",
+      "title": "shanghai.zip",
+      "description": "Shanghai, China Landsat image as of 6/2/1999 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501637-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "shanghai-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/shanghai.pdf",
+      "type": "application/pdf",
+      "title": "shanghai.zip",
+      "description": "Shanghai, China map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501637-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "shanghai-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/shanghai.png",
+      "type": "image/png",
+      "title": "shanghai.zip",
+      "description": "Shanghai, China map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501637-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "shanghai-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/shanghai-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "shanghai.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501637-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "budapest-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/budapest.zip",
+      "type": "application/x-zip-compressed",
+      "title": "budapest.zip",
+      "description": "Budapest, Hungary Landsat image as of 6/8/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501638-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "budapest-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/budapest.pdf",
+      "type": "application/pdf",
+      "title": "budapest.zip",
+      "description": "Budapest, Hungary map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501638-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "budapest-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/budapest.png",
+      "type": "image/png",
+      "title": "budapest.zip",
+      "description": "Budapest, Hungary map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501638-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "budapest-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/budapest-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "budapest.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501638-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "beirut-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/beirut.zip",
+      "type": "application/x-zip-compressed",
+      "title": "beirut.zip",
+      "description": "Beirut, Lebanon Landsat image as of 6/22/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501639-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "beirut-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/beirut.pdf",
+      "type": "application/pdf",
+      "title": "beirut.zip",
+      "description": "Beirut, Lebanon map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501639-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "beirut-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/beirut.png",
+      "type": "image/png",
+      "title": "beirut.zip",
+      "description": "Beirut, Lebanon map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501639-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "beirut-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/beirut-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "beirut.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501639-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "vancouver-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/vancouver.zip",
+      "type": "application/x-zip-compressed",
+      "title": "vancouver.zip",
+      "description": "Vancouver, Canada Landsat image as of 6/28/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501642-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "vancouver-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/vancouver.pdf",
+      "type": "application/pdf",
+      "title": "vancouver.zip",
+      "description": "Vancouver, Canada map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501642-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "vancouver-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/vancouver.png",
+      "type": "image/png",
+      "title": "vancouver.zip",
+      "description": "Vancouver, Canada map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501642-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "vancouver-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/vancouver-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "vancouver.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501642-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "port-au-prince-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/port-au-prince.zip",
+      "type": "application/x-zip-compressed",
+      "title": "port-au-prince.zip",
+      "description": "Port-au-Prince, Haiti Landsat image as of 7/2/1999 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602812-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "port-au-prince-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/port-au-prince.pdf",
+      "type": "application/pdf",
+      "title": "port-au-prince.zip",
+      "description": "Port-au-Prince, Haiti map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602812-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "port-au-prince-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/port-au-prince.png",
+      "type": "image/png",
+      "title": "port-au-prince.zip",
+      "description": "Port-au-Prince, Haiti map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602812-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "port-au-prince-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/port-au-prince-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "port-au-prince.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602812-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "vienna-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/vienna.zip",
+      "type": "application/x-zip-compressed",
+      "title": "vienna.zip",
+      "description": "Vienna, Austria Landsat image as of 8/2/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602817-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "vienna-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/vienna.pdf",
+      "type": "application/pdf",
+      "title": "vienna.zip",
+      "description": "Vienna, Austria map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602817-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "vienna-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/vienna.png",
+      "type": "image/png",
+      "title": "vienna.zip",
+      "description": "Vienna, Austria map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602817-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "vienna-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/vienna-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "vienna.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602817-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "taipei-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/taipei.zip",
+      "type": "application/x-zip-compressed",
+      "title": "taipei.zip",
+      "description": "Taipei, Taiwan Landsat image as of 8/8/1999 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602839-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "taipei-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/taipei.pdf",
+      "type": "application/pdf",
+      "title": "taipei.zip",
+      "description": "Taipei, Taiwan map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602839-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "taipei-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/taipei.png",
+      "type": "image/png",
+      "title": "taipei.zip",
+      "description": "Taipei, Taiwan map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602839-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "taipei-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/taipei-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "taipei.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602839-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "cairo-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/cairo.zip",
+      "type": "application/x-zip-compressed",
+      "title": "cairo.zip",
+      "description": "Cairo, Egypt Landsat image as of 8/23/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602857-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "cairo-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/cairo.pdf",
+      "type": "application/pdf",
+      "title": "cairo.zip",
+      "description": "Cairo, Egypt map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602857-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "cairo-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/cairo.png",
+      "type": "image/png",
+      "title": "cairo.zip",
+      "description": "Cairo, Egypt map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602857-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "cairo-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/cairo-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "cairo.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602857-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "guangzhou-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/guangzhou.zip",
+      "type": "application/x-zip-compressed",
+      "title": "guangzhou.zip",
+      "description": "Guangzo, China Landsat image as of 9/14/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602861-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "guangzhou-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/guangzhou.pdf",
+      "type": "application/pdf",
+      "title": "guangzhou.zip",
+      "description": "Guangzo, China map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602861-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "guangzhou-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/guangzhou.png",
+      "type": "image/png",
+      "title": "guangzhou.zip",
+      "description": "Guangzo, China map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602861-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "guangzhou-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/guangzhou-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "guangzhou.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602861-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "new-york-city-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/new-york-city.zip",
+      "type": "application/x-zip-compressed",
+      "title": "nyc.zip",
+      "description": "New York City, New York Landsat image as of 9/23/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602878-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "new-york-city-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/new-york-city.pdf",
+      "type": "application/pdf",
+      "title": "nyc.zip",
+      "description": "New York City, New York map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602878-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "new-york-city-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/new-york-city.png",
+      "type": "image/png",
+      "title": "nyc.zip",
+      "description": "New York City, New York map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602878-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "new-york-city-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/new-york-city-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "nyc.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602878-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "quito-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/quito.zip",
+      "type": "application/x-zip-compressed",
+      "title": "quito.zip",
+      "description": "Quito, Ecuador Landsat image as of 11/14/1999 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602884-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "quito-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/quito.pdf",
+      "type": "application/pdf",
+      "title": "quito.zip",
+      "description": "Quito, Ecuador map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602884-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "quito-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/quito.png",
+      "type": "image/png",
+      "title": "quito.zip",
+      "description": "Quito, Ecuador map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602884-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "quito-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/quito-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "quito.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602884-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "calcutta-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/calcutta.zip",
+      "type": "application/x-zip-compressed",
+      "title": "calcutta.zip",
+      "description": "Calcutta, India Landsat image as of 11/15/1999 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602896-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "calcutta-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/calcutta.pdf",
+      "type": "application/pdf",
+      "title": "calcutta.zip",
+      "description": "Calcutta, India map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602896-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "calcutta-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/calcutta.png",
+      "type": "image/png",
+      "title": "calcutta.zip",
+      "description": "Calcutta, India map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602896-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "calcutta-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/calcutta-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "calcutta.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602896-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "hanoi-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/hanoi.zip",
+      "type": "application/x-zip-compressed",
+      "title": "hanoi.zip",
+      "description": "Hanoi, Vietnam Landsat image as of 12/20/1999 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602920-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "hanoi-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/hanoi.pdf",
+      "type": "application/pdf",
+      "title": "hanoi.zip",
+      "description": "Hanoi, Vietnam map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602920-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "hanoi-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/hanoi.png",
+      "type": "image/png",
+      "title": "hanoi.zip",
+      "description": "Hanoi, Vietnam map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602920-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "hanoi-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/hanoi-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "hanoi.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552602920-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "damascus-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/damascus.zip",
+      "type": "application/x-zip-compressed",
+      "title": "damascus.zip",
+      "description": "Damascus, Syria Landsat image as of 6/22/2000 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607966-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "damascus-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/damascus.pdf",
+      "type": "application/pdf",
+      "title": "damascus.zip",
+      "description": "Damascus, Syria map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607966-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "damascus-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/damascus.png",
+      "type": "image/png",
+      "title": "damascus.zip",
+      "description": "Damascus, Syria map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607966-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "damascus-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/damascus-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "damascus.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607966-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "bangalore-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/bangalore.zip",
+      "type": "application/x-zip-compressed",
+      "title": "bangalore.zip",
+      "description": "Bangalore, India Landsat image as of 10/14/2001 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607970-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "bangalore-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/bangalore.pdf",
+      "type": "application/pdf",
+      "title": "bangalore.zip",
+      "description": "Bangalore, India map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607970-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "bangalore-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/bangalore.png",
+      "type": "image/png",
+      "title": "bangalore.zip",
+      "description": "Bangalore, India map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607970-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "bangalore-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/bangalore-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "bangalore.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607970-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "kathmandu-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ulandsat/ulandsat-cities-from-space/kathmandu.zip",
+      "type": "application/x-zip-compressed",
+      "title": "kathmandu.zip",
+      "description": "Kathmandu, Nepal Landsat image as of 11/4/1999 from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607972-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "kathmandu-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/kathmandu.pdf",
+      "type": "application/pdf",
+      "title": "kathmandu.zip",
+      "description": "Kathmandu, Nepal map in PDF format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607972-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "kathmandu-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/kathmandu.png",
+      "type": "image/png",
+      "title": "kathmandu.zip",
+      "description": "Kathmandu, Nepal map in PNG format from the Urban Landsat: Cities from Space data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607972-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "kathmandu-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ulandsat/ulandsat-cities-from-space/kathmandu-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "kathmandu.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4SQ8XB1",
+      "ciesin:source_dataset_id": "C3540929138-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607972-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    }
+  }
+}

@@ -1,0 +1,1682 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-lulc-dpi",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -60.0
+        ],
+        [
+          180.0,
+          -60.0
+        ],
+        [
+          180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          -60.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -60.0,
+    180.0,
+    85.0
+  ],
+  "properties": {
+    "title": "Global Development Potential Indices",
+    "description": "The Global Development Potential Indices (DPIs) data set contains thirteen sector-level DPIs for sectors related to renewable energy (concentrated solar power, photovoltaic solar, wind, hydropower), fossil fuels (coal, conventional and unconventional oil and gas), mining (metallic, non-metallic), and agriculture (crop, biofuels expansion). The DPI for each sector represents land suitability that accounts for both resource potential and development feasibility. Each DPI is a 1-km spatially-explicit, global land suitability map that has been validated using locations of current and planned development, and examined for uncertainty and sensitivity. The DPIs can be used to identify lands with current favorable economic and physical conditions for individual sector expansion and assist in planning for sector and cumulative development across the globe.",
+    "datetime": "2020-03-26T00:00:00Z",
+    "start_datetime": "2016-01-01T00:00:00.000Z",
+    "end_datetime": "2016-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Agriculture",
+      "Climate",
+      "Conservation",
+      "EARTH SCIENCE > HUMAN DIMENTSIONS > ENVIRONMENTAL IMPACTS",
+      "Earth Science",
+      "Environmental Impacts",
+      "Geoscientific Information",
+      "Global",
+      "Governance",
+      "Hazards",
+      "Health",
+      "Human Dimentsions",
+      "Infrastructure",
+      "Land Use",
+      "Population",
+      "Poverty",
+      "Remote Sensing",
+      "Sustainability",
+      "Urban"
+    ],
+    "sci:doi": "10.7927/k9t6-gh59",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Agriculture, Climate, Conservation, Governance, Hazards, Health, Infrastructure, Land Use, Population, Poverty, Remote Sensing, Sustainability, Urban, Global, Geoscientific Information, Earth Science, Human Dimentsions, Environmental Impacts",
+    "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+    "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+    "ciesin:sedac_doi": "10.7927/k9t6-gh59",
+    "ciesin:purpose": "To provide spatially-explicit data that relatively rank global land suitability referred to as Development Potential Indices (DPIs) for 13 sectors related to renewable energy, fossil fuels, mining and agriculture as an aid to conservation priority setting.",
+    "ciesin:data_format": "raster, map, map service; journal article",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\lulc-development-potential-indices.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/k9t6-gh59",
+      "type": "text/html",
+      "title": "k9t6-gh59"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1038/s41597-019-0084-8",
+      "type": "text/html",
+      "title": "s41597-019-0084-8"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-bio-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-bio-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-development-potential-indices/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-development-potential-indices/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-development-potential-indices/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/k9t6-gh59",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-lulc-dpi.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "lulc-development-potential-indices-coal-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-coal-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-coal-geographic-geotiff.zip",
+      "description": "Global Coal Mining data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462413-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "k9t6-gh59": {
+      "href": "https://doi.org/10.7927/k9t6-gh59",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-coal-geographic-geotiff.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462413-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-coal-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-coal.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-potential-indices-coal-geographic-geotiff.zip",
+      "description": "Global Coal Mining map for the year 2016 in PDF format from the Global Development Potential Indicesdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462413-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-coal-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-coal.png",
+      "type": "image/png",
+      "title": "lulc-development-potential-indices-coal-geographic-geotiff.zip",
+      "description": "Global Coal Mining map for the year 2002-2016 in PNG format from the Global Development Potential Indices data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462413-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-coal-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-coal-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-coal-geographic-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462413-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-potential-indices-unconvgas-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-unconvgas-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-unconvgas-geographic-geotiff.zip",
+      "description": "Global Unconventional Gas data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462414-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-unconvgas-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-unconvgas.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-potential-indices-unconvgas-geographic-geotiff.zip",
+      "description": "Global Unconventional Gas map for the year 2016 in PDF format from the Global Development Potential Indicesdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462414-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-unconvgas-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-unconvgas.png",
+      "type": "image/png",
+      "title": "lulc-development-potential-indices-unconvgas-geographic-geotiff.zip",
+      "description": "Global Unconventional Gas map for the year 2002-2016 in PNG format from the Global Development Potential Indices data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462414-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-unconvgas-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-unconvgas-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-unconvgas-geographic-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462414-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-potential-indices-convoil-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-convoil-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-convoil-geographic-geotiff.zip",
+      "description": "Global Conventional Oil data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462415-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-convoil-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-convoil.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-potential-indices-convoil-geographic-geotiff.zip",
+      "description": "Global Conventional Oil map for the year 2016 in PDF format from the Global Development Potential Indicesdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462415-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-convoil-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-convoil.png",
+      "type": "image/png",
+      "title": "lulc-development-potential-indices-convoil-geographic-geotiff.zip",
+      "description": "Global Conventional Oil map for the year 2002-2016 in PNG format from the Global Development Potential Indices data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462415-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-convoil-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-convoil-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-convoil-geographic-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462415-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-potential-indices-hydro-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-hydro-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-hydro-geographic-geotiff.zip",
+      "description": "Global Hydropower data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462418-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-hydro-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-hydro-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-hydro-mollweide-geotiff.zip",
+      "description": "Global Hydropower data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462420-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-nmm-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-nmm-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-nmm-mollweide-geotiff.zip",
+      "description": "Global Non-metallic Mining data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462421-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-nmm-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-nmm.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-potential-indices-nmm-mollweide-geotiff.zip",
+      "description": "Global Non-metallic Mining map for the year 2016 in PDF format from the Global Development Potential Indicesdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462421-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-nmm-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-nmm.png",
+      "type": "image/png",
+      "title": "lulc-development-potential-indices-nmm-mollweide-geotiff.zip",
+      "description": "Global Non-metallic Mining map for the year 2002-2016 in PNG format from the Global Development Potential Indices data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462421-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-nmm-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-nmm-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-nmm-mollweide-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462421-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-potential-indices-convoil-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-convoil-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-convoil-mollweide-geotiff.zip",
+      "description": "Global Conventional Oil data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462422-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-pv-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-pv-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-pv-mollweide-geotiff.zip",
+      "description": "Global Photovoltaic Solar Power data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462423-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-pv-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-pv.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-potential-indices-pv-mollweide-geotiff.zip",
+      "description": "Global Photovoltaic Solar Power map for the year 2016 in PDF format from the Global Development Potential Indicesdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462423-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-pv-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-pv.png",
+      "type": "image/png",
+      "title": "lulc-development-potential-indices-pv-mollweide-geotiff.zip",
+      "description": "Global Photovoltaic Solar Power map for the year 2002-2016 in PNG format from the Global Development Potential Indices data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462423-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-pv-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-pv-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-pv-mollweide-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462423-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-potential-indices-wind-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-wind-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-wind-geographic-geotiff.zip",
+      "description": "Global Wind data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462424-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-wind-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-wind.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-potential-indices-wind-geographic-geotiff.zip",
+      "description": "Global Wind map for the year 2016 in PDF format from the Global Development Potential Indicesdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462424-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-wind-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-wind.png",
+      "type": "image/png",
+      "title": "lulc-development-potential-indices-wind-geographic-geotiff.zip",
+      "description": "Global Wind map for the year 2002-2016 in PNG format from the Global Development Potential Indices data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462424-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-wind-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-wind-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-wind-geographic-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462424-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-potential-indices-mm-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-mm-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-mm-mollweide-geotiff.zip",
+      "description": "Global Metallic Mining data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462425-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-mm-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-mm.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-potential-indices-mm-mollweide-geotiff.zip",
+      "description": "Global Metallic Mining map for the year 2016 in PDF format from the Global Development Potential Indicesdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462425-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-mm-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-mm.png",
+      "type": "image/png",
+      "title": "lulc-development-potential-indices-mm-mollweide-geotiff.zip",
+      "description": "Global Metallic Mining map for the year 2002-2016 in PNG format from the Global Development Potential Indices data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462425-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-mm-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-mm-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-mm-mollweide-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462425-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-potential-indices-bio-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-bio-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-bio-geographic-geotiff.zip",
+      "description": "Global Biofuels data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462429-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-bio-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-bio.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-potential-indices-bio-geographic-geotiff.zip",
+      "description": "Global Biofuels map for the year 2016 in PDF format from the Global Development Potential Indicesdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462429-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-bio-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-bio.png",
+      "type": "image/png",
+      "title": "lulc-development-potential-indices-bio-geographic-geotiff.zip",
+      "description": "Global Biofuels map for the year 2002-2016 in PNG format from the Global Development Potential Indices data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462429-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-bio-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-bio-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-bio-geographic-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462429-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-potential-indices-crop-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-crop-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-crop-geographic-geotiff.zip",
+      "description": "Global Crops data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462430-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-crop-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-crop.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-potential-indices-crop-geographic-geotiff.zip",
+      "description": "Global Crops map for the year 2016 in PDF format from the Global Development Potential Indicesdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462430-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-crop-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-crop.png",
+      "type": "image/png",
+      "title": "lulc-development-potential-indices-crop-geographic-geotiff.zip",
+      "description": "Global Crops map for the year 2002-2016 in PNG format from the Global Development Potential Indices data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462430-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-crop-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-crop-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-crop-geographic-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462430-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-potential-indices-convgas-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-convgas-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-convgas-mollweide-geotiff.zip",
+      "description": "Global Conventional Gas data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462432-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-convgas-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-convgas.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-potential-indices-convgas-mollweide-geotiff.zip",
+      "description": "Global Conventional Gas map for the year 2016 in PDF format from the Global Development Potential Indicesdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462432-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-convgas-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-convgas.png",
+      "type": "image/png",
+      "title": "lulc-development-potential-indices-convgas-mollweide-geotiff.zip",
+      "description": "Global Conventional Gas map for the year 2002-2016 in PNG format from the Global Development Potential Indices data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462432-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-convgas-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-convgas-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-convgas-mollweide-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462432-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-potential-indices-convgas-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-convgas-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-convgas-geographic-geotiff.zip",
+      "description": "Global Conventional Gas data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462434-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-mm-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-mm-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-mm-geographic-geotiff.zip",
+      "description": "Global Metallic Mining data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462437-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-nmm-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-nmm-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-nmm-geographic-geotiff.zip",
+      "description": "Global Non-metallic Mining data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462442-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-unconvoil-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-unconvoil-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-unconvoil-geographic-geotiff.zip",
+      "description": "Global Unconventional Oil data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462446-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-unconvoil-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-unconvoil.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-potential-indices-unconvoil-geographic-geotiff.zip",
+      "description": "Global Unconventional Oil map for the year 2016 in PDF format from the Global Development Potential Indicesdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462446-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-unconvoil-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-unconvoil.png",
+      "type": "image/png",
+      "title": "lulc-development-potential-indices-unconvoil-geographic-geotiff.zip",
+      "description": "Global Unconventional Oil map for the year 2002-2016 in PNG format from the Global Development Potential Indices data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462446-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-unconvoil-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-unconvoil-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-unconvoil-geographic-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462446-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-potential-indices-csp-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-csp-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-csp-mollweide-geotiff.zip",
+      "description": "Global Concentrated Solar Power data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462452-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-csp-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-csp.pdf",
+      "type": "application/pdf",
+      "title": "lulc-development-potential-indices-csp-mollweide-geotiff.zip",
+      "description": "Global Concentrated Solar Power map for the year 2016 in PDF format from the Global Development Potential Indicesdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462452-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-csp-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-csp.png",
+      "type": "image/png",
+      "title": "lulc-development-potential-indices-csp-mollweide-geotiff.zip",
+      "description": "Global Concentrated Solar Power map for the year 2002-2016 in PNG format from the Global Development Potential Indices data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462452-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "lulc-development-potential-indices-csp-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-csp-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-csp-mollweide-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462452-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "lulc-development-potential-indices-unconvoil-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-unconvoil-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-unconvoil-mollweide-geotiff.zip",
+      "description": "Global Unconventional Oil data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462455-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-csp-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-csp-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-csp-geographic-geotiff.zip",
+      "description": "Global Concentrated Solar Power data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462458-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-unconvgas-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-unconvgas-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-unconvgas-mollweide-geotiff.zip",
+      "description": "Global Unconventional Gas data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462460-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-crop-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-crop-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-crop-mollweide-geotiff.zip",
+      "description": "Global Crops data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462463-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-pv-geographic-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-pv-geographic-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-pv-geographic-geotiff.zip",
+      "description": "Global Photovoltaic Solar Power data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462466-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-coal-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-coal-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-coal-mollweide-geotiff.zip",
+      "description": "Global Coal Mining data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462468-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-wind-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-wind-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-wind-mollweide-geotiff.zip",
+      "description": "Global Wind data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462469-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-bio-mollweide-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lulc/lulc-development-potential-indices/lulc-development-potential-indices-bio-mollweide-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "lulc-development-potential-indices-bio-mollweide-geotiff.zip",
+      "description": "Global Biofuels data in GeoTIFF format for the year 2016 from the Global Development Potential Indices data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "C3550189999-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462471-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lulc-development-potential-indices-bio-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11784467",
+      "type": "application/zip",
+      "title": "lulc-development-potential-indices-bio-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 266758455,
+      "checksum:md5": "585219dac2315bb8353aba277f831234",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11784467",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lulc-development-potential-indices-bio-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786291",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-bio-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 165585407,
+      "checksum:md5": "d9b297cd3e4d45b478436ed01d7fb36b",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786291",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-coal-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11784468",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-coal-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 91717423,
+      "checksum:md5": "2b1644a05409db02e9e9fcf6c6073312",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11784468",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-coal-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786289",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-coal-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 36790115,
+      "checksum:md5": "6fd86bca919d20516ebe1e30e748c0a9",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786289",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-convgas-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11784466",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-convgas-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 266417661,
+      "checksum:md5": "39795b781dfd8bded7a0654a25cce8b6",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11784466",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-convgas-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786797",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-convgas-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 113460941,
+      "checksum:md5": "45599df14e53f1e2cacd8617cf8bb1f6",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786797",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-convoil-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11784464",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-convoil-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 256363183,
+      "checksum:md5": "facbe031fdddc54e3e367526fc2ad0a2",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11784464",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-convoil-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786795",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-convoil-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 109210293,
+      "checksum:md5": "4d2390a4d66dde570dc4401f60566a80",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786795",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-crop-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11784471",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-crop-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 469437978,
+      "checksum:md5": "dd10896a5fd8aa6d89e3cf4c59c0d9bc",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11784471",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-crop-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786798",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-crop-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 184012229,
+      "checksum:md5": "21f4f050bc9acfa7a42546dfabe4455d",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786798",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-csp-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11784465",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-csp-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 425799336,
+      "checksum:md5": "4b2de6812d599b16afca7b0ca6701619",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11784465",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-csp-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786293",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-csp-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 167798522,
+      "checksum:md5": "6a0a3b222daac87a3d2957f1b153378a",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786293",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-hydro-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11784473",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-hydro-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 19398469,
+      "checksum:md5": "b7c7cbafc3b25a66d87b522498ded415",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11784473",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-hydro-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786794",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-hydro-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7069746,
+      "checksum:md5": "64b40d4b1264bf38856dfdf06310498c",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786794",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-mm-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11784475",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-mm-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 258960292,
+      "checksum:md5": "5152bc7cd429fe979c1ff264d8cad3f9",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11784475",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-mm-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786796",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-mm-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 107946540,
+      "checksum:md5": "0a579473a64da7b76adac7755e66c9a5",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786796",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-nmm-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11784474",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-nmm-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 77027271,
+      "checksum:md5": "2b3b11f63dc46c6a71cd8e4d945b6fc9",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11784474",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-nmm-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786802",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-nmm-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 31548492,
+      "checksum:md5": "7a09636253df255d07ec828d37511948",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786802",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-pv-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787093",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-pv-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 764131769,
+      "checksum:md5": "9f8d87ddc82d016d8c37cc589d63a082",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11787093",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-pv-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787094",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-pv-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 323962546,
+      "checksum:md5": "129d5be02c285e69ee1bbe77b6ff3eba",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11787094",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-unconvgas-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11784472",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-unconvgas-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40713400,
+      "checksum:md5": "a0b8eca4e2d7bdc9311ec60752f2e7dd",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11784472",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-unconvgas-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786801",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-unconvgas-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 17836502,
+      "checksum:md5": "c71ff7b8b20e3c4a92b5db8a061bbd71",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786801",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-unconvoil-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786290",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-unconvoil-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16978927,
+      "checksum:md5": "de6317fdb419ee186faa0f0468f9c035",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786290",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-unconvoil-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786800",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-unconvoil-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7210163,
+      "checksum:md5": "dd499739da35403b81661d6f1f556e12",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786800",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-wind-geographic-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786292",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-wind-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 297112770,
+      "checksum:md5": "6ae2d68b9d497c5f0cb733b193fcbdc2",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786292",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    },
+    "lulc-development-potential-indices-wind-mollweide-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11786799",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-wind-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 118019419,
+      "checksum:md5": "005f1d5751d4bc76a441d5b7dd73b924",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T18:02:07Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/K9T6-GH59",
+      "ciesin:harvard_doi": "10.7910/DVN/YNXAOA",
+      "ciesin:source_dataset_id": "11646154",
+      "ciesin:source_file_id": "11786799",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    }
+  }
+}

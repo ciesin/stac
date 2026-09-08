@@ -1,0 +1,966 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-gpwv3-centroids",
+  "collection": "ciesin-sedac-boundaries",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -179.199552,
+          -54.751503
+        ],
+        [
+          179.848323,
+          -54.751503
+        ],
+        [
+          179.848323,
+          79.89196
+        ],
+        [
+          -179.199552,
+          79.89196
+        ],
+        [
+          -179.199552,
+          -54.751503
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -179.199552,
+    -54.751503,
+    179.848323,
+    79.89196
+  ],
+  "properties": {
+    "title": "Gridded Population of the World, Version 3 (GPWv3): Centroids",
+    "description": "The Gridded Population of the World, Version 3 (GPWv3): Centroids consists of estimates of human population counts and densities for the years 1990, 1995, 2000, 2005, 2010, and 2015 by administrative unit centroid location. The centroids are based on the 399,781 input administrative units used in GPWv3. In addition to population counts and variables, the centroids have associated administrative unit names and the land area of contained within the administrative unit. GPWv3 is produced by the Columbia University Center for International Earth Science Information Network (CIESIN) in collaboration with Centro Internacional de Agricultura Tropical (CIAT).",
+    "datetime": "2005-12-31T00:00:00Z",
+    "license": "other",
+    "keywords": [
+      "Administrative Divisions",
+      "Afghanistan",
+      "Africa",
+      "Albania",
+      "Algeria",
+      "American Samoa",
+      "Andorra",
+      "Angola",
+      "Anguilla",
+      "Antigua and Barbuda",
+      "Argentina",
+      "Armenia",
+      "Aruba",
+      "Asia",
+      "Australia",
+      "Austria",
+      "Azerbaijan",
+      "Bahamas",
+      "Bahrain",
+      "Bangladesh",
+      "Barbados",
+      "Belarus",
+      "Belgium",
+      "Belize",
+      "Benin",
+      "Bermuda",
+      "Bhutan",
+      "Bolivia",
+      "Bosnia and Herzegovina",
+      "Botswana",
+      "Boundaries",
+      "Brazil",
+      "British Virgin Islands",
+      "Brunei",
+      "Bulgaria",
+      "Burkina Faso",
+      "Burundi",
+      "Cambodia",
+      "Cameroon",
+      "Canada",
+      "Cape Verde",
+      "Cayman Islands",
+      "Central African Republic",
+      "Chad",
+      "Chile",
+      "China",
+      "Colombia",
+      "Comoros",
+      "Congo",
+      "Congo, Democratic",
+      "Continent",
+      "Cook Islands",
+      "Costa Rica",
+      "Cote D'Ivoire",
+      "Country",
+      "Croatia",
+      "Cuba",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "Djibouti",
+      "Dominica",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > BOUNDARIES > ADMINISTRATIVE DIVISIONS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION > POPULATION DENSITY",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION > POPULATION SIZE",
+      "Earth Science",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Equatorial Guinea",
+      "Eritrea",
+      "Estonia",
+      "Ethiopia",
+      "Europe",
+      "Faeroe Islands",
+      "Falkland Islands",
+      "Finland",
+      "Framework Data",
+      "France",
+      "French Guiana",
+      "French Polynesia",
+      "Gabon",
+      "Gambia",
+      "Georgia",
+      "Germany",
+      "Ghana",
+      "Gibraltar",
+      "Global",
+      "Greece",
+      "Greenland",
+      "Grenada",
+      "Guadeloupe",
+      "Guam",
+      "Guatemala",
+      "Guinea",
+      "Guinea-Bissau",
+      "Guyana",
+      "Haiti",
+      "Honduras",
+      "Hong Kong",
+      "Human Dimensions",
+      "Hungary",
+      "Iceland",
+      "India",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Jamaica",
+      "Japan",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kiribati",
+      "Kuwait",
+      "Kyrgyzstan",
+      "Laos",
+      "Latvia",
+      "Lebanon",
+      "Lesotho",
+      "Liberia",
+      "Libya",
+      "Liechtenstein",
+      "Lithuania",
+      "Luxembourg",
+      "Macau",
+      "Macedonia",
+      "Madagascar",
+      "Malawi",
+      "Malaysia",
+      "Maldives",
+      "Mali",
+      "Malta",
+      "Marshall Islands",
+      "Martinique",
+      "Mauritania",
+      "Mauritius",
+      "Mexico",
+      "Micronesia",
+      "Moldova",
+      "Monaco",
+      "Mongolia",
+      "Montserrat",
+      "Morocco",
+      "Mozambique",
+      "Myanmar",
+      "Namibia",
+      "Nauru",
+      "Nepal",
+      "Netherlands",
+      "Netherlands Antilles",
+      "New Caledonia",
+      "New Zealand",
+      "Nicaragua",
+      "Niger",
+      "Nigeria",
+      "North America",
+      "North Korea",
+      "Northern Mariana Islands",
+      "Norway",
+      "Oceania",
+      "Oman",
+      "Pakistan",
+      "Palau",
+      "Palestine",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Pitcairn Islands",
+      "Poland",
+      "Population",
+      "Population Density",
+      "Population Size",
+      "Portugal",
+      "Puerto Rico",
+      "Qatar",
+      "Reunion",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "Samoa",
+      "Sao Tome and Principe",
+      "Saudi Arabia",
+      "Senegal",
+      "Serbia and Montenegro",
+      "Seychelles",
+      "Sierra Leone",
+      "Singapore",
+      "Slovakia",
+      "Slovenia",
+      "Society",
+      "Solomon Islands",
+      "Somalia",
+      "South Africa",
+      "South America",
+      "South Korea",
+      "Spain",
+      "Sri Lanka",
+      "St Helena",
+      "St Kitts and Nevis",
+      "St Lucia",
+      "St Pierre and Miquelon",
+      "St Vincent and The Grenadines",
+      "Sudan",
+      "Suriname",
+      "Svalbard and Jan Mayen",
+      "Swaziland",
+      "Sweden",
+      "Switzerland",
+      "Syrian Arab Republic",
+      "Tajikistan",
+      "Tanzania",
+      "Thailand",
+      "Togo",
+      "Tonga",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Turkmenistan",
+      "Turks and Caicos Islands",
+      "Tuvalu",
+      "US Virgin Islands",
+      "Uganda",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Uruguay",
+      "Uzbekistan",
+      "Vanuatu",
+      "Venezuela",
+      "Vietnam",
+      "Wallis and Futuna Islands",
+      "Yemen",
+      "Yugoslavia",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "sci:doi": "10.7927/H4TT4NWQ",
+    "ciesin:category": "Boundaries",
+    "ciesin:tags": "Framework Data, Country, Continent, Global, Boundaries, Society, Earth Science, Human Dimensions, Population, Population Density, Administrative Divisions, Population Size",
+    "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+    "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+    "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+    "ciesin:purpose": "To provide a vector (point) version of the input administrative units used in GPWv3 for use in data integration.",
+    "ciesin:supplemental_info": "This is the production version of Gridded Population of the World, Version 3 (GPWv3). If you discover any errors or have any issues with the data, please let us know at ciesin.info@ciesin.columbia.edu.",
+    "ciesin:data_format": "vector, tabular, map service; raster, map, map service; map; vector, map service; raster, map service; vector; raster",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\gpw-v3-centroids.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4TT4NWQ",
+      "type": "text/html",
+      "title": "H4TT4NWQ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4XK8CG2",
+      "type": "text/html",
+      "title": "H4XK8CG2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4P26W1B",
+      "type": "text/html",
+      "title": "H4P26W1B"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4Q23X5Q",
+      "type": "text/html",
+      "title": "H4Q23X5Q"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4K935FC",
+      "type": "text/html",
+      "title": "H4K935FC"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4FJ2DQN",
+      "type": "text/html",
+      "title": "H4FJ2DQN"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H49W0CDN",
+      "type": "text/html",
+      "title": "H49W0CDN"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4639MPP",
+      "type": "text/html",
+      "title": "H4639MPP"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H42B8VZZ",
+      "type": "text/html",
+      "title": "H42B8VZZ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4ST7MRB",
+      "type": "text/html",
+      "title": "H4ST7MRB"
+    },
+    {
+      "rel": "related",
+      "href": "http://sedac.ciesin.columbia.edu/gpw/documentation.jsp",
+      "type": "text/html",
+      "title": "documentation.jsp"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/gpw-v3/gpw-v3-centroids/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v3-centroids/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v3-centroids/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4TT4NWQ",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-gpwv3-centroids.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "region-southamerica-file-gpwv3-data-centroids-type-csv": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_SouthAmerica_file_gpwv3_data_centroids_type_csv",
+      "type": "application/octet-stream",
+      "title": "sa_gpwv3_centroids_csv.zip",
+      "description": "South America circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504813-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4tt4nwq": {
+      "href": "https://doi.org/10.7927/H4TT4NWQ",
+      "type": "application/octet-stream",
+      "title": "sa_gpwv3_centroids_csv.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504813-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "region-global-file-gpwv3-data-centroids-type-shp": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Global_file_gpwv3_data_centroids_type_shp",
+      "type": "application/octet-stream",
+      "title": "gl_gpwv3_centroids_shp.zip",
+      "description": "Global circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504824-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "services": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/data/set/gpw-v3-centroids/maps/services",
+      "type": "application/gml+xml",
+      "title": "gl_gpwv3_centroids_shp.zip",
+      "description": "Global map layer from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "service"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504824-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "region-northamerica-file-gpwv3-data-centroids-type-csv": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_NorthAmerica_file_gpwv3_data_centroids_type_csv",
+      "type": "application/octet-stream",
+      "title": "na_gpwv3_centroids_csv.zip",
+      "description": "North America circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504831-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "region-europe-file-gpwv3-data-centroids-type-csv": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Europe_file_gpwv3_data_centroids_type_csv",
+      "type": "application/octet-stream",
+      "title": "eu_gpwv3_centroids_csv.zip",
+      "description": "Europe circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504839-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "region-europe-file-gpwv3-data-centroids-type-shp": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Europe_file_gpwv3_data_centroids_type_shp",
+      "type": "application/octet-stream",
+      "title": "eu_gpwv3_centroids_shp.zip",
+      "description": "Europe circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504850-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "region-africa-file-gpwv3-data-centroids-type-shp": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Africa_file_gpwv3_data_centroids_type_shp",
+      "type": "application/octet-stream",
+      "title": "af_gpwv3_centroids_shp.zip",
+      "description": "Africa circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504852-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "region-asia-file-gpwv3-data-centroids-type-csv": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Asia_file_gpwv3_data_centroids_type_csv",
+      "type": "application/octet-stream",
+      "title": "as_gpwv3_centroids_csv.zip",
+      "description": "Asia circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504853-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "region-oceania-file-gpwv3-data-centroids-type-csv": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Oceania_file_gpwv3_data_centroids_type_csv",
+      "type": "application/octet-stream",
+      "title": "oc_gpwv3_centroids_csv.zip",
+      "description": "Oceania circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504854-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "region-africa-file-gpwv3-data-centroids-type-csv": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Africa_file_gpwv3_data_centroids_type_csv",
+      "type": "application/octet-stream",
+      "title": "af_gpwv3_centroids_csv.zip",
+      "description": "Africa circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504856-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "region-oceania-file-gpwv3-data-centroids-type-shp": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Oceania_file_gpwv3_data_centroids_type_shp",
+      "type": "application/octet-stream",
+      "title": "oc_gpwv3_centroids_shp.zip",
+      "description": "Oceania circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504859-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "region-southamerica-file-gpwv3-data-centroids-type-shp": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_SouthAmerica_file_gpwv3_data_centroids_type_shp",
+      "type": "application/octet-stream",
+      "title": "sa_gpwv3_centroids_shp.zip",
+      "description": "South America circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504861-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "region-asia-file-gpwv3-data-centroids-type-shp": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Asia_file_gpwv3_data_centroids_type_shp",
+      "type": "application/octet-stream",
+      "title": "as_gpwv3_centroids_shp.zip",
+      "description": "Asia circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504862-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "region-global-file-gpwv3-data-centroids-type-csv": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Global_file_gpwv3_data_centroids_type_csv",
+      "type": "application/octet-stream",
+      "title": "gl_gpwv3_centroids_csv.zip",
+      "description": "Global circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504863-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "region-northamerica-file-gpwv3-data-centroids-type-shp": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_NorthAmerica_file_gpwv3_data_centroids_type_shp",
+      "type": "application/octet-stream",
+      "title": "na_gpwv3_centroids_shp.zip",
+      "description": "North America circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "C3552503612-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552504865-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "af-gpwv3-centroids-csv-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812683",
+      "type": "application/zip",
+      "title": "af_gpwv3_centroids_csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8462645,
+      "checksum:md5": "bca66675775deffa3c4fe89cfef7b1e8",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812683",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "af-gpwv3-centroids-shp-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812675",
+      "type": "application/zipped-shapefile",
+      "title": "af_gpwv3_centroids_shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12147841,
+      "checksum:md5": "6c5d9ff622bece5173ab2cf8e2f78c8b",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812675",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "as-gpwv3-centroids-csv-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812678",
+      "type": "application/zip",
+      "title": "as_gpwv3_centroids_csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9135703,
+      "checksum:md5": "cbfb9faadf2fec98f937b5aa90d59163",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812678",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "as-gpwv3-centroids-shp-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812680",
+      "type": "application/zipped-shapefile",
+      "title": "as_gpwv3_centroids_shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12728174,
+      "checksum:md5": "9f37f04dfc98b6e6ff54823bec21a541",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812680",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "eu-gpwv3-centroids-csv-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812685",
+      "type": "application/zip",
+      "title": "eu_gpwv3_centroids_csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9138640,
+      "checksum:md5": "d08b46a3f4e9ce2743acdd6d95453075",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812685",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "eu-gpwv3-centroids-shp-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812684",
+      "type": "application/zipped-shapefile",
+      "title": "eu_gpwv3_centroids_shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12950639,
+      "checksum:md5": "4478448ab9a33a152a676688b773a321",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812684",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "gl-gpwv3-centroids-csv-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812673",
+      "type": "application/zip",
+      "title": "gl_gpwv3_centroids_csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 35350122,
+      "checksum:md5": "6718d2f42f83bfc11ff3286992eb0c7f",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812673",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "gl-gpwv3-centroids-shp-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812672",
+      "type": "application/zipped-shapefile",
+      "title": "gl_gpwv3_centroids_shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 48649827,
+      "checksum:md5": "00c55148f6cb570972ee1604810b99ef",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812672",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "na-gpwv3-centroids-csv-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812676",
+      "type": "application/zip",
+      "title": "na_gpwv3_centroids_csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6292813,
+      "checksum:md5": "2bd19e81da31b196a90347c8900c595d",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812676",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "na-gpwv3-centroids-shp-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812679",
+      "type": "application/zipped-shapefile",
+      "title": "na_gpwv3_centroids_shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8891683,
+      "checksum:md5": "f1a1a08d0a5fb8a9f5a43a9b3d41e7af",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812679",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "oc-gpwv3-centroids-csv-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812674",
+      "type": "application/zip",
+      "title": "oc_gpwv3_centroids_csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 218601,
+      "checksum:md5": "1dd34142754313fa27a21aea991c52bc",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812674",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "oc-gpwv3-centroids-shp-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812681",
+      "type": "application/zipped-shapefile",
+      "title": "oc_gpwv3_centroids_shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 296290,
+      "checksum:md5": "d44b881f0bdd033e1cd99e002de9011b",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812681",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "sa-gpwv3-centroids-csv-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812677",
+      "type": "application/zip",
+      "title": "sa_gpwv3_centroids_csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1100019,
+      "checksum:md5": "00bc6c50e9062c0bb7a86d86f7d78a33",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812677",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sa-gpwv3-centroids-shp-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11812682",
+      "type": "application/zipped-shapefile",
+      "title": "sa_gpwv3_centroids_shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1670141,
+      "checksum:md5": "f58c142c6008e562282b297b6a291d6a",
+      "created": "2025-07-24T00:00:00Z",
+      "updated": "2025-09-10T18:10:10Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
+      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
+      "ciesin:source_dataset_id": "11646218",
+      "ciesin:source_file_id": "11812682",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    }
+  }
+}

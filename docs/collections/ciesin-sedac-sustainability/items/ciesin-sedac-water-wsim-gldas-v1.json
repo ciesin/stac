@@ -1,0 +1,1556 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-water-wsim-gldas-v1",
+  "collection": "ciesin-sedac-sustainability",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1",
+    "description": "The Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set identifies and characterizes surpluses and deficits of freshwater, and the parameters determining these anomalies, at monthly intervals over the period January 1948 to December 2014. The data set uses the land surface model outputs from NASA's Global Land Data Assimilation System, covering the global extent, to generate anomaly values for the following parameters at a gridded resolution of 0.25 degrees: temperature, precipitation, soil moisture, potential minus actual evapotranspiration, runoff, total blue water (flow-accumulated runoff), composite index of water surplus, and composite index of water deficits. These data are provided in terms of return periods, scientific units, and standardized (normalized) anomalies, and are computed over 1-month, 3-month, 6-month, and 12-month temporal periods of accumulation, referred to as integration periods. Anomaly values are present in terms of return periods with respect to a fitted Generalized Extreme Value (GEV) probability distribution function over a historical baseline period of January 1950 to December 2009, at a global spatial resolution of 0.25 degrees over the monthly, 3-month, 6-month, and 12-month periods of integration. Parameter values (location, scale, shape) of the fitted GEV probability distribution, which are fit separately for each calendar month, are distributed per parameter for each integration period.",
+    "datetime": "2022-08-24T00:00:00Z",
+    "start_datetime": "1948-01-01T00:00:00.000Z",
+    "end_datetime": "2014-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "Earth Science",
+      "Global",
+      "Ground Water",
+      "Inland Waters",
+      "Surface Water",
+      "Sustainability",
+      "Terrestrial Hydrosphere",
+      "Water"
+    ],
+    "sci:doi": "10.7927/z1fn-kf73",
+    "ciesin:category": "Sustainability",
+    "ciesin:tags": "Inland Waters, Sustainability, Water, Global, Earth Science, Terrestrial Hydrosphere, Surface Water, Ground Water",
+    "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+    "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+    "ciesin:sedac_doi": "10.7927/z1fn-kf73",
+    "ciesin:purpose": "To provide data characterizing 67 years (1948-2014) of anomalous freshwater surpluses, deficits, and the parameters determining them, across the global terrestrial surface.",
+    "ciesin:data_format": "raster, map; documentation",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\water-wsim-gldas-v1.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/z1fn-kf73",
+      "type": "text/html",
+      "title": "z1fn-kf73"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/x7fj-jj41",
+      "type": "text/html",
+      "title": "x7fj-jj41"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/water/water-wsim-gldas-v1/water-wsim-gldas-v1-composite-surplus-deficit-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "water-wsim-gldas-v1-composite-surplus-deficit-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/water-wsim-gldas-v1/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/water-wsim-gldas-v1/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/z1fn-kf73",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-water-wsim-gldas-v1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "water-wsim-gldas-v1-composite-anom-twelve-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-composite-anom-twelve-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-composite-anom-twelve-month-netcdf.zip",
+      "description": "Global Composite Anomaly Twelve-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502488-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "z1fn-kf73": {
+      "href": "https://doi.org/10.7927/z1fn-kf73",
+      "type": "application/octet-stream",
+      "title": "water-wsim-gldas-v1-composite-anom-twelve-month-netcdf.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502488-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "water-wsim-gldas-v1-runoff-sum-three-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-sum-three-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-sum-three-month-netcdf.zip",
+      "description": "Global Runoff Summed Three-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502490-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-accum-sum-six-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-accum-sum-six-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-accum-sum-six-month-netcdf.zip",
+      "description": "Global Accumulated Runoff Summed Six-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502493-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-composite-anom-one-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-composite-anom-one-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-composite-anom-one-month-netcdf.zip",
+      "description": "Global Composite Anomaly One-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502495-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-soil-moisture-avg-six-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-soil-moisture-avg-six-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-soil-moisture-avg-six-month-netcdf.zip",
+      "description": "Global Soil Moisture Average Six-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502498-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-soil-moisture-one-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-soil-moisture-one-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-soil-moisture-one-month-netcdf.zip",
+      "description": "Global Soil Moisture One-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502499-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-accum-one-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-accum-one-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-accum-one-month-netcdf.zip",
+      "description": "Global Accumulated Runoff One-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502501-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-soil-moisture-avg-three-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-soil-moisture-avg-three-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-soil-moisture-avg-three-month-netcdf.zip",
+      "description": "Global Soil Moisture Average Three-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502504-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-composite-anom-three-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-composite-anom-three-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-composite-anom-three-month-netcdf.zip",
+      "description": "Global Composite Anomaly Three-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502507-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-sum-six-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-sum-six-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-sum-six-month-netcdf.zip",
+      "description": "Global Runoff Summed Six-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502509-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-accum-min-twelve-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-accum-min-twelve-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-accum-min-twelve-month-netcdf.zip",
+      "description": "Global Accumulated Runoff Minimum Summed Twelve-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502513-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-accum-sum-three-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-accum-sum-three-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-accum-sum-three-month-netcdf.zip",
+      "description": "Global Accumulated Runoff Summed Three-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502514-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-accum-sum-twelve-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-accum-sum-twelve-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-accum-sum-twelve-month-netcdf.zip",
+      "description": "Global Accumulated Runoff Summed Twelve-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502515-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-accum-min-six-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-accum-min-six-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-accum-min-six-month-netcdf.zip",
+      "description": "Global Accumulated Runoff Minimum Summed Six-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502519-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-temp-avg-twelve-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-temp-avg-twelve-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-temp-avg-twelve-month-netcdf.zip",
+      "description": "Global Temperature Average Twelve-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502522-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-sum-twelve-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-sum-twelve-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-sum-twelve-month-netcdf.zip",
+      "description": "Global Runoff Summed Twelve-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502526-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-composite-three-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-composite-three-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-composite-three-month-netcdf.zip",
+      "description": "Global Composite Three-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502530-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-composite-twelve-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-composite-twelve-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-composite-twelve-month-netcdf.zip",
+      "description": "Global Composite Twelve-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502533-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-accum-min-three-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-accum-min-three-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-accum-min-three-month-netcdf.zip",
+      "description": "Global Accumulated Runoff Minimum Summed Three-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502537-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-precip-sum-twelve-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-precip-sum-twelve-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-precip-sum-twelve-month-netcdf.zip",
+      "description": "Global Precipitation Summed Twelve-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502538-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-composite-anom-six-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-composite-anom-six-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-composite-anom-six-month-netcdf.zip",
+      "description": "Global Composite Anomaly Six-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502541-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-petme-sum-three-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-petme-sum-three-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-petme-sum-three-month-netcdf.zip",
+      "description": "Global PETME Summed Three-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502543-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-accum-max-three-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-accum-max-three-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-accum-max-three-month-netcdf.zip",
+      "description": "Global Accumulated Runoff Maximum Summed Three-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502545-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-soil-moisture-avg-twelve-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-soil-moisture-avg-twelve-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-soil-moisture-avg-twelve-month-netcdf.zip",
+      "description": "Global Soil Moisture Average Twelve-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502547-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-precip-sum-six-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-precip-sum-six-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-precip-sum-six-month-netcdf.zip",
+      "description": "Global Precipitation Summed Six-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502549-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-petme-one-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-petme-one-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-petme-one-month-netcdf.zip",
+      "description": "Global PETME One-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502550-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-composite-six-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-composite-six-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-composite-six-month-netcdf.zip",
+      "description": "Global Composite Six-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502551-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-petme-sum-twelve-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-petme-sum-twelve-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-petme-sum-twelve-month-netcdf.zip",
+      "description": "Global PETME Summed Twelve-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502552-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-temp-avg-three-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-temp-avg-three-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-temp-avg-three-month-netcdf.zip",
+      "description": "Global Temperature Average Three-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502553-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-temp-one-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-temp-one-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-temp-one-month-netcdf.zip",
+      "description": "Global Temperature One-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502554-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-accum-max-twelve-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-accum-max-twelve-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-accum-max-twelve-month-netcdf.zip",
+      "description": "Global Accumulated Runoff Maximum Summed Twelve-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502557-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-precip-sum-three-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-precip-sum-three-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-precip-sum-three-month-netcdf.zip",
+      "description": "Global Precipitation Summed Three-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502560-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-one-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-one-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-one-month-netcdf.zip",
+      "description": "Global Runoff One-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502563-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-petme-sum-six-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-petme-sum-six-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-petme-sum-six-month-netcdf.zip",
+      "description": "Global PETME Summed Six-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502565-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-composite-one-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-composite-one-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-composite-one-month-netcdf.zip",
+      "description": "Global Composite One-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502567-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-temp-avg-six-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-temp-avg-six-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-temp-avg-six-month-netcdf.zip",
+      "description": "Global Temperature Average Six-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502570-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-precip-one-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-precip-one-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-precip-one-month-netcdf.zip",
+      "description": "Global Precipitation One-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502572-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "water-wsim-gldas-v1-runoff-accum-max-six-month-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/water/water-wsim-gldas-v1/water-wsim-gldas-v1-runoff-accum-max-six-month-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "water-wsim-gldas-v1-runoff-accum-max-six-month-netcdf.zip",
+      "description": "Global Accumulated Runoff Maximum Summed Six-Month Return Period data in netCDF-4 format for the year 1948-2014 from the Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "C3540910585-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502573-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "1-water-wsim-gldas-v1-documentation-pdf": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13605979",
+      "type": "application/pdf",
+      "title": "1-water-wsim-gldas-v1-documentation.pdf",
+      "description": "Documentation",
+      "roles": [
+        "data"
+      ],
+      "file:size": 968732,
+      "checksum:md5": "99fff0542aa4c60fa3203a9716def4cc",
+      "created": "2026-03-17T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13605979",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "water-wsim-gldas-v1-composite-anom-one-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596287",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-anom-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1793755265,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596287",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-composite-anom-six-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596282",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-anom-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1804591318,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596282",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-composite-anom-three-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596283",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-anom-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1798033249,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596283",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-composite-anom-twelve-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596286",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-anom-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1780856188,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596286",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-composite-one-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596284",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1638394555,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596284",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-composite-six-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596280",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1640388771,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596280",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-composite-three-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596308",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1638308926,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596308",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-composite-twelve-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596307",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1613604043,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596307",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-petme-one-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596311",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-petme-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3095103496,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596311",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-petme-sum-six-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596291",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-petme-sum-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2278201400,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596291",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-petme-sum-three-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596285",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-petme-sum-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2290736422,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596285",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-petme-sum-twelve-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596294",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-petme-sum-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2260714241,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596294",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-precip-one-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596289",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-precip-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2677754422,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596289",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-precip-sum-six-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596288",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-precip-sum-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2303531462,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596288",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-precip-sum-three-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596300",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-precip-sum-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2295118445,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596300",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-precip-sum-twelve-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596293",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-precip-sum-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2292226886,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596293",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-accum-max-six-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596292",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-max-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2300304142,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596292",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-accum-max-three-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596313",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-max-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2251281235,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596313",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-accum-max-twelve-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596314",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-max-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2313341912,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596314",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-accum-min-six-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596297",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-min-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2010940516,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596297",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-accum-min-three-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596316",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-min-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2111847003,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596316",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-accum-min-twelve-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596281",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-min-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1897649578,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596281",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-accum-one-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596315",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2189730688,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596315",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-accum-sum-six-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596298",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-sum-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2296475601,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596298",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-accum-sum-three-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596290",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-sum-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2247217458,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596290",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-accum-sum-twelve-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596299",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-sum-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2308956466,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596299",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-one-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596304",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2520332651,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596304",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-sum-six-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596279",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-sum-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2254544223,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596279",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-sum-three-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596301",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-sum-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2200198109,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596301",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-runoff-sum-twelve-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596303",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-sum-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2267933873,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596303",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-soil-moisture-avg-six-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596306",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-soil-moisture-avg-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2183241809,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596306",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-soil-moisture-avg-three-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596310",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-soil-moisture-avg-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2192008565,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596310",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-soil-moisture-avg-twelve-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596296",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-soil-moisture-avg-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2165932241,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596296",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-soil-moisture-one-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596305",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-soil-moisture-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2405720642,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596305",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-temp-avg-six-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596302",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-temp-avg-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2275708555,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596302",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-temp-avg-three-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596295",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-temp-avg-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2272874562,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596295",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-temp-avg-twelve-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596309",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-temp-avg-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2265664307,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596309",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "water-wsim-gldas-v1-temp-one-month-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596312",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-temp-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2320546152,
+      "checksum:md5": "not available in dataverse",
+      "created": "2026-03-11T00:00:00Z",
+      "updated": "2026-03-31T15:51:43Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/Z1FN-KF73",
+      "ciesin:harvard_doi": "10.7910/DVN/RZUKDN",
+      "ciesin:source_dataset_id": "11646341",
+      "ciesin:source_file_id": "13596312",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

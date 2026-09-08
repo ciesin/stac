@@ -1,0 +1,2232 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-india-vilsocioecon",
+  "collection": "ciesin-sedac-population",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          68.106253,
+          8.083816
+        ],
+        [
+          89.150397,
+          8.083816
+        ],
+        [
+          89.150397,
+          37.073831
+        ],
+        [
+          68.106253,
+          37.073831
+        ],
+        [
+          68.106253,
+          8.083816
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    68.106253,
+    8.083816,
+    89.150397,
+    37.073831
+  ],
+  "properties": {
+    "title": "India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001",
+    "description": "The India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 is a compilation of the finest level of administrative boundaries in India (village/town-level) and over 200 socio-economic variables collected during the Indian Census in 1991 and 2001. This data set was developed by digitizing village/town level boundaries from the official analog maps published by the Survey of India for 2001. This data set also utilized tabular data for 1991 and 2001 from the Primary Census Abstract (PCA) and Village Directory (VD) data series of the Indian census. The data are in UTM 44N projection and are distributed primarily as shapefiles. Separate files are provided for each of the 28 states (number of states during 1991 and 2001 census) and combined Union Territories for 1991 and 2001.",
+    "datetime": "2018-03-30T00:00:00Z",
+    "license": "other",
+    "keywords": [
+      "Boundaries",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS",
+      "Earth Science",
+      "Human Dimensions",
+      "India",
+      "Land Use",
+      "Population",
+      "Remote Sensing",
+      "Society",
+      "Socioeconomics"
+    ],
+    "sci:doi": "10.7927/H4CN71ZJ",
+    "ciesin:category": "Population",
+    "ciesin:tags": "Earth Science, Human Dimensions, Socioeconomics, Population, Land Use, Remote Sensing, Country, Boundaries, Society",
+    "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+    "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+    "ciesin:sedac_doi": "10.7927/H4CN71ZJ",
+    "ciesin:purpose": "To provide data that can be used in independent spatial statistical analyses, construction of development-related indices, or in combination with remote sensing data in order to identify spatio-temporal patterns and/or changes in different demographic categories, such as male, female, urban, rural, level of education, etc.",
+    "ciesin:data_format": "vector, map; journal article; document",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\india-india-village-level-geospatial-socio-econ-1991-2001.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4CN71ZJ",
+      "type": "text/html",
+      "title": "H4CN71ZJ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1007/s10113-016-1068-2",
+      "type": "text/html",
+      "title": "s10113-016-1068-2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H43776SR",
+      "type": "text/html",
+      "title": "H43776SR"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-female-literates-gj-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-female-literates-gj-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/india-india-village-level-geospatial-socio-econ-1991-2001/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/india-india-village-level-geospatial-socio-econ-1991-2001/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/india-india-village-level-geospatial-socio-econ-1991-2001/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4CN71ZJ",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-india-vilsocioecon.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "india-india-village-level-geospatial-socio-econ-1991-2001-gj-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-gj-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-gj-1991-shp.zip",
+      "description": "Gujarat data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259181-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4cn71zj": {
+      "href": "https://doi.org/10.7927/H4CN71ZJ",
+      "type": "application/octet-stream",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-gj-1991-shp.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259181-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-female-literates-gj-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-female-literates-gj.pdf",
+      "type": "application/pdf",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-gj-1991-shp.zip",
+      "description": "State of Gujarat, India Female Literates as a percent of the total population for the years 1991 and 2001 in PDF format from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259181-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-female-literates-gj-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-female-literates-gj.png",
+      "type": "image/png",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-gj-1991-shp.zip",
+      "description": "State of Gujarat, India Female Literates as a percent of the total population for the years 1991 and 2001 in PNG format from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259181-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-female-literates-gj-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-female-literates-gj-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-gj-1991-shp.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259181-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mh-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-mh-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mh-2001-shp.zip",
+      "description": "Maharashtra data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259191-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-total-population-mh-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-total-population-mh.pdf",
+      "type": "application/pdf",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mh-2001-shp.zip",
+      "description": "State of Maharashtra, India Total Population for the years 1991 and 2001 in PDF format from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259191-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-total-population-mh-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-total-population-mh.png",
+      "type": "image/png",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mh-2001-shp.zip",
+      "description": "State of Maharashtra, India Total Population for the years 1991 and 2001 in PNG format from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259191-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-total-population-mh-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-total-population-mh-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mh-2001-shp.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259191-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-gj-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-gj-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-gj-2001-shp.zip",
+      "description": "Gujarat data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259200-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-male-cultivators-gj-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-male-cultivators-gj.pdf",
+      "type": "application/pdf",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-gj-2001-shp.zip",
+      "description": "State of Gujarat, India Male Cultivators as a percent of the total population for the years 1991 and 2001 in PDF format from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259200-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-male-cultivators-gj-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-male-cultivators-gj.png",
+      "type": "image/png",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-gj-2001-shp.zip",
+      "description": "State of Gujarat, India Male Cultivators as a percent of the total population for the years 1991 and 2001 in PNG format from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259200-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-male-cultivators-gj-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-male-cultivators-gj-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-gj-2001-shp.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259200-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mh-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-mh-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mh-1991-shp.zip",
+      "description": "Maharashtra data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259206-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-male-agricultural-laborers-mh-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-male-agricultural-laborers-mh.pdf",
+      "type": "application/pdf",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mh-1991-shp.zip",
+      "description": "State of Maharashtra, India Male Agricultural Laborers as a percent of the total population for the years 1991 and 2001 in PDF format from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259206-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-male-agricultural-laborers-mh-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-male-agricultural-laborers-mh.png",
+      "type": "image/png",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mh-1991-shp.zip",
+      "description": "State of Maharashtra, India Male Agricultural Laborers as a percent of the total population for the years 1991 and 2001 in PNG format from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259206-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-male-agricultural-laborers-mh-thumbnai": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-male-agricultural-laborers-mh-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mh-1991-shp.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259206-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-rj-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-rj-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-rj-2001-shp.zip",
+      "description": "Rajasthan data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259212-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ka-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-ka-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ka-1991-shp.zip",
+      "description": "Karnataka data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259216-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-sk-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-sk-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-sk-1991-shp.zip",
+      "description": "Sikkim data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259220-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-wb-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-wb-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-wb-1991-shp.zip",
+      "description": "West Bengal data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259225-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-up-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-up-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-up-2001-shp.zip",
+      "description": "Uttar Pradesh data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259227-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mn-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-mn-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mn-2001-shp.zip",
+      "description": "Manipur data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259231-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-as-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-as-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-as-2001-shp.zip",
+      "description": "Assam data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259235-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-cg-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-cg-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-cg-2001-shp.zip",
+      "description": "Chhattisgarh data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259237-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mp-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-mp-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mp-2001-shp.zip",
+      "description": "Madhya Pradesh data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259238-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-uterr-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-uterr-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-uterr-2001-shp.zip",
+      "description": "Union Territories data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259239-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-br-1991-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-br-1991-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-br-1991-gdb.zip",
+      "description": "Bihar data in Geodatabase format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259240-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-hp-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-hp-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-hp-2001-shp.zip",
+      "description": "Himachal Pradesh data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259246-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-hr-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-hr-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-hr-2001-shp.zip",
+      "description": "Haryana data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259247-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-uk-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-uk-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-uk-2001-shp.zip",
+      "description": "Uttarakhand data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259251-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-jk-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-jk-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-jk-2001-shp.zip",
+      "description": "Jammu and Kashmir data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259253-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ka-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-ka-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ka-2001-shp.zip",
+      "description": "Karnataka data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259257-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ap-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-ap-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ap-2001-shp.zip",
+      "description": "Andra Pradesh data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259260-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ar-2001-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-ar-2001-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ar-2001-gdb.zip",
+      "description": "Arunachal Pradesh data in Geodatabase format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259262-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-tr-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-tr-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-tr-1991-shp.zip",
+      "description": "Tripura data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259263-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-or-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-or-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-or-2001-shp.zip",
+      "description": "Odisha data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259268-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ga-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-ga-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ga-1991-shp.zip",
+      "description": "Goa data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259269-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-nl-2001-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-nl-2001-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-nl-2001-gdb.zip",
+      "description": "Nagaland data in Geodatabase format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259276-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-pb-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-pb-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-pb-1991-shp.zip",
+      "description": "Punjab data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259279-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mp-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-mp-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mp-1991-shp.zip",
+      "description": "Madhya Pradesh data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259282-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ar-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-ar-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ar-1991-shp.zip",
+      "description": "Arunachal Pradesh data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259286-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-tn-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-tn-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-tn-1991-shp.zip",
+      "description": "Tamil Nadu data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259288-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ap-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-ap-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ap-1991-shp.zip",
+      "description": "Andra Pradesh data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259291-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mn-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-mn-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mn-1991-shp.zip",
+      "description": "Manipur data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259297-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-hr-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-hr-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-hr-1991-shp.zip",
+      "description": "Haryana data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259308-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-uterr-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-uterr-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-uterr-1991-shp.zip",
+      "description": "Union Territories data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259315-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ga-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-ga-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ga-2001-shp.zip",
+      "description": "Goa data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259320-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-sk-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-sk-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-sk-2001-shp.zip",
+      "description": "Sikkim data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259323-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-or-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-or-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-or-1991-shp.zip",
+      "description": "Odisha data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259327-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-pb-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-pb-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-pb-2001-shp.zip",
+      "description": "Punjab data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259330-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-hp-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-hp-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-hp-1991-shp.zip",
+      "description": "Himachal Pradesh data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259335-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mz-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-mz-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mz-2001-shp.zip",
+      "description": "Mizoram data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259339-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-tr-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-tr-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-tr-2001-shp.zip",
+      "description": "Tripura data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259341-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-br-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-br-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-br-2001-shp.zip",
+      "description": "Bihar data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259349-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-tn-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-tn-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-tn-2001-shp.zip",
+      "description": "Tamil Nadu data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259354-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-kl-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-kl-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-kl-1991-shp.zip",
+      "description": "Kerala data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259363-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-jh-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-jh-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-jh-2001-shp.zip",
+      "description": "Jharkhand data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259370-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-wb-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-wb-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-wb-2001-shp.zip",
+      "description": "West Bengal data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259383-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-kl-2001-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-kl-2001-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-kl-2001-shp.zip",
+      "description": "Kerala data in Shapefile format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259386-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ml-2001-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-ml-2001-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ml-2001-gdb.zip",
+      "description": "Meghalaya data in Geodatabase format for the year 2001 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259389-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mz-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-mz-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mz-1991-shp.zip",
+      "description": "Mizoram data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259392-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-up-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-up-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-up-1991-shp.zip",
+      "description": "Uttar Pradesh data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259395-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-as-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-as-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-as-1991-shp.zip",
+      "description": "Assam data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259400-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-rj-1991-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-village-level-geospatial-socio-econ-1991-2001/india-india-village-level-geospatial-socio-econ-1991-2001-rj-1991-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-rj-1991-shp.zip",
+      "description": "Rajasthan data in Shapefile format for the year 1991 from the India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "C3550187696-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259403-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ap-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815471",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ap-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 21866246,
+      "checksum:md5": "1d674586fdc03ac4b2c378e608740d40",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815471",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ap-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815483",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ap-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 29601931,
+      "checksum:md5": "55329ccdb774efb31d121cc54a062240",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815483",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ar-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815447",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ar-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14715,
+      "checksum:md5": "692656015f0a5455a333a7d10e81ab90",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815447",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ar-2001-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815469",
+      "type": "application/zip",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ar-2001-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 501276,
+      "checksum:md5": "08598d30b1a1196169432dd67a3ceb72",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815469",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-as-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815446",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-as-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13890154,
+      "checksum:md5": "451ab140aaa439228b2ae364d1537b79",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815446",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-as-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815475",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-as-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13968572,
+      "checksum:md5": "78bd36159a180e15e7be1b81b40012a9",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815475",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-br-1991-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815481",
+      "type": "application/zip",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-br-1991-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42935891,
+      "checksum:md5": "d542c7929eb800cc0535c40e2cd421b0",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815481",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-br-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815460",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-br-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41287117,
+      "checksum:md5": "b0b7ff130f47bce9d45d9d4460bccaf9",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815460",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-cg-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815466",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-cg-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42428157,
+      "checksum:md5": "122d7c765c9e12dba6ebdb1e4331e7be",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815466",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ga-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815476",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ga-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 606773,
+      "checksum:md5": "1a9e54459871ec7d5edadf59a903cf38",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815476",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ga-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815473",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ga-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 747510,
+      "checksum:md5": "67db10aa3b0430d47fe78355e1c03035",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815473",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-gj-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815455",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-gj-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 21792394,
+      "checksum:md5": "9dcff236d13f279cdb1f745f1923f087",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815455",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-gj-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815451",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-gj-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 25745315,
+      "checksum:md5": "18e2ca54a4382625b4b00f71699d33ae",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815451",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-hp-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815449",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-hp-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 87050469,
+      "checksum:md5": "17cbd113cf73155ee04ae74172de7e90",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815449",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-hp-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815439",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-hp-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 140989258,
+      "checksum:md5": "bfea804a3c63bebbfa6064ede5728afe",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815439",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-hr-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815437",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-hr-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3935048,
+      "checksum:md5": "193752cd0deecb70b39c615e39132d7f",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815437",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-hr-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815485",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-hr-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5381017,
+      "checksum:md5": "a16c7ac2f893a3228000683121382bc5",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815485",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-jh-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815478",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-jh-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 27963084,
+      "checksum:md5": "ef8ff407e43bb6243b9284b11dcef24d",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815478",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-jk-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815463",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-jk-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4605241,
+      "checksum:md5": "b4c5920d0b0f920846b8b89ebe5ab51d",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815463",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ka-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815445",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ka-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 20797853,
+      "checksum:md5": "2d54e4d55748779ecd99a33b0aee0f46",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815445",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ka-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815482",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ka-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 27700688,
+      "checksum:md5": "c1d38d1812f13ff64a9619f5e47f291c",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815482",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-kl-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815459",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-kl-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3318173,
+      "checksum:md5": "715aa9abef2086f15646a2c96d480773",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815459",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-kl-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815479",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-kl-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4616242,
+      "checksum:md5": "40300661286be02466f0c00b44019faa",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815479",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mh-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815474",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mh-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 30326951,
+      "checksum:md5": "c5f4024d67640513c8d11853530c0d1f",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815474",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mh-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815450",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mh-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42023527,
+      "checksum:md5": "00caf90b40bcd6b7d477f7c1522b2592",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815450",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-ml-2001-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815464",
+      "type": "application/zip",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-ml-2001-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 295828,
+      "checksum:md5": "d1dd0bb3c48389cc855b20b0afdb364c",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815464",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mn-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815441",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mn-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 246337,
+      "checksum:md5": "4901574a9e3d14dbe79c20ac0025d1d0",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815441",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mn-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815457",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mn-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 430099,
+      "checksum:md5": "eb8a9331de90e51f3ec6299088b7788d",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815457",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mp-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815458",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mp-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32145901,
+      "checksum:md5": "beac340c80eef42de67fa0f9e191b631",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815458",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mp-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815442",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mp-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40295405,
+      "checksum:md5": "3b4bf311fe8d2e0ca952d174409e20a4",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815442",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mz-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815444",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mz-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1288790,
+      "checksum:md5": "fbc34731413fb6f8459d4882b7b2ee28",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815444",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-mz-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815452",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-mz-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2046267,
+      "checksum:md5": "47b566e2d3ba8efd6e8f9118a054aff9",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815452",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-nl-2001-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815470",
+      "type": "application/zip",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-nl-2001-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 511926,
+      "checksum:md5": "8e2be7bca1d1ff93d85bbbe34c2b6e1f",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815470",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-or-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815468",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-or-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39887456,
+      "checksum:md5": "c9fecb706e4c1316c7bb7d093a3f14fa",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815468",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-or-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815467",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-or-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41676436,
+      "checksum:md5": "676ad411b68c399aeae4f12e49a70136",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815467",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-pb-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815438",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-pb-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8936659,
+      "checksum:md5": "6e6178e9c361c0f79d54198d11fff1cf",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815438",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-pb-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815484",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-pb-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10411446,
+      "checksum:md5": "54ce16c64438e384a864b31664f9d5c6",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815484",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-rj-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815461",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-rj-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 19717280,
+      "checksum:md5": "85ea2a4818f046a3b276d90e79f8e30b",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815461",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-rj-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815443",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-rj-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 26500681,
+      "checksum:md5": "e1917a5839a828e8a46099f445eb66cc",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815443",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-sk-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815472",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-sk-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 157222,
+      "checksum:md5": "c06cc684db74d4e8fdc68bdae1fb86fb",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815472",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-sk-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815477",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-sk-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 232403,
+      "checksum:md5": "f309c88d631352609e2cb0b4dac1777a",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815477",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-tn-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815456",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-tn-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14069009,
+      "checksum:md5": "ea420f9be0066938bc431d14f1956831",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815456",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-tn-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815454",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-tn-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 21632741,
+      "checksum:md5": "c93e1982f70f98612603a45466a79f1c",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815454",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-tr-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815453",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-tr-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 824761,
+      "checksum:md5": "8976d661e22db3177beaae6df073026f",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815453",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-tr-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815480",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-tr-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1007287,
+      "checksum:md5": "b9aa382b0496b355978fca3c8b8621c3",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815480",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-uk-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815462",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-uk-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16986599,
+      "checksum:md5": "bb4e81e04714e99c1819f0cd24303bd7",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815462",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-up-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815435",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-up-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 105322595,
+      "checksum:md5": "537cdc6314e69c516a42d3a71d9814dd",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815435",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-up-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815465",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-up-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 106931825,
+      "checksum:md5": "45234a8aa78c7c495c36b561d622317b",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815465",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-uterr-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815440",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-uterr-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7715,
+      "checksum:md5": "614050e854e3ce234f424496f25f1535",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815440",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-uterr-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815434",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-uterr-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 343496,
+      "checksum:md5": "dfee4ca11f3ece928e63dc56a4ba5474",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815434",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-wb-1991-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815448",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-wb-1991-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 44655185,
+      "checksum:md5": "feefcb6ca2c5f4980670e3fca23abcaa",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815448",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-india-village-level-geospatial-socio-econ-1991-2001-wb-2001-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815436",
+      "type": "application/zipped-shapefile",
+      "title": "india-india-village-level-geospatial-socio-econ-1991-2001-wb-2001-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 51380632,
+      "checksum:md5": "d6e8b5b7826b08054e8647950727ccbb",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:46:28Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4CN71ZJ",
+      "ciesin:harvard_doi": "10.7910/DVN/KCQAUA",
+      "ciesin:source_dataset_id": "11646247",
+      "ciesin:source_file_id": "11815436",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    }
+  }
+}

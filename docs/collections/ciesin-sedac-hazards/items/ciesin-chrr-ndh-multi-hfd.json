@@ -1,0 +1,427 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-chrr-ndh-multi-hfd",
+  "collection": "ciesin-sedac-hazards",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          -58.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -58.0,
+    180.0,
+    85.0
+  ],
+  "properties": {
+    "title": "Global Multihazard Frequency and Distribution",
+    "description": "The Global Multihazard Frequency and Distribution is a 2.5 minute grid presenting a simple multihazard index based solely on summated single-hazard decile values. The hazards of interest include cyclones, droughts, earthquakes, floods, landslides, and volcanoes. This data set is further enriched by the inclusion of data pertaining to population, Gross Domestic Product (GDP), and transportation infrastructure. This data set is the result of collaboration among the Columbia University Center for Hazards and Risk Research (CHRR), International Bank for Reconstruction and Development/The World Bank, and Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2005-12-31T00:00:00Z",
+    "start_datetime": "2000-01-01T00:00:00.000Z",
+    "end_datetime": "2000-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Avalanche",
+      "Climatology/Meteorology/Atmosphere",
+      "Continent",
+      "Cyclones",
+      "Droughts",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > DROUGHTS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > EARTHQUAKES",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > FLOODS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > LANDSLIDES",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > TROPICAL CYCLONES > CYCLONES",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > VOLCANIC ERUPTIONS",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE > AVALANCHE",
+      "Earth Science",
+      "Earthquakes",
+      "Floods",
+      "Geoscientific Information",
+      "Global",
+      "Hazards",
+      "Human Dimensions",
+      "Inland Waters",
+      "Landslides",
+      "Natural Hazards",
+      "Snow/Ice",
+      "Sustainability",
+      "Terrestrial Hydrosphere",
+      "Tropical Cyclones",
+      "Volcanic Eruptions"
+    ],
+    "sci:doi": "10.7927/H45718Z5",
+    "sci:citation": "Formerly the National Imagery and Mapping Agency (NIMA).",
+    "ciesin:category": "Hazards",
+    "ciesin:tags": "Climatology/Meteorology/Atmosphere, Geoscientific Information, Inland Waters, Global, Continent, Hazards, Sustainability, Earth Science, Human Dimensions, Natural Hazards, Droughts, Earthquakes, Floods, Landslides, Tropical Cyclones, Cyclones, Volcanic Eruptions, Terrestrial Hydrosphere, Snow/Ice, Avalanche",
+    "ciesin:nasa_doi": "10.7927/H45718Z5",
+    "ciesin:harvard_doi": "10.7910/DVN/JFJNNU",
+    "ciesin:sedac_doi": "10.7927/H45718Z5",
+    "ciesin:purpose": "To provide insight into the frequency and distribution of multihazard events.",
+    "ciesin:data_format": "raster, map; report; raster, map, map service; model; raster digital data; vector digital data; raster, map service",
+    "ciesin:field_count": 16,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\ndh-multihazard-frequency-distribution.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "Sum of agricultural value (US$, 2000) within grid cells of a specific hazards/population density decile combination. Agvalue is based upon the allocation of available national estimates of agricultural GDP to grid cells dependent upon the amount of agricultural land within grid cells. Agricultural land is identified using a reinterpretation of USGS Land Cover Characterization Data. Agvalue is representative of the hazards/population density decile combination and not individual grid cells.",
+        "attrdefs": "CIESIN",
+        "attrlabl": "Agvalue"
+      },
+      {
+        "attrdef": "Total land area within grid cells of a specific hazards/population density decile combination after subtracting permenantly inundated areas. Permenantly inundated areas were identified using VMAP(0) data. Applicable to the specific hazards/population density combination, not the individual grid cell.",
+        "attrdefs": "CIESIN",
+        "attrlabl": "Areakm"
+      },
+      {
+        "attrdef": "Number of grid cells having given Value attribute.",
+        "attrdefs": "CIESIN",
+        "attrlabl": "Count"
+      },
+      {
+        "attrdef": "Decile value within Global Cyclone Hazard Frequency and Distribution data set, only top three deciles (8-10), those most at-risk, retained.",
+        "attrdefs": "CIESIN",
+        "attrlabl": "D3cyc"
+      },
+      {
+        "attrdef": "Decile value within Global Drought Hazard Frequency and Distribution data set; only the top three decile (8-10), those most at-risk, retained.",
+        "attrdefs": "CIESIN",
+        "attrlabl": "D3drg"
+      },
+      {
+        "attrdef": "Decile ranking from Global Flood Hazard Frequency and Distribution data set; only the top three deciles (8-10), those most at-risk, retained.",
+        "attrdefs": "CIESIN",
+        "attrlabl": "D3fld"
+      },
+      {
+        "attrdef": "Decile value in Global Landslide Hazard Distribution data set; only the top three deciles (8-10), those most at-risk, retained.",
+        "attrdefs": "CIESIN",
+        "attrlabl": "D3lnd"
+      },
+      {
+        "attrdef": "Decile value from Global Earthquake Hazard Distribution-peak ground acceleration data set; only the top three deciles (8-10), those most at-risk, retained.",
+        "attrdefs": "CIESIN",
+        "attrlabl": "D3pga"
+      },
+      {
+        "attrdef": "Decile ranking from Global Volcano Hazard Frequency and Distribution data set; only the top three deciles (8-10), those most at-risk, retained.",
+        "attrdefs": "CIESIN",
+        "attrlabl": "D3vol"
+      },
+      {
+        "attrdef": "Deciles (10 classes of approximately equal number of grid cells) of population density (Pop / Areakm).",
+        "attrdefs": "CIESIN",
+        "attrlabl": "Gdpopds"
+      },
+      {
+        "attrdef": "Sum of purchase power parity adjusted GDP (US$, 2000) within the specific hazards/population density decile combination.",
+        "attrdefs": "CIESIN",
+        "attrlabl": "Gdpvalue"
+      },
+      {
+        "attrdef": "Summation of single hazard decile values (cyclones (D3cyc), droughts (D3drg), earthquakes (D3pga), floods (D3fld), landslides (D3lnd), and volcanoes (D3vol)).",
+        "attrdefs": "CIESIN",
+        "attrlabl": "Indexmhz"
+      },
+      {
+        "attrdef": "Internal feature number.",
+        "attrdefs": "ESRI",
+        "attrlabl": "ObjectID"
+      },
+      {
+        "attrdef": "Sum of year 2000 population per hazards/population density decile combination as determined by GPW v3.0 (beta).",
+        "attrdefs": "CIESIN",
+        "attrlabl": "Pop"
+      },
+      {
+        "attrdef": "Total length (km) of major roads and railroads within grid cells of a specific hazards/population density decile combination. Roads and railroads were identified using VMAP(0) data.",
+        "attrdefs": "CIESIN",
+        "attrlabl": "Transkm"
+      },
+      {
+        "attrdef": "Numeric identifier for specific hazards/population density combination.",
+        "attrdefs": "CIESIN",
+        "attrlabl": "Value"
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H45718Z5",
+      "type": "text/html",
+      "title": "H45718Z5"
+    },
+    {
+      "rel": "related",
+      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+      "type": "text/html",
+      "title": "Natural-disaster-hotspots-A-global-risk-analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4S180F9",
+      "type": "text/html",
+      "title": "H4S180F9"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H41J97NM",
+      "type": "text/html",
+      "title": "H41J97NM"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4WS8R5B",
+      "type": "text/html",
+      "title": "H4WS8R5B"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4CZ353K",
+      "type": "text/html",
+      "title": "H4CZ353K"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4VX0DFT",
+      "type": "text/html",
+      "title": "H4VX0DFT"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4BZ63ZS",
+      "type": "text/html",
+      "title": "H4BZ63ZS"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4668B3D",
+      "type": "text/html",
+      "title": "H4668B3D"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4P848VZ",
+      "type": "text/html",
+      "title": "H4P848VZ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4BR8Q45",
+      "type": "text/html",
+      "title": "H4BR8Q45"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.cia.gov/library/publications/the-world-factbook/",
+      "type": "text/html",
+      "title": "the-world-factbook"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.nga.mil",
+      "type": "text/html",
+      "title": "www.nga.mil"
+    },
+    {
+      "rel": "related",
+      "href": "http://edcdaac.usgs.gov/glcc/glcc.asp",
+      "type": "text/html",
+      "title": "glcc.asp"
+    },
+    {
+      "rel": "related",
+      "href": "https://sedac.ciesin.columbia.edu/gpw-v2/",
+      "type": "text/html",
+      "title": "gpw-v2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4639MPP",
+      "type": "text/html",
+      "title": "H4639MPP"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ndh/ndh-multihazard-frequency-distribution/multihazard-frequency-distribution-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "multihazard-frequency-distribution-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.worldbank.org/data/wdi2000",
+      "type": "text/html",
+      "title": "wdi2000"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-multihazard-frequency-distribution/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-multihazard-frequency-distribution/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H45718Z5",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-chrr-ndh-multi-hfd.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "gdmhz-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ndh/ndh-multihazard-frequency-distribution/gdmhz.zip",
+      "type": "application/x-zip-compressed",
+      "title": "gdmhz.zip",
+      "description": "Data in ASCII format from the Global Multihazard Frequency and Distribution data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H45718Z5",
+      "ciesin:harvard_doi": "10.7910/DVN/JFJNNU",
+      "ciesin:source_dataset_id": "C3550190541-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278132-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h45718z5": {
+      "href": "https://doi.org/10.7927/H45718Z5",
+      "type": "application/octet-stream",
+      "title": "gdmhz.zip",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H45718Z5",
+      "ciesin:harvard_doi": "10.7910/DVN/JFJNNU",
+      "ciesin:source_dataset_id": "C3550190541-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278132-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "multihazard-frequency-distribution-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-multihazard-frequency-distribution/multihazard-frequency-distribution.pdf",
+      "type": "application/pdf",
+      "title": "gdmhz.zip",
+      "description": "Global map in PDF format from the Global Multihazard Frequency and Distribution data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H45718Z5",
+      "ciesin:harvard_doi": "10.7910/DVN/JFJNNU",
+      "ciesin:source_dataset_id": "C3550190541-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278132-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "multihazard-frequency-distribution-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-multihazard-frequency-distribution/multihazard-frequency-distribution.png",
+      "type": "image/png",
+      "title": "gdmhz.zip",
+      "description": "Global map in PNG format from the Global Multihazard Frequency and Distribution data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H45718Z5",
+      "ciesin:harvard_doi": "10.7910/DVN/JFJNNU",
+      "ciesin:source_dataset_id": "C3550190541-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278132-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "multihazard-frequency-distribution-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-multihazard-frequency-distribution/multihazard-frequency-distribution-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "gdmhz.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H45718Z5",
+      "ciesin:harvard_doi": "10.7910/DVN/JFJNNU",
+      "ciesin:source_dataset_id": "C3550190541-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278132-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "gdmhz-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11805935",
+      "type": "application/zip",
+      "title": "gdmhz.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1328855,
+      "checksum:md5": "67bb585442dd653268a4377cf37ca8da",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-04T21:14:37Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H45718Z5",
+      "ciesin:harvard_doi": "10.7910/DVN/JFJNNU",
+      "ciesin:source_dataset_id": "11646189",
+      "ciesin:source_file_id": "11805935",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

@@ -1,0 +1,969 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-sdei-gwrpm25-mmsaod-4gl03",
+  "collection": "ciesin-sedac-health",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -54.85
+        ],
+        [
+          180.0,
+          -54.85
+        ],
+        [
+          180.0,
+          69.85
+        ],
+        [
+          -180.0,
+          69.85
+        ],
+        [
+          -180.0,
+          -54.85
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -54.85,
+    180.0,
+    69.85
+  ],
+  "properties": {
+    "title": "Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03",
+    "description": "The Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 consists of annual concentrations (micrograms per cubic meter) of all composition ground-level fine particulate matter (PM2.5). This data set combines AOD retrievals from multiple satellite algorithms including the NASA MODerate resolution Imaging Spectroradiometer Collection 6.1 (MODIS C6.1), Multi-angle Imaging SpectroRadiometer Version 23 (MISRv23), MODIS Multi-Angle Implementation of Atmospheric Correction Collection 6 (MAIAC C6), and the Sea-Viewing Wide Field-of-View Sensor (SeaWiFS) Deep Blue Version 4. The GEOS-Chem chemical transport model is used to relate this total column measure of aerosol to near-surface PM2.5 concentration. Geographically Weighted Regression (GWR) is used with global ground-based measurements from the World Health Organization (WHO) database to predict and adjust for the residual PM2.5 bias per grid cell in the initial satellite-derived values. These estimates are primarily intended to aid in large-scale studies. Gridded data sets are provided at a resolution of 0.01 degrees to allow users to agglomerate data as best meets their particular needs. Data sets are gridded at the finest resolution of the information sources that were incorporated, but do not fully resolve PM2.5 gradients at the gridded resolution due to influence by information sources at coarser resolution. The data are distributed as GeoTIFF files and are in WGS84 projection.",
+    "datetime": "2022-01-20T00:00:00Z",
+    "start_datetime": "1998-01-01T00:00:00.000Z",
+    "end_datetime": "2019-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Aerosols",
+      "Air Quality",
+      "Atmosphere",
+      "EARTH SCIENCE > ATMOSPHERE > AEROSOLS > PARTICULATE MATTER",
+      "EARTH SCIENCE > ATMOSPHERE > AIR QUALITY > PARTICULATES",
+      "Earth Science",
+      "Environment",
+      "Global",
+      "Health",
+      "Particulate Matter",
+      "Particulates",
+      "Remote Sensing",
+      "Sustainability",
+      "Urban"
+    ],
+    "sci:doi": "10.7927/fx80-4n39",
+    "ciesin:category": "Health",
+    "ciesin:tags": "Earth Science, Atmosphere, Aerosols, Particulate Matter, Air Quality, Particulates, Health, Remote Sensing, Sustainability, Urban, Global, Environment",
+    "ciesin:nasa_doi": "10.7927/FX80-4N39",
+    "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+    "ciesin:sedac_doi": "10.7927/fx80-4n39",
+    "ciesin:purpose": "To provide an annual global surface of concentrations (micrograms per cubic meter) of all composition ground-level fine particulate matter of 2.5 micrometers or smaller (PM2.5) for large-scale health and environmental research.",
+    "ciesin:data_format": "raster, map; journal article; documentation",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/fx80-4n39",
+      "type": "text/html",
+      "title": "fx80-4n39"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1021/acs.est.0c01764",
+      "type": "text/html",
+      "title": "acs.est.0c01764"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/thr9-xe64",
+      "type": "text/html",
+      "title": "thr9-xe64"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-trend-reg-slope-avg-chg-1998-2019-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-trend-reg-slope-avg-chg-1998-2019-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/fx80-4n39",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-sdei-gwrpm25-mmsaod-4gl03.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-1998-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-1998-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-1998-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 1998 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277822-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "fx80-4n39": {
+      "href": "https://doi.org/10.7927/fx80-4n39",
+      "type": "application/octet-stream",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-1998-geotiff.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277822-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-1999-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-1999-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-1999-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 1999 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277870-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2000-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2000-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2000-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2000 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550283732-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2001-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2001-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2001-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2001 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552603131-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2002-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2002-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2002-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2002 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552611294-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2003-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2003-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2003-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2003 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552611505-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2004-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2004-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2004-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2004 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552616250-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2005-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2005-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2005-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2005 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552616321-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2006-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2006-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2006-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2006 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552647310-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2007-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2007-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2007-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2007 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552647496-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2008-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2008-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2008-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2008 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552647597-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2009-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2009-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2009-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2009 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552660196-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2010-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2010-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2010-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2010 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553409545-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2011-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2011-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2011-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2011 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425357-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2012-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2012-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2012-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2012 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425577-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2013-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2013-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2013-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2013 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553436460-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2014-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2014-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2014-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2014 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553444126-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2015-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2015-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2015-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2015 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553449283-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2016-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2016-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2016-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2016 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462480-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2017-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2017-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2017-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2017 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553462880-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2018-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2018-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2018-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2018 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553463128-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2019-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2019-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2019-geotiff.zip",
+      "description": "Global PM2.5 Grids data in GeoTIFF format for the year 2019 from the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2019, V4.GL.03 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "C3540909198-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553463244-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-1998-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716062",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-1998-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 94662964,
+      "checksum:md5": "b5449f4f12e45ee4f267f3cdf5a10115",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716062",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-1999-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716067",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-1999-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 90122759,
+      "checksum:md5": "17b15553955df73b904d173153c532aa",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716067",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2000-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716065",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2000-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 89034275,
+      "checksum:md5": "4bafa183c72358da8d2efa56bd73e5bc",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716065",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2001-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716061",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2001-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 97523214,
+      "checksum:md5": "64ca039f8d360fdaf6fa02f66cf7393e",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716061",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2002-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716072",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2002-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 102005998,
+      "checksum:md5": "1277a381a3d02290c37d2ce97b9b92dd",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716072",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2003-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716075",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2003-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 100523042,
+      "checksum:md5": "fbf77d2ebcb92ccf0ff990bb279c7371",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716075",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2004-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716068",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2004-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 97799189,
+      "checksum:md5": "76244423d8450ddfe64c90e0a9df8ea0",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716068",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2005-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716071",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2005-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 95718968,
+      "checksum:md5": "c9a772cc1305795e84ffc6ada44576d8",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716071",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2006-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716079",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2006-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 97442492,
+      "checksum:md5": "8dcb391ab603b85921e3d7f2fca917fd",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716079",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2007-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716074",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2007-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 94134179,
+      "checksum:md5": "803a14f18439858e3698cbfdcee0d535",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716074",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2008-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716077",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2008-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 95381992,
+      "checksum:md5": "8b8a24ff2bc7883a8bf59a41246b7c06",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716077",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2009-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716070",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2009-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 96802774,
+      "checksum:md5": "657f6c68b5daa78475ccf4e7d3196cfe",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716070",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2010-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716060",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2010-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 97279196,
+      "checksum:md5": "01b84030508b65badc7381b577111f5b",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716060",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2011-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716059",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2011-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 97386388,
+      "checksum:md5": "355aefb1bf7890103010271374bd0f9d",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716059",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2012-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716058",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2012-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 102845753,
+      "checksum:md5": "83d2d597c2935b5096ccd72efdfaf3a0",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716058",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2013-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716076",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2013-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 101781945,
+      "checksum:md5": "75eb25d6d18849330a0d7d1bd979a30f",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716076",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2014-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716078",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2014-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 99122125,
+      "checksum:md5": "df0a6f5c573eddbc7d8540f713580ef4",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716078",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2015-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716064",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2015-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 108246469,
+      "checksum:md5": "149231e26d870fc8b5eab5988dff792f",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716064",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2016-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716069",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2016-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 109508274,
+      "checksum:md5": "9a89b0659ac360e00d18ca6bbcff92a6",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716069",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2017-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716063",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2017-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 105261590,
+      "checksum:md5": "079fe30ee8f4c699f9adb015e7c2620f",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716063",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2018-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716066",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2018-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 104552804,
+      "checksum:md5": "20862a9614341d867ef783a3358023bb",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716066",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2019-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11716073",
+      "type": "application/zip",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03-2019-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 98997495,
+      "checksum:md5": "3cf0de01b8f7702455799986a0e36875",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:13:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FX80-4N39",
+      "ciesin:harvard_doi": "10.7910/DVN/TV5P0R",
+      "ciesin:source_dataset_id": "11646147",
+      "ciesin:source_file_id": "11716073",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

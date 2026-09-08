@@ -1,0 +1,1442 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-pd-sspbsyr-1-8th",
+  "collection": "ciesin-sedac-population",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.77
+        ],
+        [
+          180.0,
+          -55.77
+        ],
+        [
+          180.0,
+          83.63
+        ],
+        [
+          -180.0,
+          83.63
+        ],
+        [
+          -180.0,
+          -55.77
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -55.77,
+    180.0,
+    83.63
+  ],
+  "properties": {
+    "title": "Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01",
+    "description": "The Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01, data set consists of global urban, rural, and total population data for the base year 2000, and population projections at ten-year intervals for 2010-2100 at a resolution of one-eighth degree (7.5 arc-minutes), consistent both quantitatively and qualitatively with the SSPs. Spatial demographic data are key inputs for the analysis of land use, energy use, and emissions, as well as for the assessment of climate change vulnerability, impacts, and adaptation. The SSPs are developed to support future climate and global change research and the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report (AR6).",
+    "datetime": "2020-04-09T00:00:00Z",
+    "start_datetime": "2000-01-01T00:00:00.000Z",
+    "end_datetime": "2100-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION > POPULATION ESTIMATES",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS",
+      "Earth Science",
+      "Global",
+      "Human Dimensions",
+      "Population",
+      "Population Estimates",
+      "Society",
+      "Socioeconomics"
+    ],
+    "sci:doi": "10.7927/m30p-j498",
+    "ciesin:category": "Population",
+    "ciesin:tags": "Population, Earth Science, Human Dimensions, Population Estimates, Socioeconomics, Global, Society",
+    "ciesin:nasa_doi": "10.7927/M30P-J498",
+    "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+    "ciesin:sedac_doi": "10.7927/m30p-j498",
+    "ciesin:purpose": "To provide global urban, rural, and total population base year and projection grids based on the Shared Socioeconomic Pathways (SSPs) data at a resolution of one-eighth degree (7.5 arc-minutes) for climate, socioeconomic, environmental, and other related research.",
+    "ciesin:data_format": "raster, map, map service; journal article",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/m30p-j498",
+      "type": "text/html",
+      "title": "m30p-j498"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1088/1748-9326/11/8/084003",
+      "type": "text/html",
+      "title": "084003"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-ssps-byr-2000-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-ssps-byr-2000-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "via",
+      "href": "https://alpha.sedac.ciesin.columbia.edu/data/set/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/m30p-j498",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-pd-sspbsyr-1-8th.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-ascii-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-ascii.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-ascii.zip",
+      "description": "Global Base Year data in ASCII format for the year 2000 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278865-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "m30p-j498": {
+      "href": "https://doi.org/10.7927/m30p-j498",
+      "type": "application/octet-stream",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-ascii.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278865-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-ssps-byr-2000-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-ssps-byr-2000.pdf",
+      "type": "application/pdf",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-ascii.zip",
+      "description": "Global Base Year map for the year 2000 in PDF format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278865-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-ssps-byr-2000-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-ssps-byr-2000.png",
+      "type": "image/png",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-ascii.zip",
+      "description": "Global Base Year map for the year 2000 in PDF format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278865-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-ssps-byr-2000-thumbnail": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-ssps-byr-2000-(thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-ascii.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278865-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-ascii-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-ascii.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-ascii.zip",
+      "description": "Global Fossil-fueled development projected at a ten-year interval data in ASCII format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278868-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp5-2050-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp5-2050.pdf",
+      "type": "application/pdf",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-ascii.zip",
+      "description": "Global Fossil-fueled development projected grids map for the year 2050 in PDF format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278868-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp5-2100-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp5-2100.pdf",
+      "type": "application/pdf",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-ascii.zip",
+      "description": "Global Fossil-fueled development projected grids map for the year 2100inPNG format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278868-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp5-2050-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp5-2050.png",
+      "type": "image/png",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-ascii.zip",
+      "description": "Global Fossil-fueled development projected grids map for the year 2050 in PDF format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278868-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp5-2100-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp5-2100.png",
+      "type": "image/png",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-ascii.zip",
+      "description": "Global Fossil-fueled development grids projected at a ten-year interval map for the year 2100 in PNG format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278868-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp5-2050-thumbnai": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp5-2050-(thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-ascii.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278868-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-netcdf.zip",
+      "description": "Global Middle of the road projected at a ten-year interval data in NetCDF format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278872-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp2-2050-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp2-2050.pdf",
+      "type": "application/pdf",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-netcdf.zip",
+      "description": "Global Middle of the road projected grids map for the year 2050 in PDF format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278872-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp2-2100-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp2-2100.pdf",
+      "type": "application/pdf",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-netcdf.zip",
+      "description": "Global Middle of the road projected grids map for the year 2100inPNG format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278872-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp2-2050-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp2-2050.png",
+      "type": "image/png",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-netcdf.zip",
+      "description": "Global Middle of the road projected grids map for the year 2050 in PDF format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278872-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp2-2100-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp2-2100.png",
+      "type": "image/png",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-netcdf.zip",
+      "description": "Global Middle of the road grids projected at a ten-year interval map for the year 2100 in PNG format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278872-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp2-2050-thumbnai": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp2-2050-(thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-netcdf.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278872-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-netcdf.zip",
+      "description": "Global Inequality projected at a ten-year interval data in NetCDF format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278877-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp4-2050-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp4-2050.pdf",
+      "type": "application/pdf",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-netcdf.zip",
+      "description": "Global Inequality projected grids map for the year 2050 in PDF format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278877-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp4-2100-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp4-2100.pdf",
+      "type": "application/pdf",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-netcdf.zip",
+      "description": "Global Inequality projected grids map for the year 2100inPNG format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278877-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp4-2050-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp4-2050.png",
+      "type": "image/png",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-netcdf.zip",
+      "description": "Global Inequality projected grids map for the year 2050 in PDF format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278877-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp4-2100-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp4-2100.png",
+      "type": "image/png",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-netcdf.zip",
+      "description": "Global Inequality grids projected at a ten-year interval map for the year 2100 in PNG format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278877-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp4-2050-thumbnai": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp4-2050-(thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-netcdf.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278877-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-ascii-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-ascii.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-ascii.zip",
+      "description": "Global Inequality projected at a ten-year interval data in ASCII format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278882-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-grid.zip",
+      "description": "Global Middle of the road projected at a ten-year interval data in Grid format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278884-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-geotiff.zip",
+      "description": "Global Middle of the road projected at a ten-year interval data in GeoTIFF format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278889-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-ascii-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-ascii.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-ascii.zip",
+      "description": "Global Middle of the road projected at a ten-year interval data in ASCII format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278892-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-ascii-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-ascii.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-ascii.zip",
+      "description": "Global Regional rivalry projected at a ten-year interval data in ASCII format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278894-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp3-2050-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp3-2050.pdf",
+      "type": "application/pdf",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-ascii.zip",
+      "description": "Global Regional rivalry projected grids map for the year 2050 in PDF format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278894-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp3-2100-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp3-2100.pdf",
+      "type": "application/pdf",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-ascii.zip",
+      "description": "Global Regional rivalry projected grids map for the year 2100inPNG format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278894-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp3-2050-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp3-2050.png",
+      "type": "image/png",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-ascii.zip",
+      "description": "Global Regional rivalry projected grids map for the year 2050 in PDF format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278894-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp3-2100-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp3-2100.png",
+      "type": "image/png",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-ascii.zip",
+      "description": "Global Regional rivalry grids projected at a ten-year interval map for the year 2100 in PNG format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278894-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp3-2050-thumbnai": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp3-2050-(thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-ascii.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278894-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-geotiff.zip",
+      "description": "Global Sustainability projected at a ten-year interval data in GeoTIFF format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278896-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp1-2050-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp1-2050.pdf",
+      "type": "application/pdf",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-geotiff.zip",
+      "description": "Global Sustainability projected grids map for the year 2050 in PDF format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278896-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp1-2100-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp1-2100.pdf",
+      "type": "application/pdf",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-geotiff.zip",
+      "description": "Global Sustainability projected grids map for the year 2100inPNG format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278896-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp1-2050-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp1-2050.png",
+      "type": "image/png",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-geotiff.zip",
+      "description": "Global Sustainability projected grids map for the year 2050 in PDF format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278896-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp1-2100-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp1-2100.png",
+      "type": "image/png",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-geotiff.zip",
+      "description": "Global Sustainability grids projected at a ten-year interval map for the year 2100 in PNG format from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278896-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp1-2050-thumbnai": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/popdynics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-proj-ssp1-2050-(thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278896-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-geotiff.zip",
+      "description": "Global Regional rivalry projected at a ten-year interval data in GeoTIFF format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278898-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-grid.zip",
+      "description": "Global Regional rivalry projected at a ten-year interval data in Grid format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278903-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-netcdf.zip",
+      "description": "Global Sustainability projected at a ten-year interval data in NetCDF format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278906-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-netcdf.zip",
+      "description": "Global Base Year data in NetCDF format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278910-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-netcdf.zip",
+      "description": "Global Fossil-fueled development projected at a ten-year interval data in NetCDF format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278911-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-geotiff.zip",
+      "description": "Global Inequality projected at a ten-year interval data in GeoTIFF format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278914-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-netcdf.zip",
+      "description": "Global Regional rivalry projected at a ten-year interval data in NetCDF format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278919-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-grid.zip",
+      "description": "Global Base Year data in Grid format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278921-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-grid.zip",
+      "description": "Global Fossil-fueled development projected at a ten-year interval data in Grid format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278924-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-geotiff.zip",
+      "description": "Global Fossil-fueled development projected at a ten-year interval data in GeoTIFF format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278925-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-ascii-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-ascii.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-ascii.zip",
+      "description": "Global Sustainability projected at a ten-year interval data in ASCII format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278927-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-grid.zip",
+      "description": "Global Sustainability projected at a ten-year interval data in Grid format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278928-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-grid.zip",
+      "description": "Global Inequality projected at a ten-year interval data in Grid format for the years2000-2010 from the Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "C3540929631-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278930-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-ascii-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808470",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-ascii.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7144719,
+      "checksum:md5": "57c1cb81df6dc1c3d89b54cf2a487c01",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808470",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808471",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8279264,
+      "checksum:md5": "384397aa750f3560c06f68fd2822ade1",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808471",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808466",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7283262,
+      "checksum:md5": "c8f9cdb0268f6b80080517a2989df7cc",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808466",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-ascii-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808476",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-ascii.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37402442,
+      "checksum:md5": "4d10da71259e354c9b275e9c98d799eb",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808476",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808468",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 53530773,
+      "checksum:md5": "0596f4b2714bf071142010c02c6db0a9",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808468",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808462",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 45753276,
+      "checksum:md5": "521ad2679144071ce904cff2a90681d5",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808462",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808472",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38118638,
+      "checksum:md5": "633de1bf9471607fbe81c2d4bd569943",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808472",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-ascii-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808469",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-ascii.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37060109,
+      "checksum:md5": "ab1e34adf1739e43aa2e97c17aa103bb",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808469",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808475",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 53908068,
+      "checksum:md5": "f6f4f58d7d2a35e9fc495a7f6e26c0e8",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808475",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808474",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 46113150,
+      "checksum:md5": "c82f6dd29c98025cc066cf866bb50911",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808474",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808479",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38295253,
+      "checksum:md5": "4cc6f254756c9009f0a5d355ac5c1e5d",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808479",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-ascii-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808460",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-ascii.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37048001,
+      "checksum:md5": "8a69afab431b5eed0a082af4925afd55",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808460",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808473",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 53829271,
+      "checksum:md5": "dd5af8931335e6fc522fae03b13cc9b2",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808473",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808465",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 46033888,
+      "checksum:md5": "c8c3905254f6ab8680b1586767419fcf",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808465",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808464",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38137235,
+      "checksum:md5": "4eb80b698157113e2f6090f5a00e8b96",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808464",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-ascii-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808480",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-ascii.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 36794186,
+      "checksum:md5": "29c25fbae4cd6788c6e764ce61405685",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808480",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808463",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 53555136,
+      "checksum:md5": "8b691ff179cb705dec28ea641cc8e199",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808463",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808477",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 45824589,
+      "checksum:md5": "63a1b9d0485dce06eb5c7b10755136b6",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808477",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808467",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38118337,
+      "checksum:md5": "8c4a03a0a20c7c2ba00d09a9ea8bb103",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808467",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-ascii-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808461",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-ascii.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 36978532,
+      "checksum:md5": "d4efd220aa686dac25ea4ffdbb5779a9",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808461",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808459",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 53859835,
+      "checksum:md5": "57e594a08273e9cdf15caefe61a72100",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808459",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808481",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 46064901,
+      "checksum:md5": "b29fe50e5ed7e031e8d252cd1c4774cb",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808481",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808478",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38354500,
+      "checksum:md5": "93013bd3db364dbc2c6ec04513c2cbc0",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T16:54:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/M30P-J498",
+      "ciesin:harvard_doi": "10.7910/DVN/ZU9RGZ",
+      "ciesin:source_dataset_id": "11646193",
+      "ciesin:source_file_id": "11808478",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

@@ -1,0 +1,4351 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "city-segments-layer-v1",
+  "collection": "ciesin-sedac-uncategorized",
+  "geometry": null,
+  "properties": {
+    "title": "City Segments Layer v1",
+    "description": "The City Segments Layer v1 is a geospatial dataset identifying sub-city areas with high building density and low road connectivity, serving as a proxy for neighborhood socioeconomic status (SES). Available for 5,218 urban centers across 107 low- and middle-income countries, it enables spatial analysis of urban vulnerabilities. City segment boundaries align with navigable roads and water features, ensuring relevance for fieldwork applications. Each segment has a minimum estimated population of 400 people to produce units similar to census enumeration areas. The dataset integrates multiple open geospatial sources: Global Human Settlement Layer Urban Center Database (GHS-UCDB, 2019) for city boundaries, OpenStreetMap (OSM) via Global Urban Street Networks (GUSN) for roads, OSM via GeoFabrik for water features, and Overture Maps for building footprints. Urban areas are segmented through a multi-step geoprocessing workflow. Major zones are first defined by primary roads, waterways, and city boundaries. Within these, city segments are created using secondary roads and smaller waterways. Voronoi diagrams from building centroids support fine-scale urban morphology analysis, including road access and parcel size variation. This dataset provides a standardized framework for analyzing area-level urban deprivations and assets, and has potential to support local-to-international development indicator monitoring, policymakers, researchers, and field practitioners upon further validation.",
+    "datetime": "2025-03-17T00:00:00Z",
+    "license": "other",
+    "sci:doi": "10.7910/DVN/XLRSF0",
+    "ciesin:category": "Uncategorized",
+    "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+    "ciesin:sedac_doi": "10.7910/DVN/XLRSF0",
+    "ciesin:field_count": 0,
+    "ciesin:item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
+    "ciesin:xml_found": "no",
+    "ciesin:source_match_status": "nasa_missing;harvard_found"
+  },
+  "links": [
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/XLRSF0",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./city-segments-layer-v1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "afghanistan-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667746",
+      "type": "text/tab-separated-values",
+      "title": "afghanistan_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 17278736,
+      "checksum:md5": "f42c0864f804b166f39a2734da766a07",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667746",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "afghanistan-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667712",
+      "type": "application/zipped-shapefile",
+      "title": "afghanistan_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3515997,
+      "checksum:md5": "2632396845832759266909d38aa37686",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667712",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "algeria-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667589",
+      "type": "text/tab-separated-values",
+      "title": "algeria_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 44755411,
+      "checksum:md5": "e22099f35a9d214daf3d0f8c3cb9a6cb",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667589",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "algeria-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667614",
+      "type": "application/zipped-shapefile",
+      "title": "algeria_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9480833,
+      "checksum:md5": "13003d74533fd5891e015d9d29f12373",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667614",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "angola-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667610",
+      "type": "text/tab-separated-values",
+      "title": "angola_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39664860,
+      "checksum:md5": "2ac8d16f9bc8287d6832a2958b434a01",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667610",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "angola-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667720",
+      "type": "application/zipped-shapefile",
+      "title": "angola_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8229987,
+      "checksum:md5": "0ec2d7cf704d816d325a9f53c3cec004",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667720",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "argentina-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667719",
+      "type": "text/tab-separated-values",
+      "title": "argentina_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 83380974,
+      "checksum:md5": "c32510c28a223bea07a766c0a3eede1d",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667719",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "argentina-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667648",
+      "type": "application/zipped-shapefile",
+      "title": "argentina_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 15951246,
+      "checksum:md5": "fc092b76388a6c9630ed66c1e616bd61",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667648",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "bangladesh-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667662",
+      "type": "text/tab-separated-values",
+      "title": "bangladesh_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 132121106,
+      "checksum:md5": "c7a4b946fc61398bd1dbf07d3eec8f1c",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667662",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "bangladesh-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667682",
+      "type": "application/zipped-shapefile",
+      "title": "bangladesh_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 33424632,
+      "checksum:md5": "535fc376b97a42fbb47598273d20aeec",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667682",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "belize-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667767",
+      "type": "text/tab-separated-values",
+      "title": "belize_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 236509,
+      "checksum:md5": "2e58896cf26ec5757997cc7ebac87859",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667767",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "belize-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667597",
+      "type": "application/zipped-shapefile",
+      "title": "belize_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 44515,
+      "checksum:md5": "b9ebabf61c3382f384d555afb5ff724e",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667597",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "benin-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667670",
+      "type": "text/tab-separated-values",
+      "title": "benin_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11379135,
+      "checksum:md5": "cddc17fd71c7b778b3fee670a570badd",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667670",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "benin-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667766",
+      "type": "application/zipped-shapefile",
+      "title": "benin_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2351559,
+      "checksum:md5": "c087c04605225fa9c923eca250fccba4",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667766",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "bolivia-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667738",
+      "type": "text/tab-separated-values",
+      "title": "bolivia_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 18609259,
+      "checksum:md5": "d4b26ae3d68401501203639877f769cd",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667738",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "bolivia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667730",
+      "type": "application/zipped-shapefile",
+      "title": "bolivia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3669625,
+      "checksum:md5": "52447cb2a2908a2cdba7c62ef9a9aeee",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667730",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "botswana-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667654",
+      "type": "text/tab-separated-values",
+      "title": "botswana_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2420085,
+      "checksum:md5": "4fab95155a35acd322cfbe1ec9d466bc",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667654",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "botswana-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667655",
+      "type": "application/zipped-shapefile",
+      "title": "botswana_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 457097,
+      "checksum:md5": "4d6b940feb45cbabfa8ee6be347c1903",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667655",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "brazil-segments-vars-csv": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667609",
+      "type": "text/csv",
+      "title": "brazil_segments_vars.csv",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 383166064,
+      "checksum:md5": "f6d2cfe7230c4798d0ffe29821ecc258",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667609",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Comma Separated Values"
+    },
+    "brazil-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667600",
+      "type": "application/zipped-shapefile",
+      "title": "brazil_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 80342555,
+      "checksum:md5": "c80e4f1691703c2140429e19bc22d7f4",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667600",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "burkina-faso-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667717",
+      "type": "text/tab-separated-values",
+      "title": "burkina_faso_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13842601,
+      "checksum:md5": "be126b4f3cdacb4de734b4122b212b9f",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667717",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "burkina-faso-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667627",
+      "type": "application/zipped-shapefile",
+      "title": "burkina_faso_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2963306,
+      "checksum:md5": "caf5c55d9c63a66cdad1a2e827210bfe",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667627",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "burundi-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667663",
+      "type": "text/tab-separated-values",
+      "title": "burundi_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3242992,
+      "checksum:md5": "79dd28fff0adbce785de58f31d07f6d2",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667663",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "burundi-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667577",
+      "type": "application/zipped-shapefile",
+      "title": "burundi_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 601990,
+      "checksum:md5": "d93eb90a5004f8aae51fee2632377032",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667577",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "cambodia-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667595",
+      "type": "text/tab-separated-values",
+      "title": "cambodia_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8220944,
+      "checksum:md5": "915865a446b12aba79f53652510c28cd",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667595",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "cambodia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667722",
+      "type": "application/zipped-shapefile",
+      "title": "cambodia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1746214,
+      "checksum:md5": "6f140ce2b8851c92ed4307eb6064e172",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667722",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "cameroon-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667592",
+      "type": "text/tab-separated-values",
+      "title": "cameroon_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32957626,
+      "checksum:md5": "1b70231eb890bd6e2d6be105d6ea3298",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667592",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "cameroon-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667742",
+      "type": "application/zipped-shapefile",
+      "title": "cameroon_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7409672,
+      "checksum:md5": "833f653943cafb18c7974f71618e2545",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667742",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "central-african-republic-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667729",
+      "type": "text/tab-separated-values",
+      "title": "central_african_republic_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2888038,
+      "checksum:md5": "ba6eee23177cae731670541cb79e650b",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667729",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "central-african-republic-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667769",
+      "type": "application/zipped-shapefile",
+      "title": "central_african_republic_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 615960,
+      "checksum:md5": "83050798bc23a3b1262783bd8784a0b9",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667769",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "chad-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667686",
+      "type": "text/tab-separated-values",
+      "title": "chad_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7782870,
+      "checksum:md5": "47eaaf7489d88202fc95521d58271322",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667686",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "chad-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667605",
+      "type": "application/zipped-shapefile",
+      "title": "chad_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1530217,
+      "checksum:md5": "c820363033ee72d79fd044945dcbf09c",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667605",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "city-segments-layer-v1-documentation-pdf": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667645",
+      "type": "application/pdf",
+      "title": "City Segments Layer v1 documentation.pdf",
+      "description": "City Segments Layer v1 documentation",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5268796,
+      "checksum:md5": "0ef36e736ac58f74330a4d2ba7f628e7",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667645",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "colombia-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667613",
+      "type": "text/tab-separated-values",
+      "title": "colombia_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 69075396,
+      "checksum:md5": "c6d68c81abf23aca1e69bfc3bcb441bd",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667613",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "colombia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667695",
+      "type": "application/zipped-shapefile",
+      "title": "colombia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14401714,
+      "checksum:md5": "2d6a96a5bc1272ad87a20b57303bd7f6",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667695",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "comoros-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667628",
+      "type": "text/tab-separated-values",
+      "title": "comoros_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 491023,
+      "checksum:md5": "d8a2435ed99ab3af893545500a9c86ec",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667628",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "comoros-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667772",
+      "type": "application/zipped-shapefile",
+      "title": "comoros_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 85745,
+      "checksum:md5": "c8e9b4c9a5a1dcb3df8da41484286c1e",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667772",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "costa-rica-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667607",
+      "type": "text/tab-separated-values",
+      "title": "costa_rica_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16898273,
+      "checksum:md5": "b9edef466ce1d15e9a43234538e0303f",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667607",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "costa-rica-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667646",
+      "type": "application/zipped-shapefile",
+      "title": "costa_rica_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4479241,
+      "checksum:md5": "c5aaa7d2d8e894fe328fe74fca8c84be",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667646",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "cote-d-ivoire-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667737",
+      "type": "text/tab-separated-values",
+      "title": "cote_d_ivoire_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 21772490,
+      "checksum:md5": "bde96bf75d29bc69a30e507a75f5bfc6",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667737",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "cote-d-ivoire-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667649",
+      "type": "application/zipped-shapefile",
+      "title": "cote_d_ivoire_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4443961,
+      "checksum:md5": "6a3c0e8a397750d478d342cd1009343e",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667649",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "cuba-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667774",
+      "type": "text/tab-separated-values",
+      "title": "cuba_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11951344,
+      "checksum:md5": "4af858209d31ebbfac1c0e334ae6b774",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667774",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "cuba-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667740",
+      "type": "application/zipped-shapefile",
+      "title": "cuba_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2306137,
+      "checksum:md5": "af0a3d7d11b0f8b1b8cb8d8bc4167f5c",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667740",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "democratic-republic-of-the-congo-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667631",
+      "type": "text/tab-separated-values",
+      "title": "democratic_republic_of_the_congo_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 73713529,
+      "checksum:md5": "29a310b88f7d5ae69154b8af303d670c",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667631",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "democratic-republic-of-the-congo-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667637",
+      "type": "application/zipped-shapefile",
+      "title": "democratic_republic_of_the_congo_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 15199328,
+      "checksum:md5": "fca6f9bd6d9cfec6fb76874ebb2a27e3",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667637",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "djibouti-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667672",
+      "type": "text/tab-separated-values",
+      "title": "djibouti_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 680610,
+      "checksum:md5": "3e4c0d4bef61389fee924a592f69ba43",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667672",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "djibouti-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667636",
+      "type": "application/zipped-shapefile",
+      "title": "djibouti_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 126224,
+      "checksum:md5": "3cb56c7201f3f989702405ee17ec2dd1",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667636",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "dominican-republic-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667599",
+      "type": "text/tab-separated-values",
+      "title": "dominican_republic_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 18468555,
+      "checksum:md5": "dbc09a2681d4982456c43efcc123c1dc",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667599",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "dominican-republic-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667758",
+      "type": "application/zipped-shapefile",
+      "title": "dominican_republic_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4065971,
+      "checksum:md5": "53240085ed97d637b21e2d9da83ef657",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667758",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "ecuador-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667612",
+      "type": "text/tab-separated-values",
+      "title": "ecuador_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 25346335,
+      "checksum:md5": "6427905d2124b127cf9036521e8cef8e",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667612",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "ecuador-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667760",
+      "type": "application/zipped-shapefile",
+      "title": "ecuador_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5038461,
+      "checksum:md5": "3442c8488c59686a0461ce7880043b45",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667760",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "egypt-segments-vars-csv": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667657",
+      "type": "text/csv",
+      "title": "egypt_segments_vars.csv",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 175615500,
+      "checksum:md5": "a20a270c8deac225190e9236a2ab6ed1",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667657",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Comma Separated Values"
+    },
+    "egypt-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667708",
+      "type": "application/zipped-shapefile",
+      "title": "egypt_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37520733,
+      "checksum:md5": "eb13329ae3b812c63f4750aebe3d13fb",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667708",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "el-salvador-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667735",
+      "type": "text/tab-separated-values",
+      "title": "el_salvador_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8087070,
+      "checksum:md5": "75c5dcd82dc5918e03a7b4fe0f89a5df",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667735",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "el-salvador-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667579",
+      "type": "application/zipped-shapefile",
+      "title": "el_salvador_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1719151,
+      "checksum:md5": "b9221bdec7e5398b501a970f4003bde9",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667579",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "equatorial-guinea-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667690",
+      "type": "text/tab-separated-values",
+      "title": "equatorial_guinea_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1402822,
+      "checksum:md5": "216fec25f8520d18462d1ddfff517584",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667690",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "equatorial-guinea-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667674",
+      "type": "application/zipped-shapefile",
+      "title": "equatorial_guinea_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 295433,
+      "checksum:md5": "bfa8e1bd239a8b91ffdf2001a24e89bf",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667674",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "eritrea-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667677",
+      "type": "text/tab-separated-values",
+      "title": "eritrea_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 758400,
+      "checksum:md5": "d255bff768fb1afa6ad80116f6400898",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667677",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "eritrea-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667668",
+      "type": "application/zipped-shapefile",
+      "title": "eritrea_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 145660,
+      "checksum:md5": "12a0c6d04294498ef88d12cc0c68c686",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667668",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "ethiopia-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667642",
+      "type": "text/tab-separated-values",
+      "title": "ethiopia_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 30355356,
+      "checksum:md5": "8bd4c3ac0fd10a7dde3485fd60f78415",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667642",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "ethiopia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667572",
+      "type": "application/zipped-shapefile",
+      "title": "ethiopia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6473818,
+      "checksum:md5": "bf82085193d52a45c747f50a51a45edb",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667572",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "fiji-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667587",
+      "type": "text/tab-separated-values",
+      "title": "fiji_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 430817,
+      "checksum:md5": "2bac81849ef175ab1a3d8a13c16b6805",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667587",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "fiji-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667744",
+      "type": "application/zipped-shapefile",
+      "title": "fiji_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 98463,
+      "checksum:md5": "8ea7bbd38fc0738506303458ce496fb1",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667744",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "gabon-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667671",
+      "type": "text/tab-separated-values",
+      "title": "gabon_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1684651,
+      "checksum:md5": "e1c1e6a7b30f08d2da87a0ff1d4fa6d7",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667671",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "gabon-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667659",
+      "type": "application/zipped-shapefile",
+      "title": "gabon_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 369186,
+      "checksum:md5": "7473a8222a1e8e54dc34d8bbd7752163",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667659",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "gambia-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667584",
+      "type": "text/tab-separated-values",
+      "title": "gambia_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3297934,
+      "checksum:md5": "23a691d4bc89ac596736856ac5afd6e4",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667584",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "gambia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667678",
+      "type": "application/zipped-shapefile",
+      "title": "gambia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 581960,
+      "checksum:md5": "0c6959f4603f3cb92e3b24690a2f80de",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667678",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "ghana-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667710",
+      "type": "text/tab-separated-values",
+      "title": "ghana_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40556396,
+      "checksum:md5": "bba2029cbb2c744491c68cb6e88ae6e6",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667710",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "ghana-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667702",
+      "type": "application/zipped-shapefile",
+      "title": "ghana_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9556720,
+      "checksum:md5": "4c2403f5aee46b5f1baadf68120efe65",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667702",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "guatemala-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667578",
+      "type": "text/tab-separated-values",
+      "title": "guatemala_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13592725,
+      "checksum:md5": "6dbfc4b112655c84d9c0752ab3e32987",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667578",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "guatemala-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667626",
+      "type": "application/zipped-shapefile",
+      "title": "guatemala_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2811457,
+      "checksum:md5": "cf3eef44465ce92db64219572b51d811",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667626",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "guinea-bissau-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667667",
+      "type": "text/tab-separated-values",
+      "title": "guinea_bissau_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1656941,
+      "checksum:md5": "d32083f590b3c94879ea207c0f5baeaf",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667667",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "guinea-bissau-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667643",
+      "type": "application/zipped-shapefile",
+      "title": "guinea_bissau_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 316018,
+      "checksum:md5": "008d63a76a8c7b735dec67fe752b3a79",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667643",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "guinea-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667764",
+      "type": "text/tab-separated-values",
+      "title": "guinea_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10757705,
+      "checksum:md5": "c0d75ba7f8ff0ee4a3e826aa7dc6d22f",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667764",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "guinea-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667590",
+      "type": "application/zipped-shapefile",
+      "title": "guinea_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2178545,
+      "checksum:md5": "984db43d4c895ce293fc2ba36ce3ac62",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667590",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "haiti-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667743",
+      "type": "text/tab-separated-values",
+      "title": "haiti_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9303133,
+      "checksum:md5": "800784ecf48a72c0eed13088f7406291",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667743",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "haiti-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667692",
+      "type": "application/zipped-shapefile",
+      "title": "haiti_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1889519,
+      "checksum:md5": "400f275c6370f76df584165570607390",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667692",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "honduras-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667651",
+      "type": "text/tab-separated-values",
+      "title": "honduras_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10507944,
+      "checksum:md5": "579196823f099527d971cf900e348fca",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667651",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "honduras-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667625",
+      "type": "application/zipped-shapefile",
+      "title": "honduras_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2210284,
+      "checksum:md5": "9ab91a2f5aa4973e5e84d4b436330541",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667625",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-segments-vars-csv": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667634",
+      "type": "text/csv",
+      "title": "india_segments_vars.csv",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 726897298,
+      "checksum:md5": "6e13befa4ffaf68a186eb8590a068203",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667634",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Comma Separated Values"
+    },
+    "india-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667580",
+      "type": "application/zipped-shapefile",
+      "title": "india_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 159295804,
+      "checksum:md5": "9a646cbee8f55a942de5bb11f6409523",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667580",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "indonesia-segments-vars-csv": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667593",
+      "type": "text/csv",
+      "title": "indonesia_segments_vars.csv",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 576261774,
+      "checksum:md5": "800ab3be480b8caaaae551cd2f10a098",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667593",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Comma Separated Values"
+    },
+    "indonesia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667732",
+      "type": "application/zipped-shapefile",
+      "title": "indonesia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 139555800,
+      "checksum:md5": "7606ad31f9d8259aeed4144bd9451ba6",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667732",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "iran-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667715",
+      "type": "text/tab-separated-values",
+      "title": "iran_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 106077820,
+      "checksum:md5": "4a43d086a15c64951914e3f4f0e12f13",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667715",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "iran-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667777",
+      "type": "application/zipped-shapefile",
+      "title": "iran_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 23509896,
+      "checksum:md5": "e4ad89ea9435cd8b2f47489340c5ac45",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667777",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "iraq-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667565",
+      "type": "text/tab-separated-values",
+      "title": "iraq_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 59518729,
+      "checksum:md5": "eb8bfb995db7ee936bf5f1ab899548c5",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667565",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "iraq-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667696",
+      "type": "application/zipped-shapefile",
+      "title": "iraq_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12349857,
+      "checksum:md5": "0ea5f6afe5c20c1c80f6bbfd91f790b4",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667696",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "jamaica-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667574",
+      "type": "text/tab-separated-values",
+      "title": "jamaica_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4257656,
+      "checksum:md5": "da8e0376e1df6518c48a4c4e5d737618",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667574",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "jamaica-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667733",
+      "type": "application/zipped-shapefile",
+      "title": "jamaica_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 935643,
+      "checksum:md5": "861dedae291cc11e95e6c9fa9ff3f247",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667733",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "jordan-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667679",
+      "type": "text/tab-separated-values",
+      "title": "jordan_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 19007037,
+      "checksum:md5": "0e9f50c5a45a8888bbc4981794ad655d",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667679",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "jordan-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667699",
+      "type": "application/zipped-shapefile",
+      "title": "jordan_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4207681,
+      "checksum:md5": "792595219877325c67d7e0cbf2872356",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667699",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "kazakhstan-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667630",
+      "type": "text/tab-separated-values",
+      "title": "kazakhstan_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 17884689,
+      "checksum:md5": "63140f2eccf6724e093ce9d275af3f4a",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667630",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "kazakhstan-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667778",
+      "type": "application/zipped-shapefile",
+      "title": "kazakhstan_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3838452,
+      "checksum:md5": "711b8487d53adc0caa2414c5fc00ca1b",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667778",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "kenya-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667739",
+      "type": "text/tab-separated-values",
+      "title": "kenya_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 20963481,
+      "checksum:md5": "ac3ff1d2d05feb34842fe2fca919d180",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667739",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "kenya-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667711",
+      "type": "application/zipped-shapefile",
+      "title": "kenya_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4727620,
+      "checksum:md5": "026ac125fd8c20a85610f57ed349cb0f",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667711",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "kyrgyzstan-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667639",
+      "type": "text/tab-separated-values",
+      "title": "kyrgyzstan_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4671735,
+      "checksum:md5": "19c67d3597a6f0b0f361ea7890f83308",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667639",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "kyrgyzstan-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667653",
+      "type": "application/zipped-shapefile",
+      "title": "kyrgyzstan_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 902311,
+      "checksum:md5": "c3c92d0d85982b3a233b8f6232c0ee62",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667653",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "laos-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667665",
+      "type": "text/tab-separated-values",
+      "title": "laos_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2466940,
+      "checksum:md5": "5a8263ed00486b7d2b072eb5682782cd",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667665",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "laos-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667697",
+      "type": "application/zipped-shapefile",
+      "title": "laos_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 561446,
+      "checksum:md5": "d8a2e59da4c8c49af6b7e96a1ad754ba",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667697",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "lebanon-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667698",
+      "type": "text/tab-separated-values",
+      "title": "lebanon_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8966401,
+      "checksum:md5": "ebc0543a0a356d97857974c7da182479",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667698",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "lebanon-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667669",
+      "type": "application/zipped-shapefile",
+      "title": "lebanon_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1923638,
+      "checksum:md5": "ddaffabb715798872ccd46f108b2a075",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667669",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "lesotho-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667675",
+      "type": "text/tab-separated-values",
+      "title": "lesotho_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1268274,
+      "checksum:md5": "0e015ff4ba948ac2bee44993284a7ff0",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667675",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "lesotho-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667713",
+      "type": "application/zipped-shapefile",
+      "title": "lesotho_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 253792,
+      "checksum:md5": "9c0a1db774c6d5ae41bb8ead2b53e994",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667713",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "liberia-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667680",
+      "type": "text/tab-separated-values",
+      "title": "liberia_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7252767,
+      "checksum:md5": "071f49d305147f51bd4d2da9acbed032",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667680",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "liberia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667707",
+      "type": "application/zipped-shapefile",
+      "title": "liberia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1936190,
+      "checksum:md5": "5a42a5c763c6c18d3d4288454cc6f1bb",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667707",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "libya-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667622",
+      "type": "text/tab-separated-values",
+      "title": "libya_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12028215,
+      "checksum:md5": "c5f114a548d91c7120f3c0a8c58d99ca",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667622",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "libya-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667755",
+      "type": "application/zipped-shapefile",
+      "title": "libya_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2681381,
+      "checksum:md5": "e67917b502623da752ade3b56459df8b",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667755",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "madagascar-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667624",
+      "type": "text/tab-separated-values",
+      "title": "madagascar_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4256682,
+      "checksum:md5": "4cd7297a23bf56758209cb3475430881",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667624",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "madagascar-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667608",
+      "type": "application/zipped-shapefile",
+      "title": "madagascar_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 921452,
+      "checksum:md5": "e5183692374b250ae060aa158cd2a649",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667608",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "malawi-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667660",
+      "type": "text/tab-separated-values",
+      "title": "malawi_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9265075,
+      "checksum:md5": "c2b77e64cb4b6dfa4f4a2787465b2a05",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667660",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "malawi-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667775",
+      "type": "application/zipped-shapefile",
+      "title": "malawi_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2079363,
+      "checksum:md5": "10353bd1323c7aec4975c47fa093595c",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667775",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "malaysia-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667586",
+      "type": "text/tab-separated-values",
+      "title": "malaysia_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 69046694,
+      "checksum:md5": "1a468d0d55dd06660c29bffa2f1e97d0",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667586",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "malaysia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667759",
+      "type": "application/zipped-shapefile",
+      "title": "malaysia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 17019070,
+      "checksum:md5": "bbe7ef7f3fef74a86cfbff8d29394273",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667759",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "maldives-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667635",
+      "type": "text/tab-separated-values",
+      "title": "maldives_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 125643,
+      "checksum:md5": "df7a9ae09e345810cfa0d7b144392c9f",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667635",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "maldives-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667756",
+      "type": "application/zipped-shapefile",
+      "title": "maldives_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 20619,
+      "checksum:md5": "2049b8611f364a1a4f0006babcb22b11",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667756",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "mali-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667658",
+      "type": "text/tab-separated-values",
+      "title": "mali_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13649172,
+      "checksum:md5": "cabbb74289ca8165a9ed502488a66644",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667658",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "mali-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667706",
+      "type": "application/zipped-shapefile",
+      "title": "mali_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2885254,
+      "checksum:md5": "40030d0e7a6388d91d58695c5bdbd9fe",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667706",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "mauritania-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667704",
+      "type": "text/tab-separated-values",
+      "title": "mauritania_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3788133,
+      "checksum:md5": "de9a4d1382457fe2d512d44ffe33ac32",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667704",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "mauritania-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667615",
+      "type": "application/zipped-shapefile",
+      "title": "mauritania_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 688383,
+      "checksum:md5": "bea4a44610b1a3f51735f7ae478b7da2",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667615",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "mauritius-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667748",
+      "type": "text/tab-separated-values",
+      "title": "mauritius_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1516907,
+      "checksum:md5": "2dc844f9e6f84db368e3ad04dfe31576",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667748",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "mauritius-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667726",
+      "type": "application/zipped-shapefile",
+      "title": "mauritius_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 303925,
+      "checksum:md5": "26f0cf1a901941e4bdf60f7d203eacfd",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667726",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "mexico-segments-vars-csv": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667623",
+      "type": "text/csv",
+      "title": "mexico_segments_vars.csv",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 203660038,
+      "checksum:md5": "972f14f4ecc2dc4b44148703dec01c29",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667623",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Comma Separated Values"
+    },
+    "mexico-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667598",
+      "type": "application/zipped-shapefile",
+      "title": "mexico_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41899726,
+      "checksum:md5": "f97cd86091f4a55d8088a2308bbc0599",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667598",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "moldova-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667602",
+      "type": "text/tab-separated-values",
+      "title": "moldova_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2283470,
+      "checksum:md5": "f56b8a663c118b0fb5ba867d75230df1",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667602",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "moldova-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667673",
+      "type": "application/zipped-shapefile",
+      "title": "moldova_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 471892,
+      "checksum:md5": "19ac51245f14297a379183753a1d52c0",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667673",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "mongolia-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667752",
+      "type": "text/tab-separated-values",
+      "title": "mongolia_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3597560,
+      "checksum:md5": "7cf7df04a65114f84470a60c943d60eb",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667752",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "mongolia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667773",
+      "type": "application/zipped-shapefile",
+      "title": "mongolia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 819064,
+      "checksum:md5": "bcc1cffe28d67fa70e926ab919c6c78f",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667773",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "morocco-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667644",
+      "type": "text/tab-separated-values",
+      "title": "morocco_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42095349,
+      "checksum:md5": "6aca806b4e2ca98e4cbe07fa3ff0fdb6",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667644",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "morocco-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667693",
+      "type": "application/zipped-shapefile",
+      "title": "morocco_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9017377,
+      "checksum:md5": "94ffc2af863ac46541d4985e4a8ba4cc",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667693",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "mozambique-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667687",
+      "type": "text/tab-separated-values",
+      "title": "mozambique_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 18102896,
+      "checksum:md5": "4042bbcc5ef8467066573121f27bf813",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667687",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "mozambique-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667581",
+      "type": "application/zipped-shapefile",
+      "title": "mozambique_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3644337,
+      "checksum:md5": "48b1d2d59ad23a5b50681d0112c0b1c8",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667581",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "myanmar-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667731",
+      "type": "text/tab-separated-values",
+      "title": "myanmar_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 36283012,
+      "checksum:md5": "a045d7492116e34a0fdf18c1d24240d8",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667731",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "myanmar-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667632",
+      "type": "application/zipped-shapefile",
+      "title": "myanmar_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7516547,
+      "checksum:md5": "6174e98ad44a8bd4f5d1257083d98f68",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667632",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "namibia-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667640",
+      "type": "text/tab-separated-values",
+      "title": "namibia_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1446850,
+      "checksum:md5": "3982f452b5512049d2002d85f4685fdd",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667640",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "namibia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667688",
+      "type": "application/zipped-shapefile",
+      "title": "namibia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 288107,
+      "checksum:md5": "63bedc3baa2a8ce5a930907a20a2a765",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667688",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "nepal-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667620",
+      "type": "text/tab-separated-values",
+      "title": "nepal_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14345555,
+      "checksum:md5": "90e6b9d37c3d3f3dc574437ac72fa96d",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667620",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "nepal-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667727",
+      "type": "application/zipped-shapefile",
+      "title": "nepal_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3407895,
+      "checksum:md5": "de94df47e77dfbb7cf0df8a7dc555012",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667727",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "nicaragua-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667618",
+      "type": "text/tab-separated-values",
+      "title": "nicaragua_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6300458,
+      "checksum:md5": "f66e3ead3632362057bbdc8a441917ff",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667618",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "nicaragua-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667694",
+      "type": "application/zipped-shapefile",
+      "title": "nicaragua_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1201634,
+      "checksum:md5": "a757da31704d6afab2fb00a5edbc372a",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667694",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "nigeria-segments-vars-csv": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667603",
+      "type": "text/csv",
+      "title": "nigeria_segments_vars.csv",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 204185474,
+      "checksum:md5": "f6a1675d54cad6745e175c784eefce40",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667603",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Comma Separated Values"
+    },
+    "nigeria-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667601",
+      "type": "application/zipped-shapefile",
+      "title": "nigeria_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 45707030,
+      "checksum:md5": "f2be725d70280ee0e73e413961b6acde",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667601",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "niger-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667734",
+      "type": "text/tab-separated-values",
+      "title": "niger_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8159051,
+      "checksum:md5": "a68cf21a48a529e2b7db3394bacefc76",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667734",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "niger-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667770",
+      "type": "application/zipped-shapefile",
+      "title": "niger_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1463253,
+      "checksum:md5": "e3b565d011f948f983735610a7496eed",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667770",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "north-korea-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667638",
+      "type": "text/tab-separated-values",
+      "title": "north_korea_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16737967,
+      "checksum:md5": "c488f3f0864a8036012a83ea8a7240ab",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667638",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "north-korea-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667576",
+      "type": "application/zipped-shapefile",
+      "title": "north_korea_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4013987,
+      "checksum:md5": "f6d4993aee1cec77070daafb3464b30a",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667576",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "pakistan-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667617",
+      "type": "text/tab-separated-values",
+      "title": "pakistan_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 115297790,
+      "checksum:md5": "f83c4f373f785db70e0296b53e8a654b",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667617",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "pakistan-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667570",
+      "type": "application/zipped-shapefile",
+      "title": "pakistan_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 23215261,
+      "checksum:md5": "2d5b90885f19f3e78551f77332c4e34e",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667570",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "palestina-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667749",
+      "type": "text/tab-separated-values",
+      "title": "palestina_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11151464,
+      "checksum:md5": "08eed5675f243f62f4bb7509414c8e1c",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667749",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "palestina-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667573",
+      "type": "application/zipped-shapefile",
+      "title": "palestina_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2369629,
+      "checksum:md5": "7375c75e93f007b9b387f0f756b803a3",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667573",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "panama-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667611",
+      "type": "text/tab-separated-values",
+      "title": "panama_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6588222,
+      "checksum:md5": "55e3f6d6c0fd61b4d9bcaff2ffce7082",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667611",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "panama-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667585",
+      "type": "application/zipped-shapefile",
+      "title": "panama_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1443469,
+      "checksum:md5": "c37627d4e4c843e39ccd91092b07a409",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667585",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "papua-new-guinea-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667754",
+      "type": "text/tab-separated-values",
+      "title": "papua_new_guinea_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 527622,
+      "checksum:md5": "cba7c44487404598ed06105d2b46febf",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667754",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "papua-new-guinea-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667776",
+      "type": "application/zipped-shapefile",
+      "title": "papua_new_guinea_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 122573,
+      "checksum:md5": "a5cf739d965fa6366980789377302750",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667776",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "paraguay-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667616",
+      "type": "text/tab-separated-values",
+      "title": "paraguay_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10363166,
+      "checksum:md5": "1c1b9e7e20494362b40c10037bbdd64c",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667616",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "paraguay-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667691",
+      "type": "application/zipped-shapefile",
+      "title": "paraguay_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2232253,
+      "checksum:md5": "442fec4c804dc477c9b11bc55c592018",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667691",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "peru-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667685",
+      "type": "text/tab-separated-values",
+      "title": "peru_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39486333,
+      "checksum:md5": "36ebd06e77addb519a3a1f39a6301d4a",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667685",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "peru-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667681",
+      "type": "application/zipped-shapefile",
+      "title": "peru_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7702652,
+      "checksum:md5": "a404cca6c9853e9e4f746c9d33db353e",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667681",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "philippines-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667683",
+      "type": "text/tab-separated-values",
+      "title": "philippines_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 140025253,
+      "checksum:md5": "b32df2628d4907f2789f6cb6e400980f",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667683",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "philippines-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667745",
+      "type": "application/zipped-shapefile",
+      "title": "philippines_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 33282678,
+      "checksum:md5": "9c5276db5244ee650fbcad92602687d5",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667745",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "republic-of-congo-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667771",
+      "type": "text/tab-separated-values",
+      "title": "republic_of_congo_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7245608,
+      "checksum:md5": "d8abc2e12167b76029a98f491bc0699f",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667771",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "republic-of-congo-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667736",
+      "type": "application/zipped-shapefile",
+      "title": "republic_of_congo_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1318688,
+      "checksum:md5": "04b94b15faedd5a3455e91896825b9c0",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667736",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "rwanda-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667641",
+      "type": "text/tab-separated-values",
+      "title": "rwanda_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6155794,
+      "checksum:md5": "8ec87cb43c07bbe3ca2c50eb43fb3676",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667641",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "rwanda-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667575",
+      "type": "application/zipped-shapefile",
+      "title": "rwanda_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1471978,
+      "checksum:md5": "74880d2a6b11aeb5d87aa54e85a0021e",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667575",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "senegal-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667750",
+      "type": "text/tab-separated-values",
+      "title": "senegal_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 19086724,
+      "checksum:md5": "c8542cbbd879bd3a9a60605b5d390394",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667750",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "senegal-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667606",
+      "type": "application/zipped-shapefile",
+      "title": "senegal_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3645335,
+      "checksum:md5": "1522500054325148024038c7a4a665e7",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667606",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "sierra-leone-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667768",
+      "type": "text/tab-separated-values",
+      "title": "sierra_leone_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4895218,
+      "checksum:md5": "6e75bf3e5e543f4252fb6d22228b6f6e",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667768",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "sierra-leone-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667619",
+      "type": "application/zipped-shapefile",
+      "title": "sierra_leone_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1017963,
+      "checksum:md5": "9d59a9e34cc9225d4bcbe9d58c01e203",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667619",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "solomon-islands-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667604",
+      "type": "text/tab-separated-values",
+      "title": "solomon_islands_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 281915,
+      "checksum:md5": "6d5717532b31b85f4e881ce5ae145d80",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667604",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "solomon-islands-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667684",
+      "type": "application/zipped-shapefile",
+      "title": "solomon_islands_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 58621,
+      "checksum:md5": "069140df2ea5d4d0dc4dcb01a3293cd0",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667684",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "somalia-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667763",
+      "type": "text/tab-separated-values",
+      "title": "somalia_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12753430,
+      "checksum:md5": "04ba5921cb9e76006a44ee888e5c37d7",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667763",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "somalia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667714",
+      "type": "application/zipped-shapefile",
+      "title": "somalia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2291702,
+      "checksum:md5": "6469c3733a79768a6b4c805318ecc385",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667714",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "south-africa-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667567",
+      "type": "text/tab-separated-values",
+      "title": "south_africa_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 105728319,
+      "checksum:md5": "cc05c1ce3fb2668b127dfd3de8f97ef5",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667567",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "south-africa-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667629",
+      "type": "application/zipped-shapefile",
+      "title": "south_africa_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 23690823,
+      "checksum:md5": "871a3d0fb52f35a5f5bd1d51811cc11a",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667629",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "south-sudan-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667753",
+      "type": "text/tab-separated-values",
+      "title": "south_sudan_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2809410,
+      "checksum:md5": "6c827ad4932c920c2f15d736a92fbf2c",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667753",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "south-sudan-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667583",
+      "type": "application/zipped-shapefile",
+      "title": "south_sudan_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 567513,
+      "checksum:md5": "2936f39319743c0c13a2f3367495c982",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667583",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "sri-lanka-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667747",
+      "type": "text/tab-separated-values",
+      "title": "sri_lanka_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32538762,
+      "checksum:md5": "a6ed4cf0f08ca24c022338ece481cd9b",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667747",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "sri-lanka-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667591",
+      "type": "application/zipped-shapefile",
+      "title": "sri_lanka_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8262599,
+      "checksum:md5": "b5e38bb9daf81b5fa13e223e9cb0c338",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667591",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "sudan-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667765",
+      "type": "text/tab-separated-values",
+      "title": "sudan_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37784555,
+      "checksum:md5": "45c16903fb7d27dd724f2b905eddec3a",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667765",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "sudan-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667676",
+      "type": "application/zipped-shapefile",
+      "title": "sudan_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7529206,
+      "checksum:md5": "3b8abe2bf85e8f81cbc7fd01ab547518",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667676",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "suriname-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667741",
+      "type": "text/tab-separated-values",
+      "title": "suriname_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1521197,
+      "checksum:md5": "477957190c236f4f855f9193eeb8bac0",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667741",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "suriname-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667689",
+      "type": "application/zipped-shapefile",
+      "title": "suriname_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 377071,
+      "checksum:md5": "230bcb8600a78cb5a472824db9951c5a",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667689",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "swaziland-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667718",
+      "type": "text/tab-separated-values",
+      "title": "swaziland_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 289289,
+      "checksum:md5": "19833ccf96d02c536c4d0575381ecc12",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667718",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "swaziland-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667761",
+      "type": "application/zipped-shapefile",
+      "title": "swaziland_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 53275,
+      "checksum:md5": "15ade67e3af80885a43b1a592efd4517",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667761",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "syria-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667728",
+      "type": "text/tab-separated-values",
+      "title": "syria_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 20836122,
+      "checksum:md5": "e08830870835ba4653bc7257197bd8c7",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667728",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "syria-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667568",
+      "type": "application/zipped-shapefile",
+      "title": "syria_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4205616,
+      "checksum:md5": "967f6e169b1b62846e72427995540587",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667568",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "tajikistan-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667664",
+      "type": "text/tab-separated-values",
+      "title": "tajikistan_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6152325,
+      "checksum:md5": "092c2118cf038c051f64943d0fddbde8",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667664",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "tajikistan-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667762",
+      "type": "application/zipped-shapefile",
+      "title": "tajikistan_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1349759,
+      "checksum:md5": "4413548a159798b93afa125f0d670e4b",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667762",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "tanzania-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667757",
+      "type": "text/tab-separated-values",
+      "title": "tanzania_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39989896,
+      "checksum:md5": "89b2cfa03cb93e76e3e6b622632ca27e",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667757",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "tanzania-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667588",
+      "type": "application/zipped-shapefile",
+      "title": "tanzania_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9473869,
+      "checksum:md5": "5965f304fb038b31417489bab8186b52",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667588",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "thailand-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667751",
+      "type": "text/tab-separated-values",
+      "title": "thailand_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 76436411,
+      "checksum:md5": "f7ec837836e7da714ff6d9b524ec6a1d",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667751",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "thailand-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667650",
+      "type": "application/zipped-shapefile",
+      "title": "thailand_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 18633479,
+      "checksum:md5": "5e6bf6b672fece523469b122ebcd2f75",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667650",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "timor-leste-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667621",
+      "type": "text/tab-separated-values",
+      "title": "timor_leste_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 670951,
+      "checksum:md5": "321c525a3e4ff42e48113d781b11bf92",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667621",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "timor-leste-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667725",
+      "type": "application/zipped-shapefile",
+      "title": "timor_leste_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 136517,
+      "checksum:md5": "3e53152ed17a91e2a74cae6df8010da9",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667725",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "togo-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667723",
+      "type": "text/tab-separated-values",
+      "title": "togo_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8068090,
+      "checksum:md5": "07bbf23847056f342b5154570fa072bd",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667723",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "togo-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667703",
+      "type": "application/zipped-shapefile",
+      "title": "togo_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1807994,
+      "checksum:md5": "297b94dadb41bb5720f2520b60bc9ee3",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667703",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "tunisia-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667633",
+      "type": "text/tab-separated-values",
+      "title": "tunisia_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 18812064,
+      "checksum:md5": "c9ebae7305c2d49aaee987dfa1ba2c01",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667633",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "tunisia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667701",
+      "type": "application/zipped-shapefile",
+      "title": "tunisia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4054458,
+      "checksum:md5": "35a6ebb6be8bb07ce11a15c4d11ea3f6",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667701",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "turkmenistan-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667721",
+      "type": "text/tab-separated-values",
+      "title": "turkmenistan_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3561200,
+      "checksum:md5": "00d60680da18d97f22068a973b81d935",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667721",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "turkmenistan-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667661",
+      "type": "application/zipped-shapefile",
+      "title": "turkmenistan_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 681450,
+      "checksum:md5": "02413aea561b36251902a7101748943e",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667661",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "uganda-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667716",
+      "type": "text/tab-separated-values",
+      "title": "uganda_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 19284110,
+      "checksum:md5": "5270ec1b483ba4e9c4c2dc638215ee9c",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667716",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "uganda-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667705",
+      "type": "application/zipped-shapefile",
+      "title": "uganda_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4723153,
+      "checksum:md5": "87f086b7cad64ca4335bcba34d120f20",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667705",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "uzbekistan-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667666",
+      "type": "text/tab-separated-values",
+      "title": "uzbekistan_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 27304316,
+      "checksum:md5": "797d1d7f4235b53c2ccb555cc7959975",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667666",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "uzbekistan-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667569",
+      "type": "application/zipped-shapefile",
+      "title": "uzbekistan_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5696781,
+      "checksum:md5": "aa24069b4103c6e8911e354c570299db",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667569",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "venezuela-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667652",
+      "type": "text/tab-separated-values",
+      "title": "venezuela_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 46993610,
+      "checksum:md5": "e53636885a00c255f84bd231659318bd",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667652",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "venezuela-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667724",
+      "type": "application/zipped-shapefile",
+      "title": "venezuela_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9738375,
+      "checksum:md5": "8ffc8e210d7efc0d5e19f5ba91c8ccb6",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667724",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "vietnam-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667582",
+      "type": "text/tab-separated-values",
+      "title": "vietnam_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 143171784,
+      "checksum:md5": "a6f87306d70e8e7d2c2f84325a6afee5",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667582",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "vietnam-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667594",
+      "type": "application/zipped-shapefile",
+      "title": "vietnam_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 34166417,
+      "checksum:md5": "8cc81052913d3ffaab367a4e05527ab5",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667594",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "western-sahara-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667566",
+      "type": "text/tab-separated-values",
+      "title": "western_sahara_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 455424,
+      "checksum:md5": "b28e4ccbd43079606c7c2e515922af5b",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667566",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "western-sahara-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667647",
+      "type": "application/zipped-shapefile",
+      "title": "western_sahara_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 78377,
+      "checksum:md5": "0a0efb9e0ce38781a7be806b11e6fabc",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667647",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "yemen-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667709",
+      "type": "text/tab-separated-values",
+      "title": "yemen_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9790069,
+      "checksum:md5": "0aafc68264fb14d2e2f7c18e87587470",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667709",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "yemen-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667571",
+      "type": "application/zipped-shapefile",
+      "title": "yemen_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1697549,
+      "checksum:md5": "3f1ddb3726fe7b617f0530fa8b0ef602",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667571",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "zambia-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667700",
+      "type": "text/tab-separated-values",
+      "title": "zambia_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 19338880,
+      "checksum:md5": "86311a8372e811409f651b2bc213b817",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667700",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "zambia-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667596",
+      "type": "application/zipped-shapefile",
+      "title": "zambia_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3800670,
+      "checksum:md5": "3ffa7b807dc8cbff5a3cc3fc919bb11e",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667596",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "zimbabwe-segments-vars-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667656",
+      "type": "text/tab-separated-values",
+      "title": "zimbabwe_segments_vars.tab",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9543520,
+      "checksum:md5": "ad3b0b3c5cab29db7a5bc2502b9ab029",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667656",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "zimbabwe-segments-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11667779",
+      "type": "application/zipped-shapefile",
+      "title": "zimbabwe_segments.zip",
+      "description": "City Segments Layer v1 shapefile and csv of attributes",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2014797,
+      "checksum:md5": "7481c0abc9bc03089d26d35936924334",
+      "created": "2025-06-22T00:00:00Z",
+      "updated": "2025-06-23T11:51:52Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/XLRSF0",
+      "ciesin:source_dataset_id": "11667564",
+      "ciesin:source_file_id": "11667779",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    }
+  }
+}

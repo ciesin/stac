@@ -1,0 +1,292 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-climate",
+  "title": "CIESIN SEDAC - Climate",
+  "description": "CIESIN SEDAC datasets categorized as Climate.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.2,
+          -90.86,
+          180.46,
+          90.28
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1998-12-31T00:00:00Z",
+          "2025-05-28T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-esi-2000.json",
+      "type": "application/geo+json",
+      "title": "2000 Pilot Environmental Sustainability Index (ESI)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-esi-2001.json",
+      "type": "application/geo+json",
+      "title": "2001 Environmental Sustainability Index (ESI)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-esi-2002.json",
+      "type": "application/geo+json",
+      "title": "2002 Environmental Sustainability Index (ESI)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-esi-2005.json",
+      "type": "application/geo+json",
+      "title": "2005 Environmental Sustainability Index (ESI)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-dedc-ace-v2.json",
+      "type": "application/geo+json",
+      "title": "Altimeter Corrected Elevations, Version 2 (ACE2)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdei-gehe.json",
+      "type": "application/geo+json",
+      "title": "Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-haso2-so2-1850-2005.json",
+      "type": "application/geo+json",
+      "title": "Anthropogenic Sulfur Dioxide Emissions, 1850-2005: National and Regional Data Set by Source Category, Version 2.86"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-cesic-2004evi.json",
+      "type": "application/geo+json",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: 2004 Environmental Vulnerability Index (EVI)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdp-cgdp-a1a2b1b2.json",
+      "type": "application/geo+json",
+      "title": "Country-Level GDP and Downscaled Projections Based on the SRES A1, A2, B1, and B2 Marker Scenarios, 1990-2100"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdp-cpop-a1b1a2.json",
+      "type": "application/geo+json",
+      "title": "Country-Level Population and Downscaled Projections Based on the SRES A1, B1, and A2 Scenarios, 1990-2100"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdp-cpop-b2.json",
+      "type": "application/geo+json",
+      "title": "Country-Level Population and Downscaled Projections Based on the SRES B2 Scenario, 1990-2100"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdp-ggdp-b2.json",
+      "type": "application/geo+json",
+      "title": "Global 15 x 15 Minute Grids of the Downscaled GDP Based on the SRES B2 Scenario, 1990 and 2025"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdp-gpop-b2.json",
+      "type": "application/geo+json",
+      "title": "Global 15 x 15 Minute Grids of the Downscaled Population Based on the SRES B2 Scenario, 1990 and 2025"
+    },
+    {
+      "rel": "item",
+      "href": "./items/global-gridded-relative-deprivation-index-grdi-version-1-10.json",
+      "type": "application/geo+json",
+      "title": "Global Gridded Relative Deprivation Index (GRDI), Version 1.10"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdei-uhe.json",
+      "type": "application/geo+json",
+      "title": "Global High Resolution Daily Extreme Urban Heat Exposure (UHE-Daily), 1983-2016"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-lulc-mangroves-2000.json",
+      "type": "application/geo+json",
+      "title": "Global Mangrove Forests Distribution, 2000"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-grandv1-reservoirs.json",
+      "type": "application/geo+json",
+      "title": "Global Reservoir and Dam Database, Version 1 (GRanDv1): Reservoirs, Revision 01"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdei-lst2013.json",
+      "type": "application/geo+json",
+      "title": "Global Summer Land Surface Temperature (LST) Grids, 2013"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdei-uhi2013.json",
+      "type": "application/geo+json",
+      "title": "Global Urban Heat Island (UHI) Data Set, 2013"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-climmig-gaspmp18sr.json",
+      "type": "application/geo+json",
+      "title": "Groundswell Africa Spatial Population and Migration Projections at One-Eighth Degree According to SSPs and RCPs, 2010-2050"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-climmig-gspmp18sr.json",
+      "type": "application/geo+json",
+      "title": "Groundswell Spatial Population and Migration Projections at One-Eighth Degree According to SSPs and RCPs, 2010-2050"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ipcc-is92-v11.json",
+      "type": "application/geo+json",
+      "title": "IPCC IS92 Emissions Scenarios (A, B, C, D, E, F) Dataset Version 1.1"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ipcc-baseline.json",
+      "type": "application/geo+json",
+      "title": "IPCC Socio-Economic Baseline Dataset"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ipcc-sres-1x1em.json",
+      "type": "application/geo+json",
+      "title": "IPCC Special Report on Emissions Scenarios (SRES) 1x1 Degree Gridded Emissions Dataset"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ipcc-sres-emsc-v11.json",
+      "type": "application/geo+json",
+      "title": "IPCC Special Report on Emissions Scenarios (SRES) Emissions Scenarios Dataset Version 1.1"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ipcc-sres-flgases.json",
+      "type": "application/geo+json",
+      "title": "IPCC Special Report on Emissions Scenarios (SRES) Fluor-Gases Emissions Dataset"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-lecz-delta-v1.json",
+      "type": "application/geo+json",
+      "title": "Low Elevation Coastal Zone (LECZ) Global Delta Urban-Rural Population and Land Area Estimates, Version 1"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-lecz-urplaev2.json",
+      "type": "application/geo+json",
+      "title": "Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 2"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-lecz-urplaev3.json",
+      "type": "application/geo+json",
+      "title": "Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-lecz-urpev1.json",
+      "type": "application/geo+json",
+      "title": "Low Elevation Coastal Zone (LECZ) Urban-Rural Population Estimates, Global Rural-Urban Mapping Project (GRUMP), Alpha Version"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ma-climlc.json",
+      "type": "application/geo+json",
+      "title": "Millennium Ecosystem Assessment: MA Climate and Land Cover"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-nagdc-place.json",
+      "type": "application/geo+json",
+      "title": "National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates (PLACE)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-nagdc-placeii.json",
+      "type": "application/geo+json",
+      "title": "National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 2 (PLACE II)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-nagdc-placeiii.json",
+      "type": "application/geo+json",
+      "title": "National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-nagdc-placeiv.json",
+      "type": "application/geo+json",
+      "title": "National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 4 (PLACE IV)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-epi-2006.json",
+      "type": "application/geo+json",
+      "title": "Pilot 2006 Environmental Performance Index (EPI)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-lecz-slriramsarwii.json",
+      "type": "application/geo+json",
+      "title": "Sea Level Rise Impacts on Ramsar Wetlands of International Importance"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ipcc-sagdvcc.json",
+      "type": "application/geo+json",
+      "title": "Synthetic Assessment of Global Distribution of Vulnerability to Climate Change: Maps and Data, 2005, 2050, and 2100"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-crv-uscrpc-2040-2049.json",
+      "type": "application/geo+json",
+      "title": "U.S. Climate Risk Projections by County, 2040-2049"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-wacvm-subsetace2.json",
+      "type": "application/geo+json",
+      "title": "West Africa Coastal Vulnerability Mapping: Subset of High and Low Resolution Altimeter Corrected Elevations 2 (ACE2)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdei-yceouhi-v4.json",
+      "type": "application/geo+json",
+      "title": "Yale Center for Earth Observation (YCEO) Surface Urban Heat Islands, Version 4, 2003-2018"
+    }
+  ]
+}

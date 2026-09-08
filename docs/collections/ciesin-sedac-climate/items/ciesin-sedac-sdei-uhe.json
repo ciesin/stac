@@ -1,0 +1,242 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-sdei-uhe",
+  "collection": "ciesin-sedac-climate",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.2,
+          -90.86
+        ],
+        [
+          180.46,
+          -90.86
+        ],
+        [
+          180.46,
+          90.28
+        ],
+        [
+          -180.2,
+          90.28
+        ],
+        [
+          -180.2,
+          -90.86
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.2,
+    -90.86,
+    180.46,
+    90.28
+  ],
+  "properties": {
+    "title": "Global High Resolution Daily Extreme Urban Heat Exposure (UHE-Daily), 1983-2016",
+    "description": "The Global High Resolution Daily Extreme Urban Heat Exposure (UHE-Daily), 1983-2016 data set contains a high-resolution, longitudinal global record of geolocated urban extreme heat events and urban population exposure estimates for more than 10,000 urban settlements worldwide for 1983-2016. Urban extreme heat events and urban population exposure are identified for each urban settlement in the data record for five combined temperature-humidity thresholds: two-day or longer periods where the daily maximum Heat Index (HImax) > 40.6 °C; one-day or longer periods where HImax > 46.1 °C; and one day or longer periods where the daily maximum Wet Bulb Globe Temperature (WBGTmax) > 28 °C, 30 °C, and 32 °C. The WBGTmax thresholds follow the International Standards Organization (ISO) criteria for risk of occupational heat related heat illness, whereas the HImax thresholds follow the U.S. National Weather Services' definition for an excessive heat warning. For each criteria, across urban settlements worldwide, the data set also contains the duration, intensity, and severity of each urban extreme heat event.",
+    "datetime": "2021-11-19T00:00:00Z",
+    "start_datetime": "1983-01-01T00:00:00.000Z",
+    "end_datetime": "2016-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Climate",
+      "Climatology/Meteorology/Atmosphere",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > HUMAN SETTLEMENTS > URBAN AREAS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > HEAT",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Earth Science",
+      "Global",
+      "Hazards",
+      "Health",
+      "Heat",
+      "Human Dimensions",
+      "Human Settlements",
+      "Natural Hazards",
+      "Population",
+      "Remote Sensing",
+      "Society",
+      "Sustainability",
+      "Urban",
+      "Urban Areas"
+    ],
+    "sci:doi": "10.7927/fq7g-ny13",
+    "ciesin:category": "Climate",
+    "ciesin:tags": "Climate, Health, Hazards, Population, Remote Sensing, Sustainability, Urban, Global, Climatology/Meteorology/Atmosphere, Society, Earth Science, Human Dimensions, Human Settlements, Urban Areas, Natural Hazards, Heat",
+    "ciesin:nasa_doi": "10.7927/FQ7G-NY13",
+    "ciesin:harvard_doi": "10.7910/DVN/ABDLCD",
+    "ciesin:sedac_doi": "10.7927/fq7g-ny13",
+    "ciesin:purpose": "To provide a high-resolution, longitudinal global data set of extreme urban heat events and urban heat exposure.",
+    "ciesin:data_format": "vector, tabular, document; journal article",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\sdei-high-res-daily-uhe-1983-2016.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/fq7g-ny13",
+      "type": "text/html",
+      "title": "fq7g-ny13"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1073/pnas.2024792118",
+      "type": "text/html",
+      "title": "pnas.2024792118"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-high-res-daily-uhe-1983-2016/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-high-res-daily-uhe-1983-2016/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/fq7g-ny13",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-sdei-uhe.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "sdei-high-res-daily-uhe-1983-2016-csv-json-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-high-res-daily-uhe-1983-2016/sdei-high-res-daily-uhe-1983-2016-csv-json.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-high-res-daily-uhe-1983-2016-csv-json.zip",
+      "description": "Global extreme urban heat events and urban heat exposure data in CSV format for the years 1960-2018 from the Global High Resolution Daily Extreme Urban Heat Exposure (UHE-Daily), 1983-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FQ7G-NY13",
+      "ciesin:harvard_doi": "10.7910/DVN/ABDLCD",
+      "ciesin:source_dataset_id": "C3540912037-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553503002-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "fq7g-ny13": {
+      "href": "https://doi.org/10.7927/fq7g-ny13",
+      "type": "application/octet-stream",
+      "title": "sdei-high-res-daily-uhe-1983-2016-csv-json.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FQ7G-NY13",
+      "ciesin:harvard_doi": "10.7910/DVN/ABDLCD",
+      "ciesin:source_dataset_id": "C3540912037-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553503002-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-high-res-daily-uhe-1983-2016-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-high-res-daily-uhe-1983-2016/sdei-high-res-daily-uhe-1983-2016-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-high-res-daily-uhe-1983-2016-shp.zip",
+      "description": "Global extreme urban heat events and urban heat exposure data in Shapefile format for the years 1960-2018 from the Global High Resolution Daily Extreme Urban Heat Exposure (UHE-Daily), 1983-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FQ7G-NY13",
+      "ciesin:harvard_doi": "10.7910/DVN/ABDLCD",
+      "ciesin:source_dataset_id": "C3540912037-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553503005-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-high-res-daily-uhe-1983-2016-csv-json-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073235",
+      "type": "application/zip",
+      "title": "sdei-high-res-daily-uhe-1983-2016-csv-json.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1937984687,
+      "checksum:md5": "8f76cd92c590d7c9fa77613c82423b57",
+      "created": "2025-09-15T00:00:00Z",
+      "updated": "2025-09-15T18:55:39Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FQ7G-NY13",
+      "ciesin:harvard_doi": "10.7910/DVN/ABDLCD",
+      "ciesin:source_dataset_id": "12066868",
+      "ciesin:source_file_id": "12073235",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-high-res-daily-uhe-1983-2016-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12068391",
+      "type": "application/zipped-shapefile",
+      "title": "sdei-high-res-daily-uhe-1983-2016-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1161544065,
+      "checksum:md5": "d15c959dba1d0363bde143d7bedb2fd5",
+      "created": "2025-09-11T00:00:00Z",
+      "updated": "2025-09-15T18:55:39Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/FQ7G-NY13",
+      "ciesin:harvard_doi": "10.7910/DVN/ABDLCD",
+      "ciesin:source_dataset_id": "12066868",
+      "ciesin:source_file_id": "12068391",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    }
+  }
+}

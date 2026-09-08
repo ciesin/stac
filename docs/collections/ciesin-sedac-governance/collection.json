@@ -1,0 +1,58 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-governance",
+  "title": "CIESIN SEDAC - Governance",
+  "description": "CIESIN SEDAC datasets categorized as Governance.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -16.71,
+          1.65,
+          135.0,
+          54.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1997-02-28T00:00:00Z",
+          "2018-12-06T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-cd-agenda21.json",
+      "type": "application/geo+json",
+      "title": "China Dimensions Data Collection: Priority Programme for China's Agenda 21"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-wacvm-pglf-200813.json",
+      "type": "application/geo+json",
+      "title": "West Africa Coastal Vulnerability Mapping: Point and Gridded Locations of Fatalities, 2008-2013"
+    }
+  ]
+}

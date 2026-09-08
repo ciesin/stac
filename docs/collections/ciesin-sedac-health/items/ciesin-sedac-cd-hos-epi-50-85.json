@@ -1,0 +1,234 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-cd-hos-epi-50-85",
+  "collection": "ciesin-sedac-health",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          73.0,
+          18.0
+        ],
+        [
+          135.0,
+          18.0
+        ],
+        [
+          135.0,
+          54.0
+        ],
+        [
+          73.0,
+          54.0
+        ],
+        [
+          73.0,
+          18.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    73.0,
+    18.0,
+    135.0,
+    54.0
+  ],
+  "properties": {
+    "title": "China Dimensions Data Collection: Chinese County-Level Data on Hospitals and Epidemiology Stations, 1950-1985",
+    "description": "The China Dimensions Data Collection: Chinese County-Level Data on Hospitals and Epidemiology Stations, 1950-1985 consists of hospital and epidemiological station data for the administrative regions of China from 1950 to 1985. The data includes name and years of operation at a scale of one to one million (1:1M) at the county level. This data set is produced in collaboration with the University of Washington as part of the China in Time and Space (CITAS) project and the Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "1997-02-28T00:00:00Z",
+    "start_datetime": "1950-01-01T00:00:00.000Z",
+    "end_datetime": "1985-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Boundaries",
+      "China",
+      "Country",
+      "County",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > PUBLIC HEALTH",
+      "Earth Science",
+      "Health",
+      "Human Dimensions",
+      "Province",
+      "Public Health"
+    ],
+    "sci:doi": "10.7927/H4V40S4D",
+    "ciesin:category": "Health",
+    "ciesin:tags": "Country, Province, County, Boundaries, Health, Earth Science, Human Dimensions, Public Health",
+    "ciesin:nasa_doi": "10.7927/H4V40S4D",
+    "ciesin:sedac_doi": "10.7927/H4V40S4D",
+    "ciesin:purpose": "To provide descriptive information on health care institutions in China between 1950 and 1985.",
+    "ciesin:data_format": "tabular; vector; document",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\cddc-china-hospitals-epidemiology-stations-1950-1985.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_missing",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4V40S4D",
+      "type": "text/html",
+      "title": "H4V40S4D"
+    },
+    {
+      "rel": "related",
+      "href": "https://sedac.ciesin.columbia.edu/china/popuhealth/hospi/hscredit.html",
+      "type": "text/html",
+      "title": "hscredit.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4RB72JW",
+      "type": "text/html",
+      "title": "H4RB72JW"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4QC01D2",
+      "type": "text/html",
+      "title": "H4QC01D2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4C24TCF",
+      "type": "text/html",
+      "title": "H4C24TCF"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4GT5K3V",
+      "type": "text/html",
+      "title": "H4GT5K3V"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4KK98PS",
+      "type": "text/html",
+      "title": "H4KK98PS"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4MK69T5",
+      "type": "text/html",
+      "title": "H4MK69T5"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4ZW1HVD",
+      "type": "text/html",
+      "title": "H4ZW1HVD"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H47D2S2F",
+      "type": "text/html",
+      "title": "H47D2S2F"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H43N21B3",
+      "type": "text/html",
+      "title": "H43N21B3"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4FT8HZ2",
+      "type": "text/html",
+      "title": "H4FT8HZ2"
+    },
+    {
+      "rel": "related",
+      "href": "https://sedac.ciesin.columbia.edu/china/popuhealth/hospi/hssource.html",
+      "type": "text/html",
+      "title": "hssource.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/cddc/cddc-china-hospitals-epidemiology-stations-1950-1985/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/cddc-china-hospitals-epidemiology-stations-1950-1985/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4V40S4D",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-cd-hos-epi-50-85.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data-download": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/data/set/cd-china-hospitals-epidemiology-stations-1950-1985/data-download",
+      "type": "application/octet-stream",
+      "title": "https://sedac.ciesin.columbia.edu/data/set/cddc-china-hospitals-epidemiology-stations-1950-1985/data-download",
+      "description": "China data in ArcInfo Interchange, ASCII, DBF, SPSS format for the years 1950-1985 from the China Dimensions Data Collection: Chinese County-Level Data on Hospitals and Epidemiology Stations, 1950-1985 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4V40S4D",
+      "ciesin:source_dataset_id": "C3540911070-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502898-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4v40s4d": {
+      "href": "https://doi.org/10.7927/H4V40S4D",
+      "type": "application/octet-stream",
+      "title": "https://sedac.ciesin.columbia.edu/data/set/cddc-china-hospitals-epidemiology-stations-1950-1985/data-download",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4V40S4D",
+      "ciesin:source_dataset_id": "C3540911070-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553502898-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    }
+  }
+}

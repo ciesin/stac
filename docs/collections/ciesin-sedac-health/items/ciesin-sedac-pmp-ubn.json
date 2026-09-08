@@ -1,0 +1,199 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-pmp-ubn",
+  "collection": "ciesin-sedac-health",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -119.0,
+          -60.0
+        ],
+        [
+          -26.0,
+          -60.0
+        ],
+        [
+          -26.0,
+          33.0
+        ],
+        [
+          -119.0,
+          33.0
+        ],
+        [
+          -119.0,
+          -60.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -119.0,
+    -60.0,
+    -26.0,
+    33.0
+  ],
+  "properties": {
+    "title": "Poverty Mapping Project: Unsatisfied Basic Needs",
+    "description": "The Poverty Mapping Project: Unsatisfied Basic Needs data set consists of measures of household level wellbeing and access to basic needs (such as adequate housing conditions, water, electricity, sanitation, education, and employment) for subnational administrative units of numerous countries in Latin America: Argentina, Bolivia, Brazil, Colombia, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, and Peru. The data products include shapefiles (vector data) and tabular data sets (csv format). Additionally, a data catalog (xls format) containing detailed information and documentation is provided. This data set is produced by the Columbia University Center for International Earth Science Information Network (CIESIN), Economic Commission for Latin America and the Caribbean (ECLAC), and Centro Internacional de Agricultura Tropical (CIAT).",
+    "datetime": "2005-12-31T00:00:00Z",
+    "start_datetime": "1998-01-01T00:00:00.000Z",
+    "end_datetime": "2001-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > PUBLIC HEALTH",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS > POVERTY LEVELS",
+      "Earth Science",
+      "Health",
+      "Human Dimensions",
+      "Poverty",
+      "Poverty Levels",
+      "Public Health",
+      "Society",
+      "Socioeconomics"
+    ],
+    "sci:doi": "10.7927/H45X26V8",
+    "ciesin:category": "Health",
+    "ciesin:tags": "Country, Health, Society, Poverty, Earth Science, Human Dimensions, Public Health, Socioeconomics, Poverty Levels",
+    "ciesin:nasa_doi": "10.7927/H45X26V8",
+    "ciesin:sedac_doi": "10.7927/H45X26V8",
+    "ciesin:purpose": "To provide high spatial resolution subnational estimates of unsatisfied basic needs for use by a wide community for interdisciplinary studies of poverty, inequality and the environment.",
+    "ciesin:data_format": "vector, tabular; raster, vector, tabular, map, map service; vector, tabular, map; document",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\povmap-unsatisfied-basic-needs.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_missing",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H45X26V8",
+      "type": "text/html",
+      "title": "H45X26V8"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4PZ56R2",
+      "type": "text/html",
+      "title": "H4PZ56R2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4K64G12",
+      "type": "text/html",
+      "title": "H4K64G12"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H49P2ZKM",
+      "type": "text/html",
+      "title": "H49P2ZKM"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4FF3Q9B",
+      "type": "text/html",
+      "title": "H4FF3Q9B"
+    },
+    {
+      "rel": "related",
+      "href": "https://sedac.ciesin.columbia.edu/povmap/atlasMedia/",
+      "type": "text/html",
+      "title": "atlasMedia"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.ciesin.columbia.edu/povmap/methods_nat.jsp",
+      "type": "text/html",
+      "title": "methods_nat.jsp"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/povmap/povmap-unsatisfied-basic-needs/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/povmap-unsatisfied-basic-needs/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H45X26V8",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-pmp-ubn.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data-download": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/data/set/povmap-unsatisfied-basic-needs/data-download",
+      "type": "application/octet-stream",
+      "title": "https://sedac.ciesin.columbia.edu/data/set/povmap-unsatisfied-basic-needs/data-download",
+      "description": "Global data in CSV, Shapefile format for the years 1998-2001 from the Poverty Mapping Project: Unsatisfied Basic Needs data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H45X26V8",
+      "ciesin:source_dataset_id": "C3540930149-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419799-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h45x26v8": {
+      "href": "https://doi.org/10.7927/H45X26V8",
+      "type": "application/octet-stream",
+      "title": "https://sedac.ciesin.columbia.edu/data/set/povmap-unsatisfied-basic-needs/data-download",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H45X26V8",
+      "ciesin:source_dataset_id": "C3540930149-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552419799-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    }
+  }
+}

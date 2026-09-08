@@ -1,0 +1,280 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-pend-hsf1",
+  "collection": "ciesin-sedac-hazards",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -97.0,
+          28.0
+        ],
+        [
+          -94.0,
+          28.0
+        ],
+        [
+          -94.0,
+          31.0
+        ],
+        [
+          -97.0,
+          31.0
+        ],
+        [
+          -97.0,
+          28.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -97.0,
+    28.0,
+    -94.0,
+    31.0
+  ],
+  "properties": {
+    "title": "U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version",
+    "description": "The U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version data set contains an ARC/INFO Workspace with grids of demographic data from the 2000 census. The grids have a resolution of 7.5 arc-seconds (0.002075 decimal degrees), or approximately 250 square meters. The gridded variables are based on census block geography from Census 2000 TIGER/Line Files and census variables (population, households, and housing variables) from Summary File 1. This data set is produced by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2005-09-13T00:00:00Z",
+    "license": "other",
+    "keywords": [
+      "Boundaries",
+      "City",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Earth Science",
+      "Hazards",
+      "Houston",
+      "Human Dimensions",
+      "Population",
+      "Society",
+      "Texas",
+      "United States of America",
+      "Urban"
+    ],
+    "sci:doi": "10.7927/H4V985ZG",
+    "ciesin:category": "Hazards",
+    "ciesin:tags": "City, Boundaries, Society, Hazards, Urban, Earth Science, Human Dimensions, Population",
+    "ciesin:nasa_doi": "10.7927/H4V985ZG",
+    "ciesin:harvard_doi": "10.7910/DVN/84MMQY",
+    "ciesin:sedac_doi": "10.7927/H4V985ZG",
+    "ciesin:purpose": "To provide gridded demographic data, including characteristics of age, race, ethnicity, and housing, for metropolitan statistical areas at a finer resolution than is available in the 30 arc-second grids used for the United States as a whole.",
+    "ciesin:data_format": "raster, map; raster",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\pend-summary-file1-2000-houston-msa.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4V985ZG",
+      "type": "text/html",
+      "title": "H4V985ZG"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4QJ7F75",
+      "type": "text/html",
+      "title": "H4QJ7F75"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H400001D",
+      "type": "text/html",
+      "title": "H400001D"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4KS6PHF",
+      "type": "text/html",
+      "title": "H4KS6PHF"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4G15XS1",
+      "type": "text/html",
+      "title": "H4G15XS1"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.census.gov/geo/www/tiger/tigerua/ua_tgr2k.html",
+      "type": "text/html",
+      "title": "ua_tgr2k.html"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.census.gov/Press-Release/www/2001/sumfile1.html",
+      "type": "text/html",
+      "title": "sumfile1.html"
+    },
+    {
+      "rel": "related",
+      "href": "http://sedac.ciesin.columbia.edu/plue/gpw/index.html?whatisagrid.html&2",
+      "type": "text/html",
+      "title": "index.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/pend/pend-summary-file1-2000-houston-msa/demographics-2000-houston-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "demographics-2000-houston-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/pend-summary-file1-2000-houston-msa/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/pend-summary-file1-2000-houston-msa/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4V985ZG",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-pend-hsf1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "houston3362-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/pend/pend-summary-file1-2000-houston-msa/houston3362.zip",
+      "type": "application/x-zip-compressed",
+      "title": "houston3362.zip",
+      "description": "7.5 arc-second grids data in ArcInfo Workspace format from the U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4V985ZG",
+      "ciesin:harvard_doi": "10.7910/DVN/84MMQY",
+      "ciesin:source_dataset_id": "C3540909166-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501622-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4v985zg": {
+      "href": "https://doi.org/10.7927/H4V985ZG",
+      "type": "application/octet-stream",
+      "title": "houston3362.zip",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4V985ZG",
+      "ciesin:harvard_doi": "10.7910/DVN/84MMQY",
+      "ciesin:source_dataset_id": "C3540909166-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501622-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "demographics-2000-houston-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/pend/pend-summary-file1-2000-houston-msa/demographics-2000-houston.pdf",
+      "type": "application/pdf",
+      "title": "houston3362.zip",
+      "description": "Houston, TX Metropolitan Area Demographics map in PDF format from the U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4V985ZG",
+      "ciesin:harvard_doi": "10.7910/DVN/84MMQY",
+      "ciesin:source_dataset_id": "C3540909166-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501622-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "demographics-2000-houston-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/pend/pend-summary-file1-2000-houston-msa/demographics-2000-houston.png",
+      "type": "image/png",
+      "title": "houston3362.zip",
+      "description": "Houston, TX Metropolitan Area Demographics map in PNG format from the U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4V985ZG",
+      "ciesin:harvard_doi": "10.7910/DVN/84MMQY",
+      "ciesin:source_dataset_id": "C3540909166-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501622-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "demographics-2000-houston-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/pend/pend-summary-file1-2000-houston-msa/demographics-2000-houston-thumbnail.jpg",
+      "type": "image/png",
+      "title": "houston3362.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4V985ZG",
+      "ciesin:harvard_doi": "10.7910/DVN/84MMQY",
+      "ciesin:source_dataset_id": "C3540909166-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552501622-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "houston3362-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835856",
+      "type": "application/zip",
+      "title": "houston3362.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 18043728,
+      "checksum:md5": "c6cfb0c7f5ff1e1fd88f04e50edca63c",
+      "created": "2025-07-30T00:00:00Z",
+      "updated": "2025-09-09T17:00:19Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4V985ZG",
+      "ciesin:harvard_doi": "10.7910/DVN/84MMQY",
+      "ciesin:source_dataset_id": "11646334",
+      "ciesin:source_file_id": "11835856",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

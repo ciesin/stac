@@ -1,0 +1,940 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "grid3-cod---health-areas-v8.0",
+  "collection": "ciesin-sedac-boundaries",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          12.200875,
+          -13.455996
+        ],
+        [
+          31.277242,
+          -13.455996
+        ],
+        [
+          31.277242,
+          5.392003
+        ],
+        [
+          12.200875,
+          5.392003
+        ],
+        [
+          12.200875,
+          -13.455996
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    12.200875,
+    -13.455996,
+    31.277242,
+    5.392003
+  ],
+  "properties": {
+    "title": "GRID3 COD - Health Areas v8.0",
+    "description": "The current version supersedes the GRID3 COD - Health Areas v7.0 . The following changes were made: Added data for the provinces of Bas-Uele, Haut-Uele, Kwango, and Nord-Kivu. The data for Tanganyika was updated. Download province level data: Bas-Uele Equateur Haut-Katanga Haut-Lomami Haut-Uele Ituri Kasaï Kasaï-Central Kasaï-Oriental Kinshasa Kongo-Central Kwango Kwilu Lomami Lualaba Mai-Ndombe Maniema Mongala Nord-Kivu Nord-Ubangi Sankuru Sud-Kivu Sud-Ubangi Tanganyika Tshopo Tshuapa For more information on the methodology and data sources used during the production of this data, click here . Dataset citation Center for Integrated Earth System Information (CIESIN), Columbia University, Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo, and GRID3. 2025. GRID3 COD - Health Areas v8.0. New York: Columbia University. https://doi.org/10.7916/kcq9-7s03. Accessed . Contacts and data queries The authors of this dataset appreciate feedback regarding the data, including suggestions, discovery of errors, difficulties in using the data, and format preferences. For dataset-related questions, please send an email to: info@ciesin.columbia.edu",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Boundaries",
+      "COD",
+      "Democratic Republic of the Congo",
+      "GRID3",
+      "health areas",
+      "health boundaries",
+      "health zones",
+      "latest"
+    ],
+    "sci:doi": "10.7916/kcq9-7s03",
+    "sci:citation": "Dataset citation: Center for Integrated Earth System Information (CIESIN), Columbia University, Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo, and GRID3. 2025. GRID3 COD - Health Areas v8.0. New York: Columbia University. https://doi.org/10.7916/kcq9-7s03. Accessed .",
+    "ciesin:category": "Boundaries",
+    "ciesin:tags": "GRID3",
+    "ciesin:sedac_doi": "10.7916/kcq9-7s03",
+    "ciesin:purpose": "The GRID3 COD - Health Areas v8.0 dataset consists of health area boundaries with name, health zone, and other attributes for all the twenty-six provinces in the Democratic Republic of the Congo (COD).",
+    "ciesin:supplemental_info": "See Data Release Notes (PDF) for more information.",
+    "ciesin:data_format": "File Geodatabase Feature Class",
+    "ciesin:feature_count": 9658,
+    "ciesin:field_count": 19,
+    "ciesin:contacts": [
+      "Center for Integrated Earth System Information (CIESIN)",
+      "info@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\GRID3 COD - Health Areas v8.0.xml",
+    "ciesin:field_schema": [
+      {
+        "attalias": "OBJECTID1",
+        "attrdef": "Internal feature number.",
+        "attrdefs": "Esri",
+        "attrlabl": "OBJECTID",
+        "attrtype": "OID",
+        "attwidth": "4"
+      },
+      {
+        "attalias": "Shape",
+        "attrdef": "Feature geometry.",
+        "attrdefs": "Esri",
+        "attrlabl": "SHAPE",
+        "attrtype": "Geometry",
+        "attwidth": "0"
+      },
+      {
+        "attalias": "pays",
+        "attrlabl": "pays",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "iso3",
+        "attrlabl": "iso3",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "province",
+        "attrlabl": "province",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "prov_uid",
+        "attrlabl": "prov_uid",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "antenne",
+        "attrlabl": "antenne",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "zonesante",
+        "attrlabl": "zonesante",
+        "attrtype": "String",
+        "attwidth": "2147483647"
+      },
+      {
+        "attalias": "zs_uid",
+        "attrlabl": "zs_uid",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "airesante",
+        "attrlabl": "airesante",
+        "attrtype": "String",
+        "attwidth": "2147483647"
+      },
+      {
+        "attalias": "as_uid",
+        "attrlabl": "as_uid",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "grid3id",
+        "attrlabl": "grid3id",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "date",
+        "attrlabl": "date",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "edit_par",
+        "attrlabl": "edit_par",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "asnom_alt",
+        "attrlabl": "asnom_alt",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "source_acronym",
+        "attrlabl": "source_acronym",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "sourceid",
+        "attrlabl": "sourceid",
+        "attrtype": "String",
+        "attwidth": "255"
+      },
+      {
+        "attalias": "Shape_Length",
+        "attrdef": "Length of feature in internal units.",
+        "attrdefs": "Esri",
+        "attrlabl": "SHAPE_Length",
+        "attrtype": "Double",
+        "attwidth": "8"
+      },
+      {
+        "attalias": "Shape_Area",
+        "attrdef": "Area of feature in internal units squared.",
+        "attrdefs": "Esri",
+        "attrlabl": "SHAPE_Area",
+        "attrtype": "Double",
+        "attwidth": "8"
+      }
+    ],
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://www.arcgis.com/sharing/rest/content/items/39e1f0f1e40a4718a9aacfac3bb45841/info/thumbnail/thumbnail1766429253634.png",
+      "type": "image/png",
+      "title": "thumbnail1766429253634.png"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.w3.org/2001/XMLSchema-instance",
+      "type": "text/html",
+      "title": "XMLSchema-instance"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.w3.org/2001/XMLSchema",
+      "type": "text/html",
+      "title": "XMLSchema"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.esri.com/schemas/ArcGIS/3.5.0",
+      "type": "text/html",
+      "title": "3.5.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7916/5f2h-h527",
+      "type": "text/html",
+      "title": "5f2h-h527"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7916/kcq9-7s03",
+      "type": "text/html",
+      "title": "kcq9-7s03"
+    },
+    {
+      "rel": "related",
+      "href": "http://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "type": "text/html",
+      "title": "legalcode"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/fse0-9c79/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/r7ef-hy18/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/zrrd-1x23/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/rbxn-hn05/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vtta-0c25/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/j498-fa85/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/4j1r-h346/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5011-h134/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/xjzj-ad35/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/rjdt-6682/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5c2v-6d75/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/2tyd-m340/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ke4k-vx45/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/12bk-s228/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/w6mg-0n38/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/8yb9-rg76/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/yynp-t147/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/k7sa-vs59/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/gbrv-cw47/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/6mm4-ay29/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/hjd1-4r57/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vv8a-wz73/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/yhpa-3028/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/234m-se22/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/cb7v-yv96/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/qcp0-5s71/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/jvyd-2t31/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/kcq9-7s03",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./grid3-cod---health-areas-v8.0.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "download-1": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/jvyd-2t31/download",
+      "type": "application/octet-stream",
+      "title": "GRID3 COD - Health Areas v8.0 Data Release Notes.pdf",
+      "description": "GRID3 COD - Health Areas v8.0 Data Release Notes.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 306184,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "1",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/mvem-rs10/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_health_areas_v8_0.gdb.zip",
+      "description": "GRID3_COD_health_areas_v8_0.gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 80216064,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "2",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/fse0-9c79/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Bas-Uele_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Bas-Uele_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2841641,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "3",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-4": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/j498-fa85/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Ituri_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Ituri_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14155776,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "4",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-5": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/4j1r-h346/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kasaï_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Kasaï_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2967470,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "5",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-6": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5c2v-6d75/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kongo-Central_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Kongo-Central_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10695475,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "6",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-7": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/zrrd-1x23/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Haut-Katanga_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Haut-Katanga_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4854907,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "7",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-8": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5011-h134/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kasaï-Central_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Kasaï-Central_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2998927,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "8",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-9": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/rbxn-hn05/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Haut-Lomami_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Haut-Lomami_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5001708,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "9",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-10": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vtta-0c25/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Haut-Uele_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Haut-Uele_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3156214,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "10",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-11": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/rjdt-6682/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kinshasa_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Kinshasa_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2453668,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "11",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-12": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/r7ef-hy18/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Equateur_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Equateur_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7738491,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "12",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-13": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/yhpa-3028/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Sud-Ubangi_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Sud-Ubangi_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3806331,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "13",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-14": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vv8a-wz73/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Sud-Kivu_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Sud-Kivu_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 24431821,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "14",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-15": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/234m-se22/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Tanganyika_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Tanganyika_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9930015,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "15",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-16": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/qcp0-5s71/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Tshuapa_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Tshuapa_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 18454938,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "16",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-17": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/6mm4-ay29/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Nord-Ubangi_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Nord-Ubangi_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11639194,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "17",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-18": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/gbrv-cw47/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Nord-Kivu_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Nord-Kivu_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13316915,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "18",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-19": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/8yb9-rg76/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Mai-Ndombe_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Mai-Ndombe_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1216348,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "19",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-20": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/k7sa-vs59/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Mongala_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Mongala_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8220836,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "20",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-21": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/yynp-t147/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Maniema_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Maniema_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8262779,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "21",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-22": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/w6mg-0n38/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Lualaba_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Lualaba_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14994637,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "22",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-23": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/12bk-s228/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Lomami_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Lomami_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2778726,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "23",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-24": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ke4k-vx45/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kwilu_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Kwilu_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13526630,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "24",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-25": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/xjzj-ad35/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kasaï-Oriental_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Kasaï-Oriental_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1352663,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "25",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-26": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/hjd1-4r57/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Sankuru_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Sankuru_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42257613,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "26",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-27": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/2tyd-m340/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kwango_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Kwango_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4162847,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "27",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-28": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/cb7v-yv96/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Tshopo_health_areas_v8_0.gpkg",
+      "description": "GRID3_COD_Tshopo_health_areas_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8787067,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:ac_doi": "10.7916/KCQ9-7S03",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1JrN6juoxqwR09mR-29iv-jDIJh3cmfnb/view?usp=drive_link",
+      "ciesin:source_file_id": "28",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    }
+  }
+}

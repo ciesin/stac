@@ -1,0 +1,304 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-chrr-ndh-flood-pelrd",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          -58.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -58.0,
+    180.0,
+    85.0
+  ],
+  "properties": {
+    "title": "Global Flood Proportional Economic Loss Risk Deciles",
+    "description": "The Global Flood Proportional Economic Loss Risk Deciles is a 2.5 minute grid of flood hazard economic loss as proportions of Gross Domestic Product (GDP) per analytical unit. Estimates of GDP at risk are based on regional economic loss rates derived from historical records of the Emergency Events Database (EM-DAT). Loss rates are weighted by the hazard's frequency and distribution. The methodology of Sachs et al. (2003) is followed to determine baseline estimates of GDP per grid cell. To better reflect the confidence surrounding the data and procedures, the range of proportionalities is classified into deciles, 10 class of an approximately equal number of grid cells of increasing risk. This data set is the result of collaboration among the Columbia University Center for Hazards and Risk Research (CHRR), International Bank for Reconstruction and Development/The World Bank, and Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2005-12-31T00:00:00Z",
+    "start_datetime": "2000-01-01T00:00:00.000Z",
+    "end_datetime": "2000-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Agriculture",
+      "Climate",
+      "Continent",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > FLOODS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS",
+      "Earth Science",
+      "Economy",
+      "Floods",
+      "Global",
+      "Hazards",
+      "Human Dimensions",
+      "Inland Waters",
+      "Natural Hazards",
+      "Socioeconomics",
+      "Sustainability",
+      "Water"
+    ],
+    "sci:doi": "10.7927/H4XS5S9Q",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Agriculture, Climate, Hazards, Sustainability, Water, Continent, Global, Economy, Inland Waters, Earth Science, Human Dimensions, Natural Hazards, Floods, Socioeconomics",
+    "ciesin:nasa_doi": "10.7927/H4XS5S9Q",
+    "ciesin:harvard_doi": "10.7910/DVN/9CU1QK",
+    "ciesin:sedac_doi": "10.7927/H4XS5S9Q",
+    "ciesin:purpose": "To provide a spatial surface of the proportional economic impacts of global flood hazard.",
+    "ciesin:data_format": "raster, map, map service; report; vector digital data; raster, map service",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\ndh-flood-proportional-economic-loss-risk-deciles.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4XS5S9Q",
+      "type": "text/html",
+      "title": "H4XS5S9Q"
+    },
+    {
+      "rel": "related",
+      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+      "type": "text/html",
+      "title": "Natural-disaster-hotspots-A-global-risk-analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4668B3D",
+      "type": "text/html",
+      "title": "H4668B3D"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4T151KP",
+      "type": "text/html",
+      "title": "H4T151KP"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H42F7KCP",
+      "type": "text/html",
+      "title": "H42F7KCP"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.cia.gov/library/publications/the-world-factbook/",
+      "type": "text/html",
+      "title": "the-world-factbook"
+    },
+    {
+      "rel": "related",
+      "href": "https://sedac.ciesin.columbia.edu/gpw-v2/",
+      "type": "text/html",
+      "title": "gpw-v2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4639MPP",
+      "type": "text/html",
+      "title": "H4639MPP"
+    },
+    {
+      "rel": "related",
+      "href": "https://sedac.ciesin.columbia.edu/maps/gallery/set/ndh-flood-proportional-economic-loss-risk-deciles/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ndh/ndh-flood-proportional-economic-loss-risk-deciles/flood-proportional-economic-loss-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "flood-proportional-economic-loss-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.worldbank.org/data/wdi2000",
+      "type": "text/html",
+      "title": "wdi2000"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-flood-proportional-economic-loss-risk-deciles/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-flood-proportional-economic-loss-risk-deciles/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-flood-proportional-economic-loss-risk-deciles/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4XS5S9Q",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-chrr-ndh-flood-pelrd.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "gdfldpro-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ndh/ndh-flood-proportional-economic-loss-risk-deciles/gdfldpro.zip",
+      "type": "application/x-zip-compressed",
+      "title": "gdfldpro.zip",
+      "description": "Raster data in ASCII formats from the Global Flood Proportional Economic Loss Risk Deciles data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4XS5S9Q",
+      "ciesin:harvard_doi": "10.7910/DVN/9CU1QK",
+      "ciesin:source_dataset_id": "C3550187598-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278783-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4xs5s9q": {
+      "href": "https://doi.org/10.7927/H4XS5S9Q",
+      "type": "application/octet-stream",
+      "title": "gdfldpro.zip",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4XS5S9Q",
+      "ciesin:harvard_doi": "10.7910/DVN/9CU1QK",
+      "ciesin:source_dataset_id": "C3550187598-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278783-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "flood-proportional-economic-loss-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-flood-proportional-economic-loss-risk-deciles/flood-proportional-economic-loss.pdf",
+      "type": "application/pdf",
+      "title": "gdfldpro.zip",
+      "description": "Global map in PDF format from the Global Flood Proportional Economic Loss Risk Deciles data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4XS5S9Q",
+      "ciesin:harvard_doi": "10.7910/DVN/9CU1QK",
+      "ciesin:source_dataset_id": "C3550187598-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278783-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "flood-proportional-economic-loss-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-flood-proportional-economic-loss-risk-deciles/flood-proportional-economic-loss.png",
+      "type": "image/png",
+      "title": "gdfldpro.zip",
+      "description": "Global map in PNG format from the Global Flood Proportional Economic Loss Risk Deciles data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4XS5S9Q",
+      "ciesin:harvard_doi": "10.7910/DVN/9CU1QK",
+      "ciesin:source_dataset_id": "C3550187598-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278783-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "flood-proportional-economic-loss-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-flood-proportional-economic-loss-risk-deciles/flood-proportional-economic-loss-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "gdfldpro.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4XS5S9Q",
+      "ciesin:harvard_doi": "10.7910/DVN/9CU1QK",
+      "ciesin:source_dataset_id": "C3550187598-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550278783-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "gdfldpro-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787235",
+      "type": "application/zip",
+      "title": "gdfldpro.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 867311,
+      "checksum:md5": "aff4d04ff56655a5b420270ca16b62af",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-09T17:09:57Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4XS5S9Q",
+      "ciesin:harvard_doi": "10.7910/DVN/9CU1QK",
+      "ciesin:source_dataset_id": "11646173",
+      "ciesin:source_file_id": "11787235",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

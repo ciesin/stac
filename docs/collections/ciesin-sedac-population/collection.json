@@ -1,0 +1,412 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-population",
+  "title": "CIESIN SEDAC - Population",
+  "description": "CIESIN SEDAC datasets categorized as Population.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-12-31T00:00:00Z",
+          "2025-02-03T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-climmig-acmi-bilmigproj.json",
+      "type": "application/geo+json",
+      "title": "Africa Climate Mobility Initiative (ACMI): Bilateral Migration Projections"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-climmig-acmi-intmigproj.json",
+      "type": "application/geo+json",
+      "title": "Africa Climate Mobility Initiative (ACMI): Internal Migration Projections"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-acrp-1980-sas.json",
+      "type": "application/geo+json",
+      "title": "Archive of Census Related Products (ACRP): 1980 SAS Transport Files"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-acrp-1990-cbs.json",
+      "type": "application/geo+json",
+      "title": "Archive of Census Related Products (ACRP): 1990 Census Block Statistics"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-acrp-1990-emf.json",
+      "type": "application/geo+json",
+      "title": "Archive of Census Related Products (ACRP): 1990 Enhanced Migration Files"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-acrp-1990-sas.json",
+      "type": "application/geo+json",
+      "title": "Archive of Census Related Products (ACRP): 1990 SAS Transport Files"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-acrp-1990-sef.json",
+      "type": "application/geo+json",
+      "title": "Archive of Census Related Products (ACRP): 1990 Standard Extract Files"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-acrp-1990-si.json",
+      "type": "application/geo+json",
+      "title": "Archive of Census Related Products (ACRP): 1990 Street Intersections"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-acrp-1990-stf1b.json",
+      "type": "application/geo+json",
+      "title": "Archive of Census Related Products (ACRP): 1990 Summary Tape File (STF1B)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-acrp-1990-zipef.json",
+      "type": "application/geo+json",
+      "title": "Archive of Census Related Products (ACRP): 1990 ZIP Equivalency Files"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-acrp-1992-bf.json",
+      "type": "application/geo+json",
+      "title": "Archive of Census Related Products (ACRP): 1992 Boundary Files"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-geo-mex-gis-smi.json",
+      "type": "application/geo+json",
+      "title": "Georeferenced Population Datasets of Mexico (GEO-MEX): GIS of Mexican States, Municipalities and Islands"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-geo-mex-popdbmex.json",
+      "type": "application/geo+json",
+      "title": "Georeferenced Population Datasets of Mexico (GEO-MEX): Population Database of Mexico"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-geo-mex-rastergis.json",
+      "type": "application/geo+json",
+      "title": "Georeferenced Population Datasets of Mexico (GEO-MEX): Raster Based GIS Coverage of Mexican Population"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-geo-mex-urbangis.json",
+      "type": "application/geo+json",
+      "title": "Georeferenced Population Datasets of Mexico (GEO-MEX): Urban Place GIS Coverage of Mexico"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-geo-mex-urb-tser.json",
+      "type": "application/geo+json",
+      "title": "Georeferenced Population Datasets of Mexico (GEO-MEX): Urban Place Time-Series Population of Mexico"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pd-ppuscasrcssp.json",
+      "type": "application/geo+json",
+      "title": "Georeferenced U.S. County-Level Population Projections, Total and by Sex, Race and Age, Based on the SSPs, 2020-2100"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pd-sspbsyr-1km.json",
+      "type": "application/geo+json",
+      "title": "Global 1-km Downscaled Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ghsl-pbsmod.json",
+      "type": "application/geo+json",
+      "title": "Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pd-sspbsyr-1-8th.json",
+      "type": "application/geo+json",
+      "title": "Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pd-popcgtse.json",
+      "type": "application/geo+json",
+      "title": "Global Population Count Grid Time Series Estimates"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pd-popdgtse.json",
+      "type": "application/geo+json",
+      "title": "Global Population Density Grid Time Series Estimates"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-grumpv1-coastlines.json",
+      "type": "application/geo+json",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Coastlines"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-grumpv1-lguag.json",
+      "type": "application/geo+json",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Land and Geographic Unit Area Grids"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-grumpv1-nadminbnd.json",
+      "type": "application/geo+json",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): National Administrative Boundaries"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-grumpv1-natiden.json",
+      "type": "application/geo+json",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): National Identifier Grid"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-grumpv1-popcount.json",
+      "type": "application/geo+json",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Population Count Grid"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-grumpv1-popdens.json",
+      "type": "application/geo+json",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Population Density Grid"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-grumpv1-stlmnt.json",
+      "type": "application/geo+json",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Settlement Points"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-grumpv1-stlmnt01.json",
+      "type": "application/geo+json",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Settlement Points, Revision 01"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-grumpv1-ext02.json",
+      "type": "application/geo+json",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Urban Extent Polygons, Revision 02"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-grumpv1-ext.json",
+      "type": "application/geo+json",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Urban Extents Grid"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv3-popcount.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 3 (GPWv3): Population Count Grid"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv3-popcountfe.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 3 (GPWv3): Population Count Grid, Future Estimates"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv3-popdens.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 3 (GPWv3): Population Density Grid"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv3-popdensfe.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 3 (GPWv3): Population Density Grid, Future Estimates"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv4-aducppe-r11.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 4 (GPWv4): Administrative Unit Center Points with Population Estimates, Revision 11"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv4-bdc-r11.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 4 (GPWv4): Basic Demographic Characteristics, Revision 11"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv4-natiden-r11.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 4 (GPWv4): National Identifier Grid, Revision 11"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv4-apct-wpp-2015-r11.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 4 (GPWv4): Population Count Adjusted to Match 2015 Revision of UN WPP Country Totals, Revision 11"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv4-popcount-r11.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 4 (GPWv4): Population Count, Revision 11"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv4-apdens-wpp-2015-r11.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 4 (GPWv4): Population Density Adjusted to Match 2015 Revision UN WPP Country Totals, Revision 11"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv4-popdens-r11.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 4 (GPWv4): Population Density, Revision 11"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uspat-hup.json",
+      "type": "application/geo+json",
+      "title": "Historical Urban Population: 3700 BC - AD 2000"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-india-vilsocioecon.json",
+      "type": "application/geo+json",
+      "title": "India Village-Level Geospatial Socio-Economic Data Set: 1991, 2001"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-pd-lacpop.json",
+      "type": "application/geo+json",
+      "title": "Latin America and the Caribbean Population Time Series"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-ma-population.json",
+      "type": "application/geo+json",
+      "title": "Millennium Ecosystem Assessment: MA Population"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-acrp-pums.json",
+      "type": "application/geo+json",
+      "title": "Public Use Microdata Samples (PUMS)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-india-census-2011.json",
+      "type": "application/geo+json",
+      "title": "Spatial Data from the 2011 India Census"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uscg-90sf1.json",
+      "type": "application/geo+json",
+      "title": "U.S. Census Grids (Summary File 1), 1990"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uscg-90sf1msa.json",
+      "type": "application/geo+json",
+      "title": "U.S. Census Grids (Summary File 1), 1990: Metropolitan Statistical Areas"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uscg-sf1.json",
+      "type": "application/geo+json",
+      "title": "U.S. Census Grids (Summary File 1), 2000"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uscg-sf1msa.json",
+      "type": "application/geo+json",
+      "title": "U.S. Census Grids (Summary File 1), 2000: Metropolitan Statistical Areas"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uscg-sf12010.json",
+      "type": "application/geo+json",
+      "title": "U.S. Census Grids (Summary File 1), 2010"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uscg-90sf3.json",
+      "type": "application/geo+json",
+      "title": "U.S. Census Grids (Summary File 3), 1990"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uscg-90sf3msa.json",
+      "type": "application/geo+json",
+      "title": "U.S. Census Grids (Summary File 3), 1990: Metropolitan Statistical Areas"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uscg-sf3.json",
+      "type": "application/geo+json",
+      "title": "U.S. Census Grids (Summary File 3), 2000"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-uscg-sf3msa.json",
+      "type": "application/geo+json",
+      "title": "U.S. Census Grids (Summary File 3), 2000: Metropolitan Statistical Areas"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-wacvm-gpwv4pr-pd.json",
+      "type": "application/geo+json",
+      "title": "West Africa Coastal Vulnerability Mapping: GPW Version 4 Population Density, Preliminary Release 1, 2010"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-wacvm-gpwv4pr-pg.json",
+      "type": "application/geo+json",
+      "title": "West Africa Coastal Vulnerability Mapping: GPW Version 4 Population Growth, Preliminary Release 1, 2000-2010"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-wacvm-popproj-203050.json",
+      "type": "application/geo+json",
+      "title": "West Africa Coastal Vulnerability Mapping: Population Projections, 2030 and 2050"
+    }
+  ]
+}

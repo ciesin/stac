@@ -1,0 +1,273 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-lwp-topwa-geog",
+  "collection": "ciesin-sedac-conservation",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Last of the Wild Project, Version 1, 2002 (LWP-1): Top One Percent Wild Areas Dataset (Geographic)",
+    "description": "The Top One Percent Wild Areas Dataset of the Last of the Wild Project, Version 1, 2002 (LWP-1) is derived from the LWP-1 Human Footprint Dataset. The gridded data are classified according to their raster value (wild = 0-1; not wild >1). The top 1% of the wild areas within each biome by realm are selected and identified. The dataset in Clarke 1866 Geographic Coordinate System is produced by the Wildlife Conservation Society (WCS) and the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2002-12-31T00:00:00Z",
+    "start_datetime": "1992-01-01T00:00:00.000Z",
+    "end_datetime": "1995-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Anthropogenic/Human Influenced Ecosystems",
+      "Biosphere",
+      "Biota",
+      "Conservation",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "Earth Science",
+      "Ecosystems",
+      "Environment",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Surface",
+      "Land Use/Land Cover",
+      "Planning/Cadastre",
+      "Remote Sensing",
+      "Sustainability"
+    ],
+    "sci:doi": "10.7927/H4VM496V",
+    "ciesin:category": "Conservation",
+    "ciesin:tags": "Global, Biota, Environment, Imagery/Base Maps/Earth Cover, Planning/Cadastre, Conservation, Sustainability, Remote Sensing, Earth Science, Land Surface, Land Use/Land Cover, Biosphere, Ecosystems, Anthropogenic/Human Influenced Ecosystems",
+    "ciesin:nasa_doi": "10.7927/H4VM496V",
+    "ciesin:harvard_doi": "10.7910/DVN/RCIVH0",
+    "ciesin:sedac_doi": "10.7927/H4VM496V",
+    "ciesin:purpose": "To provide a map of the wildest areas in geographic projection which can be used in wildlife conservation planning, natural resource management, and research on human-environment interactions.",
+    "ciesin:supplemental_info": "To reproduce this dataset, the following steps are recommended: 1) Classify the Human Footprint grid according to raster value (wild = 0-1; not wild >1). 2) Select and identify the top 1% of the wild areas within each biome by realm.",
+    "ciesin:data_format": "vector; journal article; raster",
+    "ciesin:field_count": 6,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\wildareas-v1-top-one-percent-wild-areas-geographic.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "Area in square kilometers",
+        "attrdefs": "",
+        "attrlabl": "AREASQKM"
+      },
+      {
+        "attrdef": "World Wildlife Fund Terrestrial Ecosystems Biome",
+        "attrdefs": "",
+        "attrlabl": "BIOME"
+      },
+      {
+        "attrdef": "Polygon attribute representing wild or not wild.",
+        "attrdefs": "",
+        "attrlabl": "GRID CODE"
+      },
+      {
+        "attrdef": "Polygon",
+        "attrdefs": "",
+        "attrlabl": "ID"
+      },
+      {
+        "attrdef": "World Wildlife Fund Terrestrial Ecosystems Realm",
+        "attrdefs": "",
+        "attrlabl": "REALM"
+      },
+      {
+        "attrdef": "Wild Area Unique ID",
+        "attrdefs": "WCS and CIESIN",
+        "attrlabl": "WAP_ID"
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4VM496V",
+      "type": "text/html",
+      "title": "H4VM496V"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1641/0006-3568(2002)052[0891:THFATL]2.0.CO;2",
+      "type": "text/html",
+      "title": "0006-3568(2002)052[0891:THFATL]2.0.CO;2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4CN71V6",
+      "type": "text/html",
+      "title": "H4CN71V6"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4QV3JG4",
+      "type": "text/html",
+      "title": "H4QV3JG4"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H47W694W",
+      "type": "text/html",
+      "title": "H47W694W"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4445JDG",
+      "type": "text/html",
+      "title": "H4445JDG"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H40C4SPR",
+      "type": "text/html",
+      "title": "H40C4SPR"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/wildareas-v1/wildareas-v1-top-one-percent-wild-areas-geographic/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v1-top-one-percent-wild-areas-geographic/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4VM496V",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-lwp-topwa-geog.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "wild-seed-geo-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wildareas-v1/wildareas-v1-top-one-percent-wild-areas-geographic/wild-seed-geo.zip",
+      "type": "application/x-zip-compressed",
+      "title": "wild-seed-geo.zip",
+      "description": "Global data in ArcInfo Interchange format from the Last of the Wild Project, Version 1, 2002 (LWP-1):Top One Percent Wild Areas Datase t(IGHP) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VM496V",
+      "ciesin:harvard_doi": "10.7910/DVN/RCIVH0",
+      "ciesin:source_dataset_id": "C3550195266-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259965-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4vm496v": {
+      "href": "https://doi.org/10.7927/H4VM496V",
+      "type": "application/octet-stream",
+      "title": "wild-seed-geo.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VM496V",
+      "ciesin:harvard_doi": "10.7910/DVN/RCIVH0",
+      "ciesin:source_dataset_id": "C3550195266-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259965-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "readme-txt": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11657458",
+      "type": "text/plain",
+      "title": "ReadMe.txt",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6354,
+      "checksum:md5": "88f34a88c64fccfd756d6b313c82cca0",
+      "created": "2025-06-18T00:00:00Z",
+      "updated": "2025-09-08T17:27:36Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VM496V",
+      "ciesin:harvard_doi": "10.7910/DVN/RCIVH0",
+      "ciesin:source_dataset_id": "11646263",
+      "ciesin:source_file_id": "11657458",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Plain Text"
+    },
+    "wild-seedgeo-e00": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11657459",
+      "type": "application/octet-stream",
+      "title": "wild_seedgeo.e00",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9896605,
+      "checksum:md5": "c7f11ba79db76e769dc722b0a9b8ecdf",
+      "created": "2025-06-18T00:00:00Z",
+      "updated": "2025-09-08T17:27:36Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VM496V",
+      "ciesin:harvard_doi": "10.7910/DVN/RCIVH0",
+      "ciesin:source_dataset_id": "11646263",
+      "ciesin:source_file_id": "11657459",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Unknown"
+    }
+  }
+}

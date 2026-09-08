@@ -1,0 +1,332 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-wacvm-sdmspolsnlea-2010",
+  "collection": "ciesin-sedac-remote-sensing",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -16.71,
+          1.65
+        ],
+        [
+          16.21,
+          1.65
+        ],
+        [
+          16.21,
+          13.9
+        ],
+        [
+          -16.71,
+          13.9
+        ],
+        [
+          -16.71,
+          1.65
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -16.71,
+    1.65,
+    16.21,
+    13.9
+  ],
+  "properties": {
+    "title": "West Africa Coastal Vulnerability Mapping: Subset of DMSP-OLS Nighttime Lights for Economic Activity, 2010",
+    "description": "The West Africa Coastal Vulnerability Mapping: Subset of DMSP-OLS Nighttime Lights for Economic Activity, 2010 data set is based on Version 4 of the Defense Meteorological Satellite Program Operational Linescan System (DMSP-OLS) Nighttime Lights Time Series, 2010 annual global composite of radiance lights inter-calibrated to the digital number (DN) values of gain 55 for satellite F16 (2006). These data are commonly used for identifying human settlements and economic activity. The DNs are on a unitless scale ranging from 0 (no light) to 4,000 (greatest light intensity). This data set is a proxy for economic activity within 200 kilometers of the coast of West Africa. The resolution of the grid is 30 arc-second, or approximately 1 km at the equator. The data were provided courtesy of Christopher Elvidge and Kimberly Baugh of the Earth Observation Group, NOAA National Geophysical Data Center (NGDC), where image and data processing were performed.",
+    "datetime": "2018-12-06T00:00:00Z",
+    "start_datetime": "2010-01-01T00:00:00.000Z",
+    "end_datetime": "2010-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Climate",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ECONOMIC RESOURCES",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > HUMAN SETTLEMENTS",
+      "Earth Science",
+      "Economic Resources",
+      "Human Dimensions",
+      "Human Settlements",
+      "Imagery/Base Maps/Earth Cover",
+      "Marine and  Coastal",
+      "Marine and Coastal",
+      "Remote Sensing",
+      "Urban",
+      "Western Africa"
+    ],
+    "sci:doi": "10.7927/H4222RQJ",
+    "ciesin:category": "Remote Sensing",
+    "ciesin:tags": "Country, Earth Science, Human Dimensions, Economic Resources, Human Settlements, Remote Sensing, Urban, Marine and  Coastal, Climate, Imagery/Base Maps/Earth Cover",
+    "ciesin:nasa_doi": "10.7927/H4222RQJ",
+    "ciesin:harvard_doi": "10.7910/DVN/TQTIYF",
+    "ciesin:sedac_doi": "10.7927/H4222RQJ",
+    "ciesin:purpose": "To provide a measure of economic activity in the coastal zone of West Africa based on nighttime lights.",
+    "ciesin:data_format": "raster; journal article; raster, vector; data set; vector; book",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\wacvm-subset-dmsp-ols-nighttime-lights-economic-activity-2010.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4222RQJ",
+      "type": "text/html",
+      "title": "H4222RQJ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.3390/rs70201855",
+      "type": "text/html",
+      "title": "rs70201855"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4F769H4",
+      "type": "text/html",
+      "title": "H4F769H4"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1177/0022343310378914",
+      "type": "text/html",
+      "title": "0022343310378914"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H45T3HFZ",
+      "type": "text/html",
+      "title": "H45T3HFZ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4X9287N",
+      "type": "text/html",
+      "title": "H4X9287N"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4SJ1HHX",
+      "type": "text/html",
+      "title": "H4SJ1HHX"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1126/science.1244693",
+      "type": "text/html",
+      "title": "science.1244693"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4J10131",
+      "type": "text/html",
+      "title": "H4J10131"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1080/23754931.2015.1014272",
+      "type": "text/html",
+      "title": "23754931.2015.1014272"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4DB7ZR7",
+      "type": "text/html",
+      "title": "H4DB7ZR7"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H48K7719",
+      "type": "text/html",
+      "title": "H48K7719"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H44T6G9K",
+      "type": "text/html",
+      "title": "H44T6G9K"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4125QK5",
+      "type": "text/html",
+      "title": "H4125QK5"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4W95738",
+      "type": "text/html",
+      "title": "H4W95738"
+    },
+    {
+      "rel": "related",
+      "href": "http://forobs.jrc.ec.europa.eu/products/gam/",
+      "type": "text/html",
+      "title": "gam"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4RJ4GCJ",
+      "type": "text/html",
+      "title": "H4RJ4GCJ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1111/j.1466-8238.2010.00584.x",
+      "type": "text/html",
+      "title": "j.1466-8238.2010.00584.x"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4MS3QP8",
+      "type": "text/html",
+      "title": "H4MS3QP8"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4H41PCK",
+      "type": "text/html",
+      "title": "H4H41PCK"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H49K485P",
+      "type": "text/html",
+      "title": "H49K485P"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1029/2007GB002947",
+      "type": "text/html",
+      "title": "2007GB002947"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4K0726D",
+      "type": "text/html",
+      "title": "H4K0726D"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1007/978-3-642-10634-7_30",
+      "type": "text/html",
+      "title": "978-3-642-10634-7_30"
+    },
+    {
+      "rel": "related",
+      "href": "http://doi.org/10.3390/ijgi4042561",
+      "type": "text/html",
+      "title": "ijgi4042561"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/wacvm/wacvm-subset-dmsp-ols-nighttime-lights-economic-activity-2010/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wacvm-subset-dmsp-ols-nighttime-lights-economic-activity-2010/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4222RQJ",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-wacvm-sdmspolsnlea-2010.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "wacvm-subset-dmsp-ols-nighttime-lights-economic-activity-2010-30-sec-tif-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wacvm/wacvm-subset-dmsp-ols-nighttime-lights-economic-activity-2010/wacvm-subset-dmsp-ols-nighttime-lights-economic-activity-2010-30-sec-tif.zip",
+      "type": "application/x-zip-compressed",
+      "title": "wacvm-subset-dmsp-ols-nighttime-lights-economic-activity-2010-30-sec-tif.zip",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4222RQJ",
+      "ciesin:harvard_doi": "10.7910/DVN/TQTIYF",
+      "ciesin:source_dataset_id": "C3550194878-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553403566-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4222rqj": {
+      "href": "https://doi.org/10.7927/H4222RQJ",
+      "type": "application/octet-stream",
+      "title": "wacvm-subset-dmsp-ols-nighttime-lights-economic-activity-2010-30-sec-tif.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4222RQJ",
+      "ciesin:harvard_doi": "10.7910/DVN/TQTIYF",
+      "ciesin:source_dataset_id": "C3550194878-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553403566-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "wacvm-subset-dmsp-ols-nighttime-lights-economic-activity-2010-30-sec-tif-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11844280",
+      "type": "application/zip",
+      "title": "wacvm-subset-dmsp-ols-nighttime-lights-economic-activity-2010-30-sec-tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 276730,
+      "checksum:md5": "71f1c29cabcee6af2313fec834243281",
+      "created": "2025-08-01T00:00:00Z",
+      "updated": "2025-09-08T17:41:56Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4222RQJ",
+      "ciesin:harvard_doi": "10.7910/DVN/TQTIYF",
+      "ciesin:source_dataset_id": "11646353",
+      "ciesin:source_file_id": "11844280",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

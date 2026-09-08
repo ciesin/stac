@@ -1,0 +1,388 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-settlements",
+  "title": "CIESIN SEDAC - Settlements",
+  "description": "CIESIN SEDAC datasets categorized as Settlements.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -25.333428,
+          -46.877589,
+          63.498428,
+          27.289257
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-09-30T00:00:00Z",
+          "2026-07-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-ago---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 AGO - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-bdi---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 BDI - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-ben---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 BEN - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-bfa---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 BFA - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-bwa---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 BWA - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-caf---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 CAF - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-civ---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 CIV - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cmr---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 CMR - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---settlement-extents-v3.1.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Settlement Extents v3.1"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---settlement-extents-v4.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Settlement Extents v4.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---settlement-names-v8.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Settlement Names v8.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---settlement-names-v9.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Settlement Names v9.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cog---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COG - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-com---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COM - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cpv---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 CPV - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-dji---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 DJI - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-eri---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 ERI - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-eth---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 ETH - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-gab---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 GAB - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-gha---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 GHA - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-gin---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 GIN - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-gmb---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 GMB - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-gnb---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 GNB - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-gnq---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 GNQ - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-ken---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 KEN - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-lbr---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 LBR - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-lso---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 LSO - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-mdg---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 MDG - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-mli---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 MLI - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-moz---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 MOZ - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-mrt---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 MRT - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-mus---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 MUS - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-mwi---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 MWI - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-myt---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 MYT - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-nam---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 NAM - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-ner---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 NER - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-nga---settlement-extents-v4.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 NGA - Settlement Extents v4.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-nga---settlement-extents-v4.1.json",
+      "type": "application/geo+json",
+      "title": "GRID3 NGA - Settlement Extents v4.1"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-reu---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 REU - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-rwa---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 RWA - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-sdn---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 SDN - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-sen---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 SEN - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-shn---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 SHN - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-sle---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 SLE - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-sle---settlement-names-v1.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 SLE - Settlement Names v1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-som---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 SOM - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-ssd---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 SSD - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-stp---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 STP - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-swz---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 SWZ - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-syc---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 SYC - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-tcd---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 TCD - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-tgo---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 TGO - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-tza---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 TZA - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-uga---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 UGA - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-zaf---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 ZAF - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-zmb---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 ZMB - Settlement Extents v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-zwe---settlement-extents-v3.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 ZWE - Settlement Extents v3.0"
+    }
+  ]
+}

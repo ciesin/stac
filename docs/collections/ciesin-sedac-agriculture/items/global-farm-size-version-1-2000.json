@@ -1,0 +1,130 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "global-farm-size-version-1-2000",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Global Farm Size, Version 1, 2000",
+    "description": "The Global Farm Size, Version 1, 2000 is a global 8.4 km x 8.4 km gridded data set of dominant farm sizes derived from national-level data on farm size distributions and subnational data on field size distributions. The data set shows the global distribution of different sized farms.",
+    "datetime": "2025-05-28T00:00:00Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Agriculture",
+      "EARTH SCIENCE > AGRICULTURE",
+      "Earth Science",
+      "Farming",
+      "Global"
+    ],
+    "sci:doi": "10.7927/wvje-sn95",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Agriculture, Global, Farming, Earth Science",
+    "ciesin:nasa_doi": "10.7927/WVJE-SN95",
+    "ciesin:sedac_doi": "10.7927/wvje-sn95",
+    "ciesin:purpose": "To provide a global map of farm sizes for global assessment studies where results are typically aggregated at the regional or global level.",
+    "ciesin:data_format": "raster; documentation",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for Integrated Earth System Information (CIESIN)",
+      "Center for Integrated Earth System Information (CIESIN) Metadata Administration",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\aglands-farm-size-v1-2000.xml",
+    "ciesin:source_match_status": "nasa_missing;harvard_missing",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/wvje-sn95",
+      "type": "text/html",
+      "title": "wvje-sn95"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/fjvb-6q59",
+      "type": "text/html",
+      "title": "fjvb-6q59"
+    },
+    {
+      "rel": "via",
+      "href": "https://ciesin.climate.columbia.edu/content/data",
+      "type": "text/html",
+      "title": "data"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/wvje-sn95",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./global-farm-size-version-1-2000.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {}
+}

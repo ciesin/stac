@@ -1,0 +1,768 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-epi-2020",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -55.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -55.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "2020 Environmental Performance Index (EPI)",
+    "description": "The 2020 Environmental Performance Index (EPI) ranks 180 countries on 32 performance indicators in the following 11 issue categories: air quality, sanitation and drinking water, heavy metals, waste management, biodiversity and habitat, ecosystem services, fisheries, climate change, pollution emissions, agriculture, and water resources. These categories track performance and progress on two broad policy objectives, environmental health and ecosystem vitality. The EPI's proximity-to-target methodology facilitates cross-country comparisons among economic and regional peer groups. The data set includes the 2020 EPI, component scores, and time-series source data. It is the result of a collaboration of the Yale Center for Environmental Law and Policy (YCELP), Yale University, and the Columbia University Center for International Earth Science Information Network (CIESIN). The Interactive Website for the 2020 EPI is at https://epi.yale.edu/.",
+    "datetime": "2020-11-09T00:00:00Z",
+    "start_datetime": "1950-01-01T00:00:00.000Z",
+    "end_datetime": "2020-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Afghanistan",
+      "Agriculture",
+      "Albania",
+      "Algeria",
+      "Angola",
+      "Antigua and Barbuda",
+      "Argentina",
+      "Armenia",
+      "Australia",
+      "Austria",
+      "Azerbaijan",
+      "Bahamas",
+      "Bahrain",
+      "Bangladesh",
+      "Barbados",
+      "Belarus",
+      "Belgium",
+      "Belize",
+      "Benin",
+      "Bhutan",
+      "Bolivia",
+      "Bosnia and Herzegovina",
+      "Botswana",
+      "Brazil",
+      "Brunei Darussalam",
+      "Bulgaria",
+      "Burkina Faso",
+      "Burundi",
+      "Cambodia",
+      "Cameroon",
+      "Canada",
+      "Cape Verde",
+      "Central African Republic",
+      "Chad",
+      "Chile",
+      "China",
+      "Climate",
+      "Colombia",
+      "Comoros",
+      "Congo",
+      "Congo, Democratic",
+      "Conservation",
+      "Costa Rica",
+      "Cote d'Ivoire",
+      "Country",
+      "Croatia",
+      "Cuba",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "Djibouti",
+      "Dominica",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SUSTAINABILITY > ENVIRONMENTAL SUSTAINABILITY",
+      "Earth Science",
+      "Economy",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Environment",
+      "Environmental Sustainability",
+      "Equatorial Guinea",
+      "Eritrea",
+      "Estonia",
+      "Eswatini",
+      "Ethiopia",
+      "Fiji",
+      "Finland",
+      "France",
+      "Gabon",
+      "Gambia",
+      "Georgia",
+      "Germany",
+      "Ghana",
+      "Global",
+      "Governance",
+      "Greece",
+      "Grenada",
+      "Guatemala",
+      "Guinea",
+      "Guinea-Bissau",
+      "Guyana",
+      "Haiti",
+      "Health",
+      "Honduras",
+      "Human Dimensions",
+      "Hungary",
+      "Iceland",
+      "India",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Jamaica",
+      "Japan",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kiribati",
+      "Kuwait",
+      "Kyrgyzstan",
+      "Laos",
+      "Latvia",
+      "Lebanon",
+      "Lesotho",
+      "Liberia",
+      "Lithuania",
+      "Luxembourg",
+      "Macedonia",
+      "Madagascar",
+      "Malawi",
+      "Malaysia",
+      "Maldives",
+      "Mali",
+      "Malta",
+      "Marine and  Coastal",
+      "Marine and Coastal",
+      "Marshall Islands",
+      "Mauritania",
+      "Mauritius",
+      "Mexico",
+      "Micronesia",
+      "Moldova",
+      "Mongolia",
+      "Montenegro",
+      "Morocco",
+      "Mozambique",
+      "Myanmar",
+      "Namibia",
+      "Nepal",
+      "Netherlands",
+      "New Zealand",
+      "Nicaragua",
+      "Niger",
+      "Nigeria",
+      "Norway",
+      "Oman",
+      "Pakistan",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Qatar",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "Samoa",
+      "Sao Tome and Principe",
+      "Saudi Arabia",
+      "Senegal",
+      "Serbia",
+      "Seychelles",
+      "Sierra Leone",
+      "Singapore",
+      "Slovakia",
+      "Slovenia",
+      "Society",
+      "Solomon Islands",
+      "Somalia",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sri Lanka",
+      "St Lucia",
+      "St Vincent and The Grenadines",
+      "Sudan",
+      "Suriname",
+      "Sustainability",
+      "Sweden",
+      "Switzerland",
+      "Syria",
+      "Taiwan",
+      "Tajikistan",
+      "Tanzania",
+      "Thailand",
+      "Timor-Leste",
+      "Togo",
+      "Tonga",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Turkmenistan",
+      "Uganda",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Uruguay",
+      "Uzbekistan",
+      "Vanuatu",
+      "Venezuela",
+      "Viet Nam",
+      "Water",
+      "Yemen",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "sci:doi": "10.7927/f54c-0r44",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Earth Science, Human Dimensions, Sustainability, Environmental Sustainability, Agriculture, Climate, Conservation, Governance, Health, Marine and  Coastal, Water, Economy, Environment, Society, Country",
+    "ciesin:nasa_doi": "10.7927/F54C-0R44",
+    "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+    "ciesin:sedac_doi": "10.7927/f54c-0r44",
+    "ciesin:purpose": "To provide quantitative metrics for evaluating a country's environmental performance in different policy categories relative to clearly defined targets.",
+    "ciesin:data_format": "document, tabular, map, map service; report; document, tabular, map; document, tabular, map service",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\epi-environmental-performance-index-2020.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/f54c-0r44",
+      "type": "text/html",
+      "title": "f54c-0r44"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.13140/RG.2.2.21182.51529",
+      "type": "text/html",
+      "title": "RG.2.2.21182.51529"
+    },
+    {
+      "rel": "related",
+      "href": "https://epi.yale.edu/",
+      "type": "text/html",
+      "title": "epi.yale.edu"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H44M92GX",
+      "type": "text/html",
+      "title": "H44M92GX"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4HT2M77",
+      "type": "text/html",
+      "title": "H4HT2M77"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4D21VHT",
+      "type": "text/html",
+      "title": "H4D21VHT"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H48913SG",
+      "type": "text/html",
+      "title": "H48913SG"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4416V05",
+      "type": "text/html",
+      "title": "H4416V05"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.epi.yale.edu",
+      "type": "text/html",
+      "title": "www.epi.yale.edu"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4FX77CS",
+      "type": "text/html",
+      "title": "H4FX77CS"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.13140/RG.2.2.19868.90249",
+      "type": "text/html",
+      "title": "RG.2.2.19868.90249"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4X928CF",
+      "type": "text/html",
+      "title": "H4X928CF"
+    },
+    {
+      "rel": "related",
+      "href": "https://epi.envirocenter.yale.edu/node/36476",
+      "type": "text/html",
+      "title": "36476"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/epi/epi-environmental-performance-index-2020/epi2020-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "epi2020-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/epi-environmental-performance-index-2020/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/epi-environmental-performance-index-2020/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/epi-environmental-performance-index-2020/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/f54c-0r44",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-epi-2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "2020-epi-indicators-time-series-csv-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2020/2020-epi-indicators-time-series-csv.zip",
+      "type": "application/x-zip-compressed",
+      "title": "2020-epi-indicators-time-series-csv.zip",
+      "description": "Global time series raw indicators data in CSV format for the years 1950-2020 from the 2020 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "C3540931900-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122259-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "f54c-0r44": {
+      "href": "https://doi.org/10.7927/f54c-0r44",
+      "type": "application/octet-stream",
+      "title": "2020-epi-indicators-time-series-csv.zip",
+      "description": "DATA SET OVERVIEW PAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "C3540931900-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122259-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "2020-epi-indicators-time-series-na-csv-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2020/2020-epi-indicators-time-series-na-csv.zip",
+      "type": "application/x-zip-compressed",
+      "title": "2020-epi-indicators-time-series-na-csv.zip",
+      "description": "Global time series processed indicators data in CSV format for the years 1950-2020 from the 2020 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "C3540931900-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122264-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2020-epi-report-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2020/2020-epi-report.pdf",
+      "type": "application/pdf",
+      "title": "2020-epi-report.pdf",
+      "description": "EPI report data in PDF format for the years 1950-2020 from the 2020 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "C3540931900-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122269-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2020-epi-xlsx-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2020/2020-epi-xlsx.zip",
+      "type": "application/x-zip-compressed",
+      "title": "2020-epi-xlsx.zip",
+      "description": "Global EPI results as processed indicators data in Excel format for the years 1950-2020 from the 2020 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "C3540931900-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122285-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "epi2020-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2020/epi2020.pdf",
+      "type": "application/pdf",
+      "title": "2020-epi-xlsx.zip",
+      "description": "Environmental Performance Index map for the year 2020 in PDF format from the 2020 Environmental Performance Indexdata set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "C3540931900-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122285-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2020-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2020/epi2020.png",
+      "type": "image/png",
+      "title": "2020-epi-xlsx.zip",
+      "description": "Environmental Performance Index map for the year 2020 in PNG format from the 2020 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "C3540931900-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122285-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2020-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2020/epi2020-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "2020-epi-xlsx.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "C3540931900-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122285-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "2020-epi-policymakers-summary-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2020/2020-epi-policymakers-summary.pdf",
+      "type": "application/pdf",
+      "title": "2020-epi-policymakers-summary.pdf",
+      "description": "EPI policymaker summary data in PDF format for the years 1950-2020 from the 2020 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "C3540931900-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122290-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2020-epi-technical-appendix-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2020/2020-epi-technical-appendix.pdf",
+      "type": "application/pdf",
+      "title": "2020-epi-technical-appendix.pdf",
+      "description": "EPI technical appendix data in PDF format for the years 1950-2020 from the 2020 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "C3540931900-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122293-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2020-epi-raw-data-time-series-csv-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2020/2020-epi-raw-data-time-series-csv.zip",
+      "type": "application/x-zip-compressed",
+      "title": "2020-epi-raw-data-time-series-csv.zip",
+      "description": "Global time series raw indicators data in CSV format for the years 1950-2020 from the 2020 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "C3540931900-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122296-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2020-epi-raw-data-time-series-na-csv-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2020/2020-epi-raw-data-time-series-na-csv.zip",
+      "type": "application/x-zip-compressed",
+      "title": "2020-epi-raw-data-time-series-na-csv.zip",
+      "description": "Global time series processed indicators data in CSV format for the years 1950-2020 from the 2020 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "C3540931900-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122298-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2020-epi-indicators-time-series-csv-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715554",
+      "type": "application/zip",
+      "title": "2020-epi-indicators-time-series-csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1269443,
+      "checksum:md5": "dcff07105b4f1e91dc0016f0545223f2",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:48:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "11646071",
+      "ciesin:source_file_id": "11715554",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "2020-epi-indicators-time-series-na-csv-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715557",
+      "type": "application/zip",
+      "title": "2020-epi-indicators-time-series-na-csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1267221,
+      "checksum:md5": "e9d5e059d9fa55b76359050a1d371bbd",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:48:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "11646071",
+      "ciesin:source_file_id": "11715557",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "2020-epi-policymakers-summary-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715559",
+      "type": "application/pdf",
+      "title": "2020-epi-policymakers-summary.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2077735,
+      "checksum:md5": "2a9abfffe488f2cd7906ded3a607a80c",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:48:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "11646071",
+      "ciesin:source_file_id": "11715559",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2020-epi-raw-data-time-series-csv-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715553",
+      "type": "application/zip",
+      "title": "2020-epi-raw-data-time-series-csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3620034,
+      "checksum:md5": "96679725e887da7830c5953267bf5bc8",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:48:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "11646071",
+      "ciesin:source_file_id": "11715553",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "2020-epi-raw-data-time-series-na-csv-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715555",
+      "type": "application/zip",
+      "title": "2020-epi-raw-data-time-series-na-csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3610415,
+      "checksum:md5": "ad88e72a802f126c41ded1e658edf347",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:48:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "11646071",
+      "ciesin:source_file_id": "11715555",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "2020-epi-report-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715556",
+      "type": "application/pdf",
+      "title": "2020-epi-report.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14671031,
+      "checksum:md5": "c2890be5064d7a4753ee88fadf566ffe",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:48:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "11646071",
+      "ciesin:source_file_id": "11715556",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2020-epi-technical-appendix-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715560",
+      "type": "application/pdf",
+      "title": "2020-epi-technical-appendix.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 542629,
+      "checksum:md5": "0fb83eef19acfd4862886bd4a3af5700",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:48:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "11646071",
+      "ciesin:source_file_id": "11715560",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2020-epi-xlsx-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715558",
+      "type": "application/zip",
+      "title": "2020-epi-xlsx.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2041175,
+      "checksum:md5": "59a2b78652653a070387c9b922743493",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:48:00Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/F54C-0R44",
+      "ciesin:harvard_doi": "10.7910/DVN/WJNRBE",
+      "ciesin:source_dataset_id": "11646071",
+      "ciesin:source_file_id": "11715558",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

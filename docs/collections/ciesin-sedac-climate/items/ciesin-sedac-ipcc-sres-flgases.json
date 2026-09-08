@@ -1,0 +1,245 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-ipcc-sres-flgases",
+  "collection": "ciesin-sedac-climate",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "IPCC Special Report on Emissions Scenarios (SRES) Fluor-Gases Emissions Dataset",
+    "description": "The Intergovernmental Panel on Climate Change (IPCC) Special Report Emissions Scenarios (SRES) Fluor-Gases Emissions Dataset consists of global and regional emissions of Hydrofluorocarbons (HFCs), Perfluorocarbons (PFCs), Sulfur Hexafluoride (SF6), Cholorfluorocarbons (CFCs) and Hydrochlorofluorocarbons (HCFCs) projected every 10 years beginning in 1990 through 2100. This data set is produced by the IPCC and is distributed by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2000-07-31T00:00:00Z",
+    "start_datetime": "1990-01-01T00:00:00.000Z",
+    "end_datetime": "2100-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Air Quality",
+      "Atmosphere",
+      "Climate",
+      "Continent",
+      "EARTH SCIENCE > ATMOSPHERE > AIR QUALITY > EMISSIONS",
+      "Earth Science",
+      "Emissions",
+      "Environment",
+      "Global"
+    ],
+    "sci:doi": "10.7927/H4HD7SKJ",
+    "ciesin:category": "Climate",
+    "ciesin:tags": "Global, Continent, Environment, Climate, Earth Science, Atmosphere, Air Quality, Emissions",
+    "ciesin:nasa_doi": "10.7927/H4HD7SKJ",
+    "ciesin:harvard_doi": "10.7910/DVN/XYCRU8",
+    "ciesin:sedac_doi": "10.7927/H4HD7SKJ",
+    "ciesin:purpose": "To provide fluor-gases emissions data that can be used in interdisciplinary studies of the environment.",
+    "ciesin:supplemental_info": "The emissions data are not completely identical to those in Appendix VII of the SRES report as published by Cambridge University Press (2000). In a small number of cases, slight corrections were made after the publication of the document to prevent negative emissions, which occurred as a result of the standardization procedure.",
+    "ciesin:data_format": "tabular; raster, tabular; document, map, map service; journal article; tabular, map service; report",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\ipcc-fluor-gases-emissions.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4HD7SKJ",
+      "type": "text/html",
+      "title": "H4HD7SKJ"
+    },
+    {
+      "rel": "related",
+      "href": "http://sres.ciesin.columbia.edu/htmls/team&orgs.html",
+      "type": "text/html",
+      "title": "team&orgs.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4N29TWJ",
+      "type": "text/html",
+      "title": "H4N29TWJ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4RV0KMH",
+      "type": "text/html",
+      "title": "H4RV0KMH"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H41C1TT4",
+      "type": "text/html",
+      "title": "H41C1TT4"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4WM1BB7",
+      "type": "text/html",
+      "title": "H4WM1BB7"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4XG9P2R",
+      "type": "text/html",
+      "title": "H4XG9P2R"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4542KJV",
+      "type": "text/html",
+      "title": "H4542KJV"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4FT8J0X",
+      "type": "text/html",
+      "title": "H4FT8J0X"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1017/CBO9781107415379.023",
+      "type": "text/html",
+      "title": "CBO9781107415379.023"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ipcc/ipcc-fluor-gases-emissions/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "http://journals.sfu.ca/int_assess/index.php/iaj/article/download/239/",
+      "type": "text/html",
+      "title": "239"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ipcc-fluor-gases-emissions/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4HD7SKJ",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-ipcc-sres-flgases.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "fluor-gases-all-scenarios-xls": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ipcc/ipcc-fluor-gases-emissions/fluor-gases-all-scenarios.xls",
+      "type": "application/vnd.ms-excel",
+      "title": "fluor-gases-all-scenarios.xls",
+      "description": "Tabular data data in Excel format from the IPCC Special Report on Emissions Scenarios (SRES) Fluor-Gases Emissions Dataset data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HD7SKJ",
+      "ciesin:harvard_doi": "10.7910/DVN/XYCRU8",
+      "ciesin:source_dataset_id": "C3550193497-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200429-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4n29twj": {
+      "href": "https://doi.org/10.7927/H4N29TWJ",
+      "type": "application/octet-stream",
+      "title": "fluor-gases-all-scenarios.xls",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HD7SKJ",
+      "ciesin:harvard_doi": "10.7910/DVN/XYCRU8",
+      "ciesin:source_dataset_id": "C3550193497-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200429-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "fluor-gases-all-scenarios-xls-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11657457",
+      "type": "application/vnd.ms-excel",
+      "title": "fluor-gases-all-scenarios.xls",
+      "roles": [
+        "data"
+      ],
+      "file:size": 128512,
+      "checksum:md5": "fb68a1ee30b303b15b48c3bd2225da66",
+      "created": "2025-06-18T00:00:00Z",
+      "updated": "2025-09-09T18:35:34Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HD7SKJ",
+      "ciesin:harvard_doi": "10.7910/DVN/XYCRU8",
+      "ciesin:source_dataset_id": "11646258",
+      "ciesin:source_file_id": "11657457",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
+    }
+  }
+}

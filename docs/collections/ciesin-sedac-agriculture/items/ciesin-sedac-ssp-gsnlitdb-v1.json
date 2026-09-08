@@ -1,0 +1,255 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-ssp-gsnlitdb-v1",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Sub-global Scenarios that Extend the Global SSP Narratives: Literature Database, Version 1, 2014-2021",
+    "description": "The Sub-global Scenarios that Extend the Global SSP Narratives: Literature Database, Version 1, 2014-2021 consists of 37 columns of bibliographic data, methodological and analytical insights, from 155 articles published from 2014 to 2021 that extended the narratives of global SSPs. Local and regional scale Shared Socioeconomic Pathways (SSPs) have grown largely in addressing Climate Change Impact, Adaptation, and Vulnerability (CCIAV) assessments at sub-global levels. Common elements of these studies, besides their focus on CCIAV, are the use of both quantitative and qualitative elements of the SSPs. To explore and learn from current literature on novel methods and insights on extending SSPs, the sub-global extended SSPs literature database is constructed in the research for analyses. The database was developed in four stages: searches; screening; data extraction; and coding. The search stage incorporated three approaches: using a search string in three academic databases (Scopus, Web of Science Core Collection, ScienceDirect); a targeted search of a specific relevant database (ICONICS); and a targeted selection in Google Scholar of all papers that cited the publication of the global SSP narratives. In the screening step, criteria were assessed for full-text papers for eligibility including relevant typologies, methodologies, and other criteria. Finally, data from eligible papers was extracted and entered in a coding framework in an Excel workbook spreadsheet. The coding framework resulted in 37 columns to systematize coding of data from the 155 papers selected along several different dimensions, including categories of papers or analysis, several subcategories for SSP Applications and SSP Extensions, specific SSPs used, specific Representative Concentration Pathways (RCPs) used, typologies of extensions of qualitative and quantitative SSPs, and the types of models and nature of the extended SSPs.",
+    "datetime": "2023-12-19T00:00:00Z",
+    "start_datetime": "2014-01-01T00:00:00.000Z",
+    "end_datetime": "2021-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Agriculture",
+      "Climate",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ECONOMIC RESOURCES> TOURISM",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > INFRASTRUCTURE",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > PUBLIC HEALTH",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS > POVERTY LEVELS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SUSTAINABILITY",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "Earth Science",
+      "Economic Resources",
+      "Economy",
+      "Elevation",
+      "Environment",
+      "Farming",
+      "Global",
+      "Governance",
+      "Hazards",
+      "Health",
+      "Human Dimensions",
+      "Infrastructure",
+      "Land Surface",
+      "Land Use",
+      "Land Use/Land Cover",
+      "Population",
+      "Poverty",
+      "Poverty Levels",
+      "Public Health",
+      "Society",
+      "Socioeconomics",
+      "Sustainability",
+      "Tourism",
+      "Urban",
+      "Utilities/Communications",
+      "Water"
+    ],
+    "sci:doi": "10.7927/w6w3-3896",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Global, Economy, Elevation, Environment, Farming, Society, Utilities/Communications, Agriculture, Governance, Health, Hazards, Infrastructure, Land Use, Population, Poverty, Sustainability, Urban, Climate, Water, Earth Science, Human Dimensions, Economic Resources, Tourism, Public Health, Socioeconomics, Poverty Levels, Land Surface, Land Use/Land Cover",
+    "ciesin:nasa_doi": "10.7927/W6W3-3896",
+    "ciesin:harvard_doi": "10.7910/DVN/MW5WRO",
+    "ciesin:sedac_doi": "10.7927/w6w3-3896",
+    "ciesin:purpose": "To provide a literature database tracking the use of the sub-global scenarios consisting of Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathways (RCPs) that extend the global SSP narratives and framework for climate, socioeconomic, environmental, and other related research.",
+    "ciesin:data_format": "tabular",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/w6w3-3896",
+      "type": "text/html",
+      "title": "w6w3-3896"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/w6w3-3896",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-ssp-gsnlitdb-v1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-xlsx-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ssp/ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1/ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-xlsx.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-xlsx.zip",
+      "description": "Global data in Excel format for the years 2014 - 2021 from the Sub-global Scenarios that Extend the Global SSP Narratives: Literature Database, Version 1, 2014-2021 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/W6W3-3896",
+      "ciesin:harvard_doi": "10.7910/DVN/MW5WRO",
+      "ciesin:source_dataset_id": "C3540909595-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553447788-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "w6w3-3896": {
+      "href": "https://doi.org/10.7927/w6w3-3896",
+      "type": "application/octet-stream",
+      "title": "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-xlsx.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/W6W3-3896",
+      "ciesin:harvard_doi": "10.7910/DVN/MW5WRO",
+      "ciesin:source_dataset_id": "C3540909595-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553447788-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-methodology-pdf": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11661596",
+      "type": "application/pdf",
+      "title": "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-methodology.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 129083,
+      "checksum:md5": "6ab5ffb8234af55f94074640f61770a1",
+      "created": "2025-06-19T00:00:00Z",
+      "updated": "2025-09-08T18:17:45Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/W6W3-3896",
+      "ciesin:harvard_doi": "10.7910/DVN/MW5WRO",
+      "ciesin:source_dataset_id": "11646318",
+      "ciesin:source_file_id": "11661596",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-readme-txt": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11661595",
+      "type": "text/plain",
+      "title": "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-readme.txt",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4970,
+      "checksum:md5": "b9fd1d502553d6db1899f58acd3dfced",
+      "created": "2025-06-19T00:00:00Z",
+      "updated": "2025-09-08T18:17:45Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/W6W3-3896",
+      "ciesin:harvard_doi": "10.7910/DVN/MW5WRO",
+      "ciesin:source_dataset_id": "11646318",
+      "ciesin:source_file_id": "11661595",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Plain Text"
+    },
+    "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-xlsx-xlsx": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11661594",
+      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "title": "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-xlsx.xlsx",
+      "roles": [
+        "data"
+      ],
+      "file:size": 251055,
+      "checksum:md5": "86471561edeada64352741a46755c58a",
+      "created": "2025-06-19T00:00:00Z",
+      "updated": "2025-09-08T18:17:45Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/W6W3-3896",
+      "ciesin:harvard_doi": "10.7910/DVN/MW5WRO",
+      "ciesin:source_dataset_id": "11646318",
+      "ciesin:source_file_id": "11661594",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
+    }
+  }
+}

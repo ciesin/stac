@@ -1,0 +1,769 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-pmp-pfscs",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -58.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -58.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Poverty Mapping Project: Poverty and Food Security Case Studies",
+    "description": "The Poverty Mapping Project: Poverty and Food Security Case Studies data set consists of small area estimates of poverty, inequality, food security and related measures for subnational administrative units in Mexico, Ecuador, Kenya, Malawi, Bangladesh, Sri Lanka, Nigeria and Vietnam. These data come from country level cases studies that examine poverty and food security from a spatial analysis perspective. The data products include shapefiles (vector data) and tabular data sets (csv format). Additionally, a data catalog (xls format) containing detailed information and documentation is provided. This data set is produced by the Columbia University Center for International Earth Science Information Network (CIESIN) and Centro Internacional de Agricultura Tropical (CIAT). The data set was originally produced by CIAT, International Maize and Wheat Improvement Center (CIMMYT), International Livestock Research Institute (ILRI), International Food Policy Research Institute (IFPRI), International Rice Research Institute (IRRI), International Water Management Institute (IWMI), and International Institute for Tropical Agriculture (IITA).",
+    "datetime": "2005-12-31T00:00:00Z",
+    "start_datetime": "1998-01-01T00:00:00.000Z",
+    "end_datetime": "2002-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Agriculture",
+      "Bangladesh",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS > POVERTY LEVELS",
+      "Earth Science",
+      "Ecuador",
+      "Health",
+      "Human Dimensions",
+      "Kenya",
+      "Malawi",
+      "Mexico",
+      "Nigeria",
+      "Poverty",
+      "Poverty Levels",
+      "Society",
+      "Socioeconomics",
+      "Sri Lanka",
+      "Vietnam"
+    ],
+    "sci:doi": "10.7927/H4FF3Q9B",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Country, Health, Society, Agriculture, Poverty, Earth Science, Human Dimensions, Socioeconomics, Poverty Levels",
+    "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+    "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+    "ciesin:sedac_doi": "10.7927/H4FF3Q9B",
+    "ciesin:purpose": "To provide high spatial resolution subnational estimates of poverty and food security for use by a wide community for interdisciplinary studies of poverty, food security and the environment.",
+    "ciesin:data_format": "vector, tabular; raster, vector, tabular, map, map service; vector, tabular, map; document",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\povmap-poverty-food-security-case-studies.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4FF3Q9B",
+      "type": "text/html",
+      "title": "H4FF3Q9B"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4PZ56R2",
+      "type": "text/html",
+      "title": "H4PZ56R2"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4K64G12",
+      "type": "text/html",
+      "title": "H4K64G12"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H49P2ZKM",
+      "type": "text/html",
+      "title": "H49P2ZKM"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H45X26V8",
+      "type": "text/html",
+      "title": "H45X26V8"
+    },
+    {
+      "rel": "related",
+      "href": "https://sedac.ciesin.columbia.edu/povmap/atlasMedia/",
+      "type": "text/html",
+      "title": "atlasMedia"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.ciesin.columbia.edu/povmap/methods_nat.jsp",
+      "type": "text/html",
+      "title": "methods_nat.jsp"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/povmap/povmap-poverty-food-security-case-studies/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/povmap-poverty-food-security-case-studies/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4FF3Q9B",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-pmp-pfscs.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "ken-casestudy-data-table-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/KEN_CaseStudy_Data_Table.zip",
+      "type": "application/x-zip-compressed",
+      "title": "KEN_CaseStudy_Data_Table.zip",
+      "description": "Kenya Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277614-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4ff3q9b": {
+      "href": "https://doi.org/10.7927/H4FF3Q9B",
+      "type": "application/octet-stream",
+      "title": "KEN_CaseStudy_Data_Table.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277614-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "nga-casestudy-data-table-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/NGA_CaseStudy_Data_Table.zip",
+      "type": "application/x-zip-compressed",
+      "title": "NGA_CaseStudy_Data_Table.zip",
+      "description": "Nigeria Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277618-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "bgd-casestudy-shapefile-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/BGD_CaseStudy_shapefile.zip",
+      "type": "application/x-zip-compressed",
+      "title": "BGD_CaseStudy_shapefile.zip",
+      "description": "Bangladesh data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277620-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "mwi-casestudy-data-table-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MWI_CaseStudy_Data_Table.zip",
+      "type": "application/x-zip-compressed",
+      "title": "MWI_CaseStudy_Data_Table.zip",
+      "description": "Malawi Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277624-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lka-casestudy-data-table-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/LKA_CaseStudy_Data_Table.zip",
+      "type": "application/x-zip-compressed",
+      "title": "LKA_CaseStudy_Data_Table.zip",
+      "description": "Sri Lanka Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277629-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "vnm-casestudy-data-table-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/VNM_CaseStudy_Data_Table.zip",
+      "type": "application/x-zip-compressed",
+      "title": "VNM_CaseStudy_Data_Table.zip",
+      "description": "Vietnam Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277639-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "vnm-casestudy-shapefile-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/VNM_CaseStudy_shapefile.zip",
+      "type": "application/x-zip-compressed",
+      "title": "VNM_CaseStudy_shapefile.zip",
+      "description": "Vietnam data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277648-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "lka-casestudy-shapefile-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/LKA_CaseStudy_shapefile.zip",
+      "type": "application/x-zip-compressed",
+      "title": "LKA_CaseStudy_shapefile.zip",
+      "description": "Sri Lanka data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277656-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "mwi-casestudy-shapefile-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MWI_CaseStudy_shapefile.zip",
+      "type": "application/x-zip-compressed",
+      "title": "MWI_CaseStudy_shapefile.zip",
+      "description": "Malawi data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277675-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "ken-casestudy-shapefile-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/KEN_CaseStudy_shapefile.zip",
+      "type": "application/x-zip-compressed",
+      "title": "KEN_CaseStudy_shapefile.zip",
+      "description": "Kenya data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277693-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "ecu-casestudy-shapefile-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/ECU_CaseStudy_shapefile.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ECU_CaseStudy_shapefile.zip",
+      "description": "Ecuador data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277707-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "mex-casestudy-data-table-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MEX_CaseStudy_Data_Table.zip",
+      "type": "application/x-zip-compressed",
+      "title": "MEX_CaseStudy_Data_Table.zip",
+      "description": "Mexico Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277719-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "mex-casestudy-shapefile-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MEX_CaseStudy_shapefile.zip",
+      "type": "application/x-zip-compressed",
+      "title": "MEX_CaseStudy_shapefile.zip",
+      "description": "Mexico data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277728-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "nga-casestudy-shapefile-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/NGA_CaseStudy_shapefile.zip",
+      "type": "application/x-zip-compressed",
+      "title": "NGA_CaseStudy_shapefile.zip",
+      "description": "Nigeria data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277740-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "bgd-casestudy-data-table-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/BGD_CaseStudy_Data_Table.zip",
+      "type": "application/x-zip-compressed",
+      "title": "BGD_CaseStudy_Data_Table.zip",
+      "description": "Bangladesh Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277751-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "ecu-casestudy-data-table-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/ECU_CaseStudy_Data_Table.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ECU_CaseStudy_Data_Table.zip",
+      "description": "Ecuador Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "C3550193248-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550277762-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "bgd-casestudy-data-table-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831947",
+      "type": "application/zip",
+      "title": "BGD_CaseStudy_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 27635,
+      "checksum:md5": "80c6c7549011770c4717766ef51fc668",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831947",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "bgd-casestudy-shapefile-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831953",
+      "type": "application/zip",
+      "title": "BGD_CaseStudy_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 962571,
+      "checksum:md5": "5520361216c10a4de18c6756cd63a93f",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831953",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "ecu-casestudy-data-table-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831959",
+      "type": "application/zip",
+      "title": "ECU_CaseStudy_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 52873,
+      "checksum:md5": "813a616f0fc0d6557e3c65dc12a72d53",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831959",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "ecu-casestudy-shapefile-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831955",
+      "type": "application/zip",
+      "title": "ECU_CaseStudy_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2256366,
+      "checksum:md5": "728871a800919d4f00b2bb9eddf1f698",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831955",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "ken-casestudy-data-table-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831962",
+      "type": "application/zip",
+      "title": "KEN_CaseStudy_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9401,
+      "checksum:md5": "edd14b9f266b212d079a3e1337a0d0f5",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831962",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "ken-casestudy-shapefile-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831960",
+      "type": "application/zipped-shapefile",
+      "title": "KEN_CaseStudy_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 212858,
+      "checksum:md5": "0b2fbab1fd2b7a9778b04500efd80428",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831960",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "lka-casestudy-data-table-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831951",
+      "type": "application/zip",
+      "title": "LKA_CaseStudy_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 67005,
+      "checksum:md5": "16cbc30ac2961523072e4c37134351c3",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831951",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "lka-casestudy-shapefile-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831949",
+      "type": "application/zip",
+      "title": "LKA_CaseStudy_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2234373,
+      "checksum:md5": "4a4aee0e47ff76f2500f630b2011b700",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831949",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "mex-casestudy-data-table-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831956",
+      "type": "application/zip",
+      "title": "MEX_CaseStudy_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 209292,
+      "checksum:md5": "44f27210674d1b290e7edb34eaa865ce",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831956",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "mex-casestudy-shapefile-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831958",
+      "type": "application/zipped-shapefile",
+      "title": "MEX_CaseStudy_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11931949,
+      "checksum:md5": "e09f5858ccb8f2ae286eb0d5fd2e5135",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831958",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "mwi-casestudy-data-table-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831952",
+      "type": "application/zip",
+      "title": "MWI_CaseStudy_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 223801,
+      "checksum:md5": "aab09904b089a421ffe2459b2a92a387",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831952",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "mwi-casestudy-shapefile-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831957",
+      "type": "application/zipped-shapefile",
+      "title": "MWI_CaseStudy_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4471342,
+      "checksum:md5": "0c41d891836dc0eff36a2f6f3938e080",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831957",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "nga-casestudy-data-table-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831948",
+      "type": "application/zip",
+      "title": "NGA_CaseStudy_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12309,
+      "checksum:md5": "16ce03e4cc893525a9a7510d6dab5929",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831948",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "nga-casestudy-shapefile-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831954",
+      "type": "application/zipped-shapefile",
+      "title": "NGA_CaseStudy_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 659763,
+      "checksum:md5": "e10dbc3e7df8313a64fc291e2c29f317",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831954",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "vnm-casestudy-data-table-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831961",
+      "type": "application/zip",
+      "title": "VNM_CaseStudy_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 52034,
+      "checksum:md5": "06fa4dc411e1bff91ee5335492dfb5f4",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831961",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "vnm-casestudy-shapefile-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11831950",
+      "type": "application/zipped-shapefile",
+      "title": "VNM_CaseStudy_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2798051,
+      "checksum:md5": "5d49f0499474a079fa23617eb8f64680",
+      "created": "2025-07-29T00:00:00Z",
+      "updated": "2025-09-08T21:50:51Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FF3Q9B",
+      "ciesin:harvard_doi": "10.7910/DVN/WENYRN",
+      "ciesin:source_dataset_id": "11646308",
+      "ciesin:source_file_id": "11831950",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    }
+  }
+}

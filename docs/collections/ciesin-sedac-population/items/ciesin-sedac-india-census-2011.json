@@ -1,0 +1,596 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-india-census-2011",
+  "collection": "ciesin-sedac-population",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          68.106253,
+          8.083816
+        ],
+        [
+          89.150397,
+          8.083816
+        ],
+        [
+          89.150397,
+          37.073831
+        ],
+        [
+          68.106253,
+          37.073831
+        ],
+        [
+          68.106253,
+          8.083816
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    68.106253,
+    8.083816,
+    89.150397,
+    37.073831
+  ],
+  "properties": {
+    "title": "Spatial Data from the 2011 India Census",
+    "description": "The Spatial Data from the 2011 India Census contains gridded estimates of India population at a resolution of 1 kilometer along with two spatial renderings of urban areas, one based on the official tabulations of population and settlement type (statutory town, outgrowth, census town), and the second, remotely-sensed measures of built-up land derived from the Global Human Settlement Layer. This data set includes a constructed hybrid representation of the urban settlement continuum by cross-classifying the census and remotely-sensed data.",
+    "datetime": "2020-06-18T00:00:00Z",
+    "start_datetime": "2011-01-01T00:00:00.000Z",
+    "end_datetime": "2011-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Earth Science",
+      "Human Dimensions",
+      "India",
+      "Population",
+      "Society"
+    ],
+    "sci:doi": "10.7927/gya1-wp91",
+    "ciesin:category": "Population",
+    "ciesin:tags": "Earth Science, Human Dimensions, Population, Country, Society",
+    "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+    "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+    "ciesin:sedac_doi": "10.7927/gya1-wp91",
+    "ciesin:purpose": "To provide high-resolution population and urban classification data for India for 2011.",
+    "ciesin:data_format": "raster, vector, tabular, map, map service; journal article",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\india-spatial-india-census-2011.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/gya1-wp91",
+      "type": "text/html",
+      "title": "gya1-wp91"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.3390/data4010035",
+      "type": "text/html",
+      "title": "data4010035"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/india/india-spatial-india-census-2011/india-spatial-india-census-2011-census-class-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "india-spatial-india-census-2011-census-class-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/india-spatial-india-census-2011/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/india-spatial-india-census-2011/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/india-spatial-india-census-2011/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/gya1-wp91",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-india-census-2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "india-spatial-india-census-2011-data-dictionary-xlsx-xlsx": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-spatial-india-census-2011/india-spatial-india-census-2011-data-dictionary-xlsx.xlsx",
+      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "title": "india-spatial-india-census-2011-data-dictionary-xlsx.xlsx",
+      "description": "Data Dictionary data in Excel format for the year 2011 from the Spatial Data from the 2011 India Census data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425329-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "gya1-wp91": {
+      "href": "https://doi.org/10.7927/gya1-wp91",
+      "type": "application/octet-stream",
+      "title": "india-spatial-india-census-2011-data-dictionary-xlsx.xlsx",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425329-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-spatial-india-census-2011-census-ghsl-1pct-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-spatial-india-census-2011/india-spatial-india-census-2011-census-ghsl-1pct-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-spatial-india-census-2011-census-ghsl-1pct-shp.zip",
+      "description": "Census Designations of Settlement Type Combined with Global Human Settlement Layer (GHSL) Built-up Area Threshold of 1% data in Shapefile format for the year 2011 from the Spatial Data from the 2011 India Census data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425333-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-spatial-india-census-2011-census-ghsl-1pct-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/india-spatial-india-census-2011/india-spatial-india-census-2011-census-ghsl-1pct.pdf",
+      "type": "application/pdf",
+      "title": "india-spatial-india-census-2011-census-ghsl-1pct-shp.zip",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425333-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-spatial-india-census-2011-census-ghsl-1pct-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/india-spatial-india-census-2011/india-spatial-india-census-2011-census-ghsl-1pct.png",
+      "type": "image/png",
+      "title": "india-spatial-india-census-2011-census-ghsl-1pct-shp.zip",
+      "description": "India Urban Census Classes and GHSL One Percent Built-up Land map for the year 2011 in PNG format from the Spatial Data from the 2011 India Census data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425333-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-spatial-india-census-2011-census-ghsl-1pct-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/india-spatial-india-census-2011/india-spatial-india-census-2011-census-ghsl-1pct-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "india-spatial-india-census-2011-census-ghsl-1pct-shp.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425333-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "india-spatial-india-census-2011-census-class-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-spatial-india-census-2011/india-spatial-india-census-2011-census-class-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-spatial-india-census-2011-census-class-geotiff.zip",
+      "description": "Census Designations of Settlement Type data in GeoTIFF format for the year 2011 from the Spatial Data from the 2011 India Census data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425334-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-spatial-india-census-2011-census-class-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/india-spatial-india-census-2011/india-spatial-india-census-2011-census-class.pdf",
+      "type": "application/pdf",
+      "title": "india-spatial-india-census-2011-census-class-geotiff.zip",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425334-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-spatial-india-census-2011-census-class-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/india-spatial-india-census-2011/india-spatial-india-census-2011-census-class.png",
+      "type": "image/png",
+      "title": "india-spatial-india-census-2011-census-class-geotiff.zip",
+      "description": "India Census Classes map for the year 2011 in PNG format from the Spatial Data from the 2011 India Census data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425334-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-spatial-india-census-2011-census-class-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/india-spatial-india-census-2011/india-spatial-india-census-2011-census-class-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "india-spatial-india-census-2011-census-class-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425334-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "india-spatial-india-census-2011-area-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-spatial-india-census-2011/india-spatial-india-census-2011-area-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-spatial-india-census-2011-area-grid.zip",
+      "description": "Land Area data in Grid format for the year 2011 from the Spatial Data from the 2011 India Census data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425338-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-spatial-india-census-2011-population-states-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-spatial-india-census-2011/india-spatial-india-census-2011-population-states-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-spatial-india-census-2011-population-states-geotiff.zip",
+      "description": "States Population Count data in GeoTIFF format for the year 2011 from the Spatial Data from the 2011 India Census data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425344-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-spatial-india-census-2011-population-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-spatial-india-census-2011/india-spatial-india-census-2011-population-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-spatial-india-census-2011-population-grid.zip",
+      "description": "Population Count data in Grid format for the year 2011 from the Spatial Data from the 2011 India Census data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425345-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-spatial-india-census-2011-area-states-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-spatial-india-census-2011/india-spatial-india-census-2011-area-states-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-spatial-india-census-2011-area-states-geotiff.zip",
+      "description": "States Land Area data in GeoTIFF format for the year 2011 from the Spatial Data from the 2011 India Census data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425347-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-spatial-india-census-2011-census-ghsl-50pct-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-spatial-india-census-2011/india-spatial-india-census-2011-census-ghsl-50pct-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-spatial-india-census-2011-census-ghsl-50pct-shp.zip",
+      "description": "Census Designations of Settlement Type Combined with Global Human Settlement Layer (GHSL) Built-up Area Threshold of 50% data in Shapefile format for the year 2011 from the Spatial Data from the 2011 India Census data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425350-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-spatial-india-census-2011-census-ghsl-50pct-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/india-spatial-india-census-2011/india-spatial-india-census-2011-census-ghsl-50pct.pdf",
+      "type": "application/pdf",
+      "title": "india-spatial-india-census-2011-census-ghsl-50pct-shp.zip",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425350-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-spatial-india-census-2011-census-ghsl-50pct-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/india-spatial-india-census-2011/india-spatial-india-census-2011-census-ghsl-50pct.png",
+      "type": "image/png",
+      "title": "india-spatial-india-census-2011-census-ghsl-50pct-shp.zip",
+      "description": "India Urban Census Classes and GHSL Fifty Percent Built-up Land map for the year 2011 in PNG format from the Spatial Data from the 2011 India Census data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425350-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-spatial-india-census-2011-census-ghsl-50pct-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lulc/india-spatial-india-census-2011/india-spatial-india-census-2011-census-ghsl-50pct-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "india-spatial-india-census-2011-census-ghsl-50pct-shp.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "C3550192751-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425350-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "india-spatial-india-census-2011-area-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835841",
+      "type": "application/zip",
+      "title": "india-spatial-india-census-2011-area-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3742088,
+      "checksum:md5": "addc6070b5b5658ac710d291f10a1b9e",
+      "created": "2025-07-30T00:00:00Z",
+      "updated": "2025-09-09T18:44:35Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "11646317",
+      "ciesin:source_file_id": "11835841",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-spatial-india-census-2011-area-states-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835847",
+      "type": "application/zip",
+      "title": "india-spatial-india-census-2011-area-states-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 17973053,
+      "checksum:md5": "675e9f8632327285af47532ee1373a47",
+      "created": "2025-07-30T00:00:00Z",
+      "updated": "2025-09-09T18:44:35Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "11646317",
+      "ciesin:source_file_id": "11835847",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-spatial-india-census-2011-census-class-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835846",
+      "type": "application/zip",
+      "title": "india-spatial-india-census-2011-census-class-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 340915,
+      "checksum:md5": "74b662ad60c8756c30f2f3548e5cf75b",
+      "created": "2025-07-30T00:00:00Z",
+      "updated": "2025-09-09T18:44:35Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "11646317",
+      "ciesin:source_file_id": "11835846",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-spatial-india-census-2011-census-ghsl-1pct-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835842",
+      "type": "application/zipped-shapefile",
+      "title": "india-spatial-india-census-2011-census-ghsl-1pct-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 338691514,
+      "checksum:md5": "f7e357169b1bd644399ca4a9a8f5cb5f",
+      "created": "2025-07-30T00:00:00Z",
+      "updated": "2025-09-09T18:44:35Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "11646317",
+      "ciesin:source_file_id": "11835842",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-spatial-india-census-2011-census-ghsl-50pct-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835840",
+      "type": "application/zipped-shapefile",
+      "title": "india-spatial-india-census-2011-census-ghsl-50pct-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 133169441,
+      "checksum:md5": "4280367cbba30b7cc941962c8a613e3a",
+      "created": "2025-07-30T00:00:00Z",
+      "updated": "2025-09-09T18:44:35Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "11646317",
+      "ciesin:source_file_id": "11835840",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "india-spatial-india-census-2011-data-dictionary-xlsx-xlsx-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835844",
+      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "title": "india-spatial-india-census-2011-data-dictionary-xlsx.xlsx",
+      "roles": [
+        "data"
+      ],
+      "file:size": 22621,
+      "checksum:md5": "3bbe698395a4c81ce6c670e7f315ca40",
+      "created": "2025-07-30T00:00:00Z",
+      "updated": "2025-09-09T18:44:35Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "11646317",
+      "ciesin:source_file_id": "11835844",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
+    },
+    "india-spatial-india-census-2011-population-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835843",
+      "type": "application/zip",
+      "title": "india-spatial-india-census-2011-population-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16036617,
+      "checksum:md5": "4504d6727e961a006444c5db9ea3135e",
+      "created": "2025-07-30T00:00:00Z",
+      "updated": "2025-09-09T18:44:35Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "11646317",
+      "ciesin:source_file_id": "11835843",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-spatial-india-census-2011-population-states-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835845",
+      "type": "application/zip",
+      "title": "india-spatial-india-census-2011-population-states-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9254694,
+      "checksum:md5": "2e76dd1a43d056e16586fe3d01470bd9",
+      "created": "2025-07-30T00:00:00Z",
+      "updated": "2025-09-09T18:44:35Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/GYA1-WP91",
+      "ciesin:harvard_doi": "10.7910/DVN/OEYN3Z",
+      "ciesin:source_dataset_id": "11646317",
+      "ciesin:source_file_id": "11835845",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

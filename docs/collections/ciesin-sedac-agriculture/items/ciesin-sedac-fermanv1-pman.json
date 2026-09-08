@@ -1,0 +1,1025 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-fermanv1-pman",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production",
+    "description": "The Phosphorus in Manure Production data set of the Global Fertilizer and Manure, Version 1 Data Collection represents the amount of phosphorous in manure produced and present on the landscape. The manure production at grid cell level was computed based on livestock population and nutrient excretion rates. The livestock population per grid cell was computed by multiplying the density values from FAO Gridded Livestock of the World by the area of grid cell. Spatially explicit manure produced and present on landscape is derived by combining the number of livestock heads and the nutrient excretion rate. The data were compiled by Potter et al. (2010) and are distributed by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2012-02-21T00:00:00Z",
+    "start_datetime": "1994-01-01T00:00:00.000Z",
+    "end_datetime": "2001-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Africa",
+      "Agriculture",
+      "Animal Manure And Waste",
+      "Animal Science",
+      "Asia",
+      "Climate",
+      "Continent",
+      "EARTH SCIENCE > AGRICULTURE > ANIMAL SCIENCE > ANIMAL MANURE AND WASTE",
+      "Earth Science",
+      "Europe",
+      "Farming",
+      "Global",
+      "Land Use",
+      "North America",
+      "Oceania",
+      "South America",
+      "Sustainability"
+    ],
+    "sci:doi": "10.7927/H49Z92TD",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Agriculture, Climate, Land Use, Sustainability, Continent, Global, Farming, Earth Science, Animal Science, Animal Manure And Waste",
+    "ciesin:nasa_doi": "10.7927/H49Z92TD",
+    "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+    "ciesin:sedac_doi": "10.7927/H49Z92TD",
+    "ciesin:purpose": "To provide phosphorus in manure production data that can be used in socioeconomic and ecological modeling and to explore anthropogenic activities on ecosystems.",
+    "ciesin:data_format": "raster, map, map service; journal article",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\ferman-v1-phosphorus-in-manure-production.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H49Z92TD",
+      "type": "text/html",
+      "title": "H49Z92TD"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1175/2009EI288.1",
+      "type": "text/html",
+      "title": "2009EI288.1"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4Q81B0R",
+      "type": "text/html",
+      "title": "H4Q81B0R"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4KH0K81",
+      "type": "text/html",
+      "title": "H4KH0K81"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4FQ9TJR",
+      "type": "text/html",
+      "title": "H4FQ9TJR"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "phosphorus-in-manure-global-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ferman-v1-phosphorus-in-manure-production/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ferman-v1-phosphorus-in-manure-production/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ferman-v1-phosphorus-in-manure-production/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H49Z92TD",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-fermanv1-pman.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "phosphorus-manure-global-geotif-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-global-geotif.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-global-geotif.zip",
+      "description": "Global raster data in GeoTIFF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260329-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h49z92td": {
+      "href": "https://doi.org/10.7927/H49Z92TD",
+      "type": "application/octet-stream",
+      "title": "phosphorus-manure-global-geotif.zip",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260329-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-global.pdf",
+      "type": "application/pdf",
+      "title": "phosphorus-manure-global-geotif.zip",
+      "description": "Global map in PDF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260329-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-global.png",
+      "type": "image/png",
+      "title": "phosphorus-manure-global-geotif.zip",
+      "description": "Global map in PNG format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260329-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-global-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "phosphorus-manure-global-geotif.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260329-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "phosphorus-manure-africa-geotif-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-africa-geotif.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-africa-geotif.zip",
+      "description": "Africa raster data in GeoTIFF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260337-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-in-manure-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-africa.pdf",
+      "type": "application/pdf",
+      "title": "phosphorus-manure-africa-geotif.zip",
+      "description": "Africa map in PDF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260337-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-africa.png",
+      "type": "image/png",
+      "title": "phosphorus-manure-africa-geotif.zip",
+      "description": "Africa map in PNG format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260337-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-africa-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-africa-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "phosphorus-manure-africa-geotif.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260337-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "phosphorus-manure-asia-geotif-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-asia-geotif.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-asia-geotif.zip",
+      "description": "Asia raster data in GeoTIFF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260344-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-in-manure-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-asia.pdf",
+      "type": "application/pdf",
+      "title": "phosphorus-manure-asia-geotif.zip",
+      "description": "Asia map in PDF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260344-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-asia.png",
+      "type": "image/png",
+      "title": "phosphorus-manure-asia-geotif.zip",
+      "description": "Asia map in PNG format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260344-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-asia-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-asia-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "phosphorus-manure-asia-geotif.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260344-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "phosphorus-manure-europe-geotif-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-europe-geotif.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-europe-geotif.zip",
+      "description": "Europe raster data in GeoTIFF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260348-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-in-manure-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-europe.pdf",
+      "type": "application/pdf",
+      "title": "phosphorus-manure-europe-geotif.zip",
+      "description": "Europemap in PDF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260348-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-europe.png",
+      "type": "image/png",
+      "title": "phosphorus-manure-europe-geotif.zip",
+      "description": "Europemap in PNG format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260348-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-europe-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-europe-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "phosphorus-manure-europe-geotif.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260348-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "phosphorus-manure-namerica-geotif-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-namerica-geotif.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-namerica-geotif.zip",
+      "description": "North America raster data in GeoTIFF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260357-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-in-manure-namerica-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-namerica.pdf",
+      "type": "application/pdf",
+      "title": "phosphorus-manure-namerica-geotif.zip",
+      "description": "North America map in PDF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260357-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-namerica-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-namerica.png",
+      "type": "image/png",
+      "title": "phosphorus-manure-namerica-geotif.zip",
+      "description": "North America map in PNG format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260357-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-namerica-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-namerica-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "phosphorus-manure-namerica-geotif.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260357-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "phosphorus-manure-oceania-geotif-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-oceania-geotif.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-oceania-geotif.zip",
+      "description": "Oceania raster data in GeoTIFF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260365-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-in-manure-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-oceania.pdf",
+      "type": "application/pdf",
+      "title": "phosphorus-manure-oceania-geotif.zip",
+      "description": "Oceania map in PDF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260365-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-oceania.png",
+      "type": "image/png",
+      "title": "phosphorus-manure-oceania-geotif.zip",
+      "description": "Oceania map in PNG format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260365-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-oceania-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-oceania-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "phosphorus-manure-oceania-geotif.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260365-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "phosphorus-manure-samerica-geotif-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-samerica-geotif.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-samerica-geotif.zip",
+      "description": "South America raster data in GeoTIFF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260371-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-in-manure-samerica-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-samerica.pdf",
+      "type": "application/pdf",
+      "title": "phosphorus-manure-samerica-geotif.zip",
+      "description": "South America map in PDF format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260371-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-samerica-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-samerica.png",
+      "type": "image/png",
+      "title": "phosphorus-manure-samerica-geotif.zip",
+      "description": "South America map in PNG format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260371-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "phosphorus-in-manure-samerica-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ferman/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-samerica-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "phosphorus-manure-samerica-geotif.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260371-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "phosphorus-manure-global-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-global-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-global-grid.zip",
+      "description": "Global raster data in Grid format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260376-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-manure-africa-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-africa-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-africa-grid.zip",
+      "description": "Africa raster data in Grid format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260383-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-manure-asia-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-asia-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-asia-grid.zip",
+      "description": "Asia raster data in Grid format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260388-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-manure-europe-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-europe-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-europe-grid.zip",
+      "description": "Europe raster data in Grid format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260393-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-manure-namerica-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-namerica-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-namerica-grid.zip",
+      "description": "North America raster data in Grid format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260396-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-manure-oceania-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-oceania-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-oceania-grid.zip",
+      "description": "Oceania raster data in Grid format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260399-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-manure-samerica-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-manure-samerica-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "phosphorus-manure-samerica-grid.zip",
+      "description": "South America raster data in Grid format from the Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "C3550185791-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260401-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "phosphorus-manure-africa-geotif-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787230",
+      "type": "application/zip",
+      "title": "phosphorus-manure-africa-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 34960,
+      "checksum:md5": "88c224209ed445fc0e1adbedecdb27bd",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787230",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-africa-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787219",
+      "type": "application/zip",
+      "title": "phosphorus-manure-africa-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 50424,
+      "checksum:md5": "b4cc42aa788b735f6f1e2b6e9f7c496c",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787219",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-asia-geotif-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787228",
+      "type": "application/zip",
+      "title": "phosphorus-manure-asia-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 63915,
+      "checksum:md5": "51168623bf6497aa4717fbaea3cd872f",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787228",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-asia-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787221",
+      "type": "application/zip",
+      "title": "phosphorus-manure-asia-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 90246,
+      "checksum:md5": "022e0b30dcf0dd6bf5f09cc6e1c51a53",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787221",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-europe-geotif-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787218",
+      "type": "application/zip",
+      "title": "phosphorus-manure-europe-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 21947,
+      "checksum:md5": "46c64f78a772dee7eb237bdd4e1c3c88",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787218",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-europe-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787225",
+      "type": "application/zip",
+      "title": "phosphorus-manure-europe-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 31855,
+      "checksum:md5": "9e97f48cf3f9267d8ddae9dbddde1d11",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787225",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-global-geotif-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787224",
+      "type": "application/zip",
+      "title": "phosphorus-manure-global-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 155007,
+      "checksum:md5": "6ab4152c2ca6819bb68ca3d6f98c8ca1",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787224",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-global-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787227",
+      "type": "application/zip",
+      "title": "phosphorus-manure-global-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 159810,
+      "checksum:md5": "d7fc059dcc228b1b58732228f71dc99b",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787227",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-namerica-geotif-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787231",
+      "type": "application/zip",
+      "title": "phosphorus-manure-namerica-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37652,
+      "checksum:md5": "1dec7314d0084b8f68329640a231f227",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787231",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-namerica-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787229",
+      "type": "application/zip",
+      "title": "phosphorus-manure-namerica-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 54362,
+      "checksum:md5": "ba4958a30f3368a2f6420af0b9b4d099",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787229",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-oceania-geotif-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787226",
+      "type": "application/zip",
+      "title": "phosphorus-manure-oceania-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 25552,
+      "checksum:md5": "9edf3586d8b2027d815ab50fc1d12125",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787226",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-oceania-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787222",
+      "type": "application/zip",
+      "title": "phosphorus-manure-oceania-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37635,
+      "checksum:md5": "1e0d58972fd319538389237b2196044b",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787222",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-samerica-geotif-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787220",
+      "type": "application/zip",
+      "title": "phosphorus-manure-samerica-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 28119,
+      "checksum:md5": "c86e9cc63f6d26023d82b3234af40b85",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787220",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "phosphorus-manure-samerica-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11787223",
+      "type": "application/zip",
+      "title": "phosphorus-manure-samerica-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42058,
+      "checksum:md5": "238886feb19b6c5af81ac2e25117f808",
+      "created": "2025-07-16T00:00:00Z",
+      "updated": "2025-09-10T18:17:30Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H49Z92TD",
+      "ciesin:harvard_doi": "10.7910/DVN/P8MWOW",
+      "ciesin:source_dataset_id": "11646168",
+      "ciesin:source_file_id": "11787223",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

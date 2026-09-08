@@ -1,0 +1,3362 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-nagdc-placeiii",
+  "collection": "ciesin-sedac-climate",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          -58.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -58.0,
+    180.0,
+    85.0
+  ],
+  "properties": {
+    "title": "National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III)",
+    "description": "The National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set contains estimates of national-level aggregations in urban, rural, and total designations of territorial extent and population size by biome, climate zone, coastal proximity zone, elevation zone, and population density zone, for 232 statistical areas (countries and other UN recognized territories). This data set is produced by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2012-07-09T00:00:00Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Afghanistan",
+      "Albania",
+      "Algeria",
+      "American Samoa",
+      "Andorra",
+      "Angola",
+      "Anguilla",
+      "Antigua and Barbuda",
+      "Argentina",
+      "Armenia",
+      "Aruba",
+      "Australia",
+      "Austria",
+      "Azerbaijan",
+      "Bahamas",
+      "Bahrain",
+      "Bangladesh",
+      "Barbados",
+      "Belarus",
+      "Belgium",
+      "Belize",
+      "Benin",
+      "Bermuda",
+      "Bhutan",
+      "Bolivia",
+      "Bosnia and Herzegovina",
+      "Botswana",
+      "Boundaries",
+      "Brazil",
+      "British Virgin Islands",
+      "Brunei",
+      "Bulgaria",
+      "Burkina Faso",
+      "Burundi",
+      "Cambodia",
+      "Cameroon",
+      "Canada",
+      "Cape Verde",
+      "Cayman Islands",
+      "Central African Republic",
+      "Chad",
+      "Chile",
+      "China",
+      "Climate",
+      "Climatology/Meteorology/Atmosphere",
+      "Colombia",
+      "Comoros",
+      "Congo",
+      "Congo, Democratic",
+      "Continent",
+      "Cook Islands",
+      "Costa Rica",
+      "Cote D'Ivoire",
+      "Country",
+      "Croatia",
+      "Cuba",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "Djibouti",
+      "Dominica",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > BOUNDARIES",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "EARTH SCIENCE > LAND SURFACE > TOPOGRAPHY > TERRAIN ELEVATION",
+      "Earth Science",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Environment",
+      "Equatorial Guinea",
+      "Eritrea",
+      "Estonia",
+      "Ethiopia",
+      "Faeroe Islands",
+      "Falkland Islands",
+      "Fiji",
+      "Finland",
+      "France",
+      "French Guiana",
+      "French Polynesia",
+      "Gabon",
+      "Gambia",
+      "Georgia",
+      "Germany",
+      "Ghana",
+      "Gibraltar",
+      "Global",
+      "Greece",
+      "Greenland",
+      "Grenada",
+      "Guadeloupe",
+      "Guam",
+      "Guatemala",
+      "Guernsey",
+      "Guinea",
+      "Guinea-Bissau",
+      "Guyana",
+      "Haiti",
+      "Honduras",
+      "Hong Kong",
+      "Human Dimensions",
+      "Hungary",
+      "Iceland",
+      "Imagery/Base Maps/Earth Cover",
+      "India",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Ireland",
+      "Isle of Man",
+      "Israel",
+      "Italy",
+      "Jamaica",
+      "Japan",
+      "Jersey",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kiribati",
+      "Kuwait",
+      "Kyrgyzstan",
+      "Land Surface",
+      "Laos",
+      "Latvia",
+      "Lebanon",
+      "Lesotho",
+      "Liberia",
+      "Libya",
+      "Liechtenstein",
+      "Lithuania",
+      "Luxembourg",
+      "Macau",
+      "Macedonia",
+      "Madagascar",
+      "Malawi",
+      "Malaysia",
+      "Maldives",
+      "Mali",
+      "Malta",
+      "Marshall Islands",
+      "Martinique",
+      "Mauritania",
+      "Mauritius",
+      "Mayotte",
+      "Mexico",
+      "Micronesia",
+      "Moldova",
+      "Monaco",
+      "Mongolia",
+      "Montenegro",
+      "Montserrat",
+      "Morocco",
+      "Mozambique",
+      "Myanmar",
+      "Namibia",
+      "Nauru",
+      "Nepal",
+      "Netherlands",
+      "Netherlands Antilles",
+      "New Caledonia",
+      "New Zealand",
+      "Nicaragua",
+      "Niger",
+      "Nigeria",
+      "Niue",
+      "Norfolk Island",
+      "North Korea",
+      "Northern Mariana Islands",
+      "Norway",
+      "Oman",
+      "Pakistan",
+      "Palau",
+      "Palestine",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Pitcairn Islands",
+      "Poland",
+      "Population",
+      "Portugal",
+      "Puerto Rico",
+      "Qatar",
+      "Reunion",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "San Marino",
+      "Sao Tome and Principe",
+      "Saudi Arabia",
+      "Senegal",
+      "Serbia",
+      "Seychelles",
+      "Sierra Leone",
+      "Singapore",
+      "Slovakia",
+      "Slovenia",
+      "Society",
+      "Solomon Islands",
+      "Somalia",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sri Lanka",
+      "St Helena",
+      "St Kitts and Nevis",
+      "St Lucia",
+      "St Pierre and Miquelon",
+      "St Vincent and The Grenadines",
+      "Sudan",
+      "Suriname",
+      "Sustainability",
+      "Svalbard and Jan Mayen",
+      "Swaziland",
+      "Sweden",
+      "Switzerland",
+      "Syrian Arab Republic",
+      "Taiwan",
+      "Tajikistan",
+      "Tanzania",
+      "Terrain Elevation",
+      "Thailand",
+      "Timor-Leste",
+      "Togo",
+      "Tokelau",
+      "Tonga",
+      "Topography",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Turkmenistan",
+      "Turks and Caicos Islands",
+      "Tuvalu",
+      "US Virgin Islands",
+      "Uganda",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Uruguay",
+      "Uzbekistan",
+      "Vanuatu",
+      "Vatican City",
+      "Venezuela",
+      "Vietnam",
+      "Wallis and Futuna Islands",
+      "Western Samoa",
+      "Yemen",
+      "Yugoslavia",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "sci:doi": "10.7927/H4F769GP",
+    "ciesin:category": "Climate",
+    "ciesin:tags": "Climate, Population, Sustainability, Climatology/Meteorology/Atmosphere, Environment, Imagery/Base Maps/Earth Cover, Society, Global, Continent, Country, Earth Science, Human Dimensions, Boundaries, Land Surface, Topography, Terrain Elevation",
+    "ciesin:nasa_doi": "10.7927/H4F769GP",
+    "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+    "ciesin:sedac_doi": "10.7927/H4F769GP",
+    "ciesin:purpose": "To provide tabular data to researchers without GIS capabilities who need data on population and land area by country across a range of physical characteristics. These include measures such as the number of persons living within coastal zones, the percent of a region within specific elevation strata, or the number of persons living within different climate zones.",
+    "ciesin:data_format": "map, tabular, map service; tabular; map, tabular",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\nagdc-population-landscape-climate-estimates-v3.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4F769GP",
+      "type": "text/html",
+      "title": "H4F769GP"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4PN93H3",
+      "type": "text/html",
+      "title": "H4PN93H3"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4JW8BSC",
+      "type": "text/html",
+      "title": "H4JW8BSC"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "place3-biomes-global-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "http://sedac.ciesin.columbia.edu/data/set/nagdc-population-landscape-climate-estimates-v3/docs",
+      "type": "text/html",
+      "title": "docs"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/nagdc-population-landscape-climate-estimates-v3/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/nagdc-population-landscape-climate-estimates-v3/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/nagdc-population-landscape-climate-estimates-v3/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4F769GP",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-nagdc-placeiii.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "nagdc-population-landscape-and-climate-estimates-v3-csv-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/nagdc/nagdc-population-landscape-climate-estimates-v3/nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "type": "application/x-zip-compressed",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Tabular data in CSV format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4f769gp": {
+      "href": "https://doi.org/10.7927/H4F769GP",
+      "type": "application/octet-stream",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-africa.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa Biomes map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-asia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia Biomes map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-europe.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe Biomes map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-global.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global Biomes map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-north-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America Biomes map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-oceania.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania Biomes map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-south-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America Biomes map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-africa.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa A1F1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-asia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia A1F1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-europe.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe A1F1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-global.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global A1F1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-north-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America A1F1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-oceania.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania A1F1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-south-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America A1F1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-africa.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa A2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-asia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia A2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-europe.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe A2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-global.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global A2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-north-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America A2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-oceania.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania A2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-south-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America A2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-africa.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa B1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-asia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia B1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-europe.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe B1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-global.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global B1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-north-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America B1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-oceania.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania B1 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-south-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America A2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-africa.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa B2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-asia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia B2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-europe.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe B2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-global.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global B2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-north-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America B2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-oceania.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania B2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-south-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America A2 Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-africa.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa Climate Zones, Observed Climate Data map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-asia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia Observed Climate Data - Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-europe.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe Observed Climate Data - Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-global.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global Observed Climate Data - Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-north-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America Observed Climate Data - Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-oceania.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania Observed Climate Data - Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-south-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America Observed Climate Data - Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-africa.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa Coastal Proximity Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-asia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia Coastal Proximity Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-europe.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe Coastal Proximity Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-global.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global Coastal Proximity Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-north-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America Coastal Proximity Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-oceania.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania Coastal Proximity Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-south-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America Coastal Proximity Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-africa.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa Elevation Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-asia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia Elevation Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-europe.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe Elevation Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-global.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global Elevation Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-north-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America Elevation Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-oceania.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania Elevation Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-south-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America Elevation Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-grump-climatezones-tropical-a1f1-2010-americas-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-grump-climatezones-tropical-a1f1-2010-americas.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Central and South America 2010 Percent Population in Tropical Köppen Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-pctpop-elevationzones-2010-southernasia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-pctpop-elevationzones-2010-southernasia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Southern Asia 2010 Percent Population in Elevation Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-africa.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa 1990 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-asia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia 1990 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-europe.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe 1990 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-global.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global 1990 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-north-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America 1990 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-oceania.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania 1990 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-south-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America 1990 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-africa.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa 2000 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-asia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia 2000 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-europe.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe 2000 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-global.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global 2000 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-north-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America 2000 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-oceania.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania 2000 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-south-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America 2000 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-africa.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa 2010 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-asia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia 2010 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-europe.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe 2010 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-global.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global 2010 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-north-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America 2010 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-oceania.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania 2010 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-south-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America 2010 Population Density map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-biomes-1990-2010-bolivia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-biomes-1990-2010-bolivia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Bolivia 1990-2010 Trends in Population by Biome map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-mangroves-2010-southernasia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-mangroves-2010-southernasia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Southern Asia 2010 Population Density within Mangrove Biomes map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-ruralpop-climatezones-dry-1990-2010-iran-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-ruralpop-climatezones-dry-1990-2010-iran.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Iran Comparing Rural Populations in Dry Climate Zones map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-africa.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa Urban Extents map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-asia.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia Urban Extents map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-europe.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe Urban Extents map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-global.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global Urban Extents map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-north-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America Urban Extents map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-oceania.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania Urban Extents map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-south-america.pdf",
+      "type": "application/pdf",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America Urban Extents map in PDF format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-africa.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa Biomes map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-asia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia Biomes map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-europe.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe Biomes map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-global.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global Biomes map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-north-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America Biomes map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-oceania.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania Biomes map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-biomes-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-biomes-south-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America Biomes map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-africa.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa A1F1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-asia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia A1F1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-europe.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe A1F1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-global.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global A1F1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-north-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America A1F1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-oceania.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania A1F1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a1f1-2001-2025-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a1f1-2001-2025-south-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America A1F1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-africa.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa A2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-asia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia A2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-europe.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe A2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-global.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global A2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-north-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America A2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-oceania.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania A2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-a2-2001-2025-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-a2-2001-2025-south-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America A2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-africa.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa B1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-asia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia B1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-europe.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe B1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-global.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global B1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-north-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America B1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-oceania.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania B1 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b1-2001-2025-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b1-2001-2025-south-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America A2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-africa.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa B2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-asia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia B2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-europe.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe B2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-global.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global B2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-north-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America B2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-oceania.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania B2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-b2-2001-2025-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-b2-2001-2025-south-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America A2 Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-africa.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa Climate Zones, Observed Climate Data map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-asia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia Observed Climate Data - Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-europe.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe Observed Climate Data - Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-global.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global Observed Climate Data - Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-north-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America Observed Climate Data - Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-oceania.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania Observed Climate Data - Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-climatezones-obs-1976-2000-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-climatezones-obs-1976-2000-south-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America Observed Climate Data - Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-africa.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa Coastal Proximity Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-asia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia Coastal Proximity Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-europe.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe Coastal Proximity Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-global.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global Coastal Proximity Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-north-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America Coastal Proximity Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-oceania.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania Coastal Proximity Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-coastalzones-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-coastalzones-south-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America Coastal Proximity Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-africa.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa Elevation Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-asia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia Elevation Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-europe.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe Elevation Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-global.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global Elevation Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-north-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America Elevation Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-oceania.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania Elevation Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-elevationzones-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-elevationzones-south-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America Elevation Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-grump-climatezones-tropical-a1f1-2010-americas-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-grump-climatezones-tropical-a1f1-2010-americas.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Central and South America 2010 Percent Population in Tropical Köppen Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-pctpop-elevationzones-2010-southernasia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-pctpop-elevationzones-2010-southernasia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Southern Asia 2010 Percent Population in Elevation Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-africa.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa 1990 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-asia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia 1990 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-europe.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe 1990 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-global.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global 1990 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-north-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America 1990 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-oceania.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania 1990 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-1990-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-1990-south-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America 1990 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-africa.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa 2000 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-asia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia 2000 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-europe.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe 2000 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-global.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global 2000 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-north-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America 2000 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-oceania.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania 2000 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2000-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2000-south-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America 2000 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-africa.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa 2010 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-asia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia 2010 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-europe.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe 2010 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-global.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global 2010 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-north-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America 2010 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-oceania.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania 2010 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-2010-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-2010-south-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America 2010 Population Density map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-biomes-1990-2010-bolivia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-biomes-1990-2010-bolivia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Bolivia 1990-2010 Trends in Population by Biome map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-popdens-mangroves-2010-southernasia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-popdens-mangroves-2010-southernasia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Southern Asia 2010 Population Density within Mangrove Biomes map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-ruralpop-climatezones-dry-1990-2010-iran-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-ruralpop-climatezones-dry-1990-2010-iran.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Iran Comparing Rural Populations in Dry Climate Zones map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-africa.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Africa Urban Extents map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-asia.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Asia Urban Extents map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-europe.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Europe Urban Extents map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-global.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global Urban Extents map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-north-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "North America Urban Extents map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-oceania.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Oceania Urban Extents map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "place3-urbanextent-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/nagdc/nagdc-population-landscape-climate-estimates-v3/place3-urbanextent-south-america.png",
+      "type": "image/png",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "South America Urban Extents map in PNG format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "services": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/data/set/nagdc-population-landscape-climate-estimates-v3/maps/services",
+      "type": "application/octet-stream",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "description": "Global Population in Proximity to Coast (%) map layer from National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "service"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504050-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "nagdc-population-landscape-and-climate-estimates-v3-xlsm-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/nagdc/nagdc-population-landscape-climate-estimates-v3/nagdc-population-landscape-and-climate-estimates-v3-xlsm.zip",
+      "type": "application/x-zip-compressed",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-xlsm.zip",
+      "description": "Tabular data in Excel format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates, Version 3 (PLACE III) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "C3551683602-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553504094-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "nagdc-population-landscape-and-climate-estimates-v3-csv-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815655",
+      "type": "application/zip",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-csv.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4587268,
+      "checksum:md5": "aad89c446435cbdb7e48a86b50760c8e",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T17:39:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "11646286",
+      "ciesin:source_file_id": "11815655",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "nagdc-population-landscape-and-climate-estimates-v3-xlsm-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815656",
+      "type": "application/zip",
+      "title": "nagdc-population-landscape-and-climate-estimates-v3-xlsm.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 29698277,
+      "checksum:md5": "12ee2392bb32efb21ca7d2a18f87322b",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T17:39:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4F769GP",
+      "ciesin:harvard_doi": "10.7910/DVN/E1PWNN",
+      "ciesin:source_dataset_id": "11646286",
+      "ciesin:source_file_id": "11815656",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "2024-environmental-performance-index-epi",
+  "collection": "ciesin-sedac-uncategorized",
+  "geometry": null,
+  "properties": {
+    "title": "2024 Environmental Performance Index (EPI)",
+    "description": "The 2024 Environmental Performance Index (EPI) provides a data-driven summary of the state of sustainability around the world. Using 58 performance indicators across 11 issue categories, the EPI ranks 180 countries on climate change performance, environmental health, and ecosystem vitality. These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future.",
+    "datetime": "2026-07-26T00:00:00Z",
+    "license": "other",
+    "sci:doi": "10.7910/DVN/ZLAHG0",
+    "ciesin:category": "Uncategorized",
+    "ciesin:harvard_doi": "10.7910/DVN/ZLAHG0",
+    "ciesin:sedac_doi": "10.7910/DVN/ZLAHG0",
+    "ciesin:field_count": 0,
+    "ciesin:item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
+    "ciesin:xml_found": "no",
+    "ciesin:source_match_status": "nasa_missing;harvard_found"
+  },
+  "links": [
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/ZLAHG0",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./2024-environmental-performance-index-epi.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "2024-epi-country-attributes-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14118344",
+      "type": "text/tab-separated-values",
+      "title": "2024-epi-country-attributes.tab",
+      "roles": [
+        "data"
+      ],
+      "file:size": 24411,
+      "checksum:md5": "b88b5a4b67b92ddbfe6ba515e6bdb04a",
+      "created": "2026-08-03T00:00:00Z",
+      "updated": "2026-08-03T17:40:06Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/ZLAHG0",
+      "ciesin:source_dataset_id": "14094606",
+      "ciesin:source_file_id": "14118344",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "2024-epi-indicators-time-series-20240827-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14094613",
+      "type": "application/zip",
+      "title": "2024-epi-indicators-time-series_20240827.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 613724,
+      "checksum:md5": "bf483bcb031cc24fb4f5f262b3474a2c",
+      "created": "2026-07-24T00:00:00Z",
+      "updated": "2026-08-03T17:40:06Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/ZLAHG0",
+      "ciesin:source_dataset_id": "14094606",
+      "ciesin:source_file_id": "14094613",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "2024-epi-policymakers-summary-20240917-pdf": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14094609",
+      "type": "application/pdf",
+      "title": "2024-epi-policymakers-summary_20240917.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13500730,
+      "checksum:md5": "d0d1ce19849233882bf672ccbf611b17",
+      "created": "2026-07-24T00:00:00Z",
+      "updated": "2026-08-03T17:40:06Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/ZLAHG0",
+      "ciesin:source_dataset_id": "14094606",
+      "ciesin:source_file_id": "14094609",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2024-epi-raw-data-time-series-na-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14094610",
+      "type": "application/zip",
+      "title": "2024-epi-raw-data-time-series-na.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5088190,
+      "checksum:md5": "330cd2448a93e22a1b38c0dcde64dfa9",
+      "created": "2026-07-24T00:00:00Z",
+      "updated": "2026-08-03T17:40:06Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/ZLAHG0",
+      "ciesin:source_dataset_id": "14094606",
+      "ciesin:source_file_id": "14094610",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "2024-epi-raw-data-time-series-zip": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14094608",
+      "type": "application/zip",
+      "title": "2024-epi-raw-data-time-series.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4886881,
+      "checksum:md5": "a18a022b77aa3f6f1efd7fae123fa262",
+      "created": "2026-07-24T00:00:00Z",
+      "updated": "2026-08-03T17:40:06Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/ZLAHG0",
+      "ciesin:source_dataset_id": "14094606",
+      "ciesin:source_file_id": "14094608",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "2024-epi-report-20250106-pdf": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14094612",
+      "type": "application/pdf",
+      "title": "2024-epi-report_20250106.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 51380348,
+      "checksum:md5": "8122bc86941ae128e8315209a637ce4a",
+      "created": "2026-07-24T00:00:00Z",
+      "updated": "2026-08-03T17:40:06Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/ZLAHG0",
+      "ciesin:source_dataset_id": "14094606",
+      "ciesin:source_file_id": "14094612",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2024-epi-results-20250316-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14094607",
+      "type": "text/tab-separated-values",
+      "title": "2024-epi-results_20250316.tab",
+      "roles": [
+        "data"
+      ],
+      "file:size": 118964,
+      "checksum:md5": "688e7ee38f02d7698e3f299a40ef3fc0",
+      "created": "2026-07-24T00:00:00Z",
+      "updated": "2026-08-03T17:40:06Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/ZLAHG0",
+      "ciesin:source_dataset_id": "14094606",
+      "ciesin:source_file_id": "14094607",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "2024-epi-targets-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14118345",
+      "type": "text/tab-separated-values",
+      "title": "2024-epi-targets.tab",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2766,
+      "checksum:md5": "6ba1329d445d1a432d253916c0d09271",
+      "created": "2026-08-03T00:00:00Z",
+      "updated": "2026-08-03T17:40:06Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/ZLAHG0",
+      "ciesin:source_dataset_id": "14094606",
+      "ciesin:source_file_id": "14118345",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    },
+    "2024-epi-technical-appendix-20241207-pdf": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14094611",
+      "type": "application/pdf",
+      "title": "2024-epi-technical-appendix_20241207.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1211770,
+      "checksum:md5": "ce2844d65301151dc95adb418f3a2ca9",
+      "created": "2026-07-24T00:00:00Z",
+      "updated": "2026-08-03T17:40:06Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/ZLAHG0",
+      "ciesin:source_dataset_id": "14094606",
+      "ciesin:source_file_id": "14094611",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2024-epi-variables-csv": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14118343",
+      "type": "text/csv",
+      "title": "2024-epi-variables.csv",
+      "roles": [
+        "data"
+      ],
+      "file:size": 34043,
+      "checksum:md5": "e5b9cc2c923405c46a12535498bd6f7c",
+      "created": "2026-08-03T00:00:00Z",
+      "updated": "2026-08-03T17:40:06Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/ZLAHG0",
+      "ciesin:source_dataset_id": "14094606",
+      "ciesin:source_file_id": "14118343",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Comma Separated Values"
+    },
+    "2024-epi-weights-20241007-tab": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14118346",
+      "type": "text/tab-separated-values",
+      "title": "2024-epi-weights_20241007.tab",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7706,
+      "checksum:md5": "1dc56df5b2ad825de188cc43ce016707",
+      "created": "2026-08-03T00:00:00Z",
+      "updated": "2026-08-03T17:40:06Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:harvard_doi": "10.7910/DVN/ZLAHG0",
+      "ciesin:source_dataset_id": "14094606",
+      "ciesin:source_file_id": "14118346",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Tab-Delimited"
+    }
+  }
+}

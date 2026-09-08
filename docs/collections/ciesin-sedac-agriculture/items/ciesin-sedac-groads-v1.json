@@ -1,0 +1,918 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-groads-v1",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -55.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -55.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Global Roads Open Access Data Set, Version 1 (gROADSv1)",
+    "description": "The Global Roads Open Access Data Set, Version 1 (gROADSv1) was developed under the auspices of the CODATA Global Roads Data Development Task Group. The data set combines the best available roads data by country into a global roads coverage, using the UN Spatial Data Infrastructure Transport (UNSDI-T) version 2 as a common data model. All country road networks have been joined topologically at the borders, and many countries have been edited for internal topology. Source data for each country are provided in the documentation, and users are encouraged to refer to the readme file for use constraints that apply to a small number of countries. Because the data are compiled from multiple sources, the date range for road network representations ranges from the 1980s to 2010 depending on the country (most countries have no confirmed date), and spatial accuracy varies. The baseline global data set was compiled by the Information Technology Outreach Services (ITOS) of the University of Georgia. Updated data for 27 countries and 6 smaller geographic entities were assembled by Columbia University's Center for International Earth Science Information Network (CIESIN), with a focus largely on developing countries with the poorest data coverage.",
+    "datetime": "2013-05-16T00:00:00Z",
+    "start_datetime": "1980-01-01T00:00:00.000Z",
+    "end_datetime": "2010-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Africa",
+      "Agriculture",
+      "Asia",
+      "Conservation",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > INFRASTRUCTURE",
+      "Earth Science",
+      "Europe",
+      "Geoscientific Information",
+      "Hazards",
+      "Human Dimensions",
+      "Infrastructure",
+      "North America",
+      "Oceania",
+      "Poverty",
+      "South America",
+      "Urban"
+    ],
+    "sci:doi": "10.7927/H4VD6WCT",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Agriculture, Conservation, Hazards, Infrastructure, Poverty, Urban, Country, Geoscientific Information, Earth Science, Human Dimensions",
+    "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+    "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+    "ciesin:sedac_doi": "10.7927/H4VD6WCT",
+    "ciesin:purpose": "To provide an open access, well documented global data set of roads between settlements using a consistent data model (UNSDI-T v.2) which is, to the extent possible, topologically integrated.",
+    "ciesin:data_format": "file geodatabase, vector; tabular",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\groads-global-roads-open-access-v1.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4VD6WCT",
+      "type": "text/html",
+      "title": "H4VD6WCT"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4X63JTX",
+      "type": "text/html",
+      "title": "H4X63JTX"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "groads-v1-global-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/groads-global-roads-open-access-v1/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/groads-global-roads-open-access-v1/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4VD6WCT",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-groads-v1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "groads-v1-global-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-global-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-global-gdb.zip",
+      "description": "Global data in Geodatabase format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197960-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4vd6wct": {
+      "href": "https://doi.org/10.7927/H4VD6WCT",
+      "type": "application/octet-stream",
+      "title": "groads-v1-global-gdb.zip",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197960-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-global.pdf",
+      "type": "application/pdf",
+      "title": "groads-v1-global-gdb.zip",
+      "description": "Global map in PDF format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197960-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-global.png",
+      "type": "image/png",
+      "title": "groads-v1-global-gdb.zip",
+      "description": "Global map in PNG format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197960-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-global-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "groads-v1-global-gdb.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197960-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "groads-v1-africa-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-africa-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-africa-gdb.zip",
+      "description": "Africa data in Geodatabase format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197965-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "groads-v1-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-africa.pdf",
+      "type": "application/pdf",
+      "title": "groads-v1-africa-gdb.zip",
+      "description": "Africa map in PDF format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197965-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-africa.png",
+      "type": "image/png",
+      "title": "groads-v1-africa-gdb.zip",
+      "description": "Africa map in PNG format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197965-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-africa-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-africa-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "groads-v1-africa-gdb.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197965-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "groads-v1-asia-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-asia-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-asia-gdb.zip",
+      "description": "Asia data in Geodatabase format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197971-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "groads-v1-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-asia.pdf",
+      "type": "application/pdf",
+      "title": "groads-v1-asia-gdb.zip",
+      "description": "Asia map in PDF format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197971-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-asia.png",
+      "type": "image/png",
+      "title": "groads-v1-asia-gdb.zip",
+      "description": "Asia map in PNG format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197971-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-asia-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-asia-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "groads-v1-asia-gdb.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197971-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "groads-v1-americas-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-americas-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-americas-gdb.zip",
+      "description": "Americas data in Geodatabase format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197972-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "groads-v1-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-north-america.pdf",
+      "type": "application/pdf",
+      "title": "groads-v1-americas-gdb.zip",
+      "description": "North America map in PDF format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197972-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-north-america.png",
+      "type": "image/png",
+      "title": "groads-v1-americas-gdb.zip",
+      "description": "North America map in PNG format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197972-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-north-america-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-north-america-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "groads-v1-americas-gdb.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197972-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "groads-v1-oceania-east-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-oceania-east-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-oceania-east-gdb.zip",
+      "description": "Oceania East data in Geodatabase format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197975-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "groads-v1-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-oceania.pdf",
+      "type": "application/pdf",
+      "title": "groads-v1-oceania-east-gdb.zip",
+      "description": "Oceania map in PDF format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197975-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-oceania.png",
+      "type": "image/png",
+      "title": "groads-v1-oceania-east-gdb.zip",
+      "description": "Oceania map in PNG format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197975-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-oceania-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-oceania-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "groads-v1-oceania-east-gdb.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197975-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "groads-v1-oceania-west-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-oceania-west-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-oceania-west-gdb.zip",
+      "description": "Oceania West data in Geodatabase format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197978-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "groads-v1-africa-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-africa-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-africa-shp.zip",
+      "description": "Africa data in Shapefile format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197981-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "groads-v1-asia-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-asia-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-asia-shp.zip",
+      "description": "Asia data in Shapefile format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197982-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "groads-v1-europe-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-europe-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-europe-shp.zip",
+      "description": "Europe data in Shapefile format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197984-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "groads-v1-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-europe.pdf",
+      "type": "application/pdf",
+      "title": "groads-v1-europe-shp.zip",
+      "description": "Europemap in PDF format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197984-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-europe.png",
+      "type": "image/png",
+      "title": "groads-v1-europe-shp.zip",
+      "description": "Europemap in PNG format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197984-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "groads-v1-europe-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/groads/groads-global-roads-open-access-v1/groads-v1-europe-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "groads-v1-europe-shp.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197984-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "groads-v1-americas-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-americas-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-americas-shp.zip",
+      "description": "Americas data in Shapefile format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197985-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "groads-v1-oceania-east-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-oceania-east-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-oceania-east-shp.zip",
+      "description": "Oceania data in Shapefile format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197987-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "groads-v1-oceania-west-shp-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-oceania-west-shp.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-oceania-west-shp.zip",
+      "description": "South America data in Shapefile format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550197989-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "groads-v1-europe-gdb-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/groads/groads-global-roads-open-access-v1/groads-v1-europe-gdb.zip",
+      "type": "application/x-zip-compressed",
+      "title": "groads-v1-europe-gdb.zip",
+      "description": "Europe data in Geodatabase format from the Global Roads Open Access Data Set, Version 1 (gROADSv1) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "C3550192909-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550200159-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "groads-v1-africa-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808621",
+      "type": "application/zip",
+      "title": "groads-v1-africa-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 96396918,
+      "checksum:md5": "fbfaafaf9418cd42797e27e3df20b458",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808621",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "groads-v1-africa-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808626",
+      "type": "application/zipped-shapefile",
+      "title": "groads-v1-africa-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 216343062,
+      "checksum:md5": "3eb2734207652e23c0aca145ca431863",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808626",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "groads-v1-americas-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808627",
+      "type": "application/zip",
+      "title": "groads-v1-americas-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 50470644,
+      "checksum:md5": "2b3cf337ca35bb9dee8c5abe76fef13a",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808627",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "groads-v1-americas-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808625",
+      "type": "application/zipped-shapefile",
+      "title": "groads-v1-americas-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 65052640,
+      "checksum:md5": "b6423d5586cffb645795a67d6710e2a4",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808625",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "groads-v1-asia-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808631",
+      "type": "application/zip",
+      "title": "groads-v1-asia-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 90906891,
+      "checksum:md5": "63aac6461b61f3349c5b8abb7bdeefec",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808631",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "groads-v1-asia-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808624",
+      "type": "application/zipped-shapefile",
+      "title": "groads-v1-asia-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 203249579,
+      "checksum:md5": "dfb09d9053e459259904cfd869051761",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808624",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "groads-v1-europe-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808632",
+      "type": "application/zip",
+      "title": "groads-v1-europe-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 56568098,
+      "checksum:md5": "23c9a53db2931716e5641990063e4896",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808632",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "groads-v1-europe-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808628",
+      "type": "application/zipped-shapefile",
+      "title": "groads-v1-europe-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 85883714,
+      "checksum:md5": "73f32305619625a6aa528f3ae5fd9ea2",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808628",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "groads-v1-global-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808630",
+      "type": "application/zip",
+      "title": "groads-v1-global-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 205664870,
+      "checksum:md5": "9067d412e5b658030d88209d40b8edfc",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808630",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "groads-v1-oceania-east-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808629",
+      "type": "application/zip",
+      "title": "groads-v1-oceania-east-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10002189,
+      "checksum:md5": "486227fe8d7994840e281771fc6a0ecc",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808629",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "groads-v1-oceania-east-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808633",
+      "type": "application/zipped-shapefile",
+      "title": "groads-v1-oceania-east-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14235506,
+      "checksum:md5": "2b4a9ffe18d8cf5b5f36691e476bf9bc",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808633",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    },
+    "groads-v1-oceania-west-gdb-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808622",
+      "type": "application/zip",
+      "title": "groads-v1-oceania-west-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 435150,
+      "checksum:md5": "0821ee563ab11886be7ce3997cdbfa83",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808622",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "groads-v1-oceania-west-shp-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808623",
+      "type": "application/zipped-shapefile",
+      "title": "groads-v1-oceania-west-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 429807,
+      "checksum:md5": "64b4c17b3efbaf66dcd94e7332225548",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-09T19:52:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4VD6WCT",
+      "ciesin:harvard_doi": "10.7910/DVN/NEXOVP",
+      "ciesin:source_dataset_id": "11646200",
+      "ciesin:source_file_id": "11808623",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    }
+  }
+}

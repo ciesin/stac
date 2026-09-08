@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-sustainability",
+  "title": "CIESIN SEDAC - Sustainability",
+  "description": "CIESIN SEDAC datasets categorized as Sustainability.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2002-12-31T00:00:00Z",
+          "2023-09-05T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-cesic-2006nfa.json",
+      "type": "application/geo+json",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: 2006 National Footprint Accounts (NFA)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-cesic-anc.json",
+      "type": "application/geo+json",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: Ancillary Data"
+    },
+    {
+      "rel": "item",
+      "href": "./items/compendium-of-environmental-sustainability-indicator-collections-rio-to-johannesburg-dashboard-o.json",
+      "type": "application/geo+json",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: Rio to Johannesburg Dashboard of Sustainable Indicators"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdgi-uapt-2023.json",
+      "type": "application/geo+json",
+      "title": "SDG Indicator 11.2.1: Urban Access to Public Transport, 2023 Release"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdgi-upsae-2023.json",
+      "type": "application/geo+json",
+      "title": "SDG Indicator 11.7.1: Urban Public Space, Availability and Access, 2023 Release"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdgi-accelec-2023.json",
+      "type": "application/geo+json",
+      "title": "SDG Indicator 7.1.1: Access to Electricity, 2023 Release"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-sdgi-rai-2023.json",
+      "type": "application/geo+json",
+      "title": "SDG Indicator 9.1.1: Rural Access Index (RAI), 2023 Release"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-water-wsim-gldas-v1.json",
+      "type": "application/geo+json",
+      "title": "Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1"
+    }
+  ]
+}

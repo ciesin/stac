@@ -1,0 +1,130 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-boundaries",
+  "title": "CIESIN SEDAC - Boundaries",
+  "description": "CIESIN SEDAC datasets categorized as Boundaries.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -58.0,
+          180.0,
+          85.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1996-05-31T00:00:00Z",
+          "2026-04-13T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-acrp-1990-pbf.json",
+      "type": "application/geo+json",
+      "title": "Archive of Census Related Products (ACRP): 1990 Public Use Microdata Sample Areas (PUMA) Boundary Files"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-cd-bib-adm-geog.json",
+      "type": "application/geo+json",
+      "title": "China Dimensions Data Collection: Bibliography of Chinese Administrative Geography"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-cd-adm-gis-jul90.json",
+      "type": "application/geo+json",
+      "title": "China Dimensions Data Collection: China Administrative Regions GIS Data: 1:1M, County Level, 1 July 1990"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-cd-adm-gis-1990.json",
+      "type": "application/geo+json",
+      "title": "China Dimensions Data Collection: China Administrative Regions GIS Data: 1:1M, County Level, 1990"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-cd-cty-econ-yrbk.json",
+      "type": "application/geo+json",
+      "title": "China Dimensions Data Collection: China County-Level Data from Provincial Economic Yearbooks, Keyed to 1:1M GIS Map"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-cd-gbcodes.json",
+      "type": "application/geo+json",
+      "title": "China Dimensions Data Collection: GuoBiao (GB) Codes for the Administrative Divisions of the Peoples Republic of China"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---health-areas-v8.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Areas v8.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---health-areas-v9.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Areas v9.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---health-zones-v8.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Zones v8.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---health-zones-v9.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Zones v9.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-nga---operational-wards-v2.0.json",
+      "type": "application/geo+json",
+      "title": "GRID3 NGA - Operational Wards v2.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv3-centroids.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 3 (GPWv3): Centroids"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv3-nadminbnd.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 3 (GPWv3): National Administrative Boundaries"
+    },
+    {
+      "rel": "item",
+      "href": "./items/ciesin-sedac-gpwv3-subadbnd.json",
+      "type": "application/geo+json",
+      "title": "Gridded Population of the World, Version 3 (GPWv3): Subnational Administrative Boundaries"
+    }
+  ]
+}

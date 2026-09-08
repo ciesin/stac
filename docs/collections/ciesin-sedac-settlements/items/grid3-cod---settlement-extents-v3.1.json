@@ -1,0 +1,308 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "grid3-cod---settlement-extents-v3.1",
+  "collection": "ciesin-sedac-settlements",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          12.202409,
+          -13.444257
+        ],
+        [
+          31.275922,
+          -13.444257
+        ],
+        [
+          31.275922,
+          5.250091
+        ],
+        [
+          12.202409,
+          5.250091
+        ],
+        [
+          12.202409,
+          -13.444257
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    12.202409,
+    -13.444257,
+    31.275922,
+    5.250091
+  ],
+  "properties": {
+    "title": "GRID3 COD - Settlement Extents v3.1",
+    "description": "The current version supersedes GRID3 COD - Settlement Extents v3.0 ; the following changes were made: Corrections on imputed values for building count and building areas. Corrections on probability values from field-collected data Edits in the Data Release Notes The two layers contained within the GRID3 COD - Settlement Extents v3.1 include: GRID3_COD_settlement_extents_v3_1.gpkg : a spatial layer representing settlement polygons. GRID3_COD_settlement_grid_v3_1.gpkg : a spatial layer representing the centroids of settled grid cells. For more information on data inputs, methodology, and codebooks please see the Data Release Notes . Recommended Citation: Center for International Earth Science Information Network (CIESIN), Columbia University. 2024. GRID3 COD - Settlement Extents v3.1. New York: GRID3. https://doi.org/10.7916/d6gy-yh28. Accessed [DAY MONTH YEAR]. Terms of use: Users are free to download, store, access, use, copy, adapt, transform, alter, arrange, build upon, distribute and transmit this work and any derivative works. Attribution of the source must be provided, and further distribution of this work or derived work must maintain the same terms of data use and license as set forth in this Terms of Use. Copyright 2024. The Trustees of Columbia University in the City of New York. Data license: The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (https://creativecommons.org/licenses/by-sa/4.0/legalcode) Contacts and data queries: The authors of this dataset appreciate feedback regarding the data, including suggestions, discovery of errors, difficulties in using the data, and format preferences. For dataset-related questions, please send an email to: info@ciesin.columbia.edu",
+    "license": "CC-BY-SA-4.0",
+    "keywords": [
+      "COD",
+      "Democratic Republic of the Congo",
+      "GRID3",
+      "Settlement Extents",
+      "Settlements",
+      "settlement extents"
+    ],
+    "sci:doi": "10.7916/d6gy-yh28",
+    "sci:citation": "Dataset citation: Center for International Earth Science Information Network (CIESIN), Columbia University. 2024. GRID3 COD - Settlement Extents v3.1. New York: GRID3. . Accessed [DAY MONTH YEAR].",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": "GRID3",
+    "ciesin:sedac_doi": "10.7916/d6gy-yh28",
+    "ciesin:purpose": "The GRID3 COD - Settlement Extents v3.1 consists of a geographic representation of settlements in the Democratic Republic of the Congo, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Data inputs and methodology are described in the data release notes.",
+    "ciesin:supplemental_info": "See Data Release Notes (PDF) for more information",
+    "ciesin:data_format": "File Geodatabase Feature Class",
+    "ciesin:feature_count": 572537,
+    "ciesin:field_count": 13,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN)",
+      "info@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\GRID3 COD - Settlement Extents v3.1.xml",
+    "ciesin:field_schema": [
+      {
+        "attalias": "OBJECTID",
+        "attrdef": "Internal feature number.",
+        "attrdefs": "Esri",
+        "attrlabl": "OBJECTID",
+        "attrtype": "OID",
+        "attwidth": "4"
+      },
+      {
+        "attalias": "Shape",
+        "attrdef": "Feature geometry.",
+        "attrdefs": "Esri",
+        "attrlabl": "Shape",
+        "attrtype": "Geometry",
+        "attwidth": "0"
+      },
+      {
+        "attalias": "Shape_Length",
+        "attrdef": "Length of feature in internal units.",
+        "attrdefs": "Esri",
+        "attrlabl": "Shape_Length",
+        "attrtype": "Double",
+        "attwidth": "8"
+      },
+      {
+        "attalias": "Shape_Area",
+        "attrdef": "Area of feature in internal units squared.",
+        "attrdefs": "Esri",
+        "attrlabl": "Shape_Area",
+        "attrtype": "Double",
+        "attwidth": "8"
+      },
+      {
+        "attalias": "country",
+        "attrlabl": "country",
+        "attrtype": "String",
+        "attwidth": "32"
+      },
+      {
+        "attalias": "iso3",
+        "attrlabl": "iso3",
+        "attrtype": "String",
+        "attwidth": "3"
+      },
+      {
+        "attalias": "building_count",
+        "attrlabl": "building_count",
+        "attrtype": "Integer",
+        "attwidth": "4"
+      },
+      {
+        "attalias": "building_area",
+        "attrlabl": "building_area",
+        "attrtype": "Double",
+        "attwidth": "8"
+      },
+      {
+        "attalias": "type",
+        "attrlabl": "type",
+        "attrtype": "String",
+        "attwidth": "21"
+      },
+      {
+        "attalias": "probability",
+        "attrlabl": "probability",
+        "attrtype": "Double",
+        "attwidth": "8"
+      },
+      {
+        "attalias": "date",
+        "attrlabl": "date",
+        "attrtype": "String",
+        "attwidth": "4"
+      },
+      {
+        "attalias": "source",
+        "attrlabl": "source",
+        "attrtype": "String",
+        "attwidth": "6"
+      },
+      {
+        "attalias": "mgrs_code",
+        "attrlabl": "mgrs_code",
+        "attrtype": "String",
+        "attwidth": "12"
+      }
+    ],
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "http://www.w3.org/2001/XMLSchema-instance",
+      "type": "text/html",
+      "title": "XMLSchema-instance"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.w3.org/2001/XMLSchema",
+      "type": "text/html",
+      "title": "XMLSchema"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.esri.com/schemas/ArcGIS/3.1.0",
+      "type": "text/html",
+      "title": "3.1.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7916/4wqv-5t02",
+      "type": "text/html",
+      "title": "4wqv-5t02"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7916/d6gy-yh28",
+      "type": "text/html",
+      "title": "d6gy-yh28"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by-sa/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "type": "text/html",
+      "title": "legalcode"
+    },
+    {
+      "rel": "related",
+      "href": "http://creativecommons.org/licenses/by-sa/4.0/legalcode",
+      "type": "text/html",
+      "title": "legalcode"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/56kx-3134/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/hfsf-0111/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/1zkm-be17/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d6gy-yh28",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./grid3-cod---settlement-extents-v3.1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "download-1": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/1zkm-be17/download",
+      "type": "application/octet-stream",
+      "title": "GRID3 COD - Settlement Extents v3.1 - Data Release Notes .pdf",
+      "description": "GRID3 COD - Settlement Extents v3.1 - Data Release Notes .pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 17616077,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/D6GY-YH28",
+      "ciesin:ac_doi": "10.7916/D6GY-YH28",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/17MOs0Kw_sljkAaW8ASOLf2xjCNJAllSX/view?usp=drive_link",
+      "ciesin:source_file_id": "1",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/56kx-3134/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_settlement_extents_v3_1_gpkg.zip",
+      "description": "GRID3_COD_settlement_extents_v3_1_gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 493879296,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/D6GY-YH28",
+      "ciesin:ac_doi": "10.7916/D6GY-YH28",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/17MOs0Kw_sljkAaW8ASOLf2xjCNJAllSX/view?usp=drive_link",
+      "ciesin:source_file_id": "2",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/hfsf-0111/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_settlement_grid_v3_1_gpkg.zip",
+      "description": "GRID3_COD_settlement_grid_v3_1_gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 241172480,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/D6GY-YH28",
+      "ciesin:ac_doi": "10.7916/D6GY-YH28",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/17MOs0Kw_sljkAaW8ASOLf2xjCNJAllSX/view?usp=drive_link",
+      "ciesin:source_file_id": "3",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    }
+  }
+}

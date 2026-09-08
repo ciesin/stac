@@ -1,0 +1,836 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-epi-2008",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -55.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -55.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "2008 Environmental Performance Index (EPI)",
+    "description": "The 2008 Environmental Performance Index (EPI) centers on two broad environmental protection objectives: (1) reducing environmental stresses on human health, and (2) promoting ecosystem vitality and sound natural resource management. Derived from a careful review of the environmental literature, these twin goals mirror the priorities expressed by policymakers. Environmental health and ecosystem vitality are gauged using 25 indicators tracked in six well-established policy categories: Environmental Health (Environmental Burden of Disease, Water, and Air Pollution), Air Pollution (effects on ecosystems), Water (effects on ecosystems), Biodiversity and Habitat, Productive Natural Resources (Forestry, Fisheries, and Agriculture), and Climate Change. The 2008 EPI utilizes a proximity-to-target methodology in which performance on each indicator is rated on a 0 to 100 scale (100 represents at target). By identifying specific targets and measuring how close each country comes to them, the EPI provides a foundation for policy analysis and a context for evaluating performance. Issue-by-issue and aggregate rankings facilitate cross-country comparisons both globally and within relevant peer groups. The 2008 EPI is the result of collaboration among the Yale Center for Environmental Law and Policy (YCELP), Columbia University Center for International Earth Science Information Network (CIESIN), World Economic Forum (WEF), and the Joint Research Centre (JRC), European Commission.",
+    "datetime": "2008-12-31T00:00:00Z",
+    "start_datetime": "1994-01-01T00:00:00.000Z",
+    "end_datetime": "2007-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Agriculture",
+      "Albania",
+      "Algeria",
+      "Angola",
+      "Argentina",
+      "Armenia",
+      "Australia",
+      "Austria",
+      "Azerbaijan",
+      "Bangladesh",
+      "Belarus",
+      "Belgium",
+      "Belize",
+      "Benin",
+      "Bolivia",
+      "Bosnia and Herzegovina",
+      "Botswana",
+      "Brazil",
+      "Bulgaria",
+      "Burkina Faso",
+      "Burundi",
+      "Cambodia",
+      "Cameroon",
+      "Canada",
+      "Central African Republic",
+      "Chad",
+      "Chile",
+      "China",
+      "Climate",
+      "Colombia",
+      "Congo",
+      "Congo, Democratic",
+      "Conservation",
+      "Costa Rica",
+      "Cote D'Ivoire",
+      "Country",
+      "Croatia",
+      "Cuba",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "Djibouti",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SUSTAINABILITY > ENVIRONMENTAL SUSTAINABILITY",
+      "Earth Science",
+      "Economy",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Environment",
+      "Environmental Sustainability",
+      "Eritrea",
+      "Estonia",
+      "Ethiopia",
+      "Fiji",
+      "Finland",
+      "France",
+      "Gabon",
+      "Georgia",
+      "Germany",
+      "Ghana",
+      "Global",
+      "Governance",
+      "Greece",
+      "Guatemala",
+      "Guinea",
+      "Guinea-Bissau",
+      "Guyana",
+      "Haiti",
+      "Health",
+      "Honduras",
+      "Human Dimensions",
+      "Hungary",
+      "Iceland",
+      "India",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Jamaica",
+      "Japan",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kuwait",
+      "Kyrgyzstan",
+      "Laos",
+      "Latvia",
+      "Lebanon",
+      "Lithuania",
+      "Luxembourg",
+      "Macedonia",
+      "Madagascar",
+      "Malawi",
+      "Malaysia",
+      "Mali",
+      "Marine and  Coastal",
+      "Marine and Coastal",
+      "Mauritania",
+      "Mauritius",
+      "Mexico",
+      "Moldova",
+      "Mongolia",
+      "Morocco",
+      "Mozambique",
+      "Myanmar",
+      "Namibia",
+      "Nepal",
+      "Netherlands",
+      "New Zealand",
+      "Nicaragua",
+      "Niger",
+      "Nigeria",
+      "Norway",
+      "Oman",
+      "Pakistan",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "Saudi Arabia",
+      "Senegal",
+      "Sierra Leone",
+      "Slovakia",
+      "Slovenia",
+      "Society",
+      "Solomon Islands",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sri Lanka",
+      "Sudan",
+      "Sustainability",
+      "Swaziland",
+      "Sweden",
+      "Switzerland",
+      "Syria",
+      "Taiwan",
+      "Tajikistan",
+      "Tanzania",
+      "Thailand",
+      "Togo",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Turkmenistan",
+      "Uganda",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Uruguay",
+      "Uzbekistan",
+      "Venezuela",
+      "Vietnam",
+      "Yemen",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "sci:doi": "10.7927/H4HT2M77",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Economy, Environment, Health, Society, Country, Agriculture, Climate, Conservation, Governance, Marine and  Coastal, Sustainability, Earth Science, Human Dimensions, Environmental Sustainability",
+    "ciesin:nasa_doi": "10.7927/H4HT2M77",
+    "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+    "ciesin:sedac_doi": "10.7927/H4HT2M77",
+    "ciesin:purpose": "To provide quantitative metrics for evaluating a country's environmental performance in different policy categories relative to clearly defined targets.",
+    "ciesin:data_format": "document, tabular, map; document, tabular, map service; document, tabular, map, map service; report",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\epi-environmental-performance-index-2008.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4HT2M77",
+      "type": "text/html",
+      "title": "H4HT2M77"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H44M92GX",
+      "type": "text/html",
+      "title": "H44M92GX"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4D21VHT",
+      "type": "text/html",
+      "title": "H4D21VHT"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H48913SG",
+      "type": "text/html",
+      "title": "H48913SG"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4416V05",
+      "type": "text/html",
+      "title": "H4416V05"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.epi.yale.edu",
+      "type": "text/html",
+      "title": "www.epi.yale.edu"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4FX77CS",
+      "type": "text/html",
+      "title": "H4FX77CS"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.13140/RG.2.2.19868.90249",
+      "type": "text/html",
+      "title": "RG.2.2.19868.90249"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4X928CF",
+      "type": "text/html",
+      "title": "H4X928CF"
+    },
+    {
+      "rel": "related",
+      "href": "https://epi.envirocenter.yale.edu/node/36476",
+      "type": "text/html",
+      "title": "36476"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/f54c-0r44",
+      "type": "text/html",
+      "title": "f54c-0r44"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.13140/RG.2.2.21182.51529",
+      "type": "text/html",
+      "title": "RG.2.2.21182.51529"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-overall-score-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "epi2008-overall-score-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/epi-environmental-performance-index-2008/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/epi-environmental-performance-index-2008/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4HT2M77",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-epi-2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "2008-epi-main-report-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2008/2008-epi-main-report.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Main Report in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4ht2m77": {
+      "href": " https://doi.org/10.7927/H4HT2M77",
+      "type": "application/octet-stream",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-agriculture-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-agriculture.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Agriculture map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-air-pollution-ecosystem-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-air-pollution-ecosystem.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Air Pollution Effects on Ecosystems map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-air-pollution-humans-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-air-pollution-humans.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Air Pollution Effects on Humans map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-biodiversity-and-habitat-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-biodiversity-and-habitat.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Biodiversity and Habitat map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-climate-change-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-climate-change.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Climate Change map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-ecosystem-vitality-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-ecosystem-vitality.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Ecosystem Vitality map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-environmental-burden-of-disease-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-environmental-burden-of-disease.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Environmental Burden of Disease map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-environmental-health-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-environmental-health.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Environmental Health map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-fisheries-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-fisheries.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Fisheries map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-forestry-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-forestry.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Forestry map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-natural-resources-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-natural-resources.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Productive Natural Resources Policy map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-overall-score-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-overall-score.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global EPI 2008 map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-water-ecosystem-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-water-ecosystem.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Water Effects on Ecosystems map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-water-humans-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-water-humans.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "description": "Global Water Effects on Humans map in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "epi2008-overall-score-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2008/epi2008-overall-score-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "2008-epi-main-report.pdf",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259992-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "2008-epi-policy-maker-summary-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2008/2008-epi-policy-maker-summary.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-policy-maker-summary.pdf",
+      "description": "Summary for Policymakers in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259993-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2008-epi-rankings-scores-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2008/2008-epi-rankings-scores.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-rankings-scores.pdf",
+      "description": "Rankings in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259996-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2008-epi-indicators-metadata-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2008/2008-epi-indicators-metadata.pdf",
+      "type": "application/pdf",
+      "title": "2008-epi-indicators-metadata.pdf",
+      "description": "Variables Metadata in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550259997-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2008-epi-epi-only-countries-xls": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2008/2008-epi-epi-only-countries.xls",
+      "type": "application/vnd.ms-excel",
+      "title": "2008-epi-epi-only-countries.xls",
+      "description": "2008 EPI Countries in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260000-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2008-epi-all-countries-winsorization-xls": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2008/2008-epi-all-countries-winsorization.xls",
+      "type": "application/vnd.ms-excel",
+      "title": "2008-epi-all-countries-winsorization.xls",
+      "description": "All Countries Considered for Inclusion in the 2008 EPI with Winsorization Values in PDF format from the 2008 Environmental Performance Index (EPI) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "C3540910317-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550260003-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2008-epi-all-countries-winsorization-xls-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715454",
+      "type": "application/vnd.ms-excel",
+      "title": "2008-epi-all-countries-winsorization.xls",
+      "roles": [
+        "data"
+      ],
+      "file:size": 869888,
+      "checksum:md5": "b2199508d547978db85bf689bba4ee0f",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:36:50Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "11646064",
+      "ciesin:source_file_id": "11715454",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
+    },
+    "2008-epi-epi-only-countries-xls-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715451",
+      "type": "application/vnd.ms-excel",
+      "title": "2008-epi-epi-only-countries.xls",
+      "roles": [
+        "data"
+      ],
+      "file:size": 322048,
+      "checksum:md5": "f15c784d3c429bd7bbe0db3aec3c2eb0",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:36:50Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "11646064",
+      "ciesin:source_file_id": "11715451",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
+    },
+    "2008-epi-indicators-metadata-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715452",
+      "type": "application/pdf",
+      "title": "2008-epi-indicators-metadata.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 259227,
+      "checksum:md5": "b85856ac8e53a3acf9155c4d673331e0",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:36:50Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "11646064",
+      "ciesin:source_file_id": "11715452",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2008-epi-main-report-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715453",
+      "type": "application/pdf",
+      "title": "2008-epi-main-report.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2687802,
+      "checksum:md5": "f75f7efe35045346e23b9958342f800a",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:36:50Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "11646064",
+      "ciesin:source_file_id": "11715453",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2008-epi-policy-maker-summary-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715450",
+      "type": "application/pdf",
+      "title": "2008-epi-policy-maker-summary.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1283051,
+      "checksum:md5": "6d6e40132e3662960cc48ed01a51ade6",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:36:50Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "11646064",
+      "ciesin:source_file_id": "11715450",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2008-epi-rankings-scores-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715449",
+      "type": "application/pdf",
+      "title": "2008-epi-rankings-scores.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 447420,
+      "checksum:md5": "84bb7bffc497e702ed3a30d755c9d0b2",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:36:50Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4HT2M77",
+      "ciesin:harvard_doi": "10.7910/DVN/YKX7DC",
+      "ciesin:source_dataset_id": "11646064",
+      "ciesin:source_file_id": "11715449",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    }
+  }
+}

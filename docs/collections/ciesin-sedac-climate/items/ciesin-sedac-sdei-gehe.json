@@ -1,0 +1,308 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-sdei-gehe",
+  "collection": "ciesin-sedac-climate",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016",
+    "description": "The Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016 data set provides global 0.05 degrees (~5 km) gridded annual counts of the number of days where the maximum Wet Bulb Globe Temperature (WBGTmax) exceeded dangerous hot-humid heat thresholds for the period 1983 to 2016. The thresholds are based on the International Standards Organization (ISO) criteria for occupational heat-related risk, defined as days where WBGTmax > 28, 30, and 32 degrees Celsius. This data set also includes the annual rate of change in the number of extreme humid-heat days that exceeded these thresholds. GEHE has a wide array of applications for mapping and quantifying extreme humid-heat dynamics over a 34-year time period, and is the highest resolution data set of its kind to date. GEHE provides scientific researchers and decision makers from a wide range of arenas, including climate change, public and occupational health, urban planning and design, hazards risk reduction, and food security, insights into how humid-heat has impacted human and environmental systems worldwide. The data set can be used to pinpoint how changes in extreme humid-heat impact human health and well-being, as well as ecological systems, across scales of analysis, from local, to national, to global.",
+    "datetime": "2023-08-11T00:00:00Z",
+    "start_datetime": "1983-01-01T00:00:00.000Z",
+    "end_datetime": "2016-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Climate",
+      "Climatology/Meteorology/Atmosphere",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS > HEAT",
+      "Earth Science",
+      "Global",
+      "Hazards",
+      "Health",
+      "Heat",
+      "Human Dimensions",
+      "Natural Hazards",
+      "Population",
+      "Remote Sensing",
+      "Sustainability"
+    ],
+    "sci:doi": "10.7927/hff0-k565",
+    "ciesin:category": "Climate",
+    "ciesin:tags": "Climate, Health, Hazards, Population, Remote Sensing, Sustainability, Global, Climatology/Meteorology/Atmosphere, Earth Science, Human Dimensions, Natural Hazards, Heat",
+    "ciesin:nasa_doi": "10.7927/HFF0-K565",
+    "ciesin:harvard_doi": "10.7910/DVN/GQ7PWP",
+    "ciesin:sedac_doi": "10.7927/hff0-k565",
+    "ciesin:purpose": "To provide a high-resolution, longitudinal global data set of annual extreme humid-heat.",
+    "ciesin:data_format": "raster; journal article",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\sdei-high-res-extreme-heat-estimates-1983-2016.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/hff0-k565",
+      "type": "text/html",
+      "title": "hff0-k565"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1073/pnas.2024792118",
+      "type": "text/html",
+      "title": "pnas.2024792118"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-high-res-extreme-heat-estimates-1983-2016/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-high-res-extreme-heat-estimates-1983-2016/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/hff0-k565",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-sdei-gehe.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax32-counts-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-high-res-extreme-heat-estimates-1983-2016/sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax32-counts-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax32-counts-geotiff.zip",
+      "description": "Global data in Geotiff format for the year 2000-2010 from the Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/HFF0-K565",
+      "ciesin:harvard_doi": "10.7910/DVN/GQ7PWP",
+      "ciesin:source_dataset_id": "C3540909361-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553503006-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "hff0-k565": {
+      "href": "https://doi.org/10.7927/hff0-k565",
+      "type": "application/octet-stream",
+      "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax32-counts-geotiff.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/HFF0-K565",
+      "ciesin:harvard_doi": "10.7910/DVN/GQ7PWP",
+      "ciesin:source_dataset_id": "C3540909361-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553503006-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax-trends-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-high-res-extreme-heat-estimates-1983-2016/sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax-trends-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax-trends-geotiff.zip",
+      "description": "Global data in Geotiff format for the year 2000-2010 from the Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/HFF0-K565",
+      "ciesin:harvard_doi": "10.7910/DVN/GQ7PWP",
+      "ciesin:source_dataset_id": "C3540909361-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553503009-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax28-counts-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-high-res-extreme-heat-estimates-1983-2016/sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax28-counts-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax28-counts-geotiff.zip",
+      "description": "Global data in Geotiff format for the year 2000-2010 from the Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/HFF0-K565",
+      "ciesin:harvard_doi": "10.7910/DVN/GQ7PWP",
+      "ciesin:source_dataset_id": "C3540909361-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553503010-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax30-counts-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-high-res-extreme-heat-estimates-1983-2016/sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax30-counts-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax30-counts-geotiff.zip",
+      "description": "Global data in Geotiff format for the year 2000-2010 from the Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/HFF0-K565",
+      "ciesin:harvard_doi": "10.7910/DVN/GQ7PWP",
+      "ciesin:source_dataset_id": "C3540909361-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553503012-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax28-counts-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715578",
+      "type": "application/zip",
+      "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax28-counts-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 75771020,
+      "checksum:md5": "2ab0f00f5a8dffb02fd87671f0ee0923",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:03:11Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/HFF0-K565",
+      "ciesin:harvard_doi": "10.7910/DVN/GQ7PWP",
+      "ciesin:source_dataset_id": "11646076",
+      "ciesin:source_file_id": "11715578",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax30-counts-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715576",
+      "type": "application/zip",
+      "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax30-counts-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38166680,
+      "checksum:md5": "e2ecbfdc6df71dcf74b57b4cd8240c85",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:03:11Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/HFF0-K565",
+      "ciesin:harvard_doi": "10.7910/DVN/GQ7PWP",
+      "ciesin:source_dataset_id": "11646076",
+      "ciesin:source_file_id": "11715576",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax32-counts-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715577",
+      "type": "application/zip",
+      "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax32-counts-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10283709,
+      "checksum:md5": "f329d77201e6f570453115fcb64b81cc",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:03:11Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/HFF0-K565",
+      "ciesin:harvard_doi": "10.7910/DVN/GQ7PWP",
+      "ciesin:source_dataset_id": "11646076",
+      "ciesin:source_file_id": "11715577",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax-trends-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715575",
+      "type": "application/zip",
+      "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax-trends-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10199875,
+      "checksum:md5": "28c7df4af310e3342cd8f1e751781383",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-08T20:03:11Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/HFF0-K565",
+      "ciesin:harvard_doi": "10.7910/DVN/GQ7PWP",
+      "ciesin:source_dataset_id": "11646076",
+      "ciesin:source_file_id": "11715575",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

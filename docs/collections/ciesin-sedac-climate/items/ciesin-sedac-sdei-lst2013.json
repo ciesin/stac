@@ -1,0 +1,945 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-sdei-lst2013",
+  "collection": "ciesin-sedac-climate",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -60.01
+        ],
+        [
+          179.99,
+          -60.01
+        ],
+        [
+          179.99,
+          80.01
+        ],
+        [
+          -180.0,
+          80.01
+        ],
+        [
+          -180.0,
+          -60.01
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -60.01,
+    179.99,
+    80.01
+  ],
+  "properties": {
+    "title": "Global Summer Land Surface Temperature (LST) Grids, 2013",
+    "description": "The Global Summer Land Surface Temperature (LST) Grids, 2013, represent daytime maximum temperature and nighttime minimum temperature in degree Celsius at a spatial resolution of 30 arc-seconds (~1km) during summer months of the northern and southern hemisphere for the year 2013. The grids are produced using Aqua Level-3 Moderate Resolution Imaging Spectroradiometer (MODIS) Version 5 global daytime and nighttime LST 8-day composite data (MYD11A2). For most regions, the LST grids provide the daytime maximum (1:30 p.m. overpass) and nighttime minimum (1:30 a.m. overpass) LST values for each grid cell from a 40-day time-span during July-August (Julian days 185-224) 2013 in the northern hemisphere and January-February (Julian days 001-040) 2013 in the southern hemisphere. LST grid cells with missing values resulting from high cloud cover in tropical regions were filled with daytime maximum and nighttime minimum LST values from April-May 2013 in the northern hemisphere and December 2013-January 2014 in the southern hemisphere, where available. Some data gaps remain in areas where data were insufficient (e.g., Central Africa).",
+    "datetime": "2016-11-18T00:00:00Z",
+    "start_datetime": "2013-01-01T00:00:00.000Z",
+    "end_datetime": "2013-12-31T00:00:00.000Z",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Africa",
+      "Asia",
+      "Australia",
+      "Climate",
+      "Climatology/Meteorology/Atmosphere",
+      "EARTH SCIENCE > LAND SURFACE > SURFACE THERMAL PROPERTIES > LAND SURFACE TEMPERATURE",
+      "Earth Science",
+      "Europe",
+      "Global",
+      "Hazards",
+      "Health",
+      "Infrastructure",
+      "Land Surface",
+      "Land Surface Temperature",
+      "Land Use",
+      "North America",
+      "Oceania",
+      "Remote Sensing",
+      "South America",
+      "Surface Thermal Properties",
+      "Sustainability",
+      "Urban"
+    ],
+    "sci:doi": "10.7927/H408638T",
+    "ciesin:category": "Climate",
+    "ciesin:tags": "Climate, Hazards, Health, Infrastructure, Remote Sensing, Sustainability, Urban, Land Use, Global, Climatology/Meteorology/Atmosphere, Earth Science, Land Surface, Surface Thermal Properties, Land Surface Temperature",
+    "ciesin:nasa_doi": "10.7927/H408638T",
+    "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+    "ciesin:sedac_doi": "10.7927/H408638T",
+    "ciesin:purpose": "To provide raster representations of global summer daytime maximum and nighttime minimum surface temperature for studies related to human health and climate change.",
+    "ciesin:data_format": "raster, map, map service; vector, tabular, map, map service; document",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\sdei-global-summer-lst-2013.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "http://doi.org/10.7927/H408638T",
+      "type": "text/html",
+      "title": "H408638T"
+    },
+    {
+      "rel": "related",
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4H70CRF",
+      "type": "text/html",
+      "title": "H4H70CRF"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H48C9T68",
+      "type": "text/html",
+      "title": "H48C9T68"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-global-summer-lst-2013/sdei-global-summer-lst-grids-2013-day-max-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-summer-lst-grids-2013-day-max-global-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-summer-lst-2013/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-summer-lst-2013/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-summer-lst-2013/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H408638T",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-sdei-lst2013.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "sdei-global-summer-lst-2013-global-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-summer-lst-2013/sdei-global-summer-lst-2013-global.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-summer-lst-2013-global.zip",
+      "description": "Global data in GeoTIFF format from the data in GeoTIFF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425749-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h408638t": {
+      "href": "https://doi.org/10.7927/H408638T",
+      "type": "application/octet-stream",
+      "title": "sdei-global-summer-lst-2013-global.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425749-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-global.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-global.zip",
+      "description": "Global Summer Daytime Maximum LST map in PDF format from the Global Summer Land Surface Temperature (LST) Grids ,2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425749-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-global-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-global.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-global.zip",
+      "description": "Global Summer Nighttime Minimum LST map in PDF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425749-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-global.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-global.zip",
+      "description": "Global Summer Daytime Maximum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids ,2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425749-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-global-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-global.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-global.zip",
+      "description": "Global Summer Nighttime Minimum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425749-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-global-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-summer-lst-2013-global.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425749-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "sdei-global-summer-lst-2013-africa-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-summer-lst-2013/sdei-global-summer-lst-2013-africa.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-summer-lst-2013-africa.zip",
+      "description": "Africa data in GeoTIFF format from the data in GeoTIFF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425753-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-africa.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-africa.zip",
+      "description": "Africa Summer Daytime Maximum LST map in PDF format from the Global Summer Land Surface Temperature (LST) Grids ,2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425753-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-africa-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-africa.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-africa.zip",
+      "description": "Africa Summer Nighttime Minimum LST map in PDF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425753-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-africa.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-africa.zip",
+      "description": "Africa Summer Daytime Maximum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids ,2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425753-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-africa-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-africa.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-africa.zip",
+      "description": "Africa Summer Nighttime Minimum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425753-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-africa-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-africa-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-summer-lst-2013-africa.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425753-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "sdei-global-summer-lst-2013-americas-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-summer-lst-2013/sdei-global-summer-lst-2013-americas.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-summer-lst-2013-americas.zip",
+      "description": "Americas data in GeoTIFF format from the data in GeoTIFF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425755-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-north-america.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-americas.zip",
+      "description": "North America Summer Daytime Maximum LST map in PDF format from the Global Summer Land Surface Temperature (LST) Grids ,2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425755-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-north-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-north-america.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-americas.zip",
+      "description": "North America Summer Nighttime Minimum LST mapin PDF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425755-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-south-america.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-americas.zip",
+      "description": "South America Summer Daytime Maximum LST map in PDF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425755-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-south-america-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-south-america.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-americas.zip",
+      "description": "South America Summer Nighttime Minimum LST map in PDF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425755-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-north-america.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-americas.zip",
+      "description": "North America Summer Daytime Maximum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids ,2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425755-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-north-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-north-america.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-americas.zip",
+      "description": "North America Summer Nighttime Minimum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425755-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-south-america.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-americas.zip",
+      "description": "South America Summer Daytime Maximum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425755-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-south-america-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-south-america.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-americas.zip",
+      "description": "South America Summer Nighttime Minimum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425755-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-north-america-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-north-america-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-summer-lst-2013-americas.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425755-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "sdei-global-summer-lst-2013-asia-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-summer-lst-2013/sdei-global-summer-lst-2013-asia.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-summer-lst-2013-asia.zip",
+      "description": "Asia data in GeoTIFF format from the data in GeoTIFF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425759-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-asia.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-asia.zip",
+      "description": "Asia Summer Daytime Maximum LST map in PDF format from the Global Summer Land Surface Temperature (LST) Grids ,2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425759-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-asia-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-asia.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-asia.zip",
+      "description": "Asia Summer Nighttime Minimum LST mapin PDF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425759-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-asia.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-asia.zip",
+      "description": "Asia Summer Daytime Maximum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids ,2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425759-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-asia-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-asia.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-asia.zip",
+      "description": "Asia Summer Nighttime Minimum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425759-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-asia-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-asia-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-summer-lst-2013-asia.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425759-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "sdei-global-summer-lst-2013-europe-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-summer-lst-2013/sdei-global-summer-lst-2013-europe.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-summer-lst-2013-europe.zip",
+      "description": "Europe data in GeoTIFF format from the data in GeoTIFF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425760-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-europe.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-europe.zip",
+      "description": "Europe Summer Daytime Maximum LST map in PDF format from the Global Summer Land Surface Temperature (LST) Grids ,2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425760-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-europe-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-europe.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-europe.zip",
+      "description": "Europe Summer Nighttime Minimum LST mapin PDF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425760-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-europe.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-europe.zip",
+      "description": "Europe Summer Daytime Maximum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids ,2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425760-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-europe-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-europe.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-europe.zip",
+      "description": "Europe Summer Nighttime Minimum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425760-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-europe-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-europe-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-summer-lst-2013-europe.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425760-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "sdei-global-summer-lst-2013-oceania-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-global-summer-lst-2013/sdei-global-summer-lst-2013-oceania.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-global-summer-lst-2013-oceania.zip",
+      "description": "Oceania data in GeoTIFF format from the data in GeoTIFF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425763-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-oceania.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-oceania.zip",
+      "description": "Oceania Summer Daytime Maximum LST map in PDF format from the Global Summer Land Surface Temperature (LST) Grids ,2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425763-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-oceania-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-oceania.pdf",
+      "type": "application/pdf",
+      "title": "sdei-global-summer-lst-2013-oceania.zip",
+      "description": "Oceania Summer Nighttime Minimum LST mapin PDF format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425763-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-oceania.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-oceania.zip",
+      "description": "Oceania Summer Daytime Maximum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids ,2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425763-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-night-min-oceania-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-night-min-oceania.png",
+      "type": "image/png",
+      "title": "sdei-global-summer-lst-2013-oceania.zip",
+      "description": "Oceania Summer Nighttime Minimum LST map in PNG format from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425763-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-oceania-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-global-summer-lst-grids-2013/sdei-global-summer-lst-grids-2013-day-max-oceania-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-summer-lst-2013-oceania.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "C3550194059-ESDIS",
+      "ciesin:source_granule_concept_id": "G3553425763-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "sdei-global-summer-lst-2013-africa-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808881",
+      "type": "application/zip",
+      "title": "sdei-global-summer-lst-2013-africa.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 183289434,
+      "checksum:md5": "ee66ed490da1194df57e818bb75ead16",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-08T20:06:54Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "11646211",
+      "ciesin:source_file_id": "11808881",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-summer-lst-2013-americas-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808880",
+      "type": "application/zip",
+      "title": "sdei-global-summer-lst-2013-americas.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 259334654,
+      "checksum:md5": "293860e8981a4150713b705ce24126e5",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-08T20:06:54Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "11646211",
+      "ciesin:source_file_id": "11808880",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-summer-lst-2013-asia-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808883",
+      "type": "application/zip",
+      "title": "sdei-global-summer-lst-2013-asia.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 365299793,
+      "checksum:md5": "efb65aaccc5593311c06aa83aaad8da3",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-08T20:06:54Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "11646211",
+      "ciesin:source_file_id": "11808883",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-summer-lst-2013-europe-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808882",
+      "type": "application/zip",
+      "title": "sdei-global-summer-lst-2013-europe.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 125428688,
+      "checksum:md5": "8951ee5165e0e5fd397d95c809a6238e",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-08T20:06:54Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "11646211",
+      "ciesin:source_file_id": "11808882",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-summer-lst-2013-global-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808878",
+      "type": "application/zip",
+      "title": "sdei-global-summer-lst-2013-global.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 792145998,
+      "checksum:md5": "eaf635087eb057fdb555c36987350c22",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-08T20:06:54Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "11646211",
+      "ciesin:source_file_id": "11808878",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "sdei-global-summer-lst-2013-oceania-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11808879",
+      "type": "application/zip",
+      "title": "sdei-global-summer-lst-2013-oceania.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 75802876,
+      "checksum:md5": "5179b391aa09d1a69abbb61a594ba9cd",
+      "created": "2025-07-23T00:00:00Z",
+      "updated": "2025-09-08T20:06:54Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H408638T",
+      "ciesin:harvard_doi": "10.7910/DVN/9HHHSN",
+      "ciesin:source_dataset_id": "11646211",
+      "ciesin:source_file_id": "11808879",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

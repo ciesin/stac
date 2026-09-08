@@ -1,0 +1,916 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-india-awca",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          68.106253,
+          8.083816
+        ],
+        [
+          89.150397,
+          8.083816
+        ],
+        [
+          89.150397,
+          37.073831
+        ],
+        [
+          68.106253,
+          37.073831
+        ],
+        [
+          68.106253,
+          8.083816
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    68.106253,
+    8.083816,
+    89.150397,
+    37.073831
+  ],
+  "properties": {
+    "title": "India Annual Winter Cropped Area, 2001-2016",
+    "description": "The India Annual Winter Cropped Area, 2001 - 2016 consists of annual winter cropped areas for most of India (except the Northeastern states) from 2000-2001 to 2015-2016. This data set utilizes the NASA Moderate Resolution Imaging Spectroradiometer (MODIS) Enhanced Vegetation Index (EVI; spatial resolution: 250m) for the winter growing season (October-March). The methodology uses an automated algorithm identifying the EVI peak in each pixel for each year and linearly scales the EVI value between 0% and 100% cropped area within that particular pixel. Maps were then resampled to 1 km and were validated using high-resolution QuickBird, RapidEye, SkySat, and WorldView-2 images spanning 2008 to 2016 across 11 different agricultural regions of India. The spatial resolution of the data set is 1 km, resampled from 250m. The data are distributed as GeoTIFF and NetCDF files and are in WGS 84 projection.",
+    "datetime": "2017-11-10T00:00:00Z",
+    "start_datetime": "2001-03-31T00:00:00.000Z",
+    "end_datetime": "2016-03-31T01:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Agriculture",
+      "Agriculture Production",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ECONOMIC RESOURCES > AGRICULTURE PRODUCTION",
+      "Earth Science",
+      "Economic Resources",
+      "Farming",
+      "Human Dimensions",
+      "India",
+      "Land Use",
+      "Remote Sensing"
+    ],
+    "sci:doi": "10.7927/H47D2S3W",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Earth Science, Human Dimensions, Economic Resources, Agriculture Production, Agriculture, Land Use, Remote Sensing, Country, Farming",
+    "ciesin:nasa_doi": "10.7927/H47D2S3W",
+    "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+    "ciesin:sedac_doi": "10.7927/H47D2S3W",
+    "ciesin:purpose": "To provide data that can be used in land cover and land use change (LCLUC) studies, agricultural applications, and to assist with policy-making in regards to sustainable agricultural intensification.",
+    "ciesin:data_format": "raster, map, map service; journal article; document",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\india-india-annual-winter-cropped-area-2001-2016.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H47D2S3W",
+      "type": "text/html",
+      "title": "H47D2S3W"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.3390/rs9060566",
+      "type": "text/html",
+      "title": "rs9060566"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H43R0QSG",
+      "type": "text/html",
+      "title": "H43R0QSG"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2016-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "india-india-annual-winter-cropped-area-2016-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/india-india-annual-winter-cropped-area-2001-2016/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/india-india-annual-winter-cropped-area-2001-2016/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/india-india-annual-winter-cropped-area-2001-2016/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H47D2S3W",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-india-awca.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2001-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2001-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2001-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2001 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607922-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h47d2s3w": {
+      "href": "https://doi.org/10.7927/H47D2S3W",
+      "type": "application/octet-stream",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2001-geotiff.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607922-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-annual-winter-cropped-area-2001-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001.pdf",
+      "type": "application/pdf",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2001-geotiff.zip",
+      "description": "India Winter Cropped Area map for the year 2001 in PDF format from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607922-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-annual-winter-cropped-area-2001-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001.png",
+      "type": "image/png",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2001-geotiff.zip",
+      "description": "India Winter Cropped Area map for the year 2001 in PNG format from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607922-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-annual-winter-cropped-area-2001-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2001-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607922-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2016-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2016-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2016-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2016 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607925-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2016-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2016.pdf",
+      "type": "application/pdf",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2016-geotiff.zip",
+      "description": "India Winter Cropped Area map for the year 2016 in PDF format from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607925-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-annual-winter-cropped-area-2016-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2016.png",
+      "type": "image/png",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2016-geotiff.zip",
+      "description": "India Winter Cropped Area map for the year 2016 in PNG format from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607925-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "india-india-annual-winter-cropped-area-2016-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2016-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2016-geotiff.zip",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607925-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2010-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2010-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2010-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2010 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607933-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2012-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2012-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2012-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2012 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607936-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2001-2016-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2001-2016-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2001-2016-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the years 2001 to 2016 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607943-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2004-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2004-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2004-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2004 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607950-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2011-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2011-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2011-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2011 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607951-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2015-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2015-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2015-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2015 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607953-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2005-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2005-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2005-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2005 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607954-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2001-2016-netcdf-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2001-2016-netcdf.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2001-2016-netcdf.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in netCDF-4 format for the years 2001 to 2016 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607955-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2006-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2006-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2006-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2006 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607956-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2007-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2007-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2007-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2007 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607957-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2009-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2009-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2009-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2009 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607958-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2008-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2008-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2008-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2008 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607959-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2014-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2014-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2014-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2014 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607960-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2003-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2003-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2003-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2003 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607961-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2002-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2002-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2002-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2002 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607962-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2013-geotiff-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/india/india-india-annual-winter-cropped-area-2001-2016/india-india-annual-winter-cropped-area-2001-2016-1km-2013-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2013-geotiff.zip",
+      "description": "India Winter Cropped Area 1 km spatial resolution data in GeoTIFF format for the year 2013 from the India Annual Winter Cropped Area, 2001-2016 data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "C3550194092-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552607963-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2001-2016-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815417",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2001-2016-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 50310288,
+      "checksum:md5": "db9db5a51881d0334d8c06df0b62d359",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815417",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2001-2016-netcdf-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815413",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2001-2016-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41233689,
+      "checksum:md5": "087f0354387596dc7280b913da6fba59",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815413",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2001-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815411",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2001-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2819624,
+      "checksum:md5": "bd439ea5d091de42c7017bf19b7481e3",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815411",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2002-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815404",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2002-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2934237,
+      "checksum:md5": "4739b108996e366ba730df311efa65b3",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815404",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2003-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815407",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2003-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2837529,
+      "checksum:md5": "b295986534aafffac54c27622427dce7",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815407",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2004-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815403",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2004-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2994828,
+      "checksum:md5": "f2d8e0c84c8af4109f721dd6066cb240",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815403",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2005-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815409",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2005-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3041488,
+      "checksum:md5": "11ae4d930ccde332bd2d77cb1cba4cd6",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815409",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2006-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815405",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2006-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2882026,
+      "checksum:md5": "8f8045977051c279693813a19191822d",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815405",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2007-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815415",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2007-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2952277,
+      "checksum:md5": "ee83c2bad2eed0eb7f2b9eee8f445f01",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815415",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2008-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815400",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2008-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3247310,
+      "checksum:md5": "cf53288443905b7aefa2328dafaa7832",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815400",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2009-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815414",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2009-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3105613,
+      "checksum:md5": "f9e82cbfdebcd7a92b4c87b3b3d17ef0",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815414",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2010-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815406",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2010-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2984321,
+      "checksum:md5": "80077bbdc049be7f53dadaecd8f70ff6",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815406",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2011-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815401",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2011-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3230949,
+      "checksum:md5": "0623afa807fe21ce54f90f9d514bbd59",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815401",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2012-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815402",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2012-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3149797,
+      "checksum:md5": "f4dd619a3ac4c59929f1b793d76f90c6",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815402",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2013-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815412",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2013-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3160467,
+      "checksum:md5": "40d827c55d99f2978dd111182ca1622e",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815412",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2014-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815410",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2014-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3268510,
+      "checksum:md5": "d06d51dfe428a4f795fba411f6778ce3",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815410",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2015-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815416",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2015-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3085560,
+      "checksum:md5": "56d0f94df487afab8b2801834ef0d563",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815416",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    },
+    "india-india-annual-winter-cropped-area-2001-2016-1km-2016-geotiff-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815408",
+      "type": "application/zip",
+      "title": "india-india-annual-winter-cropped-area-2001-2016-1km-2016-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3157289,
+      "checksum:md5": "f441235a15293d35c5b2c2855e5420fa",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-09T18:48:26Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H47D2S3W",
+      "ciesin:harvard_doi": "10.7910/DVN/TKI6GY",
+      "ciesin:source_dataset_id": "11646246",
+      "ciesin:source_file_id": "11815408",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

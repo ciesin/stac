@@ -1,0 +1,223 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-lwp2-lw-ighp",
+  "collection": "ciesin-sedac-conservation",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -16139650.0,
+          -6815472.0
+        ],
+        [
+          19600350.0,
+          -6815472.0
+        ],
+        [
+          19600350.0,
+          8849527.0
+        ],
+        [
+          -16139650.0,
+          8849527.0
+        ],
+        [
+          -16139650.0,
+          -6815472.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -16139650.0,
+    -6815472.0,
+    19600350.0,
+    8849527.0
+  ],
+  "properties": {
+    "title": "Last of the Wild Project, Version 2, 2005 (LWP-2): Last of the Wild Dataset (IGHP)",
+    "description": "The Last of the Wild Dataset of the Last of the Wild Project, Version 2, 2005 (LWP-2) is derived from the LWP-2 Human Footprint Dataset. The gridded data are classified according to their raster value (wild = 0-10; not wild >10). The ten largest polygons of more than 5 square kilometers within each biome by realm are selected and identified. The dataset in Interrupted Goode Homolosine Projection (IGHP) is produced by the Wildlife Conservation Society (WCS) and Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "datetime": "2005-12-31T00:00:00Z",
+    "start_datetime": "1995-01-01T00:00:00.000Z",
+    "end_datetime": "2004-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Anthropogenic/Human Influenced Ecosystems",
+      "Biosphere",
+      "Biota",
+      "Conservation",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "Earth Science",
+      "Ecosystems",
+      "Environment",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Surface",
+      "Land Use",
+      "Land Use/Land Cover",
+      "Planning/Cadastre",
+      "Remote Sensing",
+      "Sustainability"
+    ],
+    "sci:doi": "10.7927/H4ZC80SS",
+    "ciesin:category": "Conservation",
+    "ciesin:tags": "Biota, Environment, Imagery/Base Maps/Earth Cover, Planning/Cadastre, Global, Conservation, Land Use, Remote Sensing, Sustainability, Earth Science, Land Surface, Land Use/Land Cover, Biosphere, Ecosystems, Anthropogenic/Human Influenced Ecosystems",
+    "ciesin:nasa_doi": "10.7927/H4ZC80SS",
+    "ciesin:harvard_doi": "10.7910/DVN/60ANOS",
+    "ciesin:sedac_doi": "10.7927/H4ZC80SS",
+    "ciesin:purpose": "To provide an updated map of wild areas in Interrupted Goode Homolosine Projection which can be used for wildlife conservation planning, natural resource management, and research on human-environment interactions.",
+    "ciesin:supplemental_info": "To reproduce this dataset, the following steps are recommended: 1) Classify the Human Footprint grid according to raster value (wild = 0-10; not wild >10). 2) Eliminate all polygons <5 square kilometers. Changes from the LWP 2002 to LWP 2005 include the following: 1) The populated and USGS urban polygons layers are replaced by CIESIN Global Rural Urban Mapping Project (GRUMP) urban extent layer. 2) The USGS Global land Cover Characteristics layer is replaced with EU Joint Research Centre Global Land Cover 2000 dataset. 3) The roads layer is updated using Latin America and Carribean Roads data compiled by Centro Internacional de Agricultura Tropical (CIAT). Africa roads are updated from compilation of Africa roads data by Andy Nelson.",
+    "ciesin:data_format": "vector; raster, map, map service; raster; vector, map, map service",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\wildareas-v2-last-of-the-wild-ighp.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4ZC80SS",
+      "type": "text/html",
+      "title": "H4ZC80SS"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4M61H5F",
+      "type": "text/html",
+      "title": "H4M61H5F"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4GF0RFQ",
+      "type": "text/html",
+      "title": "H4GF0RFQ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4348H83",
+      "type": "text/html",
+      "title": "H4348H83"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4BP00QC",
+      "type": "text/html",
+      "title": "H4BP00QC"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H46W980H",
+      "type": "text/html",
+      "title": "H46W980H"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/wildareas-v2/wildareas-v2-last-of-the-wild-ighp/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v2-last-of-the-wild-ighp/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4ZC80SS",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-lwp2-lw-ighp.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "ltw-global-ighp-grid-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wildareas-v2/wildareas-v2-last-of-the-wild-ighp/ltw-global-ighp-grid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ltw-global-ighp-grid.zip",
+      "description": "Global data in Shapefile format from the Last of the Wild Project, Version 2, 2005 (LWP-2): Last of the Wild Dataset (IGHP).",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4ZC80SS",
+      "ciesin:harvard_doi": "10.7910/DVN/60ANOS",
+      "ciesin:source_dataset_id": "C3550196884-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267426-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4zc80ss": {
+      "href": "https://doi.org/10.7927/H4ZC80SS",
+      "type": "application/octet-stream",
+      "title": "ltw-global-ighp-grid.zip",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4ZC80SS",
+      "ciesin:harvard_doi": "10.7910/DVN/60ANOS",
+      "ciesin:source_dataset_id": "C3550196884-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550267426-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "ltw-global-ighp-grid-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815576",
+      "type": "application/zipped-shapefile",
+      "title": "ltw-global-ighp-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 99359454,
+      "checksum:md5": "a1a9bb876b142e4b830994a809401a1e",
+      "created": "2025-07-25T00:00:00Z",
+      "updated": "2025-09-08T17:14:41Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4ZC80SS",
+      "ciesin:harvard_doi": "10.7910/DVN/60ANOS",
+      "ciesin:source_dataset_id": "11646270",
+      "ciesin:source_file_id": "11815576",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
+    }
+  }
+}

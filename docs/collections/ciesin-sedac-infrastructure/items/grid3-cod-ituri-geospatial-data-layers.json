@@ -1,0 +1,173 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "grid3-cod-ituri-geospatial-data-layers",
+  "collection": "ciesin-sedac-infrastructure",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          27.365751,
+          0.519618
+        ],
+        [
+          31.277004,
+          0.519618
+        ],
+        [
+          31.277004,
+          3.683461
+        ],
+        [
+          27.365751,
+          3.683461
+        ],
+        [
+          27.365751,
+          0.519618
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    27.365751,
+    0.519618,
+    31.277004,
+    3.683461
+  ],
+  "properties": {
+    "title": "GRID3 COD – Ituri – Geospatial Data Layers",
+    "description": "This data package supersedes the previous versions of these layers for the province of Ituri, specifically: GRID3 COD - Health Areas v8.0 GRID3 COD - Health Facilities v8.0 GRID3 COD - Health Zones v8.0 GRID3 COD - Settlement Names v8.0 This dataset may contain unintended omissions, as it was developed under a compressed timeline to enable timely information sharing and support teams engaged in emergency response efforts. Dataset citation Center for Integrated Earth System Information (CIESIN), Columbia University, Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo, and GRID3. 2026. GRID3 COD - Ituri - Geospatial Data Layers. New York: Columbia University. . Accessed . Contacts and data queries The authors of this dataset appreciate feedback regarding the data, including suggestions, discovery of errors, difficulties in using the data, and format preferences. For dataset-related questions, please send an email to: info@ciesin.columbia.edu",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Democratic Republic of the Congo, DRC, COD, Ituri province",
+      "GRID3",
+      "Health Areas",
+      "Health Facilities",
+      "Health Facilities, Settlement Names, Health Areas, Health Zones",
+      "Health Zones",
+      "Infrastructure",
+      "Settlement Names",
+      "latest"
+    ],
+    "sci:doi": "https://data.grid3.org/maps/GRID3::grid3-cod-ituri-geospatial-data-layers-/about",
+    "sci:citation": "Dataset citation Center for Integrated Earth System Information (CIESIN), Columbia University, Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo, and GRID3. 2026. GRID3 COD - Ituri - Geospatial Data Layers. New York: Columbia University. . Accessed .",
+    "ciesin:category": "Infrastructure",
+    "ciesin:tags": "GRID3",
+    "ciesin:sedac_doi": "https://data.grid3.org/maps/GRID3::grid3-cod-ituri-geospatial-data-layers-/about",
+    "ciesin:purpose": "The GRID3 COD - Ituri - Geospatial Data Layers dataset includes updated spatial layers for settlement names, health facilities, and operational health boundaries, including health zones and health areas, for Ituri Province in the Democratic Republic of the Congo (COD).",
+    "ciesin:supplemental_info": "See README (PDF) for more information.",
+    "ciesin:field_count": 0,
+    "ciesin:contacts": [
+      "Center for Integrated Earth System Information (CIESIN)",
+      "info@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\GRID3_COD_Ituri_geospatial_data_layers.xml",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "http://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "type": "text/html",
+      "title": "legalcode"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.grid3.org/datasets/GRID3::grid3-cod-health-areas-v8-0/about",
+      "type": "text/html",
+      "title": "about"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.grid3.org/datasets/GRID3::grid3-cod-health-facilities-v8-0/about",
+      "type": "text/html",
+      "title": "about"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.grid3.org/datasets/GRID3::grid3-cod-health-zones-v8-0/about",
+      "type": "text/html",
+      "title": "about"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.grid3.org/datasets/GRID3::grid3-cod-settlement-names-v8-0/about",
+      "type": "text/html",
+      "title": "about"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/https://data.grid3.org/maps/GRID3::grid3-cod-ituri-geospatial-data-layers-/about",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./grid3-cod-ituri-geospatial-data-layers.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "view-1": {
+      "href": "https://drive.google.com/file/d/1HR0txg0gX0QilNF9lDlPiZUZr1005iRB/view?usp=sharing",
+      "type": "application/octet-stream",
+      "title": "GRID3 COD - Ituri - Geospatial Data Layers ReadMe",
+      "description": "GRID3 COD - Ituri - Geospatial Data Layers ReadMe",
+      "roles": [
+        "data"
+      ],
+      "file:size": 26663,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "HTTPS://DATA.GRID3.ORG/MAPS/GRID3::GRID3-COD-ITURI-GEOSPATIAL-DATA-LAYERS-/ABOUT",
+      "ciesin:ac_doi": "HTTPS://DATA.GRID3.ORG/MAPS/GRID3::GRID3-COD-ITURI-GEOSPATIAL-DATA-LAYERS-/ABOUT",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1LJU5d_8Yy-gWZw7KY4YAGDSKGujjed00/view?usp=drive_link",
+      "ciesin:source_file_id": "1",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "about-2": {
+      "href": "https://data.grid3.org/maps/GRID3::grid3-cod-ituri-geospatial-data-layers-/about",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_IT_geospatial_data_layers.gpkg",
+      "description": "GRID3_COD_IT_geospatial_data_layers.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 27262976,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "HTTPS://DATA.GRID3.ORG/MAPS/GRID3::GRID3-COD-ITURI-GEOSPATIAL-DATA-LAYERS-/ABOUT",
+      "ciesin:ac_doi": "HTTPS://DATA.GRID3.ORG/MAPS/GRID3::GRID3-COD-ITURI-GEOSPATIAL-DATA-LAYERS-/ABOUT",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1LJU5d_8Yy-gWZw7KY4YAGDSKGujjed00/view?usp=drive_link",
+      "ciesin:source_file_id": "2",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    }
+  }
+}

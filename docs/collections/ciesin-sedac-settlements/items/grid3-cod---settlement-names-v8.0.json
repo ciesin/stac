@@ -1,0 +1,958 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "grid3-cod---settlement-names-v8.0",
+  "collection": "ciesin-sedac-settlements",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          12.218466,
+          -13.378057
+        ],
+        [
+          31.264838,
+          -13.378057
+        ],
+        [
+          31.264838,
+          5.143207
+        ],
+        [
+          12.218466,
+          5.143207
+        ],
+        [
+          12.218466,
+          -13.378057
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    12.218466,
+    -13.378057,
+    31.264838,
+    5.143207
+  ],
+  "properties": {
+    "title": "GRID3 COD - Settlement Names v8.0",
+    "description": "The current version supersedes the GRID3 COD - Settlement Names v7.0 . The following changes were made: Added data for the provinces of Bas-Uele, Haut-Uele, Kwango, and Nord-Kivu The data for Tanganyika was updated Download province level data: Bas-Uele Equateur Haut-Katanga Haut-Lomami Haut-Uele Ituri Kasaï Kasaï-Central Kasaï-Oriental Kinshasa Kongo-Central Kwango Kwilu Lomami Lualaba Mai-Ndombe Maniema Mongala Nord-Kivu Nord-Ubangi Sankuru Sud-Kivu Sud-Ubangi Tanganyika Tshopo Tshuapa For more information on the methodology and data sources used during the production of this data, click here . Dataset citation Center for Integrated Earth System Information (CIESIN), Columbia University, Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo, and GRID3. 2025. GRID3 COD - Settlement Names v8.0. New York: Columbia University. https://doi.org/10.7916/qpnw-1c89. Accessed . Contacts and data queries The authors of this dataset appreciate feedback regarding the data, including suggestions, discovery of errors, difficulties in using the data, and format preferences. For dataset-related questions, please send an email to: info@ciesin.columbia.edu",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "COD",
+      "Democratic Republic of the Congo",
+      "GRID3",
+      "Settlements",
+      "latest",
+      "settlements"
+    ],
+    "sci:doi": "10.7916/qpnw-1c89",
+    "sci:citation": "Dataset citation: Center for Integrated Earth System Information (CIESIN), Columbia University, Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo, and GRID3. 2025. GRID3 COD - Settlement Names v8.0. New York: Columbia University. https://doi.org/10.7916/qpnw-1c89. Accessed .",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": "GRID3",
+    "ciesin:sedac_doi": "10.7916/qpnw-1c89",
+    "ciesin:purpose": "The GRID3 COD - Settlement Names v8.0 dataset consists of settlement points with name, location, and other attributes for all the twenty-six provinces in the Democratic Republic of the Congo (COD).",
+    "ciesin:supplemental_info": "See Data Release Notes (PDF) for more information.",
+    "ciesin:data_format": "File Geodatabase Feature Class",
+    "ciesin:feature_count": 127942,
+    "ciesin:field_count": 23,
+    "ciesin:contacts": [
+      "Center for Integrated Earth System Information (CIESIN)",
+      "info@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\GRID3 COD - Settlement Names v8.0.xml",
+    "ciesin:field_schema": [
+      {
+        "attalias": "OBJECTID",
+        "attrdef": "Internal feature number.",
+        "attrdefs": "Esri",
+        "attrlabl": "OBJECTID",
+        "attrtype": "OID",
+        "attwidth": "4"
+      },
+      {
+        "attalias": "Shape",
+        "attrdef": "Feature geometry.",
+        "attrdefs": "Esri",
+        "attrlabl": "Shape",
+        "attrtype": "Geometry",
+        "attwidth": "0"
+      },
+      {
+        "attalias": "pays",
+        "attrlabl": "pays",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "iso3",
+        "attrlabl": "iso3",
+        "attrtype": "String",
+        "attwidth": "508"
+      },
+      {
+        "attalias": "province",
+        "attrlabl": "province",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "antenne",
+        "attrlabl": "antenne",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "zonesante",
+        "attrlabl": "zonesante",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "zs_uid",
+        "attrlabl": "zs_uid",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "airesante",
+        "attrlabl": "airesante",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "as_uid",
+        "attrlabl": "as_uid",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "localite",
+        "attrlabl": "localite",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "date",
+        "attrlabl": "date",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "localitetype",
+        "attrlabl": "localitetype",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "enclav",
+        "attrlabl": "enclav",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "enclavdate",
+        "attrlabl": "enclavdate",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "source_acronym",
+        "attrlabl": "source_acronym",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "lat",
+        "attrlabl": "lat",
+        "attrtype": "Double",
+        "attwidth": "8"
+      },
+      {
+        "attalias": "lon",
+        "attrlabl": "lon",
+        "attrtype": "Double",
+        "attwidth": "8"
+      },
+      {
+        "attalias": "precision",
+        "attrlabl": "precision",
+        "attrtype": "Double",
+        "attwidth": "8"
+      },
+      {
+        "attalias": "grid3id",
+        "attrlabl": "grid3id",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "prov_uid",
+        "attrlabl": "prov_uid",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "sourceid",
+        "attrlabl": "sourceid",
+        "attrtype": "String",
+        "attwidth": "300"
+      },
+      {
+        "attalias": "localite_alt",
+        "attrlabl": "localite_alt",
+        "attrtype": "String",
+        "attwidth": "300"
+      }
+    ],
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://www.arcgis.com/sharing/rest/content/items/b712dfab0c2c4debbafd75f08f7f544b/info/thumbnail/thumbnail1766430274599.png",
+      "type": "image/png",
+      "title": "thumbnail1766430274599.png"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.w3.org/2001/XMLSchema-instance",
+      "type": "text/html",
+      "title": "XMLSchema-instance"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.w3.org/2001/XMLSchema",
+      "type": "text/html",
+      "title": "XMLSchema"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.esri.com/schemas/ArcGIS/3.5.0",
+      "type": "text/html",
+      "title": "3.5.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7916/fyk2-sj30",
+      "type": "text/html",
+      "title": "fyk2-sj30"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7916/qpnw-1c89",
+      "type": "text/html",
+      "title": "qpnw-1c89"
+    },
+    {
+      "rel": "related",
+      "href": "http://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0"
+    },
+    {
+      "rel": "related",
+      "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "type": "text/html",
+      "title": "legalcode"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/wz6j-zk97/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5446-j385/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/w6rx-gg22/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5hzh-fb82/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/adn6-vn50/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/t22z-s082/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/55f7-5d68/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ksvr-0533/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/jce6-3k11/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vmrk-5w76/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/fw3d-zk42/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/xr20-2t66/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/yy2q-nv37/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/90zh-v748/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/53xe-y372/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vgbj-qg50/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vxy6-t509/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/mebe-1k79/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/1w4m-hx95/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/7hga-vk18/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/m7bh-wj40/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/m121-4c17/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/txt3-tt16/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/4qfa-dr03/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/b3y5-3632/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/0sq4-jp97/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "via",
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5pwz-wm70/download",
+      "type": "text/html",
+      "title": "download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/qpnw-1c89",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./grid3-cod---settlement-names-v8.0.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "download-1": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5pwz-wm70/download",
+      "type": "application/octet-stream",
+      "title": "GRID3 COD - Settlement Names v8.0 Data Release Notes.pdf",
+      "description": "GRID3 COD - Settlement Names v8.0 Data Release Notes.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 247464,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "1",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/rq94-q368/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_settlement_names_v8_0.gdb.zip",
+      "description": "GRID3_COD_settlement_names_v8_0.gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7623148,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "2",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/wz6j-zk97/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Bas-Uele_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Bas-Uele_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 520094,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "3",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-4": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5446-j385/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Equateur_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Equateur_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 952107,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "4",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-5": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ksvr-0533/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kasaï-Central_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Kasaï-Central_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2306867,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "5",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-6": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5hzh-fb82/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Haut-Lomami_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Haut-Lomami_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1457521,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "6",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-7": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/xr20-2t66/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kwango_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Kwango_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1040187,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "7",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-8": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/jce6-3k11/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kasaï-Oriental_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Kasaï-Oriental_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 994050,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "8",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-9": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/4qfa-dr03/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Tanganyika_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Tanganyika_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2044723,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "9",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-10": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/0sq4-jp97/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Tshuapa_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Tshuapa_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1488978,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "10",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-11": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/b3y5-3632/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Tshopo_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Tshopo_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2170552,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "11",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-12": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/adn6-vn50/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Haut-Uele_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Haut-Uele_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 813695,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "12",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-13": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/t22z-s082/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Ituri_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Ituri_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1918894,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "13",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-14": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/55f7-5d68/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kasaï_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Kasaï_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2034237,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "14",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-15": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vmrk-5w76/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kinshasa_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Kinshasa_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1300234,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "15",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-16": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/fw3d-zk42/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kongo-Central_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Kongo-Central_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3187671,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "16",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-17": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/w6rx-gg22/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Haut-Katanga_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Haut-Katanga_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2275410,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "17",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-18": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/m121-4c17/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Sud-Kivu_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Sud-Kivu_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1824522,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "18",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-19": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vgbj-qg50/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Mai-Ndombe_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Mai-Ndombe_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1310720,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "19",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-20": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/mebe-1k79/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Mongala_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Mongala_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1530921,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "20",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-21": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/m7bh-wj40/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Sankuru_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Sankuru_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1059062,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "21",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-22": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/txt3-tt16/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Sud-Ubangi_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Sud-Ubangi_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1331692,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "22",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-23": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/7hga-vk18/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Nord-Ubangi_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Nord-Ubangi_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 859832,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "23",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-24": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/1w4m-hx95/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Nord-Kivu_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Nord-Kivu_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1751122,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "24",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-25": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vxy6-t509/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Maniema_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Maniema_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2055209,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "25",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-26": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/53xe-y372/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Lualaba_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Lualaba_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2160067,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "26",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-27": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/yy2q-nv37/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kwilu_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Kwilu_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2243953,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "27",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    },
+    "download-28": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/90zh-v748/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Lomami_settlement_names_v8_0.gpkg",
+      "description": "GRID3_COD_Lomami_settlement_names_v8_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1373635,
+      "ciesin:source": "grid3_academic_commons",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/QPNW-1C89",
+      "ciesin:ac_doi": "10.7916/QPNW-1C89",
+      "ciesin:metadata_href": "https://drive.google.com/file/d/1MkxkeCsTra-gLkA9xof3NFRim8963fbI/view?usp=drive_link",
+      "ciesin:source_file_id": "28",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "academic_commons_download"
+    }
+  }
+}

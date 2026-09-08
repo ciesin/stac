@@ -1,0 +1,268 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-ipcc-observed-ar5",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "IPCC Fifth Assessment Report (AR5) Observed Climate Change Impacts Database, Version 2.01",
+    "description": "The Intergovernmental Panel on Climate Change Fifth Assessment Report (AR5) Observed Climate Change Impacts Database, Version 2.01 contains observed responses to climate change across a wide range of systems as well as regions. These responses include systems for which climate change has played a major role in observed changes, regional-scale impacts where climate change has played a minor role, and sub-regional impacts. Impacts on physical, biological, and human systems were differentiated, and the area impacted can vary from specific locations to broad areas such as a major river basin.",
+    "datetime": "2017-06-28T00:00:00Z",
+    "start_datetime": "2007-01-01T00:00:00.000Z",
+    "end_datetime": "2014-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Africa",
+      "Agriculture",
+      "Antarctica",
+      "Arctic",
+      "Asia",
+      "Australia",
+      "Central America",
+      "Climate",
+      "Climatology/Meteorology/Atmosphere",
+      "Conservation",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ENVIRONMENTAL IMPACTS",
+      "Earth Science",
+      "Environment",
+      "Environmental Impacts",
+      "Europe",
+      "Global",
+      "Human Dimensions",
+      "Marine and  Coastal",
+      "Marine and Coastal",
+      "North America",
+      "Society",
+      "Water"
+    ],
+    "sci:doi": "10.7927/H4FT8J0X",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": "Earth Science, Human Dimensions, Environmental Impacts, Global, Climatology/Meteorology/Atmosphere, Environment, Society, Agriculture, Climate, Conservation, Marine and  Coastal, Water",
+    "ciesin:nasa_doi": "10.7927/H4FT8J0X",
+    "ciesin:harvard_doi": "10.7910/DVN/RYRJUT",
+    "ciesin:sedac_doi": "10.7927/H4FT8J0X",
+    "ciesin:purpose": "To provide a database with observed responses to climate change for multidisciplinary studies.",
+    "ciesin:data_format": "tabular; report; raster, tabular; document, map, map service; journal article; tabular, map service",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\ipcc-ar5-observed-climate-impacts-v2-01.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4FT8J0X",
+      "type": "text/html",
+      "title": "H4FT8J0X"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1017/CBO9781107415379.023",
+      "type": "text/html",
+      "title": "CBO9781107415379.023"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4N29TWJ",
+      "type": "text/html",
+      "title": "H4N29TWJ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4RV0KMH",
+      "type": "text/html",
+      "title": "H4RV0KMH"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4HD7SKJ",
+      "type": "text/html",
+      "title": "H4HD7SKJ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H41C1TT4",
+      "type": "text/html",
+      "title": "H41C1TT4"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4WM1BB7",
+      "type": "text/html",
+      "title": "H4WM1BB7"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4XG9P2R",
+      "type": "text/html",
+      "title": "H4XG9P2R"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4542KJV",
+      "type": "text/html",
+      "title": "H4542KJV"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ipcc/ipcc-ar5-observed-climate-impacts-v2-01/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "http://journals.sfu.ca/int_assess/index.php/iaj/article/download/239/",
+      "type": "text/html",
+      "title": "239"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ipcc-ar5-observed-climate-impacts-v2-01/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4FT8J0X",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-ipcc-observed-ar5.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "ipcc-ar5-observed-climate-impacts-v2-01-xlsx-zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ipcc/ipcc-ar5-observed-climate-impacts-v2-01/ipcc-ar5-observed-climate-impacts-v2-01-xlsx.zip",
+      "type": "application/x-zip-compressed",
+      "title": "ipcc-ar5-observed-climate-impacts-v2-01-xlsx.zip",
+      "description": "Report in Excel format from the IPCC Fifth Assessment Report (AR5) Observed Climate Change Impacts Database data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FT8J0X",
+      "ciesin:harvard_doi": "10.7910/DVN/RYRJUT",
+      "ciesin:source_dataset_id": "C3540910465-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552647433-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h4ft8j0x": {
+      "href": "https://doi.org/10.7927/H4FT8J0X",
+      "type": "application/octet-stream",
+      "title": "ipcc-ar5-observed-climate-impacts-v2-01-xlsx.zip",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FT8J0X",
+      "ciesin:harvard_doi": "10.7910/DVN/RYRJUT",
+      "ciesin:source_dataset_id": "C3540910465-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552647433-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "detection-and-attribution-of-observed-impacts-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ipcc/ipcc-ar5-observed-climate-impacts-v2-01/detection-and-attribution-of-observed-impacts.pdf",
+      "type": "application/pdf",
+      "title": "detection-and-attribution-of-observed-impacts.pdf",
+      "description": "Report in PDF format from the IPCC Fifth Assessment Report (AR5) Observed Climate Change Impacts Database data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FT8J0X",
+      "ciesin:harvard_doi": "10.7910/DVN/RYRJUT",
+      "ciesin:source_dataset_id": "C3540910465-ESDIS",
+      "ciesin:source_granule_concept_id": "G3552647447-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "ipcc-ar5-observed-climate-impacts-v2-01-xlsx-zip-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12061050",
+      "type": "application/zip",
+      "title": "ipcc-ar5-observed-climate-impacts-v2-01-xlsx.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 133006,
+      "checksum:md5": "ff6bf510d9a6ac62a76ca343d27e8605",
+      "created": "2025-09-09T00:00:00Z",
+      "updated": "2025-09-09T18:40:59Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H4FT8J0X",
+      "ciesin:harvard_doi": "10.7910/DVN/RYRJUT",
+      "ciesin:source_dataset_id": "11646252",
+      "ciesin:source_file_id": "12061050",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "ZIP Archive"
+    }
+  }
+}

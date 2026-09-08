@@ -1,0 +1,82 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-uncategorized",
+  "title": "CIESIN SEDAC - Uncategorized",
+  "description": "CIESIN SEDAC datasets categorized as Uncategorized.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-11-01T00:00:00Z",
+          "2026-07-26T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/2024-environmental-performance-index-epi.json",
+      "type": "application/geo+json",
+      "title": "2024 Environmental Performance Index (EPI)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/city-segments-layer-v1.json",
+      "type": "application/geo+json",
+      "title": "City Segments Layer v1"
+    },
+    {
+      "rel": "item",
+      "href": "./items/envclim-grids-global-urban-environmental-vulnerability-and-climate-risk-500m-resolution-circa-20.json",
+      "type": "application/geo+json",
+      "title": "EnvClim Grids: Global Urban Environmental Vulnerability and Climate Risk, 500m Resolution (circa 2020ï¿½ï¿½ï¿"
+    },
+    {
+      "rel": "item",
+      "href": "./items/geocoded-cbp-apprehensions-from-central-america-and-mexico-fy-2010-fy-2022.json",
+      "type": "application/geo+json",
+      "title": "Geocoded CBP Apprehensions from Central America and Mexico (FY 2010 - FY 2022)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/global-0-25-degree-future-drought-layers-1980-2100-based-on-downscaled-cmip6-models-and-ssp-rcp.json",
+      "type": "application/geo+json",
+      "title": "Global 0.25-Degree Future Drought Layers (1980-2100) Based on Downscaled CMIP6 Models and SSP-RCP Combinations, Version 1"
+    },
+    {
+      "rel": "item",
+      "href": "./items/global-urban-demographic-dataset-gudd-version-1.json",
+      "type": "application/geo+json",
+      "title": "Global Urban Demographic Dataset (GUDD), version 1"
+    }
+  ]
+}

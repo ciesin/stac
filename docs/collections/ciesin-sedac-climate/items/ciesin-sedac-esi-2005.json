@@ -1,0 +1,900 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "id": "ciesin-sedac-esi-2005",
+  "collection": "ciesin-sedac-climate",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -55.0
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "bbox": [
+    -180.0,
+    -55.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "title": "2005 Environmental Sustainability Index (ESI)",
+    "description": "The 2005 Environmental Sustainability Index (ESI) is a measure of overall progress towards environmental sustainability, developed for 146 countries. The index provides a composite profile of national environmental stewardship based on a compilation of 21 indicators derived from 76 underlying data sets. The 2005 version of the ESI represents a significant update and improvement on earlier versions; the country ESI scores or rankings should not be compared to earlier versions because of changes to the methodology and underlying data. The index was unveiled at the World Economic Forum's annual meeting, January 2005, Davos, Switzerland. The 2005 ESI is a joint product of the Yale Center for Environmental Law and Policy (YCELP) and the Columbia University Center for International Earth Science Information Network (CIESIN), in collaboration with the World Economic Forum (WEF) and the Joint Research Centre (JRC), European Commission.",
+    "datetime": "2005-12-31T00:00:00Z",
+    "start_datetime": "1980-01-01T00:00:00.000Z",
+    "end_datetime": "2000-12-31T00:00:00.000Z",
+    "license": "other",
+    "keywords": [
+      "Albania",
+      "Algeria",
+      "Angola",
+      "Argentina",
+      "Armenia",
+      "Australia",
+      "Austria",
+      "Azerbaijan",
+      "Bangladesh",
+      "Belarus",
+      "Belgium",
+      "Benin",
+      "Bhutan",
+      "Bolivia",
+      "Bosnia and Herzegovina",
+      "Botswana",
+      "Brazil",
+      "Bulgaria",
+      "Burkina Faso",
+      "Burundi",
+      "Cambodia",
+      "Cameroon",
+      "Canada",
+      "Central African Republic",
+      "Chad",
+      "Chile",
+      "China",
+      "Climate",
+      "Colombia",
+      "Congo",
+      "Congo, Democratic",
+      "Conservation",
+      "Costa Rica",
+      "Cote D'Ivoire",
+      "Country",
+      "Croatia",
+      "Cuba",
+      "Czech Republic",
+      "Denmark",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SUSTAINABILITY > ENVIRONMENTAL SUSTAINABILITY",
+      "Earth Science",
+      "East Asia",
+      "Economy",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Environment",
+      "Environmental Sustainability",
+      "Estonia",
+      "Ethiopia",
+      "Finland",
+      "France",
+      "Gabon",
+      "Gambia",
+      "Georgia",
+      "Germany",
+      "Ghana",
+      "Global",
+      "Governance",
+      "Greece",
+      "Guatemala",
+      "Guinea",
+      "Guinea-Bissau",
+      "Guyana",
+      "Haiti",
+      "Health",
+      "Honduras",
+      "Human Dimensions",
+      "Hungary",
+      "Iceland",
+      "India",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Jamaica",
+      "Japan",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kuwait",
+      "Kyrgyzstan",
+      "Laos",
+      "Latvia",
+      "Lebanon",
+      "Liberia",
+      "Libya",
+      "Lithuania",
+      "Macedonia",
+      "Madagascar",
+      "Malawi",
+      "Malaysia",
+      "Mali",
+      "Mauritania",
+      "Mexico",
+      "Moldova",
+      "Mongolia",
+      "Morocco",
+      "Mozambique",
+      "Myanmar",
+      "Namibia",
+      "Nepal",
+      "Netherlands",
+      "New Zealand",
+      "Nicaragua",
+      "Niger",
+      "Nigeria",
+      "North Korea",
+      "Norway",
+      "Oman",
+      "Pakistan",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "Saudi Arabia",
+      "Senegal",
+      "Serbia and Montenegro",
+      "Sierra Leone",
+      "Slovakia",
+      "Slovenia",
+      "Society",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sri Lanka",
+      "Sudan",
+      "Sustainability",
+      "Sweden",
+      "Switzerland",
+      "Syrian Arab Republic",
+      "Taiwan",
+      "Tajikistan",
+      "Tanzania",
+      "Thailand",
+      "Togo",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Turkmenistan",
+      "Uganda",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Uruguay",
+      "Uzbekistan",
+      "Venezuela",
+      "Vietnam",
+      "Water",
+      "Yemen",
+      "Zimbabwe"
+    ],
+    "sci:doi": "10.7927/H40V89R6",
+    "ciesin:category": "Climate",
+    "ciesin:tags": "Country, Economy, Environment, Health, Society, Climate, Conservation, Governance, Sustainability, Water, Earth Science, Human Dimensions, Environmental Sustainability",
+    "ciesin:nasa_doi": "10.7927/H40V89R6",
+    "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+    "ciesin:sedac_doi": "10.7927/H40V89R6",
+    "ciesin:purpose": "To create a comparative index of national-level environmental sustainability and to provide a mechanism for making environmental management more quantitative, empirically grounded and systematic.",
+    "ciesin:supplemental_info": "http://www.weforum.org",
+    "ciesin:data_format": "document, tabular, map, map service; document; document, tabular; document, tabular, map",
+    "ciesin:field_count": 1,
+    "ciesin:contacts": [
+      "Center for International Earth Science Information Network (CIESIN) Metadata Administration",
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "ciesin.info@ciesin.columbia.edu",
+      "metadata@ciesin.columbia.edu"
+    ],
+    "ciesin:item_status": "ready",
+    "ciesin:xml_found": "yes",
+    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\esi-environmental-sustainability-index-2005.xml",
+    "ciesin:source_match_status": "nasa_found;harvard_found",
+    "ciesin:field_schema": [
+      {
+        "attrdef": "",
+        "attrdefs": "",
+        "attrlabl": ""
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H40V89R6",
+      "type": "text/html",
+      "title": "H40V89R6"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.weforum.org",
+      "type": "text/html",
+      "title": "www.weforum.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4NK3BZJ",
+      "type": "text/html",
+      "title": "H4NK3BZJ"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4X34VDM",
+      "type": "text/html",
+      "title": "H4X34VDM"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.7927/H4SB43P8",
+      "type": "text/html",
+      "title": "H4SB43P8"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/esi/esi-environmental-sustainability-index-2005/2005-esi-scores-by-country-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "2005-esi-scores-by-country-thumbnail.jpg"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/esi-environmental-sustainability-index-2005/data-download",
+      "type": "text/html",
+      "title": "data-download"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/esi-environmental-sustainability-index-2005/maps",
+      "type": "text/html",
+      "title": "maps"
+    },
+    {
+      "rel": "via",
+      "href": "https://sedac.ciesin.columbia.edu/data/set/esi-environmental-sustainability-index-2005/maps/services",
+      "type": "text/html",
+      "title": "services"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H40V89R6",
+      "type": "text/html"
+    },
+    {
+      "rel": "self",
+      "href": "./ciesin-sedac-esi-2005.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "2005-esi-full-report-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-full-report.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-full-report.pdf",
+      "description": "Complete 2005 ESI in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122437-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "h40v89r6": {
+      "href": "https://doi.org/10.7927/H40V89R6",
+      "type": "application/octet-stream",
+      "title": "2005-esi-full-report.pdf",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122437-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "2005-esi-scores-by-country-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/esi/esi-environmental-sustainability-index-2005/2005-esi-scores-by-country.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-full-report.pdf",
+      "description": "Global ESI Scores by Country map in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122437-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "2005-esi-scores-by-country-png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/esi/esi-environmental-sustainability-index-2005/2005-esi-scores-by-country.png",
+      "type": "image/png",
+      "title": "2005-esi-full-report.pdf",
+      "description": "Global ESI Scores by Country map in PNG format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "overview"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122437-ESDIS",
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+    },
+    "2005-esi-scores-by-country-thumbnail-jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/esi/esi-environmental-sustainability-index-2005/2005-esi-scores-by-country-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "2005-esi-full-report.pdf",
+      "roles": [
+        "thumbnail"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122437-ESDIS",
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+    },
+    "2005-esi-policy-maker-summary-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-policy-maker-summary.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-policy-maker-summary.pdf",
+      "description": "Summary for Policymakers Brochure - Summary of main 2005 ESI findings in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122438-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-main-report-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-main-report.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-main-report.pdf",
+      "description": "2005 ESI Main Report in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122440-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-appendix-a-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-appendix-a.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-a.pdf",
+      "description": "Appendix A: Methodology in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122441-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-appendix-b-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-appendix-b.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-b.pdf",
+      "description": "Appendix B: Country Profiles in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122443-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-appendix-c-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-appendix-c.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-c.pdf",
+      "description": "Appendix C: Variable Profiles and Data in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122446-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-appendix-d-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-appendix-d.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-d.pdf",
+      "description": "Appendix D: Component and Indicator Tables in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122448-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-appendix-e-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-appendix-e.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-e.pdf",
+      "description": "Appendix E: ESI Values in Small States in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122450-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-appendix-f-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-appendix-f.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-f.pdf",
+      "description": "Appendix F: Comparing ESI with Other Sustainability Indicators in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122452-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-appendix-g-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-appendix-g.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-g.pdf",
+      "description": "Appendix G: An Ideal Set of ESI Indicators in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122454-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-appendix-h-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-appendix-h.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-h.pdf",
+      "description": "Appendix H: Critiques and Responses in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122456-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-appendix-i-pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-appendix-i.pdf",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-i.pdf",
+      "description": "Appendix I: Published Citations to the ESI in PDF format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122457-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-esi-only-countries-xls": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-esi-only-countries.xls",
+      "type": "application/vnd.ms-excel",
+      "title": "2005-esi-esi-only-countries.xls",
+      "description": "2005 ESI countries spreadsheet in Excel format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122461-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-all-countries-xls": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/esi/esi-environmental-sustainability-index-2005/2005-esi-all-countries.xls",
+      "type": "application/vnd.ms-excel",
+      "title": "2005-esi-all-countries.xls",
+      "description": "2005 ESI spreadsheet for all countries considered in Excel format from the 2005 Environmental Sustainability Index (ESI) data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "C3540909104-ESDIS",
+      "ciesin:source_granule_concept_id": "G3550122463-ESDIS",
+      "ciesin:source_relation_type": "GET DATA"
+    },
+    "2005-esi-all-countries-xls-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715440",
+      "type": "application/vnd.ms-excel",
+      "title": "2005-esi-all-countries.xls",
+      "roles": [
+        "data"
+      ],
+      "file:size": 406528,
+      "checksum:md5": "4527c72e3a8582dec776af2f61887310",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715440",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
+    },
+    "2005-esi-appendix-a-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715443",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-a.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1611618,
+      "checksum:md5": "0c817b86ca7fa9b6cbaf477cbe5ea3d0",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715443",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2005-esi-appendix-b-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715441",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-b.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2766791,
+      "checksum:md5": "f6345aa6badd29cbedf0b037cabe4368",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715441",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2005-esi-appendix-c-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715446",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-c.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1099443,
+      "checksum:md5": "9ab420c29e542c13ac13ac55ec42ad17",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715446",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2005-esi-appendix-d-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715439",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-d.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2428980,
+      "checksum:md5": "0f58b25ee9e9c6cdff6e753b7226edea",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715439",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2005-esi-appendix-e-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715435",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-e.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42096,
+      "checksum:md5": "8a9fce3d998acc3973cc9d9d4e613e1c",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715435",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2005-esi-appendix-f-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715436",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-f.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 89361,
+      "checksum:md5": "eafe5b87dc763b630fee137da536c40a",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715436",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2005-esi-appendix-g-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715437",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-g.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 60345,
+      "checksum:md5": "e1a06d7cacce905a4293a6fafe829a0e",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715437",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2005-esi-appendix-h-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715444",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-h.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 54596,
+      "checksum:md5": "b04059b3dfcb1be6d7b1f6ae0c3aa67f",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715444",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2005-esi-appendix-i-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715445",
+      "type": "application/pdf",
+      "title": "2005-esi-appendix-i.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 48769,
+      "checksum:md5": "7b5f0cdd5828b4bf4df0a8832e12b695",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715445",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2005-esi-esi-only-countries-xls-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715434",
+      "type": "application/vnd.ms-excel",
+      "title": "2005-esi-esi-only-countries.xls",
+      "roles": [
+        "data"
+      ],
+      "file:size": 201728,
+      "checksum:md5": "3f9b4a7bebe31cb9f7b0520cd5190634",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715434",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
+    },
+    "2005-esi-full-report-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715447",
+      "type": "application/pdf",
+      "title": "2005-esi-full-report.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 18593081,
+      "checksum:md5": "3163796623328358eebfe0cdc9de2822",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715447",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2005-esi-main-report-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715438",
+      "type": "application/pdf",
+      "title": "2005-esi-main-report.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 563865,
+      "checksum:md5": "a784b6576bc64a1f4d4b208abd4bd25f",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715438",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    },
+    "2005-esi-policy-maker-summary-pdf-2": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715442",
+      "type": "application/pdf",
+      "title": "2005-esi-policy-maker-summary.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 716390,
+      "checksum:md5": "c8db8fb107c7ae04e4f5963a1b9fd0d5",
+      "created": "2025-07-09T00:00:00Z",
+      "updated": "2025-09-10T18:31:44Z",
+      "ciesin:source": "harvard_dataverse_file",
+      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:nasa_doi": "10.7927/H40V89R6",
+      "ciesin:harvard_doi": "10.7910/DVN/INGC0X",
+      "ciesin:source_dataset_id": "11646063",
+      "ciesin:source_file_id": "11715442",
+      "ciesin:source_relation_type": "file",
+      "ciesin:source_relation_subtype": "Adobe PDF"
+    }
+  }
+}
