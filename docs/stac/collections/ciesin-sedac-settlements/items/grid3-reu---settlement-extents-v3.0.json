@@ -245,6 +245,36 @@
     }
   ],
   "assets": {
+    "sedac-ac-doi": {
+      "href": "https://doi.org/10.7916/k4z8-ha20",
+      "type": "text/html",
+      "title": "SEDAC or Academic Commons DOI landing page",
+      "description": "Dataset-level DOI landing page for GRID3 REU - Settlement Extents v3.0.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "sedac_or_ac_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/k4z8-ha20",
+      "ciesin:ac_doi": "10.7916/k4z8-ha20",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "sedac_or_ac_doi"
+    },
+    "related-doi-10.7916-gke3-gc05": {
+      "href": "https://doi.org/10.7916/gke3-gc05",
+      "type": "text/html",
+      "title": "Related DOI: 10.7916/gke3-gc05",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/k4z8-ha20",
+      "ciesin:ac_doi": "10.7916/k4z8-ha20",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
     "download-1": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/7kf7-ns02/download",
       "type": "application/octet-stream",

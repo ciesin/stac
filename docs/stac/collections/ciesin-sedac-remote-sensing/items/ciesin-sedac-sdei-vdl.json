@@ -167,84 +167,75 @@
     }
   ],
   "assets": {
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/9RYJ-6467",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT).",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/9RYJ-6467",
+      "ciesin:harvard_doi": "10.7910/DVN/DM3J1A",
+      "ciesin:sedac_doi": "10.7927/9ryj-6467",
+      "ciesin:ac_doi": "10.7927/9ryj-6467",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/DM3J1A",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT).",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/9RYJ-6467",
+      "ciesin:harvard_doi": "10.7910/DVN/DM3J1A",
+      "ciesin:sedac_doi": "10.7927/9ryj-6467",
+      "ciesin:ac_doi": "10.7927/9ryj-6467",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.1016-j.gloplacha.2018.03.005": {
+      "href": "https://doi.org/10.1016/j.gloplacha.2018.03.005",
+      "type": "text/html",
+      "title": "Related DOI: 10.1016/j.gloplacha.2018.03.005",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/9RYJ-6467",
+      "ciesin:harvard_doi": "10.7910/DVN/DM3J1A",
+      "ciesin:sedac_doi": "10.7927/9ryj-6467",
+      "ciesin:ac_doi": "10.7927/9ryj-6467",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-69wp-8547": {
+      "href": "https://doi.org/10.7927/69wp-8547",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/69wp-8547",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/9RYJ-6467",
+      "ciesin:harvard_doi": "10.7910/DVN/DM3J1A",
+      "ciesin:sedac_doi": "10.7927/9ryj-6467",
+      "ciesin:ac_doi": "10.7927/9ryj-6467",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
     "sdei-viirs-dmsp-dlight-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-viirs-dmsp-dlight/sdei-viirs-dmsp-dlight-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "sdei-viirs-dmsp-dlight-geotiff.zip",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/9RYJ-6467",
-      "ciesin:harvard_doi": "10.7910/DVN/DM3J1A",
-      "ciesin:source_dataset_id": "C3550194672-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259983-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "9ryj-6467": {
-      "href": "https://doi.org/10.7927/9ryj-6467",
-      "type": "application/octet-stream",
-      "title": "sdei-viirs-dmsp-dlight-geotiff.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/9RYJ-6467",
-      "ciesin:harvard_doi": "10.7910/DVN/DM3J1A",
-      "ciesin:source_dataset_id": "C3550194672-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259983-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "sdei-viirs-dmsp-dlight-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-viirs-dmsp-dlight/sdei-viirs-dmsp-dlight.pdf",
-      "type": "application/pdf",
-      "title": "sdei-viirs-dmsp-dlight-geotiff.zip",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/9RYJ-6467",
-      "ciesin:harvard_doi": "10.7910/DVN/DM3J1A",
-      "ciesin:source_dataset_id": "C3550194672-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259983-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "sdei-viirs-dmsp-dlight-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-viirs-dmsp-dlight/sdei-viirs-dmsp-dlight.png",
-      "type": "image/png",
-      "title": "sdei-viirs-dmsp-dlight-geotiff.zip",
-      "description": "VIIRS Plus DMSP Change in Lights map for the years 1992, 2002 and 2013 in PNG format from the VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT) data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/9RYJ-6467",
-      "ciesin:harvard_doi": "10.7910/DVN/DM3J1A",
-      "ciesin:source_dataset_id": "C3550194672-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259983-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "sdei-viirs-dmsp-dlight-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-viirs-dmsp-dlight/sdei-viirs-dmsp-dlight-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "sdei-viirs-dmsp-dlight-geotiff.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/9RYJ-6467",
-      "ciesin:harvard_doi": "10.7910/DVN/DM3J1A",
-      "ciesin:source_dataset_id": "C3550194672-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259983-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "sdei-viirs-dmsp-dlight-geotiff-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11835910",
       "type": "application/zip",
       "title": "sdei-viirs-dmsp-dlight-geotiff.zip",

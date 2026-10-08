@@ -182,5 +182,38 @@
       "type": "application/json"
     }
   ],
-  "assets": {}
+  "assets": {
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/YXXC-JV91",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for U.S. Census Grids Demographic and Housing Characteristics File (DHC), 2020.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/YXXC-JV91",
+      "ciesin:sedac_doi": "10.7927/yxxc-jv91",
+      "ciesin:ac_doi": "10.7927/yxxc-jv91",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "related-doi-10.7927-593h-nq42": {
+      "href": "https://doi.org/10.7927/593h-nq42",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/593h-nq42",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/YXXC-JV91",
+      "ciesin:sedac_doi": "10.7927/yxxc-jv91",
+      "ciesin:ac_doi": "10.7927/yxxc-jv91",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    }
+  }
 }

@@ -426,261 +426,209 @@
     }
   ],
   "assets": {
-    "region-southamerica-file-gpwv3-data-centroids-type-csv": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_SouthAmerica_file_gpwv3_data_centroids_type_csv",
-      "type": "application/octet-stream",
-      "title": "sa_gpwv3_centroids_csv.zip",
-      "description": "South America circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
-      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504813-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4tt4nwq": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4TT4NWQ",
-      "type": "application/octet-stream",
-      "title": "sa_gpwv3_centroids_csv.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Gridded Population of the World, Version 3 (GPWv3): Centroids.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
       "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504813-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:ac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "region-global-file-gpwv3-data-centroids-type-shp": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Global_file_gpwv3_data_centroids_type_shp",
-      "type": "application/octet-stream",
-      "title": "gl_gpwv3_centroids_shp.zip",
-      "description": "Global circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/LGC360",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Gridded Population of the World, Version 3 (GPWv3): Centroids.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
       "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504824-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:ac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "services": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/data/set/gpw-v3-centroids/maps/services",
-      "type": "application/gml+xml",
-      "title": "gl_gpwv3_centroids_shp.zip",
-      "description": "Global map layer from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+    "related-doi-10.7927-h4xk8cg2": {
+      "href": "https://doi.org/10.7927/H4XK8CG2",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4XK8CG2",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "service"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
       "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504824-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:ac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "region-northamerica-file-gpwv3-data-centroids-type-csv": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_NorthAmerica_file_gpwv3_data_centroids_type_csv",
-      "type": "application/octet-stream",
-      "title": "na_gpwv3_centroids_csv.zip",
-      "description": "North America circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+    "related-doi-10.7927-h4p26w1b": {
+      "href": "https://doi.org/10.7927/H4P26W1B",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4P26W1B",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
       "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504831-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:ac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "region-europe-file-gpwv3-data-centroids-type-csv": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Europe_file_gpwv3_data_centroids_type_csv",
-      "type": "application/octet-stream",
-      "title": "eu_gpwv3_centroids_csv.zip",
-      "description": "Europe circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+    "related-doi-10.7927-h4q23x5q": {
+      "href": "https://doi.org/10.7927/H4Q23X5Q",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4Q23X5Q",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
       "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504839-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:ac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "region-europe-file-gpwv3-data-centroids-type-shp": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Europe_file_gpwv3_data_centroids_type_shp",
-      "type": "application/octet-stream",
-      "title": "eu_gpwv3_centroids_shp.zip",
-      "description": "Europe circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+    "related-doi-10.7927-h4k935fc": {
+      "href": "https://doi.org/10.7927/H4K935FC",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4K935FC",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
       "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504850-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:ac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "region-africa-file-gpwv3-data-centroids-type-shp": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Africa_file_gpwv3_data_centroids_type_shp",
-      "type": "application/octet-stream",
-      "title": "af_gpwv3_centroids_shp.zip",
-      "description": "Africa circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+    "related-doi-10.7927-h4fj2dqn": {
+      "href": "https://doi.org/10.7927/H4FJ2DQN",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4FJ2DQN",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
       "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504852-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:ac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "region-asia-file-gpwv3-data-centroids-type-csv": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Asia_file_gpwv3_data_centroids_type_csv",
-      "type": "application/octet-stream",
-      "title": "as_gpwv3_centroids_csv.zip",
-      "description": "Asia circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+    "related-doi-10.7927-h49w0cdn": {
+      "href": "https://doi.org/10.7927/H49W0CDN",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H49W0CDN",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
       "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504853-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:ac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "region-oceania-file-gpwv3-data-centroids-type-csv": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Oceania_file_gpwv3_data_centroids_type_csv",
-      "type": "application/octet-stream",
-      "title": "oc_gpwv3_centroids_csv.zip",
-      "description": "Oceania circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+    "related-doi-10.7927-h4639mpp": {
+      "href": "https://doi.org/10.7927/H4639MPP",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4639MPP",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
       "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504854-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:ac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "region-africa-file-gpwv3-data-centroids-type-csv": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Africa_file_gpwv3_data_centroids_type_csv",
-      "type": "application/octet-stream",
-      "title": "af_gpwv3_centroids_csv.zip",
-      "description": "Africa circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+    "related-doi-10.7927-h42b8vzz": {
+      "href": "https://doi.org/10.7927/H42B8VZZ",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H42B8VZZ",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
       "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504856-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:ac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "region-oceania-file-gpwv3-data-centroids-type-shp": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Oceania_file_gpwv3_data_centroids_type_shp",
-      "type": "application/octet-stream",
-      "title": "oc_gpwv3_centroids_shp.zip",
-      "description": "Oceania circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+    "related-doi-10.7927-h4st7mrb": {
+      "href": "https://doi.org/10.7927/H4ST7MRB",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4ST7MRB",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
       "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504859-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:ac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "region-southamerica-file-gpwv3-data-centroids-type-shp": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_SouthAmerica_file_gpwv3_data_centroids_type_shp",
-      "type": "application/octet-stream",
-      "title": "sa_gpwv3_centroids_shp.zip",
-      "description": "South America circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
+    "metadata-document-documentation.jsp": {
+      "href": "http://sedac.ciesin.columbia.edu/gpw/documentation.jsp",
+      "type": "text/html",
+      "title": "documentation.jsp",
+      "description": "Documentation link from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
       "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504861-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "region-asia-file-gpwv3-data-centroids-type-shp": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Asia_file_gpwv3_data_centroids_type_shp",
-      "type": "application/octet-stream",
-      "title": "as_gpwv3_centroids_shp.zip",
-      "description": "Asia circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
-      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504862-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "region-global-file-gpwv3-data-centroids-type-csv": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_Global_file_gpwv3_data_centroids_type_csv",
-      "type": "application/octet-stream",
-      "title": "gl_gpwv3_centroids_csv.zip",
-      "description": "Global circa 2000 data in CSV format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
-      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504863-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "region-northamerica-file-gpwv3-data-centroids-type-shp": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/gpw/app/_region_NorthAmerica_file_gpwv3_data_centroids_type_shp",
-      "type": "application/octet-stream",
-      "title": "na_gpwv3_centroids_shp.zip",
-      "description": "North America circa 2000 data in SHP format from the Gridded Population of the World, Version 3 (GPWv3): Centroids data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4TT4NWQ",
-      "ciesin:harvard_doi": "10.7910/DVN/LGC360",
-      "ciesin:source_dataset_id": "C3552503612-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552504865-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:ac_doi": "10.7927/H4TT4NWQ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
     },
     "af-gpwv3-centroids-csv-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11812683",

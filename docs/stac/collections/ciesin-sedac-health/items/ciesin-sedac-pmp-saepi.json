@@ -203,727 +203,126 @@
     }
   ],
   "assets": {
-    "ecu-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/ECU_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "ECU_SAE_shapefile.zip",
-      "description": "Ecuador data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259405-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h49p2zkm": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H49P2ZKM",
-      "type": "application/octet-stream",
-      "title": "ECU_SAE_shapefile.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Poverty Mapping Project: Small Area Estimates of Poverty and Inequality.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H49P2ZKM",
       "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259405-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H49P2ZKM",
+      "ciesin:ac_doi": "10.7927/H49P2ZKM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "mdg-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MDG_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "MDG_SAE_shapefile.zip",
-      "description": "Madagascar data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/RKRW8Q",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Poverty Mapping Project: Small Area Estimates of Poverty and Inequality.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H49P2ZKM",
       "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259408-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H49P2ZKM",
+      "ciesin:ac_doi": "10.7927/H49P2ZKM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "nic-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/NIC_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "NIC_SAE_shapefile.zip",
-      "description": "Nicaragua data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
+    "related-doi-10.7927-h4pz56r2": {
+      "href": "https://doi.org/10.7927/H4PZ56R2",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4PZ56R2",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H49P2ZKM",
       "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259411-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H49P2ZKM",
+      "ciesin:ac_doi": "10.7927/H49P2ZKM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4k64g12": {
+      "href": "https://doi.org/10.7927/H4K64G12",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4K64G12",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
+      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
+      "ciesin:sedac_doi": "10.7927/H49P2ZKM",
+      "ciesin:ac_doi": "10.7927/H49P2ZKM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h45x26v8": {
+      "href": "https://doi.org/10.7927/H45X26V8",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H45X26V8",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
+      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
+      "ciesin:sedac_doi": "10.7927/H49P2ZKM",
+      "ciesin:ac_doi": "10.7927/H49P2ZKM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4ff3q9b": {
+      "href": "https://doi.org/10.7927/H4FF3Q9B",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4FF3Q9B",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
+      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
+      "ciesin:sedac_doi": "10.7927/H49P2ZKM",
+      "ciesin:ac_doi": "10.7927/H49P2ZKM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "metadata-document-methods_nat.jsp": {
+      "href": "http://www.ciesin.columbia.edu/povmap/methods_nat.jsp",
+      "type": "text/html",
+      "title": "methods_nat.jsp",
+      "description": "Documentation link from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
+      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
+      "ciesin:sedac_doi": "10.7927/H49P2ZKM",
+      "ciesin:ac_doi": "10.7927/H49P2ZKM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
     },
     "alb-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/ALB_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "ALB_SAE_Centroid.zip",
-      "description": "Albania Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259415-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "mar-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MAR_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "MAR_SAE_shapefile.zip",
-      "description": "Morocco data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259421-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "bgd-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/BGD_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "BGD_SAE_shapefile.zip",
-      "description": "Bangladesh data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259426-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "mwi-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MWI_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "MWI_SAE_Data_Table.zip",
-      "description": "Malawi Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259429-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "nic-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/NIC_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "NIC_SAE_Data_Table.zip",
-      "description": "Nicaragua Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259431-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "pse-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/PSE_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "PSE_SAE_Data_Table.zip",
-      "description": "West Bank and Gaza Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259434-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "mwi-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MWI_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "MWI_SAE_shapefile.zip",
-      "description": "Malawi data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259435-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "vnm-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/VNM_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "VNM_SAE_Centroid.zip",
-      "description": "Vietnam Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259437-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "mar-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MAR_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "MAR_SAE_Data_Table.zip",
-      "description": "Morocco Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259438-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "bgr-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/BGR_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "BGR_SAE_shapefile.zip",
-      "description": "Bulgaria data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259442-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "bgd-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/BGD_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "BGD_SAE_Data_Table.zip",
-      "description": "Bangladesh Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259444-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "ken-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/KEN_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "KEN_SAE_shapefile.zip",
-      "description": "Kenya data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259445-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "bol-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/BOL_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "BOL_SAE_Centroid.zip",
-      "description": "Bolivia Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259447-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "moz-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MOZ_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "MOZ_SAE_Data_Table.zip",
-      "description": "Mozambique Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259449-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "mdg-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MDG_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "MDG_SAE_Centroid.zip",
-      "description": "Madagascar Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259454-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "khm-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/KHM_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "KHM_SAE_Data_Table.zip",
-      "description": "Cambodia Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259459-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "gtm-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/GTM_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "GTM_SAE_shapefile.zip",
-      "description": "Guatemala data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259462-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "vnm-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/VNM_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "VNM_SAE_shapefile.zip",
-      "description": "Vietnam data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259467-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "ecu-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/ECU_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "ECU_SAE_Centroid.zip",
-      "description": "Ecuador Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259471-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "pse-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/PSE_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "PSE_SAE_shapefile.zip",
-      "description": "West Bank and Gaza data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259477-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "bgr-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/BGR_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "BGR_SAE_Centroid.zip",
-      "description": "Bulgaria Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259485-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "pse-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/PSE_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "PSE_SAE_Centroid.zip",
-      "description": "West Bank and Gaza Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259491-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "ken-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/KEN_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "KEN_SAE_Centroid.zip",
-      "description": "Kenya Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259497-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "bol-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/BOL_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "BOL_SAE_shapefile.zip",
-      "description": "Bolivia data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259503-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "khm-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/KHM_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "KHM_SAE_Centroid.zip",
-      "description": "Cambodia Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259524-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "moz-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MOZ_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "MOZ_SAE_Centroid.zip",
-      "description": "Mozambique Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259545-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "alb-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/ALB_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "ALB_SAE_shapefile.zip",
-      "description": "Albania data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259564-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "bgd-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/BGD_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "BGD_SAE_Centroid.zip",
-      "description": "Bangladesh Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259579-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "alb-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/ALB_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "ALB_SAE_Data_Table.zip",
-      "description": "Albania Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259589-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "mdg-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MDG_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "MDG_SAE_Data_Table.zip",
-      "description": "Madagascar Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259599-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "moz-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MOZ_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "MOZ_SAE_shapefile.zip",
-      "description": "Mozambique data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259612-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "ken-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/KEN_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "KEN_SAE_Data_Table.zip",
-      "description": "Kenya Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259625-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "bgr-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/BGR_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "BGR_SAE_Data_Table.zip",
-      "description": "Bulgaria Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259636-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "khm-sae-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/KHM_SAE_shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "KHM_SAE_shapefile.zip",
-      "description": "Cambodia data in Shapefile format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259662-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "vnm-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/VNM_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "VNM_SAE_Data_Table.zip",
-      "description": "Vietnam Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259689-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "gtm-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/GTM_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "GTM_SAE_Data_Table.zip",
-      "description": "Guatemala Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259714-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "ecu-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/ECU_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "ECU_SAE_Data_Table.zip",
-      "description": "Ecuador Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259742-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "bol-sae-data-table-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/BOL_SAE_Data_Table.zip",
-      "type": "application/x-zip-compressed",
-      "title": "BOL_SAE_Data_Table.zip",
-      "description": "Bolivia Data Table in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259771-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "mwi-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MWI_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "MWI_SAE_Centroid.zip",
-      "description": "Malawi Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259792-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "nic-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/NIC_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "NIC_SAE_Centroid.zip",
-      "description": "Nicaragua Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259812-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "mar-sae-centroid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/repository/povmap/ds_national/MAR_SAE_Centroid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "MAR_SAE_Centroid.zip",
-      "description": "Morocco Centroid data in CSV format from the Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49P2ZKM",
-      "ciesin:harvard_doi": "10.7910/DVN/RKRW8Q",
-      "ciesin:source_dataset_id": "C3550195013-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259835-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "alb-sae-centroid-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832019",
       "type": "application/zip",
       "title": "ALB_SAE_Centroid.zip",
@@ -943,7 +342,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "alb-sae-data-table-zip-2": {
+    "alb-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831996",
       "type": "application/zip",
       "title": "ALB_SAE_Data_Table.zip",
@@ -963,7 +362,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "alb-sae-shapefile-zip-2": {
+    "alb-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832014",
       "type": "application/zipped-shapefile",
       "title": "ALB_SAE_shapefile.zip",
@@ -983,7 +382,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "bgd-sae-centroid-zip-2": {
+    "bgd-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831999",
       "type": "application/zip",
       "title": "BGD_SAE_Centroid.zip",
@@ -1003,7 +402,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "bgd-sae-data-table-zip-2": {
+    "bgd-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832027",
       "type": "application/zip",
       "title": "BGD_SAE_Data_Table.zip",
@@ -1023,7 +422,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "bgd-sae-shapefile-zip-2": {
+    "bgd-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831993",
       "type": "application/zipped-shapefile",
       "title": "BGD_SAE_shapefile.zip",
@@ -1043,7 +442,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "bgr-sae-centroid-zip-2": {
+    "bgr-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832004",
       "type": "application/zip",
       "title": "BGR_SAE_Centroid.zip",
@@ -1063,7 +462,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "bgr-sae-data-table-zip-2": {
+    "bgr-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832018",
       "type": "application/zip",
       "title": "BGR_SAE_Data_Table.zip",
@@ -1083,7 +482,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "bgr-sae-shapefile-zip-2": {
+    "bgr-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832029",
       "type": "application/zipped-shapefile",
       "title": "BGR_SAE_shapefile.zip",
@@ -1103,7 +502,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "bol-sae-centroid-zip-2": {
+    "bol-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832020",
       "type": "application/zip",
       "title": "BOL_SAE_Centroid.zip",
@@ -1123,7 +522,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "bol-sae-data-table-zip-2": {
+    "bol-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832015",
       "type": "application/zip",
       "title": "BOL_SAE_Data_Table.zip",
@@ -1143,7 +542,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "bol-sae-shapefile-zip-2": {
+    "bol-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832010",
       "type": "application/zipped-shapefile",
       "title": "BOL_SAE_shapefile.zip",
@@ -1163,7 +562,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "ecu-sae-centroid-zip-2": {
+    "ecu-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831988",
       "type": "application/zip",
       "title": "ECU_SAE_Centroid.zip",
@@ -1183,7 +582,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "ecu-sae-data-table-zip-2": {
+    "ecu-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831990",
       "type": "application/zip",
       "title": "ECU_SAE_Data_Table.zip",
@@ -1203,7 +602,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "ecu-sae-shapefile-zip-2": {
+    "ecu-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832030",
       "type": "application/zipped-shapefile",
       "title": "ECU_SAE_shapefile.zip",
@@ -1223,7 +622,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "gtm-sae-data-table-zip-2": {
+    "gtm-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832016",
       "type": "application/zip",
       "title": "GTM_SAE_Data_Table.zip",
@@ -1243,7 +642,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "gtm-sae-shapefile-zip-2": {
+    "gtm-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832005",
       "type": "application/zipped-shapefile",
       "title": "GTM_SAE_shapefile.zip",
@@ -1263,7 +662,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "ken-sae-centroid-zip-2": {
+    "ken-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831997",
       "type": "application/zip",
       "title": "KEN_SAE_Centroid.zip",
@@ -1283,7 +682,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "ken-sae-data-table-zip-2": {
+    "ken-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832001",
       "type": "application/zip",
       "title": "KEN_SAE_Data_Table.zip",
@@ -1303,7 +702,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "ken-sae-shapefile-zip-2": {
+    "ken-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831992",
       "type": "application/zipped-shapefile",
       "title": "KEN_SAE_shapefile.zip",
@@ -1323,7 +722,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "khm-sae-centroid-zip-2": {
+    "khm-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831995",
       "type": "application/zip",
       "title": "KHM_SAE_Centroid.zip",
@@ -1343,7 +742,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "khm-sae-data-table-zip-2": {
+    "khm-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832000",
       "type": "application/zip",
       "title": "KHM_SAE_Data_Table.zip",
@@ -1363,7 +762,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "khm-sae-shapefile-zip-2": {
+    "khm-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832031",
       "type": "application/zipped-shapefile",
       "title": "KHM_SAE_shapefile.zip",
@@ -1383,7 +782,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "mar-sae-centroid-zip-2": {
+    "mar-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832003",
       "type": "application/zip",
       "title": "MAR_SAE_Centroid.zip",
@@ -1403,7 +802,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "mar-sae-data-table-zip-2": {
+    "mar-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832007",
       "type": "application/zip",
       "title": "MAR_SAE_Data_Table.zip",
@@ -1423,7 +822,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "mar-sae-shapefile-zip-2": {
+    "mar-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832022",
       "type": "application/zipped-shapefile",
       "title": "MAR_SAE_shapefile.zip",
@@ -1443,7 +842,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "mdg-sae-centroid-zip-2": {
+    "mdg-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832009",
       "type": "application/zip",
       "title": "MDG_SAE_Centroid.zip",
@@ -1463,7 +862,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "mdg-sae-data-table-zip-2": {
+    "mdg-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832025",
       "type": "application/zip",
       "title": "MDG_SAE_Data_Table.zip",
@@ -1483,7 +882,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "mdg-sae-shapefile-zip-2": {
+    "mdg-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832028",
       "type": "application/zipped-shapefile",
       "title": "MDG_SAE_shapefile.zip",
@@ -1503,7 +902,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "moz-sae-centroid-zip-2": {
+    "moz-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832013",
       "type": "application/zip",
       "title": "MOZ_SAE_Centroid.zip",
@@ -1523,7 +922,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "moz-sae-data-table-zip-2": {
+    "moz-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831991",
       "type": "application/zip",
       "title": "MOZ_SAE_Data_Table.zip",
@@ -1543,7 +942,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "moz-sae-shapefile-zip-2": {
+    "moz-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832023",
       "type": "application/zipped-shapefile",
       "title": "MOZ_SAE_shapefile.zip",
@@ -1563,7 +962,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "mwi-sae-centroid-zip-2": {
+    "mwi-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832012",
       "type": "application/zip",
       "title": "MWI_SAE_Centroid.zip",
@@ -1583,7 +982,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "mwi-sae-data-table-zip-2": {
+    "mwi-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831989",
       "type": "application/zip",
       "title": "MWI_SAE_Data_Table.zip",
@@ -1603,7 +1002,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "mwi-sae-shapefile-zip-2": {
+    "mwi-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831998",
       "type": "application/zipped-shapefile",
       "title": "MWI_SAE_shapefile.zip",
@@ -1623,7 +1022,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "nic-sae-centroid-zip-2": {
+    "nic-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832017",
       "type": "application/zip",
       "title": "NIC_SAE_Centroid.zip",
@@ -1643,7 +1042,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "nic-sae-data-table-zip-2": {
+    "nic-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832024",
       "type": "application/zip",
       "title": "NIC_SAE_Data_Table.zip",
@@ -1663,7 +1062,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "nic-sae-shapefile-zip-2": {
+    "nic-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832026",
       "type": "application/zipped-shapefile",
       "title": "NIC_SAE_shapefile.zip",
@@ -1683,7 +1082,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "pse-sae-centroid-zip-2": {
+    "pse-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832008",
       "type": "application/zip",
       "title": "PSE_SAE_Centroid.zip",
@@ -1703,7 +1102,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "pse-sae-data-table-zip-2": {
+    "pse-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832006",
       "type": "application/zip",
       "title": "PSE_SAE_Data_Table.zip",
@@ -1723,7 +1122,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "pse-sae-shapefile-zip-2": {
+    "pse-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832011",
       "type": "application/zipped-shapefile",
       "title": "PSE_SAE_shapefile.zip",
@@ -1743,7 +1142,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "vnm-sae-centroid-zip-2": {
+    "vnm-sae-centroid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831994",
       "type": "application/zip",
       "title": "VNM_SAE_Centroid.zip",
@@ -1763,7 +1162,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "vnm-sae-data-table-zip-2": {
+    "vnm-sae-data-table-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832021",
       "type": "application/zip",
       "title": "VNM_SAE_Data_Table.zip",
@@ -1783,7 +1182,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "vnm-sae-shapefile-zip-2": {
+    "vnm-sae-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832002",
       "type": "application/zipped-shapefile",
       "title": "VNM_SAE_shapefile.zip",

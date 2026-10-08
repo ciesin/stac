@@ -155,86 +155,75 @@
     }
   ],
   "assets": {
-    "wildareas-v3-1993-human-footprint-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wildareas-v3/wildareas-v3-1993-human-footprint/wildareas-v3-1993-human-footprint-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "wildareas-v3-1993-human-footprint-geotiff.zip",
-      "description": "Human Footprint data in GeoTIFF format for the year 1993 from the Last of the Wild Project, Version 3 (LWP-3): 1993 Human Footprint, 2018 Release data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H9938Z",
-      "ciesin:harvard_doi": "10.7910/DVN/BX3WJU",
-      "ciesin:source_dataset_id": "C3540911030-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259987-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4h9938z": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4H9938Z",
-      "type": "application/octet-stream",
-      "title": "wildareas-v3-1993-human-footprint-geotiff.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Last of the Wild Project, Version 3 (LWP-3): 1993 Human Footprint, 2018 Release.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4H9938Z",
       "ciesin:harvard_doi": "10.7910/DVN/BX3WJU",
-      "ciesin:source_dataset_id": "C3540911030-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259987-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4H9938Z",
+      "ciesin:ac_doi": "10.7927/H4H9938Z",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "wildareas-v3-1993-human-footprint-global-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v3/wildareas-v3-1993-human-footprint/wildareas-v3-1993-human-footprint-global.pdf",
-      "type": "application/pdf",
-      "title": "wildareas-v3-1993-human-footprint-geotiff.zip",
-      "description": "Global Human Footprint map for the year 1993 in PDF format from the Last of the Wild Project, Version 3 (LWP-3): 1993 Human Footprint, 2018 Releasedata set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/BX3WJU",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Last of the Wild Project, Version 3 (LWP-3): 1993 Human Footprint, 2018 Release.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4H9938Z",
       "ciesin:harvard_doi": "10.7910/DVN/BX3WJU",
-      "ciesin:source_dataset_id": "C3540911030-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259987-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4H9938Z",
+      "ciesin:ac_doi": "10.7927/H4H9938Z",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "wildareas-v3-1993-human-footprint-global-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v3/wildareas-v3-1993-human-footprint/wildareas-v3-1993-human-footprint-global.png",
-      "type": "image/png",
-      "title": "wildareas-v3-1993-human-footprint-geotiff.zip",
-      "description": "Global Human Footprint map for the year 1993 in PNG format from the Last of the Wild Project, Version 3 (LWP-3): 1993 Human Footprint, 2018 Releasedata set.",
+    "related-doi-10.1038-ncomms12558": {
+      "href": "https://doi.org/10.1038/ncomms12558",
+      "type": "text/html",
+      "title": "Related DOI: 10.1038/ncomms12558",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4H9938Z",
       "ciesin:harvard_doi": "10.7910/DVN/BX3WJU",
-      "ciesin:source_dataset_id": "C3540911030-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259987-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4H9938Z",
+      "ciesin:ac_doi": "10.7927/H4H9938Z",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "wildareas-v3-1993-human-footprint-global-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/wildareas-v3/wildareas-v3-1993-human-footprint/wildareas-v3-1993-human-footprint-global-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "wildareas-v3-1993-human-footprint-geotiff.zip",
+    "related-doi-10.7927-h46t0jq4": {
+      "href": "https://doi.org/10.7927/H46T0JQ4",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H46T0JQ4",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4H9938Z",
       "ciesin:harvard_doi": "10.7910/DVN/BX3WJU",
-      "ciesin:source_dataset_id": "C3540911030-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550259987-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:sedac_doi": "10.7927/H4H9938Z",
+      "ciesin:ac_doi": "10.7927/H4H9938Z",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "wildareas-v3-1993-human-footprint-geotiff-zip-2": {
+    "wildareas-v3-1993-human-footprint-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815578",
       "type": "application/zip",
       "title": "wildareas-v3-1993-human-footprint-geotiff.zip",

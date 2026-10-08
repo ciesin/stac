@@ -174,86 +174,109 @@
     }
   ],
   "assets": {
-    "gddrg-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ndh/ndh-drought-hazard-frequency-distribution/gddrg.zip",
-      "type": "application/x-zip-compressed",
-      "title": "gddrg.zip",
-      "description": "Data in ASCII format from the Global Drought Hazard Frequency and Distribution data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4VX0DFT",
-      "ciesin:harvard_doi": "10.7910/DVN/TRILJN",
-      "ciesin:source_dataset_id": "C3550185878-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550197899-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4vx0dft": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4VX0DFT",
-      "type": "application/octet-stream",
-      "title": "gddrg.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Drought Hazard Frequency and Distribution.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4VX0DFT",
       "ciesin:harvard_doi": "10.7910/DVN/TRILJN",
-      "ciesin:source_dataset_id": "C3550185878-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550197899-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4VX0DFT",
+      "ciesin:ac_doi": "10.7927/H4VX0DFT",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "drought-frequency-distribution-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-drought-hazard-frequency-distribution/drought-frequency-distribution.pdf",
-      "type": "application/pdf",
-      "title": "gddrg.zip",
-      "description": "Global map in PDF format from the Global Drought Hazard Frequency and Distribution data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/TRILJN",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Drought Hazard Frequency and Distribution.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4VX0DFT",
       "ciesin:harvard_doi": "10.7910/DVN/TRILJN",
-      "ciesin:source_dataset_id": "C3550185878-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550197899-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4VX0DFT",
+      "ciesin:ac_doi": "10.7927/H4VX0DFT",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "drought-frequency-distribution-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-drought-hazard-frequency-distribution/drought-frequency-distribution.png",
-      "type": "image/png",
-      "title": "gddrg.zip",
-      "description": "Global map in PNG format from the Global Drought Hazard Frequency and Distribution data set.",
+    "metadata-document-natural-disaster-hotspots-a-global-risk-analysis": {
+      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+      "type": "text/html",
+      "title": "Natural-disaster-hotspots-A-global-risk-analysis",
+      "description": "Documentation link from source metadata.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4VX0DFT",
       "ciesin:harvard_doi": "10.7910/DVN/TRILJN",
-      "ciesin:source_dataset_id": "C3550185878-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550197899-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4VX0DFT",
+      "ciesin:ac_doi": "10.7927/H4VX0DFT",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
     },
-    "drought-frequency-distribution-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-drought-hazard-frequency-distribution/drought-frequency-distribution-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "gddrg.zip",
+    "related-doi-10.7927-h4gq6vp4": {
+      "href": "https://doi.org/10.7927/H4GQ6VP4",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4GQ6VP4",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4VX0DFT",
       "ciesin:harvard_doi": "10.7910/DVN/TRILJN",
-      "ciesin:source_dataset_id": "C3550185878-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550197899-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:sedac_doi": "10.7927/H4VX0DFT",
+      "ciesin:ac_doi": "10.7927/H4VX0DFT",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "gddrg-zip-2": {
+    "related-doi-10.7927-h4r49nqv": {
+      "href": "https://doi.org/10.7927/H4R49NQV",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4R49NQV",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4VX0DFT",
+      "ciesin:harvard_doi": "10.7910/DVN/TRILJN",
+      "ciesin:sedac_doi": "10.7927/H4VX0DFT",
+      "ciesin:ac_doi": "10.7927/H4VX0DFT",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4mg7mdv": {
+      "href": "https://doi.org/10.7927/H4MG7MDV",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4MG7MDV",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4VX0DFT",
+      "ciesin:harvard_doi": "10.7910/DVN/TRILJN",
+      "ciesin:sedac_doi": "10.7927/H4VX0DFT",
+      "ciesin:ac_doi": "10.7927/H4VX0DFT",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "gddrg-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11787127",
       "type": "application/zip",
       "title": "gddrg.zip",

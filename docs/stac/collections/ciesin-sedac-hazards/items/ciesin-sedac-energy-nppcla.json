@@ -381,37 +381,73 @@
     }
   ],
   "assets": {
-    "energy-pop-exposure-nuclear-plants-country-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/energy/energy-pop-exposure-nuclear-plants-country/energy-pop-exposure-nuclear-plants-country.zip",
-      "type": "application/x-zip-compressed",
-      "title": "energy-pop-exposure-nuclear-plants-country.zip",
-      "description": "Tabular data in Excel format from the Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H41834D6",
-      "ciesin:harvard_doi": "10.7910/DVN/D7LXD0",
-      "ciesin:source_dataset_id": "C3550185898-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200443-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "472400a": {
-      "href": "https://doi.org/10.1038/472400a",
-      "type": "application/octet-stream",
-      "title": "energy-pop-exposure-nuclear-plants-country.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/H41834D6",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H41834D6",
       "ciesin:harvard_doi": "10.7910/DVN/D7LXD0",
-      "ciesin:source_dataset_id": "C3550185898-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200443-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H41834D6",
+      "ciesin:ac_doi": "10.7927/H41834D6",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/D7LXD0",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H41834D6",
+      "ciesin:harvard_doi": "10.7910/DVN/D7LXD0",
+      "ciesin:sedac_doi": "10.7927/H41834D6",
+      "ciesin:ac_doi": "10.7927/H41834D6",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.1038-472400a": {
+      "href": "https://doi.org/10.1038/472400a",
+      "type": "text/html",
+      "title": "Related DOI: 10.1038/472400a",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H41834D6",
+      "ciesin:harvard_doi": "10.7910/DVN/D7LXD0",
+      "ciesin:sedac_doi": "10.7927/H41834D6",
+      "ciesin:ac_doi": "10.7927/H41834D6",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4wh2mxh": {
+      "href": "https://doi.org/10.7927/H4WH2MXH",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4WH2MXH",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H41834D6",
+      "ciesin:harvard_doi": "10.7910/DVN/D7LXD0",
+      "ciesin:sedac_doi": "10.7927/H41834D6",
+      "ciesin:ac_doi": "10.7927/H41834D6",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "energy-pop-exposure-nuclear-plants-country-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11661542",

@@ -245,6 +245,36 @@
     }
   ],
   "assets": {
+    "sedac-ac-doi": {
+      "href": "https://doi.org/10.7916/9w2b-5m53",
+      "type": "text/html",
+      "title": "SEDAC or Academic Commons DOI landing page",
+      "description": "Dataset-level DOI landing page for GRID3 NER - Settlement Extents v3.0.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "sedac_or_ac_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/9w2b-5m53",
+      "ciesin:ac_doi": "10.7916/9w2b-5m53",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "sedac_or_ac_doi"
+    },
+    "related-doi-10.7916-nag1-wx08": {
+      "href": "https://doi.org/10.7916/nag1-wx08",
+      "type": "text/html",
+      "title": "Related DOI: 10.7916/nag1-wx08",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:sedac_doi": "10.7916/9w2b-5m53",
+      "ciesin:ac_doi": "10.7916/9w2b-5m53",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
     "download-1": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/2tyb-9r96/download",
       "type": "application/octet-stream",

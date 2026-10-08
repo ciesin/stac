@@ -273,150 +273,58 @@
     }
   ],
   "assets": {
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/H4ZG6QBX",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Historical Urban Population: 3700 BC - AD 2000.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4ZG6QBX",
+      "ciesin:harvard_doi": "10.7910/DVN/LMCQGX",
+      "ciesin:sedac_doi": "10.7927/H4ZG6QBX",
+      "ciesin:ac_doi": "10.7927/H4ZG6QBX",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/LMCQGX",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Historical Urban Population: 3700 BC - AD 2000.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4ZG6QBX",
+      "ciesin:harvard_doi": "10.7910/DVN/LMCQGX",
+      "ciesin:sedac_doi": "10.7927/H4ZG6QBX",
+      "ciesin:ac_doi": "10.7927/H4ZG6QBX",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.1038-sdata.2016.34": {
+      "href": "https://doi.org/10.1038/sdata.2016.34",
+      "type": "text/html",
+      "title": "Related DOI: 10.1038/sdata.2016.34",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4ZG6QBX",
+      "ciesin:harvard_doi": "10.7910/DVN/LMCQGX",
+      "ciesin:sedac_doi": "10.7927/H4ZG6QBX",
+      "ciesin:ac_doi": "10.7927/H4ZG6QBX",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
     "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx-xlsx": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-hist-urban-pop-3700bc-ad2000/urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx",
-      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "title": "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx",
-      "description": "Global Historical Urban Population in Excel format for the years 3700BC to AD2000 from the Historical Urban Population: 3700 BC - AD 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4ZG6QBX",
-      "ciesin:harvard_doi": "10.7910/DVN/LMCQGX",
-      "ciesin:source_dataset_id": "C3550192384-ESDIS",
-      "ciesin:source_granule_concept_id": "G3564948768-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4zg6qbx": {
-      "href": " https://doi.org/10.7927/H4ZG6QBX",
-      "type": "application/octet-stream",
-      "title": "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx",
-      "description": "DATA SET DOI URL and HOMEPAGE",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4ZG6QBX",
-      "ciesin:harvard_doi": "10.7910/DVN/LMCQGX",
-      "ciesin:source_dataset_id": "C3550192384-ESDIS",
-      "ciesin:source_granule_concept_id": "G3564948768-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "urbanspatial-hist-urban-pop-3700bc-ad2000-earliest-recorded-year-pdf": {
-      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/urbanspatialurbanspatial-hist-urban-pop-3700bc-ad2000/urbanspatial-hist-urban-pop-3700bc-ad2000-earliest-recorded-year.pdf",
-      "type": "application/pdf",
-      "title": "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx",
-      "description": "Historical Urban Population, 3700 BC - AD 2000: Earliest Recorded Year map in PDF format from the Historical Urban Population: 3700 BC - AD 2000 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4ZG6QBX",
-      "ciesin:harvard_doi": "10.7910/DVN/LMCQGX",
-      "ciesin:source_dataset_id": "C3550192384-ESDIS",
-      "ciesin:source_granule_concept_id": "G3564948768-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "urbanspatial-hist-urban-pop-3700bc-ad2000-latest-recorded-year-pdf": {
-      "href": "https://sedac.ciesin.columbia.edu/downloads/map in PDF format s/urbanspatial/urbanspatial-hist-urban-pop-3700bc-ad2000/urbanspatial-hist-urban-pop-3700bc-ad2000-latest-recorded-year.pdf",
-      "type": "application/pdf",
-      "title": "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx",
-      "description": "Historical Urban Population, 3700 BC - AD 2000: Latest Recorded Year map in PDF format from the Historical Urban Population: 3700 BC - AD 2000 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4ZG6QBX",
-      "ciesin:harvard_doi": "10.7910/DVN/LMCQGX",
-      "ciesin:source_dataset_id": "C3550192384-ESDIS",
-      "ciesin:source_granule_concept_id": "G3564948768-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "urbanspatial-hist-urban-pop-3700bc-ad2000-number-records-pdf": {
-      "href": "https://sedac.ciesin.columbia.edu/downloads/map in PDF format s/urbanspatial/urbanspatial-hist-urban-pop-3700bc-ad2000/urbanspatial-hist-urban-pop-3700bc-ad2000-number-records.pdf",
-      "type": "application/pdf",
-      "title": "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx",
-      "description": "Historical Urban Population, 3700 BC - AD 2000: Number of Records map in PDF format from the Historical Urban Population: 3700 BC - AD 2000 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4ZG6QBX",
-      "ciesin:harvard_doi": "10.7910/DVN/LMCQGX",
-      "ciesin:source_dataset_id": "C3550192384-ESDIS",
-      "ciesin:source_granule_concept_id": "G3564948768-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "urbanspatial-hist-urban-pop-3700bc-ad2000-earliest-recorded-year-png": {
-      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/urbanspatialurbanspatial-hist-urban-pop-3700bc-ad2000/urbanspatial-hist-urban-pop-3700bc-ad2000-earliest-recorded-year.png",
-      "type": "image/png",
-      "title": "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx",
-      "description": "Historical Urban Population, 3700 BC - AD 2000: Earliest Recorded Year map in PNG format from the Historical Urban Population: 3700 BC - AD 2000 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4ZG6QBX",
-      "ciesin:harvard_doi": "10.7910/DVN/LMCQGX",
-      "ciesin:source_dataset_id": "C3550192384-ESDIS",
-      "ciesin:source_granule_concept_id": "G3564948768-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "urbanspatial-hist-urban-pop-3700bc-ad2000-latest-recorded-year-png": {
-      "href": "https://sedac.ciesin.columbia.edu/downloads/map in PNG format s/urbanspatial/urbanspatial-hist-urban-pop-3700bc-ad2000/urbanspatial-hist-urban-pop-3700bc-ad2000-latest-recorded-year.png",
-      "type": "image/png",
-      "title": "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx",
-      "description": "Historical Urban Population, 3700 BC - AD 2000: Latest Recorded Year map in PNG format from the Historical Urban Population: 3700 BC - AD 2000 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4ZG6QBX",
-      "ciesin:harvard_doi": "10.7910/DVN/LMCQGX",
-      "ciesin:source_dataset_id": "C3550192384-ESDIS",
-      "ciesin:source_granule_concept_id": "G3564948768-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "urbanspatial-hist-urban-pop-3700bc-ad2000-number-records-png": {
-      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/urbanspatial/urbanspatial-hist-urban-pop-3700bc-ad2000/urbanspatial-hist-urban-pop-3700bc-ad2000-number-records.png",
-      "type": "image/png",
-      "title": "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx",
-      "description": "Historical Urban Population, 3700 BC - AD 2000: Number of Records map from the Historical Urban Population: 3700 BC - AD 2000 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4ZG6QBX",
-      "ciesin:harvard_doi": "10.7910/DVN/LMCQGX",
-      "ciesin:source_dataset_id": "C3550192384-ESDIS",
-      "ciesin:source_granule_concept_id": "G3564948768-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "urbanspatial-hist-urban-pop-3700bc-ad2000-number-records-thumbnail-jpg": {
-      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/urbanspatial/urbanspatial-hist-urban-pop-3700bc-ad2000/urbanspatial-hist-urban-pop-3700bc-ad2000-number-records-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4ZG6QBX",
-      "ciesin:harvard_doi": "10.7910/DVN/LMCQGX",
-      "ciesin:source_dataset_id": "C3550192384-ESDIS",
-      "ciesin:source_granule_concept_id": "G3564948768-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx-xlsx-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815396",
       "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "title": "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx",

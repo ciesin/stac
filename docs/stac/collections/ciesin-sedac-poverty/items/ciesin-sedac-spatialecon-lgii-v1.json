@@ -140,39 +140,58 @@
     }
   ],
   "assets": {
-    "spatialecon-lgii-measures-v1-xlsx-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/spatialecon/spatialecon-lgii-measures-v1/spatialecon-lgii-measures-v1-xlsx.zip",
-      "type": "application/x-zip-compressed",
-      "title": "spatialecon-lgii-measures-v1/spatialecon-lgii-measures-v1-xlsx.zip",
-      "description": "Global data in Excel format for the years 1992 - 2013 from the Global Database of Light-based Geospatial Income Inequality (LGII) Measures, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/KD8B-2376",
-      "ciesin:harvard_doi": "10.7910/DVN/SEGPER",
-      "ciesin:source_dataset_id": "C3540929863-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551709554-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "kd8b-2376": {
-      "href": "https://doi.org/10.7927/kd8b-2376",
-      "type": "application/octet-stream",
-      "title": "spatialecon-lgii-measures-v1/spatialecon-lgii-measures-v1-xlsx.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/KD8B-2376",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Database of Light-based Geospatial Income Inequality (LGII) Measures, Version 1.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/KD8B-2376",
       "ciesin:harvard_doi": "10.7910/DVN/SEGPER",
-      "ciesin:source_dataset_id": "C3540929863-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551709554-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/kd8b-2376",
+      "ciesin:ac_doi": "10.7927/kd8b-2376",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "spatialecon-lgii-measures-v1-xlsx-zip-2": {
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/SEGPER",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Database of Light-based Geospatial Income Inequality (LGII) Measures, Version 1.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/KD8B-2376",
+      "ciesin:harvard_doi": "10.7910/DVN/SEGPER",
+      "ciesin:sedac_doi": "10.7927/kd8b-2376",
+      "ciesin:ac_doi": "10.7927/kd8b-2376",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.1093-wber-lhad026": {
+      "href": "https://doi.org/10.1093/wber/lhad026",
+      "type": "text/html",
+      "title": "Related DOI: 10.1093/wber/lhad026",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/KD8B-2376",
+      "ciesin:harvard_doi": "10.7910/DVN/SEGPER",
+      "ciesin:sedac_doi": "10.7927/kd8b-2376",
+      "ciesin:ac_doi": "10.7927/kd8b-2376",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "spatialecon-lgii-measures-v1-xlsx-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11783951",
       "type": "application/zip",
       "title": "spatialecon-lgii-measures-v1-xlsx.zip",

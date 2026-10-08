@@ -416,88 +416,143 @@
     }
   ],
   "assets": {
-    "csi-ancillarydata-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/cesic/cesic-national-footprint-accounts-2006/csi-ancillarydata.zip",
-      "type": "application/x-zip-compressed",
-      "title": "csi-ancillarydata.zip",
-      "description": "Tabular data in CSV format from the Compendium of Environmental Sustainability Indicator Collections: Ancillary Data data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4B56GNC",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZXP2H",
-      "ciesin:source_dataset_id": "C3550191850-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200194-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4b56gnc": {
-      "href": " https://doi.org/10.7927/H4B56GNC",
-      "type": "application/octet-stream",
-      "title": "csi-ancillarydata.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/H4B56GNC",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Compendium of Environmental Sustainability Indicator Collections: Ancillary Data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4B56GNC",
       "ciesin:harvard_doi": "10.7910/DVN/5ZXP2H",
-      "ciesin:source_dataset_id": "C3550191850-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200194-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4B56GNC",
+      "ciesin:ac_doi": "10.7927/H4B56GNC",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "csi-data-dictionary-v1-1-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/cesic/cesic-national-footprint-accounts-2006/csi-data-dictionary-v1-1.zip",
-      "type": "application/x-zip-compressed",
-      "title": "csi-data-dictionary-v1-1.zip",
-      "description": "SEDAC Compendium Data Dictionary in SAV format from the Compendium of Environmental Sustainability Indicator Collections: Ancillary Data data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/5ZXP2H",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Compendium of Environmental Sustainability Indicator Collections: Ancillary Data.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4B56GNC",
       "ciesin:harvard_doi": "10.7910/DVN/5ZXP2H",
-      "ciesin:source_dataset_id": "C3550191850-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200202-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4B56GNC",
+      "ciesin:ac_doi": "10.7927/H4B56GNC",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "csi-data-dictionary-v1-1-doc": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/cesic/cesic-national-footprint-accounts-2006/csi-data-dictionary-v1-1.doc",
-      "type": "application/msword",
-      "title": "csi-data-dictionary-v1-1.doc",
-      "description": "SEDAC Compendium Data Dictionary in DTA format from the Compendium of Environmental Sustainability Indicator Collections: Ancillary Data data set.",
+    "related-doi-10.7927-h45h7d60": {
+      "href": "https://doi.org/10.7927/H45H7D60",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H45H7D60",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4B56GNC",
       "ciesin:harvard_doi": "10.7910/DVN/5ZXP2H",
-      "ciesin:source_dataset_id": "C3550191850-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200209-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4B56GNC",
+      "ciesin:ac_doi": "10.7927/H4B56GNC",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "csi-data-dictionary-v1-1-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/cesic/cesic-national-footprint-accounts-2006/csi-data-dictionary-v1-1.pdf",
+    "metadata-document-evi2004technicareport.pdf": {
+      "href": "https://www.sopac.org/sopac/evi/Files/EVI2004TechnicaReport.pdf",
       "type": "application/pdf",
-      "title": "csi-data-dictionary-v1-1.pdf",
-      "description": "SEDAC Compendium Data Dictionary in ACCDB format from the Compendium of Environmental Sustainability Indicator Collections: Ancillary Data data set.",
+      "title": "EVI2004TechnicaReport.pdf",
+      "description": "Documentation link from source metadata.",
       "roles": [
-        "data",
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4B56GNC",
       "ciesin:harvard_doi": "10.7910/DVN/5ZXP2H",
-      "ciesin:source_dataset_id": "C3550191850-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200212-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4B56GNC",
+      "ciesin:ac_doi": "10.7927/H4B56GNC",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
     },
-    "csi-ancillarydata-zip-2": {
+    "related-doi-10.7927-h4ms3qnt": {
+      "href": "https://doi.org/10.7927/H4MS3QNT",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4MS3QNT",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4B56GNC",
+      "ciesin:harvard_doi": "10.7910/DVN/5ZXP2H",
+      "ciesin:sedac_doi": "10.7927/H4B56GNC",
+      "ciesin:ac_doi": "10.7927/H4B56GNC",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4rf5rzt": {
+      "href": "https://doi.org/10.7927/H4RF5RZT",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4RF5RZT",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4B56GNC",
+      "ciesin:harvard_doi": "10.7910/DVN/5ZXP2H",
+      "ciesin:sedac_doi": "10.7927/H4B56GNC",
+      "ciesin:ac_doi": "10.7927/H4B56GNC",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h46d5qxn": {
+      "href": "https://doi.org/10.7927/H46D5QXN",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H46D5QXN",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4B56GNC",
+      "ciesin:harvard_doi": "10.7910/DVN/5ZXP2H",
+      "ciesin:sedac_doi": "10.7927/H4B56GNC",
+      "ciesin:ac_doi": "10.7927/H4B56GNC",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h42n506q": {
+      "href": "https://doi.org/10.7927/H42N506Q",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H42N506Q",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4B56GNC",
+      "ciesin:harvard_doi": "10.7910/DVN/5ZXP2H",
+      "ciesin:sedac_doi": "10.7927/H4B56GNC",
+      "ciesin:ac_doi": "10.7927/H4B56GNC",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "csi-ancillarydata-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11905223",
       "type": "application/zip",
       "title": "csi-ancillarydata.zip",
@@ -517,7 +572,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "csi-data-dictionary-v1-1-doc-2": {
+    "csi-data-dictionary-v1-1-doc": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715718",
       "type": "application/msword",
       "title": "csi-data-dictionary-v1-1.doc",
@@ -537,7 +592,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "MS Word"
     },
-    "csi-data-dictionary-v1-1-pdf-2": {
+    "csi-data-dictionary-v1-1-pdf": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715720",
       "type": "application/pdf",
       "title": "csi-data-dictionary-v1-1.pdf",
@@ -557,7 +612,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Adobe PDF"
     },
-    "csi-data-dictionary-v1-1-zip-2": {
+    "csi-data-dictionary-v1-1-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715719",
       "type": "application/zip",
       "title": "csi-data-dictionary-v1-1.zip",

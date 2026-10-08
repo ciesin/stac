@@ -210,86 +210,143 @@
     }
   ],
   "assets": {
-    "gddrgpro-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ndh/ndh-drought-proportional-economic-loss-risk-deciles/gddrgpro.zip",
-      "type": "application/x-zip-compressed",
-      "title": "gddrgmrt.zip",
-      "description": "Raster data in ASCII formats from the Global Drought Proportional Economic Loss Risk Deciles data set.",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/H4R49NQV",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Drought Mortality Risks and Distribution.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4R49NQV",
       "ciesin:harvard_doi": "10.7910/DVN/KW16WL",
-      "ciesin:source_dataset_id": "C3550188048-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278762-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4R49NQV",
+      "ciesin:ac_doi": "10.7927/H4R49NQV",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "h4mg7mdv": {
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/KW16WL",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Drought Mortality Risks and Distribution.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4R49NQV",
+      "ciesin:harvard_doi": "10.7910/DVN/KW16WL",
+      "ciesin:sedac_doi": "10.7927/H4R49NQV",
+      "ciesin:ac_doi": "10.7927/H4R49NQV",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "metadata-document-natural-disaster-hotspots-a-global-risk-analysis": {
+      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+      "type": "text/html",
+      "title": "Natural-disaster-hotspots-A-global-risk-analysis",
+      "description": "Documentation link from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4R49NQV",
+      "ciesin:harvard_doi": "10.7910/DVN/KW16WL",
+      "ciesin:sedac_doi": "10.7927/H4R49NQV",
+      "ciesin:ac_doi": "10.7927/H4R49NQV",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
+    },
+    "related-doi-10.7927-h4vx0dft": {
+      "href": "https://doi.org/10.7927/H4VX0DFT",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4VX0DFT",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4R49NQV",
+      "ciesin:harvard_doi": "10.7910/DVN/KW16WL",
+      "ciesin:sedac_doi": "10.7927/H4R49NQV",
+      "ciesin:ac_doi": "10.7927/H4R49NQV",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4gq6vp4": {
+      "href": "https://doi.org/10.7927/H4GQ6VP4",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4GQ6VP4",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4R49NQV",
+      "ciesin:harvard_doi": "10.7910/DVN/KW16WL",
+      "ciesin:sedac_doi": "10.7927/H4R49NQV",
+      "ciesin:ac_doi": "10.7927/H4R49NQV",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4mg7mdv": {
       "href": "https://doi.org/10.7927/H4MG7MDV",
-      "type": "application/octet-stream",
-      "title": "gddrgmrt.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4MG7MDV",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4R49NQV",
       "ciesin:harvard_doi": "10.7910/DVN/KW16WL",
-      "ciesin:source_dataset_id": "C3550188048-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278762-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4R49NQV",
+      "ciesin:ac_doi": "10.7927/H4R49NQV",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "drought-proportional-economic-loss-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-drought-proportional-economic-loss-risk-deciles/drought-proportional-economic-loss.pdf",
-      "type": "application/pdf",
-      "title": "gddrgmrt.zip",
-      "description": "Global map in PDF format from the Global Drought Proportional Economic Loss Risk Deciles data set.",
+    "metadata-document-the-world-factbook": {
+      "href": "https://www.cia.gov/library/publications/the-world-factbook/",
+      "type": "text/html",
+      "title": "the-world-factbook",
+      "description": "Documentation link from source metadata.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4R49NQV",
       "ciesin:harvard_doi": "10.7910/DVN/KW16WL",
-      "ciesin:source_dataset_id": "C3550188048-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278762-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4R49NQV",
+      "ciesin:ac_doi": "10.7927/H4R49NQV",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
     },
-    "drought-proportional-economic-loss-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-drought-proportional-economic-loss-risk-deciles/drought-proportional-economic-loss.png",
-      "type": "image/png",
-      "title": "gddrgmrt.zip",
-      "description": "Global map in PNG format from the Global Drought Proportional Economic Loss Risk Deciles data set.",
+    "related-doi-10.7927-h4639mpp": {
+      "href": "https://doi.org/10.7927/H4639MPP",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4639MPP",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4R49NQV",
       "ciesin:harvard_doi": "10.7910/DVN/KW16WL",
-      "ciesin:source_dataset_id": "C3550188048-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278762-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4R49NQV",
+      "ciesin:ac_doi": "10.7927/H4R49NQV",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "drought-proportional-economic-loss-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-drought-proportional-economic-loss-risk-deciles/drought-proportional-economic-loss-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "gddrgmrt.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4R49NQV",
-      "ciesin:harvard_doi": "10.7910/DVN/KW16WL",
-      "ciesin:source_dataset_id": "C3550188048-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278762-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "gddrgpro-zip-2": {
+    "gddrgpro-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11787128",
       "type": "application/zip",
       "title": "gddrgpro.zip",

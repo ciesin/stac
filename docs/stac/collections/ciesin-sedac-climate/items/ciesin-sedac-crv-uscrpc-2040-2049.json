@@ -165,102 +165,58 @@
     }
   ],
   "assets": {
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/ABR8-V666",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for U.S. Climate Risk Projections by County, 2040-2049.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/ABR8-V666",
+      "ciesin:harvard_doi": "10.7910/DVN/CUA92C",
+      "ciesin:sedac_doi": "10.7927/abr8-v666",
+      "ciesin:ac_doi": "10.7927/abr8-v666",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/CUA92C",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for U.S. Climate Risk Projections by County, 2040-2049.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/ABR8-V666",
+      "ciesin:harvard_doi": "10.7910/DVN/CUA92C",
+      "ciesin:sedac_doi": "10.7927/abr8-v666",
+      "ciesin:ac_doi": "10.7927/abr8-v666",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.1007-s11069-020-04385-y": {
+      "href": "https://doi.org/10.1007/s11069-020-04385-y",
+      "type": "text/html",
+      "title": "Related DOI: 10.1007/s11069-020-04385-y",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/ABR8-V666",
+      "ciesin:harvard_doi": "10.7910/DVN/CUA92C",
+      "ciesin:sedac_doi": "10.7927/abr8-v666",
+      "ciesin:ac_doi": "10.7927/abr8-v666",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
     "crv-us-climate-risk-proj-county-2040-2049-shp-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/crv/crv-us-climate-risk-proj-county-2040-2049/crv-us-climate-risk-proj-county-2040-2049-shp.zip",
-      "type": "application/x-zip-compressed",
-      "title": "crv-us-climate-risk-proj-county-2040-2049-shp.zip",
-      "description": "Climate Risk Projection data in Shapefile format for the years 2040-2049 from the U.S. Climate Risk Projections by County, 2040-2049 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/ABR8-V666",
-      "ciesin:harvard_doi": "10.7910/DVN/CUA92C",
-      "ciesin:source_dataset_id": "C3540910480-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553499991-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "abr8-v666": {
-      "href": "https://doi.org/10.7927/abr8-v666",
-      "type": "application/octet-stream",
-      "title": "crv-us-climate-risk-proj-county-2040-2049-shp.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/ABR8-V666",
-      "ciesin:harvard_doi": "10.7910/DVN/CUA92C",
-      "ciesin:source_dataset_id": "C3540910480-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553499991-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "crv-us-climate-risk-proj-county-2040-2049-vulnerability-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/crv/crv-us-climate-risk-proj-county-2040-2049/crv-us-climate-risk-proj-county-2040-2049-vulnerability.pdf",
-      "type": "application/pdf",
-      "title": "crv-us-climate-risk-proj-county-2040-2049-shp.zip",
-      "description": "Vulnerability map for the years 2040-2049 in PDF format from the U.S. Climate Risk Projections by County, 2040-2049data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/ABR8-V666",
-      "ciesin:harvard_doi": "10.7910/DVN/CUA92C",
-      "ciesin:source_dataset_id": "C3540910480-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553499991-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "crv-us-climate-risk-proj-county-2040-2049-vulnerability-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/crv/crv-us-climate-risk-proj-county-2040-2049/crv-us-climate-risk-proj-county-2040-2049-vulnerability.png",
-      "type": "image/png",
-      "title": "crv-us-climate-risk-proj-county-2040-2049-shp.zip",
-      "description": "Vulnerability map for the years 2002-2016 in PNG format from the U.S. Climate Risk Projections by County, 2040-2049 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/ABR8-V666",
-      "ciesin:harvard_doi": "10.7910/DVN/CUA92C",
-      "ciesin:source_dataset_id": "C3540910480-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553499991-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "crv-us-climate-risk-proj-county-2040-2049-vulnerability-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/crv/crv-us-climate-risk-proj-county-2040-2049/crv-us-climate-risk-proj-county-2040-2049-vulnerability-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "crv-us-climate-risk-proj-county-2040-2049-shp.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/ABR8-V666",
-      "ciesin:harvard_doi": "10.7910/DVN/CUA92C",
-      "ciesin:source_dataset_id": "C3540910480-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553499991-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "crv-us-climate-risk-proj-county-2040-2049-xlsx-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/crv/crv-us-climate-risk-proj-county-2040-2049/crv-us-climate-risk-proj-county-2040-2049-xlsx.zip",
-      "type": "application/x-zip-compressed",
-      "title": "crv-us-climate-risk-proj-county-2040-2049-xlsx.zip",
-      "description": "Climate Risk Projection data in Excel format for the years 2040-2049 from the U.S. Climate Risk Projections by County, 2040-2049 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/ABR8-V666",
-      "ciesin:harvard_doi": "10.7910/DVN/CUA92C",
-      "ciesin:source_dataset_id": "C3540910480-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553499994-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "crv-us-climate-risk-proj-county-2040-2049-shp-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11835850",
       "type": "application/zipped-shapefile",
       "title": "crv-us-climate-risk-proj-county-2040-2049-shp.zip",
@@ -280,7 +236,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "crv-us-climate-risk-proj-county-2040-2049-xlsx-zip-2": {
+    "crv-us-climate-risk-proj-county-2040-2049-xlsx-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11835851",
       "type": "application/zip",
       "title": "crv-us-climate-risk-proj-county-2040-2049-xlsx.zip",

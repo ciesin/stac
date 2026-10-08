@@ -399,84 +399,192 @@
     }
   ],
   "assets": {
-    "air-quality-xls": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2014/air-quality.xls",
-      "type": "application/vnd.ms-excel",
-      "title": "air-quality.xls",
-      "description": "Air Quality data in Excel format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607978-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4416v05": {
-      "href": " https://doi.org/10.7927/H4416V05",
-      "type": "application/octet-stream",
-      "title": "air-quality.xls",
-      "description": "Data Set DOI URL and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/H4416V05",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for 2014 Environmental Performance Index (EPI).",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4416V05",
       "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607978-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4416V05",
+      "ciesin:ac_doi": "10.7927/H4416V05",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "epi2014-eh-air-quality-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-eh-air-quality.pdf",
-      "type": "application/pdf",
-      "title": "air-quality.xls",
-      "description": "Global Environmental Health - Air Quality map in PDF format from the 2014 Environmental Performance Index (EPI) data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/OZZG09",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for 2014 Environmental Performance Index (EPI).",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4416V05",
       "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607978-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4416V05",
+      "ciesin:ac_doi": "10.7927/H4416V05",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "epi2014-eh-air-quality-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-eh-air-quality.png",
-      "type": "image/png",
-      "title": "air-quality.xls",
-      "description": "Global Environmental Health - Air Quality map in PNG format from the 2014 Environmental Performance Index (EPI) data set.",
+    "related-doi-10.7927-h44m92gx": {
+      "href": "https://doi.org/10.7927/H44M92GX",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H44M92GX",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4416V05",
       "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607978-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4416V05",
+      "ciesin:ac_doi": "10.7927/H4416V05",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "epi2014-eh-air-quality-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-eh-air-quality-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "air-quality.xls",
+    "related-doi-10.7927-h4ht2m77": {
+      "href": "https://doi.org/10.7927/H4HT2M77",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4HT2M77",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4416V05",
       "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607978-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:sedac_doi": "10.7927/H4416V05",
+      "ciesin:ac_doi": "10.7927/H4416V05",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4d21vht": {
+      "href": "https://doi.org/10.7927/H4D21VHT",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4D21VHT",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4416V05",
+      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
+      "ciesin:sedac_doi": "10.7927/H4416V05",
+      "ciesin:ac_doi": "10.7927/H4416V05",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h48913sg": {
+      "href": "https://doi.org/10.7927/H48913SG",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H48913SG",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4416V05",
+      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
+      "ciesin:sedac_doi": "10.7927/H4416V05",
+      "ciesin:ac_doi": "10.7927/H4416V05",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4fx77cs": {
+      "href": "https://doi.org/10.7927/H4FX77CS",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4FX77CS",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4416V05",
+      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
+      "ciesin:sedac_doi": "10.7927/H4416V05",
+      "ciesin:ac_doi": "10.7927/H4416V05",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.13140-rg.2.2.19868.90249": {
+      "href": "https://doi.org/10.13140/RG.2.2.19868.90249",
+      "type": "text/html",
+      "title": "Related DOI: 10.13140/RG.2.2.19868.90249",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4416V05",
+      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
+      "ciesin:sedac_doi": "10.7927/H4416V05",
+      "ciesin:ac_doi": "10.7927/H4416V05",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4x928cf": {
+      "href": "https://doi.org/10.7927/H4X928CF",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4X928CF",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4416V05",
+      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
+      "ciesin:sedac_doi": "10.7927/H4416V05",
+      "ciesin:ac_doi": "10.7927/H4416V05",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-f54c-0r44": {
+      "href": "https://doi.org/10.7927/f54c-0r44",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/f54c-0r44",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4416V05",
+      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
+      "ciesin:sedac_doi": "10.7927/H4416V05",
+      "ciesin:ac_doi": "10.7927/H4416V05",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.13140-rg.2.2.21182.51529": {
+      "href": "https://doi.org/10.13140/RG.2.2.21182.51529",
+      "type": "text/html",
+      "title": "Related DOI: 10.13140/RG.2.2.21182.51529",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4416V05",
+      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
+      "ciesin:sedac_doi": "10.7927/H4416V05",
+      "ciesin:ac_doi": "10.7927/H4416V05",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "2014-epi-full-report-final-pdf": {
       "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2014/2014-epi-full-report-final.pdf",
@@ -487,13 +595,13 @@
         "data",
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:source": "nasa_cmr_document_link",
       "ciesin:asset_match_status": "existing_ciesin_asset",
       "ciesin:nasa_doi": "10.7927/H4416V05",
       "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
       "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607984-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:source_relation_type": "GET DATA",
+      "ciesin:source_relation_subtype": "documentation_link"
     },
     "epi2014-pdf": {
       "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014.pdf",
@@ -503,13 +611,13 @@
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:source": "nasa_cmr_document_link",
       "ciesin:asset_match_status": "existing_ciesin_asset",
       "ciesin:nasa_doi": "10.7927/H4416V05",
       "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
       "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607984-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION",
+      "ciesin:source_relation_subtype": "documentation_link"
     },
     "epi2014-png": {
       "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014.png",
@@ -519,13 +627,13 @@
       "roles": [
         "overview"
       ],
-      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:source": "nasa_cmr_document_link",
       "ciesin:asset_match_status": "existing_ciesin_asset",
       "ciesin:nasa_doi": "10.7927/H4416V05",
       "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
       "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607984-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:source_relation_type": "VIEW RELATED INFORMATION",
+      "ciesin:source_relation_subtype": "documentation_link"
     },
     "epi2014-thumbnail-jpg": {
       "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-thumbnail.jpg",
@@ -534,13 +642,13 @@
       "roles": [
         "thumbnail"
       ],
-      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:source": "nasa_cmr_document_link",
       "ciesin:asset_match_status": "existing_ciesin_asset",
       "ciesin:nasa_doi": "10.7927/H4416V05",
       "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
       "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607984-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:source_relation_type": "GET RELATED VISUALIZATION",
+      "ciesin:source_relation_subtype": "documentation_link"
     },
     "2014-epi-metadata-pdf": {
       "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/2014-epi-metadata.pdf/",
@@ -551,533 +659,13 @@
         "data",
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:source": "nasa_cmr_document_link",
       "ciesin:asset_match_status": "existing_ciesin_asset",
       "ciesin:nasa_doi": "10.7927/H4416V05",
       "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
       "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607986-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "2014-epi-xls-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2014/2014-epi-xls.zip",
-      "type": "application/x-zip-compressed",
-      "title": "2014-epi-xls.zip",
-      "description": "2014 EPI data in Excel format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607989-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "health-impacts-xls": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2014/health-impacts.xls",
-      "type": "application/vnd.ms-excel",
-      "title": "health-impacts.xls",
-      "description": "Health Impacts data in Excel format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607990-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "epi2014-eh-health-impact-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-eh-health-impact.pdf",
-      "type": "application/pdf",
-      "title": "health-impacts.xls",
-      "description": "Global Ecosystem Vitality - Climate and Energy map in PDF format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607990-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-eh-health-impact-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-eh-health-impact.png",
-      "type": "image/png",
-      "title": "health-impacts.xls",
-      "description": "Global Ecosystem Vitality - Climate and Energy map in PNG format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607990-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-eh-health-impact-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-eh-health-impact-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "health-impacts.xls",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607990-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "water-and-sanitation-xls": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2014/water-and-sanitation.xls",
-      "type": "application/vnd.ms-excel",
-      "title": "water-and-sanitation.xls",
-      "description": "Water and Sanitation data in Excel format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607992-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "epi2014-eh-water-and-sanitation-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-eh-water-and-sanitation.pdf",
-      "type": "application/pdf",
-      "title": "water-and-sanitation.xls",
-      "description": "Global Environmental Health - Health Impacts map in PDF format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607992-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-eh-water-and-sanitation-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-eh-water-and-sanitation.png",
-      "type": "image/png",
-      "title": "water-and-sanitation.xls",
-      "description": "Global Environmental Health - Health Impacts map in PNG format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607992-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-eh-water-and-sanitation-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-eh-water-and-sanitation-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "water-and-sanitation.xls",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607992-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "water-resources-xls": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2014/water-resources.xls",
-      "type": "application/vnd.ms-excel",
-      "title": "water-resources.xls",
-      "description": "Water Resources data in Excel format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607994-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "epi2014-ev-water-resources-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-water-resources.pdf",
-      "type": "application/pdf",
-      "title": "water-resources.xls",
-      "description": "Global Ecosystem Vitality - Water Resources map in PDF format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607994-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-ev-water-resources-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-water-resources.png",
-      "type": "image/png",
-      "title": "water-resources.xls",
-      "description": "Global Ecosystem Vitality - Water Resources map in PNG format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607994-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-ev-water-resources-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-water-resources-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "water-resources.xls",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607994-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "agriculture-xls": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2014/agriculture.xls",
-      "type": "application/vnd.ms-excel",
-      "title": "agriculture.xls",
-      "description": "Agriculture data in Excel format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607995-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "epi2014-ev-agriculture-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-agriculture.pdf",
-      "type": "application/pdf",
-      "title": "agriculture.xls",
-      "description": "Global Ecosystem Vitality map in PDF format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607995-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-ev-agriculture-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-agriculture.png",
-      "type": "image/png",
-      "title": "agriculture.xls",
-      "description": "Global Ecosystem Vitality map in PNG format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607995-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-ev-agriculture-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-agriculture-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "agriculture.xls",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607995-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "forests-xls": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2014/forests.xls",
-      "type": "application/vnd.ms-excel",
-      "title": "forests.xls",
-      "description": "Forests data in Excel format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607996-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "epi2014-ev-forests-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-forests.pdf",
-      "type": "application/pdf",
-      "title": "forests.xls",
-      "description": "Global Ecosystem Vitality - Forests map in PDF format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607996-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-ev-forests-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-forests.png",
-      "type": "image/png",
-      "title": "forests.xls",
-      "description": "Global Ecosystem Vitality - Forests map in PNG format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607996-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-ev-forests-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-forests-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "forests.xls",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607996-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "fisheries-xls": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2014/fisheries.xls",
-      "type": "application/vnd.ms-excel",
-      "title": "fisheries.xls",
-      "description": "Fisheries data in Excel format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607997-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "epi2014-ev-fisheries-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-fisheries.pdf",
-      "type": "application/pdf",
-      "title": "fisheries.xls",
-      "description": "Global Ecosystem Vitality - Fisheries map in PDF format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607997-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-ev-fisheries-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-fisheries.png",
-      "type": "image/png",
-      "title": "fisheries.xls",
-      "description": "Global Ecosystem Vitality - Fisheries map in PNG format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607997-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-ev-fisheries-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-fisheries-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "fisheries.xls",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607997-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "biodiversity-and-habitat-xls": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2014/biodiversity-and-habitat.xls",
-      "type": "application/vnd.ms-excel",
-      "title": "biodiversity-and-habitat.xls",
-      "description": "Biodiversity and Habitat data in Excel format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607998-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "epi2014-ev-biodiversity-habitat-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-biodiversity-habitat.pdf",
-      "type": "application/pdf",
-      "title": "biodiversity-and-habitat.xls",
-      "description": "Global Ecosystem Vitality - Agriculture map in PDF format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607998-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-ev-biodiversity-habitat-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-biodiversity-habitat.png",
-      "type": "image/png",
-      "title": "biodiversity-and-habitat.xls",
-      "description": "Global Ecosystem Vitality - Agriculture map in PNG format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607998-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-ev-biodiversity-habitat-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-biodiversity-habitat-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "biodiversity-and-habitat.xls",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607998-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "climate-and-energy-xls": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2014/climate-and-energy.xls",
-      "type": "application/vnd.ms-excel",
-      "title": "climate-and-energy.xls",
-      "description": "Climate and Energy data in Excel format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607999-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "epi2014-ev-climate-and-energy-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-climate-and-energy.pdf",
-      "type": "application/pdf",
-      "title": "climate-and-energy.xls",
-      "description": "Global Ecosystem Vitality - Biodiversity and Habitat map in PDF format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607999-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-ev-climate-and-energy-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-climate-and-energy.png",
-      "type": "image/png",
-      "title": "climate-and-energy.xls",
-      "description": "Global Ecosystem Vitality - Biodiversity and Habitat map in PNG format from the 2014 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607999-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2014-ev-climate-and-energy-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2014/epi2014-ev-climate-and-energy-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "climate-and-energy.xls",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4416V05",
-      "ciesin:harvard_doi": "10.7910/DVN/OZZG09",
-      "ciesin:source_dataset_id": "C3540929681-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607999-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:source_relation_type": "GET DATA",
+      "ciesin:source_relation_subtype": "documentation_link"
     },
     "2014-epi-full-report-final-pdf-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/12026483",
@@ -1119,7 +707,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Adobe PDF"
     },
-    "2014-epi-xls-zip-2": {
+    "2014-epi-xls-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/12026481",
       "type": "application/zip",
       "title": "2014-epi-xls.zip",
@@ -1139,7 +727,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "agriculture-xls-2": {
+    "agriculture-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/12026485",
       "type": "application/vnd.ms-excel",
       "title": "agriculture.xls",
@@ -1159,7 +747,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
     },
-    "air-quality-xls-2": {
+    "air-quality-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/12026482",
       "type": "application/vnd.ms-excel",
       "title": "air-quality.xls",
@@ -1179,7 +767,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
     },
-    "biodiversity-and-habitat-xls-2": {
+    "biodiversity-and-habitat-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/12026476",
       "type": "application/vnd.ms-excel",
       "title": "biodiversity-and-habitat.xls",
@@ -1199,7 +787,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
     },
-    "climate-and-energy-xls-2": {
+    "climate-and-energy-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/12026480",
       "type": "application/vnd.ms-excel",
       "title": "climate-and-energy.xls",
@@ -1219,7 +807,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
     },
-    "fisheries-xls-2": {
+    "fisheries-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/12026475",
       "type": "application/vnd.ms-excel",
       "title": "fisheries.xls",
@@ -1239,7 +827,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
     },
-    "forests-xls-2": {
+    "forests-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/12026477",
       "type": "application/vnd.ms-excel",
       "title": "forests.xls",
@@ -1259,7 +847,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
     },
-    "health-impacts-xls-2": {
+    "health-impacts-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/12026479",
       "type": "application/vnd.ms-excel",
       "title": "health-impacts.xls",
@@ -1279,7 +867,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
     },
-    "water-and-sanitation-xls-2": {
+    "water-and-sanitation-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/12026484",
       "type": "application/vnd.ms-excel",
       "title": "water-and-sanitation.xls",
@@ -1299,7 +887,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "MS Excel Spreadsheet"
     },
-    "water-resources-xls-2": {
+    "water-resources-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/12026478",
       "type": "application/vnd.ms-excel",
       "title": "water-resources.xls",

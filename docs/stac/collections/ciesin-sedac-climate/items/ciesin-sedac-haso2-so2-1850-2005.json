@@ -291,70 +291,75 @@
     }
   ],
   "assets": {
-    "haso2-anthro-sulfur-dioxide-emissions-1850-2005-v2-86-xls": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/haso/haso2-anthro-sulfur-dioxide-emissions-1850-2005-v2-86/haso2-anthro-sulfur-dioxide-emissions-1850-2005-v2-86.xls",
-      "type": "application/vnd.ms-excel",
-      "title": "haso2-anthro-sulfur-dioxide-emissions-1850-2005-v2-86.xls",
-      "description": "Tabular data in Excel format from the Anthropogenic Sulfur Dioxide Emissions, 1850-2005: National and Regional Data Set by Source Category, Version 2.86 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H49884X9",
-      "ciesin:harvard_doi": "10.7910/DVN/FCH4EA",
-      "ciesin:source_dataset_id": "C3540929090-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550121904-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h49884x9": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H49884X9",
-      "type": "application/octet-stream",
-      "title": "haso2-anthro-sulfur-dioxide-emissions-1850-2005-v2-86.xls",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Anthropogenic Sulfur Dioxide Emissions, 1850-2005: National and Regional Data Set by Source Category, Version 2.86.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H49884X9",
       "ciesin:harvard_doi": "10.7910/DVN/FCH4EA",
-      "ciesin:source_dataset_id": "C3540929090-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550121904-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H49884X9",
+      "ciesin:ac_doi": "10.7927/H49884X9",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "so2-global-1970-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/haso2/haso2-anthro-sulfur-dioxide-emissions-1850-2005-v2-86/so2-global-1970.pdf",
-      "type": "application/pdf",
-      "title": "haso2-anthro-sulfur-dioxide-emissions-1850-2005-v2-86.xls",
-      "description": "Global 1970 Total SO2 Emissions map in PDF format from the Anthropogenic Sulfur Dioxide Emissions, 1850-2005: National and Regional Data Set by Source Category, Version 2.86 data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/FCH4EA",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Anthropogenic Sulfur Dioxide Emissions, 1850-2005: National and Regional Data Set by Source Category, Version 2.86.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H49884X9",
       "ciesin:harvard_doi": "10.7910/DVN/FCH4EA",
-      "ciesin:source_dataset_id": "C3540929090-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550121904-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H49884X9",
+      "ciesin:ac_doi": "10.7927/H49884X9",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "so2-global-2005-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/haso2/haso2-anthro-sulfur-dioxide-emissions-1850-2005-v2-86/so2-global-2005-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "haso2-anthro-sulfur-dioxide-emissions-1850-2005-v2-86.xls",
+    "related-doi-10.5194-acp-11-1101-2011": {
+      "href": "http://dx.doi.org/10.5194/acp-11-1101-2011",
+      "type": "text/html",
+      "title": "Related DOI: 10.5194/acp-11-1101-2011",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H49884X9",
       "ciesin:harvard_doi": "10.7910/DVN/FCH4EA",
-      "ciesin:source_dataset_id": "C3540929090-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550121904-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:sedac_doi": "10.7927/H49884X9",
+      "ciesin:ac_doi": "10.7927/H49884X9",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "haso2-anthro-sulfur-dioxide-emissions-1850-2005-v2-86-xls-2": {
+    "related-doi-10.1016-j.gloenvcha.2004.02.004": {
+      "href": "https://doi.org/10.1016/j.gloenvcha.2004.02.004",
+      "type": "text/html",
+      "title": "Related DOI: 10.1016/j.gloenvcha.2004.02.004",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H49884X9",
+      "ciesin:harvard_doi": "10.7910/DVN/FCH4EA",
+      "ciesin:sedac_doi": "10.7927/H49884X9",
+      "ciesin:ac_doi": "10.7927/H49884X9",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "haso2-anthro-sulfur-dioxide-emissions-1850-2005-v2-86-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11905214",
       "type": "application/vnd.ms-excel",
       "title": "haso2-anthro-sulfur-dioxide-emissions-1850-2005-v2-86.xls",

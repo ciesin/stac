@@ -146,322 +146,58 @@
     }
   ],
   "assets": {
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/H4N014G5",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4N014G5",
+      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
+      "ciesin:sedac_doi": "10.7927/H4N014G5",
+      "ciesin:ac_doi": "10.7927/H4N014G5",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/5ZPWQI",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4N014G5",
+      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
+      "ciesin:sedac_doi": "10.7927/H4N014G5",
+      "ciesin:ac_doi": "10.7927/H4N014G5",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.7927-h4rr1w66": {
+      "href": "https://doi.org/10.7927/H4RR1W66",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4RR1W66",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4N014G5",
+      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
+      "ciesin:sedac_doi": "10.7927/H4N014G5",
+      "ciesin:ac_doi": "10.7927/H4N014G5",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
     "mammalia-all-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/species/species-global-mammal-richness-2015/mammalia-all.zip",
-      "type": "application/x-zip-compressed",
-      "title": "mammalia-all.zip",
-      "description": "All Species data in GeoTIFF format from the Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425783-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4n014g5": {
-      "href": "https://doi.org/10.7927/H4N014G5.",
-      "type": "application/octet-stream",
-      "title": "mammalia-all.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425783-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "species-global-mammal-richness-2015-all-species-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-all-species.pdf",
-      "type": "application/pdf",
-      "title": "mammalia-all.zip",
-      "description": "Global All Species map in PDF format from the Gridded Species Distribution: Global Mammal Richness Grids,2015 Release data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425783-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "species-global-mammal-richness-2015-all-species-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-all-species.png",
-      "type": "image/png",
-      "title": "mammalia-all.zip",
-      "description": "Global All Species map in PNG format from the Gridded Species Distribution: Global Mammal Richness Grids,2015 Release data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425783-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "species-global-mammal-richness-2015-all-species-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-all-species-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "mammalia-all.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425783-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "mammals-all-threats-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/species/species-global-mammal-richness-2015/mammals-all-threats.zip",
-      "type": "application/x-zip-compressed",
-      "title": "mammals-all-threats.zip",
-      "description": "All Threat Categories data in GeoTIFF format from the Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425785-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "species-global-mammal-richness-2015-all-threats-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-all-threats.pdf",
-      "type": "application/pdf",
-      "title": "mammals-all-threats.zip",
-      "description": "Global All Threats map in PDF format from the Gridded Species Distribution: Global Mammal Richness Grids,2015 Release data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425785-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "species-global-mammal-richness-2015-all-threats-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-all-threats.png",
-      "type": "image/png",
-      "title": "mammals-all-threats.zip",
-      "description": "Global All Threats map in PNG format from the Gridded Species Distribution: Global Mammal Richness Grids,2015 Release data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425785-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "species-global-mammal-richness-2015-all-threats-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-all-threats-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "mammals-all-threats.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425785-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "mammals-endangered-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/species/species-global-mammal-richness-2015/mammals-endangered.zip",
-      "type": "application/x-zip-compressed",
-      "title": "mammals-endangered.zip",
-      "description": "Endangered Species data in GeoTIFF format from the Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425790-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "species-global-mammal-richness-2015-endangered-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-endangered.pdf",
-      "type": "application/pdf",
-      "title": "mammals-endangered.zip",
-      "description": "Global Endangered Species map in PDF format from the Gridded Species Distribution: Global Mammal Richness Grids,2015 Release data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425790-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "species-global-mammal-richness-2015-endangered-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-endangered.png",
-      "type": "image/png",
-      "title": "mammals-endangered.zip",
-      "description": "Global Endangered Species map in PNG format from the Gridded Species Distribution: Global Mammal Richness Grids,2015 Release data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425790-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "species-global-mammal-richness-2015-endangered-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-endangered-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "mammals-endangered.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425790-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "mammals-vulnerable-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/species/species-global-mammal-richness-2015/mammals-vulnerable.zip",
-      "type": "application/x-zip-compressed",
-      "title": "mammals-vulnerable.zip",
-      "description": "Vulnerable Species data in GeoTIFF format from the Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425791-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "species-global-mammal-richness-2015-vulnerable-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-vulnerable.pdf",
-      "type": "application/pdf",
-      "title": "mammals-vulnerable.zip",
-      "description": "Global Vulnerable Species map in PDF format from the Gridded Species Distribution: Global Mammal Richness Grids,2015 Release data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425791-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "species-global-mammal-richness-2015-vulnerable-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-vulnerable.png",
-      "type": "image/png",
-      "title": "mammals-vulnerable.zip",
-      "description": "Global Vulnerable Species map in PNG format from the Gridded Species Distribution: Global Mammal Richness Grids,2015 Release data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425791-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "species-global-mammal-richness-2015-vulnerable-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-vulnerable-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "mammals-vulnerable.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425791-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "species-global-mammal-richness-2015-critically-endangered-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-critically-endangered.pdf",
-      "type": "application/pdf",
-      "title": "mammals-critically-endangered.zip",
-      "description": "Global Critically Endangered Species map in PDF format from the Gridded Species Distribution: Global Mammal Richness Grids,2015 Release data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425794-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "species-global-mammal-richness-2015-critically-endangered-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-critically-endangered.png",
-      "type": "image/png",
-      "title": "mammals-critically-endangered.zip",
-      "description": "Global Critically Endangered Species map in PNG format from the Gridded Species Distribution: Global Mammal Richness Grids,2015 Release data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425794-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "species-global-mammal-richness-2015-critically-endangered-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-critically-endangered-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "mammals-critically-endangered.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4N014G5",
-      "ciesin:harvard_doi": "10.7910/DVN/5ZPWQI",
-      "ciesin:source_dataset_id": "C3540910344-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553425794-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "mammalia-all-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815084",
       "type": "application/zip",
       "title": "mammalia-all.zip",
@@ -481,7 +217,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "mammals-all-threats-zip-2": {
+    "mammals-all-threats-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815082",
       "type": "application/octet-stream",
       "title": "mammals-all-threats.zip",
@@ -521,7 +257,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "mammals-endangered-zip-2": {
+    "mammals-endangered-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815086",
       "type": "application/zip",
       "title": "mammals-endangered.zip",
@@ -541,7 +277,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "mammals-vulnerable-zip-2": {
+    "mammals-vulnerable-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815085",
       "type": "application/zip",
       "title": "mammals-vulnerable.zip",

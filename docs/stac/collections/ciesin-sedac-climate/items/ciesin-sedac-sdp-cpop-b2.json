@@ -346,39 +346,126 @@
     }
   ],
   "assets": {
-    "natl-pop-proj-b2-xls": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdp/sdp-downscaled-population-b2-1990-2100/natl-pop-proj-b2.xls",
-      "type": "application/vnd.ms-excel",
-      "title": "natl-pop-proj-b2.xls",
-      "description": "Tabular data in Excel format from the Country-Level Population and Downscaled Projections Based on the SRES B2 Scenario, 1990-2100 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4PC308P",
-      "ciesin:harvard_doi": "10.7910/DVN/WNIGP5",
-      "ciesin:source_dataset_id": "C3550185812-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200328-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4pc308p": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4PC308P",
-      "type": "application/octet-stream",
-      "title": "natl-pop-proj-b2.xls",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Country-Level Population and Downscaled Projections Based on the SRES B2 Scenario, 1990-2100.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4PC308P",
       "ciesin:harvard_doi": "10.7910/DVN/WNIGP5",
-      "ciesin:source_dataset_id": "C3550185812-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200328-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4PC308P",
+      "ciesin:ac_doi": "10.7927/H4PC308P",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "natl-pop-proj-b2-xls-2": {
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/WNIGP5",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Country-Level Population and Downscaled Projections Based on the SRES B2 Scenario, 1990-2100.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4PC308P",
+      "ciesin:harvard_doi": "10.7910/DVN/WNIGP5",
+      "ciesin:sedac_doi": "10.7927/H4PC308P",
+      "ciesin:ac_doi": "10.7927/H4PC308P",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.1016-j.gloenvcha.2004.02.004": {
+      "href": "https://doi.org/10.1016/j.gloenvcha.2004.02.004",
+      "type": "text/html",
+      "title": "Related DOI: 10.1016/j.gloenvcha.2004.02.004",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4PC308P",
+      "ciesin:harvard_doi": "10.7910/DVN/WNIGP5",
+      "ciesin:sedac_doi": "10.7927/H4PC308P",
+      "ciesin:ac_doi": "10.7927/H4PC308P",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4xw4gq1": {
+      "href": "https://doi.org/10.7927/H4XW4GQ1",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4XW4GQ1",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4PC308P",
+      "ciesin:harvard_doi": "10.7910/DVN/WNIGP5",
+      "ciesin:sedac_doi": "10.7927/H4PC308P",
+      "ciesin:ac_doi": "10.7927/H4PC308P",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4t43r01": {
+      "href": "https://doi.org/10.7927/H4T43R01",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4T43R01",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4PC308P",
+      "ciesin:harvard_doi": "10.7910/DVN/WNIGP5",
+      "ciesin:sedac_doi": "10.7927/H4PC308P",
+      "ciesin:ac_doi": "10.7927/H4PC308P",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4nc5z4x": {
+      "href": "https://doi.org/10.7927/H4NC5Z4X",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4NC5Z4X",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4PC308P",
+      "ciesin:harvard_doi": "10.7910/DVN/WNIGP5",
+      "ciesin:sedac_doi": "10.7927/H4PC308P",
+      "ciesin:ac_doi": "10.7927/H4PC308P",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4hq3wth": {
+      "href": "https://doi.org/10.7927/H4HQ3WTH",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4HQ3WTH",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4PC308P",
+      "ciesin:harvard_doi": "10.7910/DVN/WNIGP5",
+      "ciesin:sedac_doi": "10.7927/H4PC308P",
+      "ciesin:ac_doi": "10.7927/H4PC308P",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "natl-pop-proj-b2-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715736",
       "type": "application/vnd.ms-excel",
       "title": "natl-pop-proj-b2.xls",

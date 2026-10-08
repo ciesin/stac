@@ -346,118 +346,109 @@
     }
   ],
   "assets": {
-    "sdgi-11-2-1-urban-access-public-transport-2023-gdb-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdgi/sdgi-11-2-1-urban-access-public-transport-2023/sdgi-11-2-1-urban-access-public-transport-2023-gdb.zip",
-      "type": "application/x-zip-compressed",
-      "title": "sdgi-11-2-1-urban-access-public-transport-2023-gdb.zip",
-      "description": "Global data in Geodatabase format for the year 2000-2010 from the SDG Indicator 11.2.1: Urban Access to Public Transport, 2023 Release data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/1A5Z-3H71",
-      "ciesin:harvard_doi": "10.7910/DVN/RSND9Y",
-      "ciesin:source_dataset_id": "C3540928898-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553449361-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "1a5z-3h71": {
-      "href": "https://doi.org/10.7927/1a5z-3h71",
-      "type": "application/octet-stream",
-      "title": "sdgi-11-2-1-urban-access-public-transport-2023-gdb.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/1A5Z-3H71",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for SDG Indicator 11.2.1: Urban Access to Public Transport, 2023 Release.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/1A5Z-3H71",
       "ciesin:harvard_doi": "10.7910/DVN/RSND9Y",
-      "ciesin:source_dataset_id": "C3540928898-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553449361-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/1a5z-3h71",
+      "ciesin:ac_doi": "10.7927/1a5z-3h71",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "sdgi-11-2-1-urban-access-public-transport-2023-shp-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdgi/sdgi-11-2-1-urban-access-public-transport-2023/sdgi-11-2-1-urban-access-public-transport-2023-shp.zip",
-      "type": "application/x-zip-compressed",
-      "title": "sdgi-11-2-1-urban-access-public-transport-2023-shp.zip",
-      "description": "Global data in Shapefile format for the year 2000-2010 from the SDG Indicator 11.2.1: Urban Access to Public Transport, 2023 Release data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/1A5Z-3H71",
-      "ciesin:harvard_doi": "10.7910/DVN/RSND9Y",
-      "ciesin:source_dataset_id": "C3540928898-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553449362-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "sdgi-11-2-1-urban-access-public-transport-2023-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdgi/sdgi-11-2-1-urban-access-public-transport-2023/sdgi-11-2-1-urban-access-public-transport-2023.pdf",
-      "type": "application/pdf",
-      "title": "sdgi-11-2-1-urban-access-public-transport-2023-shp.zip",
-      "description": "SDG Indicator 11.2.1: Urban Access to Public Transport, 2023 Release map in PDF format.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/RSND9Y",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for SDG Indicator 11.2.1: Urban Access to Public Transport, 2023 Release.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/1A5Z-3H71",
       "ciesin:harvard_doi": "10.7910/DVN/RSND9Y",
-      "ciesin:source_dataset_id": "C3540928898-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553449362-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/1a5z-3h71",
+      "ciesin:ac_doi": "10.7927/1a5z-3h71",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "sdgi-11-2-1-urban-access-public-transport-2023-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdgi/sdgi-11-2-1-urban-access-public-transport-2023/sdgi-11-2-1-urban-access-public-transport-2023.png",
-      "type": "image/png",
-      "title": "sdgi-11-2-1-urban-access-public-transport-2023-shp.zip",
-      "description": "SDG Indicator 11.2.1: Urban Access to Public Transport, 2023 Release map in PNG format.",
+    "related-doi-10.7927-fcre-m572": {
+      "href": "https://doi.org/10.7927/fcre-m572",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/fcre-m572",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/1A5Z-3H71",
       "ciesin:harvard_doi": "10.7910/DVN/RSND9Y",
-      "ciesin:source_dataset_id": "C3540928898-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553449362-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/1a5z-3h71",
+      "ciesin:ac_doi": "10.7927/1a5z-3h71",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "sdgi-11-2-1-urban-access-public-transport-2023-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdgi/sdgi-11-2-1-urban-access-public-transport-2023/sdgi-11-2-1-urban-access-public-transport-2023-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "sdgi-11-2-1-urban-access-public-transport-2023-shp.zip",
+    "related-doi-10.7927-zc4h-hh18": {
+      "href": "https://doi.org/10.7927/zc4h-hh18",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/zc4h-hh18",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/1A5Z-3H71",
       "ciesin:harvard_doi": "10.7910/DVN/RSND9Y",
-      "ciesin:source_dataset_id": "C3540928898-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553449362-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:sedac_doi": "10.7927/1a5z-3h71",
+      "ciesin:ac_doi": "10.7927/1a5z-3h71",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-eavc-4k45": {
+      "href": "https://doi.org/10.7927/eavc-4k45",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/eavc-4k45",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/1A5Z-3H71",
+      "ciesin:harvard_doi": "10.7910/DVN/RSND9Y",
+      "ciesin:sedac_doi": "10.7927/1a5z-3h71",
+      "ciesin:ac_doi": "10.7927/1a5z-3h71",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-gxnr-sx57": {
+      "href": "https://doi.org/10.7927/gxnr-sx57",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/gxnr-sx57",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/1A5Z-3H71",
+      "ciesin:harvard_doi": "10.7910/DVN/RSND9Y",
+      "ciesin:sedac_doi": "10.7927/1a5z-3h71",
+      "ciesin:ac_doi": "10.7927/1a5z-3h71",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "sdgi-11-2-1-urban-access-public-transport-2023-csv-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdgi/sdgi-11-2-1-urban-access-public-transport-2023/sdgi-11-2-1-urban-access-public-transport-2023-csv.zip",
-      "type": "application/x-zip-compressed",
-      "title": "sdgi-11-2-1-urban-access-public-transport-2023-csv.zip",
-      "description": "Global data in CSV format for the year 2000-2010 from the SDG Indicator 11.2.1: Urban Access to Public Transport, 2023 Release data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/1A5Z-3H71",
-      "ciesin:harvard_doi": "10.7910/DVN/RSND9Y",
-      "ciesin:source_dataset_id": "C3540928898-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553449363-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "sdgi-11-2-1-urban-access-public-transport-2023-csv-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832042",
       "type": "application/zip",
       "title": "sdgi-11-2-1-urban-access-public-transport-2023-csv.zip",
@@ -477,7 +468,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "sdgi-11-2-1-urban-access-public-transport-2023-gdb-zip-2": {
+    "sdgi-11-2-1-urban-access-public-transport-2023-gdb-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832041",
       "type": "application/zip",
       "title": "sdgi-11-2-1-urban-access-public-transport-2023-gdb.zip",
@@ -497,7 +488,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "sdgi-11-2-1-urban-access-public-transport-2023-shp-zip-2": {
+    "sdgi-11-2-1-urban-access-public-transport-2023-shp-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11832043",
       "type": "application/zipped-shapefile",
       "title": "sdgi-11-2-1-urban-access-public-transport-2023-shp.zip",

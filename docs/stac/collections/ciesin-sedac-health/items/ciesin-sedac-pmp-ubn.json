@@ -165,35 +165,101 @@
     }
   ],
   "assets": {
-    "data-download": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/data/set/povmap-unsatisfied-basic-needs/data-download",
-      "type": "application/octet-stream",
-      "title": "https://sedac.ciesin.columbia.edu/data/set/povmap-unsatisfied-basic-needs/data-download",
-      "description": "Global data in CSV, Shapefile format for the years 1998-2001 from the Poverty Mapping Project: Unsatisfied Basic Needs data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H45X26V8",
-      "ciesin:source_dataset_id": "C3540930149-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552419799-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h45x26v8": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H45X26V8",
-      "type": "application/octet-stream",
-      "title": "https://sedac.ciesin.columbia.edu/data/set/povmap-unsatisfied-basic-needs/data-download",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Poverty Mapping Project: Unsatisfied Basic Needs.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H45X26V8",
-      "ciesin:source_dataset_id": "C3540930149-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552419799-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H45X26V8",
+      "ciesin:ac_doi": "10.7927/H45X26V8",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "related-doi-10.7927-h4pz56r2": {
+      "href": "https://doi.org/10.7927/H4PZ56R2",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4PZ56R2",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45X26V8",
+      "ciesin:sedac_doi": "10.7927/H45X26V8",
+      "ciesin:ac_doi": "10.7927/H45X26V8",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4k64g12": {
+      "href": "https://doi.org/10.7927/H4K64G12",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4K64G12",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45X26V8",
+      "ciesin:sedac_doi": "10.7927/H45X26V8",
+      "ciesin:ac_doi": "10.7927/H45X26V8",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h49p2zkm": {
+      "href": "https://doi.org/10.7927/H49P2ZKM",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H49P2ZKM",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45X26V8",
+      "ciesin:sedac_doi": "10.7927/H45X26V8",
+      "ciesin:ac_doi": "10.7927/H45X26V8",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4ff3q9b": {
+      "href": "https://doi.org/10.7927/H4FF3Q9B",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4FF3Q9B",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45X26V8",
+      "ciesin:sedac_doi": "10.7927/H45X26V8",
+      "ciesin:ac_doi": "10.7927/H45X26V8",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "metadata-document-methods_nat.jsp": {
+      "href": "http://www.ciesin.columbia.edu/povmap/methods_nat.jsp",
+      "type": "text/html",
+      "title": "methods_nat.jsp",
+      "description": "Documentation link from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45X26V8",
+      "ciesin:sedac_doi": "10.7927/H45X26V8",
+      "ciesin:ac_doi": "10.7927/H45X26V8",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
     }
   }
 }

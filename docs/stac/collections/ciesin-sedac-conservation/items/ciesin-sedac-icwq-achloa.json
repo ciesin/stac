@@ -137,343 +137,58 @@
     }
   ],
   "assets": {
-    "y1998-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y1998-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y1998-geotiff.zip",
-      "description": "Global 1998 data in GeoTIFF format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277597-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4dn4300": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4DN4300",
-      "type": "application/octet-stream",
-      "title": "y1998-geotiff.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Indicators of Coastal Water Quality: Annual Chlorophyll-a Concentration 1998-2007.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4DN4300",
       "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277597-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4DN4300",
+      "ciesin:ac_doi": "10.7927/H4DN4300",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "y1998-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y1998-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y1998-grid.zip",
-      "description": "Global 1998 data in Grid format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/2NRUYP",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Indicators of Coastal Water Quality: Annual Chlorophyll-a Concentration 1998-2007.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4DN4300",
       "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277600-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4DN4300",
+      "ciesin:ac_doi": "10.7927/H4DN4300",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "y1999-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y1999-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y1999-geotiff.zip",
-      "description": "Global 1998 data in GeoTIFF format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
+    "related-doi-10.7927-h4j96490": {
+      "href": "https://doi.org/10.7927/H4J96490",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4J96490",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4DN4300",
       "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277837-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4DN4300",
+      "ciesin:ac_doi": "10.7927/H4DN4300",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "y1999-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y1999-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y1999-grid.zip",
-      "description": "Global 1999 data in Grid format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277842-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2000-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2000-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2000-geotiff.zip",
-      "description": "Global 1998 data in GeoTIFF format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278561-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2000-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2000-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2000-grid.zip",
-      "description": "Global 2000 data in Grid format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278570-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2001-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2001-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2001-geotiff.zip",
-      "description": "Global 2001 data in GeoTIFF format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552603099-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2001-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2001-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2001-grid.zip",
-      "description": "Global 2001 data in Grid format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552603104-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2002-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2002-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2002-geotiff.zip",
-      "description": "Global 2002 data in GeoTIFF format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607975-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2002-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2002-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2002-grid.zip",
-      "description": "Global 2002 data in Grid format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552607976-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2003-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2003-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2003-geotiff.zip",
-      "description": "Global 2003 data in GeoTIFF format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552611460-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2003-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2003-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2003-grid.zip",
-      "description": "Global 2003 data in Grid format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552611466-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2004-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2004-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2004-geotiff.zip",
-      "description": "Global 2004 data in GeoTIFF format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552616218-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2004-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2004-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2004-grid.zip",
-      "description": "Global 2004 data in Grid format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552616219-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2005-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2005-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2005-geotiff.zip",
-      "description": "Global 2005 data in GeoTIFF format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552616297-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2005-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2005-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2005-grid.zip",
-      "description": "Global 2005 data in Grid format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552616298-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2006-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2006-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2006-geotiff.zip",
-      "description": "Global 2006 data in GeoTIFF format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552647198-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2006-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2006-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2006-grid.zip",
-      "description": "Global 2006 data in Grid format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552647206-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2007-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2007-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2007-geotiff.zip",
-      "description": "Global 2007 data in GeoTIFF format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552647421-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y2007-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/y2007-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "y2007-grid.zip",
-      "description": "Global 2007 data in Grid format from the Indicators of Coastal Water Quality: Annual Global Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4DN4300",
-      "ciesin:harvard_doi": "10.7910/DVN/2NRUYP",
-      "ciesin:source_dataset_id": "C3550194158-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552647425-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "y1998-geotiff-zip-2": {
+    "y1998-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815506",
       "type": "application/zip",
       "title": "y1998-geotiff.zip",
@@ -493,7 +208,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y1998-grid-zip-2": {
+    "y1998-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815494",
       "type": "application/zip",
       "title": "y1998-grid.zip",
@@ -513,7 +228,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y1999-geotiff-zip-2": {
+    "y1999-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815502",
       "type": "application/zip",
       "title": "y1999-geotiff.zip",
@@ -533,7 +248,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y1999-grid-zip-2": {
+    "y1999-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815509",
       "type": "application/zip",
       "title": "y1999-grid.zip",
@@ -553,7 +268,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2000-geotiff-zip-2": {
+    "y2000-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815499",
       "type": "application/zip",
       "title": "y2000-geotiff.zip",
@@ -573,7 +288,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2000-grid-zip-2": {
+    "y2000-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815505",
       "type": "application/zip",
       "title": "y2000-grid.zip",
@@ -593,7 +308,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2001-geotiff-zip-2": {
+    "y2001-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815508",
       "type": "application/zip",
       "title": "y2001-geotiff.zip",
@@ -613,7 +328,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2001-grid-zip-2": {
+    "y2001-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815495",
       "type": "application/zip",
       "title": "y2001-grid.zip",
@@ -633,7 +348,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2002-geotiff-zip-2": {
+    "y2002-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815510",
       "type": "application/zip",
       "title": "y2002-geotiff.zip",
@@ -653,7 +368,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2002-grid-zip-2": {
+    "y2002-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815501",
       "type": "application/zip",
       "title": "y2002-grid.zip",
@@ -673,7 +388,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2003-geotiff-zip-2": {
+    "y2003-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815496",
       "type": "application/zip",
       "title": "y2003-geotiff.zip",
@@ -693,7 +408,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2003-grid-zip-2": {
+    "y2003-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815498",
       "type": "application/zip",
       "title": "y2003-grid.zip",
@@ -713,7 +428,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2004-geotiff-zip-2": {
+    "y2004-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815500",
       "type": "application/zip",
       "title": "y2004-geotiff.zip",
@@ -733,7 +448,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2004-grid-zip-2": {
+    "y2004-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815497",
       "type": "application/zip",
       "title": "y2004-grid.zip",
@@ -753,7 +468,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2005-geotiff-zip-2": {
+    "y2005-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815503",
       "type": "application/zip",
       "title": "y2005-geotiff.zip",
@@ -773,7 +488,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2005-grid-zip-2": {
+    "y2005-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815507",
       "type": "application/zip",
       "title": "y2005-grid.zip",
@@ -793,7 +508,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2006-geotiff-zip-2": {
+    "y2006-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815504",
       "type": "application/zip",
       "title": "y2006-geotiff.zip",
@@ -813,7 +528,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2006-grid-zip-2": {
+    "y2006-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815511",
       "type": "application/zip",
       "title": "y2006-grid.zip",
@@ -833,7 +548,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2007-geotiff-zip-2": {
+    "y2007-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815512",
       "type": "application/zip",
       "title": "y2007-geotiff.zip",
@@ -853,7 +568,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "y2007-grid-zip-2": {
+    "y2007-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815493",
       "type": "application/zip",
       "title": "y2007-grid.zip",

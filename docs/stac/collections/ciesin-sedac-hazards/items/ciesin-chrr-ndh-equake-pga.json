@@ -177,86 +177,126 @@
     }
   ],
   "assets": {
-    "gdeqk-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ndh/ndh-earthquake-distribution-peak-ground-acceleration/gdeqk.zip",
-      "type": "application/x-zip-compressed",
-      "title": "gdeqk.zip",
-      "description": "Raster data in ASCII format from the Global Earthquake Hazard Distribution - Peak Ground Acceleration data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4BZ63ZS",
-      "ciesin:harvard_doi": "10.7910/DVN/8NZ31H",
-      "ciesin:source_dataset_id": "C3550190842-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550197890-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4bz63zs": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4BZ63ZS",
-      "type": "application/octet-stream",
-      "title": "gdeqk.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Earthquake Hazard Distribution - Peak Ground Acceleration.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4BZ63ZS",
       "ciesin:harvard_doi": "10.7910/DVN/8NZ31H",
-      "ciesin:source_dataset_id": "C3550190842-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550197890-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:ac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "earthquake-peak-ground-acceleration-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-earthquake-distribution-peak-ground-acceleration/earthquake-peak-ground-acceleration.pdf",
-      "type": "application/pdf",
-      "title": "gdeqk.zip",
-      "description": "Global map in PDF format from the Global Earthquake Hazard Distribution - Peak Ground Acceleration data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/8NZ31H",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Earthquake Hazard Distribution - Peak Ground Acceleration.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4BZ63ZS",
       "ciesin:harvard_doi": "10.7910/DVN/8NZ31H",
-      "ciesin:source_dataset_id": "C3550190842-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550197890-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:ac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "earthquake-peak-ground-acceleration-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-earthquake-distribution-peak-ground-acceleration/earthquake-peak-ground-acceleration.png",
-      "type": "image/png",
-      "title": "gdeqk.zip",
-      "description": "Global map in PNG format from the Global Earthquake Hazard Distribution - Peak Ground Acceleration data set.",
+    "metadata-document-natural-disaster-hotspots-a-global-risk-analysis": {
+      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+      "type": "text/html",
+      "title": "Natural-disaster-hotspots-A-global-risk-analysis",
+      "description": "Documentation link from source metadata.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4BZ63ZS",
       "ciesin:harvard_doi": "10.7910/DVN/8NZ31H",
-      "ciesin:source_dataset_id": "C3550190842-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550197890-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:ac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
     },
-    "earthquake-peak-ground-acceleration-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-earthquake-distribution-peak-ground-acceleration/earthquake-peak-ground-acceleration-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "gdeqk.zip",
+    "related-doi-10.7927-h4tx3c9f": {
+      "href": "https://doi.org/10.7927/H4TX3C9F",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4TX3C9F",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4BZ63ZS",
       "ciesin:harvard_doi": "10.7910/DVN/8NZ31H",
-      "ciesin:source_dataset_id": "C3550190842-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550197890-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:sedac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:ac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "gdeqk-zip-2": {
+    "related-doi-10.7927-h4765c7s": {
+      "href": "https://doi.org/10.7927/H4765C7S",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4765C7S",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4BZ63ZS",
+      "ciesin:harvard_doi": "10.7910/DVN/8NZ31H",
+      "ciesin:sedac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:ac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h43f4mh2": {
+      "href": "https://doi.org/10.7927/H43F4MH2",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H43F4MH2",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4BZ63ZS",
+      "ciesin:harvard_doi": "10.7910/DVN/8NZ31H",
+      "ciesin:sedac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:ac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4zp4415": {
+      "href": "https://doi.org/10.7927/H4ZP4415",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4ZP4415",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4BZ63ZS",
+      "ciesin:harvard_doi": "10.7910/DVN/8NZ31H",
+      "ciesin:sedac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:ac_doi": "10.7927/H4BZ63ZS",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "gdeqk-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11905233",
       "type": "application/zip",
       "title": "gdeqk.zip",

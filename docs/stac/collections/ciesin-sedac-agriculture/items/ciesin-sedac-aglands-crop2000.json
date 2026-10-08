@@ -164,576 +164,75 @@
     }
   ],
   "assets": {
-    "gl-croplands-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/gl-croplands-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "gl-croplands-geotif.zip",
-      "description": "Global data in GeoTIFF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277889-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4c8276g": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4C8276G",
-      "type": "application/octet-stream",
-      "title": "gl-croplands-geotif.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Agricultural Lands: Croplands, 2000.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4C8276G",
       "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277889-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4C8276G",
+      "ciesin:ac_doi": "10.7927/H4C8276G",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "aglands-pastures-2000-global-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-global.pdf",
-      "type": "application/pdf",
-      "title": "gl-croplands-geotif.zip",
-      "description": "Global map in PDF format from the Global Agricultural Lands: Croplands, 2000 data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/D6UROG",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Agricultural Lands: Croplands, 2000.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4C8276G",
       "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277889-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4C8276G",
+      "ciesin:ac_doi": "10.7927/H4C8276G",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "aglands-croplands-2000-global-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-croplands-2000/aglands-croplands-2000-global.png",
-      "type": "image/png",
-      "title": "gl-croplands-geotif.zip",
-      "description": "Global map in PNG format from the Global Agricultural Lands: Croplands, 2000 data set.",
+    "related-doi-10.1029-2007gb002952": {
+      "href": "https://doi.org/10.1029/2007GB002952",
+      "type": "text/html",
+      "title": "Related DOI: 10.1029/2007GB002952",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4C8276G",
       "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277889-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4C8276G",
+      "ciesin:ac_doi": "10.7927/H4C8276G",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "aglands-pastures-2000-global-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-global-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "gl-croplands-geotif.zip",
+    "related-doi-10.7927-h47h1ggr": {
+      "href": "https://doi.org/10.7927/H47H1GGR",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H47H1GGR",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4C8276G",
       "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277889-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "gl-croplands-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/gl-croplands-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "gl-croplands-grid.zip",
-      "description": "Global data in Grid format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277891-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4C8276G",
+      "ciesin:ac_doi": "10.7927/H4C8276G",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "af-croplands-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/af-croplands-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "af-croplands-geotif.zip",
-      "description": "Africa data in GeoTIFF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277894-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "aglands-pastures-2000-africa-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-africa.pdf",
-      "type": "application/pdf",
-      "title": "af-croplands-geotif.zip",
-      "description": "Africa map in PDF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277894-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aglands-croplands-2000-africa-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-croplands-2000/aglands-croplands-2000-africa.png",
-      "type": "image/png",
-      "title": "af-croplands-geotif.zip",
-      "description": "Africa map in PNG format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277894-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aglands-pastures-2000-africa-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-africa-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "af-croplands-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277894-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "as-croplands-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/as-croplands-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "as-croplands-geotif.zip",
-      "description": "Asia data in GeoTIFF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277899-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "aglands-pastures-2000-asia-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-asia.pdf",
-      "type": "application/pdf",
-      "title": "as-croplands-geotif.zip",
-      "description": "Asia map in PDF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277899-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aglands-croplands-2000-asia-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-croplands-2000/aglands-croplands-2000-asia.png",
-      "type": "image/png",
-      "title": "as-croplands-geotif.zip",
-      "description": "Asia map in PNG format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277899-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aglands-pastures-2000-asia-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-asia-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "as-croplands-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277899-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "eu-croplands-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/eu-croplands-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "eu-croplands-geotif.zip",
-      "description": "Europe data in GeoTIFF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277902-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "aglands-pastures-2000-europe-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-europe.pdf",
-      "type": "application/pdf",
-      "title": "eu-croplands-geotif.zip",
-      "description": "Europe map in PDF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277902-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aglands-croplands-2000-europe-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-croplands-2000/aglands-croplands-2000-europe.png",
-      "type": "image/png",
-      "title": "eu-croplands-geotif.zip",
-      "description": "Europe map in PNG format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277902-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aglands-pastures-2000-europe-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-europe-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "eu-croplands-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277902-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "na-croplands-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/na-croplands-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "na-croplands-geotif.zip",
-      "description": "North America data in GeoTIFF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277905-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "aglands-pastures-2000-north-america-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-north-america.pdf",
-      "type": "application/pdf",
-      "title": "na-croplands-geotif.zip",
-      "description": "North America map in PDF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277905-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aglands-croplands-2000-north-america-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-croplands-2000/aglands-croplands-2000-north-america.png",
-      "type": "image/png",
-      "title": "na-croplands-geotif.zip",
-      "description": "North America map in PNG format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277905-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aglands-pastures-2000-north-america-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-north-america-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "na-croplands-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277905-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "oc-croplands-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/oc-croplands-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "oc-croplands-geotif.zip",
-      "description": "Oceania data in GeoTIFF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277912-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "aglands-pastures-2000-oceania-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-oceania.pdf",
-      "type": "application/pdf",
-      "title": "oc-croplands-geotif.zip",
-      "description": "Oceania map in PDF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277912-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aglands-croplands-2000-oceania-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-croplands-2000/aglands-croplands-2000-oceania.png",
-      "type": "image/png",
-      "title": "oc-croplands-geotif.zip",
-      "description": "Oceania map in PNG format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277912-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aglands-pastures-2000-oceania-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-oceania-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "oc-croplands-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277912-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "sa-croplands-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/sa-croplands-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "sa-croplands-geotif.zip",
-      "description": "South America data in GeoTIFF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277920-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "aglands-pastures-2000-south-america-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-south-america.pdf",
-      "type": "application/pdf",
-      "title": "sa-croplands-geotif.zip",
-      "description": "South America map in PDF format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277920-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aglands-croplands-2000-south-america-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-croplands-2000/aglands-croplands-2000-south-america.png",
-      "type": "image/png",
-      "title": "sa-croplands-geotif.zip",
-      "description": "South America map in PNG format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277920-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aglands-pastures-2000-south-america-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-south-america-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "sa-croplands-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277920-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "af-croplands-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/af-croplands-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "af-croplands-grid.zip",
-      "description": "Africa data in Grid format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277932-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "as-croplands-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/as-croplands-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "as-croplands-grid.zip",
-      "description": "Asia data in Grid format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277944-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "eu-croplands-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/eu-croplands-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "eu-croplands-grid.zip",
-      "description": "Europe data in Grid format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277964-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "na-croplands-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/na-croplands-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "na-croplands-grid.zip",
-      "description": "North America data in Grid format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277984-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "oc-croplands-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/oc-croplands-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "oc-croplands-grid.zip",
-      "description": "Oceania data in Grid format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278019-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "sa-croplands-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aglands/aglands-croplands-2000/sa-croplands-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "sa-croplands-grid.zip",
-      "description": "South America data in Grid format from the Global Agricultural Lands: Croplands, 2000 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4C8276G",
-      "ciesin:harvard_doi": "10.7910/DVN/D6UROG",
-      "ciesin:source_dataset_id": "C3550187110-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278041-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "af-croplands-geotif-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716034",
       "type": "application/zip",
       "title": "af-croplands-geotif.zip",
@@ -753,7 +252,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "af-croplands-grid-zip-2": {
+    "af-croplands-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716030",
       "type": "application/zip",
       "title": "af-croplands-grid.zip",
@@ -773,7 +272,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "as-croplands-geotif-zip-2": {
+    "as-croplands-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716032",
       "type": "application/zip",
       "title": "as-croplands-geotif.zip",
@@ -793,7 +292,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "as-croplands-grid-zip-2": {
+    "as-croplands-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716025",
       "type": "application/zip",
       "title": "as-croplands-grid.zip",
@@ -813,7 +312,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "eu-croplands-geotif-zip-2": {
+    "eu-croplands-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716031",
       "type": "application/zip",
       "title": "eu-croplands-geotif.zip",
@@ -833,7 +332,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "eu-croplands-grid-zip-2": {
+    "eu-croplands-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716036",
       "type": "application/zip",
       "title": "eu-croplands-grid.zip",
@@ -853,7 +352,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "gl-croplands-geotif-zip-2": {
+    "gl-croplands-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716028",
       "type": "application/zip",
       "title": "gl-croplands-geotif.zip",
@@ -873,7 +372,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "gl-croplands-grid-zip-2": {
+    "gl-croplands-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716027",
       "type": "application/zip",
       "title": "gl-croplands-grid.zip",
@@ -893,7 +392,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "na-croplands-geotif-zip-2": {
+    "na-croplands-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716023",
       "type": "application/zip",
       "title": "na-croplands-geotif.zip",
@@ -913,7 +412,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "na-croplands-grid-zip-2": {
+    "na-croplands-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716033",
       "type": "application/zip",
       "title": "na-croplands-grid.zip",
@@ -933,7 +432,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "oc-croplands-geotif-zip-2": {
+    "oc-croplands-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716035",
       "type": "application/zip",
       "title": "oc-croplands-geotif.zip",
@@ -953,7 +452,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "oc-croplands-grid-zip-2": {
+    "oc-croplands-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716029",
       "type": "application/zip",
       "title": "oc-croplands-grid.zip",
@@ -973,7 +472,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "sa-croplands-geotif-zip-2": {
+    "sa-croplands-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716024",
       "type": "application/zip",
       "title": "sa-croplands-geotif.zip",
@@ -993,7 +492,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "sa-croplands-grid-zip-2": {
+    "sa-croplands-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716026",
       "type": "application/zip",
       "title": "sa-croplands-grid.zip",

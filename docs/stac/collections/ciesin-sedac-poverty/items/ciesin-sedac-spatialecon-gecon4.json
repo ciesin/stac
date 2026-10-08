@@ -391,327 +391,75 @@
     }
   ],
   "assets": {
-    "spatialecon-gecon-v4-xls-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-xls.zip",
-      "type": "application/x-zip-compressed",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Tabular data in Excel format from the Global Gridded Geographically Based Economic (G-Econ) Data Set, Version 4 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h42v2d1c": {
-      "href": "https://doi.org10.7927/H42V2D1C",
-      "type": "application/octet-stream",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/H42V2D1C",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Gridded Geographically Based Economic Data (G-Econ), Version 4.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H42V2D1C",
       "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H42V2D1C",
+      "ciesin:ac_doi": "10.7927/H42V2D1C",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "spatialecon-gecon-v4-mer-1990-global-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-mer-1990-global.pdf",
-      "type": "application/pdf",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 1990 GDP in Market Exchange Rate map in PDF format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/NKIJ0C",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Gridded Geographically Based Economic Data (G-Econ), Version 4.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H42V2D1C",
       "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H42V2D1C",
+      "ciesin:ac_doi": "10.7927/H42V2D1C",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "spatialecon-gecon-v4-mer-1995-global-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-mer-1995-global.pdf",
-      "type": "application/pdf",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 1995 GDP in Market Exchange Rate map in PDF format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
+    "related-doi-10.1073-pnas.0509842103": {
+      "href": "https://doi.org/10.1073/pnas.0509842103",
+      "type": "text/html",
+      "title": "Related DOI: 10.1073/pnas.0509842103",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H42V2D1C",
       "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H42V2D1C",
+      "ciesin:ac_doi": "10.7927/H42V2D1C",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "spatialecon-gecon-v4-mer-2000-global-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-mer-2000-global.pdf",
-      "type": "application/pdf",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 2000 GDP in Market Exchange Rate map in PDF format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
+    "related-doi-10.1073-pnas.1017031108": {
+      "href": "https://doi.org/10.1073/pnas.1017031108",
+      "type": "text/html",
+      "title": "Related DOI: 10.1073/pnas.1017031108",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H42V2D1C",
       "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-mer-2005-global-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-mer-2005-global.pdf",
-      "type": "application/pdf",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 2005 GDP in Market Exchange Rate map in PDF format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-ppp-1990-global-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-ppp-1990-global.pdf",
-      "type": "application/pdf",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 1990 GDP in Purchasing Power Parity map in PDF format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-ppp-1995-global-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-ppp-1995-global.pdf",
-      "type": "application/pdf",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 1995 GDP in Purchasing Power Parity map in PDF format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-ppp-2000-global-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-ppp-2000-global.pdf",
-      "type": "application/pdf",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 2000 GDP in Purchasing Power Parity map in PDF format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-ppp-2005-global-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-ppp-2005-global.pdf",
-      "type": "application/pdf",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 2005 GDP in Purchasing Power Parity map in PDF format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-mer-1990-global-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-mer-1990-global.png",
-      "type": "image/png",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 1990 GDP in Market Exchange Rate map in PNG format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-mer-1995-global-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-mer-1995-global.png",
-      "type": "image/png",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 1995 GDP in Market Exchange Rate map in PNG format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-mer-2000-global-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-mer-2000-global.png",
-      "type": "image/png",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 2000 GDP in Market Exchange Rate map in PNG format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-mer-2005-global-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-mer-2005-global.png",
-      "type": "image/png",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 2005 GDP in Market Exchange Rate map in PNG format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-ppp-1990-global-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-ppp-1990-global.png",
-      "type": "image/png",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 1990 GDP in Purchasing Power Parity map in PNG format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-ppp-1995-global-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-ppp-1995-global.png",
-      "type": "image/png",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 1995 GDP in Purchasing Power Parity map in PNG format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-ppp-2000-global-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-ppp-2000-global.png",
-      "type": "image/png",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 2000 GDP in Purchasing Power Parity map in PNG format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "spatialecon-gecon-v4-ppp-2005-global-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-ppp-2005-global.png",
-      "type": "image/png",
-      "title": "spatialecon-gecon-v4-xls.zip",
-      "description": "Global 2005 GDP in Purchasing Power Parity map in PNG format from the Global Gridded Geographically Based Economic Data (G-Econ), Version 4 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504120-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H42V2D1C",
+      "ciesin:ac_doi": "10.7927/H42V2D1C",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "spatialecon-gecon-v4-gis-ascii-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-gis-ascii.zip",
-      "type": "application/x-zip-compressed",
-      "title": "spatialecon-gecon-v4-gis-ascii.zip",
-      "description": "Raster data in ASCII format from the Global Gridded Geographically Based Economic (G-Econ) Data Set, Version 4 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504121-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "spatialecon-gecon-v4-gis-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/spatialecon/spatialecon-gecon-v4/spatialecon-gecon-v4-gis-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "spatialecon-gecon-v4-gis-grid.zip",
-      "description": "Raster data in GRID format from the Global Gridded Geographically Based Economic (G-Econ) Data Set, Version 4 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H42V2D1C",
-      "ciesin:harvard_doi": "10.7910/DVN/NKIJ0C",
-      "ciesin:source_dataset_id": "C3551684592-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553504122-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "spatialecon-gecon-v4-gis-ascii-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11787239",
       "type": "application/zip",
       "title": "spatialecon-gecon-v4-gis-ascii.zip",
@@ -731,7 +479,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "spatialecon-gecon-v4-gis-grid-zip-2": {
+    "spatialecon-gecon-v4-gis-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11787238",
       "type": "application/zip",
       "title": "spatialecon-gecon-v4-gis-grid.zip",
@@ -751,7 +499,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "spatialecon-gecon-v4-xls-zip-2": {
+    "spatialecon-gecon-v4-xls-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11787240",
       "type": "application/zip",
       "title": "spatialecon-gecon-v4-xls.zip",

@@ -169,86 +169,126 @@
     }
   ],
   "assets": {
-    "gdp-grids-1990-2025-15mi-ascii-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdp/sdp-downscaled-gdp-grid-b2-1990-2025/gdp-grids-1990-2025-15mi-ascii.zip",
-      "type": "application/x-zip-compressed",
-      "title": "gdp-grids-1990-2025-15mi-ascii.zip",
-      "description": "Tabular data in ASCII format from the Global 15 x 15 Minute Grids of the Downscaled GDP Based on the SRES B2 Scenario, 1990 and 2025 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4NC5Z4X",
-      "ciesin:harvard_doi": "10.7910/DVN/BT2C8T",
-      "ciesin:source_dataset_id": "C3550193814-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200354-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4nc5z4x": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4NC5Z4X",
-      "type": "application/octet-stream",
-      "title": "gdp-grids-1990-2025-15mi-ascii.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Global 15 x 15 Minute Grids of the Downscaled GDP Based on the SRES B2 Scenario, 1990 and 2025.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4NC5Z4X",
       "ciesin:harvard_doi": "10.7910/DVN/BT2C8T",
-      "ciesin:source_dataset_id": "C3550193814-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200354-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:ac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "gridded-gdp-1990-2025-global-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdp/sdp-downscaled-gdp-grid-b2-1990-2025/gridded-gdp-1990-2025-global.pdf",
-      "type": "application/pdf",
-      "title": "gdp-grids-1990-2025-15mi-ascii.zip",
-      "description": "Global Gridded GDP Density map in PDF format from the Global 15 x 15 Minute Grids of the Downscaled GDP Based on the SRES B2 Scenario, 1990 and 2025 data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/BT2C8T",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Global 15 x 15 Minute Grids of the Downscaled GDP Based on the SRES B2 Scenario, 1990 and 2025.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4NC5Z4X",
       "ciesin:harvard_doi": "10.7910/DVN/BT2C8T",
-      "ciesin:source_dataset_id": "C3550193814-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200354-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:ac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "gridded-gdp-1990-2025-global-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdp/sdp-downscaled-gdp-grid-b2-1990-2025/gridded-gdp-1990-2025-global.png",
-      "type": "image/png",
-      "title": "gdp-grids-1990-2025-15mi-ascii.zip",
-      "description": "Global Gridded GDP Density map in PNG format from the Global 15 x 15 Minute Grids of the Downscaled GDP Based on the SRES B2 Scenario, 1990 and 2025 data set.",
+    "related-doi-10.1016-j.gloenvcha.2004.02.004": {
+      "href": "https://doi.org/10.1016/j.gloenvcha.2004.02.004",
+      "type": "text/html",
+      "title": "Related DOI: 10.1016/j.gloenvcha.2004.02.004",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4NC5Z4X",
       "ciesin:harvard_doi": "10.7910/DVN/BT2C8T",
-      "ciesin:source_dataset_id": "C3550193814-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200354-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:ac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "gridded-gdp-1990-2025-global-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdp/sdp-downscaled-gdp-grid-b2-1990-2025/gridded-gdp-1990-2025-global-thumbnail.jpg",
-      "type": "image/png",
-      "title": "gdp-grids-1990-2025-15mi-ascii.zip",
+    "related-doi-10.7927-h4xw4gq1": {
+      "href": "https://doi.org/10.7927/H4XW4GQ1",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4XW4GQ1",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4NC5Z4X",
       "ciesin:harvard_doi": "10.7910/DVN/BT2C8T",
-      "ciesin:source_dataset_id": "C3550193814-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200354-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:sedac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:ac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "gdp-grids-1990-2025-15mi-ascii-zip-2": {
+    "related-doi-10.7927-h4t43r01": {
+      "href": "https://doi.org/10.7927/H4T43R01",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4T43R01",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4NC5Z4X",
+      "ciesin:harvard_doi": "10.7910/DVN/BT2C8T",
+      "ciesin:sedac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:ac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4pc308p": {
+      "href": "https://doi.org/10.7927/H4PC308P",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4PC308P",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4NC5Z4X",
+      "ciesin:harvard_doi": "10.7910/DVN/BT2C8T",
+      "ciesin:sedac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:ac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4hq3wth": {
+      "href": "https://doi.org/10.7927/H4HQ3WTH",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4HQ3WTH",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4NC5Z4X",
+      "ciesin:harvard_doi": "10.7910/DVN/BT2C8T",
+      "ciesin:sedac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:ac_doi": "10.7927/H4NC5Z4X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "gdp-grids-1990-2025-15mi-ascii-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11716005",
       "type": "application/zip",
       "title": "gdp-grids-1990-2025-15mi-ascii.zip",

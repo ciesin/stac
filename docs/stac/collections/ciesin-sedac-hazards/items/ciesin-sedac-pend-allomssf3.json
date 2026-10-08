@@ -153,39 +153,109 @@
     }
   ],
   "assets": {
-    "gcsf3-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/pend/pend-summary-file3-2000-alabama-louisiana-mississippi/gcsf3.zip",
-      "type": "application/x-zip-compressed",
-      "title": "gcsf3.zip",
-      "description": "30 arc-second grids data in ArcInfo Workspace format from the U.S. Population Grids (Summary File 3), 2000: Alabama, Louisiana, and Mississippi, Alpha Version data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4KS6PHF",
-      "ciesin:harvard_doi": "10.7910/DVN/ZYMVNR",
-      "ciesin:source_dataset_id": "C3540911153-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552501625-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4ks6phf": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4KS6PHF",
-      "type": "application/octet-stream",
-      "title": "gcsf3.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for U.S. Population Grids (Summary File 3), 2000: Alabama, Louisiana, and Mississippi, Alpha Version.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4KS6PHF",
       "ciesin:harvard_doi": "10.7910/DVN/ZYMVNR",
-      "ciesin:source_dataset_id": "C3540911153-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552501625-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4KS6PHF",
+      "ciesin:ac_doi": "10.7927/H4KS6PHF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "gcsf3-zip-2": {
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/ZYMVNR",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for U.S. Population Grids (Summary File 3), 2000: Alabama, Louisiana, and Mississippi, Alpha Version.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4KS6PHF",
+      "ciesin:harvard_doi": "10.7910/DVN/ZYMVNR",
+      "ciesin:sedac_doi": "10.7927/H4KS6PHF",
+      "ciesin:ac_doi": "10.7927/H4KS6PHF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.7927-h4qj7f75": {
+      "href": "https://doi.org/10.7927/H4QJ7F75",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4QJ7F75",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4KS6PHF",
+      "ciesin:harvard_doi": "10.7910/DVN/ZYMVNR",
+      "ciesin:sedac_doi": "10.7927/H4KS6PHF",
+      "ciesin:ac_doi": "10.7927/H4KS6PHF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h400001d": {
+      "href": "https://doi.org/10.7927/H400001D",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H400001D",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4KS6PHF",
+      "ciesin:harvard_doi": "10.7910/DVN/ZYMVNR",
+      "ciesin:sedac_doi": "10.7927/H4KS6PHF",
+      "ciesin:ac_doi": "10.7927/H4KS6PHF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4v985zg": {
+      "href": "https://doi.org/10.7927/H4V985ZG",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4V985ZG",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4KS6PHF",
+      "ciesin:harvard_doi": "10.7910/DVN/ZYMVNR",
+      "ciesin:sedac_doi": "10.7927/H4KS6PHF",
+      "ciesin:ac_doi": "10.7927/H4KS6PHF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4g15xs1": {
+      "href": "https://doi.org/10.7927/H4G15XS1",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4G15XS1",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4KS6PHF",
+      "ciesin:harvard_doi": "10.7910/DVN/ZYMVNR",
+      "ciesin:sedac_doi": "10.7927/H4KS6PHF",
+      "ciesin:ac_doi": "10.7927/H4KS6PHF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "gcsf3-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11835861",
       "type": "application/zip",
       "title": "gcsf3.zip",

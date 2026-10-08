@@ -176,86 +176,109 @@
     }
   ],
   "assets": {
-    "gdlnd-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ndh/ndh-landslide-hazard-distribution/gdlnd.zip",
-      "type": "application/x-zip-compressed",
-      "title": "gdlnd.zip",
-      "description": "Data in ASCII format from the Global Landslide Hazard Distribution data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4P848VZ",
-      "ciesin:harvard_doi": "10.7910/DVN/7EXO5X",
-      "ciesin:source_dataset_id": "C3550189895-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278130-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4p848vz": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4P848VZ",
-      "type": "application/octet-stream",
-      "title": "gdlnd.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Landslide Hazard Distribution.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4P848VZ",
       "ciesin:harvard_doi": "10.7910/DVN/7EXO5X",
-      "ciesin:source_dataset_id": "C3550189895-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278130-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4P848VZ",
+      "ciesin:ac_doi": "10.7927/H4P848VZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "landslide-distribution-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-landslide-hazard-distribution/landslide-distribution.pdf",
-      "type": "application/pdf",
-      "title": "gdlnd.zip",
-      "description": "Global map in PDF format from the Global Landslide Hazard Distribution data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/7EXO5X",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Landslide Hazard Distribution.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4P848VZ",
       "ciesin:harvard_doi": "10.7910/DVN/7EXO5X",
-      "ciesin:source_dataset_id": "C3550189895-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278130-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4P848VZ",
+      "ciesin:ac_doi": "10.7927/H4P848VZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "landslide-distribution-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-landslide-hazard-distribution/landslide-distribution.png",
-      "type": "image/png",
-      "title": "gdlnd.zip",
-      "description": "Global map in PNG format from the Global Landslide Hazard Distribution data set.",
+    "metadata-document-natural-disaster-hotspots-a-global-risk-analysis": {
+      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+      "type": "text/html",
+      "title": "Natural-disaster-hotspots-A-global-risk-analysis",
+      "description": "Documentation link from source metadata.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4P848VZ",
       "ciesin:harvard_doi": "10.7910/DVN/7EXO5X",
-      "ciesin:source_dataset_id": "C3550189895-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278130-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4P848VZ",
+      "ciesin:ac_doi": "10.7927/H4P848VZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
     },
-    "landslide-distribution-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-landslide-hazard-distribution/landslide-distribution-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "gdlnd.zip",
+    "related-doi-10.7927-h49021pw": {
+      "href": "https://doi.org/10.7927/H49021PW",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H49021PW",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4P848VZ",
       "ciesin:harvard_doi": "10.7910/DVN/7EXO5X",
-      "ciesin:source_dataset_id": "C3550189895-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278130-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:sedac_doi": "10.7927/H4P848VZ",
+      "ciesin:ac_doi": "10.7927/H4P848VZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "gdlnd-zip-2": {
+    "related-doi-10.7927-h4jh3j4n": {
+      "href": "https://doi.org/10.7927/H4JH3J4N",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4JH3J4N",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4P848VZ",
+      "ciesin:harvard_doi": "10.7910/DVN/7EXO5X",
+      "ciesin:sedac_doi": "10.7927/H4P848VZ",
+      "ciesin:ac_doi": "10.7927/H4P848VZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4dr2sdx": {
+      "href": "https://doi.org/10.7927/H4DR2SDX",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4DR2SDX",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4P848VZ",
+      "ciesin:harvard_doi": "10.7910/DVN/7EXO5X",
+      "ciesin:sedac_doi": "10.7927/H4P848VZ",
+      "ciesin:ac_doi": "10.7927/H4P848VZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "gdlnd-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11804885",
       "type": "application/zip",
       "title": "gdlnd.zip",

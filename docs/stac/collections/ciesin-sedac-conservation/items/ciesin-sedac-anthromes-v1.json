@@ -194,576 +194,126 @@
     }
   ],
   "assets": {
-    "gl-anthrome-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/gl-anthrome-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "gl-anthrome-geotif.zip",
-      "description": "Global data in GeoTIFF format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602930-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4h12zxd": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4H12ZXD",
-      "type": "application/octet-stream",
-      "title": "gl-anthrome-geotif.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Anthropogenic Biomes of the World, Version 1.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4H12ZXD",
       "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602930-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4H12ZXD",
+      "ciesin:ac_doi": "10.7927/H4H12ZXD",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "anthromes-v1-global-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-global.pdf",
-      "type": "application/pdf",
-      "title": "gl-anthrome-geotif.zip",
-      "description": "Global map in PDF format from the Anthropogenic Biomes of the World, Version 1 data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/NGXGKN",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Anthropogenic Biomes of the World, Version 1.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4H12ZXD",
       "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602930-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4H12ZXD",
+      "ciesin:ac_doi": "10.7927/H4H12ZXD",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "anthromes-v1-global-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-global.png",
-      "type": "image/png",
-      "title": "gl-anthrome-geotif.zip",
-      "description": "Global map in PNG format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602930-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "anthromes-v1-global-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-global-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "gl-anthrome-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602930-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "gl-anthrome-esrigrid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/gl-anthrome-esrigrid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "gl-anthrome-esrigrid.zip",
-      "description": "Global data in Grid format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602940-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "af-anthrome-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/af-anthrome-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "af-anthrome-geotif.zip",
-      "description": "Africa data in GeoTIFF format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602942-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "anthromes-v1-africa-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-africa.pdf",
-      "type": "application/pdf",
-      "title": "af-anthrome-geotif.zip",
-      "description": "Africa map in PDF format from the Anthropogenic Biomes of the World, Version 1 data set.",
+    "related-doi-10.7927-h4sf2t3m": {
+      "href": "https://doi.org/10.7927/H4SF2T3M",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4SF2T3M",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4H12ZXD",
       "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602942-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4H12ZXD",
+      "ciesin:ac_doi": "10.7927/H4H12ZXD",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "anthromes-v1-africa-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-africa.png",
-      "type": "image/png",
-      "title": "af-anthrome-geotif.zip",
-      "description": "Africa map in PNG format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602942-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "anthromes-v1-africa-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-africa-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "af-anthrome-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602942-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "as-anthrome-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/as-anthrome-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "as-anthrome-geotif.zip",
-      "description": "Asia data in GeoTIFF format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602946-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "anthromes-v1-asia-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-asia.pdf",
-      "type": "application/pdf",
-      "title": "as-anthrome-geotif.zip",
-      "description": "Asia map in PDF format from the Anthropogenic Biomes of the World, Version 1 data set.",
+    "related-doi-10.1111-j.1466-8238.2010.00540.x": {
+      "href": "https://doi.org/10.1111/j.1466-8238.2010.00540.x",
+      "type": "text/html",
+      "title": "Related DOI: 10.1111/j.1466-8238.2010.00540.x",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4H12ZXD",
       "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602946-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4H12ZXD",
+      "ciesin:ac_doi": "10.7927/H4H12ZXD",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "anthromes-v1-asia-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-asia.png",
-      "type": "image/png",
-      "title": "as-anthrome-geotif.zip",
-      "description": "Asia map in PNG format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602946-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "anthromes-v1-asia-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-asia-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "as-anthrome-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602946-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "eu-anthrome-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/eu-anthrome-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "eu-anthrome-geotif.zip",
-      "description": "Europe data in GeoTIFF format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602952-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "anthromes-v1-europe-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-europe.pdf",
-      "type": "application/pdf",
-      "title": "eu-anthrome-geotif.zip",
-      "description": "Europe map in PDF format from the Anthropogenic Biomes of the World, Version 1 data set.",
+    "related-doi-10.7927-h4np22c8": {
+      "href": "https://doi.org/10.7927/H4NP22C8",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4NP22C8",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4H12ZXD",
       "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602952-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4H12ZXD",
+      "ciesin:ac_doi": "10.7927/H4H12ZXD",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "anthromes-v1-europe-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-europe.png",
-      "type": "image/png",
-      "title": "eu-anthrome-geotif.zip",
-      "description": "Europe map in PNG format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602952-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "anthromes-v1-europe-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-europe-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "eu-anthrome-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602952-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "na-anthrome-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/na-anthrome-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "na-anthrome-geotif.zip",
-      "description": "North America data in GeoTIFF format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602955-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "anthromes-v1-north-america-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-north-america.pdf",
-      "type": "application/pdf",
-      "title": "na-anthrome-geotif.zip",
-      "description": "North America map in PDF format from the Anthropogenic Biomes of the World, Version 1 data set.",
+    "related-doi-10.7927-h4j1012k": {
+      "href": "https://doi.org/10.7927/H4J1012K",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4J1012K",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4H12ZXD",
       "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602955-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4H12ZXD",
+      "ciesin:ac_doi": "10.7927/H4H12ZXD",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "anthromes-v1-north-america-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-north-america.png",
-      "type": "image/png",
-      "title": "na-anthrome-geotif.zip",
-      "description": "North America map in PNG format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602955-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "anthromes-v1-north-america-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-north-america-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "na-anthrome-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602955-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "oc-anthrome-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/oc-anthrome-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "oc-anthrome-geotif.zip",
-      "description": "Oceania data in GeoTIFF format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602956-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "anthromes-v1-oceania-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-oceania.pdf",
-      "type": "application/pdf",
-      "title": "oc-anthrome-geotif.zip",
-      "description": "Oceania map in PDF format from the Anthropogenic Biomes of the World, Version 1 data set.",
+    "related-doi-10.7927-h4d798b9": {
+      "href": "https://doi.org/10.7927/H4D798B9",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4D798B9",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4H12ZXD",
       "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602956-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "anthromes-v1-oceania-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-oceania.png",
-      "type": "image/png",
-      "title": "oc-anthrome-geotif.zip",
-      "description": "Oceania map in PNG format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602956-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "anthromes-v1-oceania-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-oceania-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "oc-anthrome-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602956-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "sa-anthrome-geotif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/sa-anthrome-geotif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "sa-anthrome-geotif.zip",
-      "description": "South America data in GeoTIFF format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602958-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "anthromes-v1-south-america-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-south-america.pdf",
-      "type": "application/pdf",
-      "title": "sa-anthrome-geotif.zip",
-      "description": "South America map in PDF format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602958-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "anthromes-v1-south-america-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-south-america.png",
-      "type": "image/png",
-      "title": "sa-anthrome-geotif.zip",
-      "description": "South America map in PNG format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602958-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "anthromes-v1-south-america-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-south-america-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "sa-anthrome-geotif.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602958-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "eu-anthrome-esrigrid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/eu-anthrome-esrigrid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "eu-anthrome-esrigrid.zip",
-      "description": "Europe data in Grid format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602959-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H4H12ZXD",
+      "ciesin:ac_doi": "10.7927/H4H12ZXD",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "af-anthrome-esrigrid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/af-anthrome-esrigrid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "af-anthrome-esrigrid.zip",
-      "description": "Africa data in Grid format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602960-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "as-anthrome-esrigrid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/as-anthrome-esrigrid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "as-anthrome-esrigrid.zip",
-      "description": "Asia data in Grid format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602962-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "na-anthrome-esrigrid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/na-anthrome-esrigrid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "na-anthrome-esrigrid.zip",
-      "description": "North America data in Grid format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602964-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "oc-anthrome-esrigrid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/oc-anthrome-esrigrid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "oc-anthrome-esrigrid.zip",
-      "description": "Oceania data in Grid format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602965-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "sa-anthrome-esrigrid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/anthromes/anthromes-anthropogenic-biomes-world-v1/sa-anthrome-esrigrid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "sa-anthrome-esrigrid.zip",
-      "description": "South America data in Grid format from the Anthropogenic Biomes of the World, Version 1 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4H12ZXD",
-      "ciesin:harvard_doi": "10.7910/DVN/NGXGKN",
-      "ciesin:source_dataset_id": "C3550194441-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602966-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "af-anthrome-esrigrid-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715612",
       "type": "application/zip",
       "title": "af-anthrome-esrigrid.zip",
@@ -783,7 +333,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "af-anthrome-geotif-zip-2": {
+    "af-anthrome-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715605",
       "type": "application/zip",
       "title": "af-anthrome-geotif.zip",
@@ -803,7 +353,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "as-anthrome-esrigrid-zip-2": {
+    "as-anthrome-esrigrid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715603",
       "type": "application/zip",
       "title": "as-anthrome-esrigrid.zip",
@@ -823,7 +373,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "as-anthrome-geotif-zip-2": {
+    "as-anthrome-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715606",
       "type": "application/zip",
       "title": "as-anthrome-geotif.zip",
@@ -843,7 +393,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "eu-anthrome-esrigrid-zip-2": {
+    "eu-anthrome-esrigrid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715609",
       "type": "application/zip",
       "title": "eu-anthrome-esrigrid.zip",
@@ -863,7 +413,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "eu-anthrome-geotif-zip-2": {
+    "eu-anthrome-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715608",
       "type": "application/zip",
       "title": "eu-anthrome-geotif.zip",
@@ -883,7 +433,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "gl-anthrome-esrigrid-zip-2": {
+    "gl-anthrome-esrigrid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715613",
       "type": "application/zip",
       "title": "gl-anthrome-esrigrid.zip",
@@ -903,7 +453,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "gl-anthrome-geotif-zip-2": {
+    "gl-anthrome-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715607",
       "type": "application/zip",
       "title": "gl-anthrome-geotif.zip",
@@ -923,7 +473,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "na-anthrome-esrigrid-zip-2": {
+    "na-anthrome-esrigrid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715610",
       "type": "application/zip",
       "title": "na-anthrome-esrigrid.zip",
@@ -943,7 +493,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "na-anthrome-geotif-zip-2": {
+    "na-anthrome-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715604",
       "type": "application/zip",
       "title": "na-anthrome-geotif.zip",
@@ -963,7 +513,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "oc-anthrome-esrigrid-zip-2": {
+    "oc-anthrome-esrigrid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715602",
       "type": "application/zip",
       "title": "oc-anthrome-esrigrid.zip",
@@ -983,7 +533,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "oc-anthrome-geotif-zip-2": {
+    "oc-anthrome-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715601",
       "type": "application/zip",
       "title": "oc-anthrome-geotif.zip",
@@ -1003,7 +553,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "sa-anthrome-esrigrid-zip-2": {
+    "sa-anthrome-esrigrid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715611",
       "type": "application/zip",
       "title": "sa-anthrome-esrigrid.zip",
@@ -1023,7 +573,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "sa-anthrome-geotif-zip-2": {
+    "sa-anthrome-geotif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715600",
       "type": "application/zip",
       "title": "sa-anthrome-geotif.zip",

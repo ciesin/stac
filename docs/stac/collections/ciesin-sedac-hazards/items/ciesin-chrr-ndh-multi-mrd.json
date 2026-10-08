@@ -292,86 +292,194 @@
     }
   ],
   "assets": {
-    "gdmhzmrt-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ndh/ndh-multihazard-mortality-risks-distribution/gdmhzmrt.zip",
-      "type": "application/x-zip-compressed",
-      "title": "gdmhzmrt.zip",
-      "description": "Raster data in ASCII and DBF format from the Global Multihazard Mortality Risks and Distribution data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H41J97NM",
-      "ciesin:harvard_doi": "10.7910/DVN/ORYXGL",
-      "ciesin:source_dataset_id": "C3550192145-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278791-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h41j97nm": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H41J97NM",
-      "type": "application/octet-stream",
-      "title": "gdmhzmrt.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Multihazard Mortality Risks and Distribution.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H41J97NM",
       "ciesin:harvard_doi": "10.7910/DVN/ORYXGL",
-      "ciesin:source_dataset_id": "C3550192145-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278791-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H41J97NM",
+      "ciesin:ac_doi": "10.7927/H41J97NM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "multihazard-mortality-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-multihazard-mortality-risks-distribution/multihazard-mortality.pdf",
-      "type": "application/pdf",
-      "title": "gdmhzmrt.zip",
-      "description": "Global map in PDF format from the Global Multihazard Mortality Risks and Distribution data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/ORYXGL",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Multihazard Mortality Risks and Distribution.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H41J97NM",
       "ciesin:harvard_doi": "10.7910/DVN/ORYXGL",
-      "ciesin:source_dataset_id": "C3550192145-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278791-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H41J97NM",
+      "ciesin:ac_doi": "10.7927/H41J97NM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "multihazard-mortality-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-multihazard-mortality-risks-distribution/multihazard-mortality.png",
-      "type": "image/png",
-      "title": "gdmhzmrt.zip",
-      "description": "Global map in PNG format from the Global Multihazard Mortality Risks and Distribution data set.",
+    "metadata-document-natural-disaster-hotspots-a-global-risk-analysis": {
+      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+      "type": "text/html",
+      "title": "Natural-disaster-hotspots-A-global-risk-analysis",
+      "description": "Documentation link from source metadata.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H41J97NM",
       "ciesin:harvard_doi": "10.7910/DVN/ORYXGL",
-      "ciesin:source_dataset_id": "C3550192145-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278791-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H41J97NM",
+      "ciesin:ac_doi": "10.7927/H41J97NM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
     },
-    "multihazard-mortality-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/ndh/ndh-multihazard-mortality-risks-distribution/multihazard-mortality-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "gdmhzmrt.zip",
+    "related-doi-10.7927-h4s180f9": {
+      "href": "https://doi.org/10.7927/H4S180F9",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4S180F9",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H41J97NM",
       "ciesin:harvard_doi": "10.7910/DVN/ORYXGL",
-      "ciesin:source_dataset_id": "C3550192145-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550278791-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:sedac_doi": "10.7927/H41J97NM",
+      "ciesin:ac_doi": "10.7927/H41J97NM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "gdmhzmrt-zip-2": {
+    "related-doi-10.7927-h45718z5": {
+      "href": "https://doi.org/10.7927/H45718Z5",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H45718Z5",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H41J97NM",
+      "ciesin:harvard_doi": "10.7910/DVN/ORYXGL",
+      "ciesin:sedac_doi": "10.7927/H41J97NM",
+      "ciesin:ac_doi": "10.7927/H41J97NM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4ws8r5b": {
+      "href": "https://doi.org/10.7927/H4WS8R5B",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4WS8R5B",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H41J97NM",
+      "ciesin:harvard_doi": "10.7910/DVN/ORYXGL",
+      "ciesin:sedac_doi": "10.7927/H41J97NM",
+      "ciesin:ac_doi": "10.7927/H41J97NM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4862dc5": {
+      "href": "https://doi.org/10.7927/H4862DC5",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4862DC5",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H41J97NM",
+      "ciesin:harvard_doi": "10.7910/DVN/ORYXGL",
+      "ciesin:sedac_doi": "10.7927/H41J97NM",
+      "ciesin:ac_doi": "10.7927/H41J97NM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4jh3j4n": {
+      "href": "https://doi.org/10.7927/H4JH3J4N",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4JH3J4N",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H41J97NM",
+      "ciesin:harvard_doi": "10.7910/DVN/ORYXGL",
+      "ciesin:sedac_doi": "10.7927/H41J97NM",
+      "ciesin:ac_doi": "10.7927/H41J97NM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "metadata-document-the-world-factbook": {
+      "href": "https://www.cia.gov/library/publications/the-world-factbook/",
+      "type": "text/html",
+      "title": "the-world-factbook",
+      "description": "Documentation link from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H41J97NM",
+      "ciesin:harvard_doi": "10.7910/DVN/ORYXGL",
+      "ciesin:sedac_doi": "10.7927/H41J97NM",
+      "ciesin:ac_doi": "10.7927/H41J97NM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
+    },
+    "related-doi-10.7927-h4639mpp": {
+      "href": "https://doi.org/10.7927/H4639MPP",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4639MPP",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H41J97NM",
+      "ciesin:harvard_doi": "10.7910/DVN/ORYXGL",
+      "ciesin:sedac_doi": "10.7927/H41J97NM",
+      "ciesin:ac_doi": "10.7927/H41J97NM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4736nt2": {
+      "href": "https://doi.org/10.7927/H4736NT2",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4736NT2",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H41J97NM",
+      "ciesin:harvard_doi": "10.7910/DVN/ORYXGL",
+      "ciesin:sedac_doi": "10.7927/H41J97NM",
+      "ciesin:ac_doi": "10.7927/H41J97NM",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "gdmhzmrt-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11805936",
       "type": "application/zip",
       "title": "gdmhzmrt.zip",

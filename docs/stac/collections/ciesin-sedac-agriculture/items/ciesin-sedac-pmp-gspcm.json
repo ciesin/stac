@@ -425,118 +425,126 @@
     }
   ],
   "assets": {
-    "hunger-shapefile-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/povmap/povmap-global-subnational-prevalence-child-malnutrition/hunger-shapefile.zip",
-      "type": "application/x-zip-compressed",
-      "title": "hunger-shapefile.zip",
-      "description": "Vector data in Shapefile format from the Poverty Mapping Project: Global Subnational Prevalence of Child Malnutrition data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4K64G12",
-      "ciesin:harvard_doi": "10.7910/DVN/0LJJOJ",
-      "ciesin:source_dataset_id": "C3550192864-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200453-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4k64g12": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4K64G12",
-      "type": "application/octet-stream",
-      "title": "hunger-shapefile.zip",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Poverty Mapping Project: Global Subnational Prevalence of Child Malnutrition.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4K64G12",
       "ciesin:harvard_doi": "10.7910/DVN/0LJJOJ",
-      "ciesin:source_dataset_id": "C3550192864-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200453-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4K64G12",
+      "ciesin:ac_doi": "10.7927/H4K64G12",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "global-hunger-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/povmap/povmap-global-subnational-prevalence-child-malnutrition/global-hunger.pdf",
-      "type": "application/pdf",
-      "title": "hunger-shapefile.zip",
-      "description": "Global Child Malnutrition map in PDF format from the Poverty Mapping Project: Global Subnational Prevalence of Child Malnutrition data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/0LJJOJ",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Poverty Mapping Project: Global Subnational Prevalence of Child Malnutrition.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4K64G12",
       "ciesin:harvard_doi": "10.7910/DVN/0LJJOJ",
-      "ciesin:source_dataset_id": "C3550192864-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200453-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4K64G12",
+      "ciesin:ac_doi": "10.7927/H4K64G12",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "global-hunger-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/povmap/povmap-global-subnational-prevalence-child-malnutrition/global-hunger.png",
-      "type": "image/png",
-      "title": "hunger-shapefile.zip",
-      "description": "Global Child Malnutrition map in PNG format from the Poverty Mapping Project: Global Subnational Prevalence of Child Malnutrition data set.",
+    "related-doi-10.7927-h4pz56r2": {
+      "href": "https://doi.org/10.7927/H4PZ56R2",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4PZ56R2",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4K64G12",
       "ciesin:harvard_doi": "10.7910/DVN/0LJJOJ",
-      "ciesin:source_dataset_id": "C3550192864-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200453-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4K64G12",
+      "ciesin:ac_doi": "10.7927/H4K64G12",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "global-hunger-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/povmap/povmap-global-subnational-prevalence-child-malnutrition/global-hunger-thumbnail.jpg",
-      "type": "image/png",
-      "title": "hunger-shapefile.zip",
+    "related-doi-10.7927-h49p2zkm": {
+      "href": "https://doi.org/10.7927/H49P2ZKM",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H49P2ZKM",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4K64G12",
       "ciesin:harvard_doi": "10.7910/DVN/0LJJOJ",
-      "ciesin:source_dataset_id": "C3550192864-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200453-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:sedac_doi": "10.7927/H4K64G12",
+      "ciesin:ac_doi": "10.7927/H4K64G12",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h45x26v8": {
+      "href": "https://doi.org/10.7927/H45X26V8",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H45X26V8",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4K64G12",
+      "ciesin:harvard_doi": "10.7910/DVN/0LJJOJ",
+      "ciesin:sedac_doi": "10.7927/H4K64G12",
+      "ciesin:ac_doi": "10.7927/H4K64G12",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4ff3q9b": {
+      "href": "https://doi.org/10.7927/H4FF3Q9B",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4FF3Q9B",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4K64G12",
+      "ciesin:harvard_doi": "10.7910/DVN/0LJJOJ",
+      "ciesin:sedac_doi": "10.7927/H4K64G12",
+      "ciesin:ac_doi": "10.7927/H4K64G12",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "metadata-document-methods_global.jsp": {
+      "href": "http://www.ciesin.columbia.edu/povmap/methods_global.jsp",
+      "type": "text/html",
+      "title": "methods_global.jsp",
+      "description": "Documentation link from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4K64G12",
+      "ciesin:harvard_doi": "10.7910/DVN/0LJJOJ",
+      "ciesin:sedac_doi": "10.7927/H4K64G12",
+      "ciesin:ac_doi": "10.7927/H4K64G12",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
     },
     "hunger-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/povmap/povmap-global-subnational-prevalence-child-malnutrition/hunger-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "hunger-grid.zip",
-      "description": "Raster data in ASCII format from the Poverty Mapping Project: Global Subnational Prevalence of Child Malnutrition data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4K64G12",
-      "ciesin:harvard_doi": "10.7910/DVN/0LJJOJ",
-      "ciesin:source_dataset_id": "C3550192864-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200457-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "hunger-tabular-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/povmap/povmap-global-subnational-prevalence-child-malnutrition/hunger-tabular.zip",
-      "type": "application/x-zip-compressed",
-      "title": "hunger-tabular.zip",
-      "description": "Tabular data in Excel format from the Poverty Mapping Project: Global Subnational Prevalence of Child Malnutrition data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4K64G12",
-      "ciesin:harvard_doi": "10.7910/DVN/0LJJOJ",
-      "ciesin:source_dataset_id": "C3550192864-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550200460-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "hunger-grid-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831939",
       "type": "application/zip",
       "title": "hunger-grid.zip",
@@ -556,7 +564,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "hunger-shapefile-zip-2": {
+    "hunger-shapefile-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831938",
       "type": "application/zipped-shapefile",
       "title": "hunger-shapefile.zip",
@@ -576,7 +584,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "hunger-tabular-zip-2": {
+    "hunger-tabular-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11831940",
       "type": "application/zip",
       "title": "hunger-tabular.zip",

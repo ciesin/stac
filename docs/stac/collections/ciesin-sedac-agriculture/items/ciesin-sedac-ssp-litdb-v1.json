@@ -164,37 +164,56 @@
     }
   ],
   "assets": {
-    "ssp-ssp-literature-db-v1-xlsx-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ssp/ssp-ssp-literature-db-v1/ssp-ssp-literature-db-v1-xlsx.zip",
-      "type": "application/x-zip-compressed",
-      "title": "ssp-ssp-literature-db-v1-xlsx.zip",
-      "description": "Global literature database data in Excel format for the year 2015 from the Shared Socioeconomic Pathways (SSPs) Literature Database, v1, 2014-2019 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/HN96-9703",
-      "ciesin:harvard_doi": "10.7910/DVN/IQQIRL",
-      "ciesin:source_dataset_id": "C3540930059-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553444121-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "61jv-th84": {
-      "href": "https://doi.org/10.7927/61jv-th84",
-      "type": "application/octet-stream",
-      "title": "ssp-ssp-literature-db-v1-xlsx.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/HN96-9703",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Shared Socioeconomic Pathways (SSPs) Literature Database, v1, 2014-2019.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/HN96-9703",
       "ciesin:harvard_doi": "10.7910/DVN/IQQIRL",
-      "ciesin:source_dataset_id": "C3540930059-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553444121-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/hn96-9703",
+      "ciesin:ac_doi": "10.7927/hn96-9703",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/IQQIRL",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Shared Socioeconomic Pathways (SSPs) Literature Database, v1, 2014-2019.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/HN96-9703",
+      "ciesin:harvard_doi": "10.7910/DVN/IQQIRL",
+      "ciesin:sedac_doi": "10.7927/hn96-9703",
+      "ciesin:ac_doi": "10.7927/hn96-9703",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.1038-s41558-020-00952-0": {
+      "href": "https://doi.org/10.1038/s41558-020-00952-0",
+      "type": "text/html",
+      "title": "Related DOI: 10.1038/s41558-020-00952-0",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/HN96-9703",
+      "ciesin:harvard_doi": "10.7910/DVN/IQQIRL",
+      "ciesin:sedac_doi": "10.7927/hn96-9703",
+      "ciesin:ac_doi": "10.7927/hn96-9703",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "ssp-ssp-literature-db-v1-methodology-pdf": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11661585",

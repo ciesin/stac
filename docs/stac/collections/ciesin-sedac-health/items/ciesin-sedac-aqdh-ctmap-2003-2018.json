@@ -382,86 +382,58 @@
     }
   ],
   "assets": {
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/ET1Q-JJ80",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Country Trends in Major Air Pollutants.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/ET1Q-JJ80",
+      "ciesin:harvard_doi": "10.7910/DVN/1DKGQ7",
+      "ciesin:sedac_doi": "10.7927/et1q-jj80",
+      "ciesin:ac_doi": "10.7927/et1q-jj80",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/1DKGQ7",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Country Trends in Major Air Pollutants.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/ET1Q-JJ80",
+      "ciesin:harvard_doi": "10.7910/DVN/1DKGQ7",
+      "ciesin:sedac_doi": "10.7927/et1q-jj80",
+      "ciesin:ac_doi": "10.7927/et1q-jj80",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.1021-acs.est.1c08080": {
+      "href": "https://doi.org/10.1021/acs.est.1c08080",
+      "type": "text/html",
+      "title": "Related DOI: 10.1021/acs.est.1c08080",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/ET1Q-JJ80",
+      "ciesin:harvard_doi": "10.7910/DVN/1DKGQ7",
+      "ciesin:sedac_doi": "10.7927/et1q-jj80",
+      "ciesin:ac_doi": "10.7927/et1q-jj80",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
     "aqdh-country-trends-major-air-pollutants-2003-2018-xlsx-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/aqdh/aqdh-country-trends-major-air-pollutants-2003-2018/aqdh-country-trends-major-air-pollutants-2003-2018-xlsx.zip",
-      "type": "application/x-zip-compressed",
-      "title": "aqdh-country-trends-major-air-pollutants-2003-2018-xlsx.zip",
-      "description": "Trends in air pollutants data in Excel format for the years 2003 to 2018 from the Country Trends in Major Air Pollutants data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/ET1Q-JJ80",
-      "ciesin:harvard_doi": "10.7910/DVN/1DKGQ7",
-      "ciesin:source_dataset_id": "C3540917642-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552616107-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "et1q-jj80": {
-      "href": "https://doi.org/10.7927/et1q-jj80",
-      "type": "application/octet-stream",
-      "title": "aqdh-country-trends-major-air-pollutants-2003-2018-xlsx.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/ET1Q-JJ80",
-      "ciesin:harvard_doi": "10.7910/DVN/1DKGQ7",
-      "ciesin:source_dataset_id": "C3540917642-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552616107-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aqdh-country-trends-major-air-pollutants-2003-2018-change-o3-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aqdh/aqdh-country-trends-major-air-pollutants-2003-2018/aqdh-country-trends-major-air-pollutants-2003-2018-change-o3.pdf",
-      "type": "application/pdf",
-      "title": "aqdh-country-trends-major-air-pollutants-2003-2018-xlsx.zip",
-      "description": "Global O3 Change map for the years 2003 to 2018 in PDF format from the Country Trends in Major Air Pollutants data set",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/ET1Q-JJ80",
-      "ciesin:harvard_doi": "10.7910/DVN/1DKGQ7",
-      "ciesin:source_dataset_id": "C3540917642-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552616107-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aqdh-country-trends-major-air-pollutants-2003-2018-change-o3-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aqdh/aqdh-country-trends-major-air-pollutants-2003-2018/aqdh-country-trends-major-air-pollutants-2003-2018-change-o3.png",
-      "type": "image/png",
-      "title": "aqdh-country-trends-major-air-pollutants-2003-2018-xlsx.zip",
-      "description": "Global O3 Change map for the years 2003 to 2018 in PNG format from the Country Trends in Major Air Pollutants data set",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/ET1Q-JJ80",
-      "ciesin:harvard_doi": "10.7910/DVN/1DKGQ7",
-      "ciesin:source_dataset_id": "C3540917642-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552616107-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "aqdh-country-trends-major-air-pollutants-2003-2018-change-o3-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/aqdh/aqdh-country-trends-major-air-pollutants-2003-2018/aqdh-country-trends-major-air-pollutants-2003-2018-change-o3-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "aqdh-country-trends-major-air-pollutants-2003-2018-xlsx.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/ET1Q-JJ80",
-      "ciesin:harvard_doi": "10.7910/DVN/1DKGQ7",
-      "ciesin:source_dataset_id": "C3540917642-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552616107-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "aqdh-country-trends-major-air-pollutants-2003-2018-xlsx-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715729",
       "type": "application/zip",
       "title": "aqdh-country-trends-major-air-pollutants-2003-2018-xlsx.zip",

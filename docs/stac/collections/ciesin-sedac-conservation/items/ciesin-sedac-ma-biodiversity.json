@@ -268,39 +268,143 @@
     }
   ],
   "assets": {
-    "ma-biodiversity-v1-1950-2001-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ma/ma-biodiversity/ma-biodiversity-v1-1950-2001.zip",
-      "type": "application/x-zip-compressed",
-      "title": "ma-biodiversity-v1-1950-2001.zip",
-      "description": "Global data in Shapefile, Excel, DBF, and Grid formats from the Millennium Ecosystem Assessment: MA Biodiversity data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4V9860B",
-      "ciesin:harvard_doi": "10.7910/DVN/GKVHL9",
-      "ciesin:source_dataset_id": "C3550191094-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550197808-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4v9860b": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4V9860B",
-      "type": "application/octet-stream",
-      "title": "ma-biodiversity-v1-1950-2001.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Millennium Ecosystem Assessment: MA Biodiversity.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4V9860B",
       "ciesin:harvard_doi": "10.7910/DVN/GKVHL9",
-      "ciesin:source_dataset_id": "C3550191094-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550197808-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4V9860B",
+      "ciesin:ac_doi": "10.7927/H4V9860B",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "ma-biodiversity-v1-1950-2001-zip-2": {
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/GKVHL9",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Millennium Ecosystem Assessment: MA Biodiversity.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4V9860B",
+      "ciesin:harvard_doi": "10.7910/DVN/GKVHL9",
+      "ciesin:sedac_doi": "10.7927/H4V9860B",
+      "ciesin:ac_doi": "10.7927/H4V9860B",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.7927-h47p8wb9": {
+      "href": "https://doi.org/10.7927/H47P8WB9",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H47P8WB9",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4V9860B",
+      "ciesin:harvard_doi": "10.7910/DVN/GKVHL9",
+      "ciesin:sedac_doi": "10.7927/H4V9860B",
+      "ciesin:ac_doi": "10.7927/H4V9860B",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4cf9n1k": {
+      "href": "https://doi.org/10.7927/H4CF9N1K",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4CF9N1K",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4V9860B",
+      "ciesin:harvard_doi": "10.7910/DVN/GKVHL9",
+      "ciesin:sedac_doi": "10.7927/H4V9860B",
+      "ciesin:ac_doi": "10.7927/H4V9860B",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4qj7f8m": {
+      "href": "https://doi.org/10.7927/H4QJ7F8M",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4QJ7F8M",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4V9860B",
+      "ciesin:harvard_doi": "10.7910/DVN/GKVHL9",
+      "ciesin:sedac_doi": "10.7927/H4V9860B",
+      "ciesin:ac_doi": "10.7927/H4V9860B",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4g44n76": {
+      "href": "https://doi.org/10.7927/H4G44N76",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4G44N76",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4V9860B",
+      "ciesin:harvard_doi": "10.7910/DVN/GKVHL9",
+      "ciesin:sedac_doi": "10.7927/H4V9860B",
+      "ciesin:ac_doi": "10.7927/H4V9860B",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.1641-0006-3568-2005-055-0115-asoior-2.0.co-2": {
+      "href": "https://doi.org/10.1641/0006-3568(2005)055[0115:ASOIOR]2.0.CO;2",
+      "type": "text/html",
+      "title": "Related DOI: 10.1641/0006-3568(2005)055[0115:ASOIOR]2.0.CO;2",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4V9860B",
+      "ciesin:harvard_doi": "10.7910/DVN/GKVHL9",
+      "ciesin:sedac_doi": "10.7927/H4V9860B",
+      "ciesin:ac_doi": "10.7927/H4V9860B",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4kw5cz6": {
+      "href": "https://doi.org/10.7927/H4KW5CZ6",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4KW5CZ6",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4V9860B",
+      "ciesin:harvard_doi": "10.7910/DVN/GKVHL9",
+      "ciesin:sedac_doi": "10.7927/H4V9860B",
+      "ciesin:ac_doi": "10.7927/H4V9860B",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "ma-biodiversity-v1-1950-2001-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815606",
       "type": "application/zip",
       "title": "ma-biodiversity-v1-1950-2001.zip",

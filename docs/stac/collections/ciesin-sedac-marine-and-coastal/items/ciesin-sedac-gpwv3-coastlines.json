@@ -415,37 +415,192 @@
     }
   ],
   "assets": {
-    "data-download": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/data/set/gpw-v3-coastlines/data-download",
-      "type": "application/octet-stream",
-      "title": "https://sedac.ciesin.columbia.edu/data/set/gpw-v3-coastlines/data-download",
-      "description": "Global data in Shapefile format for the year 2000 from the Gridded Population of the World, Version 3 (GPWv3): Coastlines data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4Q23X5Q",
-      "ciesin:harvard_doi": "10.7910/DVN/GPC5JL",
-      "ciesin:source_dataset_id": "C3540910838-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602809-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4q23x5q": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4Q23X5Q",
-      "type": "application/octet-stream",
-      "title": "https://sedac.ciesin.columbia.edu/data/set/gpw-v3-coastlines/data-download",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Gridded Population of the World, Version 3 (GPWv3): Coastlines.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4Q23X5Q",
       "ciesin:harvard_doi": "10.7910/DVN/GPC5JL",
-      "ciesin:source_dataset_id": "C3540910838-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552602809-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:ac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/GPC5JL",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Gridded Population of the World, Version 3 (GPWv3): Coastlines.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4Q23X5Q",
+      "ciesin:harvard_doi": "10.7910/DVN/GPC5JL",
+      "ciesin:sedac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:ac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.7927-h4xk8cg2": {
+      "href": "https://doi.org/10.7927/H4XK8CG2",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4XK8CG2",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4Q23X5Q",
+      "ciesin:harvard_doi": "10.7910/DVN/GPC5JL",
+      "ciesin:sedac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:ac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4p26w1b": {
+      "href": "https://doi.org/10.7927/H4P26W1B",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4P26W1B",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4Q23X5Q",
+      "ciesin:harvard_doi": "10.7910/DVN/GPC5JL",
+      "ciesin:sedac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:ac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4k935fc": {
+      "href": "https://doi.org/10.7927/H4K935FC",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4K935FC",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4Q23X5Q",
+      "ciesin:harvard_doi": "10.7910/DVN/GPC5JL",
+      "ciesin:sedac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:ac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4fj2dqn": {
+      "href": "https://doi.org/10.7927/H4FJ2DQN",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4FJ2DQN",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4Q23X5Q",
+      "ciesin:harvard_doi": "10.7910/DVN/GPC5JL",
+      "ciesin:sedac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:ac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h49w0cdn": {
+      "href": "https://doi.org/10.7927/H49W0CDN",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H49W0CDN",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4Q23X5Q",
+      "ciesin:harvard_doi": "10.7910/DVN/GPC5JL",
+      "ciesin:sedac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:ac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4639mpp": {
+      "href": "https://doi.org/10.7927/H4639MPP",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4639MPP",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4Q23X5Q",
+      "ciesin:harvard_doi": "10.7910/DVN/GPC5JL",
+      "ciesin:sedac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:ac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h42b8vzz": {
+      "href": "https://doi.org/10.7927/H42B8VZZ",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H42B8VZZ",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4Q23X5Q",
+      "ciesin:harvard_doi": "10.7910/DVN/GPC5JL",
+      "ciesin:sedac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:ac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4st7mrb": {
+      "href": "https://doi.org/10.7927/H4ST7MRB",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4ST7MRB",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4Q23X5Q",
+      "ciesin:harvard_doi": "10.7910/DVN/GPC5JL",
+      "ciesin:sedac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:ac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4tt4nwq": {
+      "href": "https://doi.org/10.7927/H4TT4NWQ",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4TT4NWQ",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4Q23X5Q",
+      "ciesin:harvard_doi": "10.7910/DVN/GPC5JL",
+      "ciesin:sedac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:ac_doi": "10.7927/H4Q23X5Q",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "gl-gpwv3-ntlbnd-shp-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11812688",

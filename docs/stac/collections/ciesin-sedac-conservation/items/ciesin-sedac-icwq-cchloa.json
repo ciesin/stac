@@ -343,39 +343,75 @@
     }
   ],
   "assets": {
-    "timeseries-global-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/icwq/icwq-change-in-chlorophyll-a-concentration-1998-2007/timeseries-global.zip",
-      "type": "application/x-zip-compressed",
-      "title": "timeseries-global.zip",
-      "description": "All Countries data in Excel format from the Indicators of Coastal Water Quality: Change in Chlorophyll-a Concentration 1998-2007 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H48W3B88",
-      "ciesin:harvard_doi": "10.7910/DVN/KI4WVN",
-      "ciesin:source_dataset_id": "C3550192453-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277601-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h48w3b88": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H48W3B88",
-      "type": "application/octet-stream",
-      "title": "timeseries-global.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Indicators of Coastal Water Quality: Change in Chlorophyll-a Concentration 1998-2007.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H48W3B88",
       "ciesin:harvard_doi": "10.7910/DVN/KI4WVN",
-      "ciesin:source_dataset_id": "C3550192453-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277601-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H48W3B88",
+      "ciesin:ac_doi": "10.7927/H48W3B88",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "timeseries-global-zip-2": {
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/KI4WVN",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Indicators of Coastal Water Quality: Change in Chlorophyll-a Concentration 1998-2007.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H48W3B88",
+      "ciesin:harvard_doi": "10.7910/DVN/KI4WVN",
+      "ciesin:sedac_doi": "10.7927/H48W3B88",
+      "ciesin:ac_doi": "10.7927/H48W3B88",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.7927-h4dn4300": {
+      "href": "https://doi.org/10.7927/H4DN4300",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4DN4300",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H48W3B88",
+      "ciesin:harvard_doi": "10.7910/DVN/KI4WVN",
+      "ciesin:sedac_doi": "10.7927/H48W3B88",
+      "ciesin:ac_doi": "10.7927/H48W3B88",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4j96490": {
+      "href": "https://doi.org/10.7927/H4J96490",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4J96490",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H48W3B88",
+      "ciesin:harvard_doi": "10.7910/DVN/KI4WVN",
+      "ciesin:sedac_doi": "10.7927/H48W3B88",
+      "ciesin:ac_doi": "10.7927/H48W3B88",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "timeseries-global-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815514",
       "type": "application/zip",
       "title": "timeseries-global.zip",

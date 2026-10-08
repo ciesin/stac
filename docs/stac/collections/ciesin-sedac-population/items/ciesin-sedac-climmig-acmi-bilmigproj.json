@@ -185,119 +185,58 @@
     }
   ],
   "assets": {
-    "climmig-acmi-bilateral-migration-projections-summary-cumulative-2015-2050-csv-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/climmig/climmig-acmi-bilateral-migration-projections/climmig-acmi-bilateral-migration-projections-summary-cumulative-2015-2050-csv.zip",
-      "type": "application/x-zip-compressed",
-      "title": "climmig-acmi-bilateral-migration-projections-summary-cumulative-2015-2050-csv.zip",
-      "description": "Africa data in CSV format for the year 2015-2050 from the African Climate Mobility Initiative (ACMI): Bilateral Migration Projections data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/4JB8-E177",
-      "ciesin:harvard_doi": "10.7910/DVN/H3BOFG",
-      "ciesin:source_dataset_id": "C3540910107-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553450182-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "4jb8-e177": {
-      "href": "https://doi.org/10.7927/4jb8-e177",
-      "type": "application/octet-stream",
-      "title": "climmig-acmi-bilateral-migration-projections-summary-cumulative-2015-2050-csv.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/4JB8-E177",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Africa Climate Mobility Initiative (ACMI): Bilateral Migration Projections.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/4JB8-E177",
       "ciesin:harvard_doi": "10.7910/DVN/H3BOFG",
-      "ciesin:source_dataset_id": "C3540910107-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553450182-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/4jb8-e177",
+      "ciesin:ac_doi": "10.7927/4jb8-e177",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/H3BOFG",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Africa Climate Mobility Initiative (ACMI): Bilateral Migration Projections.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/4JB8-E177",
+      "ciesin:harvard_doi": "10.7910/DVN/H3BOFG",
+      "ciesin:sedac_doi": "10.7927/4jb8-e177",
+      "ciesin:ac_doi": "10.7927/4jb8-e177",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "metadata-document-report": {
+      "href": "https://africa.climatemobility.org/report",
+      "type": "text/html",
+      "title": "report",
+      "description": "Documentation link from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "source_metadata_document",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/4JB8-E177",
+      "ciesin:harvard_doi": "10.7910/DVN/H3BOFG",
+      "ciesin:sedac_doi": "10.7927/4jb8-e177",
+      "ciesin:ac_doi": "10.7927/4jb8-e177",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "source_metadata_document"
     },
     "climmig-acmi-bilateral-migration-projections-raw-2015-2050-rds-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/climmig/climmig-acmi-bilateral-migration-projections/climmig-acmi-bilateral-migration-projections-raw-2015-2050-rds.zip",
-      "type": "application/x-zip-compressed",
-      "title": "climmig-acmi-bilateral-migration-projections-raw-2015-2050-rds.zip",
-      "description": "Africa data in RData format for the year 2015-2050 from the African Climate Mobility Initiative (ACMI): Bilateral Migration Projections data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/4JB8-E177",
-      "ciesin:harvard_doi": "10.7910/DVN/H3BOFG",
-      "ciesin:source_dataset_id": "C3540910107-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553450218-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "climmig-acmi-bilateral-migration-projections-summary-aggregate-2015-2050-csv-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/climmig/climmig-acmi-bilateral-migration-projections/climmig-acmi-bilateral-migration-projections-summary-aggregate-2015-2050-csv.zip",
-      "type": "application/x-zip-compressed",
-      "title": "climmig-acmi-bilateral-migration-projections-summary-aggregate-2015-2050-csv.zip",
-      "description": "Africa data in CSV format for the year 2015-2050 from the African Climate Mobility Initiative (ACMI): Bilateral Migration Projections data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/4JB8-E177",
-      "ciesin:harvard_doi": "10.7910/DVN/H3BOFG",
-      "ciesin:source_dataset_id": "C3540910107-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553450240-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "climmig-acmi-bilateral-migration-projections-summary-aggregate-cumulative-2015-2050-csv-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/climmig/climmig-acmi-bilateral-migration-projections/climmig-acmi-bilateral-migration-projections-summary-aggregate-cumulative-2015-2050-csv.zip",
-      "type": "application/x-zip-compressed",
-      "title": "climmig-acmi-bilateral-migration-projections-summary-aggregate-cumulative-2015-2050-csv.zip",
-      "description": "Africa data in CSV format for the year 2015-2050 from the African Climate Mobility Initiative (ACMI): Bilateral Migration Projections data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/4JB8-E177",
-      "ciesin:harvard_doi": "10.7910/DVN/H3BOFG",
-      "ciesin:source_dataset_id": "C3540910107-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553450260-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "climmig-acmi-bilateral-migration-projections-summary-2015-2050-csv-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/climmig/climmig-acmi-bilateral-migration-projections/climmig-acmi-bilateral-migration-projections-summary-2015-2050-csv.zip",
-      "type": "application/x-zip-compressed",
-      "title": "climmig-acmi-bilateral-migration-projections-summary-2015-2050-csv.zip",
-      "description": "Africa data in RData format for the year 2015-2050 from the African Climate Mobility Initiative (ACMI): Bilateral Migration Projections data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/4JB8-E177",
-      "ciesin:harvard_doi": "10.7910/DVN/H3BOFG",
-      "ciesin:source_dataset_id": "C3540910107-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553450267-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "climmig-acmi-bilateral-migration-projections-raw-cumulative-2015-2050-rds-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/climmig/climmig-acmi-bilateral-migration-projections/climmig-acmi-bilateral-migration-projections-raw-cumulative-2015-2050-rds.zip",
-      "type": "application/x-zip-compressed",
-      "title": "climmig-acmi-bilateral-migration-projections-raw-cumulative-2015-2050-rds.zip",
-      "description": "Africa data in RData format for the year 2015-2050 from the African Climate Mobility Initiative (ACMI): Bilateral Migration Projections data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/4JB8-E177",
-      "ciesin:harvard_doi": "10.7910/DVN/H3BOFG",
-      "ciesin:source_dataset_id": "C3540910107-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553450296-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "climmig-acmi-bilateral-migration-projections-raw-2015-2050-rds-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715571",
       "type": "application/zip",
       "title": "climmig-acmi-bilateral-migration-projections-raw-2015-2050-rds.zip",
@@ -317,7 +256,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "climmig-acmi-bilateral-migration-projections-raw-cumulative-2015-2050-rds-zip-2": {
+    "climmig-acmi-bilateral-migration-projections-raw-cumulative-2015-2050-rds-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715570",
       "type": "application/zip",
       "title": "climmig-acmi-bilateral-migration-projections-raw-cumulative-2015-2050-rds.zip",
@@ -337,7 +276,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "climmig-acmi-bilateral-migration-projections-summary-2015-2050-csv-zip-2": {
+    "climmig-acmi-bilateral-migration-projections-summary-2015-2050-csv-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715572",
       "type": "application/zip",
       "title": "climmig-acmi-bilateral-migration-projections-summary-2015-2050-csv.zip",
@@ -357,7 +296,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "climmig-acmi-bilateral-migration-projections-summary-aggregate-2015-2050-csv-zip-2": {
+    "climmig-acmi-bilateral-migration-projections-summary-aggregate-2015-2050-csv-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715569",
       "type": "application/zip",
       "title": "climmig-acmi-bilateral-migration-projections-summary-aggregate-2015-2050-csv.zip",
@@ -377,7 +316,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "climmig-acmi-bilateral-migration-projections-summary-aggregate-cumulative-2015-2050-csv-zip-2": {
+    "climmig-acmi-bilateral-migration-projections-summary-aggregate-cumulative-2015-2050-csv-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715573",
       "type": "application/zip",
       "title": "climmig-acmi-bilateral-migration-projections-summary-aggregate-cumulative-2015-2050-csv.zip",
@@ -397,7 +336,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "climmig-acmi-bilateral-migration-projections-summary-cumulative-2015-2050-csv-zip-2": {
+    "climmig-acmi-bilateral-migration-projections-summary-cumulative-2015-2050-csv-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715574",
       "type": "application/zip",
       "title": "climmig-acmi-bilateral-migration-projections-summary-cumulative-2015-2050-csv.zip",

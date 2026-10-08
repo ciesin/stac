@@ -159,37 +159,39 @@
     }
   ],
   "assets": {
-    "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-xlsx-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/ssp/ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1/ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-xlsx.zip",
-      "type": "application/x-zip-compressed",
-      "title": "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-xlsx.zip",
-      "description": "Global data in Excel format for the years 2014 - 2021 from the Sub-global Scenarios that Extend the Global SSP Narratives: Literature Database, Version 1, 2014-2021 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/W6W3-3896",
-      "ciesin:harvard_doi": "10.7910/DVN/MW5WRO",
-      "ciesin:source_dataset_id": "C3540909595-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553447788-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "w6w3-3896": {
-      "href": "https://doi.org/10.7927/w6w3-3896",
-      "type": "application/octet-stream",
-      "title": "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-xlsx.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/W6W3-3896",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Sub-global Scenarios that Extend the Global SSP Narratives: Literature Database, Version 1, 2014-2021.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/W6W3-3896",
       "ciesin:harvard_doi": "10.7910/DVN/MW5WRO",
-      "ciesin:source_dataset_id": "C3540909595-ESDIS",
-      "ciesin:source_granule_concept_id": "G3553447788-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/w6w3-3896",
+      "ciesin:ac_doi": "10.7927/w6w3-3896",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/MW5WRO",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Sub-global Scenarios that Extend the Global SSP Narratives: Literature Database, Version 1, 2014-2021.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/W6W3-3896",
+      "ciesin:harvard_doi": "10.7910/DVN/MW5WRO",
+      "ciesin:sedac_doi": "10.7927/w6w3-3896",
+      "ciesin:ac_doi": "10.7927/w6w3-3896",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
     "ssp-sub-global-scenarios-extend-ssp-narratives-literature-db-v1-methodology-pdf": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11661596",

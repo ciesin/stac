@@ -447,37 +447,209 @@
     }
   ],
   "assets": {
-    "2022-epi-indicators-time-series-csv-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2022/2022-epi-indicators-time-series-csv.zip",
-      "type": "application/x-zip-compressed",
-      "title": "2022-epi-indicators-time-series-csv.zip",
-      "description": "Global time series processed indicators data in CSV format for the years 1950-2022 from the 2022 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
-      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
-      "ciesin:source_dataset_id": "C3540911446-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122302-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "dwt2-9k25": {
-      "href": "https://doi.org/10.7927/dwt2-9k25",
-      "type": "application/octet-stream",
-      "title": "2022-epi-indicators-time-series-csv.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/DWT2-9K25",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for 2022 Environmental Performance Index (EPI).",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/DWT2-9K25",
       "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
-      "ciesin:source_dataset_id": "C3540911446-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122302-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/dwt2-9k25",
+      "ciesin:ac_doi": "10.7927/dwt2-9k25",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/TLUI00",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for 2022 Environmental Performance Index (EPI).",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
+      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
+      "ciesin:sedac_doi": "10.7927/dwt2-9k25",
+      "ciesin:ac_doi": "10.7927/dwt2-9k25",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.7927-h44m92gx": {
+      "href": "https://doi.org/10.7927/H44M92GX",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H44M92GX",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
+      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
+      "ciesin:sedac_doi": "10.7927/dwt2-9k25",
+      "ciesin:ac_doi": "10.7927/dwt2-9k25",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4ht2m77": {
+      "href": "https://doi.org/10.7927/H4HT2M77",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4HT2M77",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
+      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
+      "ciesin:sedac_doi": "10.7927/dwt2-9k25",
+      "ciesin:ac_doi": "10.7927/dwt2-9k25",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4d21vht": {
+      "href": "https://doi.org/10.7927/H4D21VHT",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4D21VHT",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
+      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
+      "ciesin:sedac_doi": "10.7927/dwt2-9k25",
+      "ciesin:ac_doi": "10.7927/dwt2-9k25",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h48913sg": {
+      "href": "https://doi.org/10.7927/H48913SG",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H48913SG",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
+      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
+      "ciesin:sedac_doi": "10.7927/dwt2-9k25",
+      "ciesin:ac_doi": "10.7927/dwt2-9k25",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4416v05": {
+      "href": "https://doi.org/10.7927/H4416V05",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4416V05",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
+      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
+      "ciesin:sedac_doi": "10.7927/dwt2-9k25",
+      "ciesin:ac_doi": "10.7927/dwt2-9k25",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4fx77cs": {
+      "href": "https://doi.org/10.7927/H4FX77CS",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4FX77CS",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
+      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
+      "ciesin:sedac_doi": "10.7927/dwt2-9k25",
+      "ciesin:ac_doi": "10.7927/dwt2-9k25",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.13140-rg.2.2.19868.90249": {
+      "href": "https://doi.org/10.13140/RG.2.2.19868.90249",
+      "type": "text/html",
+      "title": "Related DOI: 10.13140/RG.2.2.19868.90249",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
+      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
+      "ciesin:sedac_doi": "10.7927/dwt2-9k25",
+      "ciesin:ac_doi": "10.7927/dwt2-9k25",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4x928cf": {
+      "href": "https://doi.org/10.7927/H4X928CF",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4X928CF",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
+      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
+      "ciesin:sedac_doi": "10.7927/dwt2-9k25",
+      "ciesin:ac_doi": "10.7927/dwt2-9k25",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-f54c-0r44": {
+      "href": "https://doi.org/10.7927/f54c-0r44",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/f54c-0r44",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
+      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
+      "ciesin:sedac_doi": "10.7927/dwt2-9k25",
+      "ciesin:ac_doi": "10.7927/dwt2-9k25",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.13140-rg.2.2.21182.51529": {
+      "href": "https://doi.org/10.13140/RG.2.2.21182.51529",
+      "type": "text/html",
+      "title": "Related DOI: 10.13140/RG.2.2.21182.51529",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
+      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
+      "ciesin:sedac_doi": "10.7927/dwt2-9k25",
+      "ciesin:ac_doi": "10.7927/dwt2-9k25",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "2022-epi-technical-appendix-pdf": {
       "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2022/2022-epi-technical-appendix.pdf",
@@ -488,13 +660,13 @@
         "data",
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:source": "nasa_cmr_document_link",
       "ciesin:asset_match_status": "existing_ciesin_asset",
       "ciesin:nasa_doi": "10.7927/DWT2-9K25",
       "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
       "ciesin:source_dataset_id": "C3540911446-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122304-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:source_relation_type": "GET DATA",
+      "ciesin:source_relation_subtype": "documentation_link"
     },
     "2022-epi-report-pdf": {
       "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2022/2022-epi-report.pdf",
@@ -505,143 +677,15 @@
         "data",
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:source": "nasa_cmr_document_link",
       "ciesin:asset_match_status": "existing_ciesin_asset",
       "ciesin:nasa_doi": "10.7927/DWT2-9K25",
       "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
       "ciesin:source_dataset_id": "C3540911446-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122305-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:source_relation_type": "GET DATA",
+      "ciesin:source_relation_subtype": "documentation_link"
     },
-    "2022-epi-xlsx-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2022/2022-epi-xlsx.zip",
-      "type": "application/x-zip-compressed",
-      "title": "2022-epi-xlsx.zip",
-      "description": "Global environmental perormance index data in Excel format for the years 1950-2022 from the 2022 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
-      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
-      "ciesin:source_dataset_id": "C3540911446-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122308-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "epi2022-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2022/epi2022.pdf",
-      "type": "application/pdf",
-      "title": "2022-epi-xlsx.zip",
-      "description": "Global EPI map for the year 2022 in PDF format from the 2022 Environmental Performance Index (EPI)data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
-      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
-      "ciesin:source_dataset_id": "C3540911446-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122308-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2022-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2022/epi2022.png",
-      "type": "image/png",
-      "title": "2022-epi-xlsx.zip",
-      "description": "Global EPI map for the year 2022 in PNG format from the 2022 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
-      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
-      "ciesin:source_dataset_id": "C3540911446-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122308-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2022-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2022/epi2022-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "2022-epi-xlsx.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
-      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
-      "ciesin:source_dataset_id": "C3540911446-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122308-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "2022-epi-raw-data-time-series-na-csv-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2022/2022-epi-raw-data-time-series-na-csv.zip",
-      "type": "application/x-zip-compressed",
-      "title": "2022-epi-raw-data-time-series-na-csv.zip",
-      "description": "Global time series raw data for all indicators no data in CSV format for the years 1950-2022 from the 2022 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
-      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
-      "ciesin:source_dataset_id": "C3540911446-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122311-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "2022-epi-policymakers-summary-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2022/2022-epi-policymakers-summary.pdf",
-      "type": "application/pdf",
-      "title": "2022-epi-policymakers-summary.pdf",
-      "description": "EPI Policymaker summary in PDF format for the year2022 from the 2022 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data",
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
-      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
-      "ciesin:source_dataset_id": "C3540911446-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122313-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "2022-epi-indicators-time-series-na-csv-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2022/2022-epi-indicators-time-series-na-csv.zip",
-      "type": "application/x-zip-compressed",
-      "title": "2022-epi-indicators-time-series-na-csv.zip",
-      "description": "Global time series processed indicators no data in CSV format for the years 1950-2022 from the 2022 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
-      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
-      "ciesin:source_dataset_id": "C3540911446-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122317-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "2022-epi-raw-data-time-series-csv-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2022/2022-epi-raw-data-time-series-csv.zip",
-      "type": "application/x-zip-compressed",
-      "title": "2022-epi-raw-data-time-series-csv.zip",
-      "description": "Global time series raw data for all indicators data in CSV format for the years 1950-2022 from the 2022 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/DWT2-9K25",
-      "ciesin:harvard_doi": "10.7910/DVN/TLUI00",
-      "ciesin:source_dataset_id": "C3540911446-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122319-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "2022-epi-indicators-time-series-csv-zip-2": {
+    "2022-epi-indicators-time-series-csv-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715561",
       "type": "application/zip",
       "title": "2022-epi-indicators-time-series-csv.zip",
@@ -661,7 +705,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "2022-epi-indicators-time-series-na-csv-zip-2": {
+    "2022-epi-indicators-time-series-na-csv-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715566",
       "type": "application/zip",
       "title": "2022-epi-indicators-time-series-na-csv.zip",
@@ -681,7 +725,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "2022-epi-policymakers-summary-pdf-2": {
+    "2022-epi-policymakers-summary-pdf": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715564",
       "type": "application/pdf",
       "title": "2022-epi-policymakers-summary.pdf",
@@ -701,7 +745,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Adobe PDF"
     },
-    "2022-epi-raw-data-time-series-csv-zip-2": {
+    "2022-epi-raw-data-time-series-csv-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715562",
       "type": "application/zip",
       "title": "2022-epi-raw-data-time-series-csv.zip",
@@ -721,7 +765,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "2022-epi-raw-data-time-series-na-csv-zip-2": {
+    "2022-epi-raw-data-time-series-na-csv-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715565",
       "type": "application/zip",
       "title": "2022-epi-raw-data-time-series-na-csv.zip",
@@ -781,7 +825,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Adobe PDF"
     },
-    "2022-epi-xlsx-zip-2": {
+    "2022-epi-xlsx-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715568",
       "type": "application/zip",
       "title": "2022-epi-xlsx.zip",

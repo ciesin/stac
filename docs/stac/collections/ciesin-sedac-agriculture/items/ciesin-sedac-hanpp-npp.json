@@ -173,102 +173,126 @@
     }
   ],
   "assets": {
-    "npp-grid-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/hanpp/hanpp-net-primary-productivity/npp-grid.zip",
-      "type": "application/x-zip-compressed",
-      "title": "npp-grid.zip",
-      "description": "Global data in Grid format from the HANPP Collection: Global Patterns in Net Primary Productivity (NPP) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H40Z715X",
-      "ciesin:harvard_doi": "10.7910/DVN/EX99FR",
-      "ciesin:source_dataset_id": "C3550191418-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550267389-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "2006jd007377": {
-      "href": "https://doi.org/10.1029/2006JD007377",
-      "type": "application/octet-stream",
-      "title": "npp-grid.zip",
-      "description": "DATA SET DOI Description and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/H40Z715X",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for HANPP Collection: Global Patterns in Net Primary Productivity (NPP).",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H40Z715X",
       "ciesin:harvard_doi": "10.7910/DVN/EX99FR",
-      "ciesin:source_dataset_id": "C3550191418-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550267389-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H40Z715X",
+      "ciesin:ac_doi": "10.7927/H40Z715X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "hanpp-percentage-npp-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/hanpp/hanpp-percentage-net-primary-productivity/hanpp-percentage-npp.pdf",
-      "type": "application/pdf",
-      "title": "npp-grid.zip",
-      "description": "Global map in PDF format from the HANPP Collection: Global Patterns in Net Primary Productivity (NPP) data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/EX99FR",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for HANPP Collection: Global Patterns in Net Primary Productivity (NPP).",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H40Z715X",
       "ciesin:harvard_doi": "10.7910/DVN/EX99FR",
-      "ciesin:source_dataset_id": "C3550191418-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550267389-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H40Z715X",
+      "ciesin:ac_doi": "10.7927/H40Z715X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "hanpp-percentage-npp-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/hanpp/hanpp-percentage-net-primary-productivity/hanpp-percentage-npp.png",
-      "type": "image/png",
-      "title": "npp-grid.zip",
-      "description": "Global map in PNG format from the HANPP Collection: Global Patterns in Net Primary Productivity (NPP) data set.",
+    "related-doi-10.1029-2006jd007377": {
+      "href": "http://dx.doi.org/10.1029/2006JD007377",
+      "type": "text/html",
+      "title": "Related DOI: 10.1029/2006JD007377",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H40Z715X",
       "ciesin:harvard_doi": "10.7910/DVN/EX99FR",
-      "ciesin:source_dataset_id": "C3550191418-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550267389-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H40Z715X",
+      "ciesin:ac_doi": "10.7927/H40Z715X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
-    "hanpp-percentage-npp-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/hanpp/hanpp-percentage-net-primary-productivity/hanpp-percentage-npp-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "npp-grid.zip",
+    "related-doi-10.1038-nature02619": {
+      "href": "https://doi.org/10.1038/nature02619",
+      "type": "text/html",
+      "title": "Related DOI: 10.1038/nature02619",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H40Z715X",
       "ciesin:harvard_doi": "10.7910/DVN/EX99FR",
-      "ciesin:source_dataset_id": "C3550191418-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550267389-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:sedac_doi": "10.7927/H40Z715X",
+      "ciesin:ac_doi": "10.7927/H40Z715X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h48g8hmk": {
+      "href": "https://doi.org/10.7927/H48G8HMK",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H48G8HMK",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H40Z715X",
+      "ciesin:harvard_doi": "10.7910/DVN/EX99FR",
+      "ciesin:sedac_doi": "10.7927/H40Z715X",
+      "ciesin:ac_doi": "10.7927/H40Z715X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h44q7rwv": {
+      "href": "https://doi.org/10.7927/H44Q7RWV",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H44Q7RWV",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H40Z715X",
+      "ciesin:harvard_doi": "10.7910/DVN/EX99FR",
+      "ciesin:sedac_doi": "10.7927/H40Z715X",
+      "ciesin:ac_doi": "10.7927/H40Z715X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4w66hpj": {
+      "href": "https://doi.org/10.7927/H4W66HPJ",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4W66HPJ",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H40Z715X",
+      "ciesin:harvard_doi": "10.7910/DVN/EX99FR",
+      "ciesin:sedac_doi": "10.7927/H40Z715X",
+      "ciesin:ac_doi": "10.7927/H40Z715X",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "npp-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/hanpp/hanpp-net-primary-productivity/npp-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "npp-geotiff.zip",
-      "description": "Global data in GEOTiFF format from the HANPP Collection: Global Patterns in Net Primary Productivity (NPP) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H40Z715X",
-      "ciesin:harvard_doi": "10.7910/DVN/EX99FR",
-      "ciesin:source_dataset_id": "C3550191418-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550267396-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "npp-geotiff-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815386",
       "type": "application/zip",
       "title": "npp-geotiff.zip",
@@ -288,7 +312,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "npp-grid-zip-2": {
+    "npp-grid-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815387",
       "type": "application/zip",
       "title": "npp-grid.zip",

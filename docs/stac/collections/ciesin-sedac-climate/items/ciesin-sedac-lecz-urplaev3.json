@@ -423,86 +423,143 @@
     }
   ],
   "assets": {
-    "lecz-urban-rural-population-land-area-estimates-v3-xlsm-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lecz/lecz-urban-rural-population-land-area-estimates-v3/lecz-urban-rural-population-land-area-estimates-v3-xlsm.zip",
-      "type": "application/x-zip-compressed",
-      "title": "lecz-urban-rural-population-land-area-estimates-v3-xlsm.zip",
-      "description": "Global data in Excel (.xlsm) format from the Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/D1X1-D702",
-      "ciesin:harvard_doi": "10.7910/DVN/8QYAFZ",
-      "ciesin:source_dataset_id": "C3540930157-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122822-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "d1x1-d702": {
-      "href": "https://doi.org/10.7927/d1x1-d702",
-      "type": "application/octet-stream",
-      "title": "lecz-urban-rural-population-land-area-estimates-v3-xlsm.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/D1X1-D702",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/D1X1-D702",
       "ciesin:harvard_doi": "10.7910/DVN/8QYAFZ",
-      "ciesin:source_dataset_id": "C3540930157-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122822-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/d1x1-d702",
+      "ciesin:ac_doi": "10.7927/d1x1-d702",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "lecz-urban-rural-population-land-area-estimates-v3-merit-dem-leczs-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lecz/lecz-urban-rural-population-land-area-estimates-v3/lecz-urban-rural-population-land-area-estimates-v3-merit-dem-leczs.png",
-      "type": "image/png",
-      "title": "lecz-urban-rural-population-land-area-estimates-v3-xlsm.zip",
-      "description": "5m, 10m, >10m MERIT-DEM map in PNG format from the Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/8QYAFZ",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3.",
       "roles": [
-        "overview"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/D1X1-D702",
       "ciesin:harvard_doi": "10.7910/DVN/8QYAFZ",
-      "ciesin:source_dataset_id": "C3540930157-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122822-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/d1x1-d702",
+      "ciesin:ac_doi": "10.7927/d1x1-d702",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "lecz-urban-rural-population-land-area-estimates-v3-merit-dem-leczs-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/lecz/lecz-urban-rural-population-land-area-estimates-v3/lecz-urban-rural-population-land-area-estimates-v3-merit-dem-leczs-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "lecz-urban-rural-population-land-area-estimates-v3-xlsm.zip",
+    "related-doi-10.5194-essd-13-5747-2021": {
+      "href": "https://doi.org/10.5194/essd-13-5747-2021",
+      "type": "text/html",
+      "title": "Related DOI: 10.5194/essd-13-5747-2021",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "thumbnail"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/D1X1-D702",
       "ciesin:harvard_doi": "10.7910/DVN/8QYAFZ",
-      "ciesin:source_dataset_id": "C3540930157-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122822-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
+      "ciesin:sedac_doi": "10.7927/d1x1-d702",
+      "ciesin:ac_doi": "10.7927/d1x1-d702",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4tm782g": {
+      "href": "https://doi.org/10.7927/H4TM782G",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4TM782G",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/D1X1-D702",
+      "ciesin:harvard_doi": "10.7910/DVN/8QYAFZ",
+      "ciesin:sedac_doi": "10.7927/d1x1-d702",
+      "ciesin:ac_doi": "10.7927/d1x1-d702",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.1177-0956247807076960": {
+      "href": "https://doi.org/10.1177/0956247807076960",
+      "type": "text/html",
+      "title": "Related DOI: 10.1177/0956247807076960",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/D1X1-D702",
+      "ciesin:harvard_doi": "10.7910/DVN/8QYAFZ",
+      "ciesin:sedac_doi": "10.7927/d1x1-d702",
+      "ciesin:ac_doi": "10.7927/d1x1-d702",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4mw2f2j": {
+      "href": "https://doi.org/10.7927/H4MW2F2J",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4MW2F2J",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/D1X1-D702",
+      "ciesin:harvard_doi": "10.7910/DVN/8QYAFZ",
+      "ciesin:sedac_doi": "10.7927/d1x1-d702",
+      "ciesin:ac_doi": "10.7927/d1x1-d702",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4cc0xmd": {
+      "href": "https://doi.org/10.7927/H4CC0XMD",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4CC0XMD",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/D1X1-D702",
+      "ciesin:harvard_doi": "10.7910/DVN/8QYAFZ",
+      "ciesin:sedac_doi": "10.7927/d1x1-d702",
+      "ciesin:ac_doi": "10.7927/d1x1-d702",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-z0r0-gc08": {
+      "href": "https://doi.org/10.7927/z0r0-gc08",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/z0r0-gc08",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/D1X1-D702",
+      "ciesin:harvard_doi": "10.7910/DVN/8QYAFZ",
+      "ciesin:sedac_doi": "10.7927/d1x1-d702",
+      "ciesin:ac_doi": "10.7927/d1x1-d702",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "lecz-urban-rural-population-land-area-estimates-v3-merit-leczs-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/lecz/lecz-urban-rural-population-land-area-estimates-v3/lecz-urban-rural-population-land-area-estimates-v3-merit-leczs-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "lecz-urban-rural-population-land-area-estimates-v3-merit-leczs-geotiff.zip",
-      "description": "Global MERIT LECZs Raster Layer data in GeoTIFF format from the Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 3 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/D1X1-D702",
-      "ciesin:harvard_doi": "10.7910/DVN/8QYAFZ",
-      "ciesin:source_dataset_id": "C3540930157-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122825-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "lecz-urban-rural-population-land-area-estimates-v3-merit-leczs-geotiff-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815589",
       "type": "application/zipped-shapefile",
       "title": "lecz-urban-rural-population-land-area-estimates-v3-merit-leczs-geotiff.zip",
@@ -522,7 +579,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Shapefile as ZIP Archive"
     },
-    "lecz-urban-rural-population-land-area-estimates-v3-xlsm-zip-2": {
+    "lecz-urban-rural-population-land-area-estimates-v3-xlsm-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11815590",
       "type": "application/zip",
       "title": "lecz-urban-rural-population-land-area-estimates-v3-xlsm.zip",

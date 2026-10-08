@@ -141,215 +141,58 @@
     }
   ],
   "assets": {
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-netcdf-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-urban-land-backscatter-time-series-1993-2020/urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-netcdf.zip",
-      "type": "application/x-zip-compressed",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-netcdf.zip",
-      "description": "Global seasonal time series land backscatter, all instruments (ASCAT, ERS, QuickSCAT) data in netCDF-4 format for the years 1993-2020 from the Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/GR2E-DH86",
-      "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551709561-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "gr2e-dh86": {
-      "href": " https://doi.org/10.7927/gr2e-dh86",
-      "type": "application/octet-stream",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-netcdf.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+    "nasa-doi": {
+      "href": "https://doi.org/10.7927/GR2E-DH86",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/GR2E-DH86",
       "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551709561-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/gr2e-dh86",
+      "ciesin:ac_doi": "10.7927/gr2e-dh86",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ers-netcdf-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-urban-land-backscatter-time-series-1993-2020/urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ers-netcdf.zip",
-      "type": "application/x-zip-compressed",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ers-netcdf.zip",
-      "description": "Global monthly land backscatter, ERS data in netCDF-4 format for the years 1993-2000 from the Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020 data set.",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/E3JJ20",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/GR2E-DH86",
       "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551709562-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/gr2e-dh86",
+      "ciesin:ac_doi": "10.7927/gr2e-dh86",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-netcdf-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-urban-land-backscatter-time-series-1993-2020/urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-netcdf.zip",
-      "type": "application/x-zip-compressed",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-netcdf.zip",
-      "description": "Global monthly land backscatter, all instruments (ASCAT, ERS, QuickSCAT) data in netCDF-4 format for the years 1993-2020 from the Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020 data set.",
+    "related-doi-10.1038-s41597-022-01193-w": {
+      "href": "https://doi.org/10.1038/s41597-022-01193-w",
+      "type": "text/html",
+      "title": "Related DOI: 10.1038/s41597-022-01193-w",
+      "description": "Related publication or referenced DOI from source metadata.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/GR2E-DH86",
       "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551709565-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-urban-netcdf-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-urban-land-backscatter-time-series-1993-2020/urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-urban-netcdf.zip",
-      "type": "application/x-zip-compressed",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-urban-netcdf.zip",
-      "description": "Global seasonal time series urban backscatter, all instruments (ASCAT, ERS, QuickSCAT) data in netCDF-4 format for the years 1993-2020 from the Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/GR2E-DH86",
-      "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551709568-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-urban-land-backscatter-time-series-1993-2020/urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-geotiff.zip",
-      "description": "Global monthly land backscatter, all instruments (ASCAT, ERS, QuickSCAT) data in GeoTIFF format for the years 1993-2020 from the Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/GR2E-DH86",
-      "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551709570-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-urban-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-urban-land-backscatter-time-series-1993-2020/urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-urban-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-urban-geotiff.zip",
-      "description": "Global seasonal time series urban backscatter, all instruments (ASCAT, ERS, QuickSCAT) data in GeoTIFF format for the years 1993-2020 from the Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/GR2E-DH86",
-      "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551709572-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-urban-land-backscatter-time-series-1993-2020/urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-geotiff.zip",
-      "description": "Global seasonal time series land backscatter, all instruments (ASCAT, ERS, QuickSCAT) data in GeoTIFF format for the years 1993-2020 from the Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/GR2E-DH86",
-      "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551709574-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ers-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-urban-land-backscatter-time-series-1993-2020/urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ers-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ers-geotiff.zip",
-      "description": "Global monthly land backscatter, ERS data in GeoTIFF format for the years 1993-2000 from the Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/GR2E-DH86",
-      "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551709577-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-quikscat-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-urban-land-backscatter-time-series-1993-2020/urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-quikscat-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-quikscat-geotiff.zip",
-      "description": "Global monthly land backscatter, QuickSAT data in GeoTIFF format for the years 1999-2009 from the Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/GR2E-DH86",
-      "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551884509-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-quikscat-netcdf-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-urban-land-backscatter-time-series-1993-2020/urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-quikscat-netcdf.zip",
-      "type": "application/x-zip-compressed",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-quikscat-netcdf.zip",
-      "description": "Global monthly land backscatter, QuickSAT data in netCDF-4 format for the years 1999-2009 from the Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/GR2E-DH86",
-      "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3551884524-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/gr2e-dh86",
+      "ciesin:ac_doi": "10.7927/gr2e-dh86",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ascat-geotiff-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-urban-land-backscatter-time-series-1993-2020/urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ascat-geotiff.zip",
-      "type": "application/x-zip-compressed",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ascat-geotiff.zip",
-      "description": "Global monthly land backscatter, ASCAT data in GeoTIFF format for the years 2007-2020 from the Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/GR2E-DH86",
-      "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552647497-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ascat-netcdf-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/urbanspatial/urbanspatial-urban-land-backscatter-time-series-1993-2020/urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ascat-netcdf.zip",
-      "type": "application/x-zip-compressed",
-      "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ascat-netcdf.zip",
-      "description": "Global monthly land backscatter, ASCAT data in netCDF-4 format for the years 2007-2020 from the Global Monthly and Seasonal Urban and Land Backscatter Time Series, 1993-2020 data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/GR2E-DH86",
-      "ciesin:harvard_doi": "10.7910/DVN/E3JJ20",
-      "ciesin:source_dataset_id": "C3540910600-ESDIS",
-      "ciesin:source_granule_concept_id": "G3552647499-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ascat-geotiff-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/13595665",
       "type": "application/zip",
       "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ascat-geotiff.zip",
@@ -369,7 +212,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ascat-netcdf-zip-2": {
+    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ascat-netcdf-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/13595657",
       "type": "application/zip",
       "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ascat-netcdf.zip",
@@ -389,7 +232,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ers-geotiff-zip-2": {
+    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ers-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/13595654",
       "type": "application/zip",
       "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ers-geotiff.zip",
@@ -409,7 +252,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ers-netcdf-zip-2": {
+    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ers-netcdf-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/13595662",
       "type": "application/zip",
       "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-ers-netcdf.zip",
@@ -429,7 +272,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-geotiff-zip-2": {
+    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/13595663",
       "type": "application/zip",
       "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-geotiff.zip",
@@ -449,7 +292,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-netcdf-zip-2": {
+    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-netcdf-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/13595661",
       "type": "application/zip",
       "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-netcdf.zip",
@@ -469,7 +312,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-quikscat-geotiff-zip-2": {
+    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-quikscat-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/13595655",
       "type": "application/zip",
       "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-quikscat-geotiff.zip",
@@ -489,7 +332,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-quikscat-netcdf-zip-2": {
+    "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-quikscat-netcdf-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/13595660",
       "type": "application/zip",
       "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-monthly-land-quikscat-netcdf.zip",
@@ -509,7 +352,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-geotiff-zip-2": {
+    "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/13595659",
       "type": "application/zip",
       "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-geotiff.zip",
@@ -529,7 +372,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-netcdf-zip-2": {
+    "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-netcdf-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/13595664",
       "type": "application/zip",
       "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-land-netcdf.zip",
@@ -549,7 +392,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-urban-geotiff-zip-2": {
+    "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-urban-geotiff-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/13595656",
       "type": "application/zip",
       "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-urban-geotiff.zip",
@@ -569,7 +412,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-urban-netcdf-zip-2": {
+    "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-urban-netcdf-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/13595658",
       "type": "application/zip",
       "title": "urbanspatial-urban-land-backscatter-time-series-1993-2020-seasonal-urban-netcdf.zip",

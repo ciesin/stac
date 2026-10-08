@@ -412,37 +412,192 @@
     }
   ],
   "assets": {
-    "2018-epi-raw-data-time-series-xlsx-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2018/2018-epi-raw-data-time-series-xlsx.zip",
-      "type": "application/x-zip-compressed",
-      "title": "2018-epi-raw-data-time-series-xlsx.zip",
-      "description": "Raw Time Series data in Excel Workbook format for the year 2018 from the 2018 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4X928CF",
-      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
-      "ciesin:source_dataset_id": "C3540929627-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122235-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4x928cf": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4X928CF",
-      "type": "application/octet-stream",
-      "title": "2018-epi-raw-data-time-series-xlsx.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for 2018 Environmental Performance Index (EPI).",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4X928CF",
       "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
-      "ciesin:source_dataset_id": "C3540929627-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122235-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4X928CF",
+      "ciesin:ac_doi": "10.7927/H4X928CF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
+    },
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/1D8ZXB",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for 2018 Environmental Performance Index (EPI).",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4X928CF",
+      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
+      "ciesin:sedac_doi": "10.7927/H4X928CF",
+      "ciesin:ac_doi": "10.7927/H4X928CF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.7927-h44m92gx": {
+      "href": "https://doi.org/10.7927/H44M92GX",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H44M92GX",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4X928CF",
+      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
+      "ciesin:sedac_doi": "10.7927/H4X928CF",
+      "ciesin:ac_doi": "10.7927/H4X928CF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4ht2m77": {
+      "href": "https://doi.org/10.7927/H4HT2M77",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4HT2M77",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4X928CF",
+      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
+      "ciesin:sedac_doi": "10.7927/H4X928CF",
+      "ciesin:ac_doi": "10.7927/H4X928CF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4d21vht": {
+      "href": "https://doi.org/10.7927/H4D21VHT",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4D21VHT",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4X928CF",
+      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
+      "ciesin:sedac_doi": "10.7927/H4X928CF",
+      "ciesin:ac_doi": "10.7927/H4X928CF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h48913sg": {
+      "href": "https://doi.org/10.7927/H48913SG",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H48913SG",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4X928CF",
+      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
+      "ciesin:sedac_doi": "10.7927/H4X928CF",
+      "ciesin:ac_doi": "10.7927/H4X928CF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4416v05": {
+      "href": "https://doi.org/10.7927/H4416V05",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4416V05",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4X928CF",
+      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
+      "ciesin:sedac_doi": "10.7927/H4X928CF",
+      "ciesin:ac_doi": "10.7927/H4X928CF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4fx77cs": {
+      "href": "https://doi.org/10.7927/H4FX77CS",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4FX77CS",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4X928CF",
+      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
+      "ciesin:sedac_doi": "10.7927/H4X928CF",
+      "ciesin:ac_doi": "10.7927/H4X928CF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.13140-rg.2.2.19868.90249": {
+      "href": "https://doi.org/10.13140/RG.2.2.19868.90249",
+      "type": "text/html",
+      "title": "Related DOI: 10.13140/RG.2.2.19868.90249",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4X928CF",
+      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
+      "ciesin:sedac_doi": "10.7927/H4X928CF",
+      "ciesin:ac_doi": "10.7927/H4X928CF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-f54c-0r44": {
+      "href": "https://doi.org/10.7927/f54c-0r44",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/f54c-0r44",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4X928CF",
+      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
+      "ciesin:sedac_doi": "10.7927/H4X928CF",
+      "ciesin:ac_doi": "10.7927/H4X928CF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.13140-rg.2.2.21182.51529": {
+      "href": "https://doi.org/10.13140/RG.2.2.21182.51529",
+      "type": "text/html",
+      "title": "Related DOI: 10.13140/RG.2.2.21182.51529",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4X928CF",
+      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
+      "ciesin:sedac_doi": "10.7927/H4X928CF",
+      "ciesin:ac_doi": "10.7927/H4X928CF",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
     },
     "2018-epi-technical-appendix-pdf": {
       "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2018/2018-epi-technical-appendix.pdf",
@@ -453,94 +608,15 @@
         "data",
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
+      "ciesin:source": "nasa_cmr_document_link",
       "ciesin:asset_match_status": "existing_ciesin_asset",
       "ciesin:nasa_doi": "10.7927/H4X928CF",
       "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
       "ciesin:source_dataset_id": "C3540929627-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122241-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:source_relation_type": "GET DATA",
+      "ciesin:source_relation_subtype": "documentation_link"
     },
     "2018-epi-ancillary-data-csv-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2018/2018-epi-ancillary-data-csv.zip",
-      "type": "application/x-zip-compressed",
-      "title": "2018-epi-ancillary-data-csv.zip",
-      "description": "Ancillary data in CSV format for the year 2018 from the 2018 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4X928CF",
-      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
-      "ciesin:source_dataset_id": "C3540929627-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122246-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "2018-epi-xlsx-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/epi/epi-environmental-performance-index-2018/2018-epi-xlsx.zip",
-      "type": "application/x-zip-compressed",
-      "title": "2018-epi-xlsx.zip",
-      "description": "Environmental Performance Index data in Excel Workbook format for the year 2018 from the 2018 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4X928CF",
-      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
-      "ciesin:source_dataset_id": "C3540929627-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122254-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "epi2018-pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2018/epi2018.pdf",
-      "type": "application/pdf",
-      "title": "2018-epi-xlsx.zip",
-      "description": "Global Environmental Performance Index map for the year 2018 in PDF format from the 2018 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4X928CF",
-      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
-      "ciesin:source_dataset_id": "C3540929627-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122254-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2018-png": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2018/epi2018.png",
-      "type": "image/png",
-      "title": "2018-epi-xlsx.zip",
-      "description": "Global Environmental Performance Index map for the year 2018 in PNG format from the 2018 Environmental Performance Index (EPI) data set.",
-      "roles": [
-        "overview"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4X928CF",
-      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
-      "ciesin:source_dataset_id": "C3540929627-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122254-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
-    },
-    "epi2018-thumbnail-jpg": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/epi/epi-environmental-performance-index-2018/epi2018-thumbnail.jpg",
-      "type": "image/jpeg",
-      "title": "2018-epi-xlsx.zip",
-      "roles": [
-        "thumbnail"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4X928CF",
-      "ciesin:harvard_doi": "10.7910/DVN/1D8ZXB",
-      "ciesin:source_dataset_id": "C3540929627-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550122254-ESDIS",
-      "ciesin:source_relation_type": "GET RELATED VISUALIZATION"
-    },
-    "2018-epi-ancillary-data-csv-zip-2": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715549",
       "type": "application/zip",
       "title": "2018-epi-ancillary-data-csv.zip",
@@ -560,7 +636,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "2018-epi-raw-data-time-series-xlsx-zip-2": {
+    "2018-epi-raw-data-time-series-xlsx-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715552",
       "type": "application/zip",
       "title": "2018-epi-raw-data-time-series-xlsx.zip",
@@ -600,7 +676,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "Adobe PDF"
     },
-    "2018-epi-xlsx-zip-2": {
+    "2018-epi-xlsx-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11715550",
       "type": "application/zip",
       "title": "2018-epi-xlsx.zip",

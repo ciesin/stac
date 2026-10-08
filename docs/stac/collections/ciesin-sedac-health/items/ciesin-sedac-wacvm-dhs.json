@@ -282,53 +282,432 @@
     }
   ],
   "assets": {
-    "wacvm-demographic-health-survey-hhwealth-30-sec-tif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wacvm/wacvm-demographic-health-survey/wacvm-demographic-health-survey-hhwealth-30-sec-tif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "wacvm-demographic-health-survey-hhwealth-30-sec-tif.zip",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
-      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
-      "ciesin:source_dataset_id": "C3550195170-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277768-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h45t3hfz": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H45T3HFZ",
-      "type": "application/octet-stream",
-      "title": "wacvm-demographic-health-survey-hhwealth-30-sec-tif.zip",
-      "description": "DATA SET DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for West Africa Coastal Vulnerability Mapping: Demographic and Health Survey Data Sets.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H45T3HFZ",
       "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
-      "ciesin:source_dataset_id": "C3550195170-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277768-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "wacvm-demographic-health-survey-maternaledu-30-sec-tif-zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/wacvm/wacvm-demographic-health-survey/wacvm-demographic-health-survey-maternaledu-30-sec-tif.zip",
-      "type": "application/x-zip-compressed",
-      "title": "wacvm-demographic-health-survey-maternaledu-30-sec-tif.zip",
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/ZHYUXI",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for West Africa Coastal Vulnerability Mapping: Demographic and Health Survey Data Sets.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H45T3HFZ",
       "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
-      "ciesin:source_dataset_id": "C3550195170-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550277779-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
     },
-    "wacvm-demographic-health-survey-hhwealth-30-sec-tif-zip-2": {
+    "related-doi-10.7927-h4f769h4": {
+      "href": "https://doi.org/10.7927/H4F769H4",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4F769H4",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.1177-0022343310378914": {
+      "href": "https://doi.org/10.1177/0022343310378914",
+      "type": "text/html",
+      "title": "Related DOI: 10.1177/0022343310378914",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4222rqj": {
+      "href": "https://doi.org/10.7927/H4222RQJ",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4222RQJ",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.3390-rs70201855": {
+      "href": "https://doi.org/10.3390/rs70201855",
+      "type": "text/html",
+      "title": "Related DOI: 10.3390/rs70201855",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4x9287n": {
+      "href": "https://doi.org/10.7927/H4X9287N",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4X9287N",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4sj1hhx": {
+      "href": "https://doi.org/10.7927/H4SJ1HHX",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4SJ1HHX",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.1126-science.1244693": {
+      "href": "https://doi.org/10.1126/science.1244693",
+      "type": "text/html",
+      "title": "Related DOI: 10.1126/science.1244693",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4j10131": {
+      "href": "https://doi.org/10.7927/H4J10131",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4J10131",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.1080-23754931.2015.1014272": {
+      "href": "https://doi.org/10.1080/23754931.2015.1014272",
+      "type": "text/html",
+      "title": "Related DOI: 10.1080/23754931.2015.1014272",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4db7zr7": {
+      "href": "https://doi.org/10.7927/H4DB7ZR7",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4DB7ZR7",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h48k7719": {
+      "href": "https://doi.org/10.7927/H48K7719",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H48K7719",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h44t6g9k": {
+      "href": "https://doi.org/10.7927/H44T6G9K",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H44T6G9K",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4125qk5": {
+      "href": "https://doi.org/10.7927/H4125QK5",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4125QK5",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4w95738": {
+      "href": "https://doi.org/10.7927/H4W95738",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4W95738",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4rj4gcj": {
+      "href": "https://doi.org/10.7927/H4RJ4GCJ",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4RJ4GCJ",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.1111-j.1466-8238.2010.00584.x": {
+      "href": "https://doi.org/10.1111/j.1466-8238.2010.00584.x",
+      "type": "text/html",
+      "title": "Related DOI: 10.1111/j.1466-8238.2010.00584.x",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4ms3qp8": {
+      "href": "https://doi.org/10.7927/H4MS3QP8",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4MS3QP8",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4h41pck": {
+      "href": "https://doi.org/10.7927/H4H41PCK",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4H41PCK",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h49k485p": {
+      "href": "https://doi.org/10.7927/H49K485P",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H49K485P",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.1029-2007gb002947": {
+      "href": "https://doi.org/10.1029/2007GB002947",
+      "type": "text/html",
+      "title": "Related DOI: 10.1029/2007GB002947",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4k0726d": {
+      "href": "https://doi.org/10.7927/H4K0726D",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4K0726D",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.1007-978-3-642-10634-7_30": {
+      "href": "https://doi.org/10.1007/978-3-642-10634-7_30",
+      "type": "text/html",
+      "title": "Related DOI: 10.1007/978-3-642-10634-7_30",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.3390-ijgi4042561": {
+      "href": "http://doi.org/10.3390/ijgi4042561",
+      "type": "text/html",
+      "title": "Related DOI: 10.3390/ijgi4042561",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H45T3HFZ",
+      "ciesin:harvard_doi": "10.7910/DVN/ZHYUXI",
+      "ciesin:sedac_doi": "10.7927/H45T3HFZ",
+      "ciesin:ac_doi": "10.7927/H45T3HFZ",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "wacvm-demographic-health-survey-hhwealth-30-sec-tif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11844064",
       "type": "application/zip",
       "title": "wacvm-demographic-health-survey-hhwealth-30-sec-tif.zip",
@@ -348,7 +727,7 @@
       "ciesin:source_relation_type": "file",
       "ciesin:source_relation_subtype": "ZIP Archive"
     },
-    "wacvm-demographic-health-survey-maternaledu-30-sec-tif-zip-2": {
+    "wacvm-demographic-health-survey-maternaledu-30-sec-tif-zip": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11844065",
       "type": "application/zip",
       "title": "wacvm-demographic-health-survey-maternaledu-30-sec-tif.zip",

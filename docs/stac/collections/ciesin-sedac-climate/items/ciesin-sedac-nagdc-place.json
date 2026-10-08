@@ -383,39 +383,75 @@
     }
   ],
   "assets": {
-    "nagdc-population-landscape-climate-estimates-v1-xls": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/nagdc/nagdc-population-landscape-climate-estimates-v1/nagdc-population-landscape-climate-estimates-v1.xls",
-      "type": "application/vnd.ms-excel",
-      "title": "nagdc-population-landscape-climate-estimates-v1.xls",
-      "description": "Tabular data in Excel format from the National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates (PLACE) data set.",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
-      "ciesin:nasa_doi": "10.7927/H4PN93H3",
-      "ciesin:harvard_doi": "10.7910/DVN/SJIR7U",
-      "ciesin:source_dataset_id": "C3550193904-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550267447-ESDIS",
-      "ciesin:source_relation_type": "GET DATA"
-    },
-    "h4pn93h3": {
+    "nasa-doi": {
       "href": "https://doi.org/10.7927/H4PN93H3",
-      "type": "application/octet-stream",
-      "title": "nagdc-population-landscape-climate-estimates-v1.xls",
-      "description": "Data Set DOI URL and HOMEPAGE",
+      "type": "text/html",
+      "title": "NASA DOI landing page",
+      "description": "Dataset-level DOI landing page for National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates (PLACE).",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "nasa_cmr_granule",
-      "ciesin:asset_match_status": "existing_ciesin_asset",
+      "ciesin:source": "nasa_cmr_collection_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
       "ciesin:nasa_doi": "10.7927/H4PN93H3",
       "ciesin:harvard_doi": "10.7910/DVN/SJIR7U",
-      "ciesin:source_dataset_id": "C3550193904-ESDIS",
-      "ciesin:source_granule_concept_id": "G3550267447-ESDIS",
-      "ciesin:source_relation_type": "VIEW RELATED INFORMATION"
+      "ciesin:sedac_doi": "10.7927/H4PN93H3",
+      "ciesin:ac_doi": "10.7927/H4PN93H3",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "nasa_cmr_collection_doi"
     },
-    "nagdc-population-landscape-climate-estimates-v1-xls-2": {
+    "harvard-dataverse-doi": {
+      "href": "https://doi.org/10.7910/DVN/SJIR7U",
+      "type": "text/html",
+      "title": "Harvard Dataverse DOI landing page",
+      "description": "Dataset-level DOI landing page for National Aggregates of Geospatial Data Collection: Population, Landscape, And Climate Estimates (PLACE).",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "harvard_dataverse_doi",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4PN93H3",
+      "ciesin:harvard_doi": "10.7910/DVN/SJIR7U",
+      "ciesin:sedac_doi": "10.7927/H4PN93H3",
+      "ciesin:ac_doi": "10.7927/H4PN93H3",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "harvard_dataverse_doi"
+    },
+    "related-doi-10.7927-h4jw8bsc": {
+      "href": "https://doi.org/10.7927/H4JW8BSC",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4JW8BSC",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4PN93H3",
+      "ciesin:harvard_doi": "10.7910/DVN/SJIR7U",
+      "ciesin:sedac_doi": "10.7927/H4PN93H3",
+      "ciesin:ac_doi": "10.7927/H4PN93H3",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "related-doi-10.7927-h4f769gp": {
+      "href": "https://doi.org/10.7927/H4F769GP",
+      "type": "text/html",
+      "title": "Related DOI: 10.7927/H4F769GP",
+      "description": "Related publication or referenced DOI from source metadata.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "related_publication_link",
+      "ciesin:asset_match_status": "matched_to_main_item",
+      "ciesin:nasa_doi": "10.7927/H4PN93H3",
+      "ciesin:harvard_doi": "10.7910/DVN/SJIR7U",
+      "ciesin:sedac_doi": "10.7927/H4PN93H3",
+      "ciesin:ac_doi": "10.7927/H4PN93H3",
+      "ciesin:source_relation_type": "link",
+      "ciesin:source_relation_subtype": "related_publication_link"
+    },
+    "nagdc-population-landscape-climate-estimates-v1-xls": {
       "href": "https://dataverse.harvard.edu/api/access/datafile/11661372",
       "type": "application/vnd.ms-excel",
       "title": "nagdc-population-landscape-climate-estimates-v1.xls",
