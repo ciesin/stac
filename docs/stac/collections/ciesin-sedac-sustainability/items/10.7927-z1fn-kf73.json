@@ -1,0 +1,772 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-z1fn-kf73",
+  "collection": "ciesin-sedac-sustainability",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1",
+    "description": "The Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1 data set identifies and characterizes surpluses and deficits of freshwater, and the parameters determining these anomalies, at monthly intervals over the period January 1948 to December 2014. The data set uses the land surface model outputs from NASA's Global Land Data Assimilation System, covering the global extent, to generate anomaly values for the following parameters at a gridded resolution of 0.25 degrees: temperature, precipitation, soil moisture, potential minus actual evapotranspiration, runoff, total blue water (flow-accumulated runoff), composite index of water surplus, and composite index of water deficits. These data are provided in terms of return periods, scientific units, and standardized (normalized) anomalies, and are computed over 1-month, 3-month, 6-month, and 12-month temporal periods of accumulation, referred to as integration periods. Anomaly values are present in terms of return periods with respect to a fitted Generalized Extreme Value (GEV) probability distribution function over a historical baseline period of January 1950 to December 2009, at a global spatial resolution of 0.25 degrees over the monthly, 3-month, 6-month, and 12-month periods of integration. Parameter values (location, scale, shape) of the fitted GEV probability distribution, which are fit separately for each calendar month, are distributed per parameter for each integration period.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "Global",
+      "Inland Waters",
+      "Sustainability",
+      "Water",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/Z1FN-KF73",
+    "sci:citation": "ISciences, and Center for International Earth Science Information Network - CIESIN - Columbia University. 2022-08-24. Water Security Indicator Model - Global Land Data Assimilation System (WSIM-GLDAS) Monthly Grids, Version 1. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 3",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Sustainability",
+    "ciesin:tags": [
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > GROUND WATER",
+      "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER",
+      "Global",
+      "Inland Waters",
+      "Sustainability",
+      "Water",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/Z1FN-KF73",
+      "10.7910/DVN/RZUKDN"
+    ],
+    "ciesin:authors": [
+      "ISciences, and Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide data characterizing 67 years (1948-2014) of anomalous freshwater surpluses, deficits, and the parameters determining them, across the global terrestrial surface.",
+    "ciesin:publication_date": "2022-08-24T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/z1fn-kf73",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://doi.org/10.7927/x7fj-jj41",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FRZUKDN",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540910585-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "water-wsim-gldas-v1.xml",
+    "datetime": null,
+    "start_datetime": "1948-01-01T00:00:00Z",
+    "end_datetime": "2014-12-31T00:00:00Z",
+    "ciesin:temporal_start": "1948-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2014-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-z1fn-kf73.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/Z1FN-KF73",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/RZUKDN",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "z1fn-kf73": {
+      "href": "https://doi.org/10.7927/Z1FN-KF73",
+      "type": "text/html",
+      "title": "DOI 10.7927/Z1FN-KF73",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/Z1FN-KF73",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "rzukdn": {
+      "href": "https://doi.org/10.7910/DVN/RZUKDN",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/RZUKDN",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/RZUKDN",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FRZUKDN",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/RZUKDN",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13605979": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13605979",
+      "type": "application/pdf",
+      "title": "1-water-wsim-gldas-v1-documentation.pdf",
+      "description": "Documentation",
+      "roles": [
+        "data"
+      ],
+      "file:size": 968732,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13605979",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14222295": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14222295",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11250,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14222295",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596287": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596287",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-anom-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1793755265,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596287",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596282": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596282",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-anom-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1804591318,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596282",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596283": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596283",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-anom-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1798033249,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596283",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596286": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596286",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-anom-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1780856188,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596286",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596284": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596284",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1638394555,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596284",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596280": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596280",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1640388771,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596280",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596308": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596308",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1638308926,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596308",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596307": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596307",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-composite-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1613604043,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596307",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596311": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596311",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-petme-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3095103496,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596311",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596291": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596291",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-petme-sum-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2278201400,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596291",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596285": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596285",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-petme-sum-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2290736422,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596285",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596294": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596294",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-petme-sum-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2260714241,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596294",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596289": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596289",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-precip-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2677754422,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596289",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596288": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596288",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-precip-sum-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2303531462,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596288",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596300": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596300",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-precip-sum-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2295118445,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596300",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596293": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596293",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-precip-sum-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2292226886,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596293",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596292": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596292",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-max-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2300304142,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596292",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596313": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596313",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-max-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2251281235,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596313",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596314": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596314",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-max-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2313341912,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596314",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596297": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596297",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-min-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2010940516,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596297",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596316": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596316",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-min-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2111847003,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596316",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596281": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596281",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-min-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1897649578,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596281",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596315": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596315",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2189730688,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596315",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596298": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596298",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-sum-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2296475601,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596298",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596290": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596290",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-sum-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2247217458,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596290",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596299": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596299",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-accum-sum-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2308956466,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596299",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596304": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596304",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2520332651,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596304",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596279": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596279",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-sum-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2254544223,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596279",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596301": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596301",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-sum-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2200198109,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596301",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596303": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596303",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-runoff-sum-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2267933873,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596303",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596306": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596306",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-soil-moisture-avg-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2183241809,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596306",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596310": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596310",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-soil-moisture-avg-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2192008565,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596310",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596296": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596296",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-soil-moisture-avg-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2165932241,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596296",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596305": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596305",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-soil-moisture-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2405720642,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596305",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596302": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596302",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-temp-avg-six-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2275708555,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596302",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596295": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596295",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-temp-avg-three-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2272874562,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596295",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596309": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596309",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-temp-avg-twelve-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2265664307,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596309",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596312": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596312",
+      "type": "application/zip",
+      "title": "water-wsim-gldas-v1-temp-one-month-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2320546152,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596312",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540910585-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540910585-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/Z1FN-KF73",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "water-wsim-gldas-v1-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/water-wsim-gldas-v1-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/Z1FN-KF73",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "water-wsim-gldas-v1-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/water-wsim-gldas-v1-readme.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/Z1FN-KF73",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540910585-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/Z1FN-KF73",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "water-wsim-gldas-v1-composite-surplus-deficit-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/water/water-wsim-gldas-v1/water-wsim-gldas-v1-composite-surplus-deficit-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "water-wsim-gldas-v1-composite-surplus-deficit-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/water-wsim-gldas-v1/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/water-wsim-gldas-v1/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "4.0": {
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "x7fj-jj41": {
+      "href": "https://doi.org/10.7927/x7fj-jj41",
+      "type": "text/html",
+      "title": "x7fj-jj41",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

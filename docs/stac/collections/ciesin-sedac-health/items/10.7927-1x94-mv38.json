@@ -1,0 +1,511 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-1x94-mv38",
+  "collection": "ciesin-sedac-health",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          17.0
+        ],
+        [
+          -65.0,
+          17.0
+        ],
+        [
+          -65.0,
+          72.0
+        ],
+        [
+          -180.0,
+          72.0
+        ],
+        [
+          -180.0,
+          17.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Annual Mean PM2.5 Components Trace Elements (TEs) 50m Urban and 1km Non-Urban Area Grids for Contiguous U.S., 2000-2019, v1",
+    "description": "The Annual Mean PM2.5 Components Trace Elements (TEs) 50m Urban and 1km Non-Urban Area Grids for Contiguous U.S., 2000-2019, v1 data set contains annual predictions of trace elements concentrations at a hyper resolution (50m x 50m grid cells) in urban areas and a high resolution (1km x 1km grid cells) in non-urban areas, for the years 2000 to 2019. Particulate matter with an aerodynamic diameter of less than 2.5 µm (PM2.5) is a human silent killer of millions worldwide, and contains many trace elements (TEs). Understanding the relative toxicity is largely limited by the lack of data. In this work, ensembles of machine learning models were used to generate approximately 163 billion predictions estimating annual mean PM2.5 TEs, namely Bromine (Br), Calcium (Ca), Copper (Cu), Iron (Fe), Potassium (K), Nickel (Ni), Lead (Pb), Silicon (Si), Vanadium (V), and Zinc (Zn). The monitored data from approximately 600 locations were integrated with more than 160 predictors, such as time and location, satellite observations, composite predictors, meteorological covariates, and many novel land use variables using several machine learning algorithms and ensemble methods. Multiple machine-learning models were developed covering urban areas and non-urban areas. Their predictions were then ensembled using either a Generalized Additive Model (GAM) Ensemble Geographically-Weighted-Averaging (GAM-ENWA), or Super-Learners. The overall best model R-squared values for the test sets ranged from 0.79 for Copper to 0.88 for Zinc in non-urban areas. In urban areas, the R-squared model values ranged from 0.80 for Copper to 0.88 for Zinc. The Coordinate Reference System (CRS) used in the predictions is the World Geodetic System 1984 (WGS84) and the units for the PM2.5 Components TEs are ng/m^3. The data are provided in RDS tabular format, a file format native to the R programming language, but can also be opened by other languages such as Python.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided",
+    "keywords": [
+      "Country",
+      "EARTH SCIENCE > ATMOSPHERE > AEROSOLS > PARTICULATE MATTER",
+      "EARTH SCIENCE > ATMOSPHERE > AIR QUALITY > PARTICULATES",
+      "Environment",
+      "Health",
+      "United States of America",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/1X94-MV38",
+    "sci:citation": "Amini, H., M. Danesh-Yazdi, Q. Di, W. Requia, Y. Wei, Y. AbuAwad, L. Shi, M. Franklin, C.-M. Kang, J. M. Wolfson, P. James, R. Habre, Q. Zhu, J. S. Apte, Z. J. Andersen, X. Xing, C. Hultquist, I. Kloog, F. Dominici, P. Koutrakis, and J. Schwartz. 2023-04-28. Annual Mean PM2.5 Components Trace Elements (TEs) 50m Urban and 1km Non-Urban Area Grids for Contiguous U.S., 2000-2019, v1. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 1",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Health",
+    "ciesin:tags": [
+      "Country",
+      "EARTH SCIENCE > ATMOSPHERE > AEROSOLS > PARTICULATE MATTER",
+      "EARTH SCIENCE > ATMOSPHERE > AIR QUALITY > PARTICULATES",
+      "Environment",
+      "Health",
+      "United States of America",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/1X94-MV38",
+      "10.7910/DVN/HR6BQX"
+    ],
+    "ciesin:authors": [
+      "Amini, H., M. Danesh-Yazdi, Q. Di, W. Requia, Y. Wei, Y. AbuAwad, L. Shi, M. Franklin, C.-M. Kang, J. M. Wolfson, P. James, R. Habre, Q. Zhu, J. S. Apte, Z. J. Andersen, X. Xing, C. Hultquist, I. Kloog, F. Dominici, P. Koutrakis, and J. Schwartz"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "United States of America"
+    ],
+    "ciesin:purpose": "To provide annual PM2.5 component trace elements concentration data for the contiguous U.S. at resolutions of 50m in urban areas and 1km in non-urban areas for public health research to estimate effects on human health, and for other related research.",
+    "ciesin:publication_date": "2023-04-28T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/1x94-mv38",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FHR6BQX",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540929367-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2000-2019.xml",
+    "datetime": null,
+    "start_datetime": "2000-01-01T00:00:00Z",
+    "end_datetime": "2019-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2000-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2019-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-1x94-mv38.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/1X94-MV38",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/HR6BQX",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "1x94-mv38": {
+      "href": "https://doi.org/10.7927/1X94-MV38",
+      "type": "text/html",
+      "title": "DOI 10.7927/1X94-MV38",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/1X94-MV38",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "hr6bqx": {
+      "href": "https://doi.org/10.7910/DVN/HR6BQX",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/HR6BQX",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/HR6BQX",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FHR6BQX",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/HR6BQX",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13571795": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13571795",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2000.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40182333219,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13571795",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13571847": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13571847",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2001.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40067175952,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13571847",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13572534": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13572534",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2002.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40091509710,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13572534",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13572535": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13572535",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2003.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40135498448,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13572535",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13572572": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13572572",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2004.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40103777267,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13572572",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13572571": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13572571",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2005.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40108234822,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13572571",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13572618": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13572618",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2006.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40140825920,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13572618",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13572619": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13572619",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2007.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40154487622,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13572619",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13573080": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13573080",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2008.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40162872587,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13573080",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13573081": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13573081",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2009.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40165853011,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13573081",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13592114": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13592114",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2010.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40187021126,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13592114",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13592112": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13592112",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2011.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40112883961,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13592112",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13592113": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13592113",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2012.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40125871769,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13592113",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13592124": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13592124",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2013.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40091263432,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13592124",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13592125": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13592125",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2014.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40073996023,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13592125",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13592123": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13592123",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2015.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40124368102,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13592123",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13592115": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13592115",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2016.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40093239224,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13592115",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13592116": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13592116",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2017.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40066085793,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13592116",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13592118": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13592118",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2018.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40092830079,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13592118",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13592117": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13592117",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2019.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40107906785,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13592117",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14171093": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14171093",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12462,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14171093",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540929367-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929367-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/1X94-MV38",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2000-2019-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2000-2019-readme.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/1X94-MV38",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929367-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/1X94-MV38",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sedac-logo.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/aqdh/aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2000-2019/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/aqdh-pm2-5-component-trace-elements-50m-1km-contiguous-us-2000-2019/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "4.0": {
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    17.0,
+    -65.0,
+    72.0
+  ]
+}

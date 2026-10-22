@@ -1,0 +1,343 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-dv72-s254",
+  "collection": "ciesin-sedac-population",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          17.0
+        ],
+        [
+          -65.0,
+          17.0
+        ],
+        [
+          -65.0,
+          72.0
+        ],
+        [
+          -180.0,
+          72.0
+        ],
+        [
+          -180.0,
+          17.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Georeferenced U.S. County-Level Population Projections, Total and by Sex, Race and Age, Based on the SSPs, 2020-2100",
+    "description": "The Georeferenced U.S. County-Level Population Projections, Total and by Sex, Race and Age, Based on the SSPs, 2020-2100 consists of county-level population projection scenarios of total population, and by age, sex, and race in five-year intervals for all U.S. counties for the period 2020 - 2100. These data have numerous potential uses and can serve as inputs for addressing questions involving sub-national demographic change in the United States in the near, middle- and long-term.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Country",
+      "County",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Population",
+      "Society",
+      "United States of America",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/DV72-S254",
+    "sci:citation": "Hauer, M., and Center for International Earth Science Information Network - CIESIN - Columbia University. 2021-03-16. Georeferenced U.S. County-Level Population Projections, Total and by Sex, Race and Age, Based on the SSPs, 2020-2100. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Population",
+    "ciesin:tags": [
+      "Country",
+      "County",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Population",
+      "Society",
+      "United States of America",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/DV72-S254",
+      "10.7910/DVN/34SXPA"
+    ],
+    "ciesin:authors": [
+      "Hauer, M., and Center for International Earth Science Information Network - CIESIN - Columbia University",
+      "Hauer, M. E"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "United States of America"
+    ],
+    "ciesin:purpose": "To provide subnational (county) population projection scenarios for the United States essential for understanding long-term demographic changes, planning for the future, and decision-making in a variety of applications.",
+    "ciesin:publication_date": "2021-03-16T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/dv72-s254",
+      "https://doi.org/10.1038/sdata.2019.5",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F34SXPA",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540912000-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "popdynamics-us-county-level-pop-projections-sex-race-age-ssp-2020-2100.xml",
+    "datetime": null,
+    "start_datetime": "2020-01-01T00:00:00Z",
+    "end_datetime": "2100-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2020-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2100-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-dv72-s254.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/DV72-S254",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/34SXPA",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "dv72-s254": {
+      "href": "https://doi.org/10.7927/DV72-S254",
+      "type": "text/html",
+      "title": "DOI 10.7927/DV72-S254",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/DV72-S254",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "34sxpa": {
+      "href": "https://doi.org/10.7910/DVN/34SXPA",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/34SXPA",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/34SXPA",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F34SXPA",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/34SXPA",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14202239": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14202239",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10453,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14202239",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715975": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715975",
+      "type": "application/zipped-shapefile",
+      "title": "popdynamics-us-county-level-pop-projections-sex-race-age-ssp-2020-2100-pop-age-groups-0-25-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 459752178,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715975",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715974": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715974",
+      "type": "application/zipped-shapefile",
+      "title": "popdynamics-us-county-level-pop-projections-sex-race-age-ssp-2020-2100-pop-age-groups-30-55-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 459640034,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715974",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715973": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715973",
+      "type": "application/zipped-shapefile",
+      "title": "popdynamics-us-county-level-pop-projections-sex-race-age-ssp-2020-2100-pop-age-groups-60-85over-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 459510838,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715973",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715977": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715977",
+      "type": "application/zip",
+      "title": "popdynamics-us-county-level-pop-projections-sex-race-age-ssp-2020-2100-pop-total-sex-race-age-groups-xlsx.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 100024365,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715977",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715976": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715976",
+      "type": "application/zipped-shapefile",
+      "title": "popdynamics-us-county-level-pop-projections-sex-race-age-ssp-2020-2100-pop-total-sex-race-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 500191105,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715976",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540912000-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540912000-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/DV72-S254",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "popdynamics-us-county-level-pop-projections-sex-race-age-ssp-2020-2100-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/popdynamics-us-county-level-pop-projections-sex-race-age-ssp-2020-2100-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/DV72-S254",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540912000-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/DV72-S254",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sedac-logo.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/popdynamics/popdynamics-us-county-level-pop-projections-sex-race-age-ssp-2020-2100/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-us-county-level-pop-projections-sex-race-age-ssp-2020-2100/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "sdata.2019.5": {
+      "href": "https://doi.org/10.1038/sdata.2019.5",
+      "type": "text/html",
+      "title": "sdata.2019.5",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "4.0": {
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    17.0,
+    -65.0,
+    72.0
+  ]
+}

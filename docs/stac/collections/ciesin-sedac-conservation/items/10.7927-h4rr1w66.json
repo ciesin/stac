@@ -1,0 +1,361 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4rr1w66",
+  "collection": "ciesin-sedac-conservation",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Gridded Species Distribution: Global Amphibian Richness Grids, 2015 Release",
+    "description": "The 2015 Release of the Global Amphibian Richness Grids data set of the Gridded Species Distribution collection are aggregations of the presence grids data for the entire class, individual families, and International Union for the Conservation of Nature (IUCN) Red List status categories. The data are available in 30 arc-second (~1 km) resolutions. The grid cell values represent the number of species in a particular class, family or IUCN threatened category. The input vector layers are based on the IUCN Red List and the grids are compiled by the Columbia University Center for International Earth Science Information Network (CIESIN). The data from IUCN were downloaded in April 2013.",
+    "license": "None | Users are free to use, copy, distribute, transmit, and adapt the work for non-commercial purposes, without restriction, as long as clear attribution of the source is provided and all distributions carry the same share-alike provision.",
+    "keywords": [
+      "Biota",
+      "Conservation",
+      "Country",
+      "EARTH SCIENCE > BIOLOGICAL CLASSIFICATIONS > ANIMALS/VERTEBRATES > AMPHIBIANS",
+      "Global",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4RR1W66",
+    "sci:citation": "International Union for Conservation of Nature - IUCN, and Center for International Earth Science Information Network - CIESIN - Columbia University. 2015-12-31. Gridded Species Distribution: Global Amphibian Richness Grids, 2015 Release. Edition 2015.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "2015.00; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Conservation",
+    "ciesin:tags": [
+      "Biota",
+      "Conservation",
+      "Country",
+      "EARTH SCIENCE > BIOLOGICAL CLASSIFICATIONS > ANIMALS/VERTEBRATES > AMPHIBIANS",
+      "Global",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/H4RR1W66",
+      "10.7910/DVN/XETUHW"
+    ],
+    "ciesin:authors": [
+      "International Union for Conservation of Nature - IUCN, and Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide information on the number of amphibian species present at a one-kilometer spatial resolution which can be used in modeling efforts, wildlife conservation planning, natural resource management, policy-making, biodiversity studies and human-environment interactions.",
+    "ciesin:publication_date": "2015-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4RR1W66",
+      "https://doi.org/10.7927/H4N014G5",
+      "http://www.iucnredlist.org",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FXETUHW",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540929287-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "species-global-amphibian-richness-2015.xml",
+    "datetime": null,
+    "start_datetime": "2013-01-01T00:00:00Z",
+    "end_datetime": "2013-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2013-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2013-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4rr1w66.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4RR1W66",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/XETUHW",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4rr1w66": {
+      "href": "https://doi.org/10.7927/H4RR1W66",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4RR1W66",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H4RR1W66",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "xetuhw": {
+      "href": "https://doi.org/10.7910/DVN/XETUHW",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/XETUHW",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/XETUHW",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FXETUHW",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/XETUHW",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815080": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815080",
+      "type": "application/octet-stream",
+      "title": "amphibia-all.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13928304,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815080",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815078": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815078",
+      "type": "application/octet-stream",
+      "title": "amphibians-all-threats.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 993383,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815078",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815079": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815079",
+      "type": "application/zip",
+      "title": "amphibians-critically-endangered.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1046600,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815079",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815077": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815077",
+      "type": "application/octet-stream",
+      "title": "amphibians-endangered.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 270848,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815077",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815076": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815076",
+      "type": "application/zip",
+      "title": "amphibians-vulnerable.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1603794,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815076",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14222234": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14222234",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10811,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14222234",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540929287-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929287-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/H4RR1W66",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "species-global-amphibian-richness-2015-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/species-global-amphibian-richness-2015-readme.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4RR1W66",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/species-global-amphibian-richness-2015/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4RR1W66",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929287-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4RR1W66",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "species-global-amphibian-richness-2015-all-species-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/species/species-global-amphibian-richness-2015/species-global-amphibian-richness-2015-all-species-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "species-global-amphibian-richness-2015-all-species-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/species-global-amphibian-richness-2015/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/species-global-amphibian-richness-2015/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4n014g5": {
+      "href": "https://doi.org/10.7927/H4N014G5",
+      "type": "text/html",
+      "title": "H4N014G5",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "www.iucnredlist.org": {
+      "href": "http://www.iucnredlist.org",
+      "type": "text/html",
+      "title": "www.iucnredlist.org",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

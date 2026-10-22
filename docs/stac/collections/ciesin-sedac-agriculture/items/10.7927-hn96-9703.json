@@ -1,0 +1,366 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-hn96-9703",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Shared Socioeconomic Pathways (SSPs) Literature Database, v1, 2014-2019",
+    "description": "The Shared Socioeconomic Pathways (SSPs) Literature Database, v1, 2014-2019 consists of biographic information, abstracts, and analysis of 1,360 articles published from 2014 to 2019 that used the SSPs. The database was generated from a Google Scholar search, followed by a manual examination of the results for papers that made substantial use of the SSPs. Each paper was then coded along a number of different dimensions, including categories of types of papers or analysis, number of subcategories for SSP Applications and SSP Extensions, particular Shared Socioeconomic Pathways (SSPs) used, particular Representative Concentration Pathways (RCPs) used, and particular SSP-RCP combinations used. Over the past ten years, the climate change research community developed a scenario framework combining alternative futures of climate and society to facilitate integrated research and consistent assessment to inform policy. This framework consists of Shared Socioeconomic Pathways (SSPs), Representative Concentration Pathways (RCPs), and Shared Policy Assumptions (SPAs), which together describe alternative visions of how society and climate may evolve over the coming decades, while providing a framework for combining these pathways in integrated studies. The tracking of the use of this framework in the literature allows for assessment of how it is being used, whether it is achieving its original goals, and what improvements to the framework would benefit future research.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Agriculture",
+      "Climate",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ECONOMIC RESOURCES> TOURISM",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > INFRASTRUCTURE",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > PUBLIC HEALTH",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS > POVERTY LEVELS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SUSTAINABILITY",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "Economy",
+      "Elevation",
+      "Environment",
+      "Farming",
+      "Global",
+      "Governance",
+      "Hazards",
+      "Health",
+      "Infrastructure",
+      "Population",
+      "Poverty",
+      "Society",
+      "Sustainability",
+      "Urban",
+      "Utilities/Communications",
+      "Water",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/HN96-9703",
+    "sci:citation": "Green, C., D. Carlisle, B. C. O'Neill, B. J. van Ruijven, C. Boyer, and K. Ebi. 2021-03-03. Shared Socioeconomic Pathways (SSPs) Literature Database, v1, 2014-2019. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": [
+      "Agriculture",
+      "Climate",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ECONOMIC RESOURCES> TOURISM",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > INFRASTRUCTURE",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > PUBLIC HEALTH",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS > POVERTY LEVELS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SUSTAINABILITY",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "Economy",
+      "Elevation",
+      "Environment",
+      "Farming",
+      "Global",
+      "Governance",
+      "Hazards",
+      "Health",
+      "Infrastructure",
+      "Population",
+      "Poverty",
+      "Society",
+      "Sustainability",
+      "Urban",
+      "Utilities/Communications",
+      "Water",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/HN96-9703",
+      "10.7910/DVN/IQQIRL"
+    ],
+    "ciesin:authors": [
+      "Green, C., D. Carlisle, B. C. O'Neill, B. J. van Ruijven, C. Boyer, and K. Ebi",
+      "O'Neill, B. C., T. R. Carter, K. Ebi, P. A. Harrison, E. Kemp-Benedict, K. Kok, E. Kriegler, B. L. Preston, K. Riahi, J. Sillmann, B. J. van Ruijven, D. van Vuuren, D. Carlisle, C. Conde, J. Fuglestvedt, C. Green, T. Hasegawa, J. Leininger, S. Monteith, and R. Pichs-Madruga"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide a literature database tracking the use of a global scenarios framework consisting of Shared Socioeconomic Pathways (SSPs), Representative Concentration Pathways (RCPs), and Shared Policy Assumptions (SPAs), for climate, socioeconomic, environmental, and other related research.",
+    "ciesin:publication_date": "2021-03-03T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/hn96-9703",
+      "https://doi.org/10.1038/s41558-020-00952-0",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FIQQIRL",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540930059-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "ssp-ssp-literature-db-v1.xml",
+    "datetime": null,
+    "start_datetime": "2014-01-01T00:00:00Z",
+    "end_datetime": "2019-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2014-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2019-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-hn96-9703.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/HN96-9703",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/IQQIRL",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "hn96-9703": {
+      "href": "https://doi.org/10.7927/HN96-9703",
+      "type": "text/html",
+      "title": "DOI 10.7927/HN96-9703",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/HN96-9703",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "iqqirl": {
+      "href": "https://doi.org/10.7910/DVN/IQQIRL",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/IQQIRL",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/IQQIRL",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FIQQIRL",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/IQQIRL",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14222242": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14222242",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11536,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14222242",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11661585": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11661585",
+      "type": "application/pdf",
+      "title": "ssp-ssp-literature-db-v1-methodology.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 169322,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11661585",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11661586": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11661586",
+      "type": "text/plain",
+      "title": "ssp-ssp-literature-db-v1-readme.txt",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4286,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11661586",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11661587": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11661587",
+      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "title": "ssp-ssp-literature-db-v1.xlsx",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1815347,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11661587",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540930059-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540930059-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/HN96-9703",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "ssp-ssp-literature-db-v1-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ssp-ssp-literature-db-v1-readme.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/HN96-9703",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "ssp-ssp-literature-db-v1-methodology-general-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ssp-ssp-literature-db-v1-methodology-general-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/HN96-9703",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540930059-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/HN96-9703",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sedac-logo.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ssp/ssp-ssps-literature-db-v1/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ssp-ssp-literature-db-v1/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "s41558-020-00952-0": {
+      "href": "https://doi.org/10.1038/s41558-020-00952-0",
+      "type": "text/html",
+      "title": "s41558-020-00952-0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "4.0": {
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

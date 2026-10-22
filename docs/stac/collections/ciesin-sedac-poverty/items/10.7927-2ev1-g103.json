@@ -1,0 +1,400 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-2ev1-g103",
+  "collection": "ciesin-sedac-poverty",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          17.0
+        ],
+        [
+          -65.0,
+          17.0
+        ],
+        [
+          -65.0,
+          72.0
+        ],
+        [
+          -180.0,
+          72.0
+        ],
+        [
+          -180.0,
+          17.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "U.S. Social Vulnerability Index Grids, Revision 01",
+    "description": "The U.S. Social Vulnerability Index Grids, Revision 01 data set contains gridded layers for the overall Centers for Disease Control and Prevention (CDC) Social Vulnerability Index (SVI) using four sub-category themes (Socioeconomic, Household Composition & Disability, Minority Status & Language, and Housing Type & Transportation) based on census tract level inputs from 15 variables for the years 2000, 2010, 2014, 2016, 2018, and 2020. SVI values range between 0 and 1 based on their percentile position among all census tracts in the U.S., with 0 representing lowest vulnerability census tracts and 1 representing highest vulnerability census tracts. SEDAC has gridded these vector inputs to create 1 kilometer spatial resolution raster surfaces allowing users to obtain vulnerability metrics for any user-defined area within the U.S. Utilizing inputs from CIESIN's Gridded Population of the World, Version 4 (GPWv4) Revision 11 data sets, a mask is applied for water, and optionally, for no population. The data are provided in two different projection formats, NAD83 as a U.S. specific standard, and WGS84 as a global standard. The goal of the SVI is to help identify vulnerable communities by ranking them on these inputs across the U.S.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Climate",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS > POVERTY LEVELS",
+      "Hazards",
+      "Health",
+      "Marine and Coastal",
+      "Population",
+      "Poverty",
+      "Society",
+      "Sustainability",
+      "United States of America",
+      "Earth and Environmental Sciences",
+      "latest"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/2EV1-G103",
+    "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University. 2023-12-19. U.S. Social Vulnerability Index Grids, Revision 01. Edition 1.01. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.01; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Poverty",
+    "ciesin:tags": [
+      "Climate",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS > POVERTY LEVELS",
+      "Hazards",
+      "Health",
+      "Marine and Coastal",
+      "Population",
+      "Poverty",
+      "Society",
+      "Sustainability",
+      "United States of America",
+      "Earth and Environmental Sciences",
+      "latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:dois": [
+      "10.7927/2EV1-G103",
+      "10.7910/DVN/RCRUU5"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]"
+    ],
+    "ciesin:place": [
+      "United States of America"
+    ],
+    "ciesin:purpose": "To provide a 1 km grid of the CDC Social Vulnerability Index (SVI) aligned with CIESIN's Gridded Population of the World, Version 4, Revision 11 (GPWv4.11) with a mask for water and no population.",
+    "ciesin:publication_date": "2023-12-19T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/2ev1-g103",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://doi.org/10.7927/pta9-2980",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FRCRUU5"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse"
+    ],
+    "ciesin:inventory_xml_location": "usgrid-us-social-vulnerability-index-rev01.xml",
+    "datetime": null,
+    "start_datetime": "2000-01-01T00:00:00Z",
+    "end_datetime": "2000-01-01T00:00:00Z",
+    "ciesin:temporal_start": "2000-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2000-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-2ev1-g103.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/2EV1-G103",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/RCRUU5",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "2ev1-g103": {
+      "href": "https://doi.org/10.7927/2EV1-G103",
+      "type": "text/html",
+      "title": "DOI 10.7927/2EV1-G103",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/2EV1-G103",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "rcruu5": {
+      "href": "https://doi.org/10.7910/DVN/RCRUU5",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/RCRUU5",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/RCRUU5",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FRCRUU5",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/RCRUU5",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14222275": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14222275",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11368,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14222275",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835878": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835878",
+      "type": "application/zip",
+      "title": "usgrid-us-social-vulnerability-index-rev01-tract-2000-nad83-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 145003681,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835878",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835870": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835870",
+      "type": "application/zip",
+      "title": "usgrid-us-social-vulnerability-index-rev01-tract-2000-wgs84-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 145616566,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835870",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835871": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835871",
+      "type": "application/zip",
+      "title": "usgrid-us-social-vulnerability-index-rev01-tract-2010-nad83-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 151953231,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835871",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835875": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835875",
+      "type": "application/zip",
+      "title": "usgrid-us-social-vulnerability-index-rev01-tract-2010-wgs84-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 152706904,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835875",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835880": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835880",
+      "type": "application/zip",
+      "title": "usgrid-us-social-vulnerability-index-rev01-tract-2014-nad83-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 155654444,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835880",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835872": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835872",
+      "type": "application/zip",
+      "title": "usgrid-us-social-vulnerability-index-rev01-tract-2014-wgs84-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 156444618,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835872",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835876": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835876",
+      "type": "application/zip",
+      "title": "usgrid-us-social-vulnerability-index-rev01-tract-2016-nad83-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 155515899,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835876",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835874": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835874",
+      "type": "application/zip",
+      "title": "usgrid-us-social-vulnerability-index-rev01-tract-2016-wgs84-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 156343251,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835874",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835877": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835877",
+      "type": "application/zip",
+      "title": "usgrid-us-social-vulnerability-index-rev01-tract-2018-nad83-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 154848690,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835877",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835869": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835869",
+      "type": "application/zip",
+      "title": "usgrid-us-social-vulnerability-index-rev01-tract-2018-wgs84-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 155639841,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835869",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835879": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835879",
+      "type": "application/zip",
+      "title": "usgrid-us-social-vulnerability-index-rev01-tract-2020-nad83-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 156532945,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835879",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835873": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835873",
+      "type": "application/zip",
+      "title": "usgrid-us-social-vulnerability-index-rev01-tract-2020-wgs84-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 157349073,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835873",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sedac-logo.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/usgrid/usgrid-us-social-vulnerability-index-rev01/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/usgrid-us-social-vulnerability-index-rev01/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/usgrid-us-social-vulnerability-index-rev01/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "4.0": {
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "pta9-2980": {
+      "href": "https://doi.org/10.7927/pta9-2980",
+      "type": "text/html",
+      "title": "pta9-2980",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    17.0,
+    -65.0,
+    72.0
+  ]
+}

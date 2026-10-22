@@ -1,0 +1,515 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4dn4300",
+  "collection": "ciesin-sedac-conservation",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          179.99856,
+          -90.0
+        ],
+        [
+          179.99856,
+          89.99928
+        ],
+        [
+          -180.0,
+          89.99928
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Indicators of Coastal Water Quality: Annual Chlorophyll-a Concentration 1998-2007",
+    "description": "The Annual Chlorophyll-a Concentrations component of the Indicators of Coastal Water Quality Collection consists of gridded satellite measurements of chlorophyll-a concentrations (in nanogram/cubic meter) in a band extending between 10 and 100 km from the shoreline. Chlorophyll-a concentrations are derived from NASA's Sea-viewing Wide Field-of-view Sensor (SeaWiFS). The grids are based on annual composites of SeaWiFS satellite data provided by the SeaWiFS Project, NASA/Goddard Space Flight Center and GeoEye in the form of HDF files at a resolution of 5 arc-minutes (approximately 9 x 9 km at the equator). The source files are true-color images generated from sub-sampled, calibrated, Rayleigh-corrected level-2 data, which are derived from raw radiance counts by applying sensor calibration, atmospheric corrections, and bio-optical algorithms. To arrive at chlorophyll-a concentrations, radiance counts were converted using the conversion formula provided as part of the original data files. The gridding is done by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "license": "None | The Goddard Space Flight Center (GSFC) and Trustees of Columbia University in the City of New York hold the copyright of this data set. Users are prohibited from any commercial, non-free resale, or redistribution without explicit written permission from GSFC or CIESIN. Users should acknowledge GSFC and CIESIN as the source used in the creation of any reports, publications, new data sets, derived products, or services resulting from the use of this data set. GSFC or CIESIN also request reprints of any publications and notification of any redistributing efforts.",
+    "keywords": [
+      "Conservation",
+      "EARTH SCIENCE > OCEANS > OCEAN CHEMISTRY > CHLOROPHYLL",
+      "Global",
+      "Health",
+      "Marine and Coastal",
+      "Oceans",
+      "Remote Sensing",
+      "Sustainability",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4DN4300",
+    "sci:citation": "Goddard Space Flight Center - GSFC, and Center for International Earth Science Information Network - CIESIN - Columbia University. 2009-12-31. Indicators of Coastal Water Quality: Annual Chlorophyll-a Concentration 1998-2007. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2; 1.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Conservation",
+    "ciesin:tags": [
+      "Conservation",
+      "EARTH SCIENCE > OCEANS > OCEAN CHEMISTRY > CHLOROPHYLL",
+      "Global",
+      "Health",
+      "Marine and Coastal",
+      "Oceans",
+      "Remote Sensing",
+      "Sustainability",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/H4DN4300",
+      "10.7910/DVN/2NRUYP"
+    ],
+    "ciesin:authors": [
+      "Goddard Space Flight Center - GSFC, and Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide a gridded version of existing SeaWiFS data in GIS-compatible formats in order to determine concentrations of chlorophyll-a in the coastal water column and to facilitate the integration with other data.",
+    "ciesin:publication_date": "2009-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4DN4300",
+      "https://doi.org/10.7927/H4J96490",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F2NRUYP",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550194158-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "icwq-annual-chlorophyll-a-concentration-1998-2007.xml",
+    "datetime": null,
+    "start_datetime": "1998-01-01T00:00:00Z",
+    "end_datetime": "2007-12-31T00:00:00Z",
+    "ciesin:temporal_start": "1998-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2007-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4dn4300.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4DN4300",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/2NRUYP",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4dn4300": {
+      "href": "https://doi.org/10.7927/H4DN4300",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4DN4300",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H4DN4300",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "2nruyp": {
+      "href": "https://doi.org/10.7910/DVN/2NRUYP",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/2NRUYP",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/2NRUYP",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F2NRUYP",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/2NRUYP",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14200118": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14200118",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11539,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14200118",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815506": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815506",
+      "type": "application/zip",
+      "title": "y1998-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1456956,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815506",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815494": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815494",
+      "type": "application/zip",
+      "title": "y1998-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1780568,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815494",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815502": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815502",
+      "type": "application/zip",
+      "title": "y1999-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1461038,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815502",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815509": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815509",
+      "type": "application/zip",
+      "title": "y1999-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1786419,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815509",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815499": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815499",
+      "type": "application/zip",
+      "title": "y2000-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1460870,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815499",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815505": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815505",
+      "type": "application/zip",
+      "title": "y2000-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1785558,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815505",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815508": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815508",
+      "type": "application/zip",
+      "title": "y2001-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1457508,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815508",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815495": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815495",
+      "type": "application/zip",
+      "title": "y2001-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1780532,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815495",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815510": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815510",
+      "type": "application/zip",
+      "title": "y2002-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1458283,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815510",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815501": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815501",
+      "type": "application/zip",
+      "title": "y2002-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1781421,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815501",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815496": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815496",
+      "type": "application/zip",
+      "title": "y2003-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1450883,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815496",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815498": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815498",
+      "type": "application/zip",
+      "title": "y2003-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1771864,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815498",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815500": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815500",
+      "type": "application/zip",
+      "title": "y2004-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1419452,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815500",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815497": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815497",
+      "type": "application/zip",
+      "title": "y2004-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1733936,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815497",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815503": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815503",
+      "type": "application/zip",
+      "title": "y2005-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1453136,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815503",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815507": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815507",
+      "type": "application/zip",
+      "title": "y2005-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1776357,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815507",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815504": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815504",
+      "type": "application/zip",
+      "title": "y2006-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1463669,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815504",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815511": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815511",
+      "type": "application/zip",
+      "title": "y2006-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1785836,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815511",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815512": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815512",
+      "type": "application/zip",
+      "title": "y2007-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1463953,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815512",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815493": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11815493",
+      "type": "application/zip",
+      "title": "y2007-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1788762,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815493",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3550194158-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550194158-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/H4DN4300",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "esdis": {
+      "href": "https://www.earthdata.nasa.gov/about/esdis",
+      "type": "text/html",
+      "title": "Earth Science Data Information System home page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4DN4300",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550194158-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4DN4300",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sedac-logo.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/icwq/icwq-annual-chlorophyll-a-concentration-1998-2007/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/icwq-annual-chlorophyll-a-concentration-1998-2007/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4j96490": {
+      "href": "https://doi.org/10.7927/H4J96490",
+      "type": "text/html",
+      "title": "H4J96490",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    179.99856,
+    89.99928
+  ]
+}

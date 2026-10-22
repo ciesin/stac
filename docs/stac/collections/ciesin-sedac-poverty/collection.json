@@ -1,15 +1,10 @@
 {
   "type": "Collection",
   "stac_version": "1.1.0",
-  "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
-    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
-  ],
+  "stac_extensions": [],
   "id": "ciesin-sedac-poverty",
   "title": "CIESIN SEDAC - Poverty",
-  "description": "CIESIN SEDAC datasets categorized as Poverty.",
+  "description": "CIESIN datasets categorized as Poverty.",
   "license": "other",
   "extent": {
     "spatial": {
@@ -25,8 +20,8 @@
     "temporal": {
       "interval": [
         [
-          "2016-12-02T00:00:00Z",
-          "2025-03-17T00:00:00Z"
+          "1990-01-01T00:00:00Z",
+          "2025-06-23T00:00:00Z"
         ]
       ]
     }
@@ -44,39 +39,63 @@
     },
     {
       "rel": "item",
-      "href": "./items/city-segments-layer-v1.json",
+      "href": "./items/10.7910-dvn-xlrsf0.json",
       "type": "application/geo+json",
       "title": "City Segments Layer v1"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-spatialecon-lgii-v1.json",
+      "href": "./items/10.7916-d8qf8rm7.json",
+      "type": "application/geo+json",
+      "title": "Does socio-economic status explain the differentials in malaria parasite prevalence? Evidence from The Gambia"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7927-kd8b-2376.json",
       "type": "application/geo+json",
       "title": "Global Database of Light-based Geospatial Income Inequality (LGII) Measures, Version 1"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-spatialecon-gecon4.json",
+      "href": "./items/10.7927-h42v2d1c.json",
       "type": "application/geo+json",
       "title": "Global Gridded Geographically Based Economic Data (G-Econ), Version 4"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-pmp-grdi-2010-2020.json",
+      "href": "./items/10.7927-3xxe-ap97.json",
       "type": "application/geo+json",
       "title": "Global Gridded Relative Deprivation Index (GRDI), Version 1"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-wacvm-gsspepp.json",
+      "href": "./items/10.7927-6s2a-9r49.json",
+      "type": "application/geo+json",
+      "title": "U.S. Social Vulnerability Index Grids"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7927-2ev1-g103.json",
+      "type": "application/geo+json",
+      "title": "U.S. Social Vulnerability Index Grids, Revision 01"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7927-h44t6g9k.json",
       "type": "application/geo+json",
       "title": "West Africa Coastal Vulnerability Mapping: Gridded Subset of Sub-national Poverty and Extreme Poverty Prevalence"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-wacvm-svi.json",
+      "href": "./items/10.7927-h4h41pck.json",
       "type": "application/geo+json",
       "title": "West Africa Coastal Vulnerability Mapping: Social Vulnerability Indices"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d84m9395.json",
+      "type": "application/geo+json",
+      "title": "What is the role for conservation organizations in poverty alleviation in the world’s wild places?"
     }
   ]
 }

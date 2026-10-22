@@ -1,0 +1,112 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8989khr",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": null,
+  "properties": {
+    "title": "An Automated Approach to Map Winter Cropped Area of Smallholder Farms across Large Scales Using MODIS Imagery",
+    "description": "Fine-scale agricultural statistics are an important tool for understanding trends in food production and their associated drivers, yet these data are rarely collected in smallholder systems. These statistics are particularly important for smallholder systems given the large amount of fine-scale heterogeneity in production that occurs in these regions. To overcome the lack of ground data, satellite data are often used to map fine-scale agricultural statistics. However, doing so is challenging for smallholder systems because of (1) complex sub-pixel heterogeneity; (2) little to no available calibration data; and (3) high amounts of cloud cover as most smallholder systems occur in the tropics. We develop an automated method termed the MODIS Scaling Approach (MSA) to map smallholder cropped area across large spatial and temporal scales using MODIS Enhanced Vegetation Index (EVI) satellite data. We use this method to map winter cropped area, a key measure of cropping intensity, across the Indian subcontinent annually from 2000–2001 to 2015–2016. The MSA defines a pixel as cropped based on winter growing season phenology and scales the percent of cropped area within a single MODIS pixel based on observed EVI values at peak phenology. We validated the result with eleven high-resolution scenes (spatial scale of 5 × 5 m2 or finer) that we classified into cropped versus non-cropped maps using training data collected by visual inspection of the high-resolution imagery. The MSA had moderate to high accuracies when validated using these eleven scenes across India (R2 ranging between 0.19 and 0.89 with an overall R2 of 0.71 across all sites). This method requires no calibration data, making it easy to implement across large spatial and temporal scales, with 100% spatial coverage due to the compositing of EVI to generate cloud-free data sets. The accuracies found in this study are similar to those of other studies that map crop production using automated methods and use no calibration data. To aid research on agricultural production at fine spatial scales in India, we make our annual winter crop maps from 2000–2001 to 2015–2016 at 1 × 1 km2 produced in this study publically available through the NASA Socioeconomic Data and Applications Center (SEDAC) hosted by the Center for International Earth Science Information Network (CIESIN) at Columbia University. We also make our R script available since it is likely that this method can be used to map smallholder agriculture in other regions across the globe given that our method performed well in disparate agro-ecologies across India.",
+    "license": "other",
+    "keywords": [
+      "Agriculture"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Ecology, Evolution, and Environmental Biology",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8989khr",
+    "ciesin:resource_type": "article",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": [
+      "Agriculture"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8989khr"
+    ],
+    "ciesin:authors": [
+      "Jain, Meha",
+      "Mondal, Pinki",
+      "Galford, Gillian L.",
+      "Fiske, Greg",
+      "DeFries, Ruth S."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8989KHR",
+      "https://academiccommons.columbia.edu/doi/10.7916/D85M7J59/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8989khr.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8989khr",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8989khr": {
+      "href": "https://doi.org/10.7916/d8989khr",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8989khr",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8989khr",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D85M7J59/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/D85M7J59/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

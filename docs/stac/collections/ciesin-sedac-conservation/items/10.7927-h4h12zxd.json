@@ -1,0 +1,553 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4h12zxd",
+  "collection": "ciesin-sedac-conservation",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.750001
+        ],
+        [
+          180.0,
+          -55.750001
+        ],
+        [
+          180.0,
+          83.083332
+        ],
+        [
+          -180.0,
+          83.083332
+        ],
+        [
+          -180.0,
+          -55.750001
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Anthropogenic Biomes of the World, Version 1",
+    "description": "The Anthropogenic Biomes of the World, Version 1 data set describes globally-significant ecological patterns within the terrestrial biosphere caused by sustained direct human interaction with ecosystems, including agriculture, urbanization, forestry and other land uses. Conventional biomes, such as tropical rainforests or grasslands, are based on global vegetation patterns related to climate. Now that humans have fundamentally altered global patterns of ecosystem form, process, and biodiversity, anthropogenic biomes provide a contemporary view of the terrestrial biosphere in its human-altered form. Anthropogenic biomes may also be termed \"anthromes\" to distinguish them from conventional biome systems, or \"human biomes\" (a simpler but less precise term). This data set is distributed by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "license": "None | Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Africa",
+      "Asia",
+      "Biota",
+      "Conservation",
+      "Continent",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS",
+      "Environment",
+      "Europe",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Use",
+      "North America",
+      "Oceania",
+      "Remote Sensing",
+      "Society",
+      "South America",
+      "Sustainability",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4H12ZXD",
+    "sci:citation": "Ellis, E.C., and N. Ramankutty. 2008-12-31. Anthropogenic Biomes of the World, Version 1. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 1; 1.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Conservation",
+    "ciesin:tags": [
+      "Africa",
+      "Asia",
+      "Biota",
+      "Conservation",
+      "Continent",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS",
+      "Environment",
+      "Europe",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Use",
+      "North America",
+      "Oceania",
+      "Remote Sensing",
+      "Society",
+      "South America",
+      "Sustainability",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/H4H12ZXD",
+      "10.7910/DVN/NGXGKN"
+    ],
+    "ciesin:authors": [
+      "Ellis, E.C., and N. Ramankutty"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America",
+      "Oceania",
+      "South America"
+    ],
+    "ciesin:purpose": "To provide information on global land use for research on human-environment interactions.",
+    "ciesin:publication_date": "2008-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4H12ZXD",
+      "https://.doi.org/10.1890/070062",
+      "https://doi.org/10.7927/H4SF2T3M",
+      "https://doi.org/10.1111/j.1466-8238.2010.00540.x",
+      "https://doi.org/10.7927/H4NP22C8",
+      "https://doi.org/10.7927/H4J1012K",
+      "https://doi.org/10.7927/H4D798B9",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FNGXGKN",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550194441-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "anthromes-anthropogenic-biomes-world-v1.xml",
+    "datetime": null,
+    "start_datetime": "2001-01-01T00:00:00Z",
+    "end_datetime": "2006-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2001-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2006-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4h12zxd.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4H12ZXD",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/NGXGKN",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4h12zxd": {
+      "href": "https://doi.org/10.7927/H4H12ZXD",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4H12ZXD",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H4H12ZXD",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "ngxgkn": {
+      "href": "https://doi.org/10.7910/DVN/NGXGKN",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/NGXGKN",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/NGXGKN",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FNGXGKN",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/NGXGKN",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715612": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715612",
+      "type": "application/zip",
+      "title": "af-anthrome-esrigrid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 141285,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715612",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715605": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715605",
+      "type": "application/zip",
+      "title": "af-anthrome-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 110695,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715605",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715603": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715603",
+      "type": "application/zip",
+      "title": "as-anthrome-esrigrid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 493837,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715603",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715606": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715606",
+      "type": "application/zip",
+      "title": "as-anthrome-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 391749,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715606",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715609": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715609",
+      "type": "application/zip",
+      "title": "eu-anthrome-esrigrid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 74859,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715609",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715608": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715608",
+      "type": "application/zip",
+      "title": "eu-anthrome-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 62891,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715608",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715613": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715613",
+      "type": "application/zip",
+      "title": "gl-anthrome-esrigrid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1280524,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715613",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715607": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715607",
+      "type": "application/zip",
+      "title": "gl-anthrome-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 653866,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715607",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14171082": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14171082",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13244,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14171082",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715610": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715610",
+      "type": "application/zip",
+      "title": "na-anthrome-esrigrid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 156038,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715610",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715604": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715604",
+      "type": "application/zip",
+      "title": "na-anthrome-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 132502,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715604",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715602": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715602",
+      "type": "application/zip",
+      "title": "oc-anthrome-esrigrid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 76158,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715602",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715601": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715601",
+      "type": "application/zip",
+      "title": "oc-anthrome-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 60274,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715601",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715611": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715611",
+      "type": "application/zip",
+      "title": "sa-anthrome-esrigrid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 109915,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715611",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715600": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715600",
+      "type": "application/zip",
+      "title": "sa-anthrome-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 85965,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715600",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3550194441-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550194441-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/H4H12ZXD",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/anthromes-anthropogenic-biomes-world-v1/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4H12ZXD",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "anthromes-anthropogenic-biomes-world-v1-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/anthromes-anthropogenic-biomes-world-v1-citation2.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4H12ZXD",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550194441-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4H12ZXD",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "anthromes-v1-global-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "anthromes-v1-global-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "anthromes-v1-global-thumbnail.jpg-2": {
+      "href": "http://sedac.ciesin.columbia.edu/downloads/maps/anthromes/anthromes-anthropogenic-biomes-world-v1/anthromes-v1-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "anthromes-v1-global-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/anthromes-anthropogenic-biomes-world-v1/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/anthromes-anthropogenic-biomes-world-v1/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "070062": {
+      "href": "https://.doi.org/10.1890/070062",
+      "type": "text/html",
+      "title": "070062",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4sf2t3m": {
+      "href": "https://doi.org/10.7927/H4SF2T3M",
+      "type": "text/html",
+      "title": "H4SF2T3M",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "j.1466-8238.2010.00540.x": {
+      "href": "https://doi.org/10.1111/j.1466-8238.2010.00540.x",
+      "type": "text/html",
+      "title": "j.1466-8238.2010.00540.x",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4np22c8": {
+      "href": "https://doi.org/10.7927/H4NP22C8",
+      "type": "text/html",
+      "title": "H4NP22C8",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4j1012k": {
+      "href": "https://doi.org/10.7927/H4J1012K",
+      "type": "text/html",
+      "title": "H4J1012K",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4d798b9": {
+      "href": "https://doi.org/10.7927/H4D798B9",
+      "type": "text/html",
+      "title": "H4D798B9",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -55.750001,
+    180.0,
+    83.083332
+  ]
+}

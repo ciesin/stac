@@ -1,0 +1,497 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-a4mb-4t86",
+  "collection": "ciesin-sedac-health",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          17.0
+        ],
+        [
+          -65.0,
+          17.0
+        ],
+        [
+          -65.0,
+          72.0
+        ],
+        [
+          -180.0,
+          72.0
+        ],
+        [
+          -180.0,
+          17.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Daily 8-Hour Maximum and Annual O3 Concentrations for the Contiguous United States, 1-km Grids, v1 (2000 - 2016)",
+    "description": "The Daily 8-Hour Maximum and Annual O3 Concentrations for the Contiguous United States, 1-km Grids, v1 (2000 - 2016) data set contains estimates of ozone concentrations at a high resolution in space (1 km x 1 km grid cells) and time (daily) for the years 2000 to 2016. These predictions incorporated various predictor variables such as Ozone (O3) ground measurements from the U.S. Environmental Protection Agency (EPA) Air Quality System (AQS) monitoring data, land-use variables, meteorological variables, chemical transport models and remote sensing data, along with other data sources. After imputing missing data with machine learning algorithms, a geographically weighted ensemble model was applied that combined estimates from three types of machine learners (neural network, random forest, and gradient boosting). The annual predictions were computed by averaging the daily 8-hour maximum predictions in each year for each grid cell. The results demonstrate high overall model performance with a cross-validated R-squared value against daily observations of 0.90 and 0.86 for annual averages.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided",
+    "keywords": [
+      "Country",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > OXYGEN COMPOUNDS > ATMOSPHERIC OZONE > TOTAL OZONE",
+      "Environment",
+      "Health",
+      "United States of America",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/A4MB-4T86",
+    "sci:citation": "Requia, W. J., Y. Wei, A. Shtein, C. Hultquist, X. Xing, Q. Di, R. Silvern, J. T. Kelly, P. Koutrakis, L. J. Mickley, M. P. Sulprizio, H. Amini, L. Shi, and J. Schwartz. 2021-12-13. Daily 8-Hour Maximum and Annual O3 Concentrations for the Contiguous United States, 1-km Grids, v1 (2000 - 2016). Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 1",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Health",
+    "ciesin:tags": [
+      "Country",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > OXYGEN COMPOUNDS > ATMOSPHERIC OZONE > TOTAL OZONE",
+      "Environment",
+      "Health",
+      "United States of America",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/A4MB-4T86",
+      "10.7910/DVN/DUTXKK"
+    ],
+    "ciesin:authors": [
+      "Requia, W. J., Y. Wei, A. Shtein, C. Hultquist, X. Xing, Q. Di, R. Silvern, J. T. Kelly, P. Koutrakis, L. J. Mickley, M. P. Sulprizio, H. Amini, L. Shi, and J. Schwartz",
+      "Requia, W. J., Q. Di, R. Silvern, J. T. Kelly, P. Koutrakis, L. J. Mickley, M. P. Sulprizio, H. Amini, L. Shi, and J. Schwartz"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "United States of America"
+    ],
+    "ciesin:purpose": "To provide daily 8-hour maximum and annual ground-level Ozone (O3) concentration data in the U.S. at a resolution of 1 km (about 30 arc-seconds) for public health research to respectively estimate short- and long-term effects on human health, and for other related research.",
+    "ciesin:publication_date": "2021-12-13T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/a4mb-4t86",
+      "https://doi.org/10.1021/acs.est.0c01791",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FDUTXKK",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540910921-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "aqdh-o3-concentrations-contiguous-us-1-km-2000-2016.xml",
+    "datetime": null,
+    "start_datetime": "2000-01-01T00:00:00Z",
+    "end_datetime": "2016-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2000-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2016-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-a4mb-4t86.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/A4MB-4T86",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/DUTXKK",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "a4mb-4t86": {
+      "href": "https://doi.org/10.7927/A4MB-4T86",
+      "type": "text/html",
+      "title": "DOI 10.7927/A4MB-4T86",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/A4MB-4T86",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "dutxkk": {
+      "href": "https://doi.org/10.7910/DVN/DUTXKK",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/DUTXKK",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/DUTXKK",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FDUTXKK",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/DUTXKK",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13987102": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13987102",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2000.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41345424847,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13987102",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13987101": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13987101",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2001.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41200819037,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13987101",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13987103": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13987103",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2002.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41181633686,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13987103",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13987104": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13987104",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2003.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41188402322,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13987104",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13996268": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13996268",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2004.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41314915799,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13996268",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13996271": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13996271",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2005.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41188798814,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13996271",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13996270": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13996270",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2006.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41127708513,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13996270",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13996269": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13996269",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2007.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41125846002,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13996269",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13999892": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13999892",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2008.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41242419255,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13999892",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13999893": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13999893",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2009.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40953473157,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13999893",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13999891": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13999891",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2010.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39660597654,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13999891",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13999890": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13999890",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2011.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39227257979,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13999890",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14023161": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14023161",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2012.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39198029730,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14023161",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14023162": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14023162",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2013.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39055688878,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14023162",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14023163": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14023163",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2014.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39023639554,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14023163",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14023160": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14023160",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2015.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38985066582,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14023160",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14023158": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14023158",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-2016.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37925151720,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14023158",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14023159": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14023159",
+      "type": "application/zip",
+      "title": "aqdh-o3-concentrations-contiguous-us-1-km-annual.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1885722714,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14023159",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14171090": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14171090",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11790,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14171090",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540910921-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540910921-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/A4MB-4T86",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "aqdh-o3-concentrations-contiguous-us-1-km-2000-2016-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/aqdh-o3-concentrations-contiguous-us-1-km-2000-2016-readme.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/A4MB-4T86",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540910921-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/A4MB-4T86",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sedac-logo.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/aqdh/aqdh-o3-concentrations-contiguous-us-1-km-2000-2016/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/aqdh-o3-concentrations-contiguous-us-1-km-2000-2016/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "acs.est.0c01791": {
+      "href": "https://doi.org/10.1021/acs.est.0c01791",
+      "type": "text/html",
+      "title": "acs.est.0c01791",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "4.0": {
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    17.0,
+    -65.0,
+    72.0
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8f47mw6",
+  "collection": "ciesin-sedac-climate",
+  "geometry": null,
+  "properties": {
+    "title": "Assessment of Select Climate Change Impacts on U.S. National Security",
+    "description": "This report examines climate change impacts to U.S. national security by quantifying select impacts globally at the national level and identifying countries that are both at high risk from projected climate change and possess risk factors associated with political instability. Exposure to global sea‐level rise risk exposure is quantified by identifying low‐elevation coastal zones (LECZ), at 1, 3, 5, 7, 9, 10 and 12 meters of elevation. Countries with high risk factors for instability that also have the most people exposed to sea‐level rise include China, Philippines, India, and Indonesia. Those with the greatest percentage of population so exposed include Philippines, Egypt, and Indonesia. Within these countries, Egypt has especially high rates of population growth within the LECZ. Aggregate climate change vulnerability is quantified by using an index that takes into account both projected temperature change and adaptive capacity. For countries with high risk factors for instability, the most vulnerable countries are South Africa, Nepal, Morocco, Bangladesh, Tunisia, Paraguay, Yemen, Sudan and Côte d’Ivoire. Water scarcity is examined by comparing numbers of people living under conditions of water in the present with three future scenarios – one in which the climate remains unchanged but population changes; one in which population changes but the climate remains static; and one in which both population and climate change. Countries with high risk factors for instability that are projected to have the biggest increases in water scarcity are Mozambique, Côte d’Ivoire, Nigeria, Iraq, Guatemala, Zimbabwe, Ethiopia, Somalia, China, Syria and Algeria.",
+    "license": "other",
+    "keywords": [
+      "Climate"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8f47mw6",
+    "ciesin:resource_type": "report",
+    "ciesin:category": "Climate",
+    "ciesin:tags": [
+      "Climate"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8f47mw6"
+    ],
+    "ciesin:authors": [
+      "Levy, Marc A.",
+      "Anderson, Bridget",
+      "Brickman, Melanie",
+      "Cromer, Chris",
+      "Falk, Brian",
+      "Fekete, Balazs",
+      "Green, Pamela",
+      "Jaiteh, Malanding S.",
+      "Lammers, Richard",
+      "Mara, Valentina",
+      "MacManus, Kytt",
+      "Metzler, Steve",
+      "Muñiz, Maria",
+      "Parris, Thomas",
+      "Pullen, Randy",
+      "Thorkelson, Catherine",
+      "Vorosmarty, Charles",
+      "Wollheim, Wil",
+      "Xing, Xiaoshi",
+      "Yetman, Gregory G."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8F47MW6",
+      "https://academiccommons.columbia.edu/doi/10.7916/D83204F4/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8f47mw6.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8f47mw6",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8f47mw6": {
+      "href": "https://doi.org/10.7916/d8f47mw6",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8f47mw6",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8f47mw6",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D83204F4/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/D83204F4/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

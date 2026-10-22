@@ -1,0 +1,409 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-q57x-jt34",
+  "collection": "ciesin-sedac-climate",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.98
+        ],
+        [
+          179.82,
+          -55.98
+        ],
+        [
+          179.82,
+          82.18
+        ],
+        [
+          -180.0,
+          82.18
+        ],
+        [
+          -180.0,
+          -55.98
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global Gridded Relative Deprivation Index (GRDI), Version 1.10",
+    "description": "The Global Gridded Relative Deprivation Index (GRDI), Version 1.10 (GRDIv1.10) data set characterizes relative levels of multidimensional deprivation and poverty at 30 arc-seconds spatial resolution (~1 km at the equator) ranging from 0 (lowest) to 100 (highest). GRDIv1.10 is built from sociodemographic and satellite data inputs from five global spatial layers that were spatially harmonized, indexed, and aggregated into an index. These include Subnational Human Development Index (SHDI) and Infant Mortality Rate (IMR) data, gridded Child Dependency Ratios (CDR), nighttime lights intensity, and proportion of the grid cell that is built-up. This version corrects some issues with GRDI Version 1 (GRDIv1) by using a less restrictive uninhabited areas mask based on populated areas instead of built-up areas, improved processing of the child dependency ratio data, and removal of the trend in nighttime light input. In addition, a different set of weights is used to combine the five input layers in the final index that dampens the urban-bias exhibited by the previous version of the index, no matter the development level of the country.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Climate",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS > POVERTY LEVELS",
+      "Economy",
+      "Global",
+      "Hazards",
+      "Health",
+      "Population",
+      "Poverty",
+      "Society",
+      "Sustainability",
+      "Earth and Environmental Sciences",
+      "Social Sciences",
+      "latest"
+    ],
+    "providers": [
+      {
+        "name": "Center for Integrated Earth System Information (CIESIN)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/Q57X-JT34",
+    "sci:citation": "Center for Integrated Earth System Information - CIESIN - Columbia University. 2025-05-28. Global Gridded Relative Deprivation Index (GRDI), Version 1.10. Edition 1.10. Center for Integrated Earth System Information (CIESIN). Palisades, NY",
+    "version": "1.10; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Climate",
+    "ciesin:tags": [
+      "Climate",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIOECONOMICS > POVERTY LEVELS",
+      "Economy",
+      "Global",
+      "Hazards",
+      "Health",
+      "Population",
+      "Poverty",
+      "Society",
+      "Sustainability",
+      "Earth and Environmental Sciences",
+      "Social Sciences",
+      "latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:dois": [
+      "10.7927/Q57X-JT34",
+      "10.7910/DVN/TEM9JH"
+    ],
+    "ciesin:authors": [
+      "Center for Integrated Earth System Information - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "Center for Integrated Earth System Information (CIESIN)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"Center for Integrated Earth System Information (CIESIN)\"}}]"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide a global gridded relative deprivation index characterizing the levels of multidimensional deprivation in each pixel at ~1 km resolution.",
+    "ciesin:publication_date": "2025-05-28T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/q57x-jt34",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://doi.org/10.7927/bm5h-0n70",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FTEM9JH"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse"
+    ],
+    "ciesin:inventory_xml_location": "povmap-grdi-v1-10.xml",
+    "datetime": null,
+    "start_datetime": "2010-01-01T00:00:00Z",
+    "end_datetime": "2020-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2010-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2020-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-q57x-jt34.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/Q57X-JT34",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/TEM9JH",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "q57x-jt34": {
+      "href": "https://doi.org/10.7927/Q57X-JT34",
+      "type": "text/html",
+      "title": "DOI 10.7927/Q57X-JT34",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/Q57X-JT34",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "tem9jh": {
+      "href": "https://doi.org/10.7910/DVN/TEM9JH",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/TEM9JH",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/TEM9JH",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FTEM9JH",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/TEM9JH",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912106": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912106",
+      "type": "application/octet-stream",
+      "title": "povmap-grdi-v1-10_BUILTBinaryMask.tfw",
+      "roles": [
+        "data"
+      ],
+      "file:size": 83,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912106",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912105": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912105",
+      "type": "image/tiff",
+      "title": "povmap-grdi-v1-10_BUILTBinaryMask.tif",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14766374,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912105",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912110": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912110",
+      "type": "application/octet-stream",
+      "title": "povmap-grdi-v1-10_BUILT.tfw",
+      "roles": [
+        "data"
+      ],
+      "file:size": 83,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912110",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912109": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912109",
+      "type": "image/tiff",
+      "title": "povmap-grdi-v1-10_BUILT.tif",
+      "description": "BUILT Component raster, indexed 0 to 100",
+      "roles": [
+        "data"
+      ],
+      "file:size": 202879470,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912109",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912111": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912111",
+      "type": "application/octet-stream",
+      "title": "povmap-grdi-v1-10_CDR.tfw",
+      "roles": [
+        "data"
+      ],
+      "file:size": 83,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912111",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912112": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912112",
+      "type": "image/tiff",
+      "title": "povmap-grdi-v1-10_CDR.tif",
+      "description": "Child Dependency Ratio (CDR) Component raster, indexed 0 to 100",
+      "roles": [
+        "data"
+      ],
+      "file:size": 164638056,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912112",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12014133": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12014133",
+      "type": "application/pdf",
+      "title": "povmap-grdi-v1-10-documentation_ciesin.pdf",
+      "description": "Documentation",
+      "roles": [
+        "data"
+      ],
+      "file:size": 756938,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12014133",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912116": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912116",
+      "type": "application/octet-stream",
+      "title": "povmap-grdi-v1-10_IMR.tfw",
+      "roles": [
+        "data"
+      ],
+      "file:size": 83,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912116",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912118": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912118",
+      "type": "image/tiff",
+      "title": "povmap-grdi-v1-10_IMR.tif",
+      "description": "Infant Mortality Rates (IMR) Component raster, indexed 0 to 100",
+      "roles": [
+        "data"
+      ],
+      "file:size": 128698120,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912118",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912103": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912103",
+      "type": "text/plain",
+      "title": "povmap-grdi-v1-10-readme.txt",
+      "roles": [
+        "data"
+      ],
+      "file:size": 15268,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912103",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912117": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912117",
+      "type": "image/tiff",
+      "title": "povmap-grdi-v1-10_SHDI.tif",
+      "description": "Subnational Human Development Index (SHDI) Component raster, indexed 0 to 100",
+      "roles": [
+        "data"
+      ],
+      "file:size": 69299864,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912117",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912113": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912113",
+      "type": "application/octet-stream",
+      "title": "povmap-grdi-v1-10.tfw",
+      "roles": [
+        "data"
+      ],
+      "file:size": 83,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912113",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912115": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912115",
+      "type": "image/tiff",
+      "title": "povmap-grdi-v1-10.tif",
+      "description": "Global Gridded Relative Deprivation Index (GRDI), Version 1.10 raster",
+      "roles": [
+        "data"
+      ],
+      "file:size": 233361170,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912115",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912114": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912114",
+      "type": "application/octet-stream",
+      "title": "povmap-grdi-v1-10_VNL_2020.tfw",
+      "roles": [
+        "data"
+      ],
+      "file:size": 83,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912114",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11912119": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11912119",
+      "type": "image/tiff",
+      "title": "povmap-grdi-v1-10_VNL_2020.tif",
+      "description": "VIIRS Nighttime Lights (VNL) 2020 Component raster, indexed 0 to 100",
+      "roles": [
+        "data"
+      ],
+      "file:size": 117493380,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11912119",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data": {
+      "href": "https://ciesin.climate.columbia.edu/content/data",
+      "type": "text/html",
+      "title": "data",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "4.0": {
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "bm5h-0n70": {
+      "href": "https://doi.org/10.7927/bm5h-0n70",
+      "type": "text/html",
+      "title": "bm5h-0n70",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -55.98,
+    179.82,
+    82.18
+  ]
+}

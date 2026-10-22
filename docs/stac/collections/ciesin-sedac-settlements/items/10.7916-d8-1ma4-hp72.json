@@ -1,0 +1,115 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8-1ma4-hp72",
+  "collection": "ciesin-sedac-settlements",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 Chad Settlement Extents, Version 01.01",
+    "description": "Settlement extents are polygons representing areas where there is likely a human settlement based on the presence of buildings detected in satellite imagery. Settlement extents are not meant to represent the boundaries of an administrative unit or locality. A single settlement extent may be made up of multiple localities, especially in urban areas. Each settlement extent has an associated population estimate. Provided is information on the common operational boundary that the extent fully resides within along with their associated place codes (PCodes). The data are in geodatabase format and consist of a single-feature class. This data product contains all information contained in the previous “GRID3 Chad Settlement Extents, Version 01” product, with updates. Updates in this version include: revised terms of use and license, Boundary and Place Codes for each settlement extent. This work has been undertaken as part of the Geo-Referenced Infrastructure and Demographic Data for Development (GRID3) programme. The programme is funded by the Bill & Melinda Gates Foundation and the United Kingdom's Foreign, Commonwealth & Development Office. It is implemented by the Flowminder Foundation, WorldPop at the University of Southampton, the United Nations Population Fund, and the Center for International Earth Science Information Network (CIESIN) at Columbia University. Keywords: Settlements, Hamlets, Built-up Areas (BUA), Small Settlement Areas (SSA)",
+    "license": "other",
+    "keywords": [
+      "Settlements"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8-1ma4-hp72",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": [
+      "Settlements"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8-1ma4-hp72"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network",
+      "Novel-T"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/d8-1ma4-hp72",
+      "https://academiccommons.columbia.edu/doi/10.7916/d8-74yg-e274/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/d8-p863-qk84/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8-1ma4-hp72.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8-1ma4-hp72",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8-1ma4-hp72": {
+      "href": "https://doi.org/10.7916/d8-1ma4-hp72",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8-1ma4-hp72",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8-1ma4-hp72",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-74yg-e274/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/d8-74yg-e274/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-p863-qk84/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 2",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/d8-p863-qk84/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

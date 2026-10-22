@@ -1,0 +1,894 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-jmc9-q708",
+  "collection": "ciesin-sedac-climate",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -17.33,
+          -34.51
+        ],
+        [
+          51.27,
+          -34.51
+        ],
+        [
+          51.27,
+          37.21
+        ],
+        [
+          -17.33,
+          37.21
+        ],
+        [
+          -17.33,
+          -34.51
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Groundswell Africa Spatial Population and Migration Projections at One-Eighth Degree According to SSPs and RCPs, 2010-2050",
+    "description": "The Groundswell Africa Spatial Population and Migration Projections at One-Eighth Degree According to SSPs and RCPs, 2010-2050 data set provides a baseline population distribution for 2010 and projections from 2020 to 2050, in five-year increments, of population distribution and internal climate-related and other migration for West Africa and the Lake Victoria Basin. The projections are produced using the NCAR-CIDR Spatial Population Downscaling Model developed by the CUNY Institute for Demographic Research (CIDR) and the National Center for Atmospheric Research (NCAR). The model incorporates assumptions based on future development scenarios (Shared Socioeconomic Pathways or SSPs) and emissions trajectories (Representative Concentration Pathways or RCPs). The SSPs include SSP2, representing a middle-of-the road future, and SSP4, representing an unequal development future. Climate models using low and high emissions scenarios, RCP2.6 and RCP8.5, then drive climate impact models on water availability, crop productivity, and pasturelands (where cropping does not occur), as well as flood impacts, from the Inter-Sectoral Impacts Model Intercomparison Project (ISIMIP). Sea-level rise impacts in the coastal zone are estimated to be 1 meter under RCP2.6 and 2 meters under RCP8.5, to account for potential storm surge or coastal flooding. Four scenarios are generated, a pessimistic reference scenario combining SSP4 and RCP8.5, a more climate-friendly scenario combining SSP4 and RCP2.6, a more inclusive development scenario combining SSP2 and RCP8.5, and an optimistic scenario combining SSP2 and RCP2.6. Each scenario provides an ensemble average of four model runs combining different climate impact models as well as confidence intervals to better capture uncertainties. The modeling work was funded and developed jointly with The World Bank.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Benin",
+      "Burkina Faso",
+      "Burundi",
+      "Cape Verde",
+      "Climate",
+      "Continent",
+      "Cote D'Ivoire",
+      "EARTH SCIENCE > CLIMATE INDICATORS > ATMOSPHERIC/OCEAN INDICATORS > SEA LEVEL RISE",
+      "Gambia",
+      "Ghana",
+      "Guinea",
+      "Guinea-Bissau",
+      "Kenya",
+      "Liberia",
+      "Mali",
+      "Marine and Coastal",
+      "Mauritania",
+      "Niger",
+      "Nigeria",
+      "Planning/Cadastre",
+      "Population",
+      "Rwanda",
+      "Sao Tome and Principe",
+      "Senegal",
+      "Sierra Leone",
+      "Society",
+      "Sustainability",
+      "Tanzania",
+      "Togo",
+      "Uganda",
+      "Water",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/JMC9-Q708",
+    "sci:citation": "CUNY Institute for Demographic Research - CIDR - City University of New York, Center for International Earth Science Information Network - CIESIN - Columbia University, and The World Bank. 2023-06-29. Groundswell Africa Spatial Population and Migration Projections at One-Eighth Degree According to SSPs and RCPs, 2010-2050. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 1",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Climate",
+    "ciesin:tags": [
+      "Benin",
+      "Burkina Faso",
+      "Burundi",
+      "Cape Verde",
+      "Climate",
+      "Continent",
+      "Cote D'Ivoire",
+      "EARTH SCIENCE > CLIMATE INDICATORS > ATMOSPHERIC/OCEAN INDICATORS > SEA LEVEL RISE",
+      "Gambia",
+      "Ghana",
+      "Guinea",
+      "Guinea-Bissau",
+      "Kenya",
+      "Liberia",
+      "Mali",
+      "Marine and Coastal",
+      "Mauritania",
+      "Niger",
+      "Nigeria",
+      "Planning/Cadastre",
+      "Population",
+      "Rwanda",
+      "Sao Tome and Principe",
+      "Senegal",
+      "Sierra Leone",
+      "Society",
+      "Sustainability",
+      "Tanzania",
+      "Togo",
+      "Uganda",
+      "Water",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/JMC9-Q708",
+      "10.7910/DVN/KOJ9SL"
+    ],
+    "ciesin:authors": [
+      "CUNY Institute for Demographic Research - CIDR - City University of New York, Center for International Earth Science Information Network - CIESIN - Columbia University, and The World Bank",
+      "Rigaud, K. K., A. de Sherbinin, B. Jones, S. Adamo, D. Maleki, N. Abu-Ata, A. Casals Fernandez, A. Arora, T. Chai-Onn, and B. Mills"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS",
+      "The World Bank"
+    ],
+    "ciesin:place": [
+      "Benin",
+      "Burkina Faso",
+      "Cape Verde",
+      "Burundi",
+      "Cote D'Ivoire",
+      "Gambia",
+      "Ghana",
+      "Guinea",
+      "Guinea-Bissau",
+      "Kenya",
+      "Liberia",
+      "Mali",
+      "Mauritania",
+      "Nigeria",
+      "Rwanda",
+      "Niger",
+      "Sao Tome and Principe",
+      "Senegal",
+      "Sierra Leone",
+      "Tanzania",
+      "Togo",
+      "Uganda"
+    ],
+    "ciesin:purpose": "To provide a data set that allows users to understand how climate change impacts on water availability, crop productivity, and pasturelands (where no cropping occurs), coupled with sea-level rise, storm surge and flooding, may affect the future population distribution and climate-related internal migration in West Africa and the Lake Victoria Basin.",
+    "ciesin:publication_date": "2023-06-29T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/jmc9-q708",
+      "https://openknowledge.worldbank.org/handle/10986/36404",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FKOJ9SL",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540928053-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050.xml",
+    "datetime": null,
+    "start_datetime": "2010-01-01T00:00:00Z",
+    "end_datetime": "2050-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2010-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2050-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-jmc9-q708.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/JMC9-Q708",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/KOJ9SL",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "jmc9-q708": {
+      "href": "https://doi.org/10.7927/JMC9-Q708",
+      "type": "text/html",
+      "title": "DOI 10.7927/JMC9-Q708",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/JMC9-Q708",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "koj9sl": {
+      "href": "https://doi.org/10.7910/DVN/KOJ9SL",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/KOJ9SL",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/KOJ9SL",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FKOJ9SL",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/KOJ9SL",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073309": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073309",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-bdi-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3909460,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073309",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073292": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073292",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-bdi-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3894569,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073292",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073313": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073313",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-ben-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4642968,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073313",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073285": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073285",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-ben-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4628966,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073285",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073284": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073284",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-bfa-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5906362,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073284",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073306": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073306",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-bfa-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5905342,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073306",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073276": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073276",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-civ-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6281689,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073276",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073286": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073286",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-civ-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6282070,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073286",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073312": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073312",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-cpv-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3754737,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073312",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073310": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073310",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-cpv-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3730037,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073310",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073308": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073308",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-gha-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5622144,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073308",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073279": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073279",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-gha-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5621450,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073279",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073301": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073301",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-gin-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5766123,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073301",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073273": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073273",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-gin-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5765083,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073273",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073272": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073272",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-gmb-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3807658,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073272",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073283": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073283",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-gmb-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3783406,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073283",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073290": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073290",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-gnb-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4039132,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073290",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073287": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073287",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-gnb-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4017695,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073287",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073278": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073278",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-ken-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8344822,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073278",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073293": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073293",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-ken-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8365760,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073293",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073305": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073305",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-lbr-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4518836,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073305",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073315": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073315",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-lbr-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4503207,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073315",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073281": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073281",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-mli-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13793378,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073281",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073296": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073296",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-mli-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13875896,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073296",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073307": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073307",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-mrt-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11843780,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073307",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073291": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073291",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-mrt-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11958053,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073291",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073282": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073282",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-ner-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12034895,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073282",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073314": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073314",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-ner-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12134216,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073314",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073303": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073303",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-nga-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10986022,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073303",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073304": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073304",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-nga-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11028943,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073304",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073289": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073289",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-rwa-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3897235,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073289",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073294": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073294",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-rwa-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3882091,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073294",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073298": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073298",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-sen-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5250999,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073298",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073299": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073299",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-sen-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5246467,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073299",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073277": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073277",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-sle-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4314838,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073277",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073302": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073302",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-sle-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4295384,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073302",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073311": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073311",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-stp-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3690206,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073311",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073280": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073280",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-stp-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3665001,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073280",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073300": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073300",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-tgo-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4212117,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073300",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073297": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073297",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-tgo-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4192609,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073297",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073275": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073275",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-tza-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10453440,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073275",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073288": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073288",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-tza-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10492620,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073288",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073295": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073295",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-uga-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5488382,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073295",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12073274": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/12073274",
+      "type": "application/zip",
+      "title": "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-uga-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5488152,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "12073274",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14171130": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14171130",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7743,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14171130",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540928053-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540928053-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/JMC9-Q708",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-africa-data-documentation": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-africa-data-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/JMC9-Q708",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050-citation2.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/JMC9-Q708",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540928053-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/JMC9-Q708",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sedac-logo.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/climmig/climmig-groundswell-africa-pop-mig-proj-1-km-ssps-rcps-2010-2050/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "sedac-logo.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/climmig-groundswell-africa-pop-mig-proj-1-8-ssps-rcps-2010-2050/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "36404": {
+      "href": "https://openknowledge.worldbank.org/handle/10986/36404",
+      "type": "text/html",
+      "title": "36404",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "4.0": {
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -17.33,
+    -34.51,
+    51.27,
+    37.21
+  ]
+}

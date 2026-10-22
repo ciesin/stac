@@ -1,0 +1,410 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h46m34xx",
+  "collection": "ciesin-sedac-population",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Gridded Population of the World, Version 4 (GPWv4): Basic Demographic Characteristics, Revision 11",
+    "description": "The Gridded Population of the World, Version 4 (GPWv4): Basic Demographic Characteristics, Revision 11 consists of estimates of human population by age and sex as counts (number of persons per pixel) and densities (number of persons per square kilometer), consistent with national censuses and population registers, for the year 2010. To estimate the male and female populations by age in 2010, the proportions of males and females in each 5-year age group from ages 0-4 to ages 85+ for the given census year were calculated. These proportions were then applied to the 2010 estimates of the total population to obtain 2010 estimates of male and female populations by age. In some cases, the spatial resolution of the age and sex proportions was coarser than the resolution of the total population estimates to which they were applied. The population density rasters were created by dividing the population count rasters by the land area raster. The data files were produced as global rasters at 30 arc-second (~1 km at the equator) resolution. To enable faster global processing, and in support of research communities, the 30 arc-second data were aggregated to 2.5 arc-minute, 15 arc-minute, 30 arc-minute and 1 degree resolutions.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Continent",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Global",
+      "Population",
+      "Society",
+      "Earth and Environmental Sciences",
+      "latest"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H46M34XX",
+    "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University. 2018-12-31. Gridded Population of the World, Version 4 (GPWv4): Basic Demographic Characteristics, Revision 11. Edition 4.11. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "4.11; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Population",
+    "ciesin:tags": [
+      "Continent",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Global",
+      "Population",
+      "Society",
+      "Earth and Environmental Sciences",
+      "latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:dois": [
+      "10.7927/H46M34XX",
+      "10.7910/DVN/FSPNRX"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide estimates of population counts by age and sex for the year 2010, consistent with national censuses and population registers, as raster data to facilitate data integration.",
+    "ciesin:publication_date": "2018-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H46M34XX",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://doi.org/10.1080/23754931.2015.1014272",
+      "https://doi.org/10.7927/H45H7D7F",
+      "https://doi.org/10.7927/H4BC3WMT",
+      "https://doi.org/10.7927/H42Z13KG",
+      "https://doi.org/10.7927/H4Z60M4Z",
+      "https://doi.org/10.7927/H4TD9VDP",
+      "https://doi.org/10.7927/H4JW8BX5",
+      "https://doi.org/10.7927/H49C6VHW",
+      "https://doi.org/10.7927/H45Q4T5F",
+      "https://doi.org/10.7927/H4PN93PB",
+      "https://doi.org/10.7927/H4F47M65",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FFSPNRX"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse"
+    ],
+    "ciesin:inventory_xml_location": "gpw-v4-basic-demographic-characteristics-rev11.xml",
+    "datetime": null,
+    "start_datetime": "2010-07-01T00:00:00Z",
+    "end_datetime": "2010-07-01T00:00:00Z",
+    "ciesin:temporal_start": "2010-07-01T00:00:00Z",
+    "ciesin:temporal_end": "2010-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h46m34xx.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H46M34XX",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/FSPNRX",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h46m34xx": {
+      "href": "https://doi.org/10.7927/H46M34XX",
+      "type": "text/html",
+      "title": "DOI 10.7927/H46M34XX",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H46M34XX",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "fspnrx": {
+      "href": "https://doi.org/10.7910/DVN/FSPNRX",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/FSPNRX",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/FSPNRX",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FFSPNRX",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/FSPNRX",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13595700": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13595700",
+      "type": "application/zip",
+      "title": "gpw-v4-basic-demographic-characteristics-rev11_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 30833922015,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13595700",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13595701": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13595701",
+      "type": "application/zip",
+      "title": "gpw-v4-basic-demographic-characteristics-rev11_nc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1604926247,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13595701",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13596207": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/13596207",
+      "type": "application/zip",
+      "title": "gpw-v4-basic-demographic-characteristics-rev11_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 57873325661,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13596207",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14172523": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14172523",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13184,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14172523",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "docs": {
+      "href": "http://sedac.ciesin.columbia.edu/data/set/gpw-v4-basic-demographic-characteristics-rev11/docs",
+      "type": "text/html",
+      "title": "docs",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "gpw-v4-basic-demographic-characteristics-rev11-young-aging-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/gpw-v4/gpw-v4-basic-demographic-characteristics-rev11/gpw-v4-basic-demographic-characteristics-rev11-young-aging-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "gpw-v4-basic-demographic-characteristics-rev11-young-aging-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-basic-demographic-characteristics-rev11/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-basic-demographic-characteristics-rev11/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-basic-demographic-characteristics-rev11/maps/services",
+      "type": "text/html",
+      "title": "services",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "4.0": {
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "23754931.2015.1014272": {
+      "href": "https://doi.org/10.1080/23754931.2015.1014272",
+      "type": "text/html",
+      "title": "23754931.2015.1014272",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h45h7d7f": {
+      "href": "https://doi.org/10.7927/H45H7D7F",
+      "type": "text/html",
+      "title": "H45H7D7F",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4bc3wmt": {
+      "href": "https://doi.org/10.7927/H4BC3WMT",
+      "type": "text/html",
+      "title": "H4BC3WMT",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h42z13kg": {
+      "href": "https://doi.org/10.7927/H42Z13KG",
+      "type": "text/html",
+      "title": "H42Z13KG",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4z60m4z": {
+      "href": "https://doi.org/10.7927/H4Z60M4Z",
+      "type": "text/html",
+      "title": "H4Z60M4Z",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4td9vdp": {
+      "href": "https://doi.org/10.7927/H4TD9VDP",
+      "type": "text/html",
+      "title": "H4TD9VDP",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4jw8bx5": {
+      "href": "https://doi.org/10.7927/H4JW8BX5",
+      "type": "text/html",
+      "title": "H4JW8BX5",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h49c6vhw": {
+      "href": "https://doi.org/10.7927/H49C6VHW",
+      "type": "text/html",
+      "title": "H49C6VHW",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h45q4t5f": {
+      "href": "https://doi.org/10.7927/H45Q4T5F",
+      "type": "text/html",
+      "title": "H45Q4T5F",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4pn93pb": {
+      "href": "https://doi.org/10.7927/H4PN93PB",
+      "type": "text/html",
+      "title": "H4PN93PB",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4f47m65": {
+      "href": "https://doi.org/10.7927/H4F47M65",
+      "type": "text/html",
+      "title": "H4F47M65",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

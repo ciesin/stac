@@ -1,0 +1,102 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8s75tpc",
+  "collection": "ciesin-sedac-hazards",
+  "geometry": null,
+  "properties": {
+    "title": "Climate change hotspots mapping: what have we learned?",
+    "description": "In the past 5 years there has been a proliferation of efforts to map climate change “hotspots” — regions that are particularly vulnerable to current or future climate impacts, and where human security may be at risk. While some are academic exercises, many are produced with the goal of drawing policy maker attention to regions that are particularly susceptible to climate impacts, either to mitigate the risk of humanitarian crises or conflicts or to target adaptation assistance. Hotspots mapping efforts address a range of issues and sectors such as vulnerable populations, humanitarian crises, conflict, agriculture and food security, and water resources. This paper offers a timely assessment of the strengths and weaknesses of current hotspots mapping approaches with the goal of improving future efforts. It also highlights regions that are anticipated, based on combinations of high exposure, high sensitivity and low adaptive capacity, to suffer significant impacts from climate change.",
+    "license": "other",
+    "keywords": [
+      "Hazards"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8s75tpc",
+    "ciesin:resource_type": "article",
+    "ciesin:category": "Hazards",
+    "ciesin:tags": [
+      "Hazards"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8s75tpc"
+    ],
+    "ciesin:authors": [
+      "De Sherbinin, Alexander M."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8S75TPC",
+      "https://academiccommons.columbia.edu/doi/10.7916/D86H4VTP/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8s75tpc.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8s75tpc",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8s75tpc": {
+      "href": "https://doi.org/10.7916/d8s75tpc",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8s75tpc",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8s75tpc",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D86H4VTP/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/D86H4VTP/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

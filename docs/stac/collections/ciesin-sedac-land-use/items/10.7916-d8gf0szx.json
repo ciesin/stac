@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8gf0szx",
+  "collection": "ciesin-sedac-land-use",
+  "geometry": null,
+  "properties": {
+    "title": "Coupling Intensive Land Use and Landscape Ecological Security for Urban Sustainability: An Integrated Socioeconomic Data and Spatial Metrics Analysis in Hangzhou City",
+    "description": "Despite the unprecedented rate of urbanization throughout the world, human society is still facing the challenge of coordinating urban socioeconomic development and ecological conservation. In this article, we integrated socioeconomic data and spatial metrics to investigate the coupling relationship between intensive land use (ILU) system and landscape ecological security (LES) system for urban sustainable development, and to determine how these systems interact with each other. The values of ILU and LES were first calculated according to two evaluation subsystems under the pressure-state-response (PSR) framework. A coupling model was then established to analyze the coupling relationship within these two subsystems. The results showed that the levels of both subsystems were generally increasing, but there were several fluctuation changes in LES. The interaction in each system was time lagged; urban land use/cover change (LUCC) and ecosystem transformation were determined by political business cycles and influenced by specific factors. The coupling relationship underwent a coordinated development mode from 1992–2012. From the findings we concluded that the coupling system maintained a stable condition and underwent evolving threshold values. The integrated ILU and LES system was a coupling system in which subsystems were related to each other and internal elements had mutual effects. Finally, it was suggested that our results provided a multi-level interdisciplinary perspective on linking socioeconomic-ecological systems. The implications for urban sustainable development were also discussed.",
+    "license": "other",
+    "keywords": [
+      "Land Use"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8gf0szx",
+    "ciesin:resource_type": "article",
+    "ciesin:category": "Land Use",
+    "ciesin:tags": [
+      "Land Use"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8gf0szx"
+    ],
+    "ciesin:authors": [
+      "Cen, Xiaoteng",
+      "Wu, Cifang",
+      "Xing, Xiaoshi",
+      "Fang, Ming",
+      "Garang, Zhuoma",
+      "Wu, Yizhou"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8GF0SZX",
+      "https://academiccommons.columbia.edu/doi/10.7916/D86M3JKG/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8gf0szx.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8gf0szx",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8gf0szx": {
+      "href": "https://doi.org/10.7916/d8gf0szx",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8gf0szx",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8gf0szx",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D86M3JKG/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/D86M3JKG/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

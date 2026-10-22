@@ -1,0 +1,359 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4154f0w",
+  "collection": "ciesin-sedac-population",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid",
+    "description": "The Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid data set provides gridded data on human population (GHS-POP), built-up area (GHS-BUILT), and degree of urbanization (GHS-SMOD) across four time periods: 1975, 1990, 2000, and 2014 (BUILT) or 2015 (POP, SMOD). GHS-BUILT describes the percent built-up area for each 30 arc-second grid cell (approximately 1 km at the equator) based on Landsat imagery from each of the four time periods. GHS-POP consists of census data from the 2010 round of global census from Gridded Population of the World, Version 4, Revision 10 (GPWv4.10) spatially-allocated within census units based on the percent built-up areas from GHS-BUILT. GHS-SMOD uses GHS-BUILT and GHS-POP in order to develop a standardized classification of degree of urbanization grid. The original data from the Joint Research Centre of the European Commission (JRC-EC) has been combined into a single data package in GeoTIFF format and reprojected from Mollweide Equal Area into WGS84 at 9 arc-second and 30 arc-second horizontal resolutions in order to support integration with a variety of global raster data sets.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "EARTH SCIENCE > HUMAN DIMENSIONS > HUMAN SETTLEMENTS > URBAN AREAS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Global",
+      "Population",
+      "Society",
+      "Urban",
+      "Earth and Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4154F0W",
+    "sci:citation": "Joint Research Centre - JRC - European Commission, and Center for International Earth Science Information Network - CIESIN - Columbia University. 2021-07-29. Global Human Settlement Layer: Population and Built-Up Estimates, and Degree of Urbanization Settlement Model Grid. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Population",
+    "ciesin:tags": [
+      "EARTH SCIENCE > HUMAN DIMENSIONS > HUMAN SETTLEMENTS > URBAN AREAS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Global",
+      "Population",
+      "Society",
+      "Urban",
+      "Earth and Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/H4154F0W",
+      "10.7910/DVN/BEWJN2"
+    ],
+    "ciesin:authors": [
+      "Joint Research Centre - JRC - European Commission, and Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide global data on human population, built up area, and degree of urbanization for the years 1975, 1990, 2000, and 2014/2015 in the World Geodetic System 1984 (WGS84) geographic coordinate system.",
+    "ciesin:publication_date": "2021-07-29T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/h4154f0w",
+      "https://doi.org/10.2760/290498",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://doi.org/10.7927/tg7r-n260",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FBEWJN2"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse"
+    ],
+    "ciesin:inventory_xml_location": "ghsl-population-built-up-estimates-degree-urban-smod.xml",
+    "datetime": null,
+    "start_datetime": "1975-01-01T00:00:00Z",
+    "end_datetime": "1975-01-01T00:00:00Z",
+    "ciesin:temporal_start": "1975-01-01T00:00:00Z",
+    "ciesin:temporal_end": "1975-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4154f0w.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4154F0W",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/BEWJN2",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4154f0w": {
+      "href": "https://doi.org/10.7927/H4154F0W",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4154F0W",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H4154F0W",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "bewjn2": {
+      "href": "https://doi.org/10.7910/DVN/BEWJN2",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/BEWJN2",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/BEWJN2",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FBEWJN2",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/BEWJN2",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11906633": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906633",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-30ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 351415724,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11906633",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11906639": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906639",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1975-9ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2007939251,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11906639",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11906636": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906636",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-30ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 358395294,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11906636",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11906642": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906642",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-1990-9ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1720752342,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11906642",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11906634": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906634",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-30ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 366761479,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11906634",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11906647": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906647",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2000-9ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1745110861,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11906647",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11906635": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906635",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2014-2015-30ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 384801279,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11906635",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11906648": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11906648",
+      "type": "application/zip",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-ghsl-2014-2015-9ss-v1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1831557555,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11906648",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14171166": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14171166",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12108,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14171166",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "ghsl-population-built-up-estimates-degree-urban-smod-pop-2015-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ghsl/ghsl-population-built-up-estimates-degree-urban-smod/ghsl-population-built-up-estimates-degree-urban-smod-pop-2015-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "ghsl-population-built-up-estimates-degree-urban-smod-pop-2015-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ghsl-population-built-up-estimates-degree-urban-smod/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ghsl-population-built-up-estimates-degree-urban-smod/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ghsl-population-built-up-estimates-degree-urban-smod/maps/services",
+      "type": "text/html",
+      "title": "services",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "290498": {
+      "href": "https://doi.org/10.2760/290498",
+      "type": "text/html",
+      "title": "290498",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "4.0": {
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "tg7r-n260": {
+      "href": "https://doi.org/10.7927/tg7r-n260",
+      "type": "text/html",
+      "title": "tg7r-n260",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

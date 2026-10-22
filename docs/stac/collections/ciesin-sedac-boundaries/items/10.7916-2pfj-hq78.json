@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-2pfj-hq78",
+  "collection": "ciesin-sedac-boundaries",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 NGA - Operational Wards v3.0",
+    "description": "The GRID3 NGA - Operational Wards v3.0 dataset provides operational ward boundary polygons for 24 states in Nigeria: Abia, Adamawa, Bauchi, Bayelsa, Borno, Delta, Enugu, FCT Abuja, Gombe, Jigawa, Kaduna, Kano, Katsina, Kebbi, Kogi, Kwara, Nasarawa, Niger, Ogun, Osun, Oyo, Sokoto, Yobe, and Zamfara. These boundaries are intended for operational use and have not yet undergone full validation by relevant government authorities. This release includes both newly added states and revisions to states previously published in GRID3 NGA - Operational Wards v2.0. Version 3.0 supersedes v2.0 for Adamawa, Bauchi, Bayelsa, Borno, Delta, Gombe, Jigawa, Kano, Katsina, Kwara, Niger, Ogun, Osun, Oyo, and Yobe. For all 24 states included in Version 3.0, ward geometries were updated and ward names were harmonized to support improved spatial consistency and standardized attribution. Newly included states in this release are Abia, Enugu, FCT Abuja, Kaduna, Kebbi, Kogi, Nasarawa, Sokoto, and Zamfara. Keywords: Boundary, Wards",
+    "license": "other",
+    "keywords": [
+      "Boundaries",
+      "latest"
+    ],
+    "providers": [
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/2pfj-hq78",
+    "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University. 2026. GRID3 NGA - Operational Wards v3.0. New York: Columbia University . https://doi.org/10.7916/2pfj-hq78. Accessed <DAY MONTH YEAR>.",
+    "version": "3.0",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Boundaries",
+    "ciesin:tags": [
+      "Boundaries",
+      "latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:dois": [
+      "10.7916/2pfj-hq78"
+    ],
+    "ciesin:authors": [
+      "Center for Integrated Earth System Information"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "10.7916/2pfj-hq78"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-2pfj-hq78.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/2pfj-hq78",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "2pfj-hq78": {
+      "href": "https://doi.org/10.7916/2pfj-hq78",
+      "type": "text/html",
+      "title": "DOI 10.7916/2pfj-hq78",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/2pfj-hq78",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/3sj8-wv65/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/3sj8-wv65/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ma2v-cq80/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 2",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/ma2v-cq80/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/fe71-ep03/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 3",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/fe71-ep03/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

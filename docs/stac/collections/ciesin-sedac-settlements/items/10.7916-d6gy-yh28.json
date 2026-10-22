@@ -1,0 +1,128 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d6gy-yh28",
+  "collection": "ciesin-sedac-settlements",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 COD - Settlement Extents v3.1",
+    "description": "The GRID3 COD - Settlement Extents v3.1 consists of a geographic representation of settlements in the Democratic Republic of the Congo, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Both layers include attributes as described in the codebooks. Data inputs and methodology to derive the 2 layers is described in Data Release Notes (pdf). The current version supersedes GRID3 COD - Settlement Extents v3.0 at https://doi.org/10.7916/4wqv-5t02; the following changes were made: - Corrections on imputed values for building count and building areas. - Corrections on probability values from field-collected data - Edits in the Data Release Notes Keywords: settlement extents, settlement grid",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (http://creativecommons.org/licenses/by-sa/4.0/legalcode)",
+    "keywords": [
+      "Settlements"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/D6GY-YH28",
+    "version": "3.1",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": [
+      "Settlements"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/D6GY-YH28"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/d6gy-yh28",
+      "https://academiccommons.columbia.edu/doi/10.7916/1zkm-be17/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/56kx-3134/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/hfsf-0111/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "ciesin:inventory_xml_location": "GRID3 COD - Settlement Extents v3.1.xml",
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d6gy-yh28.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/D6GY-YH28",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d6gy-yh28": {
+      "href": "https://doi.org/10.7916/D6GY-YH28",
+      "type": "text/html",
+      "title": "DOI 10.7916/D6GY-YH28",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/D6GY-YH28",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/1zkm-be17/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/1zkm-be17/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/56kx-3134/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 2",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/56kx-3134/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/hfsf-0111/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 3",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/hfsf-0111/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

@@ -1,15 +1,10 @@
 {
   "type": "Collection",
   "stac_version": "1.1.0",
-  "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
-    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
-  ],
+  "stac_extensions": [],
   "id": "ciesin-sedac-marine-and-coastal",
   "title": "CIESIN SEDAC - Marine and Coastal",
-  "description": "CIESIN SEDAC datasets categorized as Marine and Coastal.",
+  "description": "CIESIN datasets categorized as Marine and Coastal.",
   "license": "other",
   "extent": {
     "spatial": {
@@ -25,8 +20,8 @@
     "temporal": {
       "interval": [
         [
-          "2001-12-31T00:00:00Z",
-          "2023-12-19T00:00:00Z"
+          "1990-01-01T00:00:00Z",
+          "2000-12-31T00:00:00Z"
         ]
       ]
     }
@@ -44,27 +39,39 @@
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-cesic-wellbeing.json",
+      "href": "./items/10.7927-h4ms3qnt.json",
       "type": "application/geo+json",
       "title": "Compendium of Environmental Sustainability Indicator Collections: The Wellbeing of Nations"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-gpwv3-coastlines.json",
+      "href": "./items/10.7927-h4q23x5q.json",
       "type": "application/geo+json",
       "title": "Gridded Population of the World, Version 3 (GPWv3): Coastlines"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-gpwv3-landgeog.json",
+      "href": "./items/10.7927-h4k935fc.json",
       "type": "application/geo+json",
       "title": "Gridded Population of the World, Version 3 (GPWv3): Land and Geographic Unit Area Grids"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-uscg-ussvig01.json",
+      "href": "./items/10.7916-d8pk1t3r.json",
       "type": "application/geo+json",
-      "title": "U.S. Social Vulnerability Index Grids, Revision 01"
+      "title": "Landsat-Derived Estimates of Mangrove Extents in the Sierra Leone Coastal Landscape Complex during 1990–2016"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-hswp-my53.json",
+      "type": "application/geo+json",
+      "title": "Social vulnerability to floods in two coastal megacities: New York City and Mumbai"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8kd1x91.json",
+      "type": "application/geo+json",
+      "title": "Trace metal dynamics in the sediments of a constructed and natural urban tidal marsh: The role of iron, sulfide, and organic complexation"
     }
   ]
 }

@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8r49phn",
+  "collection": "ciesin-sedac-health",
+  "geometry": null,
+  "properties": {
+    "title": "Malaria Stratification, Climate, and Epidemic Early Warning in Eritrea",
+    "description": "Eritrea has a successful malaria control program, but it is still susceptible to devastating malaria epidemics. Monthly data on clinical malaria cases from 242 health facilities in 58 subzobas (districts) of Eritrea from 1996 to 2003 were used in a novel stratification process using principal component analysis and nonhierarchical clustering to define five areas with distinct malaria intensity and seasonality patterns, to guide future interventions and development of an epidemic early warning system. Relationships between monthly clinical malaria incidence by subzoba and monthly climate data from several sources, and with seasonal climate forecasts, were investigated. Remotely sensed climate data were averaged over the same subzoba geographic administrative units as the malaria cases. Although correlation was good between malaria anomalies and actual rainfall from ground stations (lagged by 2 months), the stations did not have sufficiently even coverage to be widely useful. Satellite derived rainfall from the Climate Prediction Center Merged Analysis of Precipitation was correlated with malaria incidence anomalies, with a lead time of 2–3 months. NDVI anomalies were highly correlated with malaria incidence anomalies, particularly in the semi-arid north of the country and along the northern Red Sea coast, which is a highly epidemic-prone area. Eritrea has 2 distinct rainy seasons in different parts of the country. The seasonal forecasting skill from Global Circulation Models for the June/July/August season was low except for the Eastern border. For the coastal October/November/December season, forecasting skill was good only during the 1997–1998 El Niño event. For epidemic control, shorter-range warning based on remotely sensed rainfall estimates and an enhanced epidemic early-detection system based on data derived for this study are needed.",
+    "license": "other",
+    "keywords": [
+      "Health"
+    ],
+    "providers": [
+      {
+        "name": "International Research Institute for Climate and Society",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8r49phn",
+    "ciesin:resource_type": "article",
+    "ciesin:category": "Health",
+    "ciesin:tags": [
+      "Health"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8r49phn"
+    ],
+    "ciesin:authors": [
+      "Ceccato, Pietro N.",
+      "Ghebremeskel, Tewolde",
+      "Jaiteh, Malanding S.",
+      "Graves, Patricia M.",
+      "Levy, Marc A.",
+      "Ghebreselassie, Shashu",
+      "Ogbamariam, Andom",
+      "Barnston, Anthony G.",
+      "Bell, Michael A.",
+      "del Corral, John C.",
+      "Connor, Stephen J.",
+      "Fesseha, Issac",
+      "Brantly, Eugene P.",
+      "Thomson, Madeleine C."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8R49PHN",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8QC0F4H/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8r49phn.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8r49phn",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8r49phn": {
+      "href": "https://doi.org/10.7916/d8r49phn",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8r49phn",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8r49phn",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8QC0F4H/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/D8QC0F4H/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

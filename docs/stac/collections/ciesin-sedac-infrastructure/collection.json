@@ -1,32 +1,27 @@
 {
   "type": "Collection",
   "stac_version": "1.1.0",
-  "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
-    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
-  ],
+  "stac_extensions": [],
   "id": "ciesin-sedac-infrastructure",
   "title": "CIESIN SEDAC - Infrastructure",
-  "description": "CIESIN SEDAC datasets categorized as Infrastructure.",
+  "description": "CIESIN datasets categorized as Infrastructure.",
   "license": "other",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -203085.754424,
-          -1733004.800696,
-          3123206.053124,
-          1544176.523214
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "1996-09-30T00:00:00Z",
-          "2026-01-09T00:00:00Z"
+          "1765-01-01T00:00:00Z",
+          "2030-12-31T00:00:00Z"
         ]
       ]
     }
@@ -44,57 +39,99 @@
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-cd-maps-bibdb.json",
+      "href": "./items/10.7927-h4zw1hvd.json",
       "type": "application/geo+json",
       "title": "China Dimensions Data Collection: China Maps Bibliographic Database"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-cd-fundgis.json",
-      "type": "application/geo+json",
-      "title": "China Dimensions Data Collection: Fundamental GIS: Digital Chart of China, 1:1M, Version 1"
-    },
-    {
-      "rel": "item",
-      "href": "./items/ciesin-sedac-uspat-desluis.json",
+      "href": "./items/10.7927-h43t9f56.json",
       "type": "application/geo+json",
       "title": "Dar es Salaam Land Use and Informal Settlement Data Set"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-ulandsat-hbase-v1.json",
+      "href": "./items/10.7927-h4dn434s.json",
       "type": "application/geo+json",
       "title": "Global Human Built-up And Settlement Extent (HBASE) Dataset From Landsat"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-ulandsat-gmis-v1.json",
+      "href": "./items/10.7927-h4p55kkf.json",
       "type": "application/geo+json",
       "title": "Global Man-made Impervious Surface (GMIS) Dataset From Landsat"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-grandv1-dams.json",
+      "href": "./items/10.7927-h4n877qk.json",
       "type": "application/geo+json",
       "title": "Global Reservoir and Dam Database, Version 1 (GRanDv1): Dams, Revision 01"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-uspat-guppd-v1.json",
+      "href": "./items/10.7927-brq1-xc29.json",
       "type": "application/geo+json",
       "title": "Global Urban Polygons and Points Dataset (GUPPD), Version 1"
     },
     {
       "rel": "item",
-      "href": "./items/grid3-cod---health-facilities-v8.0.json",
+      "href": "./items/10.7916-yran-5481.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Facilities v1.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-ccv9-hp02.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Facilities v2.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-1c3h-tc02.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Facilities v3.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-szwf-gb16.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Facilities v4.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-4d04-3s41.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Facilities v5.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-jsq1-py89.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Facilities v6.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-sh27-rp38.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Health Facilities v7.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-f1ft-y872.json",
       "type": "application/geo+json",
       "title": "GRID3 COD - Health Facilities v8.0"
     },
     {
       "rel": "item",
-      "href": "./items/grid3-cod---health-facilities-v9.0.json",
+      "href": "./items/10.7916-k9sy-hc13.json",
       "type": "application/geo+json",
       "title": "GRID3 COD - Health Facilities v9.0"
+    },
+    {
+      "rel": "item",
+      "href": "./items/grid3-cod---ituri---geospatial-data-layers.json",
+      "type": "application/geo+json",
+      "title": "GRID3 COD - Ituri - Geospatial Data Layers"
     },
     {
       "rel": "item",
@@ -104,79 +141,121 @@
     },
     {
       "rel": "item",
-      "href": "./items/grid3-cod---religious-centers-v1.0.json",
+      "href": "./items/10.7916-hesc-8041.json",
       "type": "application/geo+json",
       "title": "GRID3 COD - Religious Centers v1.0"
     },
     {
       "rel": "item",
-      "href": "./items/grid3-cod---roads-v1.0.json",
+      "href": "./items/10.7916-00gb-e164.json",
       "type": "application/geo+json",
       "title": "GRID3 COD - Roads v1.0"
     },
     {
       "rel": "item",
-      "href": "./items/grid3-cod---schools-v1.0.json",
+      "href": "./items/10.7916-5ngz-fr94.json",
       "type": "application/geo+json",
       "title": "GRID3 COD - Schools v1.0"
     },
     {
       "rel": "item",
-      "href": "./items/grid3-cod---travel-time-friction-surface-v1.0.json",
+      "href": "./items/10.7916-11yp-gs23.json",
       "type": "application/geo+json",
       "title": "GRID3 COD - Travel Time Friction Surface v1.0"
     },
     {
       "rel": "item",
-      "href": "./items/grid3-cod-ituri-geospatial-data-layers.json",
+      "href": "./items/10.7916-d8-qmyy-n440.json",
       "type": "application/geo+json",
-      "title": "GRID3 COD – Ituri – Geospatial Data Layers"
+      "title": "GRID3 DRC Haut-Lomami and Tanganyika Health Facilities, Version 01"
     },
     {
       "rel": "item",
-      "href": "./items/grid3-nga---health-facilities-v2.0.json",
+      "href": "./items/10.7916-d8-tnx3-8z95.json",
+      "type": "application/geo+json",
+      "title": "GRID3 DRC Haut-Lomami and Tanganyika Health Facilities, Version 01 (Beta)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-0bvp-kp75.json",
+      "type": "application/geo+json",
+      "title": "GRID3 DRC Health Facilities - Haut-Katanga, Kasaï, Kasaï-Oriental, Kinshasa, and Lomami Provinces, Version 01"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-z4vq-h095.json",
+      "type": "application/geo+json",
+      "title": "GRID3 DRC Religious Centers - Haut-Katanga, Kasaï, Kasaï-Oriental, Kinshasa, and Lomami Provinces, Version 01"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-a3d6-m921.json",
+      "type": "application/geo+json",
+      "title": "GRID3 DRC Schools - Haut-Katanga, Kasaï, Kasaï-Oriental, Kinshasa, and Lomami Provinces, Version 01"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-kv1n-0743.json",
       "type": "application/geo+json",
       "title": "GRID3 NGA - Health Facilities v2.0"
     },
     {
       "rel": "item",
-      "href": "./items/grid3-nga---health-facilities-v3.0.json",
+      "href": "./items/10.7916-s6cq-1q98.json",
       "type": "application/geo+json",
       "title": "GRID3 NGA - Health Facilities v3.0"
     },
     {
       "rel": "item",
-      "href": "./items/grid3-nga---roads-v1.0.json",
+      "href": "./items/10.7916-b42r-6w17.json",
       "type": "application/geo+json",
       "title": "GRID3 NGA - Roads v1.0"
     },
     {
       "rel": "item",
-      "href": "./items/grid3-nga---travel-time-friction-surface-v1.0-mix-travel-time.json",
+      "href": "./items/10.7916-tw5k-ys98.json",
       "type": "application/geo+json",
-      "title": "GRID3 NGA - Travel Time Friction Surface v1.0 : Mix Travel Time"
+      "title": "GRID3 NGA - Travel Time Friction Surface v1.0"
     },
     {
       "rel": "item",
-      "href": "./items/sierra-leone-national-health-facilities-dataset-version-01.json",
+      "href": "./items/10.7916-ag19-s334.json",
       "type": "application/geo+json",
-      "title": "Sierra Leone National Health Facilities Dataset Version 01"
+      "title": "GRID3 SLE - Health Facilities v1.0"
     },
     {
       "rel": "item",
-      "href": "./items/u-s-census-grids-demographic-and-housing-characteristics-file-dhc-2020.json",
+      "href": "./items/10.7916-d8-xksb-0t02.json",
+      "type": "application/geo+json",
+      "title": "GRID3 Zambia Operational Health Facility Layer, Version 01 (Beta)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-5yy1-7m23.json",
+      "type": "application/geo+json",
+      "title": "GRID3 Zambia Operational School Points and Names, Version 01 (Beta)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-eznv-2a42.json",
+      "type": "application/geo+json",
+      "title": "Mapping Health Facilities"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7927-yxxc-jv91.json",
       "type": "application/geo+json",
       "title": "U.S. Census Grids Demographic and Housing Characteristics File (DHC), 2020"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-wacvm-jrcma.json",
+      "href": "./items/10.7927-h4w95738.json",
       "type": "application/geo+json",
       "title": "West Africa Coastal Vulnerability Mapping: Subset of JRC Map of Accessibility"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-wacvm-osm-roads.json",
+      "href": "./items/10.7927-h4ms3qp8.json",
       "type": "application/geo+json",
       "title": "West Africa Coastal Vulnerability Mapping: Subset of OpenStreetMap (OSM) Roads"
     }

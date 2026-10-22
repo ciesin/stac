@@ -1,0 +1,413 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-cx02-2587",
+  "collection": "ciesin-sedac-agriculture",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -105.27,
+          -26.87
+        ],
+        [
+          75.69,
+          -26.87
+        ],
+        [
+          75.69,
+          38.5
+        ],
+        [
+          -105.27,
+          38.5
+        ],
+        [
+          -105.27,
+          -26.87
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Food Insecurity Hotspots Data Set",
+    "description": "The Food Insecurity Hotspots Data Set consists of grids at 250 meter (~7.2 arc-seconds) resolution that identify the level of intensity and frequency of food insecurity over the 10 years between 2009 and 2019, as well as hotspot areas that have experienced consecutive food insecurity events. The gridded data are based on subnational food security analysis provided by FEWS NET (Famine Early Warning Systems Network) in five (5) regions, including Central America and the Caribbean, Central Asia, East Africa, Southern Africa, and West Africa. Based on the Integrated Food Security Phase Classification (IPC), food insecurity is defined as Minimal, Stressed, Crisis, Emergency, and Famine.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Agriculture",
+      "Climate",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ECONOMIC RESOURCES > AGRICULTURE PRODUCTION",
+      "Farming",
+      "Global",
+      "Governance",
+      "Hazards",
+      "Health",
+      "Poverty",
+      "Society",
+      "Sustainability",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/CX02-2587",
+    "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University. 2020-07-27. Food Insecurity Hotspots Data Set. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": [
+      "Agriculture",
+      "Climate",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ECONOMIC RESOURCES > AGRICULTURE PRODUCTION",
+      "Farming",
+      "Global",
+      "Governance",
+      "Hazards",
+      "Health",
+      "Poverty",
+      "Society",
+      "Sustainability",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/CX02-2587",
+      "10.7910/DVN/ZLAH3H"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide gridded data that identify the level of intensity and frequency of food insecurity over the 10 years between 2009 and 2019, as well as hotspot areas that have experienced consecutive food insecurity events, based on FEWS NET Food Security Data.",
+    "ciesin:publication_date": "2020-07-27T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/cx02-2587",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FZLAH3H",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540931346-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "food-food-insecurity-hotspots.xml",
+    "datetime": null,
+    "start_datetime": "2009-01-01T00:00:00Z",
+    "end_datetime": "2019-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2009-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2019-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-cx02-2587.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/CX02-2587",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/ZLAH3H",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "cx02-2587": {
+      "href": "https://doi.org/10.7927/CX02-2587",
+      "type": "text/html",
+      "title": "DOI 10.7927/CX02-2587",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/CX02-2587",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "zlah3h": {
+      "href": "https://doi.org/10.7910/DVN/ZLAH3H",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/ZLAH3H",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/ZLAH3H",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FZLAH3H",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/ZLAH3H",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715786": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715786",
+      "type": "application/zip",
+      "title": "food-food-insecurity-hotspots-duration-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 29828673,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715786",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715789": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715789",
+      "type": "application/zip",
+      "title": "food-food-insecurity-hotspots-duration-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 23778040,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715789",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715788": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715788",
+      "type": "application/zip",
+      "title": "food-food-insecurity-hotspots-frequency-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16221507,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715788",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715783": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715783",
+      "type": "application/zip",
+      "title": "food-food-insecurity-hotspots-frequency-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14410571,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715783",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715784": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715784",
+      "type": "application/zip",
+      "title": "food-food-insecurity-hotspots-inputs-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 74983252,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715784",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715782": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715782",
+      "type": "application/zipped-shapefile",
+      "title": "food-food-insecurity-hotspots-inputs-geographic-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 361395442,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715782",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715781": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715781",
+      "type": "application/zip",
+      "title": "food-food-insecurity-hotspots-inputs-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 65877680,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715781",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715787": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715787",
+      "type": "application/zipped-shapefile",
+      "title": "food-food-insecurity-hotspots-inputs-mollweide-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 406755734,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715787",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715785": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715785",
+      "type": "application/octet-stream",
+      "title": "food-food-insecurity-hotspots-statistics-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16565523,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715785",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715780": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11715780",
+      "type": "application/octet-stream",
+      "title": "food-food-insecurity-hotspots-statistics-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14890473,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11715780",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14171158": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14171158",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10675,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14171158",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540931346-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540931346-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/CX02-2587",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "food-food-insecurity-hotspots-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/food-food-insecurity-hotspots-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/CX02-2587",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540931346-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/CX02-2587",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "food-food-insecurity-hotspots-average-phase-class-global-2009-2019-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/food/food-food-insecurity-hotspots/food-food-insecurity-hotspots-average-phase-class-global-2009-2019-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "food-food-insecurity-hotspots-average-phase-class-global-2009-2019-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/food-food-insecurity-hotspots/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/food-food-insecurity-hotspots/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "4.0": {
+      "href": "https://creativecommons.org/licenses/by/4.0",
+      "type": "text/html",
+      "title": "4.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -105.27,
+    -26.87,
+    75.69,
+    38.5
+  ]
+}

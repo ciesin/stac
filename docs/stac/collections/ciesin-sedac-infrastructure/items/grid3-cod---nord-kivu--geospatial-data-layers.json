@@ -1,12 +1,7 @@
 {
   "type": "Feature",
   "stac_version": "1.1.0",
-  "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
-    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
-  ],
+  "stac_extensions": [],
   "id": "grid3-cod---nord-kivu--geospatial-data-layers",
   "collection": "ciesin-sedac-infrastructure",
   "geometry": null,
@@ -14,92 +9,35 @@
     "title": "GRID3 COD - Nord-Kivu- Geospatial Data Layers",
     "license": "other",
     "keywords": [
-      "GRID3",
       "Infrastructure"
     ],
-    "sci:doi": "https://data.grid3.org/maps/db0a8182a6c14e5e8980f8e0dab48118/about",
     "ciesin:category": "Infrastructure",
-    "ciesin:tags": "GRID3",
-    "ciesin:sedac_doi": "https://data.grid3.org/maps/db0a8182a6c14e5e8980f8e0dab48118/about",
-    "ciesin:field_count": 0,
-    "ciesin:item_status": "include_with_reviewed_gaps: missing_xml; missing_data_links; missing_bbox",
-    "ciesin:xml_found": "no",
-    "ciesin:xml_path": "D:\\codex\\inputs\\xmls\\GRID3 COD – Nord-Kivu – Geospatial Data Layers",
-    "datetime": null
+    "ciesin:tags": [
+      "Infrastructure"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:publication_date": null,
+    "ciesin:inventory_xml_location": "GRID3 COD – Nord-Kivu – Geospatial Data Layers",
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
   },
   "links": [
-    {
-      "rel": "cite-as",
-      "href": "https://doi.org/https://data.grid3.org/maps/db0a8182a6c14e5e8980f8e0dab48118/about",
-      "type": "text/html"
-    },
     {
       "rel": "self",
       "href": "./grid3-cod---nord-kivu--geospatial-data-layers.json",
       "type": "application/geo+json"
     },
     {
-      "rel": "collection",
-      "href": "../collection.json",
-      "type": "application/json"
-    },
-    {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
     }
   ],
-  "assets": {
-    "sedac-ac-doi": {
-      "href": "https://doi.org/https://data.grid3.org/maps/db0a8182a6c14e5e8980f8e0dab48118/about",
-      "type": "text/html",
-      "title": "SEDAC or Academic Commons DOI landing page",
-      "description": "Dataset-level DOI landing page for GRID3 COD - Nord-Kivu- Geospatial Data Layers.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "sedac_or_ac_doi",
-      "ciesin:asset_match_status": "matched_to_main_item",
-      "ciesin:sedac_doi": "https://data.grid3.org/maps/db0a8182a6c14e5e8980f8e0dab48118/about",
-      "ciesin:ac_doi": "https://data.grid3.org/maps/db0a8182a6c14e5e8980f8e0dab48118/about",
-      "ciesin:source_relation_type": "link",
-      "ciesin:source_relation_subtype": "sedac_or_ac_doi"
-    },
-    "view-1": {
-      "href": "https://drive.google.com/file/d/1H0GTuIXdw6_kbWGW13Q7ZFwJE_5FUlYw/view?usp=drive_link",
-      "type": "application/octet-stream",
-      "title": "GRID3 COD - Nord-Kivu - Geospatial Data Layers ReadMe",
-      "description": "GRID3 COD - Nord-Kivu - Geospatial Data Layers ReadMe",
-      "roles": [
-        "data"
-      ],
-      "file:size": 355467,
-      "ciesin:source": "grid3_academic_commons",
-      "ciesin:asset_match_status": "matched_to_main_item",
-      "ciesin:sedac_doi": "HTTPS://DATA.GRID3.ORG/MAPS/DB0A8182A6C14E5E8980F8E0DAB48118/ABOUT",
-      "ciesin:ac_doi": "HTTPS://DATA.GRID3.ORG/MAPS/DB0A8182A6C14E5E8980F8E0DAB48118/ABOUT",
-      "ciesin:metadata_href": "https://drive.google.com/file/d/1qowHGwXWtnvxPk4xofWYk1k57DTbiOJU/view?usp=drive_link",
-      "ciesin:source_file_id": "1",
-      "ciesin:source_relation_type": "file",
-      "ciesin:source_relation_subtype": "academic_commons_download"
-    },
-    "about-2": {
-      "href": "https://data.grid3.org/maps/db0a8182a6c14e5e8980f8e0dab48118/about",
-      "type": "application/octet-stream",
-      "title": "GRID3_COD_NK_geospatial_data_layers.gpkg",
-      "description": "GRID3_COD_NK_geospatial_data_layers.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 18874368,
-      "ciesin:source": "grid3_academic_commons",
-      "ciesin:asset_match_status": "matched_to_main_item",
-      "ciesin:sedac_doi": "HTTPS://DATA.GRID3.ORG/MAPS/DB0A8182A6C14E5E8980F8E0DAB48118/ABOUT",
-      "ciesin:ac_doi": "HTTPS://DATA.GRID3.ORG/MAPS/DB0A8182A6C14E5E8980F8E0DAB48118/ABOUT",
-      "ciesin:metadata_href": "https://drive.google.com/file/d/1qowHGwXWtnvxPk4xofWYk1k57DTbiOJU/view?usp=drive_link",
-      "ciesin:source_file_id": "2",
-      "ciesin:source_relation_type": "file",
-      "ciesin:source_relation_subtype": "academic_commons_download"
-    }
-  }
+  "assets": {}
 }

@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8-hswp-my53",
+  "collection": "ciesin-sedac-marine-and-coastal",
+  "geometry": null,
+  "properties": {
+    "title": "Social vulnerability to floods in two coastal megacities: New York City and Mumbai",
+    "description": "In this paper we assess differential exposure to flooding in two coastal megacities, New York and Mumbai, both of which suffered major flood-related disasters in the past decade. Specifically, we examine whether the most exposed populations are also the most socially vulnerable. First, we developed Social Vulnerability Indices (SoVIs) for each city with census data. We then overlaid the SoVI scores onto flood extent maps for Hurricane Sandy (New York, October 2012) and the Mumbai flash floods (July 2005), as well as for the evacuation zones for New York, to examine patterns of differential exposure. Our results suggest a degree of differential exposure in New York, especially in the highest flood risk areas, and provide fairly clear evidence for differential exposure in Mumbai. However, differences in the input resolution and confidence in the datasets for Mumbai make the results more uncertain. The paper concludes with a discussion of the policy implications and the data needs for urban spatial vulnerability assessments.",
+    "license": "other",
+    "keywords": [
+      "Marine and Coastal"
+    ],
+    "providers": [
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8-hswp-my53",
+    "ciesin:resource_type": "article",
+    "ciesin:category": "Marine and Coastal",
+    "ciesin:tags": [
+      "Marine and Coastal"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8-hswp-my53"
+    ],
+    "ciesin:authors": [
+      "De Sherbinin, Alexander M.",
+      "Bardy, Guillem"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "10.7916/d8-hswp-my53"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8-hswp-my53.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8-hswp-my53",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8-hswp-my53": {
+      "href": "https://doi.org/10.7916/d8-hswp-my53",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8-hswp-my53",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8-hswp-my53",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-av5v-4a04/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/d8-av5v-4a04/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

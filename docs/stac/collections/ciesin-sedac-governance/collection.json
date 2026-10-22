@@ -1,31 +1,26 @@
 {
   "type": "Collection",
   "stac_version": "1.1.0",
-  "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
-    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
-  ],
+  "stac_extensions": [],
   "id": "ciesin-sedac-governance",
   "title": "CIESIN SEDAC - Governance",
-  "description": "CIESIN SEDAC datasets categorized as Governance.",
+  "description": "CIESIN datasets categorized as Governance.",
   "license": "other",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -16.71,
-          1.65,
-          135.0,
-          54.0
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "1997-02-28T00:00:00Z",
+          "1940-10-12T00:00:00Z",
           "2026-07-16T00:00:00Z"
         ]
       ]
@@ -44,21 +39,435 @@
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-cd-agenda21.json",
+      "href": "./items/10.7916-d8057cwm.json",
+      "type": "application/geo+json",
+      "title": "A Comparative Analysis of Scientific Data Publication Opportunities"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-fae5-cz67.json",
+      "type": "application/geo+json",
+      "title": "A Portfolio Approach to a Sustainable Business Model for Scientific Data Stewardship"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8zs2v7w.json",
+      "type": "application/geo+json",
+      "title": "A Proposal on Using Reuse Readiness Levels to Measure Software Reusability"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8p849p6.json",
+      "type": "application/geo+json",
+      "title": "A Scientific Data Center Perspective on Publishing Data"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8765ppd.json",
+      "type": "application/geo+json",
+      "title": "Analyzing Data Citations to Assess the Scientific and Societal Value of Scientific Data"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-67q7-2118.json",
+      "type": "application/geo+json",
+      "title": "Balancing Efficiency and Effectiveness in Data Review Practices"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d861199c.json",
+      "type": "application/geo+json",
+      "title": "Book Review: A Vast Machine: Computer Models, Climate Data, and the Politics of Global Warming"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8j38sdz.json",
+      "type": "application/geo+json",
+      "title": "Bridging Disciplines: Assessing the Interdisciplinary Impact of Open Data"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7927-h4ft8hz2.json",
       "type": "application/geo+json",
       "title": "China Dimensions Data Collection: Priority Programme for China's Agenda 21"
     },
     {
       "rel": "item",
-      "href": "./items/geocoded-cbp-apprehensions-from-central-america-and-mexico-fy-2010-fy-2022.json",
+      "href": "./items/10.7916-d8hq3x7c.json",
+      "type": "application/geo+json",
+      "title": "Citation of Scientific Software"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-bh8v-1p22.json",
+      "type": "application/geo+json",
+      "title": "Collaboration in the Earth Science Data System Working Groups (ESDSWG)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8q52nbc.json",
+      "type": "application/geo+json",
+      "title": "Community Recommendations for Improving Sustainable Scientific Software Practices"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8w09bmq.json",
+      "type": "application/geo+json",
+      "title": "Curation of Scientific Data at Risk of Loss: Data Rescue and Dissemination"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8708098.json",
+      "type": "application/geo+json",
+      "title": "Data Lifecycle Review of Research Data"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8wq01rm.json",
+      "type": "application/geo+json",
+      "title": "Data Publication Options"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-0cty-sm77.json",
+      "type": "application/geo+json",
+      "title": "Data Repositories Discovering Unpublished and Diverse Data Usage and Impact"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8b857q3.json",
+      "type": "application/geo+json",
+      "title": "Data Rescue at a Scientific Data Center"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d82z15n8.json",
+      "type": "application/geo+json",
+      "title": "Designing and Maintaining an EIS Database: Lessons Learned in Developing Library-based Digital Repositories"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8bk1cfr.json",
+      "type": "application/geo+json",
+      "title": "Developing an Online Database of Environmental Impact Statements"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8xp73qm.json",
+      "type": "application/geo+json",
+      "title": "Earth Science Informatics Community Requirements for Improving Sustainable Science Software Practices: User Perspectives and Implications for Organizational Action"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8st7pxg.json",
+      "type": "application/geo+json",
+      "title": "EIS Database Design Considerations"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8rj4jn1.json",
+      "type": "application/geo+json",
+      "title": "EIS Database Technical Considerations: Geospatial"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8kk9bwc.json",
+      "type": "application/geo+json",
+      "title": "EIS User Case Study: Legal Research and Advocacy"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8668c0j.json",
+      "type": "application/geo+json",
+      "title": "Eliciting Knowledge on Science Software Sustainability from the Earth Science Informatics Community"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8r49pj3.json",
+      "type": "application/geo+json",
+      "title": "Enabling Ongoing Access to Data Products and Services When Dependencies are No Longer Supported"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7927-h4dz067z.json",
+      "type": "application/geo+json",
+      "title": "Environmental Treaty Status Data Set, 2012 Release"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8vt1s4r.json",
+      "type": "application/geo+json",
+      "title": "Establishing Trustworthy Repositories of Scientific Data: Opportunities and Benefits"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8ng4nzp.json",
+      "type": "application/geo+json",
+      "title": "Experiences with Implementation of Digital Object Identifiers"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7910-dvn-f5iu1d.json",
       "type": "application/geo+json",
       "title": "Geocoded CBP Apprehensions from Central America and Mexico (FY 2010 - FY 2022)"
     },
     {
       "rel": "item",
-      "href": "./items/ciesin-sedac-wacvm-pglf-200813.json",
+      "href": "./items/10.7916-d8hq47bt.json",
+      "type": "application/geo+json",
+      "title": "Global Infrastructure: The Potential of SRTM Data to Break New Ground"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8cz35gk.json",
+      "type": "application/geo+json",
+      "title": "Implementing Digital Object Identifiers (DOIs) to Foster Attribution for Earth Science Data"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-hhex-vk93.json",
+      "type": "application/geo+json",
+      "title": "Improving Repositories Through Collaboration"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8862dsm.json",
+      "type": "application/geo+json",
+      "title": "Improving the Review of Scientific Data for Public Dissemination"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8ht2xs6.json",
+      "type": "application/geo+json",
+      "title": "Independent Evaluation of a Scientific Data Center for Compliance with the ISO 16363 Requirements for Audit and Certification of Trustworthy Digital Repositories"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-h7xf-ha70.json",
+      "type": "application/geo+json",
+      "title": "International Standards for Trustworthy Data Repositories"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8697g5p.json",
+      "type": "application/geo+json",
+      "title": "Managing Risks to Scientific Data"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-57q4-h516.json",
+      "type": "application/geo+json",
+      "title": "Measuring the Interdisciplinary Impact of Using Geospatial Data with Remote Sensing Data"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8sq97vx.json",
+      "type": "application/geo+json",
+      "title": "Meeting the Next Generation Science Standards with SEDAC Data"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d84m94ph.json",
+      "type": "application/geo+json",
+      "title": "Northwestern University Transportation Library EIS Collection - Our History"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-x7jj-7n86.json",
+      "type": "application/geo+json",
+      "title": "Open for Climate Justice: Conversations with Columbia Climate School Researchers"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-kv81-sv37.json",
+      "type": "application/geo+json",
+      "title": "Opportunities for Sharing Resources Among Research Data Repositories"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8qc028r.json",
+      "type": "application/geo+json",
+      "title": "Organizational needs for managing and preserving geospatial data and related electronic records"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8sb43sp.json",
+      "type": "application/geo+json",
+      "title": "Policy Recommendations for Institutions to Serve as Trustworthy Stewards of Research Data"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d88w3c5d.json",
+      "type": "application/geo+json",
+      "title": "Preparing a Trustworthy Domain Repository for ISO 16363 Certification"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8x065cp.json",
+      "type": "application/geo+json",
+      "title": "Professional Development for an Evolving Earth Science Workforce"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-7z8b-9375.json",
+      "type": "application/geo+json",
+      "title": "Pursuing Opportunities to Balance Efficiency and Effectiveness in Data Review Practices"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-6ffg-jv56.json",
+      "type": "application/geo+json",
+      "title": "Repository Management of Data Peer Review"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8dn432z.json",
+      "type": "application/geo+json",
+      "title": "Scientific Data Infrastructure: Research Opportunities and Challenges"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-szky-3127.json",
+      "type": "application/geo+json",
+      "title": "Scientific Use and Impact of Socioeconomic Data across Disciplines"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-051c-y379.json",
+      "type": "application/geo+json",
+      "title": "Selecting Research Data Repository Platforms for Open Science"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-dwqr-0e88.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa 2024 Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 2, R0 Requirement"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-vw87-n336.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa 2024 Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 3, R01 Requirement"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-v8fg-ex07.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa 2024 Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 4, R02 Requirement"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-pghj-qs26.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa 2024 Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 5, R03 Requirement"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-4h3w-3s26.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa 2024 Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 7, R05 Requirement"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-4ckh-d907.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa 2024 Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 8, R06 Requirement"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-tq0v-xk94.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa 2024 Training Program on Data Stewardship and the CoreTrustSealRequirements: Session 6, R04 Requirement"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-503m-4643.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa 2025 Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 2, R09, R10 & R11 Requirements"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-qx1v-q849.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 1"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-6gnj-8s34.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 1, Motivation and R0 Requirement"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-8w2m-vr54.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 1, R07 & R08 Requirements"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-ekrv-xc53.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 2"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8-hqtz-r460.json",
+      "type": "application/geo+json",
+      "title": "SERVIR West Africa Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 3"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7927-h4251g48.json",
+      "type": "application/geo+json",
+      "title": "Socioeconomic Data and Applications Center (SEDAC) Collection of Treaty Texts"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-n98w-tf13.json",
+      "type": "application/geo+json",
+      "title": "Successes and Challenges in Meeting Data Repository Certification Requirements"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-pcx9-q048.json",
+      "type": "application/geo+json",
+      "title": "Things Fall Apart: Lessons from a Defunded Data Repository"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8jh3x65.json",
+      "type": "application/geo+json",
+      "title": "Toward Implementation of the Global Earth Observation System of Systems Data Sharing Principles"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8kk9btg.json",
+      "type": "application/geo+json",
+      "title": "Towards Sustainable Stewardship of Digital Collections of Scientific Data"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8xs5vgv.json",
+      "type": "application/geo+json",
+      "title": "Use Cases for EIS Databases"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8668d90.json",
+      "type": "application/geo+json",
+      "title": "Using EIAs in our Research"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7927-h4f769h4.json",
       "type": "application/geo+json",
       "title": "West Africa Coastal Vulnerability Mapping: Point and Gridded Locations of Fatalities, 2008-2013"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8hx19rz.json",
+      "type": "application/geo+json",
+      "title": "Workflow for Evaluating SEDAC Data for Dissemination"
     }
   ]
 }

@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-4h3w-3s26",
+  "collection": "ciesin-sedac-governance",
+  "geometry": null,
+  "properties": {
+    "title": "SERVIR West Africa 2024 Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 7, R05 Requirement",
+    "description": "Documenting the governance of the data repository and the resources that are available for the data repository to operate improves transparency and contributes to the designated community's understanding of the data repository and how it is managed to meet their needs. Informing the community about the leadership and decision-making structure also contributes to such transparency and understanding. Providing information about the sources of financial support and their duration as well providing information about the leadership of the repository and its relationship to the host organization provides details to increase understanding about the repository's capabilities. Likewise, describing the number of staff members and their roles offers insight into the kinds of human resources available to serve the community.",
+    "license": "other",
+    "keywords": [
+      "Governance"
+    ],
+    "providers": [
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/4h3w-3s26",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/4h3w-3s26"
+    ],
+    "ciesin:authors": [
+      "Downs, Robert R."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "10.7916/4h3w-3s26"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-4h3w-3s26.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/4h3w-3s26",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "4h3w-3s26": {
+      "href": "https://doi.org/10.7916/4h3w-3s26",
+      "type": "text/html",
+      "title": "DOI 10.7916/4h3w-3s26",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/4h3w-3s26",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/y78m-9m09/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/y78m-9m09/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

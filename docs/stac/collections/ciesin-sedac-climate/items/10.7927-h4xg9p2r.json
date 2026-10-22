@@ -1,0 +1,663 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4xg9p2r",
+  "collection": "ciesin-sedac-climate",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -55.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Synthetic Assessment of Global Distribution of Vulnerability to Climate Change: Maps and Data, 2005, 2050, and 2100",
+    "description": "The Synthetic Assessment of Global Distribution of Vulnerability to Climate Change: Maps and Data, 2005, 2050, and 2100 data set consist of maps and vulnerability index to climate change of 100 countries based on the Vulnerability-Resilience Indicator Model (VRIM), which not only presents sensitivity to climate change stresses but allows the division of indicators into components that reflects sensitivity and adaptive capacity. It was produced in collaboration with the Wesleyan University, Joint Global Change Research Institute, University of Illinois and the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "license": "None | The Wesleyan University (WU), Joint Global Change Research Insitute (JGCRI), University of Illinois (UI) and the Trustees of Columbia University hold the copyright of this data set. Users are prohibited from any commercial sale or free redistribution without explicit written permission from the WU, JGCR, URI or CIESIN. Users should acknowledge the WU, JGCR, URI and CIESIN as the source used in the creation of any reports, publications, new data sets, derived products, or services resulting from the use of this data set. WU, CIESIN, JGCR, URI and CIESIN also request reprints of any publications and notification of any redistributing efforts.",
+    "keywords": [
+      "Bangladesh",
+      "Belarus",
+      "Belgium",
+      "Benin",
+      "Bolivia",
+      "Brazil",
+      "Bulgaria",
+      "Cambodia",
+      "Cameroon",
+      "Canada",
+      "Chad",
+      "Chile",
+      "China",
+      "Climate",
+      "Climatology/Meteorology/Atmosphere",
+      "Colombia",
+      "Congo",
+      "Costa Rica",
+      "Cote D'Ivoire",
+      "Country",
+      "Cuba",
+      "Denmark",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ENVIRONMENTAL GOVERNANCE/MANAGEMENT > ENVIRONMENTAL ASSESSMENTS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIAL BEHAVIOR > VULNERABILITY LEVELS/INDEX",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SUSTAINABILITY > ENVIRONMENTAL SUSTAINABILITY",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Environment",
+      "Ethiopia",
+      "Finland",
+      "France",
+      "Gabon",
+      "Georgia",
+      "Germany",
+      "Ghana",
+      "Global",
+      "Governance",
+      "Greece",
+      "Guatemala",
+      "Haiti",
+      "Honduras",
+      "Hungary",
+      "Iceland",
+      "India",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Jamaica",
+      "Japan",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kuwait",
+      "Kyrgyzstan",
+      "Lebanon",
+      "Libya",
+      "Madagascar",
+      "Malaysia",
+      "Mali",
+      "Mauritius",
+      "Mexico",
+      "Morocco",
+      "Mozambique",
+      "Namibia",
+      "Nepal",
+      "Netherlands",
+      "New Zealand",
+      "Nicaragua",
+      "Niger",
+      "Nigeria",
+      "Norway",
+      "Pakistan",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "Saudi Arabia",
+      "Senegal",
+      "Sierra Leone",
+      "Somalia",
+      "South Africa",
+      "Spain",
+      "Sri Lanka",
+      "Sudan",
+      "Sustainability",
+      "Swaziland",
+      "Sweden",
+      "Switzerland",
+      "Syria",
+      "Thailand",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Uganda",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Uruguay",
+      "Venezuela",
+      "Vietnam",
+      "Yemen",
+      "Zambia",
+      "Zimbabwe",
+      "Earth and Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4XG9P2R",
+    "sci:citation": "Yohe, G., E. Malone, A. Brenkert, M. Schlesinger, H. Meij, X. Xing, and D. Lee. 2006-12-31. Synthetic Assessment of Global Distribution of Vulnerability to Climate Change: Maps and Data, 2005, 2050, and 2100. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Climate",
+    "ciesin:tags": [
+      "Bangladesh",
+      "Belarus",
+      "Belgium",
+      "Benin",
+      "Bolivia",
+      "Brazil",
+      "Bulgaria",
+      "Cambodia",
+      "Cameroon",
+      "Canada",
+      "Chad",
+      "Chile",
+      "China",
+      "Climate",
+      "Climatology/Meteorology/Atmosphere",
+      "Colombia",
+      "Congo",
+      "Costa Rica",
+      "Cote D'Ivoire",
+      "Country",
+      "Cuba",
+      "Denmark",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > ENVIRONMENTAL GOVERNANCE/MANAGEMENT > ENVIRONMENTAL ASSESSMENTS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SOCIAL BEHAVIOR > VULNERABILITY LEVELS/INDEX",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > SUSTAINABILITY > ENVIRONMENTAL SUSTAINABILITY",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Environment",
+      "Ethiopia",
+      "Finland",
+      "France",
+      "Gabon",
+      "Georgia",
+      "Germany",
+      "Ghana",
+      "Global",
+      "Governance",
+      "Greece",
+      "Guatemala",
+      "Haiti",
+      "Honduras",
+      "Hungary",
+      "Iceland",
+      "India",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Jamaica",
+      "Japan",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kuwait",
+      "Kyrgyzstan",
+      "Lebanon",
+      "Libya",
+      "Madagascar",
+      "Malaysia",
+      "Mali",
+      "Mauritius",
+      "Mexico",
+      "Morocco",
+      "Mozambique",
+      "Namibia",
+      "Nepal",
+      "Netherlands",
+      "New Zealand",
+      "Nicaragua",
+      "Niger",
+      "Nigeria",
+      "Norway",
+      "Pakistan",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "Saudi Arabia",
+      "Senegal",
+      "Sierra Leone",
+      "Somalia",
+      "South Africa",
+      "Spain",
+      "Sri Lanka",
+      "Sudan",
+      "Sustainability",
+      "Swaziland",
+      "Sweden",
+      "Switzerland",
+      "Syria",
+      "Thailand",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Uganda",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Uruguay",
+      "Venezuela",
+      "Vietnam",
+      "Yemen",
+      "Zambia",
+      "Zimbabwe",
+      "Earth and Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/H4XG9P2R",
+      "10.7910/DVN/FZTKLH"
+    ],
+    "ciesin:authors": [
+      "Yohe, G., E. Malone, A. Brenkert, M. Schlesinger, H. Meij, X. Xing, and D. Lee"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]"
+    ],
+    "ciesin:place": [
+      "Global",
+      "Bangladesh",
+      "Belarus",
+      "Belgium",
+      "Benin",
+      "Bolivia",
+      "Brazil",
+      "Bulgaria",
+      "Cambodia",
+      "Cameroon",
+      "Canada",
+      "Chad",
+      "Chile",
+      "China",
+      "Colombia",
+      "Costa Rica",
+      "Cote D'Ivoire",
+      "Cuba",
+      "Denmark",
+      "Dominican Republic",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Ethiopia",
+      "Finland",
+      "France",
+      "Gabon",
+      "Georgia",
+      "Germany",
+      "Ghana",
+      "Greece",
+      "Guatemala",
+      "Haiti",
+      "Honduras",
+      "Hungary",
+      "Iceland",
+      "India",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Jamaica",
+      "Japan",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kuwait",
+      "Kyrgyzstan",
+      "Lebanon",
+      "Libya",
+      "Madagascar",
+      "Malaysia",
+      "Mali",
+      "Mauritius",
+      "Mexico",
+      "Morocco",
+      "Mozambique",
+      "Namibia",
+      "Nepal",
+      "Netherlands",
+      "New Zealand",
+      "Nicaragua",
+      "Niger",
+      "Nigeria",
+      "Norway",
+      "Pakistan",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Congo",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "Saudi Arabia",
+      "Senegal",
+      "Sierra Leone",
+      "Somalia",
+      "South Africa",
+      "Spain",
+      "Sri Lanka",
+      "Sudan",
+      "Swaziland",
+      "Sweden",
+      "Switzerland",
+      "Syria",
+      "Thailand",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Uganda",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Uruguay",
+      "Venezuela",
+      "Vietnam",
+      "Yemen",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "ciesin:purpose": "To provide geographical portraits of vulnerability designed to incorporate both exposure to climate change and national capacities to adapt.",
+    "ciesin:publication_date": "2006-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4XG9P2R",
+      "https://doi.org/10.7927/H4N29TWJ",
+      "https://doi.org/10.7927/H4RV0KMH",
+      "https://doi.org/10.7927/H4HD7SKJ",
+      "https://doi.org/10.7927/H41C1TT4",
+      "https://doi.org/10.7927/H4WM1BB7",
+      "https://doi.org/10.7927/H4542KJV",
+      "https://doi.org/10.7927/H4FT8J0X",
+      "https://doi.org/10.1017/CBO9781107415379.023",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FFZTKLH"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse"
+    ],
+    "ciesin:inventory_xml_location": "ipcc-synthetic-vulnerability-climate-2005-2050-2100.xml",
+    "datetime": null,
+    "start_datetime": "2005-01-01T00:00:00Z",
+    "end_datetime": "2005-01-01T00:00:00Z",
+    "ciesin:temporal_start": "2005-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2005-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4xg9p2r.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4XG9P2R",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/FZTKLH",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4xg9p2r": {
+      "href": "https://doi.org/10.7927/H4XG9P2R",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4XG9P2R",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H4XG9P2R",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "fztklh": {
+      "href": "https://doi.org/10.7910/DVN/FZTKLH",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/FZTKLH",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/FZTKLH",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FFZTKLH",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/FZTKLH",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14200168": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/14200168",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14829,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14200168",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835848": {
+      "href": "https://dataverse.harvard.edu/api/access/datafile/11835848",
+      "type": "application/pdf",
+      "title": "sagdreport.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13160192,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835848",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "239": {
+      "href": "http://journals.sfu.ca/int_assess/index.php/iaj/article/download/239/",
+      "type": "text/html",
+      "title": "239",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "a2-550-low-temp-aggregate-impacts-2050-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ipcc/ipcc-synthetic-vulnerability-climate-2005-2050-2100/a2-550-low-temp-aggregate-impacts-2050-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "a2-550-low-temp-aggregate-impacts-2050-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ipcc-synthetic-vulnerability-climate-2005-2050-2100/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ipcc-synthetic-vulnerability-climate-2005-2050-2100/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ipcc-synthetic-vulnerability-climate-2005-2050-2100/maps/services",
+      "type": "text/html",
+      "title": "services",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4n29twj": {
+      "href": "https://doi.org/10.7927/H4N29TWJ",
+      "type": "text/html",
+      "title": "H4N29TWJ",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4rv0kmh": {
+      "href": "https://doi.org/10.7927/H4RV0KMH",
+      "type": "text/html",
+      "title": "H4RV0KMH",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4hd7skj": {
+      "href": "https://doi.org/10.7927/H4HD7SKJ",
+      "type": "text/html",
+      "title": "H4HD7SKJ",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h41c1tt4": {
+      "href": "https://doi.org/10.7927/H41C1TT4",
+      "type": "text/html",
+      "title": "H41C1TT4",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4wm1bb7": {
+      "href": "https://doi.org/10.7927/H4WM1BB7",
+      "type": "text/html",
+      "title": "H4WM1BB7",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4542kjv": {
+      "href": "https://doi.org/10.7927/H4542KJV",
+      "type": "text/html",
+      "title": "H4542KJV",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4ft8j0x": {
+      "href": "https://doi.org/10.7927/H4FT8J0X",
+      "type": "text/html",
+      "title": "H4FT8J0X",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "cbo9781107415379.023": {
+      "href": "https://doi.org/10.1017/CBO9781107415379.023",
+      "type": "text/html",
+      "title": "CBO9781107415379.023",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -55.0,
+    180.0,
+    90.0
+  ]
+}

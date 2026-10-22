@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8765ppd",
+  "collection": "ciesin-sedac-governance",
+  "geometry": null,
+  "properties": {
+    "title": "Analyzing Data Citations to Assess the Scientific and Societal Value of Scientific Data",
+    "description": "Stakeholders in the creation, distribution, support, funding, and use of scientific data can benefit by assessing the value that the data have for society and science. For decades, the scientific community has used citations of articles in the published scientific literature as one of the primary measures for evaluating the performance and productivity of scientists, departments, institutions, and scientific disciplines. Similarly, citations of scientific data in the published literature may be useful for tracking and comparing the value of the scientific data and the contributions of individuals, projects, programs, and organizations to the data’s development and use. Citation analysis can contribute to planning for future data collection, development, distribution, and preservation efforts. The release of new data citation indexes and more widespread adoption of unique data identifiers and automated attribution mechanisms have the potential to improve significantly the capabilities for analyzing citations of scientific data. In addition, ongoing developments in the systems and capabilities for disseminating data, along with education and workforce training on the importance of data attribution and on techniques for data citation, can improve practices for citing scientific data. Such practices need to lead not only to better aggregate statistics about data citation, but also to improved characterization and understanding of the impact of data use with respect to the benefits for science and society. Analyses of citations in the scientific literature were conducted for data that were distributed by an interdisciplinary scientific data center during a five-year period (1997–2011), to identify the scientific fields represented by the journals and books in which the data were cited. Secondary citation analysis also was conducted for a sample of scientific publications that used the data extensively to identify the potential impact of the data on the scientific fields represented by those journals. Furthermore, an initial analysis was conducted of citations that appeared in non-peer-reviewed publications and the popular media to assess the potential policy and educational impacts of these data. The initial results of these analyses demonstrate the significant challenges that remain for consistent, quantitative assessment of the value of scientific data to both science and society.",
+    "license": "other",
+    "keywords": [
+      "Governance"
+    ],
+    "providers": [
+      {
+        "name": "Libraries and Information Services",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Libraries",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8765ppd",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8765ppd"
+    ],
+    "ciesin:authors": [
+      "Chen, Robert S.",
+      "Downs, Robert R.",
+      "Schumacher, Joachim A."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8765PPD",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8J391V2/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8765ppd.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8765ppd",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8765ppd": {
+      "href": "https://doi.org/10.7916/d8765ppd",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8765ppd",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8765ppd",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8J391V2/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/D8J391V2/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}
