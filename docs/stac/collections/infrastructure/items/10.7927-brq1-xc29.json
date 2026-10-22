@@ -1,0 +1,334 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-brq1-xc29",
+  "collection": "infrastructure",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global Urban Polygons and Points Dataset (GUPPD), Version 1",
+    "description": "The Global Urban Polygons and Points Dataset (GUPPD), Version 1 is a global data set of 123,034 urban settlements with place names and population for the years 1975-2030 in five-year increments. The data set builds on and expands the European Commission, Joint Research Centre's (JRC) 2015 Global Human Settlement (GHS) Urban Centre Database (UCDB). The JRC Settlement Model (GHS-SMOD) data set includes a hierarchy of urban settlements, from urban centre (level 30), to dense urban cluster (level 23), to semi-dense urban cluster (level 22). The UCDB only includes level 30, whereas the GUPPDv1 adds levels 23 and 22, and uses open data sources to both check and validate the names that JRC assigned to its UCDB polygons and to label the newly added settlements. The methodology described in the documentation was able to consistently label a greater percentage of UCDB polygons than were previously labeled by JRC.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided. The data being disseminated is made available under the Open Data Commons Open Database License (ODbL) (https://opendatacommons.org/licenses/odbl), and includes place name data from OpenStreetMap, which retains copyright on their data (https://www.openstreetmap.org/copyright).",
+    "keywords": [
+      "EARTH SCIENCE > HUMAN DIMENSIONS > HUMAN SETTLEMENTS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION > POPULATION SIZE",
+      "Global",
+      "Infrastructure",
+      "Land Use",
+      "Population",
+      "Society",
+      "Urban",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE",
+      "latest"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/BRQ1-XC29",
+    "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University, and Joint Research Centre - JRC - European Commission. 2024-07-10. Global Urban Polygons and Points Dataset (GUPPD), Version 1. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Infrastructure",
+    "ciesin:tags": [
+      "EARTH SCIENCE > HUMAN DIMENSIONS > HUMAN SETTLEMENTS",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION > POPULATION SIZE",
+      "Global",
+      "Infrastructure",
+      "Land Use",
+      "Population",
+      "Society",
+      "Urban",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE",
+      "latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:dois": [
+      "10.7927/BRQ1-XC29",
+      "10.7910/DVN/ER5NFR"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network - CIESIN - Columbia University, and Joint Research Centre - JRC - European Commission"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To validate and expand upon JRC's Urban Centre Database (UCDB) to provide place names and population data for settlements around the world.",
+    "ciesin:publication_date": "2024-07-10T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/brq1-xc29",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://opendatacommons.org/licenses/odbl",
+      "https://www.openstreetmap.org/copyright",
+      "https://doi.org/10.7927/89j7-zw60",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FER5NFR",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540929235-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "urbanspatial-guppd-v1.xml",
+    "datetime": null,
+    "start_datetime": "1975-01-01T00:00:00Z",
+    "end_datetime": "2030-12-31T00:00:00Z",
+    "ciesin:temporal_start": "1975-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2030-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-brq1-xc29.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/BRQ1-XC29",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/ER5NFR",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "brq1-xc29": {
+      "href": "https://doi.org/10.7927/BRQ1-XC29",
+      "type": "text/html",
+      "title": "DOI 10.7927/BRQ1-XC29",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/BRQ1-XC29",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "er5nfr": {
+      "href": "https://doi.org/10.7910/DVN/ER5NFR",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/ER5NFR",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/ER5NFR",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FER5NFR",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/ER5NFR",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14222259": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222259",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10343,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14222259",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812647": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812647",
+      "type": "application/zip",
+      "title": "urbanspatial-guppd-v1-gdb.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 57939372,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812647",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812646": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812646",
+      "type": "application/zip",
+      "title": "urbanspatial-guppd-v1-gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 65355075,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812646",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540929235-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929235-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/BRQ1-XC29",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "urbanspatial-guppd-v1-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/urbanspatial-guppd-v1-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/BRQ1-XC29",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929235-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/BRQ1-XC29",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "urbanspatial-guppd-v1-population-growth-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/urbanspatial/urbanspatial-guppd-v1/urbanspatial-guppd-v1-population-growth-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "urbanspatial-guppd-v1-population-growth-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/urbanspatial-guppd-v1/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/urbanspatial-guppd-v1/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "odbl": {
+      "href": "https://opendatacommons.org/licenses/odbl",
+      "type": "text/html",
+      "title": "odbl",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "copyright": {
+      "href": "https://www.openstreetmap.org/copyright",
+      "type": "text/html",
+      "title": "copyright",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "89j7-zw60": {
+      "href": "https://doi.org/10.7927/89j7-zw60",
+      "type": "text/html",
+      "title": "89j7-zw60",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

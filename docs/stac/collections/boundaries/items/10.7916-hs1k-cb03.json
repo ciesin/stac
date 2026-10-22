@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-hs1k-cb03",
+  "collection": "boundaries",
+  "geometry": null,
+  "properties": {
+    "title": "Harmoniser les limites infranationales",
+    "description": "“Harmoniser les limites infranationales” aborde le travail de GRID3 de soutien à l'harmonisation, la production et l'utilisation d'unités légales/administratives, d'unités opérationnelles et de zones statistiques numérisées. Le travail de GRID3 sur les frontières s'articule autour de trois axes principaux: l'amélioration et l'harmonisation des unités opérationnelles, la promotion d'une meilleure collaboration sur l'harmonisation des limites entre des organismes gouvernementaux disparates et l'utilisation de l'harmonisation des limites pour soutenir les efforts de recensement. Le document se penche sur des études réalisées au Nigeria, en République démocratique du Congo et en Zambie. GRID3 accompagne les pays dans la création, la validation et l'utilisation des données géospatiales de population, localités, infrastructures et de limites infranationales. Pour plus d'informations, voir https://grid3.org/. Keywords (Mots clés) : unités administratives ; recensement ; agents de santé communautaires ; limites numériques ; opérations d'urgence ; zone de dénombrement ; SIG ; données de population carroyées ; harmonisation ; bassin de santé ; microplan ; unités opérationnelles ; points d'intérêt ; zone de pré-dénombrement ; opérations de routine ; délimitation semi-automatique ; établissement ; couche d'établissement ; cartographie de l'établissement ; zones statistiques ; infrastructure statistique ; limites infranationales ; développement durable ; GRID3 ; zones de santé ; cartographie participative ; vaccination ; immunisation ; CIESIN ; UNFPA ; Flowminder ; WorldPop ; polio.",
+    "license": "other",
+    "keywords": [
+      "Boundaries"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/hs1k-cb03",
+    "ciesin:resource_type": "report",
+    "ciesin:category": "Boundaries",
+    "ciesin:tags": [
+      "Boundaries"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/hs1k-cb03"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network",
+      "Flowminder Foundation",
+      "United Nations Population Fund",
+      "WorldPop, University of Southampton"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/hs1k-cb03",
+      "https://academiccommons.columbia.edu/doi/10.7916/4t5v-rd94/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-hs1k-cb03.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/hs1k-cb03",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "hs1k-cb03": {
+      "href": "https://doi.org/10.7916/hs1k-cb03",
+      "type": "text/html",
+      "title": "DOI 10.7916/hs1k-cb03",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/hs1k-cb03",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/4t5v-rd94/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/4t5v-rd94/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

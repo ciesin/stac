@@ -1,0 +1,495 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h47h1ggr",
+  "collection": "agriculture",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global Agricultural Lands: Pastures, 2000",
+    "description": "The Global Pastures data set represents the proportion of land areas used as pasture land (land used to support grazing animals) in the year 2000. Satellite data from Modetate Resolution Imaging Spectroradiometer (MODIS) and Satellite Pour l'Observation de la Terre (SPOT) Image Vegetation sensors were combined with agricultural inventory data to create a global data set. The visual presentation of these data demonstrates the extent to which human land use for agriculture has changed the Earth and in which areas this change is most intense. The data were compiled by Navin Ramankutty et al. (2008) and distributed by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "license": "None | Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Africa",
+      "Agriculture",
+      "Asia",
+      "Continent",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS > AGRICULTURAL LANDS > PASTURE",
+      "Europe",
+      "Farming",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Use",
+      "North America",
+      "Oceania",
+      "Remote Sensing",
+      "South America",
+      "Water",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H47H1GGR",
+    "sci:citation": "Ramankutty, N., A.T. Evan, C. Monfreda, and J.A. Foley. 2010-12-31. Global Agricultural Lands: Pastures, 2000. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 1; 1.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": [
+      "Africa",
+      "Agriculture",
+      "Asia",
+      "Continent",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS > AGRICULTURAL LANDS > PASTURE",
+      "Europe",
+      "Farming",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Use",
+      "North America",
+      "Oceania",
+      "Remote Sensing",
+      "South America",
+      "Water",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/H47H1GGR",
+      "10.7910/DVN/GIEJKB"
+    ],
+    "ciesin:authors": [
+      "Ramankutty, N., A.T. Evan, C. Monfreda, and J.A. Foley"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America",
+      "Oceania",
+      "South America"
+    ],
+    "ciesin:purpose": "To provide data on the extent of pasturelands for research on human-environment interactions.",
+    "ciesin:publication_date": "2010-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H47H1GGR",
+      "https://doi.org/10.1029/2007GB002952",
+      "https://doi.org/10.7927/H4C8276G",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FGIEJKB",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550185901-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "aglands-pastures-2000.xml",
+    "datetime": null,
+    "start_datetime": "2000-01-01T00:00:00Z",
+    "end_datetime": "2000-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2000-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2000-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h47h1ggr.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H47H1GGR",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/GIEJKB",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h47h1ggr": {
+      "href": "https://doi.org/10.7927/H47H1GGR",
+      "type": "text/html",
+      "title": "DOI 10.7927/H47H1GGR",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H47H1GGR",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "giejkb": {
+      "href": "https://doi.org/10.7910/DVN/GIEJKB",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/GIEJKB",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/GIEJKB",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FGIEJKB",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/GIEJKB",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716049": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716049",
+      "type": "application/zip",
+      "title": "af-pastures-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 492359,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716049",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716048": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716048",
+      "type": "application/zip",
+      "title": "af-pastures-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 539533,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716048",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716038": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716038",
+      "type": "application/zip",
+      "title": "as-pastures-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 941712,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716038",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716050": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716050",
+      "type": "application/zip",
+      "title": "as-pastures-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 972245,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716050",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716040": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716040",
+      "type": "application/zip",
+      "title": "eu-pastures-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 183208,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716040",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716043": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716043",
+      "type": "application/zip",
+      "title": "eu-pastures-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 204496,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716043",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716046": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716046",
+      "type": "application/zip",
+      "title": "gl-pastures-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2628528,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716046",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716042": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716042",
+      "type": "application/zip",
+      "title": "gl-pastures-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2776601,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716042",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14171080": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14171080",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11838,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14171080",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716041": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716041",
+      "type": "application/zip",
+      "title": "na-pastures-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 449292,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716041",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716047": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716047",
+      "type": "application/zip",
+      "title": "na-pastures-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 468709,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716047",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716039": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716039",
+      "type": "application/zip",
+      "title": "oc-pastures-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 250708,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716039",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716037": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716037",
+      "type": "application/zip",
+      "title": "oc-pastures-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 263859,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716037",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716044": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716044",
+      "type": "application/zip",
+      "title": "sa-pastures-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 356778,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716044",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716045": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716045",
+      "type": "application/zip",
+      "title": "sa-pastures-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 420055,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11716045",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3550185901-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550185901-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/H47H1GGR",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/aglands-pastures-2000/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H47H1GGR",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "aglands-pastures-2000-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/aglands-pastures-2000-citation2.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H47H1GGR",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550185901-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H47H1GGR",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "aglands-pastures-2000-global-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/aglands/aglands-pastures-2000/aglands-pastures-2000-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "aglands-pastures-2000-global-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/aglands-pastures-2000/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/aglands-pastures-2000/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "2007gb002952": {
+      "href": "https://doi.org/10.1029/2007GB002952",
+      "type": "text/html",
+      "title": "2007GB002952",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4c8276g": {
+      "href": "https://doi.org/10.7927/H4C8276G",
+      "type": "text/html",
+      "title": "H4C8276G",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

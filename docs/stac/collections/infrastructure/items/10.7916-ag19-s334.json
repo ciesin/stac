@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-ag19-s334",
+  "collection": "infrastructure",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 SLE - Health Facilities v1.0",
+    "description": "The dataset consists of health facility points with name, location (where available), facility type, functionality, and ownership in Sierra Leone. This work was conducted in collaboration between the Directorate of Policy Planning and Information (DPPI) within Sierra Leone’s Ministry of Health and Sanitation (MoHS) and the GRID3 programme hosted at CIESIN, Columbia University. Through engagement with DPPI, as well as non-government partners, the CIESIN collected and consolidated existing sources of health facility data. Spatial data were matched to the ministry’s master facility list (2020). Additional data collection was necessary and conducted by GRID3’s partner, Premise in coordination with the ministry. A data validation workshop was held in Bo, Sierra Leone, 28-30 July 2021, where MoHS District Medical Officers (DMOs), District Monitoring and Evaluation (M&E) Officers, Directors, Managers, and key stakeholders reviewed and provided feedback on the dataset. Outstanding data points were submitted by District M&E Officers, and incorporated into and incorporated into the dataset by June 2023. This work has been undertaken as part of the Geo-Referenced Infrastructure and Demographic Data for Development (GRID3) programme. The programme is funded by the Bill & Melinda Gates Foundation and the United Kingdom's Foreign, Commonwealth & Development Office. GRID3 is implemented by the Flowminder Foundation, WorldPop at the University of Southampton, the United Nations Population Fund, and CIESIN.",
+    "license": "other",
+    "keywords": [
+      "Infrastructure",
+      "latest"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/AG19-S334",
+    "sci:citation": "Sierra Leone Ministry of Health and Sanitation (MoHS) and Center for International Earth Science Information Network (CIESIN), Columbia University. 2023. Sierra Leone National Health Facilities Dataset Version 01. Palisades, NY: Geo-Referenced Infrastructure and Demographic Data for Development (GRID3). https://doi.org/10.7916/ag19-s334. Accessed DAY MONTH YEAR",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Infrastructure",
+    "ciesin:tags": [
+      "Infrastructure",
+      "latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:dois": [
+      "10.7916/AG19-S334"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network",
+      "Sierra Leone Ministry of Health and Sanitation"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/ag19-s334",
+      "https://academiccommons.columbia.edu/doi/10.7916/514p-gz80/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/fhg4-qa91/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "ciesin:inventory_xml_location": "GRID3 SLE - Health Facilities v1.0.xml",
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-ag19-s334.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/AG19-S334",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "ag19-s334": {
+      "href": "https://doi.org/10.7916/AG19-S334",
+      "type": "text/html",
+      "title": "DOI 10.7916/AG19-S334",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/AG19-S334",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/514p-gz80/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/514p-gz80/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/fhg4-qa91/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 2",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/fhg4-qa91/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

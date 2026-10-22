@@ -1,0 +1,138 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7910-dvn-f5iu1d",
+  "collection": "governance",
+  "geometry": null,
+  "properties": {
+    "title": "Geocoded CBP Apprehensions from Central America and Mexico (FY 2010 - FY 2022)",
+    "description": "{\"typeName\": \"dsDescriptionValue\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"The dataset provides geocoded places of origin of migrants apprehended under U.S.C. Title 8 at the US Southwest border by the US Border Patrol over the period from fiscal year 2010 to fiscal year 2022. For each record of apprehension, we geocoded the place of birth of migrants using information about the place, state or department, and country of birth provided by the US Border Patrol. To do so, we built a custom Python script that leveraged OpenStreetMap to geocode the place of birth of all the migrants from Mexico and Central America (Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica, Panama, Belize). Out of a total of 5,113,232 apprehensions from migrants from Central America and Mexico over the period, we geolocated the place of birth of migrants for 4,685,026 apprehensions, of which 3,474,536 were located at the settlement or county (municipio) level. The remaining 1,210,490 apprehensions could only be geolocated at the state or department level. The underlying records of apprehensions were obtained by David Leblang (University of Virginia) through a Freedom of Information Act (FOIA) request.\"}",
+    "license": "{\"name\": \"CC0 1.0\", \"uri\": \"http://creativecommons.org/publicdomain/zero/1.0\", \"iconUri\": \"https://licensebuttons.net/p/zero/1.0/88x31.png\", \"rightsIdentifier\": \"CC0-1.0\", \"rightsIdentifierScheme\": \"SPDX\", \"schemeUri\": \"https://spdx.org/licenses/\", \"languageCode\": \"en\"}",
+    "keywords": [
+      "Social Sciences",
+      "Governance"
+    ],
+    "providers": [
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7910/DVN/F5IU1D",
+    "sci:citation": "https://doi.org/10.7910/DVN/F5IU1D",
+    "version": "1",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Social Sciences",
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7910/DVN/F5IU1D"
+    ],
+    "ciesin:authors": [
+      "Cottier, Fabien",
+      "Leblang, David",
+      "de Sherbinin, Alex",
+      "Wrathall, David"
+    ],
+    "ciesin:publication_date": "2026-07-16T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FF5IU1D"
+    ],
+    "ciesin:metadata_sources": [
+      "Harvard Dataverse"
+    ],
+    "datetime": "2026-07-16T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7910-dvn-f5iu1d.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/F5IU1D",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "f5iu1d": {
+      "href": "https://doi.org/10.7910/DVN/F5IU1D",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/F5IU1D",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/F5IU1D",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FF5IU1D",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/F5IU1D",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13987165": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13987165",
+      "type": "application/pdf",
+      "title": "codebook.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 31288,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13987165",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14080694": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14080694",
+      "type": "text/csv",
+      "title": "geo_CBP_apprehensions.csv",
+      "description": "The dataset provides geocoded places of origin of migrants apprehended under U.S.C. Title 8 at the US Southwest border by the US Border Patrol over the period from fiscal year 2010 to fiscal year 2022.",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1530220398,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14080694",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13987164": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13987164",
+      "type": "application/pdf",
+      "title": "readme_geocoded_data.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13625,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13987164",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8-gqgc-zk32",
+  "collection": "sustainability",
+  "geometry": null,
+  "properties": {
+    "title": "Curating Big Data on Population and Settlements to Monitor the Sustainable Development Goals (SDGs)",
+    "description": "Spatial data describing population distribution and settlement patterns can be used, either alone or in conjunction with other data products and services such as Earth observations and in situ data, to assess progress on implementing the SDGs and to identify where additional efforts could benefit specific groups of people—especially those who might otherwise be left behind. Spatial population data are critical to the development and use of many SDG indicators, especially those based on per capita rates or computed separately for urban versus rural areas. However, to effectively utilize population and settlement data over time in the context of SDG monitoring and decision making, the data need to be curated, effectively managed throughout the data lifecycle, and persistently accessible in an open manner. Furthermore, in light of the interconnectedness of the SDGs, curation of population and settlement data needs to support cross-disciplinary and cross-sector use and reuse, to support consistency in monitoring, targeting, and decision making within and across countries, sectors, and time periods. Supporting long-term transdisciplinary use of population and settlement data, ensuring that these data are Findable, Accessible, Interoperable, and Reusable (FAIR), clearly communicating their open access status, and describing their quality are essential capabilities that enable diverse users to effectively, efficiently, and transparently apply these data to their pressing challenges. Examples of population and settlement data for monitoring the SDGs are described along with approaches for curating, managing, and disseminating these data as open data for long-term use by diverse user communities.",
+    "license": "other",
+    "keywords": [
+      "Sustainability"
+    ],
+    "providers": [
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8-gqgc-zk32",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Sustainability",
+    "ciesin:tags": [
+      "Sustainability"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8-gqgc-zk32"
+    ],
+    "ciesin:authors": [
+      "Downs, Robert R.",
+      "Chen, Robert S.",
+      "De Sherbinin, Alexander M."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "10.7916/d8-gqgc-zk32"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8-gqgc-zk32.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8-gqgc-zk32",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8-gqgc-zk32": {
+      "href": "https://doi.org/10.7916/d8-gqgc-zk32",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8-gqgc-zk32",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8-gqgc-zk32",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-p3fm-rn35/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/d8-p3fm-rn35/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

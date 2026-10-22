@@ -1,0 +1,3879 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4vt1q1h",
+  "collection": "population",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          -58.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Population Count Grid",
+    "description": "The Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Population Count Grid estimates human population for the years 1990, 1995, and 2000 by 30 arc-second (1 km) grid cells and associated data sets dated circa 2000. A proportional allocation gridding algorithm, utilizing more than 1,000,000 national and sub-national geographic units, is used to assign population values (counts, in persons) to grid cells. This data set is produced by the Columbia University Center for International Earth Science Information Network (CIESIN) in collaboration with the International Food Policy Research Institute (IFPRI), The World Bank, and Centro Internacional de Agricultura Tropical (CIAT).",
+    "license": "None | The Trustees of Columbia University in the City of New York, International Food Policy Research Institute (IPFRI), The World Bank, and Centro Internacional de Agricultura Tropical (CIAT) hold the copyright of this data set. Users are prohibited from any commercial, non-free resale, or redistribution without explicit written permission from CIESIN, IFPRI, The World Bank, and CIAT. Users should acknowledge CIESIN, IFPRI, The World Bank, and CIAT as the source used in the creation of any reports, publications, new data sets, derived products, or services resulting from the use of this data set. CIESIN, IFPRI, The World Bank, and CIAT also request reprints of any publications and notification of any redistributing efforts.",
+    "keywords": [
+      "Afghanistan",
+      "Africa",
+      "Albania",
+      "Algeria",
+      "American Samoa",
+      "Andorra",
+      "Angola",
+      "Anguilla",
+      "Antigua and Barbuda",
+      "Argentina",
+      "Armenia",
+      "Aruba",
+      "Asia",
+      "Australia",
+      "Austria",
+      "Azerbaijan",
+      "Bahamas",
+      "Bahrain",
+      "Bangladesh",
+      "Barbados",
+      "Belarus",
+      "Belgium",
+      "Belize",
+      "Benin",
+      "Bermuda",
+      "Bhutan",
+      "Bolivia",
+      "Bosnia and Herzegovina",
+      "Botswana",
+      "Brazil",
+      "British Virgin Islands",
+      "Brunei",
+      "Bulgaria",
+      "Burkina Faso",
+      "Burundi",
+      "Cambodia",
+      "Cameroon",
+      "Canada",
+      "Cape Verde",
+      "Cayman Islands",
+      "Central African Republic",
+      "Chad",
+      "Chile",
+      "China",
+      "Colombia",
+      "Comoros",
+      "Congo",
+      "Congo, Democratic",
+      "Continent",
+      "Cook Islands",
+      "Costa Rica",
+      "Cote D'Ivoire",
+      "Country",
+      "Croatia",
+      "Cuba",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "Djibouti",
+      "Dominica",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION > POPULATION SIZE",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Equatorial Guinea",
+      "Eritrea",
+      "Estonia",
+      "Ethiopia",
+      "Europe",
+      "Faeroe Islands",
+      "Falkland Islands",
+      "Fiji",
+      "Finland",
+      "France",
+      "French Guiana",
+      "French Polynesia",
+      "Gabon",
+      "Gambia",
+      "Georgia",
+      "Germany",
+      "Ghana",
+      "Gibraltar",
+      "Global",
+      "Greece",
+      "Greenland",
+      "Grenada",
+      "Guadeloupe",
+      "Guam",
+      "Guatemala",
+      "Guernsey",
+      "Guinea",
+      "Guinea-Bissau",
+      "Guyana",
+      "Haiti",
+      "Honduras",
+      "Hong Kong",
+      "Hungary",
+      "Iceland",
+      "India",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Ireland",
+      "Isle of Man",
+      "Israel",
+      "Italy",
+      "Jamaica",
+      "Japan",
+      "Jersey",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kiribati",
+      "Kuwait",
+      "Kyrgyzstan",
+      "Laos",
+      "Latvia",
+      "Lebanon",
+      "Lesotho",
+      "Liberia",
+      "Libya",
+      "Liechtenstein",
+      "Lithuania",
+      "Luxembourg",
+      "Macau",
+      "Macedonia",
+      "Madagascar",
+      "Malawi",
+      "Malaysia",
+      "Maldives",
+      "Mali",
+      "Malta",
+      "Marshall Islands",
+      "Martinique",
+      "Mauritania",
+      "Mauritius",
+      "Mayotte",
+      "Mexico",
+      "Micronesia",
+      "Moldova",
+      "Monaco",
+      "Mongolia",
+      "Montserrat",
+      "Morocco",
+      "Mozambique",
+      "Myanmar",
+      "Namibia",
+      "Nauru",
+      "Nepal",
+      "Netherlands",
+      "Netherlands Antilles",
+      "New Caledonia",
+      "New Zealand",
+      "Nicaragua",
+      "Niger",
+      "Nigeria",
+      "North America",
+      "North Korea",
+      "Northern Mariana Islands",
+      "Norway",
+      "Oceania",
+      "Oman",
+      "Pakistan",
+      "Palau",
+      "Palestine",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Pitcairn Islands",
+      "Poland",
+      "Population",
+      "Portugal",
+      "Puerto Rico",
+      "Qatar",
+      "Reunion",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "Samoa",
+      "San Marino",
+      "Sao Tome and Principe",
+      "Saudi Arabia",
+      "Senegal",
+      "Serbia and Montenegro",
+      "Seychelles",
+      "Sierra Leone",
+      "Singapore",
+      "Slovakia",
+      "Slovenia",
+      "Society",
+      "Solomon Islands",
+      "Somalia",
+      "South Africa",
+      "South America",
+      "South Korea",
+      "Spain",
+      "Sri Lanka",
+      "St Helena",
+      "St Kitts and Nevis",
+      "St Lucia",
+      "St Pierre and Miquelon",
+      "St Vincent and The Grenadines",
+      "Sudan",
+      "Suriname",
+      "Sustainability",
+      "Svalbard and Jan Mayen",
+      "Swaziland",
+      "Sweden",
+      "Switzerland",
+      "Syria",
+      "Taiwan",
+      "Tajikistan",
+      "Tanzania",
+      "Timor",
+      "Togo",
+      "Tokelau",
+      "Tonga",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Turkmenistan",
+      "Turks and Caicos Islands",
+      "Tuvalu",
+      "US Virgin Islands",
+      "Uganda",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Urban",
+      "Uruguay",
+      "Uzbekistan",
+      "Vanuatu",
+      "Vatican City",
+      "Venezuela",
+      "Vietnam",
+      "Wallis and Futuna Islands",
+      "Yemen",
+      "Yugoslavia",
+      "Zambia",
+      "Zimbabwe",
+      "Earth and Environmental Sciences",
+      "latest"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4VT1Q1H",
+    "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University, International Food Policy Research Institute - IFPRI, The World Bank, and Centro Internacional de Agricultura Tropical - CIAT. 2011-09-26. Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Population Count Grid. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Population",
+    "ciesin:tags": [
+      "Afghanistan",
+      "Africa",
+      "Albania",
+      "Algeria",
+      "American Samoa",
+      "Andorra",
+      "Angola",
+      "Anguilla",
+      "Antigua and Barbuda",
+      "Argentina",
+      "Armenia",
+      "Aruba",
+      "Asia",
+      "Australia",
+      "Austria",
+      "Azerbaijan",
+      "Bahamas",
+      "Bahrain",
+      "Bangladesh",
+      "Barbados",
+      "Belarus",
+      "Belgium",
+      "Belize",
+      "Benin",
+      "Bermuda",
+      "Bhutan",
+      "Bolivia",
+      "Bosnia and Herzegovina",
+      "Botswana",
+      "Brazil",
+      "British Virgin Islands",
+      "Brunei",
+      "Bulgaria",
+      "Burkina Faso",
+      "Burundi",
+      "Cambodia",
+      "Cameroon",
+      "Canada",
+      "Cape Verde",
+      "Cayman Islands",
+      "Central African Republic",
+      "Chad",
+      "Chile",
+      "China",
+      "Colombia",
+      "Comoros",
+      "Congo",
+      "Congo, Democratic",
+      "Continent",
+      "Cook Islands",
+      "Costa Rica",
+      "Cote D'Ivoire",
+      "Country",
+      "Croatia",
+      "Cuba",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "Djibouti",
+      "Dominica",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION > POPULATION SIZE",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Equatorial Guinea",
+      "Eritrea",
+      "Estonia",
+      "Ethiopia",
+      "Europe",
+      "Faeroe Islands",
+      "Falkland Islands",
+      "Fiji",
+      "Finland",
+      "France",
+      "French Guiana",
+      "French Polynesia",
+      "Gabon",
+      "Gambia",
+      "Georgia",
+      "Germany",
+      "Ghana",
+      "Gibraltar",
+      "Global",
+      "Greece",
+      "Greenland",
+      "Grenada",
+      "Guadeloupe",
+      "Guam",
+      "Guatemala",
+      "Guernsey",
+      "Guinea",
+      "Guinea-Bissau",
+      "Guyana",
+      "Haiti",
+      "Honduras",
+      "Hong Kong",
+      "Hungary",
+      "Iceland",
+      "India",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Ireland",
+      "Isle of Man",
+      "Israel",
+      "Italy",
+      "Jamaica",
+      "Japan",
+      "Jersey",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kiribati",
+      "Kuwait",
+      "Kyrgyzstan",
+      "Laos",
+      "Latvia",
+      "Lebanon",
+      "Lesotho",
+      "Liberia",
+      "Libya",
+      "Liechtenstein",
+      "Lithuania",
+      "Luxembourg",
+      "Macau",
+      "Macedonia",
+      "Madagascar",
+      "Malawi",
+      "Malaysia",
+      "Maldives",
+      "Mali",
+      "Malta",
+      "Marshall Islands",
+      "Martinique",
+      "Mauritania",
+      "Mauritius",
+      "Mayotte",
+      "Mexico",
+      "Micronesia",
+      "Moldova",
+      "Monaco",
+      "Mongolia",
+      "Montserrat",
+      "Morocco",
+      "Mozambique",
+      "Myanmar",
+      "Namibia",
+      "Nauru",
+      "Nepal",
+      "Netherlands",
+      "Netherlands Antilles",
+      "New Caledonia",
+      "New Zealand",
+      "Nicaragua",
+      "Niger",
+      "Nigeria",
+      "North America",
+      "North Korea",
+      "Northern Mariana Islands",
+      "Norway",
+      "Oceania",
+      "Oman",
+      "Pakistan",
+      "Palau",
+      "Palestine",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Pitcairn Islands",
+      "Poland",
+      "Population",
+      "Portugal",
+      "Puerto Rico",
+      "Qatar",
+      "Reunion",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "Samoa",
+      "San Marino",
+      "Sao Tome and Principe",
+      "Saudi Arabia",
+      "Senegal",
+      "Serbia and Montenegro",
+      "Seychelles",
+      "Sierra Leone",
+      "Singapore",
+      "Slovakia",
+      "Slovenia",
+      "Society",
+      "Solomon Islands",
+      "Somalia",
+      "South Africa",
+      "South America",
+      "South Korea",
+      "Spain",
+      "Sri Lanka",
+      "St Helena",
+      "St Kitts and Nevis",
+      "St Lucia",
+      "St Pierre and Miquelon",
+      "St Vincent and The Grenadines",
+      "Sudan",
+      "Suriname",
+      "Sustainability",
+      "Svalbard and Jan Mayen",
+      "Swaziland",
+      "Sweden",
+      "Switzerland",
+      "Syria",
+      "Taiwan",
+      "Tajikistan",
+      "Tanzania",
+      "Timor",
+      "Togo",
+      "Tokelau",
+      "Tonga",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Turkmenistan",
+      "Turks and Caicos Islands",
+      "Tuvalu",
+      "US Virgin Islands",
+      "Uganda",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Urban",
+      "Uruguay",
+      "Uzbekistan",
+      "Vanuatu",
+      "Vatican City",
+      "Venezuela",
+      "Vietnam",
+      "Wallis and Futuna Islands",
+      "Yemen",
+      "Yugoslavia",
+      "Zambia",
+      "Zimbabwe",
+      "Earth and Environmental Sciences",
+      "latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:dois": [
+      "10.7927/H4VT1Q1H",
+      "10.7910/DVN/K1YQKP"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network - CIESIN - Columbia University, International Food Policy Research Institute - IFPRI, The World Bank, and Centro Internacional de Agricultura Tropical - CIAT"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]"
+    ],
+    "ciesin:place": [
+      "Africa",
+      "Asia",
+      "Australia",
+      "Europe",
+      "Global",
+      "North America",
+      "South America",
+      "Oceania",
+      "Afghanistan",
+      "Albania",
+      "Algeria",
+      "American Samoa",
+      "Andorra",
+      "Angola",
+      "Anguilla",
+      "Antigua and Barbuda",
+      "Argentina",
+      "Armenia",
+      "Aruba",
+      "Austria",
+      "Azerbaijan",
+      "Bahamas",
+      "Bahrain",
+      "Bangladesh",
+      "Barbados",
+      "Belarus",
+      "Belgium",
+      "Belize",
+      "Benin",
+      "Bermuda",
+      "Bhutan",
+      "Bolivia",
+      "Bosnia and Herzegovina",
+      "Botswana",
+      "Brazil",
+      "British Virgin Islands",
+      "Brunei",
+      "Bulgaria",
+      "Burkina Faso",
+      "Burundi",
+      "Cambodia",
+      "Cameroon",
+      "Canada",
+      "Cape Verde",
+      "Cayman Islands",
+      "Central African Republic",
+      "Chad",
+      "Chile",
+      "China",
+      "Colombia",
+      "Comoros",
+      "Cook Islands",
+      "Costa Rica",
+      "Cote D'Ivoire",
+      "Croatia",
+      "Cuba",
+      "Cyprus",
+      "Czech Republic",
+      "Congo, Democratic",
+      "Denmark",
+      "Djibouti",
+      "Dominica",
+      "Dominican Republic",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Equatorial Guinea",
+      "Eritrea",
+      "Estonia",
+      "Ethiopia",
+      "Faeroe Islands",
+      "Falkland Islands",
+      "Fiji",
+      "Finland",
+      "France",
+      "French Guiana",
+      "French Polynesia",
+      "Gabon",
+      "Gambia",
+      "Georgia",
+      "Germany",
+      "Ghana",
+      "Gibraltar",
+      "Greece",
+      "Greenland",
+      "Grenada",
+      "Guadeloupe",
+      "Guam",
+      "Guatemala",
+      "Guernsey",
+      "Guinea",
+      "Guinea-Bissau",
+      "Guyana",
+      "Haiti",
+      "Honduras",
+      "Hong Kong",
+      "Hungary",
+      "Iceland",
+      "India",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Ireland",
+      "Isle of Man",
+      "Israel",
+      "Italy",
+      "Jamaica",
+      "Japan",
+      "Jersey",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kiribati",
+      "Kuwait",
+      "Kyrgyzstan",
+      "Laos",
+      "Latvia",
+      "Lebanon",
+      "Lesotho",
+      "Liberia",
+      "Libya",
+      "Liechtenstein",
+      "Lithuania",
+      "Luxembourg",
+      "Macau",
+      "Macedonia",
+      "Madagascar",
+      "Malawi",
+      "Malaysia",
+      "Maldives",
+      "Mali",
+      "Malta",
+      "Marshall Islands",
+      "Martinique",
+      "Mauritania",
+      "Mauritius",
+      "Mayotte",
+      "Mexico",
+      "Micronesia",
+      "Moldova",
+      "Monaco",
+      "Mongolia",
+      "Montserrat",
+      "Morocco",
+      "Mozambique",
+      "Myanmar",
+      "Namibia",
+      "Nauru",
+      "Nepal",
+      "Netherlands",
+      "Netherlands Antilles",
+      "New Caledonia",
+      "New Zealand",
+      "Nicaragua",
+      "Niger",
+      "Nigeria",
+      "North Korea",
+      "Northern Mariana Islands",
+      "Norway",
+      "Oman",
+      "Pakistan",
+      "Palau",
+      "Palestine",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Pitcairn Islands",
+      "Poland",
+      "Portugal",
+      "Puerto Rico",
+      "Qatar",
+      "Congo",
+      "Reunion",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "St Helena",
+      "St Kitts and Nevis",
+      "St Lucia",
+      "St Pierre and Miquelon",
+      "St Vincent and The Grenadines",
+      "Samoa",
+      "San Marino",
+      "Sao Tome and Principe",
+      "Saudi Arabia",
+      "Senegal",
+      "Serbia and Montenegro",
+      "Seychelles",
+      "Sierra Leone",
+      "Singapore",
+      "Slovakia",
+      "Slovenia",
+      "Solomon Islands",
+      "Somalia",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sri Lanka",
+      "Sudan",
+      "Suriname",
+      "Svalbard and Jan Mayen",
+      "Swaziland",
+      "Sweden",
+      "Switzerland",
+      "Syria",
+      "Taiwan",
+      "Tajikistan",
+      "Tanzania",
+      "Timor",
+      "Togo",
+      "Tokelau",
+      "Tonga",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Turkmenistan",
+      "Turks and Caicos Islands",
+      "Tuvalu",
+      "Uganda",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States of America",
+      "Uruguay",
+      "US Virgin Islands",
+      "Uzbekistan",
+      "Vatican City",
+      "Vanuatu",
+      "Venezuela",
+      "Vietnam",
+      "Wallis and Futuna Islands",
+      "Yemen",
+      "Yugoslavia",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "ciesin:purpose": "To provide a time series of raster population data for ntegration with other data sets.",
+    "ciesin:publication_date": "2011-09-26T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4VT1Q1H",
+      "https://doi.org/10.1016/S0065-308X(05)62004-0",
+      "https://doi.org/10.7927/H4CR5R8J",
+      "https://doi.org/10.7927/H44B2Z74",
+      "https://doi.org/10.7927/H40K26HS",
+      "https://doi.org/10.7927/H4R20Z93",
+      "https://doi.org/10.7927/H4M906KR",
+      "https://doi.org/10.7927/H4GH9FVG",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FK1YQKP"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse"
+    ],
+    "ciesin:inventory_xml_location": "grump-v1-population-count.xml",
+    "datetime": null,
+    "start_datetime": "1995-07-01T00:00:00Z",
+    "end_datetime": "1995-07-01T00:00:00Z",
+    "ciesin:temporal_start": "1995-07-01T00:00:00Z",
+    "ciesin:temporal_end": "1995-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4vt1q1h.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4VT1Q1H",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/K1YQKP",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4vt1q1h": {
+      "href": "https://doi.org/10.7927/H4VT1Q1H",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4VT1Q1H",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H4VT1Q1H",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "k1yqkp": {
+      "href": "https://doi.org/10.7910/DVN/K1YQKP",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/K1YQKP",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/K1YQKP",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FK1YQKP",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/K1YQKP",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670117": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670117",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ABW_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 204727,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670117",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670127": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670127",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_AFG_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10212833,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670127",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670121": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670121",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_AGO_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4840374,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670121",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670114": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670114",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_AIA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 201180,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670114",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670119": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670119",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ALB_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1002306,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670119",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670112": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670112",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_AND_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 221811,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670112",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670126": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670126",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ANT_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 292617,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670126",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670123": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670123",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ARE_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1079977,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670123",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670107": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670107",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ARG_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 26886537,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670107",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670110": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670110",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ARM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 871415,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670110",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670115": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670115",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ASM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 222796,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670115",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670111": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670111",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ATG_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 226900,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670111",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670113": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670113",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_AUS_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 45604083,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670113",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670108": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670108",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_AUT_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3164498,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670108",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670122": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670122",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_AZE_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2509964,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670122",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670145": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670145",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BDI_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1055261,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670145",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670144": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670144",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BEL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2695898,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670144",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670150": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670150",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BEN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1971256,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670150",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670158": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670158",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BFA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5999833,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670158",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670152": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670152",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BGD_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6346985,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670152",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670153": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670153",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BGR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3605028,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670153",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670151": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670151",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BHR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 251484,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670151",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670157": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670157",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BHS_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1345420,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670157",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670149": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670149",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BIH_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 945269,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670149",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670143": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670143",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BLR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4663541,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670143",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670147": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670147",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BLZ_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 629806,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670147",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670154": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670154",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BMU_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 203673,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670154",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670159": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670159",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BOL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9661641,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670159",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670148": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670148",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BRA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 155739217,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670148",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670155": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670155",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BRB_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 208326,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670155",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670156": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670156",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BRN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 364004,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670156",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670142": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670142",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BTN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 969945,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670142",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670146": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670146",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_BWA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3086751,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670146",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670175": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670175",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CAF_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4856620,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670175",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670177": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670177",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CAN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 198893665,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670177",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670184": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670184",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CHE_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3864967,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670184",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670171": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670171",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CHL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 21924076,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670171",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670183": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670183",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CHN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 137978812,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670183",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670181": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670181",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CIV_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5436802,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670181",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670170": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670170",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CMR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4784749,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670170",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670169": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670169",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_COD_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 19408374,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670169",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670176": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670176",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_COG_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3846522,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670176",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670172": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670172",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_COK_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 332789,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670172",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670173": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670173",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_COL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 21259109,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670173",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670168": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670168",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_COM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 301233,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670168",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670185": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670185",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CPV_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 387648,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670185",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670174": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670174",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CRI_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1642782,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670174",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670179": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670179",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CUB_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4010482,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670179",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670178": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670178",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CYM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 218955,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670178",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670180": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670180",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CYP_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 822608,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670180",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670182": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670182",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_CZE_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7803444,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670182",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670202": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670202",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_DEU_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14198720,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670202",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670207": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670207",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_DJI_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 456768,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670207",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670206": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670206",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_DMA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 248520,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670206",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670200": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670200",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_DNK_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3538350,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670200",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670210": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670210",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_DOM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1345203,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670210",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670201": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670201",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_DZA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11327085,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670201",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670213": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670213",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ECU_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8281100,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670213",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670208": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670208",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_EGY_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6149829,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670208",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670212": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670212",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ERI_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1723998,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670212",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670203": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670203",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ESP_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 29927185,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670203",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670204": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670204",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_EST_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2647956,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670204",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670205": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670205",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ETH_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 15702607,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670205",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670196": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670196",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_FIN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16539940,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670196",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670198": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670198",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_FJI_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1755315,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670198",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670197": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670197",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_FLK_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 875844,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670197",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670199": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670199",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_FRA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 51065562,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670199",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670211": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670211",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_FRO_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 375209,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670211",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670209": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670209",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_FSM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 356408,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670209",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670239": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670239",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GAB_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3185178,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670239",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670224": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670224",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GBR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13882268,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670224",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670227": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670227",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GEO_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1747322,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670227",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670240": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670240",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GGY_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 195492,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670240",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670229": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670229",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GHA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4297730,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670229",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670234": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670234",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GIB_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 188909,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670234",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670223": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670223",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GIN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2626800,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670223",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670233": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670233",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GLP_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 336811,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670233",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670235": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670235",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GMB_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 663692,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670235",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670228": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670228",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GNB_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1188016,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670228",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670230": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670230",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GNQ_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 626024,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670230",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670231": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670231",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GRC_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8367297,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670231",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670237": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670237",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GRD_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 217735,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670237",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670226": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670226",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GRL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 33223433,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670226",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670236": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670236",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GTM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2914255,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670236",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670225": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670225",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GUF_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1040893,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670225",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670232": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670232",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GUM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 246595,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670232",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670238": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670238",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_GUY_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2114671,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670238",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670292": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670292",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_HKG_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 299140,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670292",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670279": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670279",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_HND_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6202499,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670279",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670285": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670285",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_HRV_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3652219,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670285",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670303": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670303",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_HTI_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1352211,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670303",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670278": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670278",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_HUN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6572758,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670278",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670298": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670298",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_IDN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 101026294,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670298",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670282": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670282",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_IMN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 260808,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670282",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670301": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670301",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_IND_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 95571628,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670301",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670280": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670280",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_IRL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7371399,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670280",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670289": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670289",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_IRN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16871762,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670289",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670283": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670283",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_IRQ_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3956419,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670283",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670290": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670290",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ISL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4137634,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670290",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670288": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670288",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ISR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 784653,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670288",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670293": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670293",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ITA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 22242855,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670293",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670294": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670294",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_JAM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 530423,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670294",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670297": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670297",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_JEY_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 191793,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670297",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670286": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670286",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_JOR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1242979,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670286",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670295": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670295",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_JPN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 20137422,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670295",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670287": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670287",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_KAZ_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 26915919,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670287",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670300": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670300",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_KEN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 19234596,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670300",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670296": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670296",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_KGZ_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4556670,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670296",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670284": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670284",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_KHM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6902597,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670284",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670302": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670302",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_KIR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1348286,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670302",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670281": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670281",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_KNA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 212520,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670281",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670299": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670299",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_KOR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4336973,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670299",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670291": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670291",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_KWT_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 503949,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670291",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670335": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670335",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_LAO_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4252463,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670335",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670332": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670332",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_LBN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 584162,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670332",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670309": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670309",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_LBR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1773749,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670309",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670305": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670305",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_LBY_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4991441,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670305",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670334": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670334",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_LCA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 230038,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670334",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670310": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670310",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_LIE_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 214560,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670310",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670317": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670317",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_LKA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2540889,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670317",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670326": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670326",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_LSO_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 727936,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670326",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670327": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670327",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_LTU_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2099678,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670327",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670329": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670329",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_LUX_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 474750,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670329",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670331": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670331",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_LVA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4047375,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670331",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670316": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670316",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MAC_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 193105,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670316",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670333": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670333",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MAR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5704821,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670333",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670318": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670318",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MCO_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 188566,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670318",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670330": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670330",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MDA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1378452,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670330",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670307": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670307",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MDG_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 15107529,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670307",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670315": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670315",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MDV_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 344161,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670315",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670306": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670306",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MEX_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39629380,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670306",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670337": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670337",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MHL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 460751,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670337",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670312": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670312",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MKD_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1233077,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670312",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670320": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670320",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MLI_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12290060,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670320",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670325": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670325",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MLT_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 235756,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670325",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670322": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670322",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MMR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13170253,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670322",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670308": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670308",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MNG_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7224039,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670308",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670319": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670319",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MNP_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 255321,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670319",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670336": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670336",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MOZ_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12930625,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670336",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670321": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670321",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MRT_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5139498,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670321",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670313": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670313",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MSR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 197644,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670313",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670328": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670328",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MTQ_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 245791,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670328",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670311": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670311",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MUS_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 387019,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670311",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670324": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670324",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MWI_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6769699,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670324",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670323": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670323",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MYS_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8603229,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670323",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670314": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670314",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_MYT_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 225886,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670314",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670343": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670343",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_NAM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5917901,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670343",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670348": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670348",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_NCL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 683993,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670348",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670350": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670350",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_NER_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6450621,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670350",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670367": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670367",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_NFK_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 188769,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670367",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670359": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670359",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_NGA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 15038806,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670359",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670358": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670358",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_NIC_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2853318,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670358",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670344": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670344",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_NIU_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 205581,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670344",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670346": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670346",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_NLD_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2828099,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670346",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670369": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670369",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_NOR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 19743437,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670369",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670349": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670349",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_NPL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3156583,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670349",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670364": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670364",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_NRU_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 190413,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670364",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670357": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670357",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_NZL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8879449,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670357",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670347": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670347",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_OMN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3369341,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670347",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670362": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670362",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PAK_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10875837,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670362",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670353": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670353",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PAN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2363048,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670353",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670354": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670354",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PCN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 190886,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670354",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670355": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670355",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PER_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 27637621,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670355",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670361": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670361",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PHL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12985864,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670361",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670366": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670366",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PLW_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 242982,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670366",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670360": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670360",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PNG_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5922927,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670360",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670365": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670365",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_POL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16980399,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670365",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670356": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670356",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PRI_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 677064,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670356",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670352": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670352",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PRK_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3426669,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670352",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670363": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670363",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PRT_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7430122,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670363",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670368": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670368",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PRY_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5448960,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670368",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670345": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670345",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PSE_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 522571,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670345",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670351": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670351",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_PYF_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 865565,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670351",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670396": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670396",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_QAT_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 497048,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670396",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670399": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670399",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_REU_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 263459,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670399",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670381": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670381",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ROU_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13233001,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670381",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670395": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670395",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_RUS_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 223103278,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670395",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670392": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670392",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_RWA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1085818,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670392",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670380": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670380",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SAU_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6825153,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670380",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670379": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670379",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SCG_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1497411,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670379",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670385": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670385",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SDN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12378552,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670385",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670386": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670386",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SEN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2925523,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670386",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670391": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670391",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SGP_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 233573,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670391",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670400": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670400",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SHN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 334575,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670400",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670388": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670388",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SJM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4254872,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670388",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670383": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670383",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SLB_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1503990,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670383",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670403": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670403",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SLE_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2189593,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670403",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670401": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670401",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SLV_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1300667,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670401",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670384": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670384",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SMR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 195131,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670384",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670387": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670387",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SOM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4774837,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670387",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670398": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670398",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SPM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 201603,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670398",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670378": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670378",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_STP_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 246168,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670378",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670390": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670390",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SUR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1588786,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670390",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670394": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670394",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SVK_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4423818,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670394",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670382": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670382",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SVN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2428947,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670382",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670397": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670397",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SWE_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 18127412,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670397",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670389": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670389",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SWZ_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 476873,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670389",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670393": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670393",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SYC_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 209903,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670393",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670402": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670402",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_SYR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1812784,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670402",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670437": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670437",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TCA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 275858,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670437",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670424": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670424",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TCD_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5178533,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670424",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670413": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670413",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TGO_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1145195,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670413",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670410": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670410",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_THA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14481347,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670410",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670415": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670415",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TJK_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4093278,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670415",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670411": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670411",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TKL_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 204226,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670411",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670431": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670431",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TKM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5302351,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670431",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670440": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670440",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TLS_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 608215,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670440",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670436": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670436",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TON_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 317283,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670436",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670417": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670417",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TTO_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 444888,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670417",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670426": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670426",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TUN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2173759,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670426",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670423": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670423",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TUR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10348405,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670423",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670433": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670433",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TUV_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 216028,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670433",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670412": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670412",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TWN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1167084,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670412",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670427": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670427",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_TZA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7352394,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670427",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670429": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670429",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_UGA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9748156,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670429",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670422": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670422",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_UKR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16728660,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670422",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670425": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670425",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_URY_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2300600,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670425",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670421": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670421",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_USA_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 584430843,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670421",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670432": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670432",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_UZB_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7152222,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670432",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670442": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670442",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_VAT_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 188163,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670442",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670435": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670435",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_VCT_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 234602,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670435",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670434": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670434",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_VEN_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9801257,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670434",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670414": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670414",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_VGB_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 220720,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670414",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670428": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670428",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_VIR_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 241284,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670428",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670416": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670416",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_VNM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 20286853,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670416",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670441": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670441",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_VUT_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 675993,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670441",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670439": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670439",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_WLF_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 210163,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670439",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670430": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670430",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_WSM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 277778,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670430",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670438": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670438",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_YEM_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5248506,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670438",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670419": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670419",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ZAF_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 43960790,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670419",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670420": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670420",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ZMB_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5924342,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670420",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670418": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670418",
+      "type": "application/zip",
+      "title": "download.jsp_file_grumpv1_level_country_level-scope_country_code_ZWE_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4252599,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670418",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14172574": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14172574",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16782,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14172574",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670124": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670124",
+      "type": "application/zip",
+      "title": "_region_Africa_file_grumpv1_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 43585,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670124",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670116": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670116",
+      "type": "application/zip",
+      "title": "_region_Asia_file_grumpv1_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40940,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670116",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670120": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670120",
+      "type": "application/zip",
+      "title": "_region_Europe_file_grumpv1_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39367,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670120",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670118": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670118",
+      "type": "application/zip",
+      "title": "_region_Global_file_grumpv1_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 96825,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670118",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670106": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670106",
+      "type": "application/zip",
+      "title": "_region_NorthAmerica_file_grumpv1_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 35204,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670106",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670125": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670125",
+      "type": "application/zip",
+      "title": "_region_Oceania_file_grumpv1_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 30394,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670125",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13670109": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670109",
+      "type": "application/zip",
+      "title": "_region_SouthAmerica_file_grumpv1_data_pcount.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 28000,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13670109",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "credits": {
+      "href": "https://sedac.ciesin.columbia.edu/data/dataset/grump-v1-population-count/credits",
+      "type": "text/html",
+      "title": "credits",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/grump-v1-population-count/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/grump-v1-population-count/map/services",
+      "type": "text/html",
+      "title": "services",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "s0065-308x-05-62004-0": {
+      "href": "https://doi.org/10.1016/S0065-308X(05)62004-0",
+      "type": "text/html",
+      "title": "S0065-308X(05)62004-0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4cr5r8j": {
+      "href": "https://doi.org/10.7927/H4CR5R8J",
+      "type": "text/html",
+      "title": "H4CR5R8J",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h44b2z74": {
+      "href": "https://doi.org/10.7927/H44B2Z74",
+      "type": "text/html",
+      "title": "H44B2Z74",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h40k26hs": {
+      "href": "https://doi.org/10.7927/H40K26HS",
+      "type": "text/html",
+      "title": "H40K26HS",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4r20z93": {
+      "href": "https://doi.org/10.7927/H4R20Z93",
+      "type": "text/html",
+      "title": "H4R20Z93",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4m906kr": {
+      "href": "https://doi.org/10.7927/H4M906KR",
+      "type": "text/html",
+      "title": "H4M906KR",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4gh9fvg": {
+      "href": "https://doi.org/10.7927/H4GH9FVG",
+      "type": "text/html",
+      "title": "H4GH9FVG",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -58.0,
+    180.0,
+    85.0
+  ]
+}

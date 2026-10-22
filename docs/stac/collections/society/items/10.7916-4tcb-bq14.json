@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-4tcb-bq14",
+  "collection": "society",
+  "geometry": null,
+  "properties": {
+    "title": "A New Dataset Integrating Public Socioeconomic, Physical Risk, and Housing Data for Climate Justice Metrics: A Test-Case Study in Miami",
+    "description": "Assessing the impact of climate change on vulnerable populations and the implications of such impacts is a critical step toward climate and environmental justice. In general, indices or metrics that aim at studying linkages between climatic environmental impacts and vulnerable populations lack housing information. Financially relevant real estate data (e.g., mortgages, evictions) alongside other socioeconomic and physical risk information can, however, provide a crucial lens to assess climate justice. In addition, standard socioeconomic and demographic variables aggregated at census units lack the granularity required to capture inequalities, especially in heterogeneous communities, so there is a need for publicly available, ready-to-use, digitized, and distributed datasets containing relevant inequality metrics using real estate and financial information. Also, studies focusing on damages and financial impacts of climate change often use commercial datasets, which must be acquired for hundreds of thousands of dollars, making the inclusion of such information prohibitive for advocacy groups, journalists, and other interested people. With this in mind, we integrated multiple publicly available datasets that include socioeconomic, climate risk scores, evictions, and housing variables at the census tract level over the United States to be used to investigate environmental justice themes. Our goal is that the dataset proposed here will allow for testing, assessing, and generating new analysis and metrics that can address inequalities and climate injustice. To demonstrate the potential of the new dataset, we report examples of application to the Miami area, where the recent increased risk of floods and extreme events has exposed socially vulnerable populations to the consequences of climate change.",
+    "license": "other",
+    "keywords": [
+      "Society"
+    ],
+    "providers": [
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/4tcb-bq14",
+    "ciesin:resource_type": "article",
+    "ciesin:category": "Society",
+    "ciesin:tags": [
+      "Society"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/4tcb-bq14"
+    ],
+    "ciesin:authors": [
+      "Tedesco, Marco",
+      "Hultquist, Carolynne G.",
+      "De Sherbinin, Alexander M."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "10.7916/4tcb-bq14"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-4tcb-bq14.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/4tcb-bq14",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "4tcb-bq14": {
+      "href": "https://doi.org/10.7916/4tcb-bq14",
+      "type": "text/html",
+      "title": "DOI 10.7916/4tcb-bq14",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/4tcb-bq14",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/rhtf-mh43/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/rhtf-mh43/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

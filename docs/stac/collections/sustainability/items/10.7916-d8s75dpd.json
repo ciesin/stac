@@ -1,0 +1,102 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8s75dpd",
+  "collection": "sustainability",
+  "geometry": null,
+  "properties": {
+    "title": "Sustainable Software for the Future of Science: A User’s Perspective",
+    "description": "The sustainability of scientific software is critical for the future of science. Recent efforts by funding agencies to recognize software as a contribution to science demonstrate the importance of software for science. Scientific software should be prepared and maintained for subsequent use in the future. Developers of scientific software should consider potential users and the future usability of the software.",
+    "license": "other",
+    "keywords": [
+      "Sustainability"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8s75dpd",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Sustainability",
+    "ciesin:tags": [
+      "Sustainability"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8s75dpd"
+    ],
+    "ciesin:authors": [
+      "Downs, Robert R."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8S75DPD",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8JH3VPM/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8s75dpd.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8s75dpd",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8s75dpd": {
+      "href": "https://doi.org/10.7916/d8s75dpd",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8s75dpd",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8s75dpd",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8JH3VPM/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/D8JH3VPM/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

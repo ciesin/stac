@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8-pejd-bf71",
+  "collection": "settlements",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 Mali Settlement Extents Version 01, Alpha",
+    "description": "NOTE: This version of the Mali settlement extents has been superseded by \"GRID3 Mali Settlement Extents, Version 01.01\", now available here: https://doi.org/10.7916/d8-hr0y-v173 The database constitutes a comprehensive set of settlement polygons nationwide. It is in geodatabase format and consists of three feature classes for built up areas (BUA), small settlement areas (SSA), and hamlets (hamlets). This work has been undertaken as part of the Geo-referenced Infrastructure and Demographic Data for Development (GRID3) initiative in Mali. GRID3 works with countries to generate, validate and use geospatial data on population, settlements, infrastructure, and subnational boundaries. For more information, see https://grid3.org/ Keywords: built up areas, BUA, small settlement areas, SSA, hamlets, settlement aggregation, settlement extent, CIESIN, GRID3, Novel-T",
+    "license": "other",
+    "keywords": [
+      "Settlements"
+    ],
+    "providers": [
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8-pejd-bf71",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": [
+      "Settlements"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8-pejd-bf71"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network",
+      "Novel-T"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "10.7916/d8-pejd-bf71"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8-pejd-bf71.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8-pejd-bf71",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8-pejd-bf71": {
+      "href": "https://doi.org/10.7916/d8-pejd-bf71",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8-pejd-bf71",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8-pejd-bf71",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    }
+  }
+}

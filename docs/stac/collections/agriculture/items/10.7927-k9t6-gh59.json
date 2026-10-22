@@ -1,0 +1,624 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-k9t6-gh59",
+  "collection": "agriculture",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -60.0
+        ],
+        [
+          180.0,
+          -60.0
+        ],
+        [
+          180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          -60.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global Development Potential Indices",
+    "description": "The Global Development Potential Indices (DPIs) data set contains thirteen sector-level DPIs for sectors related to renewable energy (concentrated solar power, photovoltaic solar, wind, hydropower), fossil fuels (coal, conventional and unconventional oil and gas), mining (metallic, non-metallic), and agriculture (crop, biofuels expansion). The DPI for each sector represents land suitability that accounts for both resource potential and development feasibility. Each DPI is a 1-km spatially-explicit, global land suitability map that has been validated using locations of current and planned development, and examined for uncertainty and sensitivity. The DPIs can be used to identify lands with current favorable economic and physical conditions for individual sector expansion and assist in planning for sector and cumulative development across the globe.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Agriculture",
+      "Climate",
+      "Conservation",
+      "EARTH SCIENCE > HUMAN DIMENTSIONS > ENVIRONMENTAL IMPACTS",
+      "Geoscientific Information",
+      "Global",
+      "Governance",
+      "Hazards",
+      "Health",
+      "Infrastructure",
+      "Land Use",
+      "Population",
+      "Poverty",
+      "Remote Sensing",
+      "Sustainability",
+      "Urban",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/K9T6-GH59",
+    "sci:citation": "Oakleaf, J. R., C. M. Kennedy, S. Baruch-Mordo, J. S. Gerber, P. C. West, J. A. Johnson, and J. Kiesecker. 2020-03-26. Global Development Potential Indices. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2; 1.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": [
+      "Agriculture",
+      "Climate",
+      "Conservation",
+      "EARTH SCIENCE > HUMAN DIMENTSIONS > ENVIRONMENTAL IMPACTS",
+      "Geoscientific Information",
+      "Global",
+      "Governance",
+      "Hazards",
+      "Health",
+      "Infrastructure",
+      "Land Use",
+      "Population",
+      "Poverty",
+      "Remote Sensing",
+      "Sustainability",
+      "Urban",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/K9T6-GH59",
+      "10.7910/DVN/YNXAOA"
+    ],
+    "ciesin:authors": [
+      "Oakleaf, J. R., C. M. Kennedy, S. Baruch-Mordo, J. S. Gerber, P. C. West, J. A. Johnson, and J. Kiesecker"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide spatially-explicit data that relatively rank global land suitability referred to as Development Potential Indices (DPIs) for 13 sectors related to renewable energy, fossil fuels, mining and agriculture as an aid to conservation priority setting.",
+    "ciesin:publication_date": "2020-03-26T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/k9t6-gh59",
+      "https://doi.org/10.1038/s41597-019-0084-8",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FYNXAOA",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550189999-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "lulc-development-potential-indices.xml",
+    "datetime": null,
+    "start_datetime": "2016-01-01T00:00:00Z",
+    "end_datetime": "2016-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2016-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2016-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-k9t6-gh59.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/K9T6-GH59",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/YNXAOA",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "k9t6-gh59": {
+      "href": "https://doi.org/10.7927/K9T6-GH59",
+      "type": "text/html",
+      "title": "DOI 10.7927/K9T6-GH59",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/K9T6-GH59",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "ynxaoa": {
+      "href": "https://doi.org/10.7910/DVN/YNXAOA",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/YNXAOA",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/YNXAOA",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FYNXAOA",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/YNXAOA",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11784467": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11784467",
+      "type": "application/zip",
+      "title": "lulc-development-potential-indices-bio-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 266758455,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11784467",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786291": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786291",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-bio-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 165585407,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786291",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11784468": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11784468",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-coal-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 91717423,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11784468",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786289": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786289",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-coal-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 36790115,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786289",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11784466": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11784466",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-convgas-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 266417661,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11784466",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786797": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786797",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-convgas-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 113460941,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786797",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11784464": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11784464",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-convoil-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 256363183,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11784464",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786795": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786795",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-convoil-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 109210293,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786795",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11784471": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11784471",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-crop-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 469437978,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11784471",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786798": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786798",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-crop-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 184012229,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786798",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11784465": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11784465",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-csp-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 425799336,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11784465",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786293": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786293",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-csp-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 167798522,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786293",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11784473": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11784473",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-hydro-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 19398469,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11784473",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786794": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786794",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-hydro-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7069746,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786794",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11784475": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11784475",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-mm-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 258960292,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11784475",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786796": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786796",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-mm-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 107946540,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786796",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11784474": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11784474",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-nmm-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 77027271,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11784474",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786802": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786802",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-nmm-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 31548492,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786802",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11787093": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787093",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-pv-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 764131769,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11787093",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11787094": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787094",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-pv-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 323962546,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11787094",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11784472": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11784472",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-unconvgas-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 40713400,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11784472",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786801": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786801",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-unconvgas-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 17836502,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786801",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786290": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786290",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-unconvoil-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16978927,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786290",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786800": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786800",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-unconvoil-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7210163,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786800",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786292": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786292",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-wind-geographic-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 297112770,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786292",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11786799": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11786799",
+      "type": "application/octet-stream",
+      "title": "lulc-development-potential-indices-wind-mollweide-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 118019419,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11786799",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14200215": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14200215",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11481,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14200215",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3550189999-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550189999-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/K9T6-GH59",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "lulc-development-potential-indices-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/lulc-development-potential-indices-citation2.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/K9T6-GH59",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550189999-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/K9T6-GH59",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "lulc-development-potential-indices-bio-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/lulc/lulc-development-potential-indices/lulc-development-potential-indices-bio-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-development-potential-indices-bio-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-development-potential-indices/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-development-potential-indices/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-development-potential-indices/maps/services",
+      "type": "text/html",
+      "title": "services",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "s41597-019-0084-8": {
+      "href": "https://doi.org/10.1038/s41597-019-0084-8",
+      "type": "text/html",
+      "title": "s41597-019-0084-8",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -60.0,
+    180.0,
+    85.0
+  ]
+}

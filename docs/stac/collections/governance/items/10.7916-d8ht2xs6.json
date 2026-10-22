@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8ht2xs6",
+  "collection": "governance",
+  "geometry": null,
+  "properties": {
+    "title": "Independent Evaluation of a Scientific Data Center for Compliance with the ISO 16363 Requirements for Audit and Certification of Trustworthy Digital Repositories",
+    "description": "Scientific data centers and other digital repositories need to continuously improve so that they can meet the challenge of providing stewardship for the scientific data that are used by scientists, policy-makers, educators and their students, and the general public. As part of its efforts to continuously improve its capabilities and services offered to communities that are interested in using scientific data on human interactions in the environment, SEDAC, the NASA Socioeconomic Data and Applications Center, requested an independent test audit to evaluate its compliance with the draft requirements of ISO 16363:2012, the international standard for Audit and Certification of Trustworthy Digital Repositories. SEDAC has conducted various audits through the years as part of its self-improvement efforts. However, obtaining an independent test audit for compliance with the draft metrics in ISO 16363 offers an opportunity to identify ways in which the scientific data center could im! prove its organization and management, its processes for managing and disseminating data, and its systems and security infrastructure. Similarly, when organizations and auditors are authorized to offer certification of trustworthy digital repositories, SEDAC will be better prepared to apply for certification as a result of having been previously audited by independent evaluators for compliance with the draft ISO 16363 metrics.",
+    "license": "other",
+    "keywords": [
+      "Governance"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8ht2xs6",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8ht2xs6"
+    ],
+    "ciesin:authors": [
+      "Downs, Robert R.",
+      "Chen, Robert S."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8HT2XS6",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8G44ZQ8/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8ht2xs6.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8ht2xs6",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8ht2xs6": {
+      "href": "https://doi.org/10.7916/d8ht2xs6",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8ht2xs6",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8ht2xs6",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8G44ZQ8/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/D8G44ZQ8/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

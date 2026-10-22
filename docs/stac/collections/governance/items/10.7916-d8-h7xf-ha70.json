@@ -1,0 +1,102 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8-h7xf-ha70",
+  "collection": "governance",
+  "geometry": null,
+  "properties": {
+    "title": "International Standards for Trustworthy Data Repositories",
+    "description": "Several international and community standards are applicable to the development and improvement of trustworthy data repositories. Such standards also inform practices of digital data repositories and serve as instruments for assessing their trustworthiness. When used to assess digital data repositories in terms of their trustworthiness, these standards offer value by establishing expectations for performance, based on the consensus of experts who represent international communities. As assessment instruments, such standards can be used by digital data repositories for conducting internal assessments, such as self-assessments, or for conducting external assessments, where auditors from outside the audited organization assess the data repository. Utilizing international and community standards for assessing a digital data repository for trustworthiness provides benefits to data centers and other kinds of data repositories and for a variety of other stakeholders, including producers and users of data, sponsors, publishers, and data professionals.",
+    "license": "other",
+    "keywords": [
+      "Governance"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8-h7xf-ha70",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8-h7xf-ha70"
+    ],
+    "ciesin:authors": [
+      "Downs, Robert R."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/d8-h7xf-ha70",
+      "https://academiccommons.columbia.edu/doi/10.7916/d8-m910-gj72/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8-h7xf-ha70.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8-h7xf-ha70",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8-h7xf-ha70": {
+      "href": "https://doi.org/10.7916/d8-h7xf-ha70",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8-h7xf-ha70",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8-h7xf-ha70",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-m910-gj72/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/d8-m910-gj72/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-6gnj-8s34",
+  "collection": "governance",
+  "geometry": null,
+  "properties": {
+    "title": "SERVIR West Africa Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 1, Motivation and R0 Requirement",
+    "description": "Attaining CoreTrustSeal Certification can be beneficial for data repositories and includes opportunities to continuously improve and meet community standards and practices that are being adopted to improve data and services offered to the designated community. Benefits can be both intrinsic and extrinsic for a data repository, offering additional motivation and incentives for data repositories to pursue CoreTrustSeal Certification.",
+    "license": "other",
+    "keywords": [
+      "Governance"
+    ],
+    "providers": [
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/6gnj-8s34",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/6gnj-8s34"
+    ],
+    "ciesin:authors": [
+      "Downs, Robert R."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "10.7916/6gnj-8s34"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-6gnj-8s34.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/6gnj-8s34",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "6gnj-8s34": {
+      "href": "https://doi.org/10.7916/6gnj-8s34",
+      "type": "text/html",
+      "title": "DOI 10.7916/6gnj-8s34",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/6gnj-8s34",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5apb-mw66/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/5apb-mw66/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

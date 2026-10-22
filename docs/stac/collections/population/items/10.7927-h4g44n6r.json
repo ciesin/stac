@@ -1,0 +1,255 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7927-h4g44n6r",
+  "collection": "population",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          18.0
+        ],
+        [
+          -66.0,
+          18.0
+        ],
+        [
+          -66.0,
+          72.0
+        ],
+        [
+          -180.0,
+          72.0
+        ],
+        [
+          -180.0,
+          18.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Archive of Census Related Products (ACRP): 1980 SAS Transport Files",
+    "description": "The 1980 SAS Transport Files portion of the Archive of Census Related Products (ACRP) contains housing and population demographics from the 1980 Summary Tape File (STF3A) database and are organized by state. The population data includes education levels, ethnicity, income distribution, nativity, labor force status, means of transportation and family structure while the housing data embodies size, state and structure of housing unit, value of the unit, tenure and occupancy status in housing unit, source of water, sewage disposal, availability of telephone, heating and air conditioning, kitchen facilities, rent, mortgage status and monthly owner costs. This portion of the ACRP is produced by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "County",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Economy",
+      "Farming",
+      "Population",
+      "Society",
+      "State",
+      "Transportation",
+      "United States of America",
+      "Utilities/Communication"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4G44N6R",
+    "sci:citation": "Center for International Earth Science Information Network - CIESIN. 1996-12-31. Archive of Census Related Products (ACRP): 1980 SAS Transport Files. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Saginaw, MI",
+    "version": "1.00",
+    "ciesin:category": "Population",
+    "ciesin:tags": [
+      "County",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION",
+      "Economy",
+      "Farming",
+      "Population",
+      "Society",
+      "State",
+      "Transportation",
+      "United States of America",
+      "Utilities/Communication"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/H4G44N6R"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network - CIESIN"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)"
+    ],
+    "ciesin:place": [
+      "United States of America"
+    ],
+    "ciesin:purpose": "To provide access to demographic data for the U.S.",
+    "ciesin:publication_date": "1996-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4G44N6R",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://doi.org/10.7927/H4Z60KZ9",
+      "https://doi.org/10.7927/H4BG2KWB",
+      "https://doi.org/10.7927/H47P8W9V",
+      "https://doi.org/10.7927/H43X84KH",
+      "https://doi.org/10.7927/H4057CV3",
+      "https://doi.org/10.7927/H4QN64NG",
+      "https://doi.org/10.7927/H46Q1V51",
+      "https://doi.org/10.7927/H4TD9V7F",
+      "https://doi.org/10.7927/H42Z13FP"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML"
+    ],
+    "ciesin:inventory_xml_location": "acrp-sas-transport-1980.xml",
+    "datetime": null,
+    "start_datetime": "1980-04-01T00:00:00Z",
+    "end_datetime": "1980-04-01T00:00:00Z",
+    "ciesin:temporal_start": "1980-04-01T00:00:00Z",
+    "ciesin:temporal_end": "1980-04-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4g44n6r.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4G44N6R",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4g44n6r": {
+      "href": "https://doi.org/10.7927/H4G44N6R",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4G44N6R",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H4G44N6R",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/acrp-sas-transport-1980/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4z60kz9": {
+      "href": "https://doi.org/10.7927/H4Z60KZ9",
+      "type": "text/html",
+      "title": "H4Z60KZ9",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4bg2kwb": {
+      "href": "https://doi.org/10.7927/H4BG2KWB",
+      "type": "text/html",
+      "title": "H4BG2KWB",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h47p8w9v": {
+      "href": "https://doi.org/10.7927/H47P8W9V",
+      "type": "text/html",
+      "title": "H47P8W9V",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h43x84kh": {
+      "href": "https://doi.org/10.7927/H43X84KH",
+      "type": "text/html",
+      "title": "H43X84KH",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4057cv3": {
+      "href": "https://doi.org/10.7927/H4057CV3",
+      "type": "text/html",
+      "title": "H4057CV3",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4qn64ng": {
+      "href": "https://doi.org/10.7927/H4QN64NG",
+      "type": "text/html",
+      "title": "H4QN64NG",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h46q1v51": {
+      "href": "https://doi.org/10.7927/H46Q1V51",
+      "type": "text/html",
+      "title": "H46Q1V51",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4td9v7f": {
+      "href": "https://doi.org/10.7927/H4TD9V7F",
+      "type": "text/html",
+      "title": "H4TD9V7F",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h42z13fp": {
+      "href": "https://doi.org/10.7927/H42Z13FP",
+      "type": "text/html",
+      "title": "H42Z13FP",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    18.0,
+    -66.0,
+    72.0
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-ss3g-n396",
+  "collection": "boundaries",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 COD - Health Areas v3.0",
+    "description": "The GRID3 COD - Health Areas v3.0 dataset consists of health area boundaries with name, location, health zone, and other attributes for thirteen provinces in the Democratic Republic of the Congo (COD): Province group 1: Haut-Katanga, Kasaï, Kasaï-Oriental, Kinshasa, and Lomami Province group 2: Haut-Lomami and Tanganyika Province group 3: Ituri and Kwilu Province group 4: Maniema Province group 5: Kasaï-Central Province group 6: Tshopo and Mongala This operational dataset has not been fully validated by government officials or ministries. This data release supersedes the GRID3 COD - Health Areas v2.0 at https://doi.org/10.7916/2xbh-8346. The following changes were made: - Tshopo and Mongala Provinces have been added. Keywords: Health Areas",
+    "license": "other",
+    "keywords": [
+      "Boundaries"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/ss3g-n396",
+    "sci:citation": "Center for International Earth Science Information Network (CIESIN), Columbia University and Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo, 2024. GRID3 COD - Health Areas v3.0. New York: Geo-Referenced Infrastructure and Demographic Data for Development (GRID3). https://doi.org/10.7916/ss3g-n396. Accessed <DAY MONTH YEAR>.",
+    "version": "3.0",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Boundaries",
+    "ciesin:tags": [
+      "Boundaries"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/ss3g-n396"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network",
+      "Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/ss3g-n396",
+      "https://academiccommons.columbia.edu/doi/10.7916/vdd5-v915/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/y4j4-2b14/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/e3hh-nm96/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/zy5m-q871/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/pe2v-6x93/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/rjrz-gz92/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/b2wa-8a95/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/zfyh-f156/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/he8e-a159/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/1xwh-3283/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/wapg-cv68/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/sdf9-zd37/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/hdyx-8485/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/qcbw-dh17/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/8mqd-1k30/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/mk9w-et30/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-ss3g-n396.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/ss3g-n396",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "ss3g-n396": {
+      "href": "https://doi.org/10.7916/ss3g-n396",
+      "type": "text/html",
+      "title": "DOI 10.7916/ss3g-n396",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/ss3g-n396",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vdd5-v915/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/vdd5-v915/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/y4j4-2b14/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 2",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/y4j4-2b14/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/e3hh-nm96/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 3",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/e3hh-nm96/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-4": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/zy5m-q871/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 4",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/zy5m-q871/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-5": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/pe2v-6x93/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 5",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/pe2v-6x93/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-6": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/rjrz-gz92/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 6",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/rjrz-gz92/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-7": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/b2wa-8a95/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 7",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/b2wa-8a95/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-8": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/zfyh-f156/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 8",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/zfyh-f156/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-9": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/he8e-a159/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 9",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/he8e-a159/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-10": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/1xwh-3283/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 10",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/1xwh-3283/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-11": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/wapg-cv68/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 11",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/wapg-cv68/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-12": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/sdf9-zd37/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 12",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/sdf9-zd37/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-13": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/hdyx-8485/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 13",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/hdyx-8485/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-14": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/qcbw-dh17/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 14",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/qcbw-dh17/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-15": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/8mqd-1k30/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 15",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/8mqd-1k30/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-16": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/mk9w-et30/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 16",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/mk9w-et30/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

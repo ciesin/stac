@@ -1,0 +1,59 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "urban",
+  "title": "Urban",
+  "description": "CIESIN datasets categorized as Urban.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -16.71,
+          1.65,
+          16.21,
+          13.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          "2026-08-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7916-d8ww916k.json",
+      "type": "application/geo+json",
+      "title": "Decades of urban growth and development on the Asian megadeltas"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7910-dvn-33jjxt.json",
+      "type": "application/geo+json",
+      "title": "EnvClim Grids: Global Urban Environmental Vulnerability and Climate Risk, 500m Resolution (circa 2020-2050)"
+    },
+    {
+      "rel": "item",
+      "href": "./items/10.7927-h4x9287n.json",
+      "type": "application/geo+json",
+      "title": "West Africa Coastal Vulnerability Mapping: Economic Systems Index"
+    }
+  ]
+}

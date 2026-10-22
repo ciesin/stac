@@ -1,0 +1,439 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4m61h5f",
+  "collection": "conservation",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -179.999993,
+          -89.918972
+        ],
+        [
+          180.0,
+          -89.918972
+        ],
+        [
+          180.0,
+          89.930957
+        ],
+        [
+          -179.999993,
+          89.930957
+        ],
+        [
+          -179.999993,
+          -89.918972
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Last of the Wild Project, Version 2, 2005 (LWP-2): Global Human Footprint Dataset (Geographic)",
+    "description": "The Global Human Footprint Dataset of the Last of the Wild Project, Version 2, 2005 (LWP-2) is the Human Influence Index (HII) normalized by biome and realm. The HII is a global dataset of 1-kilometer grid cells, created from nine global data layers covering human population pressure (population density), human land use and infrastructure (built-up areas, nighttime lights, land use/land cover), and human access (coastlines, roads, railroads, navigable rivers). The dataset in Clarke 1866 Geographic Coordinate System is produced by the Wildlife Conservation Society (WCS) and the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "license": "None | The Wildlife Conservation Society (WCS) and Trustees of Columbia University in the City of New York hold the copyright of this dataset. Users are prohibited from any commercial, non-free resale, or redistribution without explicit written permission from WCS or CIESIN. Users should acknowledge WCS and CIESIN as the source used in the creation of any reports, publications, new data sets, derived products, or services resulting from the use of this data set. WCS or CIESIN also request reprints of any publications and notification of any redistributing efforts.",
+    "keywords": [
+      "Africa",
+      "Asia",
+      "Biota",
+      "Conservation",
+      "Continent",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "Environment",
+      "Europe",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Use",
+      "North America",
+      "Oceania",
+      "Planning/Cadastre",
+      "Remote Sensing",
+      "South America",
+      "Sustainability",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4M61H5F",
+    "sci:citation": "Wildlife Conservation Society - WCS, and Center for International Earth Science Information Network - CIESIN - Columbia University. 2005-12-31. Last of the Wild Project, Version 2, 2005 (LWP-2): Global Human Footprint Dataset (Geographic). Edition 2.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "2.00; 2; 2.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Conservation",
+    "ciesin:tags": [
+      "Africa",
+      "Asia",
+      "Biota",
+      "Conservation",
+      "Continent",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "Environment",
+      "Europe",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Use",
+      "North America",
+      "Oceania",
+      "Planning/Cadastre",
+      "Remote Sensing",
+      "South America",
+      "Sustainability",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/H4M61H5F",
+      "10.7910/DVN/28AOIR"
+    ],
+    "ciesin:authors": [
+      "Wildlife Conservation Society - WCS, and Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America",
+      "Oceania",
+      "South America"
+    ],
+    "ciesin:purpose": "To provide an updated map of anthropogenic impacts on the environment in geographic projection which can be used in wildlife conservation planning, natural resource management, and research on human-environment interactions.",
+    "ciesin:publication_date": "2005-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4M61H5F",
+      "https://doi.org/10.7927/H4GF0RFQ",
+      "https://doi.org/10.7927/H4348H83",
+      "https://doi.org/10.7927/H4ZC80SS",
+      "https://doi.org/10.7927/H4BP00QC",
+      "https://doi.org/10.7927/H46W980H",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F28AOIR",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550196939-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "wildareas-v2-human-footprint-geographic.xml",
+    "datetime": null,
+    "start_datetime": "1995-01-01T00:00:00Z",
+    "end_datetime": "2004-12-31T00:00:00Z",
+    "ciesin:temporal_start": "1995-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2004-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4m61h5f.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4M61H5F",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/28AOIR",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4m61h5f": {
+      "href": "https://doi.org/10.7927/H4M61H5F",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4M61H5F",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H4M61H5F",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "28aoir": {
+      "href": "https://doi.org/10.7910/DVN/28AOIR",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/28AOIR",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/28AOIR",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F28AOIR",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/28AOIR",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815542": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815542",
+      "type": "application/zip",
+      "title": "hfp-africa-geo-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6929970,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815542",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815545": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815545",
+      "type": "application/zip",
+      "title": "hfp-asia-geo-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8798856,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815545",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815543": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815543",
+      "type": "application/zip",
+      "title": "hfp-europe-geo-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2231867,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815543",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815544": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815544",
+      "type": "application/zip",
+      "title": "hfp-global-geo-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 26698093,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815544",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815540": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815540",
+      "type": "application/zip",
+      "title": "hfp-n-america-geo-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6536427,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815540",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815541": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815541",
+      "type": "application/zip",
+      "title": "hfp-oceania-geo-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4708502,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815541",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815546": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815546",
+      "type": "application/zip",
+      "title": "hfp-s-america-geo-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7048662,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815546",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14222303": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222303",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12614,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14222303",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3550196939-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550196939-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/H4M61H5F",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4M61H5F",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550196939-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4M61H5F",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "hfp-world-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/wildareas-v2/wildareas-v2-human-footprint-geographic/hfp-world-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "hfp-world-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4gf0rfq": {
+      "href": "https://doi.org/10.7927/H4GF0RFQ",
+      "type": "text/html",
+      "title": "H4GF0RFQ",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4348h83": {
+      "href": "https://doi.org/10.7927/H4348H83",
+      "type": "text/html",
+      "title": "H4348H83",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4zc80ss": {
+      "href": "https://doi.org/10.7927/H4ZC80SS",
+      "type": "text/html",
+      "title": "H4ZC80SS",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4bp00qc": {
+      "href": "https://doi.org/10.7927/H4BP00QC",
+      "type": "text/html",
+      "title": "H4BP00QC",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h46w980h": {
+      "href": "https://doi.org/10.7927/H46W980H",
+      "type": "text/html",
+      "title": "H46W980H",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -179.999993,
+    -89.918972,
+    180.0,
+    89.930957
+  ]
+}

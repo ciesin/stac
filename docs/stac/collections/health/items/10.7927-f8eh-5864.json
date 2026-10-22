@@ -1,0 +1,477 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-f8eh-5864",
+  "collection": "health",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          17.0
+        ],
+        [
+          -65.0,
+          17.0
+        ],
+        [
+          -65.0,
+          72.0
+        ],
+        [
+          -180.0,
+          72.0
+        ],
+        [
+          -180.0,
+          17.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Daily and Annual NO2 Concentrations for the Contiguous United States, 1-km Grids, v1 (2000 - 2016)",
+    "description": "The Daily and Annual NO2 Concentrations for the Contiguous United States, 1-km Grids, v1 (2000-2016) data set contains daily predictions of Nitrogen Dioxide (NO2) concentrations at a high resolution (1 km x 1 km grid cells) for the years 2000 to 2016. An ensemble modeling framework was used to assess NO2 levels with high accuracy, which combined estimates from three machine learning models (neural network, random forest, and gradient boosting), with a generalized additive model. Predictor variables included NO2 column concentrations from satellites, land-use variables, meteorological variables, predictions from two chemical transport models, GEOS-Chem and the U.S. Environmental Protection Agency (EPA) Community Multiscale Air Quality Modeling System (CMAQ), along with other ancillary variables. The annual predictions were calculated by averaging the daily predictions for each year in each grid cell. The ensemble produced a cross-validated R-squared value of 0.79 overall, a spatial R-squared value of 0.84, and a temporal R-squared value of 0.73.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided",
+    "keywords": [
+      "Country",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > NITROGEN COMPOUNDS > NITROGEN DIOXIDE",
+      "Environment",
+      "Health",
+      "United States of America",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/F8EH-5864",
+    "sci:citation": "Di, Q., Y. Wei, A. Shtein, C. Hultquist, X. Xing, H. Amini, L. Shi, I. Kloog, R. Silvern, J. T. Kelly, M. B. Sabath, C. Choirat, P. Koutrakis, A. Lyapustin, Y. Wang, L. J. Mickley, and J. Schwartz. 2022-06-21. Daily and Annual NO2 Concentrations for the Contiguous United States, 1-km Grids, v1 (2000 - 2016). Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 1",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Health",
+    "ciesin:tags": [
+      "Country",
+      "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY > NITROGEN COMPOUNDS > NITROGEN DIOXIDE",
+      "Environment",
+      "Health",
+      "United States of America",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/F8EH-5864",
+      "10.7910/DVN/KLHLJS"
+    ],
+    "ciesin:authors": [
+      "Di, Q., Y. Wei, A. Shtein, C. Hultquist, X. Xing, H. Amini, L. Shi, I. Kloog, R. Silvern, J. T. Kelly, M. B. Sabath, C. Choirat, P. Koutrakis, A. Lyapustin, Y. Wang, L. J. Mickley, and J. Schwartz",
+      "Di, Q., H. Amini, L. Shi, I. Kloog, R. Silvern, J. T. Kelly, M. B. Sabath, C. Choirat, P. Koutrakis, A. Lyapustin, Y. Wang, L. J. Mickley, and J. Schwartz"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "United States of America"
+    ],
+    "ciesin:purpose": "To provide daily and annual Nitrogen Dioxide (NO2) concentration data in the U.S. at a resolution of 1 km (about 30 arc-seconds) for public health research to respectively estimate short- and long-term effects on human health, and for other related research.",
+    "ciesin:publication_date": "2022-06-21T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/f8eh-5864",
+      "https://doi.org/10.1021/acs.est.9b03358",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FKLHLJS",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540930164-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "aqdh-no2-concentrations-contiguous-us-1-km-2000-2016.xml",
+    "datetime": null,
+    "start_datetime": "2000-01-01T00:00:00Z",
+    "end_datetime": "2016-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2000-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2016-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-f8eh-5864.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/F8EH-5864",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/KLHLJS",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "f8eh-5864": {
+      "href": "https://doi.org/10.7927/F8EH-5864",
+      "type": "text/html",
+      "title": "DOI 10.7927/F8EH-5864",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/F8EH-5864",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "klhljs": {
+      "href": "https://doi.org/10.7910/DVN/KLHLJS",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/KLHLJS",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/KLHLJS",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FKLHLJS",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/KLHLJS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13685371": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13685371",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2000.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42753732324,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13685371",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13685369": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13685369",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2001.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42605269433,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13685369",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13685370": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13685370",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2002.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42657153192,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13685370",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13685368": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13685368",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2003.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42699793486,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13685368",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13726723": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13726723",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2004.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42721287210,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13726723",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13726722": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13726722",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2005.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42703945670,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13726722",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13726724": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13726724",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2006.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42812607761,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13726724",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13726725": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13726725",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2007.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42859334840,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13726725",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13913871": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13913871",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2008.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42887372140,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13913871",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13913869": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13913869",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2009.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42690247299,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13913869",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13913868": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13913868",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2010.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42897728279,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13913868",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13913870": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13913870",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2011.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42834029856,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13913870",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13955914": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13955914",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2012.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42830056132,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13955914",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13955909": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13955909",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2013.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42752628164,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13955909",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13955911": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13955911",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2014.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42807445414,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13955911",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13955910": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13955910",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2015.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42789617374,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13955910",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13955912": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13955912",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-2016.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 43003560298,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13955912",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13955913": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13955913",
+      "type": "application/zip",
+      "title": "aqdh-no2-concentrations-contiguous-us-1-km-annual.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1981217429,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "13955913",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14171088": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14171088",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11846,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14171088",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540930164-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540930164-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/F8EH-5864",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "aqdh-no2-concentrations-contiguous-us-1-km-2000-2016-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/aqdh-no2-concentrations-contiguous-us-1-km-2000-2016-readme.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/F8EH-5864",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540930164-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/F8EH-5864",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/aqdh-no2-concentrations-contiguous-us-1-km-2000-2016/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "acs.est.9b03358": {
+      "href": "https://doi.org/10.1021/acs.est.9b03358",
+      "type": "text/html",
+      "title": "acs.est.9b03358",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    17.0,
+    -65.0,
+    72.0
+  ]
+}

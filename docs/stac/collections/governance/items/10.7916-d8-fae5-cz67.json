@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8-fae5-cz67",
+  "collection": "governance",
+  "geometry": null,
+  "properties": {
+    "title": "A Portfolio Approach to a Sustainable Business Model for Scientific Data Stewardship",
+    "description": "Examination of sustainable business models is conducted to identify opportunities for ensuring continuing support of scientific data centers and other digital repositories that are responsible for the stewardship of resources to support science and scholarship. Based on a typology of sustainable approaches for scientific data stewardship, a portfolio approach is proposed for repositories that are seeking to improve the sustainability of their business models. Such a diversified approach should not only support current operational services but also reduce the risks to long-term data stewardship.",
+    "license": "other",
+    "keywords": [
+      "Governance"
+    ],
+    "providers": [
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8-fae5-cz67",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8-fae5-cz67"
+    ],
+    "ciesin:authors": [
+      "Downs, Robert R.",
+      "Chen, Robert S."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "10.7916/d8-fae5-cz67"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8-fae5-cz67.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8-fae5-cz67",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8-fae5-cz67": {
+      "href": "https://doi.org/10.7916/d8-fae5-cz67",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8-fae5-cz67",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8-fae5-cz67",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-a2gk-tt87/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/d8-a2gk-tt87/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-rdw3-9k16/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 2",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/d8-rdw3-9k16/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

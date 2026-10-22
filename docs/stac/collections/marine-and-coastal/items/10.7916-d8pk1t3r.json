@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8pk1t3r",
+  "collection": "marine-and-coastal",
+  "geometry": null,
+  "properties": {
+    "title": "Landsat-Derived Estimates of Mangrove Extents in the Sierra Leone Coastal Landscape Complex during 1990–2016",
+    "description": "This study provides the first assessment of decadal changes in mangrove extents in Sierra Leone. While significant advances have been made in mangrove mapping using remote sensing, no study has documented long-term changes in mangrove extents in Sierra Leone—one of the most vulnerable countries in West Africa. Such understanding is critical for devising regional management strategies that can support local livelihoods. We utilize multi-date Landsat data and cloud computational techniques to quantify spatiotemporal changes in land cover, with focus on mangrove ecosystems, for 1990–2016 along the coast of Sierra Leone. We specifically focus on four estuaries—Scarcies, Sierra Leone, Yawri Bay, and Sherbro. We relied on the k-means approach for an unsupervised classification, and validated the classified map from 2016 using ground truth data collected from Sentinel-2 and high-resolution images and during field research (accuracy: 95%). Our findings indicate that the Scarcies river estuary witnessed the greatest mangrove loss since 1990 (45%), while the Sierra Leone river estuary experienced mangrove gain over the last 26 years (22%). Overall, the Sierra Leone coast lost 25% of its mangroves between 1990 and 2016, with the lowest coverage in 2000, during the period of civil war (1991–2002). However, natural mangrove dynamics, as supported by field observations, indicate the potential for regeneration and sustainability under carefully constructed management strategies.",
+    "license": "other",
+    "keywords": [
+      "Marine and Coastal"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8pk1t3r",
+    "ciesin:resource_type": "article",
+    "ciesin:category": "Marine and Coastal",
+    "ciesin:tags": [
+      "Marine and Coastal"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8pk1t3r"
+    ],
+    "ciesin:authors": [
+      "Mondal, Pinki",
+      "Trzaska, Sylwia A.",
+      "De Sherbinin, Alexander M."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8PK1T3R",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8JT12CD/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8pk1t3r.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8pk1t3r",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8pk1t3r": {
+      "href": "https://doi.org/10.7916/d8pk1t3r",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8pk1t3r",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8pk1t3r",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8JT12CD/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/D8JT12CD/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

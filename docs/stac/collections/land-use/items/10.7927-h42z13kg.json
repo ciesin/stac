@@ -1,0 +1,739 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h42z13kg",
+  "collection": "land-use",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Gridded Population of the World, Version 4 (GPWv4): Data Quality Indicators, Revision 11",
+    "description": "The Gridded Population of the World, Version 4 (GPWv4): Data Quality Indicators, Revision 11 consists of three data layers created to provide context for the population count and density rasters, and explicit information on the spatial precision of the input boundary data. The Data Context raster explains pixels with a \"0\" population estimate in the population count and density rasters based on information included in the census documents, such as areas that are part of a national park, areas that have no households, etc. The Water Mask raster distinguishes between pixels that are completely water and/or ice (Total Water Pixels), pixels that contain water and land (Partial Water Pixels), pixels that are completely land (Total Land Pixels), and pixels that are completely ocean water (Ocean Pixels). The Mean Administrative Unit Area raster represents the mean input unit size in square kilometers and provides a quantitative surface that indicates the size of the input unit(s) from which population count and density rasters are created. The data files were produced as global rasters at 30 arc-second (~1 km at the equator) resolution. To enable faster global processing, and in support of research communities, the 30 arc-second data were aggregated to 2.5 arc-minute, 15 arc-minute, 30 arc-minute and 1 degree resolutions.",
+    "license": "None | This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Continent",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > BOUNDARIES",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Inland Waters",
+      "Land Use",
+      "Water",
+      "Earth and Environmental Sciences",
+      "latest"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H42Z13KG",
+    "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University. 2018-12-31. Gridded Population of the World, Version 4 (GPWv4): Data Quality Indicators, Revision 11. Edition 4.11. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "4.11; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Land Use",
+    "ciesin:tags": [
+      "Continent",
+      "Country",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > BOUNDARIES",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Inland Waters",
+      "Land Use",
+      "Water",
+      "Earth and Environmental Sciences",
+      "latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:dois": [
+      "10.7927/H42Z13KG",
+      "10.7910/DVN/JPEE8F"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide context for the population count and density rasters, and explicit information on the spatial precision of the input boundary data.",
+    "ciesin:publication_date": "2018-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H42Z13KG",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://doi.org/10.7927/H49C6VBN",
+      "https://doi.org/10.1080/23754931.2015.1014272",
+      "https://doi.org/10.7927/H42R3PN3",
+      "https://doi.org/10.7927/H4BC3WMT",
+      "https://doi.org/10.7927/H4Z60M4Z",
+      "https://doi.org/10.7927/H4TD9VDP",
+      "https://doi.org/10.7927/H4JW8BX5",
+      "https://doi.org/10.7927/H49C6VHW",
+      "https://doi.org/10.7927/H45Q4T5F",
+      "https://doi.org/10.7927/H46M34XX",
+      "https://doi.org/10.7927/H4PN93PB",
+      "https://doi.org/10.7927/H4F47M65",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FJPEE8F"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse"
+    ],
+    "ciesin:inventory_xml_location": "gpw-v4-data-quality-indicators-rev11.xml",
+    "datetime": null,
+    "start_datetime": "2010-07-01T00:00:00Z",
+    "end_datetime": "2010-07-01T00:00:00Z",
+    "ciesin:temporal_start": "2010-07-01T00:00:00Z",
+    "ciesin:temporal_end": "2010-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h42z13kg.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H42Z13KG",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/JPEE8F",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h42z13kg": {
+      "href": "https://doi.org/10.7927/H42Z13KG",
+      "type": "text/html",
+      "title": "DOI 10.7927/H42Z13KG",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H42Z13KG",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "jpee8f": {
+      "href": "https://doi.org/10.7910/DVN/JPEE8F",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/JPEE8F",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/JPEE8F",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FJPEE8F",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/JPEE8F",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812737": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812737",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_context_15_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39293,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812737",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812732": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812732",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_context_15_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 45083,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812732",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812722": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812722",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_context_1_deg_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6063,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812722",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812720": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812720",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_context_1_deg_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6719,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812720",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812723": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812723",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_context_2pt5_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 677930,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812723",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812710": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812710",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_context_2pt5_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 557042,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812710",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812712": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812712",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_context_30_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14641,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812712",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812716": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812716",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_context_30_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16875,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812716",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812731": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812731",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_context_30_sec_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11517349,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812731",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812713": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812713",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_context_30_sec_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7066607,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812713",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812721": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812721",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_mean_adminunitarea_15_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 834599,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812721",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812728": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812728",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_mean_adminunitarea_15_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1007948,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812728",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812726": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812726",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_mean_adminunitarea_1_deg_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 79219,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812726",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812735": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812735",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_mean_adminunitarea_1_deg_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 87234,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812735",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812724": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812724",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_mean_adminunitarea_2pt5_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16008564,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812724",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812739": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812739",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_mean_adminunitarea_2pt5_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 21948752,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812739",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812736": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812736",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_mean_adminunitarea_30_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 256721,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812736",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812733": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812733",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_mean_adminunitarea_30_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 295370,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812733",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812717": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812717",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_mean_adminunitarea_30_sec_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 131596004,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812717",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812734": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812734",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_mean_adminunitarea_30_sec_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 284600185,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812734",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812727": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812727",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_watermask_15_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 56100,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812727",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812711": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812711",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_watermask_15_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 83593,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812711",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812719": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812719",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_watermask_1_deg_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5513,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812719",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812714": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812714",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_watermask_1_deg_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7598,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812714",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812729": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812729",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_watermask_2pt5_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1094338,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812729",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812715": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812715",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_watermask_2pt5_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1416269,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812715",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812730": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812730",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_watermask_30_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16547,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812730",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812718": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812718",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_watermask_30_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 23900,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812718",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812738": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812738",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_watermask_30_sec_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11991870,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812738",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812725": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812725",
+      "type": "application/zip",
+      "title": "gpw-v4-data-quality-indicators-rev11_watermask_30_sec_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16006033,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11812725",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14172524": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14172524",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13232,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14172524",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "docs": {
+      "href": "http://sedac.ciesin.columbia.edu/data/set/gpw-v4-data-quality-indicators-rev11/docs",
+      "type": "text/html",
+      "title": "docs",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "gpw-v4-data-quality-indicators-rev11-data-context-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/gpw-v4/gpw-v4-data-quality-indicators-rev11/gpw-v4-data-quality-indicators-rev11-data-context-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "gpw-v4-data-quality-indicators-rev11-data-context-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-data-quality-indicators-rev11/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-data-quality-indicators-rev11/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-data-quality-indicators-rev11/maps/services",
+      "type": "text/html",
+      "title": "services",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h49c6vbn": {
+      "href": "https://doi.org/10.7927/H49C6VBN",
+      "type": "text/html",
+      "title": "H49C6VBN",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "23754931.2015.1014272": {
+      "href": "https://doi.org/10.1080/23754931.2015.1014272",
+      "type": "text/html",
+      "title": "23754931.2015.1014272",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h42r3pn3": {
+      "href": "https://doi.org/10.7927/H42R3PN3",
+      "type": "text/html",
+      "title": "H42R3PN3",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4bc3wmt": {
+      "href": "https://doi.org/10.7927/H4BC3WMT",
+      "type": "text/html",
+      "title": "H4BC3WMT",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4z60m4z": {
+      "href": "https://doi.org/10.7927/H4Z60M4Z",
+      "type": "text/html",
+      "title": "H4Z60M4Z",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4td9vdp": {
+      "href": "https://doi.org/10.7927/H4TD9VDP",
+      "type": "text/html",
+      "title": "H4TD9VDP",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4jw8bx5": {
+      "href": "https://doi.org/10.7927/H4JW8BX5",
+      "type": "text/html",
+      "title": "H4JW8BX5",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h49c6vhw": {
+      "href": "https://doi.org/10.7927/H49C6VHW",
+      "type": "text/html",
+      "title": "H49C6VHW",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h45q4t5f": {
+      "href": "https://doi.org/10.7927/H45Q4T5F",
+      "type": "text/html",
+      "title": "H45Q4T5F",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h46m34xx": {
+      "href": "https://doi.org/10.7927/H46M34XX",
+      "type": "text/html",
+      "title": "H46M34XX",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4pn93pb": {
+      "href": "https://doi.org/10.7927/H4PN93PB",
+      "type": "text/html",
+      "title": "H4PN93PB",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4f47m65": {
+      "href": "https://doi.org/10.7927/H4F47M65",
+      "type": "text/html",
+      "title": "H4F47M65",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

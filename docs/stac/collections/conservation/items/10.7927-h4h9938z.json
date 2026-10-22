@@ -1,0 +1,317 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4h9938z",
+  "collection": "conservation",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -179.99,
+          -65.25
+        ],
+        [
+          180.0,
+          -65.25
+        ],
+        [
+          180.0,
+          89.9
+        ],
+        [
+          -179.99,
+          89.9
+        ],
+        [
+          -179.99,
+          -65.25
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Last of the Wild Project, Version 3 (LWP-3): 1993 Human Footprint, 2018 Release",
+    "description": "The 1993 Human Footprint, 2018 Release provides a global map of the cumulative human pressure on the environment in 1993, at a spatial resolution of ~1 km. The human pressure is measured using eight variables including built-up environments, population density, electric power infrastructure, crop lands, pasture lands, roads, railways, and navigable waterways. The 1993 Human Footprint was developed to allow inter-comparability with the 2009 Human Footprint. The data set is produced by Venter et.al., and is available in the Mollweide projection.",
+    "license": "None | Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Conservation",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Society",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE",
+      "latest"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4H9938Z",
+    "sci:citation": "Venter, O., E. W. Sanderson, A. Magrach, J. R. Allan, J. Beher, K. R. Jones, H. P. Possingham, W. F. Laurance, P. Wood, B. M. Fekete, M. A. Levy, and J. E. Watson. 2018-08-10. Last of the Wild Project, Version 3 (LWP-3): 1993 Human Footprint, 2018 Release. Edition 2018.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "2018.00; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Conservation",
+    "ciesin:tags": [
+      "Conservation",
+      "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS",
+      "EARTH SCIENCE > LAND SURFACE > LAND USE/LAND COVER",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Society",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE",
+      "latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:dois": [
+      "10.7927/H4H9938Z",
+      "10.7910/DVN/BX3WJU"
+    ],
+    "ciesin:authors": [
+      "Venter, O., E. W. Sanderson, A. Magrach, J. R. Allan, J. Beher, K. R. Jones, H. P. Possingham, W. F. Laurance, P. Wood, B. M. Fekete, M. A. Levy, and J. E. Watson"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide a map of cumulative human pressure on the environment in 1993.",
+    "ciesin:publication_date": "2018-08-10T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4H9938Z",
+      "https://doi.org/10.1038/ncomms12558",
+      "https://doi.org/10.7927/H46T0JQ4",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FBX3WJU",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540911030-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "wildareas-v3-1993-human-footprint.xml",
+    "datetime": null,
+    "start_datetime": "1993-01-01T00:00:00Z",
+    "end_datetime": "1993-12-31T00:00:00Z",
+    "ciesin:temporal_start": "1993-01-01T00:00:00Z",
+    "ciesin:temporal_end": "1993-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4h9938z.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4H9938Z",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/BX3WJU",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4h9938z": {
+      "href": "https://doi.org/10.7927/H4H9938Z",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4H9938Z",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H4H9938Z",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "bx3wju": {
+      "href": "https://doi.org/10.7910/DVN/BX3WJU",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/BX3WJU",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/BX3WJU",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FBX3WJU",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/BX3WJU",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14222309": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222309",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11150,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14222309",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815578": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815578",
+      "type": "application/zip",
+      "title": "wildareas-v3-1993-human-footprint-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 43817381,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11815578",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540911030-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540911030-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/H4H9938Z",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "wildareas-v3-1993-human-footprint-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/wildareas-v3-1993-human-footprint-citation2.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4H9938Z",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v3-1993-human-footprint/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4H9938Z",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540911030-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4H9938Z",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "wildareas-v3-1993-human-footprint-global-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/wildareas-v3/wildareas-v3-1993-human-footprint/wildareas-v3-1993-human-footprint-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "wildareas-v3-1993-human-footprint-global-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v3-1993-human-footprint/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v3-1993-human-footprint/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "ncomms12558": {
+      "href": "https://doi.org/10.1038/ncomms12558",
+      "type": "text/html",
+      "title": "ncomms12558",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h46t0jq4": {
+      "href": "https://doi.org/10.7927/H46T0JQ4",
+      "type": "text/html",
+      "title": "H46T0JQ4",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -179.99,
+    -65.25,
+    180.0,
+    89.9
+  ]
+}

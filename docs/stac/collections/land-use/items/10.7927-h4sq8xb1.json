@@ -1,0 +1,667 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4sq8xb1",
+  "collection": "land-use",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -55.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Urban Landsat: Cities from Space",
+    "description": "The Urban Landsat: Cities from Space data set contains images for 66 urban areas and the raw, underlying data for 28 of these places. Each image shows a Landsat false color composite in UTM projection. The R/G/B layers correspond to TM/ETM+ bands 7/4/2. Each pixel is 30x30 meters in area and most images are 30x30 km in area. A 2% linear stretch has been applied to the images. The Landsat data files contain six reflected bands of calibrated exoatmospheric reflectance stored in ENVI band sequential (BSQ) format. Geographic coordinates are included in the header files. The data files contain 1000x1000x6 4 byte floating point numbers as indicated in the header files.",
+    "license": "None | The Trustees of Columbia University hold the copyright of this data set. Users are prohibited from any commercial sale or free redistribution without explicit written permission from CIESIN. Users should acknowledge CIESIN as the source used in the creation of any reports, publications, new data sets, derived products, or services resulting from the use of this data set. CIESIN also requests reprints of any publications and notification of any redistributing efforts.",
+    "keywords": [
+      "Afghanistan",
+      "Austria",
+      "Brazil",
+      "Canada",
+      "China",
+      "Country",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > HUMAN SETTLEMENTS > URBAN AREAS",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Haiti",
+      "Hungary",
+      "Imagery/Base Maps/Earth Cover",
+      "India",
+      "Land Use",
+      "Lebanon",
+      "Nepal",
+      "Nigeria",
+      "North Korea",
+      "Remote Sensing",
+      "Russia",
+      "Syria",
+      "Taiwan",
+      "United States of America",
+      "Urban",
+      "Vietnam",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4SQ8XB1",
+    "sci:citation": "Small, C. 2006-12-31. Urban Landsat: Cities from Space. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 1",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Land Use",
+    "ciesin:tags": [
+      "Afghanistan",
+      "Austria",
+      "Brazil",
+      "Canada",
+      "China",
+      "Country",
+      "Dominican Republic",
+      "EARTH SCIENCE > HUMAN DIMENSIONS > HUMAN SETTLEMENTS > URBAN AREAS",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Haiti",
+      "Hungary",
+      "Imagery/Base Maps/Earth Cover",
+      "India",
+      "Land Use",
+      "Lebanon",
+      "Nepal",
+      "Nigeria",
+      "North Korea",
+      "Remote Sensing",
+      "Russia",
+      "Syria",
+      "Taiwan",
+      "United States of America",
+      "Urban",
+      "Vietnam",
+      "Earth and Environmental Sciences",
+      "EARTH SCIENCE"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7927/H4SQ8XB1",
+      "10.7910/DVN/38DJL1"
+    ],
+    "ciesin:authors": [
+      "Small, C"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Afghanistan",
+      "Austria",
+      "Brazil",
+      "Canada",
+      "China",
+      "Dominican Republic",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Haiti",
+      "India",
+      "Lebanon",
+      "Nepal",
+      "Nigeria",
+      "North Korea",
+      "Russia",
+      "Syria",
+      "Taiwan",
+      "United States of America",
+      "Vietnam",
+      "Hungary"
+    ],
+    "ciesin:purpose": "To serve a wide user community by providing composite Landsat images and raw data for urban areas that can be used in interdisciplinary studies of remote sensing and the environment.",
+    "ciesin:publication_date": "2006-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4SQ8XB1",
+      "https://doi.org/10.1080/01431160310001654950",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F38DJL1",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540929138-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "ulandsat-cities-from-space.xml",
+    "datetime": null,
+    "start_datetime": "1999-01-01T00:00:00Z",
+    "end_datetime": "2003-12-31T00:00:00Z",
+    "ciesin:temporal_start": "1999-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2003-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4sq8xb1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4SQ8XB1",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/38DJL1",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4sq8xb1": {
+      "href": "https://doi.org/10.7927/H4SQ8XB1",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4SQ8XB1",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source_identifier": "10.7927/H4SQ8XB1",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "38djl1": {
+      "href": "https://doi.org/10.7910/DVN/38DJL1",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/38DJL1",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source_identifier": "10.7910/DVN/38DJL1",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F38DJL1",
+      "type": "application/xhtml+xml",
+      "title": "Harvard Dataverse record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:source_identifier": "10.7910/DVN/38DJL1",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835902": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835902",
+      "type": "application/zip",
+      "title": "bangalore.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4219603,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835902",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835897": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835897",
+      "type": "application/zip",
+      "title": "beirut.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6004059,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835897",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835887": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835887",
+      "type": "application/zip",
+      "title": "budapest.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5622221,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835887",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835896": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835896",
+      "type": "application/zip",
+      "title": "cairo.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5438924,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835896",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835906": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835906",
+      "type": "application/zip",
+      "title": "calcutta.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4855764,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835906",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835907": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835907",
+      "type": "application/zip",
+      "title": "calgary.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6150014,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835907",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835883": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835883",
+      "type": "application/zip",
+      "title": "chicago.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 20303395,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835883",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835885": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835885",
+      "type": "application/zip",
+      "title": "damascus.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6556298,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835885",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835904": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835904",
+      "type": "application/zip",
+      "title": "guangzhou.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6155129,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835904",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835890": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835890",
+      "type": "application/zip",
+      "title": "hanoi.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4945916,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835890",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835882": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835882",
+      "type": "application/zip",
+      "title": "kabul.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5341597,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835882",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835895": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835895",
+      "type": "application/zip",
+      "title": "kathmandu.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5565382,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835895",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835889": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835889",
+      "type": "application/zip",
+      "title": "lagos.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3743160,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835889",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14222254": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222254",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11276,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "14222254",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835884": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835884",
+      "type": "application/zip",
+      "title": "miami.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5809898,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835884",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835903": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835903",
+      "type": "application/zip",
+      "title": "port-au-prince.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5864075,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835903",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835888": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835888",
+      "type": "application/zip",
+      "title": "pyongyang.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5844597,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835888",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835908": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835908",
+      "type": "application/zip",
+      "title": "quito.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6120472,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835908",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835894": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835894",
+      "type": "application/zip",
+      "title": "san-francisco.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37952291,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835894",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835900": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835900",
+      "type": "application/zip",
+      "title": "san-salvador.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5454735,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835900",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835892": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835892",
+      "type": "application/zip",
+      "title": "santo-domingo.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6167604,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835892",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835893": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835893",
+      "type": "application/zip",
+      "title": "sao-paulo.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 25055877,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835893",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835891": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835891",
+      "type": "application/zip",
+      "title": "shanghai.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5217057,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835891",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835901": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835901",
+      "type": "application/zip",
+      "title": "st-petersburg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5080765,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835901",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835905": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835905",
+      "type": "application/zip",
+      "title": "taipei.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6069900,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835905",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835898": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835898",
+      "type": "application/zip",
+      "title": "tianjin.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5184859,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835898",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835899": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835899",
+      "type": "application/zip",
+      "title": "vancouver.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5293320,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835899",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835886": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835886",
+      "type": "application/zip",
+      "title": "vienna.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5860085,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:source_identifier": "11835886",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540929138-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929138-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:source_identifier": "10.7927/H4SQ8XB1",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "ulandsat-cities-from-space-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ulandsat-cities-from-space-citation2.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4SQ8XB1",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929138-ESDIS",
+      "type": "text/html",
+      "title": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source_identifier": "10.7927/H4SQ8XB1",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "atlanta-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ulandsat/ulandsat-cities-from-space/atlanta-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "atlanta-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ulandsat-cities-from-space/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ulandsat-cities-from-space/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "01431160310001654950": {
+      "href": "https://doi.org/10.1080/01431160310001654950",
+      "type": "text/html",
+      "title": "01431160310001654950",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -55.0,
+    180.0,
+    90.0
+  ]
+}

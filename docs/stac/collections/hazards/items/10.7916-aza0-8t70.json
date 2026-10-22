@@ -1,0 +1,65 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-aza0-8t70",
+  "collection": "hazards",
+  "geometry": null,
+  "properties": {
+    "title": "Estimating population and urban areas at risk of coastal hazards, 1990–2015: how data choices matter",
+    "license": "other",
+    "keywords": [
+      "Hazards"
+    ],
+    "sci:doi": "10.7916/aza0-8t70",
+    "ciesin:category": "Hazards",
+    "ciesin:tags": [
+      "Hazards"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/aza0-8t70"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-aza0-8t70.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/aza0-8t70",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "aza0-8t70": {
+      "href": "https://doi.org/10.7916/aza0-8t70",
+      "type": "text/html",
+      "title": "DOI 10.7916/aza0-8t70",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/aza0-8t70",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    }
+  }
+}

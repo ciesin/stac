@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8q52nfq",
+  "collection": "remote-sensing",
+  "geometry": null,
+  "properties": {
+    "title": "Integrating Remote Sensing Data with Socioeconomic Data: Sensitivity, Confidentiality, Privacy, and Intellectual Property Challenges",
+    "description": "The integration of remote sensing data with socioeconomic data presents new opportunities for scientific discovery and analysis that can improve understanding of the environmental sustainability issues that society faces today. Such integrated data products and services can be used to study interdisciplinary issues by investigators representing various disciplines. In addition to the scientific benefits that can be attained by integrating remote sensing data with socioeconomic data, the integration of these data also present challenges that reflect the complex issues that arise when sharing and integrating different types of science data. When integrating one or more datasets that contain sensitive information, data producers need to be aware of the limitations that have been placed upon the data to protect private property, species or other inhabitants that reside on the property, or restricted information about a particular location. Similarly, confidentiality and privacy issues are a concern for data that have been collected about individual humans and families who have volunteered to serve as human research subjects or whose personal information may have been collected without their knowledge. In addition, intellectual property rights that are associated with a particular dataset may prevent integration with other data or pose constraints on the use of the resulting data products or services. These challenges will be described along with approaches that can be applied to address them when planning projects that involve the integration of remote sensing data with socioeconomic data.",
+    "license": "other",
+    "keywords": [
+      "Remote Sensing"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8q52nfq",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Remote Sensing",
+    "ciesin:tags": [
+      "Remote Sensing"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8q52nfq"
+    ],
+    "ciesin:authors": [
+      "Downs, Robert R.",
+      "Adamo, Susana Beatriz"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8Q52NFQ",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8W95JTG/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8q52nfq.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8q52nfq",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8q52nfq": {
+      "href": "https://doi.org/10.7916/d8q52nfq",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8q52nfq",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8q52nfq",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8W95JTG/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/D8W95JTG/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

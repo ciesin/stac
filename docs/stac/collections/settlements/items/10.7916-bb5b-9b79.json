@@ -1,0 +1,131 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-bb5b-9b79",
+  "collection": "settlements",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 COD - Settlement Extents v4.0",
+    "description": "The GRID3 COD - Settlement Extents v4.0 dataset consists of a geographic representation of settlements in the Democratic Republic of the Congo. Settlement extents are further delineated into settlement blocks nested within urban and small settlement areas, generated from integrated road, railway, river, settlement extents, building footprints, and remote-sensing inputs. Each block is enriched with morphological, environmental, and building metrics. This version supersedes GRID3 COD - Settlement Extents v3.1 <https://doi.org/10.7916/d6gy-yh28 >. The following changes were made: Creation of blocks in urban and semi-urban areas; Removal of hamlets and edge-blocks with zero-building count unless settlement has been confirmed through fieldwork; and Change of data schema Keywords: Settlements",
+    "license": "other",
+    "keywords": [
+      "Settlements",
+      "latest"
+    ],
+    "providers": [
+      {
+        "name": "Center for Integrated Earth System Information",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/BB5B-9B79",
+    "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University. 2026. GRID3 COD - Settlement Extents v4.0. New York: Columbia University. https://doi.org/10.7916/bb5b-9b79. Accessed <DAY MONTH YEAR>.",
+    "version": "4.0",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": [
+      "Settlements",
+      "latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:dois": [
+      "10.7916/BB5B-9B79"
+    ],
+    "ciesin:authors": [
+      "Center for Integrated Earth System Information"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/bb5b-9b79",
+      "https://academiccommons.columbia.edu/doi/10.7916/b09z-pt34/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/baqh-yg06/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/n7b2-jd56/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "ciesin:inventory_xml_location": "grid3_cod_settlement_extents_v4.xml",
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-bb5b-9b79.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/BB5B-9B79",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "bb5b-9b79": {
+      "href": "https://doi.org/10.7916/BB5B-9B79",
+      "type": "text/html",
+      "title": "DOI 10.7916/BB5B-9B79",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/BB5B-9B79",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/b09z-pt34/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/b09z-pt34/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/baqh-yg06/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 2",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/baqh-yg06/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/n7b2-jd56/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 3",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/n7b2-jd56/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

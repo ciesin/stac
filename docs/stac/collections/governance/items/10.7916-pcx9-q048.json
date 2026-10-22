@@ -1,0 +1,83 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-pcx9-q048",
+  "collection": "governance",
+  "geometry": null,
+  "properties": {
+    "title": "Things Fall Apart: Lessons from a Defunded Data Repository",
+    "description": "This essay documents the last days of the NASA Socioeconomic Data and Applications Center (SEDAC), which was hosted by the Center for Integrated Earth System Information (CIESIN) at Columbia University from 1998-2025, with particular focus on CIESIN's data rescue efforts.",
+    "license": "other",
+    "keywords": [
+      "Governance"
+    ],
+    "providers": [
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/pcx9-q048",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/pcx9-q048"
+    ],
+    "ciesin:authors": [
+      "De Sherbinin, Alexander M."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "10.7916/pcx9-q048"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-pcx9-q048.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/pcx9-q048",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "pcx9-q048": {
+      "href": "https://doi.org/10.7916/pcx9-q048",
+      "type": "text/html",
+      "title": "DOI 10.7916/pcx9-q048",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/pcx9-q048",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    }
+  }
+}

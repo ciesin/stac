@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-pghj-qs26",
+  "collection": "governance",
+  "geometry": null,
+  "properties": {
+    "title": "SERVIR West Africa 2024 Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 5, R03 Requirement",
+    "description": "When preparing an application for CoreTrustSeal Certification, comparing the repository's responses among each of the requirements can be helpful for identifying capabilities of the repository that could be described and for ensuring consistency among the responses to the requirements. CoreTrustSeal requirement R03, Continuity of Service, provides an opportunity for the repository to describe how it plans to sustain its services over time, including plans for sustaining such services in the event that funding is discontinued.",
+    "license": "other",
+    "keywords": [
+      "Governance"
+    ],
+    "providers": [
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/pghj-qs26",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/pghj-qs26"
+    ],
+    "ciesin:authors": [
+      "Downs, Robert R."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "10.7916/pghj-qs26"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-pghj-qs26.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/pghj-qs26",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "pghj-qs26": {
+      "href": "https://doi.org/10.7916/pghj-qs26",
+      "type": "text/html",
+      "title": "DOI 10.7916/pghj-qs26",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/pghj-qs26",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/na8y-cm30/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/na8y-cm30/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

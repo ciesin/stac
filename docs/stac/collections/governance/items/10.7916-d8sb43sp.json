@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8sb43sp",
+  "collection": "governance",
+  "geometry": null,
+  "properties": {
+    "title": "Policy Recommendations for Institutions to Serve as Trustworthy Stewards of Research Data",
+    "description": "The Open Archival Information System (OAIS) Reference Model, published as ISO 14721, has been adopted as the “de facto” standard for systems that preserve data. ISO 16363, the standard for Audit And Certification Of Trustworthy Digital Repositories, is based on ISO 14721 and contains the criteria for auditing various kinds of repositories in terms of their potential to provide trustworthy services for data management and preservation. Institutions that manage repositories for research data need to attain compliance with ISO 16363 if they plan to serve as trustworthy digital repositories. As an initial step, institutions that operate repositories for managing and preserving research data should create and follow policies to address the ISO 16363 requirements.__Recommendations are offered for establishing and implementing policies within institutions that plan to serve as trustworthy repositories of research data holdings.",
+    "license": "other",
+    "keywords": [
+      "Governance"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8sb43sp",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8sb43sp"
+    ],
+    "ciesin:authors": [
+      "Downs, Robert R.",
+      "Giaretta, David",
+      "Hughes, J. Steven"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8SB43SP",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8T15C5H/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8sb43sp.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8sb43sp",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8sb43sp": {
+      "href": "https://doi.org/10.7916/d8sb43sp",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8sb43sp",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8sb43sp",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8T15C5H/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/D8T15C5H/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

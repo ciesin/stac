@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-d8q52nbc",
+  "collection": "governance",
+  "geometry": null,
+  "properties": {
+    "title": "Community Recommendations for Improving Sustainable Scientific Software Practices",
+    "description": "Multiple focus groups were conducted to elicit perspectives from members of the Earth science informatics community on the sustainability of scientific software. Recommendations that the participants offered for near-term community actions and activities are described.",
+    "license": "other",
+    "keywords": [
+      "Governance"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8q52nbc",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:dois": [
+      "10.7916/d8q52nbc"
+    ],
+    "ciesin:authors": [
+      "Downs, Robert R.",
+      "Lenhardt, W. Christopher",
+      "Robinson, Erin",
+      "Davis, Ethan",
+      "Weber, Nicholas"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8Q52NBC",
+      "https://academiccommons.columbia.edu/doi/10.7916/D88S4ZGT/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8q52nbc.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8q52nbc",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8q52nbc": {
+      "href": "https://doi.org/10.7916/d8q52nbc",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8q52nbc",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source_identifier": "10.7916/d8q52nbc",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "download": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D88S4ZGT/download",
+      "type": "text/html",
+      "title": "Academic Commons resource 1",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:source_identifier": "/doi/10.7916/D88S4ZGT/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}
