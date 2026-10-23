@@ -1,431 +1,397 @@
-const { createApp, nextTick } = Vue;
+import * as maplibregl from "https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.mjs";
+
+const { createApp, nextTick, markRaw } = Vue;
 
 createApp({
   data() {
     return {
-      items: [],
-      summary: null,
-      selected: null,
-      selectedItem: null,
-      query: "",
-      categoryFilter: "",
-      statusFilter: "",
-      sourceFilter: "",
-      roleFilter: "",
-      sortKey: "category",
-      showAllCategories: false,
-      page: 1,
-      pageSize: 24,
-      assetQuery: "",
-      assetSourceFilter: "",
-      assetRoleFilter: "",
-      loadingMessage: "Reading stac/items-index.json",
+      items: [], summary: null, page: "home", selectedIndex: null, selectedItem: null,
+      query: "", searchField: "all", categoryFilter: "", versionFilter: "",
+      resourceTypeFilter: "", sortBy: "title", resultPage: 1, resultPageSize: 20,
+      assetQuery: "", assetSubtype: "", assetSource: "", assetRole: "", assetPage: 1, assetPageSize: 10,
+      loading: true, loadError: "", mapInstance: null, mapReady: false, mapLoadPromise: null,
     };
   },
   computed: {
     categories() {
-      return [...new Set(this.items.map((item) => item.category || "Uncategorized"))].sort();
+      return [...new Set(this.items.map((item) => item.category || "Uncategorized"))].sort((a, b) => a.localeCompare(b));
     },
-    statuses() {
-      return [...new Set(this.items.map((item) => item.item_status || item.match_status).filter(Boolean))].sort();
+    resourceTypes() {
+      return [...new Set(this.items.map((item) => item.resource_type).filter(Boolean))].sort();
     },
-    assetSources() {
-      const sources = new Set();
-      this.items.forEach((item) => Object.keys(item.source_counts || {}).forEach((source) => sources.add(source)));
-      return [...sources].sort();
-    },
-    assetRoles() {
-      const roles = new Set();
-      this.items.forEach((item) => Object.keys(item.role_counts || {}).forEach((role) => roles.add(role)));
-      return [...roles].sort();
-    },
-    allAssets() {
-      return this.items.reduce((sum, item) => sum + Number(item.asset_count || 0), 0);
-    },
-    collectionCount() {
-      return this.categories.length;
-    },
-    unmatchedAssets() {
-      return Number(this.summary?.asset_rows_without_item_id_or_href || 0);
-    },
-    filteredItems() {
-      const q = this.query.toLowerCase();
-      let rows = this.items.filter((item) => {
-        const haystack = [
-          item.title,
-          item.description,
-          item.category,
-          item.nasa_doi,
-          item.harvard_doi,
-          item.sedac_doi,
-          item.collection,
-          ...(item.keywords || []),
-        ]
-          .filter(Boolean)
-          .join(" ")
-          .toLowerCase();
-        const itemStatus = item.item_status || item.match_status || "";
-        const hasSource = !this.sourceFilter || (item.source_counts || {})[this.sourceFilter];
-        const hasRole = !this.roleFilter || (item.role_counts || {})[this.roleFilter];
-        return (
-          (!q || haystack.includes(q)) &&
-          (!this.categoryFilter || item.category === this.categoryFilter) &&
-          (!this.statusFilter || itemStatus === this.statusFilter) &&
-          hasSource &&
-          hasRole
+    totalAssets() { return this.items.reduce((sum, item) => sum + Number(item.asset_count || 0), 0); },
+    currentCount() { return this.items.filter((item) => !item.version_status || item.version_status === "unknown" || item.version_status === "current").length; },
+    
+    categoryCards() {
+      return this.categories.map((name) => {
+        const rows = this.items.filter(
+          (item) => (item.category || "Uncategorized") === name
         );
-      });
 
+        return {
+          name,
+          count: rows.length,
+
+          assets: rows.reduce(
+            (sum, item) => sum + Number(item.asset_count || 0),
+            0
+          ),
+
+          current: rows.filter(
+            (item) => !item.version_status || item.version_status === "unknown" || item.version_status === "current"
+          ).length,
+
+          preview:
+            rows.find((item) => item.description)?.description?.slice(0, 105) || ""
+        };
+      }).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+    },
+
+    filteredItems() {
+      const needle = this.query.trim().toLocaleLowerCase();
+      const fields = {
+        title: ["title"], doi: ["dois"], tags: ["keywords", "tags"], description: ["description"],
+        authors: ["authors"], publishers: ["publishers"], providers: ["providers"], place: ["place"],
+        purpose: ["purpose"], citation: ["citation"], version: ["version"],
+      };
+      let rows = this.items.filter((item) => {
+        const selectedFields = this.searchField === "all" ? Object.keys(fields) : [this.searchField];
+        const haystack = selectedFields.flatMap((field) => fields[field] || [])
+          .map((key) => this.valueText(item[key])).join(" ").toLocaleLowerCase();
+        return (!needle || haystack.includes(needle))
+          && (!this.categoryFilter || item.category === this.categoryFilter)
+          && (!this.versionFilter || item.version_status === this.versionFilter)
+          && (!this.resourceTypeFilter || item.resource_type === this.resourceTypeFilter);
+      });
       rows = [...rows];
-      if (this.sortKey === "assets") {
-        rows.sort((a, b) => Number(b.asset_count || 0) - Number(a.asset_count || 0) || a.title.localeCompare(b.title));
-      } else if (this.sortKey === "updated") {
-        rows.sort((a, b) => this.timeValue(b) - this.timeValue(a) || a.title.localeCompare(b.title));
-      } else if (this.sortKey === "title") {
-        rows.sort((a, b) => a.title.localeCompare(b.title));
-      } else {
-        rows.sort((a, b) => (a.category || "").localeCompare(b.category || "") || a.title.localeCompare(b.title));
-      }
+      if (this.sortBy === "assets") rows.sort((a, b) => Number(b.asset_count || 0) - Number(a.asset_count || 0) || a.title.localeCompare(b.title));
+      else if (this.sortBy === "category") rows.sort((a, b) => a.category.localeCompare(b.category) || a.title.localeCompare(b.title));
+      else if (this.sortBy === "date") rows.sort((a, b) => this.dateValue(b.publication_date) - this.dateValue(a.publication_date) || a.title.localeCompare(b.title));
+      else rows.sort((a, b) => a.title.localeCompare(b.title));
       return rows;
     },
-    pageCount() {
-      return Math.max(1, Math.ceil(this.filteredItems.length / this.pageSize));
-    },
-    pagedItems() {
-      const start = (this.page - 1) * this.pageSize;
-      return this.filteredItems.slice(start, start + this.pageSize);
-    },
-    categoryLeaders() {
-      const rows = this.categories.map((category) => {
-        const items = this.items.filter((item) => item.category === category);
-        return {
-          category,
-          items: items.length,
-          assets: items.reduce((sum, item) => sum + Number(item.asset_count || 0), 0),
-        };
-      });
-      return rows.sort((a, b) => b.items - a.items || a.category.localeCompare(b.category)).slice(0, 8);
-    },
-    categoryCards() {
-      const rows = this.categories.map((category) => {
-        const items = this.items.filter((item) => item.category === category);
-        return {
-          category,
-          items: items.length,
-          assets: items.reduce((sum, item) => sum + Number(item.asset_count || 0), 0),
-        };
-      });
-      rows.sort((a, b) => b.items - a.items || a.category.localeCompare(b.category));
-      return this.showAllCategories ? rows : rows.slice(0, 8);
-    },
-    popularItems() {
-      return [...this.items].sort((a, b) => Number(b.asset_count || 0) - Number(a.asset_count || 0)).slice(0, 6);
-    },
-    recentItems() {
-      return [...this.items].sort((a, b) => this.timeValue(b) - this.timeValue(a)).slice(0, 6);
-    },
-    selectedAssets() {
-      if (!this.selectedItem) return [];
-      return Object.entries(this.selectedItem.assets || {}).map(([key, asset]) => ({ key, ...asset }));
-    },
-    selectedProps() {
-      return this.selectedItem?.properties || {};
-    },
-    temporalRows() {
-      const props = this.selectedProps;
-      return [
-        ["Publication date", this.formatDate(props.datetime)],
-        ["Temporal start", this.formatDate(props.start_datetime)],
-        ["Temporal end", this.formatDate(props.end_datetime)],
-      ].filter((row) => row[1]);
-    },
-    publicationRows() {
-      const props = this.selectedProps;
-      return [
-        ["SEDAC DOI", props["ciesin:sedac_doi"]],
-        ["NASA DOI", props["ciesin:nasa_doi"]],
-        ["Harvard Dataverse DOI", props["ciesin:harvard_doi"]],
-        ["License", props.license],
-        ["Item status", props["ciesin:item_status"]],
-        ["Source match", props["ciesin:source_match_status"]],
-      ].filter((row) => row[1]);
-    },
-    geospatialRows() {
-      const props = this.selectedProps;
-      const bbox = this.selectedItem?.bbox || this.selected?.bbox;
-      return [
-        ["Bounding box", bbox ? bbox.map((value) => Number(value).toFixed(5)).join(", ") : ""],
-        ["Geometry", this.selectedItem?.geometry?.type],
-        ["EPSG", props["proj:epsg"]],
-        ["Spatial representation", props["ciesin:spatial_representation"]],
-        ["Data format", props["ciesin:data_format"]],
-        ["Feature count", props["ciesin:feature_count"]],
-      ].filter((row) => row[1] !== undefined && row[1] !== null && row[1] !== "");
-    },
-    dataStructureRows() {
-      const props = this.selectedProps;
-      const raster = props["raster:bands"]?.[0] || {};
-      return [
-        ["Field count", props["ciesin:field_count"]],
-        ["Raster data type", raster.data_type],
-        ["Bits per sample", raster.bits_per_sample],
-        ["No data value", raster.nodata],
-        ["Raster minimum", raster.statistics?.minimum],
-        ["Raster maximum", raster.statistics?.maximum],
-      ].filter((row) => row[1] !== undefined && row[1] !== null && row[1] !== "");
-    },
-    contactRows() {
-      return this.selectedProps["ciesin:contacts"] || [];
-    },
-    selectedAssetSources() {
-      return [...new Set(this.selectedAssets.map((asset) => asset["ciesin:source"]).filter(Boolean))].sort();
-    },
-    selectedAssetRoles() {
-      const roles = new Set();
-      this.selectedAssets.forEach((asset) => (asset.roles || []).forEach((role) => roles.add(role)));
-      return [...roles].sort();
-    },
-    visibleAssets() {
-      const q = this.assetQuery.toLowerCase();
-      return this.selectedAssets.filter((asset) => {
-        const haystack = [
-          asset.key,
-          asset.href,
-          asset.title,
-          asset.description,
-          asset.type,
-          asset["ciesin:source"],
-          asset["ciesin:ac_doi"],
-          ...(asset.roles || []),
-        ]
-          .filter(Boolean)
-          .join(" ")
+    resultPageCount() { return Math.max(1, Math.ceil(this.filteredItems.length / this.resultPageSize)); },
+    pagedItems() { const start = (this.resultPage - 1) * this.resultPageSize; return this.filteredItems.slice(start, start + this.resultPageSize); },
+    categoryItems() { return this.items.filter((item) => item.category === this.categoryFilter); },
+    categoryAssets() { return this.categoryItems.reduce((sum, item) => sum + Number(item.asset_count || 0), 0); },
+    categoryCurrent() {
+      return this.categoryItems.filter((item) => {
+        const status = String(item.version_status ?? "")
+          .trim()
           .toLowerCase();
+
         return (
-          (!q || haystack.includes(q)) &&
-          (!this.assetSourceFilter || asset["ciesin:source"] === this.assetSourceFilter) &&
-          (!this.assetRoleFilter || (asset.roles || []).includes(this.assetRoleFilter))
+          !status ||
+          status === "current" ||
+          status === "unknown" ||
+          status === "not specified"
         );
+      }).length;
+    },
+    categoryTopics() {
+      const counts = new Map();
+      this.categoryItems.forEach((item) => (item.keywords || item.tags || []).forEach((tag) => counts.set(tag, (counts.get(tag) || 0) + 1)));
+      return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 8).map(([tag]) => tag);
+    },
+    selectedProps() { return this.selectedItem?.properties || {}; },
+    versionStatus() { return this.selectedProps["ciesin:version_status"] || this.selectedIndex?.version_status || "unknown"; },
+    versionLabel() { return this.versionStatus === "current" ? "Current version" : this.versionStatus === "not_current" ? "Not current" : "Version status not specified"; },
+    selectedAssets() {
+      return Object.entries(this.selectedItem?.assets || {}).map(([key, asset]) => ({ key, ...asset,
+        source: asset["ciesin:source"] || "", subtype: asset["ciesin:asset_subtype"] || "Unclassified",
+        roles: Array.isArray(asset.roles) ? asset.roles : [] }));
+    },
+    assetSubtypes() { return [...new Set(this.selectedAssets.map((asset) => asset.subtype))].sort(); },
+    assetSources() { return [...new Set(this.selectedAssets.map((asset) => asset.source).filter(Boolean))].sort(); },
+    assetRoles() { return [...new Set(this.selectedAssets.flatMap((asset) => asset.roles).filter(Boolean))].sort(); },
+    filteredAssets() {
+      const q = this.assetQuery.trim().toLocaleLowerCase();
+      return this.selectedAssets.filter((asset) => {
+        const text = [asset.title, asset.href, asset.description, asset.type, asset.source, asset.subtype,
+          asset["ciesin:source_identifier"], ...(asset.roles || [])].join(" ").toLocaleLowerCase();
+        return (!q || text.includes(q)) && (!this.assetSource || asset.source === this.assetSource)
+          && (!this.assetSubtype || asset.subtype === this.assetSubtype)
+          && (!this.assetRole || asset.roles.includes(this.assetRole));
       });
     },
-    bboxLabel() {
-      if (!this.selected || !this.selected.bbox) return "No bounding box available";
-      return this.selected.bbox.map((value) => Number(value).toFixed(2)).join(", ");
+    assetPageCount() { return Math.max(1, Math.ceil(this.filteredAssets.length / this.assetPageSize)); },
+    pagedAssets() { const start = (this.assetPage - 1) * this.assetPageSize; return this.filteredAssets.slice(start, start + this.assetPageSize); },
+    hasBbox() { return Array.isArray(this.selectedItem?.bbox) && this.selectedItem.bbox.length === 4 && this.selectedItem.bbox.every(Number.isFinite); },
+    metadataRows() {
+      const p = this.selectedProps;
+      const rows = [
+        ["Category", p["ciesin:category"] || this.selectedIndex?.category],
+        ["Resource type", p["ciesin:resource_type"] || this.selectedIndex?.resource_type],
+        ["Version status", this.versionLabel], ["Version", p.version || this.selectedIndex?.version],
+        ["DOIs", p["ciesin:dois"] || this.selectedIndex?.dois],
+        ["Publication date", p["ciesin:publication_date"] || this.selectedIndex?.publication_date],
+        ["Data coverage", this.coverageLabel], ["Bounding box (W, S, E, N)", this.hasBbox ? this.selectedItem.bbox : ""],
+        ["Tags", p["ciesin:tags"] || p.keywords], ["License", p.license],
+        ["Providers", p.providers], ["Authors", p["ciesin:authors"]], ["Publishers", p["ciesin:publishers"]],
+        ["Place", p["ciesin:place"]], ["Citation", p["sci:citation"] || this.selectedIndex?.citation],
+        ["Purpose", p["ciesin:purpose"] || this.selectedIndex?.purpose],
+        ["Additional resources", p["ciesin:additional_resources"] || this.selectedIndex?.additional_resources],
+        ["Metadata sources", p["ciesin:metadata_sources"]], ["XML metadata location", p["ciesin:inventory_xml_location"]],
+      ];
+      return rows.map(([label, value]) => ({ label, value: this.valueText(value) })).filter((row) => row.value);
+    },
+    coverageLabel() {
+      const p = this.selectedProps;
+      const start = p.start_datetime || p["ciesin:temporal_start"];
+      const end = p.end_datetime || p["ciesin:temporal_end"];
+      if (start && end) return `${this.formatDate(start)} — ${this.formatDate(end)}`;
+      return start ? `From ${this.formatDate(start)}` : end ? `Through ${this.formatDate(end)}` : this.formatDate(p.datetime);
     },
   },
   watch: {
-    query() {
-      this.resetPaging();
-    },
-    categoryFilter() {
-      this.resetPaging();
-    },
-    statusFilter() {
-      this.resetPaging();
-    },
-    sourceFilter() {
-      this.resetPaging();
-    },
-    roleFilter() {
-      this.resetPaging();
-    },
-    sortKey() {
-      this.resetPaging();
-    },
-    pageCount(count) {
-      if (this.page > count) this.page = count;
-    },
+    query() { this.resultPage = 1; }, categoryFilter() { this.resultPage = 1; },
+    versionFilter() { this.resultPage = 1; }, resourceTypeFilter() { this.resultPage = 1; },
+    assetQuery() { this.assetPage = 1; }, assetSubtype() { this.assetPage = 1; }, assetSource() { this.assetPage = 1; }, assetRole() { this.assetPage = 1; },
+    pagedAssets() { if (this.assetPage > this.assetPageCount) this.assetPage = this.assetPageCount; },
+    async selectedItem() {
+          if (this.page === "item" && this.selectedItem) {
+            this.updateMap();
+          }
+      },
   },
-    async mounted() {
+  async mounted() {
     try {
-      const [itemsResponse, summaryResponse] = await Promise.all([
-        fetch("./stac/items-index.json"),
-        fetch("./stac/summary.json"),
-      ]);
-      this.items = await itemsResponse.json();
-      this.summary = summaryResponse.ok ? await summaryResponse.json() : null;
-      this.loadingMessage = "Loaded catalog index";
-      const hashId = decodeURIComponent(window.location.hash.replace(/^#dataset=/, ""));
-      if (hashId) {
-        const item = this.items.find((row) => row.id === hashId);
-        if (item) await this.selectItem(item, false);
-      }
-      window.addEventListener("hashchange", this.handleHashChange);
+      const response = await fetch("./stac/items-index.json");
+      if (!response.ok) throw new Error(`Could not read catalog index (HTTP ${response.status}).`);
+      this.items = await response.json();
+      const summaryResponse = await fetch("./stac/summary.json");
+      if (summaryResponse.ok) this.summary = await summaryResponse.json();
     } catch (error) {
-      this.loadingMessage = `Could not load STAC index: ${error.message}`;
-    }
+      this.loadError = `${error.message} Build the STAC data first, then serve this docs folder over HTTP.`;
+    } finally { this.loading = false; }
   },
   methods: {
-    async handleHashChange() {
-      const hashId = decodeURIComponent(window.location.hash.replace(/^#dataset=/, ""));
-      if (!hashId) {
-        this.closeDetail(false);
-        return;
-      }
-      if (this.selected?.id === hashId) return;
-      const item = this.items.find((row) => row.id === hashId);
-      if (item) await this.selectItem(item, false);
+    valueText(value) {
+      if (value === null || value === undefined || value === "") return "";
+      if (Array.isArray(value)) return value.map((entry) => this.valueText(entry)).filter(Boolean).join("; ");
+      if (typeof value === "object") return Object.values(value).map((entry) => this.valueText(entry)).filter(Boolean).join("; ");
+      return String(value);
     },
-    async selectItem(item, updateHash = true) {
-      this.selected = item;
+    dateValue(value) { const time = Date.parse(value || ""); return Number.isFinite(time) ? time : 0; },
+    formatDate(value) { if (!value) return ""; const date = new Date(value); return Number.isNaN(date.getTime()) ? String(value) : new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeZone: "UTC" }).format(date); },
+    formatBytes(value) { const bytes = Number(value); if (!Number.isFinite(bytes)) return ""; if (bytes < 1024) return `${bytes} B`; const units = ["KB", "MB", "GB", "TB"]; let size = bytes / 1024; let unit = 0; while (size >= 1024 && unit < units.length - 1) { size /= 1024; unit++; } return `${size.toFixed(1)} ${units[unit]}`; },
+    doiHref(doi) { return `https://doi.org/${String(doi || "").replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")}`; },
+    safeHref(value) { try { const url = new URL(value); return ["https:", "http:"].includes(url.protocol) ? url.href : "#"; } catch { return "#"; } },
+    categoryDescription(category) {
+      const count = this.items.filter(
+        (item) => (item.category || "Uncategorized") === category
+      ).length;
+
+      return `This collection contains ${count.toLocaleString()} datasets assigned to “${category}” in the CIESIN inventory. Browse the records below to compare descriptions, coverage, version status, and available assets.`;
+    },
+    openCategory(category) { this.categoryFilter = category; this.page = "home"; this.resultPage = 1; window.scrollTo({ top: 0, behavior: "smooth" }); },
+    clearFilters() { this.query = ""; this.searchField = "all"; this.categoryFilter = ""; this.versionFilter = ""; this.resourceTypeFilter = ""; this.sortBy = "title"; this.resultPage = 1; },
+    goHome() { this.page = "home"; this.selectedItem = null; this.selectedIndex = null; this.categoryFilter = ""; this.mapReady = false; window.scrollTo({ top: 0, behavior: "smooth" }); },
+    goBack() { this.page = "home"; this.selectedItem = null; this.mapReady = false; window.scrollTo({ top: 0, behavior: "smooth" }); },
+    async openItem(index) {
+      this.selectedIndex = index; 
+      this.selectedItem = null; 
+      this.page = "item";   
+      this.assetPage = 1;
+
       this.assetQuery = "";
-      this.assetSourceFilter = "";
-      this.assetRoleFilter = "";
-      this.loadingMessage = `Loading ${item.title}`;
-      if (updateHash) {
-        window.history.pushState(null, "", `#dataset=${encodeURIComponent(item.id)}`);
-      }
+      this.assetSubtype = "";
+      this.assetSource = "";
+      this.assetRole = "";
+      this.mapReady = false;
+
       try {
-        const response = await fetch(item.item_href);
+        const response = await fetch(`./${index.item_href}`);
+        if (!response.ok) {
+          throw new Error(`Could not read item record (HTTP ${response.status}).`);
+        }
+
         this.selectedItem = await response.json();
-        await nextTick();
-        this.drawMap();
+ 
+
         window.scrollTo({ top: 0, behavior: "smooth" });
       } catch (error) {
-        this.selectedItem = null;
-        this.loadingMessage = `Could not load item JSON: ${error.message}`;
+        this.loadError = error.message;
       }
     },
-    closeDetail(updateHash = true) {
-      this.selected = null;
-      this.selectedItem = null;
-      if (updateHash && window.location.hash) {
-        window.history.pushState(null, "", window.location.pathname);
-      }
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    },
-    filterCategory(category) {
-      this.categoryFilter = category;
-      this.selected = null;
-      this.selectedItem = null;
-      nextTick(() => document.querySelector(".results-panel")?.scrollIntoView({ behavior: "smooth" }));
-    },
-    toggleAllCategories() {
-      this.showAllCategories = !this.showAllCategories;
-    },
-    goHome() {
-      this.selected = null;
-      this.selectedItem = null;
-      this.query = "";
-      this.categoryFilter = "";
-      this.statusFilter = "";
-      this.sourceFilter = "";
-      this.roleFilter = "";
-      this.sortKey = "category";
-      this.page = 1;
-      if (window.location.hash) {
-        window.history.pushState(null, "", window.location.pathname);
-      }
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    },
-    showBrowse(sortKey) {
-      this.sortKey = sortKey;
-      this.selected = null;
-      this.selectedItem = null;
-      nextTick(() => document.querySelector(".results-panel")?.scrollIntoView({ behavior: "smooth" }));
-    },
-    resetPaging() {
-      this.page = 1;
-    },
-    sourceName(value) {
-      if (!value) return "source";
-      return value
-        .replace("nasa_cmr_granule", "NASA CMR")
-        .replace("harvard_dataverse_file", "Harvard Dataverse")
-        .replace("grid3_academic_commons", "GRID3 Academic Commons");
-    },
-    itemSourceLabel(item) {
-      const sources = Object.entries(item.source_counts || {})
-        .map(([source, count]) => `${this.sourceName(source)}: ${Number(count).toLocaleString()}`)
-        .join(" · ");
-      return sources || "No attached assets";
-    },
-    statusLabel(item) {
-      return item.item_status || item.match_status || "status unavailable";
-    },
-    yearLabel(item) {
-      const value = item.datetime || item.start_datetime || item.end_datetime || "";
-      const year = String(value).match(/\d{4}/);
-      return year ? year[0] : "No date";
-    },
-    formatDate(value) {
-      if (value === null) return "Unknown";
-      if (!value) return "";
-      const parsed = Date.parse(value);
-      if (Number.isNaN(parsed)) return value;
-      return new Intl.DateTimeFormat("en", { year: "numeric", month: "short", day: "numeric" }).format(parsed);
-    },
-    doiHref(doi) {
-      return `https://doi.org/${doi}`;
-    },
-    collectionHref(item) {
-      return `./stac/collections/${item.collection}/collection.json`;
-    },
-    formatBytes(value) {
-      const size = Number(value);
-      if (!size) return "";
-      const units = ["B", "KB", "MB", "GB", "TB"];
-      let amount = size;
-      let unit = 0;
-      while (amount >= 1024 && unit < units.length - 1) {
-        amount /= 1024;
-        unit += 1;
-      }
-      return `${amount.toFixed(amount >= 10 || unit === 0 ? 0 : 1)} ${units[unit]}`;
-    },
-    timeValue(item) {
-      const value = item.datetime || item.start_datetime || item.end_datetime || "";
-      const parsed = Date.parse(value);
-      return Number.isNaN(parsed) ? 0 : parsed;
-    },
-    drawMap() {
-      const canvas = this.$refs.mapCanvas;
-      if (!canvas) return;
-      const ctx = canvas.getContext("2d");
-      const width = canvas.width;
-      const height = canvas.height;
-      ctx.clearRect(0, 0, width, height);
-      ctx.fillStyle = "#eef2ec";
-      ctx.fillRect(0, 0, width, height);
+    
 
-      ctx.strokeStyle = "#cbd4cc";
-      ctx.lineWidth = 1;
-      for (let lon = -180; lon <= 180; lon += 60) {
-        const x = ((lon + 180) / 360) * width;
-        ctx.beginPath();
-        ctx.moveTo(x, 0);
-        ctx.lineTo(x, height);
-        ctx.stroke();
-      }
-      for (let lat = -60; lat <= 60; lat += 30) {
-        const y = ((90 - lat) / 180) * height;
-        ctx.beginPath();
-        ctx.moveTo(0, y);
-        ctx.lineTo(width, y);
-        ctx.stroke();
+        
+    async updateMap() {
+      await nextTick();
+
+      const container = document.getElementById("coverage-map");
+
+      if (!container || !this.selectedItem) {
+        console.warn("Map container or selected item is missing.");
+        return;
       }
 
-      ctx.fillStyle = "#dce6df";
-      ctx.fillRect(0, height * 0.28, width, height * 0.43);
+      // Create the map if it doesn't exist or belongs to an old container.
+      if (
+        !this.mapInstance ||
+        this.mapInstance.getContainer() !== container
+      ) {
+        if (this.mapInstance) {
+          this.mapInstance.remove();
+          this.mapInstance = null;
+        }
 
-      const bbox = this.selected && this.selected.bbox;
-      if (!bbox) {
-        ctx.fillStyle = "#65716b";
-        ctx.font = "18px system-ui";
-        ctx.fillText("No bbox", 24, 42);
+        console.log("Creating map for:", this.selectedItem.id);
+
+        const map = markRaw(
+          new maplibregl.Map({
+            container,
+            style: "https://tiles.openfreemap.org/styles/liberty",
+            center: [0, 0],
+            zoom: 1,
+            attributionControl: true,
+          })
+        );
+
+        this.mapInstance = map;
+
+        map.addControl(
+          new maplibregl.NavigationControl({ showCompass: false }),
+          "top-right"
+        );
+
+        map.on("error", (event) => {
+          console.error("MapLibre error:", event.error || event);
+        });
+
+        map.once("load", () => {
+          console.log("Map style loaded.");
+
+          if (this.mapInstance !== map) return;
+
+          this.addCoverageLayers();
+          this.paintCoverage();
+          map.resize();
+          this.mapReady = true;
+        });
+
+        return;
+      }
+
+      const map = this.mapInstance;
+
+      if (map.isStyleLoaded()) {
+        this.addCoverageLayers();
+        this.paintCoverage();
+        map.resize();
+        this.mapReady = true;
+      } else {
+        map.once("load", () => {
+          if (this.mapInstance !== map) return;
+
+          this.addCoverageLayers();
+          this.paintCoverage();
+          map.resize();
+          this.mapReady = true;
+        });
+      }
+    },
+
+
+
+    
+    addCoverageLayers() {
+      const map = this.mapInstance;
+      if (!map || !map.isStyleLoaded()) return;
+
+      if (!map.getSource("coverage-box")) {
+        map.addSource("coverage-box", {
+          type: "geojson",
+          data: {
+            type: "FeatureCollection",
+            features: []
+          }
+        });
+      }
+
+      if (!map.getLayer("coverage-fill")) {
+        map.addLayer({
+          id: "coverage-fill",
+          type: "fill",
+          source: "coverage-box",
+          paint: {
+            "fill-color": "#187a70",
+            "fill-opacity": 0.2
+          }
+        });
+      }
+
+      if (!map.getLayer("coverage-outline")) {
+        map.addLayer({
+          id: "coverage-outline",
+          type: "line",
+          source: "coverage-box",
+          paint: {
+            "line-color": "#075b55",
+            "line-width": 2.5
+          }
+        });
+      }
+    },
+
+    
+    paintCoverage() {
+      const map = this.mapInstance;
+      if (!map || !map.getSource("coverage-box")) return;
+
+      const item = this.selectedItem;
+      if (!item) return;
+
+      // Support either a bbox array or separate coordinate fields.
+      const bbox = Array.isArray(item.bbox)
+        ? item.bbox
+        : [item.west, item.south, item.east, item.north];
+
+      if (
+        bbox.length !== 4 ||
+        !bbox.every((value) => value !== null && value !== "" && Number.isFinite(Number(value)))
+      ) {
+        map.getSource("coverage-box").setData({
+          type: "FeatureCollection",
+          features: []
+        });
         return;
       }
 
       const [west, south, east, north] = bbox.map(Number);
-      const x1 = ((west + 180) / 360) * width;
-      const x2 = ((east + 180) / 360) * width;
-      const y1 = ((90 - north) / 180) * height;
-      const y2 = ((90 - south) / 180) * height;
-      ctx.fillStyle = "rgba(15, 111, 114, 0.26)";
-      ctx.strokeStyle = "#0f6f72";
-      ctx.lineWidth = 3;
-      ctx.fillRect(x1, y1, Math.max(2, x2 - x1), Math.max(2, y2 - y1));
-      ctx.strokeRect(x1, y1, Math.max(2, x2 - x1), Math.max(2, y2 - y1));
+
+      // Draw the bounding box as a rectangle.
+      const geometry = {
+        type: "Polygon",
+        coordinates: [[
+          [west, south],
+          [east, south],
+          [east, north],
+          [west, north],
+          [west, south]
+        ]]
+      };
+
+      map.getSource("coverage-box").setData({
+        type: "FeatureCollection",
+        features: [{
+          type: "Feature",
+          properties: {},
+          geometry
+        }]
+      });
+
+      map.fitBounds(
+        [[west, south], [east, north]],
+        {
+          padding: 48,
+          maxZoom: 5,
+          duration: 700
+        }
+      );
+
+      map.resize();
     },
   },
 }).mount("#app");
