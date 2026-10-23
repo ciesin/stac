@@ -1,0 +1,996 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h49p2zkm",
+  "collection": "health",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -58.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Poverty Mapping Project: Small Area Estimates of Poverty and Inequality",
+    "description": "The Poverty Mapping Project: Small Area Estimates of Poverty and Inequality data set consists of consumption-based poverty, inequality and related measures for subnational administrative units in approximately twenty countries throughout Africa, Asia, Europe, North America, and South America. These measures are derived on a country-level basis from a combination of census and survey data using small area estimates techniques. The collection of data have been compiled, integrated and standardized from the original data providers into a unified spatially referenced and globally consistent data set. The data products include shapefiles (vector data), tabular data sets (csv format), and centroids (csv file with latitude and longitude of a geographic unit and associated poverty estimates). Additionally, a data catalog (xls format) containing detailed information and documentation is provided. This data set is produced by the Columbia University Center for International Earth Science Information Network (CIESIN) in collaboration with a number of external data providers.",
+    "license": "This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Albania",
+      "Bangladesh",
+      "Bolivia",
+      "Bulgaria",
+      "Cambodia",
+      "China",
+      "Country",
+      "Dominican Republic",
+      "Earth Science",
+      "Human Dimensions",
+      "Socioeconomics",
+      "Poverty Levels",
+      "Ecuador",
+      "Gaza Strip",
+      "Guatemala",
+      "Health",
+      "Honduras",
+      "Indonesia",
+      "Kenya",
+      "Madagascar",
+      "Malawi",
+      "Morocco",
+      "Mozambique",
+      "Nepal",
+      "Nicaragua",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Philippines",
+      "Poverty",
+      "Romania",
+      "Society",
+      "Uganda",
+      "Vietnam",
+      "West Bank",
+      "Earth And Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H49P2ZKM",
+    "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University. 2005-12-31. Poverty Mapping Project: Small Area Estimates of Poverty and Inequality. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2; 1.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Health",
+    "ciesin:tags": [
+      "Albania",
+      "Bangladesh",
+      "Bolivia",
+      "Bulgaria",
+      "Cambodia",
+      "China",
+      "Country",
+      "Dominican Republic",
+      "Earth Science",
+      "Human Dimensions",
+      "Socioeconomics",
+      "Poverty Levels",
+      "Ecuador",
+      "Gaza Strip",
+      "Guatemala",
+      "Health",
+      "Honduras",
+      "Indonesia",
+      "Kenya",
+      "Madagascar",
+      "Malawi",
+      "Morocco",
+      "Mozambique",
+      "Nepal",
+      "Nicaragua",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Philippines",
+      "Poverty",
+      "Romania",
+      "Society",
+      "Uganda",
+      "Vietnam",
+      "West Bank",
+      "Earth And Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7927/H49P2ZKM",
+      "10.7910/DVN/RKRW8Q"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Gaza Strip",
+      "West Bank",
+      "Albania",
+      "Bangladesh",
+      "Bulgaria",
+      "Bolivia",
+      "Cambodia",
+      "China",
+      "Ecuador",
+      "Guatemala",
+      "Indonesia",
+      "Kenya",
+      "Madagascar",
+      "Malawi",
+      "Morocco",
+      "Mozambique",
+      "Nicaragua",
+      "Uganda",
+      "Vietnam",
+      "Dominican Republic",
+      "Honduras",
+      "Nepal",
+      "Panama",
+      "Papua New Guinea",
+      "Paraguay",
+      "Philippines",
+      "Romania"
+    ],
+    "ciesin:purpose": "To provide high spatial resolution subnational estimates of poverty and inequality for use by a wide user community for interdisciplinary studies of poverty, inequality and the environment.",
+    "ciesin:publication_date": "2005-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H49P2ZKM",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://doi.org/10.7927/H4PZ56R2",
+      "https://doi.org/10.7927/H4K64G12",
+      "https://doi.org/10.7927/H45X26V8",
+      "https://doi.org/10.7927/H4FF3Q9B",
+      "https://sedac.ciesin.columbia.edu/povmap/atlasMedia/",
+      "http://www.ciesin.columbia.edu/povmap/methods_nat.jsp",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FRKRW8Q",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550195013-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "povmap-small-area-estimates-poverty-inequality.xml",
+    "datetime": null,
+    "start_datetime": "1990-01-01T00:00:00Z",
+    "end_datetime": "2002-12-31T00:00:00Z",
+    "ciesin:temporal_start": "1990-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2002-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h49p2zkm.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H49P2ZKM",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/RKRW8Q",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h49p2zkm": {
+      "href": "https://doi.org/10.7927/H49P2ZKM",
+      "type": "text/html",
+      "title": "DOI 10.7927/H49P2ZKM",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H49P2ZKM",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "rkrw8q": {
+      "href": "https://doi.org/10.7910/DVN/RKRW8Q",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/RKRW8Q",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/RKRW8Q",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "11832019": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832019",
+      "type": "application/zip",
+      "title": "ALB_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 25284,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832019",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11831996": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11831996",
+      "type": "application/zip",
+      "title": "ALB_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10966,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11831996",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832014": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832014",
+      "type": "application/zipped-shapefile",
+      "title": "ALB_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 524029,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832014",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11831999": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11831999",
+      "type": "application/zip",
+      "title": "BGD_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41351,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11831999",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832027": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832027",
+      "type": "application/zip",
+      "title": "BGD_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 25188,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832027",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11831993": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11831993",
+      "type": "application/zipped-shapefile",
+      "title": "BGD_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1625536,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11831993",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832004": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832004",
+      "type": "application/zip",
+      "title": "BGR_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 33247,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832004",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832018": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832018",
+      "type": "application/zip",
+      "title": "BGR_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 25119,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832018",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832029": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832029",
+      "type": "application/zipped-shapefile",
+      "title": "BGR_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1010491,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832029",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832020": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832020",
+      "type": "application/zip",
+      "title": "BOL_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 34102,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832020",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832015": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832015",
+      "type": "application/zip",
+      "title": "BOL_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37708,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832015",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832010": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832010",
+      "type": "application/zipped-shapefile",
+      "title": "BOL_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1499212,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832010",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11831988": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11831988",
+      "type": "application/zip",
+      "title": "ECU_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 163998,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11831988",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11831990": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11831990",
+      "type": "application/zip",
+      "title": "ECU_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 113039,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11831990",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832030": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832030",
+      "type": "application/zipped-shapefile",
+      "title": "ECU_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5906119,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832030",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832016": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832016",
+      "type": "application/zip",
+      "title": "GTM_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 90992,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832016",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832005": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832005",
+      "type": "application/zipped-shapefile",
+      "title": "GTM_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2049015,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832005",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11831997": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11831997",
+      "type": "application/zip",
+      "title": "KEN_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 235547,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11831997",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832001": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832001",
+      "type": "application/zip",
+      "title": "KEN_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 58782,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832001",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11831992": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11831992",
+      "type": "application/zipped-shapefile",
+      "title": "KEN_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 15529791,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11831992",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11831995": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11831995",
+      "type": "application/zip",
+      "title": "KHM_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 320782,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11831995",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832000": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832000",
+      "type": "application/zip",
+      "title": "KHM_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 222348,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832000",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832031": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832031",
+      "type": "application/zipped-shapefile",
+      "title": "KHM_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5083762,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832031",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832003": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832003",
+      "type": "application/zip",
+      "title": "MAR_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13505,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832003",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832007": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832007",
+      "type": "application/zip",
+      "title": "MAR_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 60479,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832007",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832022": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832022",
+      "type": "application/zipped-shapefile",
+      "title": "MAR_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 409527,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832022",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832009": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832009",
+      "type": "application/zip",
+      "title": "MDG_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 159003,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832009",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832025": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832025",
+      "type": "application/zip",
+      "title": "MDG_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 79419,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832025",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832028": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832028",
+      "type": "application/zipped-shapefile",
+      "title": "MDG_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 899735,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832028",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14202269": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14202269",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12359,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14202269",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832013": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832013",
+      "type": "application/zip",
+      "title": "MOZ_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 89880,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832013",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11831991": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11831991",
+      "type": "application/zip",
+      "title": "MOZ_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 106691,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11831991",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832023": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832023",
+      "type": "application/zipped-shapefile",
+      "title": "MOZ_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1122998,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832023",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832012": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832012",
+      "type": "application/zip",
+      "title": "MWI_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 57973,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832012",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11831989": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11831989",
+      "type": "application/zip",
+      "title": "MWI_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 44016,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11831989",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11831998": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11831998",
+      "type": "application/zipped-shapefile",
+      "title": "MWI_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3883338,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11831998",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832017": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832017",
+      "type": "application/zip",
+      "title": "NIC_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 20711,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832017",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832024": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832024",
+      "type": "application/zip",
+      "title": "NIC_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6564,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832024",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832026": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832026",
+      "type": "application/zipped-shapefile",
+      "title": "NIC_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 691453,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832026",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832008": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832008",
+      "type": "application/zip",
+      "title": "PSE_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7956,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832008",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832006": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832006",
+      "type": "application/zip",
+      "title": "PSE_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3865,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832006",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832011": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832011",
+      "type": "application/zipped-shapefile",
+      "title": "PSE_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 96138,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832011",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11831994": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11831994",
+      "type": "application/zip",
+      "title": "VNM_SAE_Centroid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 136923,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11831994",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832021": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832021",
+      "type": "application/zip",
+      "title": "VNM_SAE_Data_Table.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 78410,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832021",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11832002": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11832002",
+      "type": "application/zipped-shapefile",
+      "title": "VNM_SAE_shapefile.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5072898,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11832002",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3550195013-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550195013-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H49P2ZKM",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "povmap-small-area-estimates-poverty-inequality-general-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/povmap-small-area-estimates-poverty-inequality-general-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H49P2ZKM",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550195013-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata Granule Search",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H49P2ZKM",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "alb-adm2-ge-0-primary-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/povmap/povmap-small-area-estimates-poverty-inequality/alb-adm2-ge-0-primary-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "alb-adm2-ge-0-primary-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/povmap-small-area-estimates-poverty-inequality/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/povmap-small-area-estimates-poverty-inequality/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4pz56r2": {
+      "href": "https://doi.org/10.7927/H4PZ56R2",
+      "type": "text/html",
+      "title": "H4PZ56R2",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4k64g12": {
+      "href": "https://doi.org/10.7927/H4K64G12",
+      "type": "text/html",
+      "title": "H4K64G12",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h45x26v8": {
+      "href": "https://doi.org/10.7927/H45X26V8",
+      "type": "text/html",
+      "title": "H45X26V8",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4ff3q9b": {
+      "href": "https://doi.org/10.7927/H4FF3Q9B",
+      "type": "text/html",
+      "title": "H4FF3Q9B",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "atlasmedia": {
+      "href": "https://sedac.ciesin.columbia.edu/povmap/atlasMedia/",
+      "type": "text/html",
+      "title": "atlasMedia",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "methods_nat.jsp": {
+      "href": "http://www.ciesin.columbia.edu/povmap/methods_nat.jsp",
+      "type": "text/html",
+      "title": "methods_nat.jsp",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -58.0,
+    180.0,
+    90.0
+  ]
+}

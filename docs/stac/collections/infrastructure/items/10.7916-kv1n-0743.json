@@ -1,0 +1,159 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-kv1n-0743",
+  "collection": "infrastructure",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.70779,
+          4.281709999999956
+        ],
+        [
+          14.63638257399979,
+          4.281709999999956
+        ],
+        [
+          14.63638257399979,
+          13.8652389999998
+        ],
+        [
+          2.70779,
+          13.8652389999998
+        ],
+        [
+          2.70779,
+          4.281709999999956
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "GRID3 NGA - Health Facilities v2.0",
+    "description": "This current version supersedes the GRID3 NGA - Health Facilities dataset; the following changes were made: Change of data schema Update of data inputs to incorporate records from the Nigeria Health Facility Registry (HFR, 2024). Schema and data attributes’ standardization based on national guidelines For more information on the methodology and data sources used during the production of this data, see the Data Release Notes.",
+    "license": "other",
+    "keywords": [
+      "Infrastructure"
+    ],
+    "sci:doi": "10.7916/KV1N-0743",
+    "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University 2024. GRID3 NGA - Health Facilities v2.0. New York: GRID3. https://doi.org/10.7916/kv1n-0743. Accessed [DAY MONTH YEAR].",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Infrastructure",
+    "ciesin:tags": [
+      "Infrastructure"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "not_current",
+    "ciesin:dois": [
+      "10.7916/KV1N-0743"
+    ],
+    "ciesin:purpose": "The GRID3 NGA - Health Facilities v2.0 dataset is a non-exhaustive, non-validated geographic representation of health facility points in Nigeria. The dataset incorporates recent updates from both the Nigeria Health Facility Registry (HFR) and GRID3. This dataset is considered operational.",
+    "ciesin:publication_date": "2024-11-13T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://data.grid3.org:443/datasets/GRID3::grid3-nga-health-facilities-/about",
+      "https://drive.google.com/file/d/143q2gmfqhaKphuOZqZMwIyrUg8hizAjI/view?usp=drive_link",
+      "https://doi.org/10.7916/kv1n-0743"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML"
+    ],
+    "ciesin:inventory_xml_location": "GRID3 NGA - Health Facilities v2.0.xml",
+    "datetime": "2024-11-13T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-kv1n-0743.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/KV1N-0743",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "kv1n-0743": {
+      "href": "https://doi.org/10.7916/KV1N-0743",
+      "type": "text/html",
+      "title": "DOI 10.7916/KV1N-0743",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/KV1N-0743",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3-nga---health-facilities-v2.0---data-release-notes": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/tksj-6s23/download",
+      "type": "application/pdf",
+      "title": "GRID3 NGA - Health Facilities v2.0 - Data Release Notes.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 198863,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/tksj-6s23/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/bws3-8q75/download",
+      "type": "application/octet-stream",
+      "title": "NGA_health_facilities_v2_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 19218432,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/bws3-8q75/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "about": {
+      "href": "https://data.grid3.org:443/datasets/GRID3::grid3-nga-health-facilities-/about",
+      "type": "text/html",
+      "title": "GRID3 NGA - Health Facilities",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "view": {
+      "href": "https://drive.google.com/file/d/143q2gmfqhaKphuOZqZMwIyrUg8hizAjI/view?usp=drive_link",
+      "type": "text/html",
+      "title": "Data Release Notes",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    2.70779,
+    4.281709999999956,
+    14.63638257399979,
+    13.8652389999998
+  ]
+}

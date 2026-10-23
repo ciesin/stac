@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-d84m94ph",
+  "collection": "governance",
+  "geometry": null,
+  "properties": {
+    "title": "Northwestern University Transportation Library EIS Collection - Our History",
+    "license": "other",
+    "keywords": [
+      "Governance"
+    ],
+    "sci:doi": "10.7916/d84m94ph",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7916/d84m94ph"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d84m94ph.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d84m94ph",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d84m94ph": {
+      "href": "https://doi.org/10.7916/d84m94ph",
+      "type": "text/html",
+      "title": "DOI 10.7916/d84m94ph",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d84m94ph",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "eis_coumbia_lawsarmiento": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8542X71/download",
+      "type": "application/x-iwork-keynote-sffkey",
+      "title": "EIS_Coumbia_LawSarmiento.key",
+      "roles": [
+        "data"
+      ],
+      "file:size": 774485,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8542X71/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D88W3NXK/download",
+      "type": "application/pdf",
+      "title": "EIS_Coumbia_LawSarmiento.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 546086,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D88W3NXK/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

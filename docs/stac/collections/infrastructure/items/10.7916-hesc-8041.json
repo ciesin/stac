@@ -1,0 +1,233 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-hesc-8041",
+  "collection": "infrastructure",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          15.17314999900003,
+          -12.43789999999997
+        ],
+        [
+          29.70172833300007,
+          -12.43789999999997
+        ],
+        [
+          29.70172833300007,
+          -2.583156666999965
+        ],
+        [
+          15.17314999900003,
+          -2.583156666999965
+        ],
+        [
+          15.17314999900003,
+          -12.43789999999997
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "GRID3 COD - Religious Centers v1.0",
+    "description": "The data are available for download in OGC Geopackage format contained in a zip file. This data release supersedes the dataset “ GRID3 COD - Religious Centers: five provinces v1.0 ”. This operational dataset has not been fully validated by government officials or ministries. Download province level data: Haut-Katanga Kasaï Kasaï-Oriental Kinshasa Lomami For more information on the methodology and data sources used during the production of this data, see the Data Release Notes.",
+    "license": "other",
+    "keywords": [
+      "Infrastructure",
+      "Latest"
+    ],
+    "sci:doi": "10.7916/HESC-8041",
+    "sci:citation": "Center for International Earth Science Information Network (CIESIN), Columbia University and Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo, 2024. GRID3 COD - Religious Centers v1.0. New York: GRID3. https://doi.org/10.7916/hesc-8041. Accessed <DAY MONTH YEAR>.",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Infrastructure",
+    "ciesin:tags": [
+      "Infrastructure",
+      "Latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7916/HESC-8041"
+    ],
+    "ciesin:purpose": "The GRID3 COD - Religious Centers v1.0 dataset consists of spatial data points of religious centers with names and other attributes in the following provinces of the Democratic Republic of the Congo (COD): Haut-Katanga, Kasaï, Kasaï-Oriental, Kinshasa, and Lomami.",
+    "ciesin:publication_date": "2024-05-10T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://academiccommons.columbia.edu/doi/10.7916/2zcw-7327/download",
+      "https://doi.org/10.7916/z4vq-h095",
+      "https://academiccommons.columbia.edu/doi/10.7916/jyre-a256/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/14e6-xp70/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/zg2q-sg41/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/22g6-0z67/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/fq1y-vn73/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/a3gy-hy12/download",
+      "https://doi.org/10.7916/hesc-8041",
+      "https://services3.arcgis.com/BU6Aadhn6tbBEdyk/arcgis/rest/services/GRID3_COD_religious_centers_v1_0_gdb/FeatureServer"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML"
+    ],
+    "ciesin:inventory_xml_location": "GRID3 COD - Religious Centers v1.0.xml",
+    "datetime": "2024-05-10T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-hesc-8041.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/HESC-8041",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "hesc-8041": {
+      "href": "https://doi.org/10.7916/HESC-8041",
+      "type": "text/html",
+      "title": "DOI 10.7916/HESC-8041",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/HESC-8041",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3_cod_lomami_religious_centers_v1_0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/fq1y-vn73/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Lomami_religious_centers_v1_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1613824,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/fq1y-vn73/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/14e6-xp70/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kasai_religious_centers_v1_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1896448,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/14e6-xp70/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/2zcw-7327/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_religious_centers_v1_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7110656,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/2zcw-7327/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "download-4": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/zg2q-sg41/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kasai_Oriental_religious_centers_v1_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1859584,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/zg2q-sg41/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "download-5": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/jyre-a256/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Haut-Katanga_religious_centers_v1_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1204224,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/jyre-a256/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "download-6": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/22g6-0z67/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kinshasa_religious_centers_v1_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 897024,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/22g6-0z67/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "download-7": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/a3gy-hy12/download",
+      "type": "application/pdf",
+      "title": "GRID3 COD - Religious Centers v1.0 Data Release Notes.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 158810,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/a3gy-hy12/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "featureserver": {
+      "href": "https://services3.arcgis.com/BU6Aadhn6tbBEdyk/arcgis/rest/services/GRID3_COD_religious_centers_v1_0_gdb/FeatureServer",
+      "type": "text/html",
+      "title": "FeatureServer",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "z4vq-h095": {
+      "href": "https://doi.org/10.7916/z4vq-h095",
+      "type": "text/html",
+      "title": "GRID3 COD - Religious Centers: five provinces v1.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    15.17314999900003,
+    -12.43789999999997,
+    29.70172833300007,
+    -2.583156666999965
+  ]
+}

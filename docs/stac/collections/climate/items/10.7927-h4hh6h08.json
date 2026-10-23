@@ -1,0 +1,320 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4hh6h08",
+  "collection": "climate",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -153.04,
+          -45.88
+        ],
+        [
+          176.83,
+          -45.88
+        ],
+        [
+          176.83,
+          70.4
+        ],
+        [
+          -153.04,
+          70.4
+        ],
+        [
+          -153.04,
+          -45.88
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global Reservoir and Dam Database, Version 1 (GRanDv1): Reservoirs, Revision 01",
+    "description": "Global Reservoir and Dam Database, Version 1, Revision 01 (v1.01) contains 6,862 records of reservoirs and their associated dams with a cumulative storage capacity of 6,197 cubic km. The reservoirs were delineated from high spatial resolution satellite imagery and are available as polygon shape files. The only attribute for the reservoirs is the area of the reservoir. The associated dams data set includes multiple attributes such as name of the dam and the impounded river, primary use, nearest city, area, and year of construction (or commissioning). While the main focus was to include all reservoirs with a storage capacity of more than 0.1 cubic kilometers, many smaller reservoirs were added where data were available. The data were compiled by Lehner et al. (2011) and are distributed by the Global Water System Project (GWSP) and by the Columbia University Center for International Earth Science Information Network (CIESIN). For details please refer to the Technical Documentation which is provided with the data.",
+    "license": "The Global Water System Project (GWSP) holds the copyright of this data set. The GRanD database is freely available for non-commercial use. Users are prohibited from any commercial resale, or redistribution without explicit written permission from the authors (Lehner et al. 2011) or GWSP. Users should acknowledge the authors (Lehner et al. 2011) and SEDAC as the distributor as the source used in the creation of any reports, publications, new data sets, derived products, or services resulting from the use of this data set. GWSP or CIESIN may also request reprints of any publications. For further details regarding acknowledgements, citation, disclaimers, and restrictions please refer to Section 4 of the Technical Documentation which is provided with the data.",
+    "keywords": [
+      "Climate",
+      "Continent",
+      "Earth Science",
+      "Terrestrial Hydrosphere",
+      "Surface Water",
+      "Surface Water Features",
+      "Lakes/reservoirs",
+      "Global",
+      "Infrastructure",
+      "Inland Waters",
+      "Land Use",
+      "Population",
+      "Water",
+      "Earth And Environmental Sciences",
+      "Latest"
+    ],
+    "providers": [
+      {
+        "name": "Global Water System Project (GWSP)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4HH6H08",
+    "sci:citation": "Lehner, B., C. Reidy Liermann, C. Revenga, C. Vorosmarty, B. Fekete, P. Crouzet, P. Doll, M. Endejan, K. Frenken, J. Magome, C. Nilsson, J.C. Robertson, R. Rodel, N. Sindorf, and D. Wisser. 2011-12-22. Global Reservoir and Dam Database, Version 1 (GRanDv1): Reservoirs, Revision 01. Edition 1.01. Global Water System Project (GWSP). Bonn, Germany",
+    "version": "1.01; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Climate",
+    "ciesin:tags": [
+      "Climate",
+      "Continent",
+      "Earth Science",
+      "Terrestrial Hydrosphere",
+      "Surface Water",
+      "Surface Water Features",
+      "Lakes/reservoirs",
+      "Global",
+      "Infrastructure",
+      "Inland Waters",
+      "Land Use",
+      "Population",
+      "Water",
+      "Earth And Environmental Sciences",
+      "Latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7927/H4HH6H08",
+      "10.7910/DVN/GSHD33"
+    ],
+    "ciesin:authors": [
+      "Lehner, B., C. Reidy Liermann, C. Revenga, C. Vorosmarty, B. Fekete, P. Crouzet, P. Doll, M. Endejan, K. Frenken, J. Magome, C. Nilsson, J.C. Robertson, R. Rodel, N. Sindorf, and D. Wisser",
+      "Lehner, B., C. Reidy Liermann, C. Revenga, C. Vï¿½rï¿½smarty, B. Fekete, P. Crouzet, P. Dï¿½ll, M. Endejan, K. Frenken, J. Magome, C. Nilsson, J.C. Robertson, R. Rodel, N. Sindorf, and D. Wisser"
+    ],
+    "ciesin:publishers": [
+      "Global Water System Project (GWSP)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"Global Water System Project (GWSP)\"}}]"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide a geographically explicit and reliable database of reservoirs for the scientific community.",
+    "ciesin:publication_date": "2011-12-22T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4HH6H08",
+      "https://doi.org/10.1890/100125",
+      "https://doi.org/10.7927/H4N877QK",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FGSHD33",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540929415-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "grand-v1-reservoirs-rev01.xml",
+    "datetime": null,
+    "start_datetime": "2011-01-01T00:00:00Z",
+    "end_datetime": "2011-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2011-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2011-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4hh6h08.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4HH6H08",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/GSHD33",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4hh6h08": {
+      "href": "https://doi.org/10.7927/H4HH6H08",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4HH6H08",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4HH6H08",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "gshd33": {
+      "href": "https://doi.org/10.7910/DVN/GSHD33",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/GSHD33",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/GSHD33",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "14172548": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14172548",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12258,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14172548",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808591": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808591",
+      "type": "application/zipped-shapefile",
+      "title": "reservoirs-rev01-global-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 34118405,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808591",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540929415-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929415-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4HH6H08",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/grand-v1-reservoirs-rev01/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4HH6H08",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929415-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata Granule Search",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4HH6H08",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "reservoirs-rev01-global-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/grand-v1/grand-v1-reservoirs-rev01/reservoirs-rev01-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "reservoirs-rev01-global-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/grand-v1-reservoirs-rev01/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/grand-v1-reservoirs-rev01/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "100125": {
+      "href": "https://doi.org/10.1890/100125",
+      "type": "text/html",
+      "title": "100125",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4n877qk": {
+      "href": "https://doi.org/10.7927/H4N877QK",
+      "type": "text/html",
+      "title": "H4N877QK",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -153.04,
+    -45.88,
+    176.83,
+    70.4
+  ]
+}

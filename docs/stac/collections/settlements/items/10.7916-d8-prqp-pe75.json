@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-d8-prqp-pe75",
+  "collection": "settlements",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 The Gambia Settlement Extents, Version 01.01",
+    "license": "other",
+    "keywords": [
+      "Settlements"
+    ],
+    "sci:doi": "10.7916/d8-prqp-pe75",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": [
+      "Settlements"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "not_current",
+    "ciesin:dois": [
+      "10.7916/d8-prqp-pe75"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8-prqp-pe75.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8-prqp-pe75",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8-prqp-pe75": {
+      "href": "https://doi.org/10.7916/d8-prqp-pe75",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8-prqp-pe75",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8-prqp-pe75",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "the-gambia-grid3-settlement-extents-version-01.01": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-0x0p-6h41/download",
+      "type": "application/pdf",
+      "title": "The Gambia GRID3 Settlement Extents Version 01.01.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 913850,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/d8-0x0p-6h41/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-8q0z-dd19/download",
+      "type": "application/zip",
+      "title": "GRID3_The_Gambia_Settlement_Extents_Version_1.1.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2257826,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/d8-8q0z-dd19/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

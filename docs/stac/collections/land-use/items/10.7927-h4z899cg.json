@@ -1,0 +1,311 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4z899cg",
+  "collection": "land-use",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global Grid of Probabilities of Urban Expansion to 2030",
+    "description": "The Global Grid of Probabilities of Urban Expansion to 2030 presents spatially explicit probabilistic forecasts of global urban land cover change from 2000 to 2030 at a 2.5 arc-minute resolution. For each grid cell that is non-urban in 2000, a Monte-Carlo model assigned a probability of becoming urban by the year 2030. The authors first extracted urban extent circa 2000 from the NASA MODIS Land Cover Type Product Version 5, which provides a conservative estimate of global urban land cover. The authors then used population densities from the Global Rural-Urban Mapping Project, Version 1 (GRUMPv1) to create the population density driver map. They estimated the amount of new urban land in each United Nations region by 2030 in a Monte-Carlo fashion based on present empirical distribution of regional urban population densities and probability density functions of projected regional population and GDP values for 2030. To facilitate integration with other data products, CIESIN reprojected the data from Goode's Homolosine to Geographic WGS84 projection.",
+    "license": "Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Earth Science",
+      "Human Dimensions",
+      "Habitat Conversion/fragmentation",
+      "Urbanization/urban Sprawl",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Use",
+      "Population",
+      "Urban",
+      "Earth And Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4Z899CG",
+    "sci:citation": "Seto, K., B. Güneralp, and L.R. Hutyra. 2016-03-04. Global Grid of Probabilities of Urban Expansion to 2030. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2; 1.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Land Use",
+    "ciesin:tags": [
+      "Earth Science",
+      "Human Dimensions",
+      "Habitat Conversion/fragmentation",
+      "Urbanization/urban Sprawl",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Use",
+      "Population",
+      "Urban",
+      "Earth And Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7927/H4Z899CG",
+      "10.7910/DVN/KGNTE1"
+    ],
+    "ciesin:authors": [
+      "Seto, K., B. Güneralp, and L.R. Hutyra",
+      "Seto, K., B. Gï¿½neralp, and L.R. Hutyra"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To assess likely future areas of urban expansion up to the year 2030.",
+    "ciesin:publication_date": "2016-03-04T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4Z899CG",
+      "https://doi.org/10.1073/pnas.1211658109",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FKGNTE1",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550186425-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "lulc-global-grid-prob-urban-expansion-2030.xml",
+    "datetime": null,
+    "start_datetime": "2000-01-01T00:00:00Z",
+    "end_datetime": "2030-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2000-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2030-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4z899cg.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4Z899CG",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/KGNTE1",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4z899cg": {
+      "href": "https://doi.org/10.7927/H4Z899CG",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4Z899CG",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4Z899CG",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "kgnte1": {
+      "href": "https://doi.org/10.7910/DVN/KGNTE1",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/KGNTE1",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/KGNTE1",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "11787237": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787237",
+      "type": "application/zip",
+      "title": "global-grid-prob-urban-expansion-2030.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1378256,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11787237",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14200217": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14200217",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11339,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14200217",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3550186425-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550186425-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4Z899CG",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "lulc-global-grid-prob-urban-expansion-2030-methodology-general-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/lulc-global-grid-prob-urban-expansion-2030-methodology-general-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4Z899CG",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-global-grid-prob-urban-expansion-2030/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4Z899CG",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550186425-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata Granule Search",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4Z899CG",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "lulc-global-grid-prob-urban-expansion-2030-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/lulc/lulc-global-grid-prob-urban-expansion-2030/lulc-global-grid-prob-urban-expansion-2030-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "lulc-global-grid-prob-urban-expansion-2030-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-global-grid-prob-urban-expansion-2030/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-global-grid-prob-urban-expansion-2030/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "pnas.1211658109": {
+      "href": "https://doi.org/10.1073/pnas.1211658109",
+      "type": "text/html",
+      "title": "pnas.1211658109",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

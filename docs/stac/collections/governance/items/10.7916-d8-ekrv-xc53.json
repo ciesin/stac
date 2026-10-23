@@ -1,0 +1,100 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-d8-ekrv-xc53",
+  "collection": "governance",
+  "geometry": null,
+  "properties": {
+    "title": "SERVIR West Africa Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 2",
+    "description": "Data stewardship activities enable continuing use of data products and services to create new knowledge and contribute to planning and policy development, education and learning outcomes, and research. Data stewardship efforts create capabilities that enable data reuse and include data management, curation, and preservation. The international research data management community has established instruments, such as the CoreTrustSeal requirements, to guide the development, operation, assessment, and certification of digital repositories as trustworthy stewards of data. The CoreTrustSeal requirements provide metrics that are utilized by data repositories, worldwide to improve their data stewardship infrastructure and processes and to continually assess their data curation capabilities.",
+    "license": "other",
+    "keywords": [
+      "Governance"
+    ],
+    "providers": [
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/d8-ekrv-xc53",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Governance",
+    "ciesin:tags": [
+      "Governance"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7916/d8-ekrv-xc53"
+    ],
+    "ciesin:authors": [
+      "Downs, Robert R."
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "10.7916/d8-ekrv-xc53"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8-ekrv-xc53.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8-ekrv-xc53",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8-ekrv-xc53": {
+      "href": "https://doi.org/10.7916/d8-ekrv-xc53",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8-ekrv-xc53",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8-ekrv-xc53",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "downsservir2021trainingdatastewcts-session2_20210512": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-1n0m-np30/download",
+      "type": "application/pdf",
+      "title": "DownsSERVIR2021TrainingDataStewCTS-Session2_20210512.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 796364,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/d8-1n0m-np30/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

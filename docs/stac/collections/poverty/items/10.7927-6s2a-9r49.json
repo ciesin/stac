@@ -1,0 +1,67 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7927-6s2a-9r49",
+  "collection": "poverty",
+  "geometry": null,
+  "properties": {
+    "title": "U.S. Social Vulnerability Index Grids",
+    "license": "other",
+    "keywords": [
+      "Poverty"
+    ],
+    "sci:doi": "10.7927/6s2a-9r49",
+    "ciesin:category": "Poverty",
+    "ciesin:tags": [
+      "Poverty"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "not_current",
+    "ciesin:dois": [
+      "10.7927/6s2a-9r49"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-6s2a-9r49.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/6s2a-9r49",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "6s2a-9r49": {
+      "href": "https://doi.org/10.7927/6s2a-9r49",
+      "type": "text/html",
+      "title": "DOI 10.7927/6s2a-9r49",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/6s2a-9r49",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    }
+  }
+}

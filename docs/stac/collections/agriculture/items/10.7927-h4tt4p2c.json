@@ -1,0 +1,329 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4tt4p2c",
+  "collection": "agriculture",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Trends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE)",
+    "description": "The Trends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE), 2002-2016, is a global gridded data set at a spatial resolution of 0.5 degrees that presents trends (rate of change measured in centimeters per year) in freshwater availability based on data obtained from 2002 to 2016 by NASA GRACE. Terrestrial water availability storage is the sum of groundwater, soil moisture, snow and ice, surface waters, and wet biomass, expressed as an equivalent height of water. GRACE measures changes in the terrestrial water cycle by assessing small changes in Earth's gravity field. This observation-based assessment of how the world's water cycle is responding to human impacts and climate variations provides an important tool for evaluating and predicting emerging threats to water and food security.",
+    "license": "This work is licensed under the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Agriculture",
+      "Climate",
+      "Earth Science",
+      "Terrestrial Hydrosphere",
+      "Ground Water",
+      "Snow/ice",
+      "Surface Water",
+      "Global",
+      "Inland Waters",
+      "Remote Sensing",
+      "Sustainability",
+      "Water",
+      "Earth And Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4TT4P2C",
+    "sci:citation": "Rodell, M., J. S. Famiglietti, D. N. Wiese, J. T. Reager, H. K. Beaudoing, F. W. Landerer, and M.-H. Lo. 2019-05-22. Trends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE). Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": [
+      "Agriculture",
+      "Climate",
+      "Earth Science",
+      "Terrestrial Hydrosphere",
+      "Ground Water",
+      "Snow/ice",
+      "Surface Water",
+      "Global",
+      "Inland Waters",
+      "Remote Sensing",
+      "Sustainability",
+      "Water",
+      "Earth And Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7927/H4TT4P2C",
+      "10.7910/DVN/YDQAU9"
+    ],
+    "ciesin:authors": [
+      "Rodell, M., J. S. Famiglietti, D. N. Wiese, J. T. Reager, H. K. Beaudoing, F. W. Landerer, and M.-H. Lo"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide data on changes in freshwater availability in order to better understand impacts on regional food supplies, human and ecosystem health, energy generation, and social unrest.",
+    "ciesin:publication_date": "2019-05-22T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4TT4P2C",
+      "https://doi.org/10.1038/s41586-018-0123-1",
+      "http://creativecommons.org/licenses/by/4.0",
+      "https://doi.org/10.7927/h4q23xbz",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FYDQAU9",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540911301-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "sdei-trends-freshwater-availability-grace.xml",
+    "datetime": null,
+    "start_datetime": "2002-01-01T00:00:00Z",
+    "end_datetime": "2016-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2002-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2016-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4tt4p2c.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4TT4P2C",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/YDQAU9",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4tt4p2c": {
+      "href": "https://doi.org/10.7927/H4TT4P2C",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4TT4P2C",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4TT4P2C",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "ydqau9": {
+      "href": "https://doi.org/10.7910/DVN/YDQAU9",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/YDQAU9",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/YDQAU9",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "14222220": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222220",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11710,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14222220",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11835849": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835849",
+      "type": "application/zip",
+      "title": "sdei-trends-freshwater-availability-grace-2002-2016-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1508981,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11835849",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540911301-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540911301-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4TT4P2C",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-trends-freshwater-availability-grace-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-trends-freshwater-availability-grace-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4TT4P2C",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-trends-freshwater-availability-grace/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4TT4P2C",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540911301-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata Granule Search",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4TT4P2C",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-trends-freshwater-availability-grace-global-2002-2016-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-trends-freshwater-availability-grace/sdei-trends-freshwater-availability-grace-global-2002-2016-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-trends-freshwater-availability-grace-global-2002-2016-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-trends-freshwater-availability-grace/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-trends-freshwater-availability-grace/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "s41586-018-0123-1": {
+      "href": "https://doi.org/10.1038/s41586-018-0123-1",
+      "type": "text/html",
+      "title": "s41586-018-0123-1",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4q23xbz": {
+      "href": "https://doi.org/10.7927/h4q23xbz",
+      "type": "text/html",
+      "title": "h4q23xbz",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

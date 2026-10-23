@@ -1,0 +1,510 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4jw8btt",
+  "collection": "health",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global 3-Year Running Mean Ground-Level Nitrogen Dioxide (NO2) Grids from GOME, SCIAMACHY and GOME-2",
+    "description": "The Global 3-Year Running Mean Ground-Level Nitrogen Dioxide (NO2) Grids from GOME, SCIAMACHY and GOME-2 represent a series of three-year running mean grids (1996-2012) of ground level NO2 that were derived from Global Ozone Monitoring Experiment (GOME), SCanning Imaging Absorption SpectroMeter for Atmospheric CHartographY (SCIAMACHY) and Global Ozone Monitoring Experiment-2 (GOME-2) satellite retrievals. For each satellite-derived NO2 source, the relationship between satellite observations of tropospheric NO2 column densities and the NO2 concentrations at ground level relevant to human exposure is simulated, using the Goddard Earth Observing System chemical transport model (GEOS-Chem) to produce a mean NO2 concentration raster grid. The grid cell resolution is six arc-minutes (0.1 degree, or approximately 10 km at the equator) covering the global land surface.",
+    "license": "Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Earth Science",
+      "Atmosphere",
+      "Atmospheric Chemistry",
+      "Nitrogen Compounds",
+      "Nitrogen Dioxide",
+      "Environment",
+      "Global",
+      "Health",
+      "Remote Sensing",
+      "Sustainability",
+      "Urban",
+      "Earth And Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4JW8BTT",
+    "sci:citation": "Geddes, J.A., R.V. Martin, B.L. Boys, and A. van Donkelaar. 2017-05-19. Global 3-Year Running Mean Ground-Level Nitrogen Dioxide (NO2) Grids from GOME, SCIAMACHY and GOME-2. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2; 1.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Health",
+    "ciesin:tags": [
+      "Earth Science",
+      "Atmosphere",
+      "Atmospheric Chemistry",
+      "Nitrogen Compounds",
+      "Nitrogen Dioxide",
+      "Environment",
+      "Global",
+      "Health",
+      "Remote Sensing",
+      "Sustainability",
+      "Urban",
+      "Earth And Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7927/H4JW8BTT",
+      "10.7910/DVN/6G9FWT"
+    ],
+    "ciesin:authors": [
+      "Geddes, J.A., R.V. Martin, B.L. Boys, and A. van Donkelaar",
+      "Geddes, J.A, R.V. Martin, B.L. Boys, and A. van Donkelaar"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide a continuous surface of NO2 concentrations for health and environmental research.",
+    "ciesin:publication_date": "2017-05-19T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4JW8BTT",
+      "http://dx.doi.org/10.1289/ehp.1409567",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F6G9FWT",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550191461-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2.xml",
+    "datetime": null,
+    "start_datetime": "1996-01-01T00:00:00Z",
+    "end_datetime": "2012-12-31T00:00:00Z",
+    "ciesin:temporal_start": "1996-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2012-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4jw8btt.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4JW8BTT",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/6G9FWT",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4jw8btt": {
+      "href": "https://doi.org/10.7927/H4JW8BTT",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4JW8BTT",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4JW8BTT",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "6g9fwt": {
+      "href": "https://doi.org/10.7910/DVN/6G9FWT",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/6G9FWT",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/6G9FWT",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "14222211": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222211",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11354,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14222211",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716014": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716014",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-1996-1998-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1918909,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716014",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716019": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716019",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-1997-1999-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1911849,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716019",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716015": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716015",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-1998-2000-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1892315,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716015",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716013": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716013",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-1999-2001-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1883415,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716013",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716021": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716021",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-2000-2002-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1878760,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716021",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716009": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716009",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-2001-2003-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1858820,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716009",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716017": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716017",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-2002-2004-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1829002,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716017",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716018": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716018",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-2003-2005-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1771667,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716018",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716008": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716008",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-2004-2006-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1762486,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716008",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716020": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716020",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-2005-2007-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1755844,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716020",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716011": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716011",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-2006-2008-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1756264,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716011",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716010": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716010",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-2007-2009-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1760741,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716010",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716016": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716016",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-2008-2010-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1770989,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716016",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716022": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716022",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-2009-2011-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1789080,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716022",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716012": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716012",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-2010-2012-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1822227,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716012",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905231": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905231",
+      "type": "application/zip",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-all-1996-2012-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 27335782,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905231",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3550191461-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550191461-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4JW8BTT",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-citation2.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4JW8BTT",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4JW8BTT",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550191461-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata Granule Search",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4JW8BTT",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-1996-1998-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2/sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-1996-1998-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2-1996-1998-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-3-year-running-mean-no2-gome-sciamachy-gome2/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "ehp.1409567": {
+      "href": "http://dx.doi.org/10.1289/ehp.1409567",
+      "type": "text/html",
+      "title": "ehp.1409567",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

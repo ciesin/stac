@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-hzrd-yq54",
+  "collection": "boundaries",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 DRC Health Zone and Health Area Boundaries - Haut-Katanga, Kasaï, Kasaï-Oriental, Kinshasa, and Lomami Provinces Version 01",
+    "license": "other",
+    "keywords": [
+      "Boundaries",
+      "Latest"
+    ],
+    "sci:doi": "10.7916/hzrd-yq54",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Boundaries",
+    "ciesin:tags": [
+      "Boundaries",
+      "Latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7916/hzrd-yq54"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-hzrd-yq54.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/hzrd-yq54",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "hzrd-yq54": {
+      "href": "https://doi.org/10.7916/hzrd-yq54",
+      "type": "text/html",
+      "title": "DOI 10.7916/hzrd-yq54",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/hzrd-yq54",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3_drc_healthcatchmentareaboundaries_datareleasenotes_v01": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/wy1g-k020/download",
+      "type": "application/pdf",
+      "title": "GRID3_DRC_HealthCatchmentAreaBoundaries_DataReleaseNotes_V01.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1713538,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/wy1g-k020/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/zhaa-ns08/download",
+      "type": "application/zip",
+      "title": "GRID3_DRC_health_catchment_area_boundaries_V01.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11303866,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/zhaa-ns08/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

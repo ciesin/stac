@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-d8-y7wv-4398",
+  "collection": "settlements",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 Côte d'Ivoire Settlement Extents, Version 01.01",
+    "license": "other",
+    "keywords": [
+      "Settlements"
+    ],
+    "sci:doi": "10.7916/d8-y7wv-4398",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": [
+      "Settlements"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "not_current",
+    "ciesin:dois": [
+      "10.7916/d8-y7wv-4398"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8-y7wv-4398.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8-y7wv-4398",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8-y7wv-4398": {
+      "href": "https://doi.org/10.7916/d8-y7wv-4398",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8-y7wv-4398",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8-y7wv-4398",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3_cote_divoire_settlement_extents_version_1.1": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-we72-6p08/download",
+      "type": "application/zip",
+      "title": "GRID3_Cote_dIvoire_Settlement_Extents_Version_1.1.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 56582901,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/d8-we72-6p08/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-g1gs-ev27/download",
+      "type": "application/pdf",
+      "title": "Câte d'Ivoire GRID3 Settlement Extents Version 01.01.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 915534,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/d8-g1gs-ev27/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

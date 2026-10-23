@@ -1,0 +1,542 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4td9vdp",
+  "collection": "population",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Gridded Population of the World, Version 4 (GPWv4): National Identifier Grid, Revision 11",
+    "description": "The Gridded Population of the World, Version 4 (GPWv4): National Identifier Grid, Revision 11 is a raster representation of nation-states in GPWv4 for use in aggregating population data. This data set was produced from the input census units which were used to create a raster surface where pixels that cover the same census data source (most often a country or territory) have the same value. Note that these data are not official representations of country boundaries; rather, they represent the area covered by the input data. In cases where multiple countries overlapped a given pixel (e.g. on national borders), the pixels were assigned the country code of the input data set which made up the majority of the land area. The data file was produced as a global raster at 30 arc-second (~1 km at the equator) resolution. To enable faster global processing, and in support of research communities, the 30 arc-second data were aggregated to 2.5 arc-minute, 15 arc-minute, 30 arc-minute and 1 degree resolutions. Each level of aggregation results in the loss of one or more countries with areas smaller than the cell size of the final raster. Rasters of all resolutions were also converted to polygon shapefiles.",
+    "license": "This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Continent",
+      "Country",
+      "Earth Science",
+      "Human Dimensions",
+      "Boundaries",
+      "Global",
+      "Population",
+      "Society",
+      "Earth And Environmental Sciences",
+      "Latest"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4TD9VDP",
+    "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University. 2018-12-31. Gridded Population of the World, Version 4 (GPWv4): National Identifier Grid, Revision 11. Edition 4.11. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "4.11; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Population",
+    "ciesin:tags": [
+      "Continent",
+      "Country",
+      "Earth Science",
+      "Human Dimensions",
+      "Boundaries",
+      "Global",
+      "Population",
+      "Society",
+      "Earth And Environmental Sciences",
+      "Latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7927/H4TD9VDP",
+      "10.7910/DVN/UTN7K2"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide a raster representation of nation-states in GPWv4 for use in aggregating population data.",
+    "ciesin:publication_date": "2018-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4TD9VDP",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://doi.org/10.7927/H49W0CDN",
+      "https://doi.org/10.7927/H41V5BX1",
+      "https://doi.org/10.1080/23754931.2015.1014272",
+      "https://doi.org/10.7927/H4T72FDB",
+      "https://doi.org/10.7927/H4BC3WMT",
+      "https://doi.org/10.7927/H42Z13KG",
+      "https://doi.org/10.7927/H4Z60M4Z",
+      "https://doi.org/10.7927/H4JW8BX5",
+      "https://doi.org/10.7927/H49C6VHW",
+      "https://doi.org/10.7927/H45Q4T5F",
+      "https://doi.org/10.7927/H46M34XX",
+      "https://doi.org/10.7927/H4PN93PB",
+      "https://doi.org/10.7927/H4F47M65",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FUTN7K2"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse"
+    ],
+    "ciesin:inventory_xml_location": "gpw-v4-national-identifier-grid-rev11.xml",
+    "datetime": null,
+    "start_datetime": "2010-07-01T00:00:00Z",
+    "end_datetime": "2010-07-01T00:00:00Z",
+    "ciesin:temporal_start": "2010-07-01T00:00:00Z",
+    "ciesin:temporal_end": "2010-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4td9vdp.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4TD9VDP",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/UTN7K2",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4td9vdp": {
+      "href": "https://doi.org/10.7927/H4TD9VDP",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4TD9VDP",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4TD9VDP",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "utn7k2": {
+      "href": "https://doi.org/10.7910/DVN/UTN7K2",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/UTN7K2",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/UTN7K2",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "11812781": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812781",
+      "type": "application/zipped-shapefile",
+      "title": "gpw-v4-national-identifier-grid-rev11_15_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 151205,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812781",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812775": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812775",
+      "type": "application/zipped-shapefile",
+      "title": "gpw-v4-national-identifier-grid-rev11_15_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 183546,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812775",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812772": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812772",
+      "type": "application/zipped-shapefile",
+      "title": "gpw-v4-national-identifier-grid-rev11_1_deg_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 51108,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812772",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812776": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812776",
+      "type": "application/zipped-shapefile",
+      "title": "gpw-v4-national-identifier-grid-rev11_1_deg_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 56184,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812776",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812773": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812773",
+      "type": "application/zipped-shapefile",
+      "title": "gpw-v4-national-identifier-grid-rev11_2pt5_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1338657,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812773",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812780": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812780",
+      "type": "application/zipped-shapefile",
+      "title": "gpw-v4-national-identifier-grid-rev11_2pt5_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1288955,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812780",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812774": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812774",
+      "type": "application/zipped-shapefile",
+      "title": "gpw-v4-national-identifier-grid-rev11_30_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 81913,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812774",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812779": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812779",
+      "type": "application/zipped-shapefile",
+      "title": "gpw-v4-national-identifier-grid-rev11_30_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 95190,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812779",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812777": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812777",
+      "type": "application/zipped-shapefile",
+      "title": "gpw-v4-national-identifier-grid-rev11_30_sec_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 15528533,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812777",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812778": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812778",
+      "type": "application/zipped-shapefile",
+      "title": "gpw-v4-national-identifier-grid-rev11_30_sec_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12548937,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812778",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14172529": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14172529",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13471,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14172529",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "docs": {
+      "href": "http://sedac.ciesin.columbia.edu/data/set/gpw-v4-national-identifier-grid-rev11/docs",
+      "type": "text/html",
+      "title": "docs",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "gpw-v4-national-identifier-grid-rev11-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/gpw-v4/gpw-v4-national-identifier-grid-rev11/gpw-v4-national-identifier-grid-rev11-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "gpw-v4-national-identifier-grid-rev11-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-national-identifier-grid-rev11/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-national-identifier-grid-rev11/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps-2": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-land-water-area-rev11/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-land-water-area-rev11/maps/services",
+      "type": "text/html",
+      "title": "services",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h49w0cdn": {
+      "href": "https://doi.org/10.7927/H49W0CDN",
+      "type": "text/html",
+      "title": "H49W0CDN",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h41v5bx1": {
+      "href": "https://doi.org/10.7927/H41V5BX1",
+      "type": "text/html",
+      "title": "H41V5BX1",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "23754931.2015.1014272": {
+      "href": "https://doi.org/10.1080/23754931.2015.1014272",
+      "type": "text/html",
+      "title": "23754931.2015.1014272",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4t72fdb": {
+      "href": "https://doi.org/10.7927/H4T72FDB",
+      "type": "text/html",
+      "title": "H4T72FDB",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4bc3wmt": {
+      "href": "https://doi.org/10.7927/H4BC3WMT",
+      "type": "text/html",
+      "title": "H4BC3WMT",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h42z13kg": {
+      "href": "https://doi.org/10.7927/H42Z13KG",
+      "type": "text/html",
+      "title": "H42Z13KG",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4z60m4z": {
+      "href": "https://doi.org/10.7927/H4Z60M4Z",
+      "type": "text/html",
+      "title": "H4Z60M4Z",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4jw8bx5": {
+      "href": "https://doi.org/10.7927/H4JW8BX5",
+      "type": "text/html",
+      "title": "H4JW8BX5",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h49c6vhw": {
+      "href": "https://doi.org/10.7927/H49C6VHW",
+      "type": "text/html",
+      "title": "H49C6VHW",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h45q4t5f": {
+      "href": "https://doi.org/10.7927/H45Q4T5F",
+      "type": "text/html",
+      "title": "H45Q4T5F",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h46m34xx": {
+      "href": "https://doi.org/10.7927/H46M34XX",
+      "type": "text/html",
+      "title": "H46M34XX",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4pn93pb": {
+      "href": "https://doi.org/10.7927/H4PN93PB",
+      "type": "text/html",
+      "title": "H4PN93PB",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4f47m65": {
+      "href": "https://doi.org/10.7927/H4F47M65",
+      "type": "text/html",
+      "title": "H4F47M65",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

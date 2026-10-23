@@ -1,0 +1,657 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4z60m4z",
+  "collection": "land-use",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Gridded Population of the World, Version 4 (GPWv4): Land and Water Area, Revision 11",
+    "description": "The Gridded Population of the World, Version 4 (GPWv4): Land and Water Area, Revision 11 consists of two rasters that measure surface areas of land and water in square kilometers per pixel. The Land Area raster provides estimates of the land area, excluding permanent ice and water, within each pixel, and was used to calculate the population density rasters. The Water Area raster provides estimates of the water area (permanent ice and water) within each pixel. The sum of land area and water area of a pixel equals the total surface area of that pixel. The data files were produced as global rasters at 30 arc-second (~1 km at the equator) resolution. To enable faster global processing, and in support of research communities, the 30 arc-second data were aggregated to 2.5 arc-minute, 15 arc-minute, 30 arc-minute and 1 degree resolutions.",
+    "license": "This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Continent",
+      "Country",
+      "Earth Science",
+      "Land Surface",
+      "Land Use/land Cover",
+      "Terrestrial Hydrosphere",
+      "Surface Water",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Inland Waters",
+      "Land Use",
+      "Water",
+      "Earth And Environmental Sciences",
+      "Latest"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4Z60M4Z",
+    "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University. 2018-12-31. Gridded Population of the World, Version 4 (GPWv4): Land and Water Area, Revision 11. Edition 4.11. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "4.11; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Land Use",
+    "ciesin:tags": [
+      "Continent",
+      "Country",
+      "Earth Science",
+      "Land Surface",
+      "Land Use/land Cover",
+      "Terrestrial Hydrosphere",
+      "Surface Water",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Inland Waters",
+      "Land Use",
+      "Water",
+      "Earth And Environmental Sciences",
+      "Latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7927/H4Z60M4Z",
+      "10.7910/DVN/ZKLOEX"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide pixel-level land and water surface area estimates.",
+    "ciesin:publication_date": "2018-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4Z60M4Z",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://doi.org/10.7927/H45M63M9",
+      "https://doi.org/10.1080/23754931.2015.1014272",
+      "https://doi.org/10.7927/H4Z03642",
+      "https://doi.org/10.7927/H4BC3WMT",
+      "https://doi.org/10.7927/H42Z13KG",
+      "https://doi.org/10.7927/H4TD9VDP",
+      "https://doi.org/10.7927/H4JW8BX5",
+      "https://doi.org/10.7927/H49C6VHW",
+      "https://doi.org/10.7927/H45Q4T5F",
+      "https://doi.org/10.7927/H46M34XX",
+      "https://doi.org/10.7927/H4PN93PB",
+      "https://doi.org/10.7927/H4F47M65",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FZKLOEX"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse"
+    ],
+    "ciesin:inventory_xml_location": "gpw-v4-land-water-area-rev11.xml",
+    "datetime": null,
+    "start_datetime": "2010-07-01T00:00:00Z",
+    "end_datetime": "2010-07-01T00:00:00Z",
+    "ciesin:temporal_start": "2010-07-01T00:00:00Z",
+    "ciesin:temporal_end": "2010-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4z60m4z.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4Z60M4Z",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/ZKLOEX",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4z60m4z": {
+      "href": "https://doi.org/10.7927/H4Z60M4Z",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4Z60M4Z",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4Z60M4Z",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "zkloex": {
+      "href": "https://doi.org/10.7910/DVN/ZKLOEX",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/ZKLOEX",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/ZKLOEX",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "11812766": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812766",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_landareakm_15_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 727988,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812766",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812762": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812762",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_landareakm_15_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 773454,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812762",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812751": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812751",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_landareakm_1_deg_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 77698,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812751",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812768": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812768",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_landareakm_1_deg_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 82195,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812768",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812755": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812755",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_landareakm_2pt5_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10102197,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812755",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812753": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812753",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_landareakm_2pt5_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12150934,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812753",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812749": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812749",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_landareakm_30_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 235247,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812749",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812757": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812757",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_landareakm_30_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 257415,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812757",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812752": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812752",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_landareakm_30_sec_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 133377271,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812752",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812767": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812767",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_landareakm_30_sec_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 181728090,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812767",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812750": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812750",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_waterareakm_15_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 803215,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812750",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812761": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812761",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_waterareakm_15_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 860377,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812761",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812754": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812754",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_waterareakm_1_deg_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 82321,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812754",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812764": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812764",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_waterareakm_1_deg_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 88373,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812764",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812756": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812756",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_waterareakm_2pt5_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10666268,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812756",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812760": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812760",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_waterareakm_2pt5_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11472639,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812760",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812765": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812765",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_waterareakm_30_min_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 262913,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812765",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812763": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812763",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_waterareakm_30_min_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 283720,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812763",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812758": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812758",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_waterareakm_30_sec_asc.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 85929612,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812758",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11812759": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812759",
+      "type": "application/zip",
+      "title": "gpw-v4-land-water-area-rev11_waterareakm_30_sec_tif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 103292628,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11812759",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14172525": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14172525",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12737,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14172525",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "docs": {
+      "href": "http://sedac.ciesin.columbia.edu/data/set/gpw-v4-land-water-area-rev11/docs",
+      "type": "text/html",
+      "title": "docs",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "gpw-v4-land-water-area-rev11-land-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/gpw-v4/gpw-v4-land-water-area-rev11/gpw-v4-land-water-area-rev11-land-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "gpw-v4-land-water-area-rev11-land-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-land-water-area-rev11/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-land-water-area-rev11/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-land-water-area-rev11/maps/services",
+      "type": "text/html",
+      "title": "services",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h45m63m9": {
+      "href": "https://doi.org/10.7927/H45M63M9",
+      "type": "text/html",
+      "title": "H45M63M9",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "23754931.2015.1014272": {
+      "href": "https://doi.org/10.1080/23754931.2015.1014272",
+      "type": "text/html",
+      "title": "23754931.2015.1014272",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4z03642": {
+      "href": "https://doi.org/10.7927/H4Z03642",
+      "type": "text/html",
+      "title": "H4Z03642",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4bc3wmt": {
+      "href": "https://doi.org/10.7927/H4BC3WMT",
+      "type": "text/html",
+      "title": "H4BC3WMT",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h42z13kg": {
+      "href": "https://doi.org/10.7927/H42Z13KG",
+      "type": "text/html",
+      "title": "H42Z13KG",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4td9vdp": {
+      "href": "https://doi.org/10.7927/H4TD9VDP",
+      "type": "text/html",
+      "title": "H4TD9VDP",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4jw8bx5": {
+      "href": "https://doi.org/10.7927/H4JW8BX5",
+      "type": "text/html",
+      "title": "H4JW8BX5",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h49c6vhw": {
+      "href": "https://doi.org/10.7927/H49C6VHW",
+      "type": "text/html",
+      "title": "H49C6VHW",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h45q4t5f": {
+      "href": "https://doi.org/10.7927/H45Q4T5F",
+      "type": "text/html",
+      "title": "H45Q4T5F",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h46m34xx": {
+      "href": "https://doi.org/10.7927/H46M34XX",
+      "type": "text/html",
+      "title": "H46M34XX",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4pn93pb": {
+      "href": "https://doi.org/10.7927/H4PN93PB",
+      "type": "text/html",
+      "title": "H4PN93PB",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4f47m65": {
+      "href": "https://doi.org/10.7927/H4F47M65",
+      "type": "text/html",
+      "title": "H4F47M65",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

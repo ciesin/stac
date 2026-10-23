@@ -1,0 +1,969 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4pk0d3b",
+  "collection": "population",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -124.0,
+          17.0
+        ],
+        [
+          -65.0,
+          17.0
+        ],
+        [
+          -65.0,
+          47.0
+        ],
+        [
+          -124.0,
+          47.0
+        ],
+        [
+          -124.0,
+          17.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "U.S. Census Grids (Summary File 1), 1990: Metropolitan Statistical Areas",
+    "description": "The U.S. Census Grids (Summary File 1), 1990: Metropolitan Statistical Areas data set contains grids of demographic and socioeconomic data from the year 1990 U.S. census in ASCII andGeoTIFF formats for 39 metropolitan statistical areas with at least one million in population. The grids have a resolution of 7.5 arc-seconds (0.002075 decimal degrees), or approximately 250 square meters. The gridded variables are based on census block geography from Census 1990 TIGER/Line Files and census variables (population, households, and housing variables). This data set is produced by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "license": "Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Akron",
+      "Anaheim",
+      "Arizona",
+      "Arkansas",
+      "Boston",
+      "Boundaries",
+      "Brazonia",
+      "Buffalo",
+      "California",
+      "Charlotte",
+      "Chicago",
+      "Cincinnati",
+      "City",
+      "Clearwater",
+      "Cleveland",
+      "Colorado",
+      "Connecticut",
+      "Dallas",
+      "Delaware",
+      "Denver",
+      "Detroit",
+      "District Of Columbia",
+      "Earth Science",
+      "Human Dimensions",
+      "Population",
+      "Fall River",
+      "Florida",
+      "Galveston",
+      "Gary",
+      "Gastonia",
+      "Georgia",
+      "Hartford",
+      "Houston",
+      "Illinois",
+      "Indiana",
+      "Kansas",
+      "Kentucky",
+      "Lake County",
+      "Lawrence",
+      "Long Island",
+      "Lorain",
+      "Los Angeles",
+      "Louisiana",
+      "Maryland",
+      "Massachusetts",
+      "Miami",
+      "Michigan",
+      "Middletown",
+      "Milwaukee",
+      "Minneapolis",
+      "Minnesota",
+      "Missouri",
+      "New Britain",
+      "New Hampshire",
+      "New Jersey",
+      "New York",
+      "Newport News",
+      "Norfolk",
+      "North Carolina",
+      "Northern New Jersey",
+      "Oakland",
+      "Ohio",
+      "Oregon",
+      "Pawtucket",
+      "Pennsylvania",
+      "Philadelphia",
+      "Pittsburgh",
+      "Portland",
+      "Providence",
+      "Riverside",
+      "Rock Hill",
+      "Salem",
+      "Salt Lake City",
+      "San Francisco",
+      "San Jose",
+      "Seattle",
+      "Society",
+      "South Carolina",
+      "St. Petersburg",
+      "Tampa",
+      "Tennessee",
+      "Texas",
+      "Trenton",
+      "United States Of America",
+      "Urban",
+      "Utah",
+      "Virginia",
+      "Virginia Beach",
+      "Washington",
+      "West Virginia",
+      "Wilmington",
+      "Wisconsin",
+      "Earth And Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4PK0D3B",
+    "sci:citation": "Seirup, L., G. Yetman, and L. Razafindrazay. 2013-05-17. U.S. Census Grids (Summary File 1), 1990: Metropolitan Statistical Areas. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Population",
+    "ciesin:tags": [
+      "Akron",
+      "Anaheim",
+      "Arizona",
+      "Arkansas",
+      "Boston",
+      "Boundaries",
+      "Brazonia",
+      "Buffalo",
+      "California",
+      "Charlotte",
+      "Chicago",
+      "Cincinnati",
+      "City",
+      "Clearwater",
+      "Cleveland",
+      "Colorado",
+      "Connecticut",
+      "Dallas",
+      "Delaware",
+      "Denver",
+      "Detroit",
+      "District Of Columbia",
+      "Earth Science",
+      "Human Dimensions",
+      "Population",
+      "Fall River",
+      "Florida",
+      "Galveston",
+      "Gary",
+      "Gastonia",
+      "Georgia",
+      "Hartford",
+      "Houston",
+      "Illinois",
+      "Indiana",
+      "Kansas",
+      "Kentucky",
+      "Lake County",
+      "Lawrence",
+      "Long Island",
+      "Lorain",
+      "Los Angeles",
+      "Louisiana",
+      "Maryland",
+      "Massachusetts",
+      "Miami",
+      "Michigan",
+      "Middletown",
+      "Milwaukee",
+      "Minneapolis",
+      "Minnesota",
+      "Missouri",
+      "New Britain",
+      "New Hampshire",
+      "New Jersey",
+      "New York",
+      "Newport News",
+      "Norfolk",
+      "North Carolina",
+      "Northern New Jersey",
+      "Oakland",
+      "Ohio",
+      "Oregon",
+      "Pawtucket",
+      "Pennsylvania",
+      "Philadelphia",
+      "Pittsburgh",
+      "Portland",
+      "Providence",
+      "Riverside",
+      "Rock Hill",
+      "Salem",
+      "Salt Lake City",
+      "San Francisco",
+      "San Jose",
+      "Seattle",
+      "Society",
+      "South Carolina",
+      "St. Petersburg",
+      "Tampa",
+      "Tennessee",
+      "Texas",
+      "Trenton",
+      "United States Of America",
+      "Urban",
+      "Utah",
+      "Virginia",
+      "Virginia Beach",
+      "Washington",
+      "West Virginia",
+      "Wilmington",
+      "Wisconsin",
+      "Earth And Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7927/H4PK0D3B",
+      "10.7910/DVN/GPMVGY"
+    ],
+    "ciesin:authors": [
+      "Seirup, L., G. Yetman, and L. Razafindrazay"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]"
+    ],
+    "ciesin:place": [
+      "United States of America",
+      "Arizona",
+      "Arkansas",
+      "California",
+      "Colorado",
+      "Connecticut",
+      "Delaware",
+      "District of Columbia",
+      "Florida",
+      "Georgia",
+      "Illinois",
+      "Indiana",
+      "Kansas",
+      "Kentucky",
+      "Louisiana",
+      "Maryland",
+      "Massachusetts",
+      "Michigan",
+      "Minnesota",
+      "Missouri",
+      "New Jersey",
+      "New Hampshire",
+      "New York",
+      "North Carolina",
+      "Ohio",
+      "Oregon",
+      "Pennsylvania",
+      "South Carolina",
+      "Tennessee",
+      "Texas",
+      "Utah",
+      "Virginia",
+      "Washington",
+      "West Virginia",
+      "Wisconsin",
+      "Akron",
+      "Anaheim",
+      "Boston",
+      "Brazonia",
+      "Buffalo",
+      "Charlotte",
+      "Chicago",
+      "Cincinnati",
+      "Clearwater",
+      "Cleveland",
+      "Dallas",
+      "Denver",
+      "Detroit",
+      "Fall River",
+      "Galveston",
+      "Gary",
+      "Gastonia",
+      "Hartford",
+      "Houston",
+      "Lake County",
+      "Lawrence",
+      "Long Island",
+      "Lorain",
+      "Los Angeles",
+      "Miami",
+      "Middletown",
+      "Milwaukee",
+      "Minneapolis",
+      "New Britain",
+      "Newport News",
+      "Norfolk",
+      "Northern New Jersey",
+      "Oakland",
+      "Pawtucket",
+      "Philadelphia",
+      "Pittsburgh",
+      "Portland",
+      "Providence",
+      "Riverside",
+      "Rock Hill",
+      "Salem",
+      "Salt Lake City",
+      "San Francisco",
+      "San Jose",
+      "Seattle",
+      "St. Petersburg",
+      "Tampa",
+      "Trenton",
+      "Virginia Beach",
+      "Wilmington"
+    ],
+    "ciesin:purpose": "To provide gridded demographic data, including characteristics of age, race, ethnicity, and housing, for metropolitan statistical areas at a finer resolution than is available in the 30 arc-second grids used for the United States as a whole.",
+    "ciesin:publication_date": "2013-05-17T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4PK0D3B",
+      "https://doi.org/10.7927/H46H4FBC",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FGPMVGY"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse"
+    ],
+    "ciesin:inventory_xml_location": "usgrid-summary-file1-1990-msa.xml",
+    "datetime": null,
+    "start_datetime": "1990-04-01T00:00:00Z",
+    "end_datetime": "1990-04-01T00:00:00Z",
+    "ciesin:temporal_start": "1990-04-01T00:00:00Z",
+    "ciesin:temporal_end": "1990-04-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4pk0d3b.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4PK0D3B",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/GPMVGY",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4pk0d3b": {
+      "href": "https://doi.org/10.7927/H4PK0D3B",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4PK0D3B",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4PK0D3B",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "gpmvgy": {
+      "href": "https://doi.org/10.7910/DVN/GPMVGY",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/GPMVGY",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/GPMVGY",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "13629345": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629345",
+      "type": "application/zip",
+      "title": "m0520.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39297240,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629345",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629353": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629353",
+      "type": "application/zip",
+      "title": "m0720.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 22406876,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629353",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629356": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629356",
+      "type": "application/zip",
+      "title": "m1122.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 30347916,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629356",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629346": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629346",
+      "type": "application/zip",
+      "title": "m1282.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12362738,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629346",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629342": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629342",
+      "type": "application/zip",
+      "title": "m1520.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 25966270,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629342",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629341": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629341",
+      "type": "application/zip",
+      "title": "m1602.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 43093799,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629341",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629348": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629348",
+      "type": "application/zip",
+      "title": "m1642.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 20067099,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629348",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629347": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629347",
+      "type": "application/zip",
+      "title": "m1692.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 24011563,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629347",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629355": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629355",
+      "type": "application/zip",
+      "title": "m1840.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 24030612,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629355",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629352": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629352",
+      "type": "application/zip",
+      "title": "m1922.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 44296942,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629352",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629351": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629351",
+      "type": "application/zip",
+      "title": "m2082.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 21212290,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629351",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629350": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629350",
+      "type": "application/zip",
+      "title": "m2162.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42031043,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629350",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629340": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629340",
+      "type": "application/zip",
+      "title": "m3282.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13366046,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629340",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629343": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629343",
+      "type": "application/zip",
+      "title": "m3362.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41512897,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629343",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629354": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629354",
+      "type": "application/zip",
+      "title": "m3480.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 20949854,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629354",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629349": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629349",
+      "type": "application/zip",
+      "title": "m3760.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 29917149,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629349",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629344": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629344",
+      "type": "application/zip",
+      "title": "m4472.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 98266568,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629344",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629369": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629369",
+      "type": "application/zip",
+      "title": "m4992.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11243648,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629369",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629364": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629364",
+      "type": "application/zip",
+      "title": "m5082.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14801135,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629364",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629375": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629375",
+      "type": "application/zip",
+      "title": "m5120.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37706398,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629375",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629376": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629376",
+      "type": "application/zip",
+      "title": "m5560.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9808443,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629376",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629374": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629374",
+      "type": "application/zip",
+      "title": "m5602.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 74297009,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629374",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629377": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629377",
+      "type": "application/zip",
+      "title": "m5720.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13518981,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629377",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629366": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629366",
+      "type": "application/zip",
+      "title": "m5960.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13230523,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629366",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629371": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629371",
+      "type": "application/zip",
+      "title": "m6162.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 43926248,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629371",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629372": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629372",
+      "type": "application/zip",
+      "title": "m6200.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 23521208,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629372",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629363": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629363",
+      "type": "application/zip",
+      "title": "m6282.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 30110664,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629363",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629379": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629379",
+      "type": "application/zip",
+      "title": "m6442.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 24559907,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629379",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629368": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629368",
+      "type": "application/zip",
+      "title": "m6482.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10454538,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629368",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629373": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629373",
+      "type": "application/zip",
+      "title": "m6840.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 22049162,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629373",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629370": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629370",
+      "type": "application/zip",
+      "title": "m6920.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 24356118,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629370",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629367": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629367",
+      "type": "application/zip",
+      "title": "m7040.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 35125957,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629367",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629365": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629365",
+      "type": "application/zip",
+      "title": "m7160.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8269546,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629365",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629378": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629378",
+      "type": "application/zip",
+      "title": "m7240.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 16092313,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629378",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629382": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629382",
+      "type": "application/zip",
+      "title": "m7320.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 19222904,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629382",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629384": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629384",
+      "type": "application/zip",
+      "title": "m7362.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 43926702,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629384",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629386": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629386",
+      "type": "application/zip",
+      "title": "m7602.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 31059766,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629386",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629383": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629383",
+      "type": "application/zip",
+      "title": "m8280.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 17866378,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629383",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13629385": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13629385",
+      "type": "application/zip",
+      "title": "m8840.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 31746055,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13629385",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14222263": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222263",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13204,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14222263",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/usgrid-summary-file1-1990-msa/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h46h4fbc": {
+      "href": "https://doi.org/10.7927/H46H4FBC",
+      "type": "text/html",
+      "title": "H46H4FBC",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -124.0,
+    17.0,
+    -65.0,
+    47.0
+  ]
+}

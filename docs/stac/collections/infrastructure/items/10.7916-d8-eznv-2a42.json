@@ -1,0 +1,82 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-d8-eznv-2a42",
+  "collection": "infrastructure",
+  "geometry": null,
+  "properties": {
+    "title": "Mapping Health Facilities",
+    "license": "other",
+    "keywords": [
+      "Infrastructure"
+    ],
+    "sci:doi": "10.7916/d8-eznv-2a42",
+    "ciesin:resource_type": "report",
+    "ciesin:category": "Infrastructure",
+    "ciesin:tags": [
+      "Infrastructure"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7916/d8-eznv-2a42"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8-eznv-2a42.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8-eznv-2a42",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8-eznv-2a42": {
+      "href": "https://doi.org/10.7916/d8-eznv-2a42",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8-eznv-2a42",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8-eznv-2a42",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3healthfacilitiespaper_final_sept2021": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-v5kc-5227/download",
+      "type": "application/pdf",
+      "title": "GRID3HealthFacilitiesPaper_Final_Sept2021.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10204115,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/d8-v5kc-5227/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

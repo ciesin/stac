@@ -1,0 +1,268 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7910-dvn-zlahg0",
+  "collection": "sustainability",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          -55.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -55.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "2024 Environmental Performance Index (EPI)",
+    "description": "The 2024 Environmental Performance Index (EPI) provides a data-driven summary of the state of sustainability around the world. Using 58 performance indicators across 11 issue categories, the EPI ranks 180 countries on climate change performance, environmental health, and ecosystem vitality. These indicators provide a gauge at a national scale of how close countries are to established environmental policy targets. The EPI offers a scorecard that highlights leaders and laggards in environmental performance and provides practical guidance for countries that aspire to move toward a sustainable future.",
+    "license": "CC BY-NC-SA 4.0",
+    "keywords": [
+      "Earth And Environmental Sciences",
+      "Sustainability",
+      "Latest"
+    ],
+    "providers": [
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7910/DVN/ZLAHG0",
+    "sci:citation": "Wendling, Zach. 2024 Environmental Performance Index (EPI). Harvard Dataverse. https://doi.org/10.7910/DVN/ZLAHG0",
+    "version": "2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Sustainability",
+    "ciesin:tags": [
+      "Earth And Environmental Sciences",
+      "Sustainability",
+      "Latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7910/DVN/ZLAHG0"
+    ],
+    "ciesin:authors": [
+      "Wendling, Zach"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FZLAHG0"
+    ],
+    "ciesin:metadata_sources": [
+      "Harvard Dataverse"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7910-dvn-zlahg0.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/ZLAHG0",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "zlahg0": {
+      "href": "https://doi.org/10.7910/DVN/ZLAHG0",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/ZLAHG0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/ZLAHG0",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "14118344": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14118344",
+      "type": "text/tab-separated-values",
+      "title": "2024-epi-country-attributes.tab",
+      "roles": [
+        "data"
+      ],
+      "file:size": 24411,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "14118344",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14094613": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14094613",
+      "type": "application/zip",
+      "title": "2024-epi-indicators-time-series_20240827.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 613724,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "14094613",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14094609": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14094609",
+      "type": "application/pdf",
+      "title": "2024-epi-policymakers-summary_20240917.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13500730,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "14094609",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14094610": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14094610",
+      "type": "application/zip",
+      "title": "2024-epi-raw-data-time-series-na.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5088190,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "14094610",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14094608": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14094608",
+      "type": "application/zip",
+      "title": "2024-epi-raw-data-time-series.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4886881,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "14094608",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14094612": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14094612",
+      "type": "application/pdf",
+      "title": "2024-epi-report_20250106.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 51380348,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "14094612",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14094607": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14094607",
+      "type": "text/tab-separated-values",
+      "title": "2024-epi-results_20250316.tab",
+      "roles": [
+        "data"
+      ],
+      "file:size": 118964,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "14094607",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14118345": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14118345",
+      "type": "text/tab-separated-values",
+      "title": "2024-epi-targets.tab",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2766,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "14118345",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14094611": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14094611",
+      "type": "application/pdf",
+      "title": "2024-epi-technical-appendix_20241207.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1211770,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "14094611",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14118343": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14118343",
+      "type": "text/csv",
+      "title": "2024-epi-variables.csv",
+      "roles": [
+        "data"
+      ],
+      "file:size": 34043,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "14118343",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14118346": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14118346",
+      "type": "text/tab-separated-values",
+      "title": "2024-epi-weights_20241007.tab",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7706,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "14118346",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -55.0,
+    180.0,
+    90.0
+  ]
+}

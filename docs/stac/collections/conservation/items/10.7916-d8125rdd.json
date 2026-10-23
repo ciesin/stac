@@ -1,0 +1,82 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-d8125rdd",
+  "collection": "conservation",
+  "geometry": null,
+  "properties": {
+    "title": "Anthropogenic Drivers of Ecosystem Change: an Overview",
+    "license": "other",
+    "keywords": [
+      "Conservation"
+    ],
+    "sci:doi": "10.7916/d8125rdd",
+    "ciesin:resource_type": "article",
+    "ciesin:category": "Conservation",
+    "ciesin:tags": [
+      "Conservation"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7916/d8125rdd"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8125rdd.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8125rdd",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8125rdd": {
+      "href": "https://doi.org/10.7916/d8125rdd",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8125rdd",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8125rdd",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "levy_anthropogenic": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8T15F77/download",
+      "type": "application/pdf",
+      "title": "levy_anthropogenic.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 514846,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8T15F77/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

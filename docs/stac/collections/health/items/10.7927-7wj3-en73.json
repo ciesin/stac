@@ -1,0 +1,2854 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-7wj3-en73",
+  "collection": "health",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          17.0
+        ],
+        [
+          -65.0,
+          17.0
+        ],
+        [
+          -65.0,
+          72.0
+        ],
+        [
+          -180.0,
+          72.0
+        ],
+        [
+          -180.0,
+          17.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Annual Mean PM2.5 Components (EC, NH4, NO3, OC, SO4) 50m Urban and 1km Non-Urban Area Grids for Contiguous U.S., 2000-2019 v1",
+    "description": "The Annual Mean PM2.5 Components (EC, NH4, NO3, OC, SO4) 50m Urban and 1km Non-Urban Area Grids for Contiguous U.S., 2000-2019, v1 data set contains annual predictions of the chemical concentrations at a hyper resolution (50m x 50m grid cells) in urban areas and at a high resolution (1km x 1km grid cells) in non-urban areas for the years 2000 to 2019. Particulate matter with an aerodynamic diameter less than 2.5 µm (PM2.5) increases mortality and morbidity. PM2.5 is composed of a mixture of chemical components that vary across space and time. Due to limited hyperlocal data availability, less is known about health risks of PM2.5 components, their U.S.-wide exposure disparities, or which species are driving the biggest intra-urban changes in PM2.5 mass. The national super-learned models were developed across the U.S. for hyperlocal estimation of annual mean elemental carbon, ammonium, nitrate, organic carbon, and sulfate concentrations across 3,535 urban areas at a 50m spatial resolution, and at a 1km resolution for non-urban areas from 2000 to 2019. Using Machine-Learning models (ML), combined with either a Generalized Additive Model (GAM) Ensemble Geographically-Weighted-Averaging (GAM-ENWA) or Super-Learning (SL) and approximately 82 billion predictions across 20 years, hyperlocal super-learned PM2.5 components are now available for further research. The overall R-squared values of 10-fold cross validated models ranged from 0.910 to 0.970 on the training sets for these components, while on the test sets the R-squared values ranged from 0.860 to 0.960. Remarkable spatiotemporal intra-urban and inter-urban variabilities were found in PM2.5 components. The Coordinate Reference System (CRS) for predictions is the World Geodetic System 1984 (WGS84) and the units for the PM2.5 Components are µg/m^3. The data are provided in RDS tabular format, a file format native to the R programming language, but can also be opened by other languages such as Python.",
+    "license": "This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided",
+    "keywords": [
+      "Country",
+      "Earth Science",
+      "Atmosphere",
+      "Aerosols",
+      "Particulate Matter",
+      "Air Quality",
+      "Particulates",
+      "Environment",
+      "Health",
+      "United States Of America",
+      "Earth And Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/7WJ3-EN73",
+    "sci:citation": "Amini, H., M. Danesh-Yazdi, Q. Di, W. Requia, Y. Wei, Y. AbuAwad, L. Shi, M. Franklin, C.-M. Kang, J. M. Wolfson, P. James, R. Habre, Q. Zhu, J. S. Apte, Z. J. Andersen, X. Xing, C. Hultquist, I. Kloog, F. Dominici, P. Koutrakis, and J. Schwartz. 2023-04-28. Annual Mean PM2.5 Components (EC, NH4, NO3, OC, SO4) 50m Urban and 1km Non-Urban Area Grids for Contiguous U.S., 2000-2019 v1. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 1",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Health",
+    "ciesin:tags": [
+      "Country",
+      "Earth Science",
+      "Atmosphere",
+      "Aerosols",
+      "Particulate Matter",
+      "Air Quality",
+      "Particulates",
+      "Environment",
+      "Health",
+      "United States Of America",
+      "Earth And Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7927/7WJ3-EN73",
+      "10.7910/DVN/BWLR2H"
+    ],
+    "ciesin:authors": [
+      "Amini, H., M. Danesh-Yazdi, Q. Di, W. Requia, Y. Wei, Y. AbuAwad, L. Shi, M. Franklin, C.-M. Kang, J. M. Wolfson, P. James, R. Habre, Q. Zhu, J. S. Apte, Z. J. Andersen, X. Xing, C. Hultquist, I. Kloog, F. Dominici, P. Koutrakis, and J. Schwartz"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "United States of America"
+    ],
+    "ciesin:purpose": "To provide annual PM2.5 component concentration data for the contiguous U.S. at resolutions of 50m in urban areas and 1km in non-urban areas for public health research to estimate effects on human health, and for other related research.",
+    "ciesin:publication_date": "2023-04-28T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/7wj3-en73",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FBWLR2H",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540908161-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019.xml",
+    "datetime": null,
+    "start_datetime": "2000-01-01T00:00:00Z",
+    "end_datetime": "2019-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2000-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2019-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-7wj3-en73.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/7WJ3-EN73",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/BWLR2H",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "7wj3-en73": {
+      "href": "https://doi.org/10.7927/7WJ3-EN73",
+      "type": "text/html",
+      "title": "DOI 10.7927/7WJ3-EN73",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/7WJ3-EN73",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "bwlr2h": {
+      "href": "https://doi.org/10.7910/DVN/BWLR2H",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/BWLR2H",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/BWLR2H",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "13148124": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148124",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2000-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147979263,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148124",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168772": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168772",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2000-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3945119494,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168772",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168585": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168585",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2001-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147962019,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168585",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168774": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168774",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2001-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3942452045,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168774",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168621": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168621",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2002-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147870293,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168621",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168777": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168777",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2002-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3949462733,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168777",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168629": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168629",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2003-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147905417,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168629",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168792": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168792",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2003-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3947550276,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168792",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168769": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168769",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2004-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147964819,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168769",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168796": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168796",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2004-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3949932044,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168796",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125819": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125819",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2005-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147873608,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125819",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125894": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125894",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2005-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3947494507,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125894",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125826": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125826",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2006-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147887802,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125826",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125891": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125891",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2006-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3943589128,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125891",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125827": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125827",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2007-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147920778,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125827",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125903": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125903",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2007-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3941870663,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125903",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125851": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125851",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2008-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147991307,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125851",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125905": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125905",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2008-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3950369733,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125905",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125854": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125854",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2009-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147947703,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125854",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147846": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147846",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2009-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3952407733,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147846",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13179896": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13179896",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2010-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148009783,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13179896",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13120694": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13120694",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2010-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3951114654,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13120694",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13120610": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13120610",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2011-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147958680,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13120610",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13120696": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13120696",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2011-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3945730617,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13120696",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13120609": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13120609",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2012-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147959517,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13120609",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13120722": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13120722",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2012-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3948965531,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13120722",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13120608": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13120608",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2013-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148007020,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13120608",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13121364": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13121364",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2013-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3946159543,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13121364",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13179580": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13179580",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2014-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147993494,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13179580",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13121367": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13121367",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2014-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3947795002,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13121367",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13109769": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13109769",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2015-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147999840,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13109769",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13110079": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13110079",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2015-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3948440375,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13110079",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13109767": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13109767",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2016-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148025433,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13109767",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13109770": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13109770",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2016-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3951270621,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13109770",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13109768": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13109768",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2017-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147947903,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13109768",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13110077": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13110077",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2017-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3950680999,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13110077",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13109766": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13109766",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2018-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148008038,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13109766",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13116796": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13116796",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2018-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3951004192,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13116796",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13110081": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13110081",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2019-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148017102,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13110081",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13116795": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13116795",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-ec-2019-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3946877273,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13116795",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168771": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168771",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2000-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147935781,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168771",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168798": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168798",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2000-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3911610649,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168798",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168773": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168773",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2001-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147860811,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168773",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168804": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168804",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2001-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3914036543,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168804",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168776": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168776",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2002-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147875566,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168776",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168807": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168807",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2002-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3912210070,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168807",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168791": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168791",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2003-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147860205,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168791",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168808": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168808",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2003-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3912744614,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168808",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168797": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168797",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2004-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147844572,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168797",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169717": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169717",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2004-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3912520091,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169717",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125892": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125892",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2005-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147900480,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125892",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147850": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147850",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2005-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3914077806,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147850",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125893": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125893",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2006-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147844579,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125893",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147872": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147872",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2006-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3912982157,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147872",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125904": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125904",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2007-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147842658,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125904",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147875": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147875",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2007-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3912864854,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147875",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125906": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125906",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2008-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147837985,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125906",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148055": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148055",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2008-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3914033601,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148055",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147845": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147845",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2009-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147840856,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147845",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147856": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147856",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2009-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3912415450,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147856",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13120693": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13120693",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2010-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147879884,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13120693",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13121371": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13121371",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2010-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3912632176,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13121371",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13120695": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13120695",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2011-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147853886,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13120695",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13121373": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13121373",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2011-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3909196110,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13121373",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13121365": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13121365",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2012-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147838379,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13121365",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13124682": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13124682",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2012-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3916439336,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13124682",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13121366": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13121366",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2013-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147847250,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13121366",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13124679": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13124679",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2013-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3917902058,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13124679",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13121374": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13121374",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2014-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147854793,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13121374",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13179972": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13179972",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2014-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3916634667,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13179972",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13110080": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13110080",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2015-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147838632,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13110080",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13116801": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13116801",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2015-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3920038000,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13116801",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13116793": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13116793",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2016-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147861296,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13116793",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13116803": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13116803",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2016-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3923679056,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13116803",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13116794": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13116794",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2017-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147804006,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13116794",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119256": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119256",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2017-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3924729062,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119256",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13116792": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13116792",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2018-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147804487,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13116792",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119258": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119258",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2018-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3920806765,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119258",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13116799": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13116799",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2019-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147827474,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13116799",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119254": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119254",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-nh4-2019-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3921014553,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119254",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168799": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168799",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2000-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148086582,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168799",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169723": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169723",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2000-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2823938242,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169723",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168803": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168803",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2001-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148105812,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168803",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169728": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169728",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2001-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2848151177,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169728",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168806": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168806",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2002-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148029764,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168806",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169744": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169744",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2002-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2810674283,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169744",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168809": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168809",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2003-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148046501,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168809",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169746": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169746",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2003-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2813171438,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169746",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169609": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169609",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2004-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148004426,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169609",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169765": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169765",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2004-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2812680107,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169765",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147851": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147851",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2005-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148037409,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147851",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147876": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147876",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2005-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2809602750,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147876",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147855": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147855",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2006-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148058650,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147855",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147880": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147880",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2006-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2822055678,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147880",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147873": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147873",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2007-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148010540,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147873",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148107": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148107",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2007-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2821138310,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148107",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147881": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147881",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2008-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148007671,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147881",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148118": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148118",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2008-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2815416155,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148118",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13147882": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13147882",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2009-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148008268,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13147882",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170878": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170878",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2009-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2822032065,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170878",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13121372": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13121372",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2010-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148048256,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13121372",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13179897": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13179897",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2010-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2819232363,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13179897",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13121375": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13121375",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2011-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148020917,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13121375",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125685": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125685",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2011-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2817023935,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125685",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13124680": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13124680",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2012-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147915539,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13124680",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125687": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125687",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2012-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2812961633,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125687",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13124681": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13124681",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2013-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147981064,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13124681",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125688": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125688",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2013-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2816818030,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125688",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13179579": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13179579",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2014-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148014833,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13179579",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125784": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125784",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2014-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2814475261,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125784",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13116800": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13116800",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2015-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147989068,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13116800",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119210": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119210",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2015-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2829214926,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119210",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13116802": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13116802",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2016-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147859303,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13116802",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170453": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170453",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2016-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2817889707,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170453",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119257": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119257",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2017-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147916061,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119257",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170457": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170457",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2017-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2822728202,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170457",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119255": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119255",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2018-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147879271,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119255",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170454": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170454",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2018-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2826501204,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170454",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119211": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119211",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2019-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147939072,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119211",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170876": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170876",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-no3-2019-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2820735612,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170876",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169610": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169610",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2000-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147935331,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169610",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169767": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169767",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2000-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3941447763,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169767",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169727": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169727",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2001-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 148000218,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169727",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169798": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169798",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2001-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3939284100,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169798",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169743": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169743",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2002-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147864964,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169743",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169801": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169801",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2002-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3941704088,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169801",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169747": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169747",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2003-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147767360,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169747",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170437": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170437",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2003-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3941586109,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170437",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169764": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169764",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2004-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147802337,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169764",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170438": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170438",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2004-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3936992666,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170438",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148054": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148054",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2005-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147859265,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148054",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170882": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170882",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2005-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3941053126,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170882",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148056": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148056",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2006-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147769044,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148056",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170883": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170883",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2006-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3940397156,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170883",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148108": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148108",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2007-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147768218,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148108",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170885": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170885",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2007-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3937423066,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170885",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148119": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148119",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2008-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147847157,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148119",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170905": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170905",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2008-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3939643451,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170905",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148117": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148117",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2009-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147760898,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148117",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148122": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148122",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2009-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3938752283,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148122",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13179898": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13179898",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2010-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147803698,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13179898",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125780": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125780",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2010-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3936128482,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125780",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125686": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125686",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2011-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147818359,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125686",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125809": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125809",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2011-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3934922940,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125809",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125684": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125684",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2012-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147813982,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125684",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125815": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125815",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2012-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3932854633,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125815",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125783": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125783",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2013-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147714190,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125783",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125816": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125816",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2013-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3940528089,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125816",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125782": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125782",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2014-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147704069,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125782",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125820": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125820",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2014-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3934942586,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125820",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119212": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119212",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2015-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147781375,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119212",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170877": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170877",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2015-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3942988526,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170877",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119265": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119265",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2016-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147764159,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119265",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119264": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119264",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2016-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3936104597,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119264",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119267": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119267",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2017-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147636319,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119267",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13179968": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13179968",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2017-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3935846105,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13179968",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119268": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119268",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2018-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147862479,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119268",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13179960": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13179960",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2018-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3940539425,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13179960",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119266": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119266",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2019-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147793636,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119266",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119356": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119356",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-oc-2019-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3936676740,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119356",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169768": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169768",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2000-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147732527,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169768",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13180564": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13180564",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2000-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3915886309,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13180564",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169797": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169797",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2001-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147743792,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169797",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13180707": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13180707",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2001-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3921111322,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13180707",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13169800": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13169800",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2002-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147715949,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13169800",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13180558": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13180558",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2002-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3908304855,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13180558",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170436": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170436",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2003-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147714440,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170436",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13180132": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13180132",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2003-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3911288052,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13180132",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13170439": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13170439",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2004-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147706537,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13170439",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13179973": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13179973",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2004-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3916709152,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13179973",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148116": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148116",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2005-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147667161,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148116",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148125": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148125",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2005-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3907886050,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148125",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148114": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148114",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2006-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147733906,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148114",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168584": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168584",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2006-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3916739964,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168584",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148113": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148113",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2007-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147724350,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148113",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168622": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168622",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2007-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3913785793,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168622",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148115": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148115",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2008-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147656983,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148115",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168630": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168630",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2008-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3915752513,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168630",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148123": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148123",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2009-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147678848,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148123",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13168770": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13168770",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2009-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3907513683,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13168770",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125781": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125781",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2010-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147699747,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125781",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125821": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125821",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2010-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3907350733,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125821",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125808": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125808",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2011-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147603019,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125808",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125825": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125825",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2011-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3903651205,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125825",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125817": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125817",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2012-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147521852,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125817",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125824": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125824",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2012-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3917166729,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125824",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125818": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125818",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2013-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147680564,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125818",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125853": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125853",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2013-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3913727415,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125853",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125822": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125822",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2014-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147653892,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125822",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13125852": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13125852",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2014-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3909538557,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13125852",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119269": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119269",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2015-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147648043,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119269",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119355": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119355",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2015-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3912851133,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119355",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119354": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119354",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2016-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147441552,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119354",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13120611": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13120611",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2016-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3909307588,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13120611",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119353": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119353",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2017-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147485349,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119353",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13120612": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13120612",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2017-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3906756933,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13120612",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13119352": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13119352",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2018-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147497153,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13119352",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13120674": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13120674",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2018-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3909649850,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13120674",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13179578": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13179578",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2019-non-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 147647887,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13179578",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13110078": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13110078",
+      "type": "application/zip",
+      "title": "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-so4-2019-urban-rds.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3917887487,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13110078",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14171092": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14171092",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12531,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14171092",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540908161-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540908161-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/7WJ3-EN73",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019-readme.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/7WJ3-EN73",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540908161-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata Granule Search",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/7WJ3-EN73",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50-m-1-km-contiguous-us-2000-2019/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    17.0,
+    -65.0,
+    72.0
+  ]
+}

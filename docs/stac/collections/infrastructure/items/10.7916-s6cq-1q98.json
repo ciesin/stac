@@ -1,0 +1,152 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-s6cq-1q98",
+  "collection": "infrastructure",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.713684,
+          4.282
+        ],
+        [
+          14.636384,
+          4.282
+        ],
+        [
+          14.636384,
+          13.865246
+        ],
+        [
+          2.713684,
+          13.865246
+        ],
+        [
+          2.713684,
+          4.282
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "GRID3 NGA - Health Facilities v3.0",
+    "description": "The GRID3 NGA - Health Facilities v3.0 is a spatial data layer in OGC Geopackage format.",
+    "license": "other",
+    "keywords": [
+      "Infrastructure",
+      "Latest"
+    ],
+    "sci:doi": "10.7916/S6CQ-1Q98",
+    "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University 2026. GRID3 NGA - Health Facilities v3.0. New York: Columbia University. https://doi.org/10.7916/s6cq-1q98. Accessed [DAY MONTH YEAR].",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Infrastructure",
+    "ciesin:tags": [
+      "Infrastructure",
+      "Latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7916/S6CQ-1Q98"
+    ],
+    "ciesin:purpose": "The GRID3 NGA - Health Facilities v3.0 dataset is a non-exhaustive, non-validated geographic representation of health facility points in Abia, Adamawa, Bauchi, Bayelsa, Borno, Delta, Enugu, FCT Abuja, Gombe, Jigawa, Kaduna, Kano, Katsina, Kebbi, Kogi, Kwara, Nasarawa, Niger, Ogun, Osun, Oyo, Sokoto, Yobe, Zamfara states. This dataset is considered operational.",
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/s6cq-1q98"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML"
+    ],
+    "ciesin:inventory_xml_location": "GRID3_NGA_health_facilities_v3.xml",
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-s6cq-1q98.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/S6CQ-1Q98",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "s6cq-1q98": {
+      "href": "https://doi.org/10.7916/S6CQ-1Q98",
+      "type": "text/html",
+      "title": "DOI 10.7916/S6CQ-1Q98",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/S6CQ-1Q98",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3-nga---health-facilities-v3.0---data-release-notes": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ce6c-dq85/download",
+      "type": "application/pdf",
+      "title": "GRID3 NGA - Health Facilities v3.0 - Data Release Notes.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 380931,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/ce6c-dq85/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/t7cd-6422/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_health_facilities_v3_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 33513472,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/t7cd-6422/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ta24-ss66/download",
+      "type": "application/xml",
+      "title": "GRID3_NGA_health_facilities_v3.xml",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11259,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/ta24-ss66/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  },
+  "bbox": [
+    2.713684,
+    4.282,
+    14.636384,
+    13.865246
+  ]
+}

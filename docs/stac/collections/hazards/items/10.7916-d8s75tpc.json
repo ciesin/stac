@@ -1,0 +1,82 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-d8s75tpc",
+  "collection": "hazards",
+  "geometry": null,
+  "properties": {
+    "title": "Climate change hotspots mapping: what have we learned?",
+    "license": "other",
+    "keywords": [
+      "Hazards"
+    ],
+    "sci:doi": "10.7916/d8s75tpc",
+    "ciesin:resource_type": "article",
+    "ciesin:category": "Hazards",
+    "ciesin:tags": [
+      "Hazards"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7916/d8s75tpc"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8s75tpc.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8s75tpc",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8s75tpc": {
+      "href": "https://doi.org/10.7916/d8s75tpc",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8s75tpc",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8s75tpc",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "desherbinin_2013_cchotspots_climaticchange": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D86H4VTP/download",
+      "type": "application/pdf",
+      "title": "deSherbinin_2013_CCHotspots_ClimaticChange.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3705823,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D86H4VTP/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

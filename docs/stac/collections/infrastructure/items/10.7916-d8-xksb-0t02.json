@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-d8-xksb-0t02",
+  "collection": "infrastructure",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 Zambia Operational Health Facility Layer, Version 01 (Beta)",
+    "license": "other",
+    "keywords": [
+      "Infrastructure"
+    ],
+    "sci:doi": "10.7916/d8-xksb-0t02",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Infrastructure",
+    "ciesin:tags": [
+      "Infrastructure"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "not_current",
+    "ciesin:dois": [
+      "10.7916/d8-xksb-0t02"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d8-xksb-0t02.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d8-xksb-0t02",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d8-xksb-0t02": {
+      "href": "https://doi.org/10.7916/d8-xksb-0t02",
+      "type": "text/html",
+      "title": "DOI 10.7916/d8-xksb-0t02",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8-xksb-0t02",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3_zmb_healthfac_v01beta": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-gjnq-9e58/download",
+      "type": "application/zip",
+      "title": "GRID3_ZMB_HealthFac_v01beta.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 715446,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/d8-gjnq-9e58/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-etv2-y878/download",
+      "type": "application/pdf",
+      "title": "Data Release Statement GRID3 ZMB Operational Health Facility Layer, Version 01 (Beta).pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 231901,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/d8-etv2-y878/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

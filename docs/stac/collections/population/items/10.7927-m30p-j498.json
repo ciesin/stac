@@ -1,0 +1,603 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-m30p-j498",
+  "collection": "population",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -55.77
+        ],
+        [
+          180.0,
+          -55.77
+        ],
+        [
+          180.0,
+          83.63
+        ],
+        [
+          -180.0,
+          83.63
+        ],
+        [
+          -180.0,
+          -55.77
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01",
+    "description": "The Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01, data set consists of global urban, rural, and total population data for the base year 2000, and population projections at ten-year intervals for 2010-2100 at a resolution of one-eighth degree (7.5 arc-minutes), consistent both quantitatively and qualitatively with the SSPs. Spatial demographic data are key inputs for the analysis of land use, energy use, and emissions, as well as for the assessment of climate change vulnerability, impacts, and adaptation. The SSPs are developed to support future climate and global change research and the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report (AR6).",
+    "license": "Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Earth Science",
+      "Human Dimensions",
+      "Population",
+      "Population Estimates",
+      "Socioeconomics",
+      "Global",
+      "Society",
+      "Earth And Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/M30P-J498",
+    "sci:citation": "Jones, B., and B. C. O'Neill. 2020-04-09. Global One-Eighth Degree Population Base Year and Projection Grids Based on the Shared Socioeconomic Pathways, Revision 01. Edition 1.01. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.01; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Population",
+    "ciesin:tags": [
+      "Earth Science",
+      "Human Dimensions",
+      "Population",
+      "Population Estimates",
+      "Socioeconomics",
+      "Global",
+      "Society",
+      "Earth And Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7927/M30P-J498",
+      "10.7910/DVN/ZU9RGZ"
+    ],
+    "ciesin:authors": [
+      "Jones, B., and B. C. O'Neill"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide global urban, rural, and total population base year and projection grids based on the Shared Socioeconomic Pathways (SSPs) data at a resolution of one-eighth degree (7.5 arc-minutes) for climate, socioeconomic, environmental, and other related research.",
+    "ciesin:publication_date": "2020-04-09T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/m30p-j498",
+      "https://doi.org/10.1088/1748-9326/11/8/084003",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FZU9RGZ",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540929631-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01.xml",
+    "datetime": null,
+    "start_datetime": "2000-01-01T00:00:00Z",
+    "end_datetime": "2100-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2000-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2100-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-m30p-j498.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/M30P-J498",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/ZU9RGZ",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "m30p-j498": {
+      "href": "https://doi.org/10.7927/M30P-J498",
+      "type": "text/html",
+      "title": "DOI 10.7927/M30P-J498",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/M30P-J498",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "zu9rgz": {
+      "href": "https://doi.org/10.7910/DVN/ZU9RGZ",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/ZU9RGZ",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/ZU9RGZ",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "14202227": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14202227",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11353,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14202227",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808470": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808470",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-ascii.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7144719,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808470",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808471": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808471",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8279264,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808471",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808466": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808466",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-byr-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7283262,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808466",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808476": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808476",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-ascii.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37402442,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808476",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808468": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808468",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 53530773,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808468",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808462": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808462",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 45753276,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808462",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808472": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808472",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp1-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38118638,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808472",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808469": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808469",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-ascii.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37060109,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808469",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808475": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808475",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 53908068,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808475",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808474": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808474",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 46113150,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808474",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808479": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808479",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp2-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38295253,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808479",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808460": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808460",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-ascii.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37048001,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808460",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808473": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808473",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 53829271,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808473",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808465": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808465",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 46033888,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808465",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808464": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808464",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp3-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38137235,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808464",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808480": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808480",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-ascii.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 36794186,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808480",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808463": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808463",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 53555136,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808463",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808477": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808477",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 45824589,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808477",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808467": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808467",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp4-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38118337,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808467",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808461": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808461",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-ascii.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 36978532,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808461",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808459": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808459",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 53859835,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808459",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808481": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808481",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 46064901,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808481",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11808478": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808478",
+      "type": "application/zip",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-proj-ssp5-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38354500,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808478",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540929631-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929631-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/M30P-J498",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-readme.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/M30P-J498",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/M30P-J498",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929631-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata Granule Search",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/M30P-J498",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-ssps-byr-2000-thu": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/popdynamics/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-ssps-byr-2000-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01-total-pop-ssps-byr-2000-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download-2": {
+      "href": "https://alpha.sedac.ciesin.columbia.edu/data/set/popdynamics-1-8th-pop-base-year-projection-ssp-2000-2100-rev01/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "084003": {
+      "href": "https://doi.org/10.1088/1748-9326/11/8/084003",
+      "type": "text/html",
+      "title": "084003",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -55.77,
+    180.0,
+    83.63
+  ]
+}

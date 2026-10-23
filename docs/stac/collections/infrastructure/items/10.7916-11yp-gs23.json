@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-11yp-gs23",
+  "collection": "infrastructure",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 COD - Travel Time Friction Surface v1.0",
+    "description": "The GRID3 COD - Travel Time Friction Surface v1.0 dataset is a spatial data layer in tiff format. The datasets contain 2 layers: GRID3_COD_walk_travel_time_friction_surface_v1_0.tif - Applies walking speeds across the entire surface, adjusted for slope and elevation. GRID3_COD_mix_travel_time_friction_surface_v1_0.tif - Applies motorized speeds on roads and walking speeds in all other areas. The resolution is 30 m. The unit of measurement in both surfaces is minutes per meter. For more information on the methodology and data sources used during the production of this data, click here.",
+    "license": "other",
+    "keywords": [
+      "Infrastructure",
+      "Latest"
+    ],
+    "sci:doi": "10.7916/11YP-GS23",
+    "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University. 2026. GRID3 COD - Travel Time Friction Surface v1.0. New York: Columbia University. https://doi.org/10.7916/11yp-gs23. Accessed <DAY MONTH YEAR>.",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Infrastructure",
+    "ciesin:tags": [
+      "Infrastructure",
+      "Latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7916/11YP-GS23"
+    ],
+    "ciesin:purpose": "The aim of this work is to generate two friction surfaces for modeling physical accessibility: one incorporating walking speed only, and another combining walking and motorized travel speeds. Motorized speeds are applied exclusively on roads that are present and passable by vehicles; in all other areas, walking speeds are used.",
+    "ciesin:publication_date": "2026-01-09T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://academiccommons.columbia.edu/doi/10.7916/v1rc-7g38/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/mw8y-3p73/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/fkba-v884/download",
+      "https://doi.org/10.7916/11yp-gs23"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML"
+    ],
+    "ciesin:inventory_xml_location": "GRID3 COD - Travel Time Friction Surface v1.0.xml",
+    "datetime": "2026-01-09T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-11yp-gs23.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/11YP-GS23",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "11yp-gs23": {
+      "href": "https://doi.org/10.7916/11YP-GS23",
+      "type": "text/html",
+      "title": "DOI 10.7916/11YP-GS23",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/11YP-GS23",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3-cod---travel-time-friction-surface-v1.0---data-release-notes": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/fkba-v884/download",
+      "type": "application/pdf",
+      "title": "GRID3 COD - Travel Time Friction Surface v1.0 - Data Release Notes.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1350655,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/fkba-v884/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/mw8y-3p73/download",
+      "type": "application/zip",
+      "title": "GRID3_COD_mix_travel_time_friction_surface_v1.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10258826280,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/mw8y-3p73/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/v1rc-7g38/download",
+      "type": "application/zip",
+      "title": "GRID3_COD_walk_travel_time_friction_surface_v1.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 10297656752,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/v1rc-7g38/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  }
+}

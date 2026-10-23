@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-bxa4-bv46",
+  "collection": "settlements",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -13.295618,
+          6.932621
+        ],
+        [
+          -10.279584,
+          6.932621
+        ],
+        [
+          -10.279584,
+          9.99908
+        ],
+        [
+          -13.295618,
+          9.99908
+        ],
+        [
+          -13.295618,
+          6.932621
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "GRID3 SLE - Settlement Names v1.0",
+    "description": "The data are provided in geodatabase file formats. File name: GRID3_SLE_settlement_names_v1.0.gdb with the following layers: GRID3_SLE_settlement_names_v1.0 codebook_settlement_names Extent: Sierra Leone Coordinate system: GCS WGS 1984 For full methodological details, please see data release notes available for download here. Download the data as a zip file.",
+    "license": "other",
+    "keywords": [
+      "Settlements",
+      "Latest"
+    ],
+    "sci:doi": "10.7916/BXA4-BV46",
+    "sci:citation": "Center for International Earth Science Information Network (CIESIN), Columbia University, Statistics Sierra Leone, and Sierra Leone Ministry of Basic and Senior Secondary Education. 2023. GRID3 SLE - Settlement Names v1. 0. New York: Geo-Referenced Infrastructure and Demographic Data for Development (GRID3). https://doi.org/10.7916/bxa4-bv46. Accessed DAY MONTH YEAR",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": [
+      "Settlements",
+      "Latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7916/BXA4-BV46"
+    ],
+    "ciesin:purpose": "The GRID3 SLE - Settlement Names v1.0 dataset consists of settlement points with name, and location in Sierra Leone.",
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://academiccommons.columbia.edu/doi/10.7916/ve3w-2h47/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/yjmg-jg61/download",
+      "https://doi.org/10.7916/bxa4-bv46"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML"
+    ],
+    "ciesin:inventory_xml_location": "GRID3 SLE - Settlement Names v1.0.xml",
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-bxa4-bv46.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/BXA4-BV46",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "bxa4-bv46": {
+      "href": "https://doi.org/10.7916/BXA4-BV46",
+      "type": "text/html",
+      "title": "DOI 10.7916/BXA4-BV46",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/BXA4-BV46",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3_sle_settlementnames_v1": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/yjmg-jg61/download",
+      "type": "application/zip",
+      "title": "GRID3_SLE_SettlementNames_v1.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 885690,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/yjmg-jg61/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ve3w-2h47/download",
+      "type": "application/pdf",
+      "title": "GRID3_SLE_SettlementNames_DataReleaseNotes_V1.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 75056,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/ve3w-2h47/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -13.295618,
+    6.932621,
+    -10.279584,
+    9.99908
+  ]
+}

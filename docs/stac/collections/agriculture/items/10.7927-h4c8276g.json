@@ -1,0 +1,519 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4c8276g",
+  "collection": "agriculture",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global Agricultural Lands: Croplands, 2000",
+    "description": "The Global Croplands data set represents the proportion of land areas used as cropland (land used for the cultivation of food) in the year 2000. Satellite data from Modetate Resolution Imaging Spectroradiometer (MODIS) and Satellite Pour l'Observation de la Terre (SPOT) Image Vegetation sensors were combined with agricultural inventory data to create a global data set. The visual presentation of these data demonstrates the extent to which human land use for agriculture has changed the Earth and in which areas this change is most intense. The data were compiled by Navin Ramankutty et al. (2008) and distributed by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "license": "Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Africa",
+      "Agriculture",
+      "Asia",
+      "Continent",
+      "Earth Science",
+      "Biosphere",
+      "Ecosystems",
+      "Anthropogenic/human Influenced Ecosystems",
+      "Agricultural Lands",
+      "Cropland",
+      "Europe",
+      "Farming",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Use",
+      "North America",
+      "Oceania",
+      "Remote Sensing",
+      "South America",
+      "Water",
+      "Earth And Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4C8276G",
+    "sci:citation": "Ramankutty, N., A.T. Evan, C. Monfreda, and J.A. Foley. 2010-12-31. Global Agricultural Lands: Croplands, 2000. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 1; 1.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": [
+      "Africa",
+      "Agriculture",
+      "Asia",
+      "Continent",
+      "Earth Science",
+      "Biosphere",
+      "Ecosystems",
+      "Anthropogenic/human Influenced Ecosystems",
+      "Agricultural Lands",
+      "Cropland",
+      "Europe",
+      "Farming",
+      "Global",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Use",
+      "North America",
+      "Oceania",
+      "Remote Sensing",
+      "South America",
+      "Water",
+      "Earth And Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7927/H4C8276G",
+      "10.7910/DVN/D6UROG"
+    ],
+    "ciesin:authors": [
+      "Ramankutty, N., A.T. Evan, C. Monfreda, and J.A. Foley"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Global",
+      "North America",
+      "Oceania",
+      "South America"
+    ],
+    "ciesin:purpose": "To provide data on the extent of croplands for research on human-environment interactions.",
+    "ciesin:publication_date": "2010-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4C8276G",
+      "https://doi.org/10.1029/2007GB002952",
+      "https://doi.org/10.7927/H47H1GGR",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FD6UROG",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550187110-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "aglands-croplands-2000.xml",
+    "datetime": null,
+    "start_datetime": "2000-01-01T00:00:00Z",
+    "end_datetime": "2000-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2000-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2000-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4c8276g.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4C8276G",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/D6UROG",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4c8276g": {
+      "href": "https://doi.org/10.7927/H4C8276G",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4C8276G",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4C8276G",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "d6urog": {
+      "href": "https://doi.org/10.7910/DVN/D6UROG",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/D6UROG",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/D6UROG",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "11716034": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716034",
+      "type": "application/zip",
+      "title": "af-croplands-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 374864,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716034",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716030": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716030",
+      "type": "application/zip",
+      "title": "af-croplands-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 404558,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716030",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716032": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716032",
+      "type": "application/zip",
+      "title": "as-croplands-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 865417,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716032",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716025": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716025",
+      "type": "application/zip",
+      "title": "as-croplands-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 888344,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716025",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716031": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716031",
+      "type": "application/zip",
+      "title": "eu-croplands-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 199463,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716031",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716036": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716036",
+      "type": "application/zip",
+      "title": "eu-croplands-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 225935,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716036",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716028": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716028",
+      "type": "application/zip",
+      "title": "gl-croplands-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2248697,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716028",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716027": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716027",
+      "type": "application/zip",
+      "title": "gl-croplands-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2391101,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716027",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14171043": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14171043",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11811,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14171043",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716023": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716023",
+      "type": "application/zip",
+      "title": "na-croplands-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 424789,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716023",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716033": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716033",
+      "type": "application/zip",
+      "title": "na-croplands-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 446162,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716033",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716035": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716035",
+      "type": "application/zip",
+      "title": "oc-croplands-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 212237,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716035",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716029": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716029",
+      "type": "application/zip",
+      "title": "oc-croplands-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 225413,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716029",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716024": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716024",
+      "type": "application/zip",
+      "title": "sa-croplands-geotif.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 274255,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716024",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11716026": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11716026",
+      "type": "application/zip",
+      "title": "sa-croplands-grid.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 321196,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11716026",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3550187110-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550187110-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4C8276G",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/aglands-croplands-2000/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4C8276G",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "aglands-croplands-2000-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/aglands-croplands-2000-citation2.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4C8276G",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550187110-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata Granule Search",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4C8276G",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "aglands-croplands-2000-global-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/aglands/aglands-croplands-2000/aglands-croplands-2000-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "aglands-croplands-2000-global-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/aglands-croplands-2000/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/aglands-croplands-2000/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "2007gb002952": {
+      "href": "https://doi.org/10.1029/2007GB002952",
+      "type": "text/html",
+      "title": "2007GB002952",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h47h1ggr": {
+      "href": "https://doi.org/10.7927/H47H1GGR",
+      "type": "text/html",
+      "title": "H47H1GGR",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

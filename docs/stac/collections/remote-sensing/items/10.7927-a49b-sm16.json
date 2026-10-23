@@ -1,0 +1,310 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-a49b-sm16",
+  "collection": "remote-sensing",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -56.0
+        ],
+        [
+          180.0,
+          -56.0
+        ],
+        [
+          180.0,
+          84.0
+        ],
+        [
+          -180.0,
+          84.0
+        ],
+        [
+          -180.0,
+          -56.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "2015 Urban Extents from VIIRS and MODIS for the Continental U.S. Using Machine Learning Methods",
+    "description": "The 2015 Urban Extents from VIIRS and MODIS for the Continental U.S. Using Machine Learning Methods data set models urban settlements in the Continental United States (CONUS) as of 2015. When applied to the combination of daytime spectral and nighttime lights satellite data, the machine learning methods achieved high accuracy at an intermediate-resolution of 500 meters at large spatial scales. The input data for these models were two types of satellite imagery: Visible Infrared Imaging Radiometer Suite (VIIRS) Nighttime Light (NTL) data from the Day/Night Band (DNB), and Moderate Resolution Imaging Spectroradiometer (MODIS) corrected daytime Normalized Difference Vegetation Index (NDVI). Although several machine learning methods were evaluated, including Random Forest (RF), Gradient Boosting Machine (GBM), Neural Network (NN), and the Ensemble of RF, GBM, and NN (ESB), the highest accuracy results were achieved with NN, and those results were used to delineate the urban extents in this data set.",
+    "license": "This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Country",
+      "Earth Science",
+      "Human Dimensions",
+      "Boundaries",
+      "Remote Sensing",
+      "Society",
+      "United States Of America",
+      "Urban",
+      "Earth And Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/A49B-SM16",
+    "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University. 2019-10-10. 2015 Urban Extents from VIIRS and MODIS for the Continental U.S. Using Machine Learning Methods. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 2; 1.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Remote Sensing",
+    "ciesin:tags": [
+      "Country",
+      "Earth Science",
+      "Human Dimensions",
+      "Boundaries",
+      "Remote Sensing",
+      "Society",
+      "United States Of America",
+      "Urban",
+      "Earth And Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7927/A49B-SM16",
+      "10.7910/DVN/H2FUV5"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network - CIESIN - Columbia University",
+      "Liu, X., A. de Sherbinin and Y. Zhan"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "United States of America"
+    ],
+    "ciesin:purpose": "To provide representations of urban areas in the Continental U.S. in the year 2015 to support sustainable urban development planning in accordance with the growth of urban areas.",
+    "ciesin:publication_date": "2019-10-10T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/a49b-sm16",
+      "https://doi.org/10.3390/rs11101247",
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FH2FUV5",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550194034-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "urbanspatial-urban-extents-viirs-modis-us-2015.xml",
+    "datetime": null,
+    "start_datetime": "2015-01-01T00:00:00Z",
+    "end_datetime": "2015-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2015-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2015-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-a49b-sm16.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/A49B-SM16",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/H2FUV5",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "a49b-sm16": {
+      "href": "https://doi.org/10.7927/A49B-SM16",
+      "type": "text/html",
+      "title": "DOI 10.7927/A49B-SM16",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/A49B-SM16",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "h2fuv5": {
+      "href": "https://doi.org/10.7910/DVN/H2FUV5",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/H2FUV5",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/H2FUV5",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "14222261": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222261",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11350,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14222261",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11715543": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715543",
+      "type": "application/zip",
+      "title": "urbanspatial-urban-extents-viirs-modis-us-2015-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 660449,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11715543",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3550194034-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550194034-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/A49B-SM16",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "urbanspatial-urban-extents-viirs-modis-us-2015-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/urbanspatial-urban-extents-viirs-modis-us-2015-readme.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/A49B-SM16",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/urbanspatial-urban-extents-viirs-modis-us-2015/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/A49B-SM16",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550194034-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata Granule Search",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/A49B-SM16",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "urbanspatial-urban-extents-viirs-modis-us-2015-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/urbanspatial/urbanspatial-urban-extents-viirs-modis-us-2015/urbanspatial-urban-extents-viirs-modis-us-2015-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "urbanspatial-urban-extents-viirs-modis-us-2015-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/urbanspatial-urban-extents-viirs-modis-us-2015/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/urbanspatial-urban-extents-viirs-modis-us-2015/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "rs11101247": {
+      "href": "https://doi.org/10.3390/rs11101247",
+      "type": "text/html",
+      "title": "rs11101247",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -56.0,
+    180.0,
+    84.0
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7910-dvn-33jjxt",
+  "collection": "urban",
+  "geometry": null,
+  "properties": {
+    "title": "EnvClim Grids: Global Urban Environmental Vulnerability and Climate Risk, 500m Resolution (circa 2020-2050)",
+    "description": "EnvClim Grids is a global geospatial dataset characterizing current environmental vulnerability and future climate risk for urban populations, with a focus on lower- and middle-income countries (LMICs). The dataset covers 11,422 urban centers worldwide, as defined by the Global Human Settlement Urban Centres Database (GHS-UCDB 2024), including all cities with ≥50,000 residents. A novel socioeconomic vulnerability layer is included for cities in 91 LMICs, identifying neighborhood-scale “low SES” areas based on higher building density and lower road connectivity relative to similar-sized cities nationally. The dataset integrates 17 global public datasets into 7 indicators of current environmental vulnerability (unsafe air pollution, warm spells, extreme heat, water scarcity, hurricane-force winds, storm surge flooding, seasonal river/surface flooding) and 6 indicators of projected future climate risk (2050, SSP2-RCP4.5) (extreme heat, water scarcity, hurricane-force winds, storm surge flooding, seasonal river flooding, and landslide susceptibility). All indicators are harmonized to a ≈500×500 m grid for comparability across cities, enabling analysis of intersecting socioeconomic and environmental vulnerabilities at the sub-city level where data coverage allows. City-level and national summaries can be generated to support adaptation planning, risk prioritization, and investment targeting.",
+    "license": "CC BY 4.0",
+    "keywords": [
+      "Earth And Environmental Sciences",
+      "Urban"
+    ],
+    "providers": [
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7910/DVN/33JJXT",
+    "sci:citation": "Thomson-Browne, Dana; Martinez, Juan F.; Liu, E Jen; Alden, Kyle; de Sherbinin, Alex. EnvClim Grids: Global Urban Environmental Vulnerability and Climate Risk, 500m Resolution (circa 2020-2050). Center for Integrated Earth System Information (CIESIN); Columbia University. https://doi.org/10.7910/DVN/33JJXT",
+    "version": "2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Urban",
+    "ciesin:tags": [
+      "Earth And Environmental Sciences",
+      "Urban"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7910/DVN/33JJXT"
+    ],
+    "ciesin:authors": [
+      "Thomson-Browne, Dana",
+      "Martinez, Juan F.",
+      "Liu, E Jen",
+      "Alden, Kyle",
+      "de Sherbinin, Alex"
+    ],
+    "ciesin:publishers": [
+      "Center for Integrated Earth System Information (CIESIN)",
+      "Columbia University"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F33JJXT"
+    ],
+    "ciesin:metadata_sources": [
+      "Harvard Dataverse"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7910-dvn-33jjxt.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/33JJXT",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "33jjxt": {
+      "href": "https://doi.org/10.7910/DVN/33JJXT",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/33JJXT",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/33JJXT",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "12014996": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=12014996",
+      "type": "application/zip",
+      "title": "City Profiles by Country.zip",
+      "description": "Profiles - comprised of summary statistics and visuals - of climate vulnerabilities and risks by urban center, by country",
+      "roles": [
+        "data"
+      ],
+      "file:size": 116596711,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "12014996",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14144242": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14144242",
+      "type": "application/pdf",
+      "title": "EnvClim_Grids_v2_Data_Release_Notes.pdf",
+      "description": "Data dictionary for cities_fishnet_final.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 840423,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14144242",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14144240": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14144240",
+      "type": "application/octet-stream",
+      "title": "EnvClim_v2.gpkg",
+      "description": "500m fishnets (geopackage) with integrated data for all urban centers",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2477457408,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "14144240",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

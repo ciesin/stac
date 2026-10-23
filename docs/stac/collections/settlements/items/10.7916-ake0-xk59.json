@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-ake0-xk59",
+  "collection": "settlements",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 Democratic Republic of the Congo Settlement Extents, Version 02",
+    "license": "other",
+    "keywords": [
+      "Settlements"
+    ],
+    "sci:doi": "10.7916/ake0-xk59",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": [
+      "Settlements"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "not_current",
+    "ciesin:dois": [
+      "10.7916/ake0-xk59"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-ake0-xk59.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/ake0-xk59",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "ake0-xk59": {
+      "href": "https://doi.org/10.7916/ake0-xk59",
+      "type": "text/html",
+      "title": "DOI 10.7916/ake0-xk59",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/ake0-xk59",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "cod_datareleasestatement_settlementextents_version02": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/yb0f-tf56/download",
+      "type": "application/pdf",
+      "title": "COD_DataReleaseStatement_SettlementExtents_Version02.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1259885,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/yb0f-tf56/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/4g3n-aw12/download",
+      "type": "application/zip",
+      "title": "GRID3_COD_Settlement_Extents_Version_02.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 290251953,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/4g3n-aw12/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

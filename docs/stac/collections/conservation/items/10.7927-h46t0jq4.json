@@ -1,0 +1,328 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h46t0jq4",
+  "collection": "conservation",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -179.99,
+          -65.25
+        ],
+        [
+          180.0,
+          -65.25
+        ],
+        [
+          180.0,
+          89.9
+        ],
+        [
+          -179.99,
+          89.9
+        ],
+        [
+          -179.99,
+          -65.25
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Last of the Wild Project, Version 3 (LWP-3): 2009 Human Footprint, 2018 Release",
+    "description": "The 2009 Human Footprint, 2018 Release provides a global map of the cumulative human pressure on the environment in 2009, at a spatial resolution of ~1 km. The human pressure is measured using eight variables including built-up environments, population density, electric power infrastructure, crop lands, pasture lands, roads, railways, and navigable waterways. The data set is produced by Venter et.al., and is available in the Mollweide projection.",
+    "license": "Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Conservation",
+      "Earth Science",
+      "Biosphere",
+      "Ecosystems",
+      "Anthropogenic/human Influenced Ecosystems",
+      "Land Surface",
+      "Land Use/land Cover",
+      "Global",
+      "Human Footprint",
+      "Imagery/Base Maps/Earth Cover",
+      "Society",
+      "Earth And Environmental Sciences",
+      "Latest"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H46T0JQ4",
+    "sci:citation": "Venter, O., E. W. Sanderson, A. Magrach, J. R. Allan, J. Beher, K. R. Jones, H. P. Possingham, W. F. Laurance, P. Wood, B. M. Fekete, M. A. Levy, and J. E. Watson. 2018-08-10. Last of the Wild Project, Version 3 (LWP-3): 2009 Human Footprint, 2018 Release. Edition 2018.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "2018.00; 2",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Conservation",
+    "ciesin:tags": [
+      "Conservation",
+      "Earth Science",
+      "Biosphere",
+      "Ecosystems",
+      "Anthropogenic/human Influenced Ecosystems",
+      "Land Surface",
+      "Land Use/land Cover",
+      "Global",
+      "Human Footprint",
+      "Imagery/Base Maps/Earth Cover",
+      "Society",
+      "Earth And Environmental Sciences",
+      "Latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7927/H46T0JQ4",
+      "10.7910/DVN/CVEUWF"
+    ],
+    "ciesin:authors": [
+      "Venter, O., E. W. Sanderson, A. Magrach, J. R. Allan, J. Beher, K. R. Jones, H. P. Possingham, W. F. Laurance, P. Wood, B. M. Fekete, M. A. Levy, and J. E. Watson"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide a map of cumulative human pressure on the environment in 2009.",
+    "ciesin:publication_date": "2018-08-10T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H46T0JQ4",
+      "https://doi.org/10.1038/ncomms12558",
+      "https://doi.org/10.7927/H4H9938Z",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FCVEUWF",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540929803-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "wildareas-v3-2009-human-footprint.xml",
+    "datetime": null,
+    "start_datetime": "2009-01-01T00:00:00Z",
+    "end_datetime": "2009-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2009-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2009-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h46t0jq4.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H46T0JQ4",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/CVEUWF",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h46t0jq4": {
+      "href": "https://doi.org/10.7927/H46T0JQ4",
+      "type": "text/html",
+      "title": "DOI 10.7927/H46T0JQ4",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H46T0JQ4",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "cveuwf": {
+      "href": "https://doi.org/10.7910/DVN/CVEUWF",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/CVEUWF",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/CVEUWF",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "14222311": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222311",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11073,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14222311",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11815580": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815580",
+      "type": "application/zip",
+      "title": "wildareas-v3-2009-human-footprint-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 46932154,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11815580",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3540929803-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929803-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H46T0JQ4",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "wildareas-v3-2009-human-footprint-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/wildareas-v3-2009-human-footprint-citation2.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H46T0JQ4",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v3-2009-human-footprint/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H46T0JQ4",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929803-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata Granule Search",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H46T0JQ4",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "wildareas-v3-2009-human-footprint-global-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/wildareas-v3/wildareas-v3-2009-human-footprint/wildareas-v3-2009-human-footprint-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "wildareas-v3-2009-human-footprint-global-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v3-2009-human-footprint/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v3-2009-human-footprint/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "ncomms12558": {
+      "href": "https://doi.org/10.1038/ncomms12558",
+      "type": "text/html",
+      "title": "ncomms12558",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4h9938z": {
+      "href": "https://doi.org/10.7927/H4H9938Z",
+      "type": "text/html",
+      "title": "H4H9938Z",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -179.99,
+    -65.25,
+    180.0,
+    89.9
+  ]
+}

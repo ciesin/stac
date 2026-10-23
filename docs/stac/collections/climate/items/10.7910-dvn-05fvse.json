@@ -1,0 +1,406 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7910-dvn-05fvse",
+  "collection": "climate",
+  "geometry": null,
+  "properties": {
+    "title": "Global 0.25-Degree Future Drought Layers (1980-2100) Based on Downscaled CMIP6 Models and SSP-RCP Combinations, Version 1",
+    "description": "<b>The data for this project are stored on the <a href=\"https://nese.mghpcc.org/about-nese/\">Northeast Storage Exchange (NESE)</a></b>. Follow the instructions for large data download found on our website: <a href=\"https://github.com/IQSS/dataverse.harvard.edu/blob/master/doc/globus/download-quickstart.md\">Downloading data from NESE via Globus: Quick Start</a><br /><br /> Droughts are a natural phenomenon with significant impact on society and the environment. Their frequency and severity are projected to increase toward the end of the century, which makes urgent the analysis of future drought characteristics to inform stakeholders and to allow the investigation of their effects on different domains. In this study, we developed Future Global Drought Layers composed of SPI and SPEI indices for 23 GCMs of the NEX-GDDP-CMIP6 dataset, including historical (1980-2014) data and 4 future projections (2015-2100) under four climate scenarios: SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5. The drought indices were calculated for 3-, 6- and 12-month timescales. The data is gridded in a regular latitude-longitude format, with a spatial resolution of 0.25º (~25 km) and monthly time resolution.",
+    "license": "CC BY-SA 4.0",
+    "keywords": [
+      "Agricultural Sciences",
+      "Social Sciences",
+      "Climate"
+    ],
+    "providers": [
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7910/DVN/05FVSE",
+    "sci:citation": "de Alcantara Araujo, Diogo Stalin; Nikolopoulos, Efthymios. Global 0.25-Degree Future Drought Layers (1980-2100) Based on Downscaled CMIP6 Models and SSP-RCP Combinations, Version 1. Harvard Dataverse. https://doi.org/10.7910/DVN/05FVSE",
+    "version": "3",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Climate",
+    "ciesin:tags": [
+      "Agricultural Sciences",
+      "Social Sciences",
+      "Climate"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7910/DVN/05FVSE"
+    ],
+    "ciesin:authors": [
+      "de Alcantara Araujo, Diogo Stalin",
+      "Nikolopoulos, Efthymios"
+    ],
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F05FVSE"
+    ],
+    "ciesin:metadata_sources": [
+      "Harvard Dataverse"
+    ],
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7910-dvn-05fvse.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/05FVSE",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "05fvse": {
+      "href": "https://doi.org/10.7910/DVN/05FVSE",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/05FVSE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/05FVSE",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "13148271": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148271",
+      "type": "application/x-7z-compressed",
+      "title": "ACCESS-CM2.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32072250389,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148271",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148274": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148274",
+      "type": "application/x-7z-compressed",
+      "title": "ACCESS-ESM1-5.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32211474189,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148274",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148264": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148264",
+      "type": "application/x-7z-compressed",
+      "title": "CanESM5.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 31883840731,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148264",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148280": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148280",
+      "type": "application/x-7z-compressed",
+      "title": "CMCC-ESM2.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32159924687,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148280",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148261": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148261",
+      "type": "application/x-7z-compressed",
+      "title": "CNRM-CM6-1.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32456216353,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148261",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148267": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148267",
+      "type": "application/x-7z-compressed",
+      "title": "CNRM-ESM2-1.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32412802532,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148267",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148277": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148277",
+      "type": "application/x-7z-compressed",
+      "title": "EC-Earth3.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32043984075,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148277",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148265": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148265",
+      "type": "application/x-7z-compressed",
+      "title": "EC-Earth3-Veg-LR.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32236715047,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148265",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148270": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148270",
+      "type": "application/x-7z-compressed",
+      "title": "FGOALS-g3.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32617371273,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148270",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148266": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148266",
+      "type": "application/x-7z-compressed",
+      "title": "GFDL-ESM4.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32378393405,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148266",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148272": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148272",
+      "type": "application/x-7z-compressed",
+      "title": "GISS-E2-1-G.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32402281215,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148272",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148269": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148269",
+      "type": "application/x-7z-compressed",
+      "title": "INM-CM4-8.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32387451167,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148269",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148278": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148278",
+      "type": "application/x-7z-compressed",
+      "title": "INM-CM5-0.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32396783255,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148278",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148275": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148275",
+      "type": "application/x-7z-compressed",
+      "title": "IPSL-CM6A-LR.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 31932097429,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148275",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148259": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148259",
+      "type": "application/x-7z-compressed",
+      "title": "KACE-1-0-G.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 31916615289,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148259",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148273": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148273",
+      "type": "application/x-7z-compressed",
+      "title": "MIROC-ES2L.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32333907992,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148273",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148260": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148260",
+      "type": "application/x-7z-compressed",
+      "title": "MPI-ESM1-2-HR.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32467017798,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148260",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148279": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148279",
+      "type": "application/x-7z-compressed",
+      "title": "MPI-ESM1-2-LR.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32420383581,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148279",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148258": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148258",
+      "type": "application/x-7z-compressed",
+      "title": "MRI-ESM2-0.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32252678110,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148258",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148268": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148268",
+      "type": "application/x-7z-compressed",
+      "title": "NorESM2-LM.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32270669181,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148268",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148263": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148263",
+      "type": "application/x-7z-compressed",
+      "title": "NorESM2-MM.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32308583252,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148263",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "12099468": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=12099468",
+      "type": "application/pdf",
+      "title": "README.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 158194,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "12099468",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148276": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148276",
+      "type": "application/x-7z-compressed",
+      "title": "TaiESM1.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 31778877434,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148276",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "13148262": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13148262",
+      "type": "application/x-7z-compressed",
+      "title": "UKESM1-0-LL.7z",
+      "roles": [
+        "data"
+      ],
+      "file:size": 31154193387,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "13148262",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

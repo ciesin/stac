@@ -1,0 +1,163 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-00gb-e164",
+  "collection": "infrastructure",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.209724,
+          -13.441882
+        ],
+        [
+          31.275572,
+          -13.441882
+        ],
+        [
+          31.275572,
+          5.344301
+        ],
+        [
+          12.209724,
+          5.344301
+        ],
+        [
+          12.209724,
+          -13.441882
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "GRID3 COD - Roads v1.0",
+    "description": "For more information on the methodology and data sources used during the production of this data, click here.",
+    "license": "other",
+    "keywords": [
+      "Infrastructure",
+      "Latest"
+    ],
+    "sci:doi": "10.7916/00GB-E164",
+    "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University. 2026. GRID3 COD - Roads v1.0. New York: Columbia University. https://doi.org/10.7916/00gb-e164. Accessed <DAY MONTH YEAR>.",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Infrastructure",
+    "ciesin:tags": [
+      "Infrastructure",
+      "Latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7916/00GB-E164"
+    ],
+    "ciesin:purpose": "The GRID3 COD - Roads v1.0 spatial dataset consists of road and path locations in Democratic Republic of the Congo.",
+    "ciesin:publication_date": "2026-01-08T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://www.arcgis.com/sharing/rest/content/items/b489c28df02247e3b227dc1adee1dad4/info/thumbnail/thumbnail1767976161813.png",
+      "https://academiccommons.columbia.edu/doi/10.7916/ekz8-yp85/download",
+      "https://doi.org/10.7916/00gb-e164"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML"
+    ],
+    "ciesin:inventory_xml_location": "GRID3 COD - Roads v1.0.xml",
+    "datetime": "2026-01-08T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-00gb-e164.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/00GB-E164",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "00gb-e164": {
+      "href": "https://doi.org/10.7916/00GB-E164",
+      "type": "text/html",
+      "title": "DOI 10.7916/00GB-E164",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/00GB-E164",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3-cod---roads-v1.0---data-release-notes": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ekz8-yp85/download",
+      "type": "application/pdf",
+      "title": "GRID3 COD - Roads v1.0 - Data Release Notes.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1690710,
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/ekz8-yp85/download",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vcra-te92/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_roads_v1_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 960786432,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/vcra-te92/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/6ye2-g042/download",
+      "type": "application/xml",
+      "title": "GRID3_COD_roads_v1.xml",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11393,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/6ye2-g042/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "thumbnail1767976161813.png": {
+      "href": "https://www.arcgis.com/sharing/rest/content/items/b489c28df02247e3b227dc1adee1dad4/info/thumbnail/thumbnail1767976161813.png",
+      "type": "image/png",
+      "title": "thumbnail1767976161813.png",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    12.209724,
+    -13.441882,
+    31.275572,
+    5.344301
+  ]
+}

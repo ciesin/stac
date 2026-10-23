@@ -1,0 +1,342 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-4htn-2b18",
+  "collection": "settlements",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 COD - Settlement Names v6.0",
+    "license": "other",
+    "keywords": [
+      "Settlements"
+    ],
+    "sci:doi": "10.7916/4htn-2b18",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": [
+      "Settlements"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "not_current",
+    "ciesin:dois": [
+      "10.7916/4htn-2b18"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-4htn-2b18.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/4htn-2b18",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "4htn-2b18": {
+      "href": "https://doi.org/10.7916/4htn-2b18",
+      "type": "text/html",
+      "title": "DOI 10.7916/4htn-2b18",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/4htn-2b18",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3-cod---settlement-names-v6.0-data-release-notes": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/pm7h-dc90/download",
+      "type": "application/pdf",
+      "title": "GRID3 COD - Settlement Names v6.0 Data Release Notes.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 501425,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/pm7h-dc90/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/6fxr-mx94/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_KasaiÌ-Oriental_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 987136,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/6fxr-mx94/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/16vr-gd65/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_KasaiÌ-Central_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2334720,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/16vr-gd65/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-4": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/2mse-9y12/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Haut-Lomami_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1474560,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/2mse-9y12/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-5": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/4pnh-yk19/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Haut-Katanga_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2330624,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/4pnh-yk19/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-6": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/jvza-8n10/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_KasaiÌ_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2101248,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/jvza-8n10/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-7": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/r81a-4379/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Ituri_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1933312,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/r81a-4379/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-8": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/fykj-yp50/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Mai-Ndombe_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1327104,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/fykj-yp50/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-9": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/bzr6-qv66/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Kongo-Central_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3207168,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/bzr6-qv66/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-10": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/p8vw-3s40/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Lomami_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1392640,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/p8vw-3s40/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-11": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/qenk-je53/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Kwilu_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2289664,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/qenk-je53/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-12": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/71hm-f628/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Sud-Ubangi_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1372160,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/71hm-f628/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-13": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/b84s-e662/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Maniema_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2076672,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/b84s-e662/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-14": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/bmvm-nr08/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Sankuru_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1093632,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/bmvm-nr08/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-15": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/r24c-j630/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Lualaba_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2195456,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/r24c-j630/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-16": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/79p9-9202/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Mongala_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1540096,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/79p9-9202/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-17": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/pzs5-2v36/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Tanganyika_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1896448,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/pzs5-2v36/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-18": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/g26h-7k06/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Tshuapa_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1503232,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/g26h-7k06/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-19": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/g5y5-0138/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Tshopo_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2195456,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/g5y5-0138/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-20": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5y7k-8h46/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Kinshasa_settlement_names_v6_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1327104,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/5y7k-8h46/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-21": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ytez-wv50/download",
+      "type": "application/zip",
+      "title": "GRID3_COD_settlement_names_v6_0_gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8936782,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/ytez-wv50/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

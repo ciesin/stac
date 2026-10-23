@@ -1,0 +1,82 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-d81j99km",
+  "collection": "agriculture",
+  "geometry": null,
+  "properties": {
+    "title": "Spatiotemporal Changes of Farming-Pastoral Ecotone in Northern China, 1954–2005: A Case Study in Zhenlai County, Jilin Province",
+    "license": "other",
+    "keywords": [
+      "Agriculture"
+    ],
+    "sci:doi": "10.7916/d81j99km",
+    "ciesin:resource_type": "article",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": [
+      "Agriculture"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7916/d81j99km"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-d81j99km.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/d81j99km",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "d81j99km": {
+      "href": "https://doi.org/10.7916/d81j99km",
+      "type": "text/html",
+      "title": "DOI 10.7916/d81j99km",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d81j99km",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "sustainability-07-00001": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8SQ9B90/download",
+      "type": "application/pdf",
+      "title": "sustainability-07-00001.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2609642,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8SQ9B90/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

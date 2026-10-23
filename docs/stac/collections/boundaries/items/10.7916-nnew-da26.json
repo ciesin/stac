@@ -1,0 +1,277 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-nnew-da26",
+  "collection": "boundaries",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 COD - Health Areas v4.0",
+    "license": "other",
+    "keywords": [
+      "Boundaries"
+    ],
+    "sci:doi": "10.7916/nnew-da26",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Boundaries",
+    "ciesin:tags": [
+      "Boundaries"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "not_current",
+    "ciesin:dois": [
+      "10.7916/nnew-da26"
+    ],
+    "ciesin:publication_date": null,
+    "datetime": null,
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-nnew-da26.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/nnew-da26",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "nnew-da26": {
+      "href": "https://doi.org/10.7916/nnew-da26",
+      "type": "text/html",
+      "title": "DOI 10.7916/nnew-da26",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/nnew-da26",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3_cod_haut-lomami_health_areas_v4_0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/bkwe-nx67/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Haut-Lomami_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5484544,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/bkwe-nx67/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/cmfr-tw69/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kasai_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3137536,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/cmfr-tw69/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/sx7x-b364/download",
+      "type": "application/zip",
+      "title": "GRID3_COD_Haut-Katanga_health_areas_v4_0.gpkg.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3026621,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/sx7x-b364/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-4": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/j6dw-ny75/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Tanganyika_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4923392,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/j6dw-ny75/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-5": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/sn7s-5083/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Mongala_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8114176,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/sn7s-5083/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-6": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/wryp-c715/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kinshasa_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2904064,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/wryp-c715/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-7": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/8zs6-n472/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Sankuru_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 43282432,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/8zs6-n472/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-8": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/77t8-gt60/download",
+      "type": "application/zip",
+      "title": "GRID3_COD_health_areas_v4.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 85769092,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/77t8-gt60/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-9": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5tz6-ev04/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kasai_Oriental_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 98304,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/5tz6-ev04/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-10": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/2pfk-wk36/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kasai-Central_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3129344,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/2pfk-wk36/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-11": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/30ve-8381/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Ituri_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14303232,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/30ve-8381/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-12": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/8pe4-aq90/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Maniema_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8306688,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/8pe4-aq90/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-13": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/8wfc-yd51/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Lomami_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2772992,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/8wfc-yd51/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-14": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ffxg-d845/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kwilu_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 14024704,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/ffxg-d845/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-15": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/bezb-zj72/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Tshopo_health_areas_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8675328,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/bezb-zj72/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-16": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/cpdv-be48/download",
+      "type": "application/pdf",
+      "title": "GRID3 COD - Health Areas v4.0 Data Release Notes.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 576755,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/cpdv-be48/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  }
+}

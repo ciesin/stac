@@ -1,0 +1,2395 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h400002v",
+  "collection": "hazards",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global Fire Emissions Indicators, Grids: 1997-2015",
+    "description": "The Global Fire Emissions Indicators, Grids: 1997-2015 contain a time-series of rasters from 1997 to 2015 for total area burned (hectares) and total carbon content (tons). The annual total area burned raster is the sum of monthly rasters, which are products of the Cell Area and Burn Fraction (fraction of the cell area burned in the month). There are two groups of total carbon content (TCC) rasters, annual totals for all fire types and annual totals for each of six fire types which include Agricultural, Boreal, Tropical Deforestation, Peat, Savanna, and Temperate forest fires. The annual TCC raster for all fire types is the sum of monthly carbon emission rasters. The annual TCC raster for each fire type is the product of Dry Matter, Burn Fraction, and Fire Type Contribution.",
+    "license": "Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
+    "keywords": [
+      "Continent",
+      "Country",
+      "Earth Science",
+      "Atmosphere",
+      "Air Quality",
+      "Emissions",
+      "Global",
+      "Hazards",
+      "Health",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Use",
+      "Remote Sensing",
+      "Sustainability",
+      "Earth And Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "NASA Socioeconomic Data and Applications Center (SEDAC)",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H400002V",
+    "sci:citation": "Giglio, L., J. T. Randerson, and G. R. van der Werf. 2018-02-23. Global Fire Emissions Indicators, Grids: 1997-2015. Edition 1.00. NASA Socioeconomic Data and Applications Center (SEDAC). Palisades, NY",
+    "version": "1.00; 1; 1.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Hazards",
+    "ciesin:tags": [
+      "Continent",
+      "Country",
+      "Earth Science",
+      "Atmosphere",
+      "Air Quality",
+      "Emissions",
+      "Global",
+      "Hazards",
+      "Health",
+      "Imagery/Base Maps/Earth Cover",
+      "Land Use",
+      "Remote Sensing",
+      "Sustainability",
+      "Earth And Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7927/H400002V",
+      "10.7910/DVN/BGCNLP"
+    ],
+    "ciesin:authors": [
+      "Giglio, L., J. T. Randerson, and G. R. van der Werf"
+    ],
+    "ciesin:publishers": [
+      "NASA Socioeconomic Data and Applications Center (SEDAC)",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"NASA Socioeconomic Data and Applications Center (SEDAC)\"}}]",
+      "ESDIS"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide data that can be used to calculate trace gas and aerosol emissions, due to fires; monitor and assess national efforts to manage emissions.",
+    "ciesin:publication_date": "2018-02-23T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H400002V",
+      "https://doi.org/10.1002/jgrg.20042",
+      "https://doi.org/10.7927/H4V69GJ5",
+      "https://doi.org/10.7927/H4QF8QTF",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FBGCNLP",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550191539-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "sdei-global-fire-emissions-indicators-grids-1997-2015.xml",
+    "datetime": null,
+    "start_datetime": "1997-01-01T00:00:00Z",
+    "end_datetime": "2015-12-31T00:00:00Z",
+    "ciesin:temporal_start": "1997-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2015-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h400002v.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H400002V",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/BGCNLP",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h400002v": {
+      "href": "https://doi.org/10.7927/H400002V",
+      "type": "text/html",
+      "title": "DOI 10.7927/H400002V",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H400002V",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "bgcnlp": {
+      "href": "https://doi.org/10.7910/DVN/BGCNLP",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/BGCNLP",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/BGCNLP",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "14222215": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222215",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11943,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14222215",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905828": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905828",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 604448,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905828",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905860": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905860",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 724557,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905860",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905928": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905928",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1023623,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905928",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905899": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905899",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 249993,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905899",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905883": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905883",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 83632,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905883",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905793": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905793",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 139574,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905793",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905882": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905882",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 853728,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905882",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905895": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905895",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 121373,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905895",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905830": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905830",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-y2015-area-burned-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7735440,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905830",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905926": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905926",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-y2015-tcc-agri-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 9408092,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905926",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905848": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905848",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-y2015-tcc-all-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12693489,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905848",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905872": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905872",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-y2015-tcc-borf-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2484322,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905872",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905915": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905915",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-y2015-tcc-defo-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 987330,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905915",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905815": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905815",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-y2015-tcc-peat-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1812210,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905815",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905855": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905855",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-y2015-tcc-sava-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11147390,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905855",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905868": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905868",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1997-y2015-tcc-temf-netcdf.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2291371,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905868",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905821": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905821",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1998-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 607252,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905821",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905889": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905889",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1998-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 724443,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905889",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905791": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905791",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1998-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1023187,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905791",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905920": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905920",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1998-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 252753,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905920",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905850": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905850",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1998-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 83172,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905850",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905861": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905861",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1998-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 138177,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905861",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905790": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905790",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1998-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 856930,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905790",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905909": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905909",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1998-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 121325,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905909",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905812": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905812",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1999-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 605465,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905812",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905876": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905876",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1999-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 724461,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905876",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905835": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905835",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1999-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1018972,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905835",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905798": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905798",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1999-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 250501,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905798",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905808": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905808",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1999-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 80181,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905808",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905922": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905922",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1999-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 138820,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905922",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905891": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905891",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1999-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 855706,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905891",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905826": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905826",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y1999-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 121357,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905826",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905789": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905789",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2000-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 564066,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905789",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905916": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905916",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2000-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 662154,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905916",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905914": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905914",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2000-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 917478,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905914",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905943": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905943",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2000-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 226643,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905943",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905841": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905841",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2000-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 62140,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905841",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905840": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905840",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2000-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 125537,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905840",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905941": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905941",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2000-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 795778,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905941",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905859": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905859",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2000-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 111967,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905859",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905794": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905794",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2001-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 304484,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905794",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905797": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905797",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2001-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 364740,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905797",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905925": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905925",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2001-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 458831,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905925",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905907": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905907",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2001-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 55816,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905907",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905839": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905839",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2001-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42687,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905839",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905887": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905887",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2001-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 32911,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905887",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905802": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905802",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2001-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 481135,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905802",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905819": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905819",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2001-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 51533,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905819",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905822": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905822",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2002-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 314514,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905822",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905918": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905918",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2002-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 370715,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905918",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905875": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905875",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2002-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 481094,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905875",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905820": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905820",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2002-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 66754,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905820",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905843": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905843",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2002-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 52497,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905843",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905879": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905879",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2002-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 38036,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905879",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905923": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905923",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2002-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 492909,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905923",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905913": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905913",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2002-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 57526,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905913",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905837": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905837",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2003-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 357574,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905837",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905919": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905919",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2003-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 434444,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905919",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905911": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905911",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2003-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 617187,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905911",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905825": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905825",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2003-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 85364,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905825",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905869": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905869",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2003-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 56348,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905869",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905897": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905897",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2003-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 226626,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905897",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905885": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905885",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2003-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 558616,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905885",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905867": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905867",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2003-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 271166,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905867",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905809": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905809",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2004-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 350314,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905809",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905853": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905853",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2004-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 368091,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905853",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905858": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905858",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2004-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 460556,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905858",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905852": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905852",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2004-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 220570,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905852",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905816": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905816",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2004-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 46542,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905816",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905863": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905863",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2004-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 33888,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905863",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905935": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905935",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2004-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 488883,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905935",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905851": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905851",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2004-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 51285,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905851",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905933": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905933",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2005-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 352125,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905933",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905947": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905947",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2005-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 441137,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905947",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905856": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905856",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2005-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 612609,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905856",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905845": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905845",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2005-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 74156,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905845",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905807": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905807",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2005-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 58162,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905807",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905814": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905814",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2005-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 230159,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905814",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905912": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905912",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2005-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 557520,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905912",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905799": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905799",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2005-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 277934,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905799",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905900": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905900",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2006-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 359854,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905900",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905898": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905898",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2006-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 443259,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905898",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905811": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905811",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2006-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 620785,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905811",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905942": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905942",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2006-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 74368,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905942",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905929": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905929",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2006-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 52508,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905929",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905892": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905892",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2006-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 215634,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905892",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905945": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905945",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2006-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 575033,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905945",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905854": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905854",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2006-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 270353,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905854",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905910": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905910",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2007-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 349595,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905910",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905834": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905834",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2007-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 445999,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905834",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905796": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905796",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2007-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 603201,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905796",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905946": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905946",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2007-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 62703,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905946",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905844": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905844",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2007-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 58092,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905844",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905795": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905795",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2007-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 200683,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905795",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905896": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905896",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2007-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 566282,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905896",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905817": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905817",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2007-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 259630,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905817",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905932": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905932",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2008-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 349431,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905932",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905824": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905824",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2008-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 458297,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905824",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905939": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905939",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2008-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 553927,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905939",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905813": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905813",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2008-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 227783,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905813",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905803": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905803",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2008-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 42561,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905803",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905838": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905838",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2008-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 37577,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905838",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905884": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905884",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2008-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 555016,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905884",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905927": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905927",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2008-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 74246,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905927",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905805": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905805",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2009-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 346112,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905805",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905800": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905800",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2009-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 454645,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905800",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905924": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905924",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2009-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 550075,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905924",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905806": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905806",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2009-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 63677,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905806",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905864": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905864",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2009-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 46603,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905864",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905917": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905917",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2009-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39688,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905917",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905921": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905921",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2009-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 550754,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905921",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905902": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905902",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2009-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 78364,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905902",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905881": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905881",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2010-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 346889,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905881",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905937": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905937",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2010-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 452915,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905937",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905831": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905831",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2010-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 553081,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905831",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905908": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905908",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2010-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 63811,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905908",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905906": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905906",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2010-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 51835,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905906",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905888": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905888",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2010-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 36958,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905888",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905903": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905903",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2010-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 36948,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905903",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905944": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905944",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2010-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 78672,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905944",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905894": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905894",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2011-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 356398,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905894",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905873": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905873",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2011-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 566090,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905873",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905865": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905865",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2011-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 75690,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905865",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905890": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905890",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2011-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 43105,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905890",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905842": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905842",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2011-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 43093,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905842",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905905": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905905",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2011-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 560998,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905905",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905893": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905893",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2011-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 76317,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905893",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905930": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905930",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2012-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 364392,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905930",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905846": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905846",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2012-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 451348,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905846",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905940": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905940",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2012-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 578307,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905940",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905804": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905804",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2012-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 245589,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905804",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905934": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905934",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2012-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 47854,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905934",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905849": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905849",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2012-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 49649,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905849",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905866": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905866",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2012-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 570758,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905866",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905904": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905904",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2012-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 74535,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905904",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905880": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905880",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2013-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 341506,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905880",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905836": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905836",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2013-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 426760,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905836",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905874": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905874",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2013-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 542772,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905874",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905847": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905847",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2013-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 72489,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905847",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905810": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905810",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2013-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 44989,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905810",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905862": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905862",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2013-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 46113,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905862",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905827": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905827",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2013-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 537457,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905827",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905801": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905801",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2013-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 75806,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905801",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905857": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905857",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2014-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 348601,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905857",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905901": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905901",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2014-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 441934,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905901",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905878": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905878",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2014-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 553858,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905878",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905936": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905936",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2014-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 68198,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905936",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905877": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905877",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2014-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 50905,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905877",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905938": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905938",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2014-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 39600,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905938",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905871": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905871",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2014-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 550891,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905871",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905832": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905832",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2014-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 79819,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905832",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905818": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905818",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2015-area-burned-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 351027,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905818",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905829": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905829",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2015-tcc-agri-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 447926,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905829",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905886": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905886",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2015-tcc-all-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 560387,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905886",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905823": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905823",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2015-tcc-borf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 66142,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905823",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905870": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905870",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2015-tcc-defo-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 57133,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905870",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905833": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905833",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2015-tcc-peat-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 41423,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905833",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905792": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905792",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2015-tcc-sava-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 558627,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905792",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "11905931": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905931",
+      "type": "application/zip",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-gfed4-y2015-tcc-temf-geotiff.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 76978,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11905931",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3550191539-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550191539-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H400002V",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-global-fire-emissions-indicators-grids-1997-2015-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-global-fire-emissions-indicators-grids-1997-2015-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H400002V",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550191539-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata Granule Search",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H400002V",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-global-fire-emissions-indicators-grids-1997-2015-total-area-burned-global-2015-thumbn": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-global-fire-emissions-indicators-grids-1997-2015/sdei-global-fire-emissions-indicators-grids-1997-2015-total-area-burned-global-2015-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "sdei-global-fire-emissions-indicators-grids-1997-2015-total-area-burned-global-2015-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-fire-emissions-indicators-grids-1997-2015/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-fire-emissions-indicators-grids-1997-2015/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-fire-emissions-indicators-grids-1997-2015/maps/services",
+      "type": "text/html",
+      "title": "services",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "jgrg.20042": {
+      "href": "https://doi.org/10.1002/jgrg.20042",
+      "type": "text/html",
+      "title": "jgrg.20042",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4v69gj5": {
+      "href": "https://doi.org/10.7927/H4V69GJ5",
+      "type": "text/html",
+      "title": "H4V69GJ5",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4qf8qtf": {
+      "href": "https://doi.org/10.7927/H4QF8QTF",
+      "type": "text/html",
+      "title": "H4QF8QTF",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
+}

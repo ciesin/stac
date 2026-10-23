@@ -1,0 +1,130 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7916-bb5b-9b79",
+  "collection": "settlements",
+  "geometry": null,
+  "properties": {
+    "title": "GRID3 COD - Settlement Extents v4.0",
+    "description": "The GRID3 COD - Settlement Extents v4.0 dataset is a spatial data layer in OGC Geopackage format. This version supersedes GRID3 COD - Settlement Extents v3.1. The following changes were made: Creation of blocks in urban and semi-urban areas; Removal of hamlets and edge-blocks with zero-building count unless settlement has been confirmed through fieldwork Change of data schema",
+    "license": "other",
+    "keywords": [
+      "Settlements",
+      "Latest"
+    ],
+    "sci:doi": "10.7916/BB5B-9B79",
+    "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University. 2026. GRID3 COD - Settlement Extents v4.0. New York: Columbia University. https://doi.org/10.7916/bb5b-9b79. Accessed [DAY MONTH YEAR].",
+    "ciesin:resource_type": "other",
+    "ciesin:category": "Settlements",
+    "ciesin:tags": [
+      "Settlements",
+      "Latest"
+    ],
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7916/BB5B-9B79"
+    ],
+    "ciesin:purpose": "The GRID3 COD - Settlement Extents v4.0 dataset consists of a geographic representation of settlements in the Democratic Republic of the Congo. Settlement extents are further delineated into settlement blocks nested within urban and small settlement areas, generated from integrated road, railway, river, settlement extents, building footprints, and remote-sensing inputs. Each block is enriched with morphological, environmental, and building metrics.",
+    "ciesin:publication_date": "2026-07-01T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/bb5b-9b79",
+      "https://data.grid3.org/datasets/GRID3::grid3-cod-settlement-extents-v3-1/about"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML"
+    ],
+    "ciesin:inventory_xml_location": "grid3_cod_settlement_extents_v4.xml",
+    "datetime": "2026-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-bb5b-9b79.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/BB5B-9B79",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "bb5b-9b79": {
+      "href": "https://doi.org/10.7916/BB5B-9B79",
+      "type": "text/html",
+      "title": "DOI 10.7916/BB5B-9B79",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/BB5B-9B79",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3-cod---settlement-extents-v4.0---data-release-notes": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/b09z-pt34/download",
+      "type": "application/pdf",
+      "title": "GRID3 COD - Settlement Extents v4.0 - Data Release Notes.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 388453,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/b09z-pt34/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/baqh-yg06/download",
+      "type": "application/xml",
+      "title": "grid3_cod_settlement_extents_v4.xml",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11792,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/baqh-yg06/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "download-3": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/n7b2-jd56/download",
+      "type": "application/x-geopackage",
+      "title": "grid3_cod_settlement_extents_v4.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 956039168,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/n7b2-jd56/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "about": {
+      "href": "https://data.grid3.org/datasets/GRID3::grid3-cod-settlement-extents-v3-1/about",
+      "type": "text/html",
+      "title": "GRID3 COD - Settlement Extents v3.1",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  }
+}

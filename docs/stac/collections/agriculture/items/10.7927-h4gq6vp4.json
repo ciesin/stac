@@ -1,0 +1,440 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "10.7927-h4gq6vp4",
+  "collection": "agriculture",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          -58.0
+        ],
+        [
+          180.0,
+          86.0
+        ],
+        [
+          -180.0,
+          86.0
+        ],
+        [
+          -180.0,
+          -58.0
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global Drought Total Economic Loss Risk Deciles",
+    "description": "The Global Drought Total Economic Loss Risk Deciles is a 2.5 minute grid of global drought total economic loss risks. A process of spatially allocating Gross Domestic Product (GDP) based upon the Sachs et al. (2003) methodology is utilized. First the proportional contributions of subnational units to their respective national GDP are determined using sources of various origins. The contribution rates are then applied to published World Bank Development Indicators to determine a GDP value for the subnational unit. Once the national GDP is spatially stratified into the smallest administrative units available, GDP values for grid cells are derived using Gridded Population of the World, Version 3 (GPWv3) data of population distributions. A per capita contribution value is determined within each subnational unit, and this value is multiplied by the population per grid cell. Once a GDP value has been determined on a per grid cell basis, then the regionally variable loss rate as derived from the historical records of EM-DAT is used to determine the total economic loss risks posed to a grid cell by drought hazards. The final surface does not present absolute values of total economic loss, but rather a relative decile (1-10 with increasing risk) ranking of grid cells based upon the calculated economic loss risks. This data set is the result of collaboration among the Columbia University Center for Hazards and Risk Research (CHRR), International Bank for Reconstruction and Development/The World Bank, and Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "license": "The Trustees of Columbia University in the City of New York, Center for Hazards and Risk Research, and International Bank for Reconstruction and Development/The World Bank hold the copyright of this data set. Users are prohibited from any commercial, resale, or redistirbution without explicit written permission from CHRR, CIESIN, and The World Bank. Users should acknowledge CHRR, CIESIN, and The World Bank as the source used in the creation of any reports, publications, new data sets, derived products, or services resulting from the use of this data set. CHRR, CIESIN, and The World Bank request reprints of any publications and notification of any redistribution efforts.",
+    "keywords": [
+      "Agriculture",
+      "Climate",
+      "Climatology/Meteorology/Atmosphere",
+      "Continent",
+      "Earth Science",
+      "Human Dimensions",
+      "Natural Hazards",
+      "Droughts",
+      "Socioeconomics",
+      "Economy",
+      "Global",
+      "Hazards",
+      "Sustainability",
+      "Water",
+      "Earth And Environmental Sciences"
+    ],
+    "providers": [
+      {
+        "name": "Center for Hazards and Risk Research (CHRR)/Columbia University",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Harvard Dataverse",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR / ESDIS",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "NASA CMR",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4GQ6VP4",
+    "sci:citation": "Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank. 2005-12-31. Global Drought Total Economic Loss Risk Deciles. Edition 1.00. Center for Hazards and Risk Research (CHRR)/Columbia University. Palisades, NY",
+    "version": "1.00; 2; 1.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Agriculture",
+    "ciesin:tags": [
+      "Agriculture",
+      "Climate",
+      "Climatology/Meteorology/Atmosphere",
+      "Continent",
+      "Earth Science",
+      "Human Dimensions",
+      "Natural Hazards",
+      "Droughts",
+      "Socioeconomics",
+      "Economy",
+      "Global",
+      "Hazards",
+      "Sustainability",
+      "Water",
+      "Earth And Environmental Sciences"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "unknown",
+    "ciesin:dois": [
+      "10.7927/H4GQ6VP4",
+      "10.7910/DVN/9V8RK9"
+    ],
+    "ciesin:authors": [
+      "Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank",
+      "Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman"
+    ],
+    "ciesin:publishers": [
+      "Center for Hazards and Risk Research (CHRR)/Columbia University",
+      "[{\"producerName\": {\"typeName\": \"producerName\", \"multiple\": false, \"typeClass\": \"primitive\", \"value\": \"Center for Hazards and Risk Research (CHRR)/Columbia University\"}}]",
+      "World Bank"
+    ],
+    "ciesin:place": [
+      "Global"
+    ],
+    "ciesin:purpose": "To provide a spatial surface of the total economic impacts of global drought hazard.",
+    "ciesin:publication_date": "2005-12-31T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7927/H4GQ6VP4",
+      "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+      "https://doi.org/10.7927/H4VX0DFT",
+      "https://doi.org/10.7927/H4R49NQV",
+      "https://doi.org/10.7927/H4MG7MDV",
+      "https://www.cia.gov/library/publications/the-world-factbook/",
+      "http://www.nga.mil",
+      "http://edcdaac.usgs.gov/glcc/glcc.asp",
+      "https://sedac.ciesin.columbia.edu/gpw-v2/",
+      "https://doi.org/10.7927/H4639MPP",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F9V8RK9",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550192264-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "Local XML",
+      "Harvard Dataverse",
+      "NASA CMR"
+    ],
+    "ciesin:inventory_xml_location": "ndh-drought-total-economic-loss-risk-deciles.xml",
+    "datetime": null,
+    "start_datetime": "2000-01-01T00:00:00Z",
+    "end_datetime": "2000-12-31T00:00:00Z",
+    "ciesin:temporal_start": "2000-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2000-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4gq6vp4.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4GQ6VP4",
+      "type": "text/html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7910/DVN/9V8RK9",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "h4gq6vp4": {
+      "href": "https://doi.org/10.7927/H4GQ6VP4",
+      "type": "text/html",
+      "title": "DOI 10.7927/H4GQ6VP4",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4GQ6VP4",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "9v8rk9": {
+      "href": "https://doi.org/10.7910/DVN/9V8RK9",
+      "type": "text/html",
+      "title": "DOI 10.7910/DVN/9V8RK9",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/9V8RK9",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "11787130": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787130",
+      "type": "application/zip",
+      "title": "gddrggdp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1101446,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11787130",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "14201821": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14201821",
+      "type": "application/zip",
+      "title": "-metadata.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 18144,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "14201821",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "c3550192264-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192264-ESDIS",
+      "type": "text/html",
+      "title": "NASA CMR record page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4GQ6VP4",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-drought-total-economic-loss-risk-deciles/maps/services",
+      "type": "text/html",
+      "title": "Web Map Service Page",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4GQ6VP4",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "ndh-synthesis-report-general-documentation.pdf": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4GQ6VP4",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "ndh-citation2.txt": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "type": "text/plain",
+      "title": "Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4GQ6VP4",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192264-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata Granule Search",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4GQ6VP4",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "drought-total-economic-loss-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ndh/ndh-drought-total-economic-loss-risk-deciles/drought-total-economic-loss-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "drought-total-economic-loss-thumbnail.jpg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "wdi2000": {
+      "href": "http://www.worldbank.org/data/wdi2000",
+      "type": "text/html",
+      "title": "wdi2000",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-drought-total-economic-loss-risk-deciles/data-download",
+      "type": "text/html",
+      "title": "data-download",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-drought-total-economic-loss-risk-deciles/maps",
+      "type": "text/html",
+      "title": "maps",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "natural-disaster-hotspots-a-global-risk-analysis": {
+      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+      "type": "text/html",
+      "title": "Natural-disaster-hotspots-A-global-risk-analysis",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4vx0dft": {
+      "href": "https://doi.org/10.7927/H4VX0DFT",
+      "type": "text/html",
+      "title": "H4VX0DFT",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4r49nqv": {
+      "href": "https://doi.org/10.7927/H4R49NQV",
+      "type": "text/html",
+      "title": "H4R49NQV",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4mg7mdv": {
+      "href": "https://doi.org/10.7927/H4MG7MDV",
+      "type": "text/html",
+      "title": "H4MG7MDV",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "the-world-factbook": {
+      "href": "https://www.cia.gov/library/publications/the-world-factbook/",
+      "type": "text/html",
+      "title": "the-world-factbook",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "www.nga.mil": {
+      "href": "http://www.nga.mil",
+      "type": "text/html",
+      "title": "www.nga.mil",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "glcc.asp": {
+      "href": "http://edcdaac.usgs.gov/glcc/glcc.asp",
+      "type": "text/html",
+      "title": "glcc.asp",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "gpw-v2": {
+      "href": "https://sedac.ciesin.columbia.edu/gpw-v2/",
+      "type": "text/html",
+      "title": "gpw-v2",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4639mpp": {
+      "href": "https://doi.org/10.7927/H4639MPP",
+      "type": "text/html",
+      "title": "H4639MPP",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    }
+  },
+  "bbox": [
+    -180.0,
+    -58.0,
+    180.0,
+    86.0
+  ]
+}
