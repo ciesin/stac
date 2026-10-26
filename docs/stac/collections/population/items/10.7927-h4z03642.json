@@ -6,24 +6,93 @@
   ],
   "id": "10.7927-h4z03642",
   "collection": "population",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -60.0
+        ],
+        [
+          180.0,
+          -60.0
+        ],
+        [
+          180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          -60.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "Gridded Population of the World, Version 4 (GPWv4): Land and Water Area, Revision 10",
+    "description": "The Gridded Population of the World, Version 4 (GPWv4): Land and Water Area, Revision 10 consists of two rasters that measure surface areas of land and water in square kilometers per pixel. The Land Area raster provides estimates of the land area, excluding permanent ice and water, within each pixel, and was used to calculate the population density rasters. The Water Area raster provides estimates of the water area (permanent ice and water) within each pixel. The sum of land area and water area of a pixel equals the total surface area of that pixel. The data files were produced as global rasters at 30 arc-second (~1 km at the equator) resolution. To enable faster global processing, and in support of research communities, the 30 arc-second data were aggregated to 2.5 arc-minute, 15 arc-minute, 30 arc-minute and 1 degree resolutions.",
     "license": "other",
     "keywords": [
-      "Population"
+      "EARTH SCIENCE",
+      "LAND SURFACE",
+      "LAND USE/LAND COVER",
+      "TERRESTRIAL HYDROSPHERE",
+      "SURFACE WATER"
     ],
-    "sci:doi": "10.7927/h4z03642",
+    "providers": [
+      {
+        "name": "Earth Science Data Information System",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "ESDIS",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4Z03642",
+    "version": "4.10",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Population",
     "ciesin:tags": [
-      "Population"
+      "EARTH SCIENCE",
+      "LAND SURFACE",
+      "LAND USE/LAND COVER",
+      "TERRESTRIAL HYDROSPHERE",
+      "SURFACE WATER"
     ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "not_current",
     "ciesin:dois": [
-      "10.7927/h4z03642"
+      "10.7927/H4Z03642"
     ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network - CIESIN - Columbia University"
+    ],
+    "ciesin:publishers": [
+      "ESDIS"
+    ],
+    "ciesin:purpose": "To provide pixel-level land and water surface area estimates.",
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540910877-ESDIS",
+      "https://doi.org/10.7927/H4Z03642",
+      "https://sedac.ciesin.columbia.edu/data/set/gpw-v4-land-water-area-rev10/docs",
+      "https://search.earthdata.nasa.gov/search/granules?p=C3540910877-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "NASA CMR (exact DOI",
+      "title score 1.000)",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3540910877-ESDIS"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -46,7 +115,7 @@
     },
     {
       "rel": "cite-as",
-      "href": "https://doi.org/10.7927/h4z03642",
+      "href": "https://doi.org/10.7927/H4Z03642",
       "type": "text/html"
     }
   ],
@@ -63,5 +132,11 @@
       "ciesin:source_identifier": "10.7927/h4z03642",
       "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
     }
-  }
+  },
+  "bbox": [
+    -180.0,
+    -60.0,
+    180.0,
+    85.0
+  ]
 }

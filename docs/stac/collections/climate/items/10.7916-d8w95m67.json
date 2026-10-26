@@ -2,18 +2,35 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8w95m67",
   "collection": "climate",
   "geometry": null,
   "properties": {
     "title": "Generating Scenarios of Local Surface Temperature Using Time Series Methods",
+    "description": "A method for creating scenarios of time series of monthly mean surface temperature at a specific site is developed. It is postulated that surface temperature can be specified as a linear combination of regional and local temperature components, where the regional component is an areal-average free tropospheric temperature such as may be produced by general circulation model climate simulations, and the local component is a response to purely local surface effects. Three models were tested for the North Carolina area, using weighted least squares linear regression techniques. The first related free tropospheric temperature directly to the site-specific local temperature, while the second added specifically local parameters as independent variables. For the four stations tested, this second model increased the explained variance from about 60% to near 70%. The third model incorporated a local energy and moisture balance process model to specify interactions between local variables, but yielded no significant increase in explanation. Scenarios of time series of future temperatures at a specific site can be obtained by using the statistical regression models and incorporating a random error term based on the regression residuals. For any postulated areas mean tropospheric temperature change this procedure yields a time series that retains the variability characteristics appropriate to the site-specific series.",
     "license": "other",
     "keywords": [
       "Climate"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8w95m67",
+    "ciesin:resource_type": "article",
     "ciesin:category": "Climate",
     "ciesin:tags": [
       "Climate"
@@ -23,7 +40,18 @@
     "ciesin:dois": [
       "10.7916/d8w95m67"
     ],
+    "ciesin:authors": [
+      "Chen, Robert S.",
+      "Robinson, Peter J."
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8W95M67",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8183HH5/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +90,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8w95m67",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "1520-0442_281991_29004-0723_3agsolst-2_2e0_2eco_3b2.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8183HH5/download",
+      "type": "application/pdf",
+      "title": "1520-0442_281991_29004-0723_3Agsolst-2_2E0_2Eco_3B2.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 826771,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8183HH5/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

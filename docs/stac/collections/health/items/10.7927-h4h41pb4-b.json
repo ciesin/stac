@@ -1,0 +1,134 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7927-h4h41pb4-b",
+  "collection": "health",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -54.85
+        ],
+        [
+          180.0,
+          -54.85
+        ],
+        [
+          180.0,
+          69.85
+        ],
+        [
+          -180.0,
+          69.85
+        ],
+        [
+          -180.0,
+          -54.85
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD) with GWR, 1998-2016",
+    "description": "The Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD) with GWR, 1998-2016 consist of annual concentrations (micrograms per cubic meter) of ground-level fine particulate matter (PM2.5), with dust and sea-salt removed. This data set combines AOD retrievals from multiple satellite instruments including the NASA Moderate Resolution Imaging Spectroradiometer (MODIS), Multi-angle Imaging SpectroRadiometer (MISR), and the Sea-Viewing Wide Field-of-View Sensor (SeaWiFS). The GEOS-Chem chemical transport model is used to relate this total column measure of aerosol to near-surface PM2.5 concentration. Geographically Weighted Regression (GWR) is used with global ground-based measurements to predict and adjust for the residual PM2.5 bias per grid cell in the initial satellite-derived values. These estimates are primarily intended to aid in large-scale studies. Gridded data sets at 0.01 degrees are provided to allow users to agglomerate data as best meets their particular needs. Data sets are gridded at the finest resolution of the information sources that were incorporated, but do not fully resolve PM2.5 gradients at the gridded resolution due to influence by information sources at coarser resolutions. The data are distributed as GeoTIFF files and are in WGS 84 projection.",
+    "license": "other",
+    "keywords": [
+      "EARTH SCIENCE",
+      "ATMOSPHERE",
+      "AEROSOLS",
+      "PARTICULATE MATTER",
+      "AIR QUALITY",
+      "PARTICULATES"
+    ],
+    "providers": [
+      {
+        "name": "Earth Science Data Information System",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "ESDIS",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7927/H4H41PB4",
+    "version": "1.0",
+    "ciesin:resource_type": "dataset",
+    "ciesin:category": "Health",
+    "ciesin:tags": [
+      "EARTH SCIENCE",
+      "ATMOSPHERE",
+      "AEROSOLS",
+      "PARTICULATE MATTER",
+      "AIR QUALITY",
+      "PARTICULATES"
+    ],
+    "ciesin:is_latest_version": false,
+    "ciesin:version_status": "not_current",
+    "ciesin:dois": [
+      "10.7927/H4H41PB4"
+    ],
+    "ciesin:authors": [
+      "van Donkelaar, A., R. V. Martin, M. Brauer, N. C. Hsu, R. A. Kahn, R. C. Levy, A. Lyapustin, A. M. Sayer, and D. M. Winker"
+    ],
+    "ciesin:publishers": [
+      "ESDIS"
+    ],
+    "ciesin:purpose": "To provide an annual global surface of concentrations (micrograms per cubic meter) of mineral dust and sea-salt filtered fine particulate matter of 2.5 micrometers or smaller (PM2.5) for large-scale health and environmental research.",
+    "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550191751-ESDIS",
+      "http://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod/docs",
+      "https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod/maps/services",
+      "https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod",
+      "https://search.earthdata.nasa.gov/search/granules?p=C3550191751-ESDIS"
+    ],
+    "ciesin:metadata_sources": [
+      "NASA CMR (exact DOI",
+      "title score 1.000)",
+      "https://cmr.earthdata.nasa.gov/search/concepts/C3550191751-ESDIS"
+    ],
+    "datetime": null,
+    "start_datetime": "1998-01-01T00:00:00Z",
+    "end_datetime": "2016-12-31T00:00:00Z",
+    "ciesin:temporal_start": "1998-01-01T00:00:00Z",
+    "ciesin:temporal_end": "2016-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7927-h4h41pb4-b.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7927/H4H41PB4",
+      "type": "text/html"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -180.0,
+    -54.85,
+    180.0,
+    69.85
+  ]
+}

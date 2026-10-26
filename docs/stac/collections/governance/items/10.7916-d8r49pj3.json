@@ -2,18 +2,35 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8r49pj3",
   "collection": "governance",
   "geometry": null,
   "properties": {
     "title": "Enabling Ongoing Access to Data Products and Services When Dependencies are No Longer Supported",
+    "description": "Online scientific data and related products and services can be developed in a distributed manner across systems and organizations, creating dependencies that rely on continuing operations of coordinated services over time. Dependencies can include other online products and services that rely on disparate chains of hardware and software maintained by separate organizations with independent operational capabilities, support, and sustainability models. In the future, some aspects of such distributed networks of dependent capabilities may fail, requiring mitigation to maintain the online capabilities that users expect. Case studies are offered to describe opportunities for enabling continuing access to scientific data products and services that are dependent on external systems that may no longer be viable.",
     "license": "other",
     "keywords": [
       "Governance"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8r49pj3",
+    "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
       "Governance"
@@ -23,7 +40,17 @@
     "ciesin:dois": [
       "10.7916/d8r49pj3"
     ],
+    "ciesin:authors": [
+      "Downs, Robert R."
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8R49PJ3",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8126278/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +89,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8r49pj3",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "downs2015enablingongoingaccess20150106.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8126278/download",
+      "type": "application/pdf",
+      "title": "Downs2015EnablingOngoingAccess20150106.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 284067,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8126278/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

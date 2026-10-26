@@ -2,18 +2,47 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8hq47bt",
   "collection": "governance",
   "geometry": null,
   "properties": {
     "title": "Global Infrastructure: The Potential of SRTM Data to Break New Ground",
+    "description": "The Shuttle Radar Topography Mission (SRTM) data set presents a unique opportunity to obtain a global, cloud-transparent instantaneous snapshot of imagery from urban and suburban regions, together with collocated topographic information, which can be used to characterize building types, land use, and other key population variables. The SRTM data set in synergy with other global remote sensing data sets, such as Landsat 7, ASTER and DMSP-OLS nighttime imagery, can be used to derive a number of major (but not ALL) parameters constituting a significant part of the global infrastructure data set consistently at the time period during which the SRTM data set was collected (February 2000). The long-term goal is to create a database of global infrastructure which is useful for a multitude of physical and social scientific and operational applications. The general definition of infrastructure can be quite wide and includes all man-made structures and/or natural structures that are modified for human use. The resulting product will ultimately present a unique resource which can be used as a global reference of the state of the world in the year 2000 for future studies of urbanization, infrastructure, population and land use change.",
     "license": "other",
     "keywords": [
       "Governance"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Lamont-Doherty Earth Observatory",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Marine Geology and Geophysics",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8hq47bt",
+    "ciesin:resource_type": "report",
     "ciesin:category": "Governance",
     "ciesin:tags": [
       "Governance"
@@ -23,7 +52,28 @@
     "ciesin:dois": [
       "10.7916/d8hq47bt"
     ],
+    "ciesin:authors": [
+      "Blom, Ronald",
+      "Sutton, Paul",
+      "Yetman, Gregory G.",
+      "Nghiem, Son",
+      "Balk, Deborah",
+      "Wannebo, Antoinette",
+      "Small, Christopher",
+      "Deichmann, Uwe",
+      "Chen, Robert S.",
+      "Rodriguez, Ernesto",
+      "Houshmand, Bijan",
+      "Neumann, Greg"
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8HQ47BT",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8R5005T/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +112,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8hq47bt",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "whitepaperfinal.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8R5005T/download",
+      "type": "application/pdf",
+      "title": "whitepaperfinal.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5031155,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8R5005T/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

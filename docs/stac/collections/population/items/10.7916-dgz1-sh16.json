@@ -2,18 +2,35 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-dgz1-sh16",
   "collection": "population",
   "geometry": null,
   "properties": {
     "title": "Generating and Evaluating Digitised Census Enumeration Areas",
+    "description": "“Generating and Evaluating Digitised Census Enumeration Areas” discusses GRID3's support of countries’ efforts to create and/or strengthen their EA boundaries. The paper discusses GRID3's two main areas of focus in GRID3’s work in the field of EA demarcation: 1) Creating and/or updating “pre-EA” boundaries using a semi-automated delineation approach, with a case study in the Democratic Republic of the Congo, and 2) Providing GIS training and technical assistance to assess the potential difficulty of visiting EAs, so as to reduce the count of persons “missed” by census enumerators, with a case study in Ghana. The paper also discusses EA support currently underway in Zambia. For more information, see https://grid3.org/. Keywords: Census; cartography; sustainable development; Democratic Republic of the Congo; Ghana; Zambia; GRID3; CIESIN; UNFPA; Flowminder; WorldPop; Africa; Bill & Melinda Gates Foundation; enumeration areas; pre-enumeration areas; Hard to Count tool; GIS; 2nd National Population and Housing Census; Ghana Statistical Service; Zambia Statistics Agency; Sustainable Development Goals; Columbia University; data; geospatial; GPS; semi-automated; national statistical office; building footprints;",
     "license": "other",
     "keywords": [
       "Population"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/dgz1-sh16",
+    "ciesin:resource_type": "report",
     "ciesin:category": "Population",
     "ciesin:tags": [
       "Population"
@@ -23,7 +40,20 @@
     "ciesin:dois": [
       "10.7916/dgz1-sh16"
     ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network",
+      "United Nations Population Fund",
+      "Flowminder Foundation",
+      "WorldPop, University of Southampton"
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/dgz1-sh16",
+      "https://academiccommons.columbia.edu/doi/10.7916/9y6k-ac33/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +92,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/dgz1-sh16",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "grid3_censusenumerationareas_june2022.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/9y6k-ac33/download",
+      "type": "application/pdf",
+      "title": "GRID3_CensusEnumerationAreas_June2022.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 18171679,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/9y6k-ac33/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

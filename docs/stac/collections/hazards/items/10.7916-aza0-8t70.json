@@ -2,18 +2,35 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-aza0-8t70",
   "collection": "hazards",
   "geometry": null,
   "properties": {
     "title": "Estimating population and urban areas at risk of coastal hazards, 1990–2015: how data choices matter",
+    "description": "The accurate estimation of population living in the low-elevation coastal zone (LECZ) – and at heightened risk from sea level rise – is critically important for policymakers and risk managers worldwide. This characterization of potential exposure depends on robust representations not only of coastal elevation and spatial population data but also of settlements along the urban–rural continuum. The empirical basis for LECZ estimation has improved considerably in the 13 years since it was first estimated that 10 % of the world's population – and an even greater share of the urban population – lived in the LECZ (McGranahan et al., 2007a). Those estimates were constrained in several ways, not only most notably by a single 10 m LECZ but also by a dichotomous urban–rural proxy and population from a single source. This paper updates those initial estimates with newer, improved inputs and provides a range of estimates, along with sensitivity analyses that reveal the importance of understanding the strengths and weaknesses of the underlying data. We estimate that between 750 million and nearly 1.1 billion persons globally, in 2015, live in the ≤ 10 m LECZ, with the variation depending on the elevation and population data sources used. The variations are considerably greater at more disaggregated levels, when finer elevation bands (e.g., the ≤ 5 m LECZ) or differing delineations between urban, quasi-urban and rural populations are considered. Despite these variations, there is general agreement that the LECZ is disproportionately home to urban dwellers and that the urban population in the LECZ has grown more than urban areas outside the LECZ since 1990. We describe the main results across these new elevation, population and urban-proxy data sources in order to guide future research and improvements to characterizing risk in low-elevation coastal zones (https://doi.org/10.7927/d1x1-d702, CIESIN and CIDR, 2021).",
     "license": "other",
     "keywords": [
       "Hazards"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/aza0-8t70",
+    "ciesin:resource_type": "article",
     "ciesin:category": "Hazards",
     "ciesin:tags": [
       "Hazards"
@@ -23,7 +40,21 @@
     "ciesin:dois": [
       "10.7916/aza0-8t70"
     ],
+    "ciesin:authors": [
+      "MacManus, Kytt",
+      "Balk, Deborah",
+      "Engin, Hasim",
+      "McGranahan, Gordon",
+      "Inman, Rya"
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/aza0-8t70",
+      "https://academiccommons.columbia.edu/doi/10.7916/0cc9-0k82/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +93,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/aza0-8t70",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "essd-13-5747-2021.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/0cc9-0k82/download",
+      "type": "application/pdf",
+      "title": "essd-13-5747-2021.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 13843796,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/0cc9-0k82/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

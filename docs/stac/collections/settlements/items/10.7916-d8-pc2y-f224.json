@@ -9,11 +9,27 @@
   "geometry": null,
   "properties": {
     "title": "GRID3 Angola Settlement Extents Version 01, Alpha",
+    "description": "NOTE: This version of the Angola settlement extents has been superseded by \"GRID3 Angola Settlement Extents, Version 01.01\", now available here: https://doi.org/10.7916/d8-wz1v-pq94 The database constitutes a comprehensive set of settlement polygons nationwide. It is in geodatabase format and consists of three feature classes for built up areas (BUA), small settlement areas (SSA), and hamlets (hamlets). This work has been undertaken as part of the Geo-referenced Infrastructure and Demographic Data for Development (GRID3) initiative in Angola. GRID3 works with countries to generate, validate and use geospatial data on population, settlements, infrastructure, and subnational boundaries. For more information, see https://grid3.org/ Keywords: built up areas, BUA, small settlement areas, SSA, hamlets, settlement aggregation, settlement extent, CIESIN, GRID3, Novel-T",
     "license": "other",
     "keywords": [
       "Settlements"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8-pc2y-f224",
+    "ciesin:resource_type": "other",
     "ciesin:category": "Settlements",
     "ciesin:tags": [
       "Settlements"
@@ -23,7 +39,18 @@
     "ciesin:dois": [
       "10.7916/d8-pc2y-f224"
     ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network",
+      "Novel-T"
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/d8-pc2y-f224",
+      "https://academiccommons.columbia.edu/doi/10.7916/d8-pc2y-f224#assets-panel"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +89,18 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8-pc2y-f224",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "d8-pc2y-f224-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-pc2y-f224#assets-panel",
+      "type": "application/octet-stream",
+      "title": "d8-pc2y-f224",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/d8-pc2y-f224",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

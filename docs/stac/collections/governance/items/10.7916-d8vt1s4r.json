@@ -2,18 +2,35 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8vt1s4r",
   "collection": "governance",
   "geometry": null,
   "properties": {
     "title": "Establishing Trustworthy Repositories of Scientific Data: Opportunities and Benefits",
+    "description": "Scientific progress often depends on the ability of the scientific community to build on the works of others. Such works include scientific data, published reports of findings, and other research-related information and artifacts that are produced as part of the scientific process. Providing capabilities for accessing and using such scientific works enables the reproducibility of published methods and results to identify opportunities for improvement. Access and use of science products also enables others to build on previous work. In an increasingly digital world, the science community accesses and uses relevant scientific resources that have been obtained from digital repositories, data centers, and archives, as well as from traditional sources such as publishers of journal articles. Digital repositories need to establish capabilities, which provide access to and enable the use of digital resources. These resources are needed by the science community to improve and build o! n the efforts of others. Digital repositories that provide free and unrestricted access to scientific data and research-related information can reduce the barriers to science. By reducing these barriers they will be able to offer opportunities for members of the scientific community to pursue research questions and challenges that were previously unapproachable. These may include opportunities for researchers to gather data from other domains and support interdisciplinary research. Opportunities to use the data products and services offered by digital repositories also can contribute to the development of the scientific community and to the emergence of new areas of study.",
     "license": "other",
     "keywords": [
       "Governance"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8vt1s4r",
+    "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
       "Governance"
@@ -23,7 +40,22 @@
     "ciesin:dois": [
       "10.7916/d8vt1s4r"
     ],
+    "ciesin:authors": [
+      "Downs, Robert R.",
+      "Duerr, Ruth",
+      "Donaldson, Devan Ray",
+      "Ramdeen, Sarah"
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8VT1S4R",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8902CDH/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8DR344X/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8JH3VTD/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +94,45 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8vt1s4r",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "downsduerrdonaldsonramdeenestablishingtrustworthyreposfinal20150918.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8902CDH/download",
+      "type": "application/pdf",
+      "title": "DownsDuerrDonaldsonRamdeenEstablishingTrustworthyReposFinal20150918.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 490652,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8902CDH/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "downsduerrdonaldsonramdeenipreslightning30final20151104.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8DR344X/download",
+      "type": "application/pdf",
+      "title": "DownsDuerrDonaldsonRamdeenIPRESLightning30Final20151104.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 94236,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8DR344X/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "downs_establishing-trustworthy-repositories-abstract.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8JH3VTD/download",
+      "type": "application/pdf",
+      "title": "downs_establishing-trustworthy-repositories-abstract.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 315832,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8JH3VTD/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }
