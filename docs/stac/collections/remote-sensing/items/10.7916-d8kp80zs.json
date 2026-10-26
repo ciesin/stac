@@ -2,18 +2,35 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8kp80zs",
   "collection": "remote-sensing",
   "geometry": null,
   "properties": {
     "title": "Using satellite data to develop environmental indicators",
+    "description": "Environmental indicators are increasingly being used in policy and management contexts, yet serious data deficiencies exist for many parameters of interest to environmental decision making. With its global synoptic coverage and the wide range of instruments available, satellite remote sensing has the potential to fill a number of these gaps, yet their potential contribution to indicator development has largely remained untested. In this paper we present results of a pilot effort to develop satellite-derived indicators in three major issue areas: ambient air pollution, coastal eutrophication, and biomass burning. A primary focus is on the vetting of indicators by an advisory group composed of remote sensing scientists and policy makers.",
     "license": "other",
     "keywords": [
       "Remote Sensing"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8kp80zs",
+    "ciesin:resource_type": "article",
     "ciesin:category": "Remote Sensing",
     "ciesin:tags": [
       "Remote Sensing"
@@ -23,7 +40,21 @@
     "ciesin:dois": [
       "10.7916/d8kp80zs"
     ],
+    "ciesin:authors": [
+      "De Sherbinin, Alexander M.",
+      "Levy, Marc A.",
+      "Zell, Erica",
+      "Weber, Stephanie",
+      "Jaiteh, Malanding S."
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8KP80ZS",
+      "https://academiccommons.columbia.edu/doi/10.7916/D80C56C4/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +93,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8kp80zs",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "1748-9326_9_8_084013.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D80C56C4/download",
+      "type": "application/pdf",
+      "title": "1748-9326_9_8_084013.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1384069,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D80C56C4/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

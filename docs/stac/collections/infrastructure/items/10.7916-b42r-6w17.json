@@ -37,13 +37,28 @@
   "properties": {
     "title": "GRID3 NGA - Roads v1.0",
     "description": "For more information on the methodology and data sources used during the production of this data, click here.",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (https://creativecommons.org/licenses/by-sa/4.0/legalcode).",
     "keywords": [
       "Infrastructure",
       "Latest"
     ],
+    "providers": [
+      {
+        "name": "Center for Integrated Earth System Information",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/B42R-6W17",
     "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University. 2025. GRID3 NGA - Roads v1.0.New York: Columbia University. https://doi.org/10.7916/b42r-6w17. Accessed <DAY MONTH YEAR>.",
+    "version": "1.0",
     "ciesin:resource_type": "other",
     "ciesin:category": "Infrastructure",
     "ciesin:tags": [
@@ -54,6 +69,9 @@
     "ciesin:version_status": "current",
     "ciesin:dois": [
       "10.7916/B42R-6W17"
+    ],
+    "ciesin:authors": [
+      "Center for Integrated Earth System Information"
     ],
     "ciesin:purpose": "The GRID3 NGA - Roads v1.0 spatial dataset consists of road and path locations in Nigeria.",
     "ciesin:publication_date": null,
@@ -138,39 +156,6 @@
       "href": "https://www.arcgis.com/sharing/rest/content/items/11f0f007bf68404dab4ecb96a535e52b/info/thumbnail/thumbnail1758220573828.png",
       "type": "image/png",
       "title": "thumbnail1758220573828.png",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "xmlschema-instance": {
-      "href": "http://www.w3.org/2001/XMLSchema-instance",
-      "type": "text/html",
-      "title": "XMLSchema-instance",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "xmlschema": {
-      "href": "http://www.w3.org/2001/XMLSchema",
-      "type": "text/html",
-      "title": "XMLSchema",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "3.5.0": {
-      "href": "http://www.esri.com/schemas/ArcGIS/3.5.0",
-      "type": "text/html",
-      "title": "3.5.0",
       "roles": [
         "metadata"
       ],

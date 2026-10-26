@@ -16,8 +16,23 @@
       "Settlements",
       "Latest"
     ],
+    "providers": [
+      {
+        "name": "Center for Integrated Earth System Information",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/BB5B-9B79",
     "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University. 2026. GRID3 COD - Settlement Extents v4.0. New York: Columbia University. https://doi.org/10.7916/bb5b-9b79. Accessed [DAY MONTH YEAR].",
+    "version": "4.0",
     "ciesin:resource_type": "other",
     "ciesin:category": "Settlements",
     "ciesin:tags": [
@@ -28,6 +43,9 @@
     "ciesin:version_status": "current",
     "ciesin:dois": [
       "10.7916/BB5B-9B79"
+    ],
+    "ciesin:authors": [
+      "Center for Integrated Earth System Information"
     ],
     "ciesin:purpose": "The GRID3 COD - Settlement Extents v4.0 dataset consists of a geographic representation of settlements in the Democratic Republic of the Congo. Settlement extents are further delineated into settlement blocks nested within urban and small settlement areas, generated from integrated road, railway, river, settlement extents, building footprints, and remote-sensing inputs. Each block is enriched with morphological, environmental, and building metrics.",
     "ciesin:publication_date": "2026-07-01T00:00:00Z",
@@ -114,17 +132,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/n7b2-jd56/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "about": {
-      "href": "https://data.grid3.org/datasets/GRID3::grid3-cod-settlement-extents-v3-1/about",
-      "type": "text/html",
-      "title": "GRID3 COD - Settlement Extents v3.1",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   }
 }

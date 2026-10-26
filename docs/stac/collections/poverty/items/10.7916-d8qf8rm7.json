@@ -2,18 +2,35 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8qf8rm7",
   "collection": "poverty",
   "geometry": null,
   "properties": {
     "title": "Does socio-economic status explain the differentials in malaria parasite prevalence? Evidence from The Gambia",
+    "description": "Malaria is commonly associated with poverty. Macro-level estimates show strong links between malaria and poverty, and increasing evidence suggests that the causal link between malaria and poverty runs in both directions. However, micro-level (household and population) analyses on the linkages between malaria and poverty have often produced mixed results. The Gambia Malaria Indicator Survey (MIS) 2010/11 was carried out between November 2010 and January 2011. Laboratory-confirmed malaria and wealth quintiles were used to assess the association of socio-economic status and malaria infection in children and the general population. Simple and multiple logistic regressions and survey data analysis procedures, including linearized standard errors to account for cluster sampling and unequal selection probabilities were applied. Children (six to 59 months) from the second, third, fourth and richest quintiles were significantly less likely to have malaria compared to children from the poorest quintiles. Children (five to 14 years) from the fourth and richest quintiles were also significantly less likely to have malaria compared to those from the poorest quintiles. The malaria burden has shifted from the under-five children (six to 59 months) to children aged five to 14 years. Malaria prevalence was significantly higher in the Central River Region compared to the Upper River Region; and males bear the malaria brunt more than females. Children (six to 59 months) and children (five to 14 years) living in houses with poor walls, floors, roofs and windows were significant associated with higher prevalence of malaria. However, in the general population, only poor wall housing materials were associated with higher prevalence of malaria. Investments in strategies that address socio-economic disparities and improvements in the quality of housing could, in the long term, significantly reduce the malaria burden in the poorest communities.",
     "license": "other",
     "keywords": [
       "Poverty"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8qf8rm7",
+    "ciesin:resource_type": "article",
     "ciesin:category": "Poverty",
     "ciesin:tags": [
       "Poverty"
@@ -23,7 +40,26 @@
     "ciesin:dois": [
       "10.7916/d8qf8rm7"
     ],
+    "ciesin:authors": [
+      "Sonko, Sheriff",
+      "Jaiteh, Malanding S.",
+      "Jafali, James",
+      "Jarju, Lamin",
+      "D’Alessandro, Umberto",
+      "Camara, Abu",
+      "Komma-Bah, Musu",
+      "Saho, Alieu"
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8QF8RM7",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8000CPJ/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/D87H1W5R/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/D83R14FD/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +98,45 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8qf8rm7",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "1475-2875-13-449.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8000CPJ/download",
+      "type": "application/pdf",
+      "title": "1475-2875-13-449.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1455833,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8000CPJ/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "1475-2875-13-449.xml": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D87H1W5R/download",
+      "type": "application/xml",
+      "title": "1475-2875-13-449.xml",
+      "roles": [
+        "data"
+      ],
+      "file:size": 156159,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D87H1W5R/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sword-276435594000288404424.zip": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D83R14FD/download",
+      "type": "application/zip",
+      "title": "sword-276435594000288404424.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1360900,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D83R14FD/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

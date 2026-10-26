@@ -2,18 +2,35 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8xp73qm",
   "collection": "governance",
   "geometry": null,
   "properties": {
     "title": "Earth Science Informatics Community Requirements for Improving Sustainable Science Software Practices: User Perspectives and Implications for Organizational Action",
+    "description": "Science software is integral to the scientific process and must be developed and managed in a sustainable manner to ensure future access to scientific data and related resources. Organizations that are part of the scientific enterprise, as well as members of the scientific community who work within these entities, can contribute to the sustainability of science software and to practices that improve scientific community capabilities for science software sustainability. As science becomes increasingly digital and therefore, dependent on software, improving community practices for sustainable science software will contribute to the sustainability of science. Members of the Earth science informatics community, including scientific data producers and distributers, end-user scientists, system and application developers, and data center managers, use science software regularly and face the challenges and the opportunities that science software presents for the sustainability of science. To gain insight on practices needed for the sustainability of science software from the science software experiences of the Earth science informatics community, an interdisciplinary group of 300 community members were asked to engage in simultaneous roundtable discussions and report on their answers to questions about the requirements for improving scientific software sustainability. This paper will present an analysis of the issues reported and the conclusions offered by the participants. These results provide perspectives for science software sustainability practices and have implications for actions that organizations and their leadership can initiate to improve the sustainability of science software.",
     "license": "other",
     "keywords": [
       "Governance"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8xp73qm",
+    "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
       "Governance"
@@ -23,7 +40,19 @@
     "ciesin:dois": [
       "10.7916/d8xp73qm"
     ],
+    "ciesin:authors": [
+      "Downs, Robert R.",
+      "Lenhardt, W. Christopher",
+      "Robinson, Erin"
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8XP73QM",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8MW2RR9/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +91,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8xp73qm",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "downslenhardtrobinson2014earthsciinfocommreq20141216.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8MW2RR9/download",
+      "type": "application/pdf",
+      "title": "DownsLenhardtRobinson2014EarthSciInfoCommReq20141216.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 479538,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8MW2RR9/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

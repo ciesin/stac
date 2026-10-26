@@ -11,13 +11,28 @@
   "properties": {
     "title": "GRID3 NGA - Travel Time Friction Surface v1.0",
     "description": "The GRID3 NGA - Travel Time Friction Surface v1.0 dataset is a spatial data layer in tiff format. The datasets contain 2 layers: GRID3_NGA_walk_travel_time_friction_surface_v1_0.tif - Applies walking speeds across the entire surface, adjusted for slope and elevation. GRID3_NGA_mix_travel_time_friction_surface_v1_0.tif - Applies motorized speeds on roads and walking speeds in all other areas. The resolution is 30 m. The unit of measurement in both surfaces is minutes per meter.",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (https://creativecommons.org/licenses/by-sa/4.0/legalcode).",
     "keywords": [
       "Infrastructure",
       "Latest"
     ],
+    "providers": [
+      {
+        "name": "Center for Integrated Earth System Information",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/TW5K-YS98",
     "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University. 2025. GRID3 NGA - Travel Time Friction Surface v1.0. New York: Columbia University. https://doi.org/10.7916/tw5k-ys98. Accessed <DAY MONTH YEAR>",
+    "version": "1.0",
     "ciesin:resource_type": "other",
     "ciesin:category": "Infrastructure",
     "ciesin:tags": [
@@ -28,6 +43,9 @@
     "ciesin:version_status": "current",
     "ciesin:dois": [
       "10.7916/TW5K-YS98"
+    ],
+    "ciesin:authors": [
+      "Center for Integrated Earth System Information"
     ],
     "ciesin:purpose": "The aim of this work is to generate two friction surfaces for modeling physical accessibility: one incorporating walking speed only, and another combining walking and motorized travel speeds. Motorized speeds are applied exclusively on roads that are present and passable by vehicles; in all other areas, walking speeds are used.",
     "ciesin:publication_date": null,
@@ -118,39 +136,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/1am9-ms73/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "xmlschema-instance": {
-      "href": "http://www.w3.org/2001/XMLSchema-instance",
-      "type": "text/html",
-      "title": "XMLSchema-instance",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "xmlschema": {
-      "href": "http://www.w3.org/2001/XMLSchema",
-      "type": "text/html",
-      "title": "XMLSchema",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "3.5.0": {
-      "href": "http://www.esri.com/schemas/ArcGIS/3.5.0",
-      "type": "text/html",
-      "title": "3.5.0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   }
 }

@@ -37,11 +37,26 @@
   "properties": {
     "title": "GRID3 COD - Settlement Extents v3.1",
     "description": "The current version supersedes GRID3 COD - Settlement Extents v3.0; the following changes were made: Corrections on imputed values for building count and building areas. Corrections on probability values from field-collected data Edits in the Data Release Notes The two layers contained within the GRID3 COD - Settlement Extents v3.1 include: GRID3_COD_settlement_extents_v3_1.gpkg: a spatial layer representing settlement polygons. GRID3_COD_settlement_grid_v3_1.gpkg: a spatial layer representing the centroids of settled grid cells. For more information on data inputs, methodology, and codebooks please see the Data Release Notes. Recommended Citation: Center for International Earth Science Information Network (CIESIN), Columbia University. 2024. GRID3 COD - Settlement Extents v3.1. New York: GRID3. https://doi.org/10.7916/d6gy-yh28. Accessed [DAY MONTH YEAR]. Terms of use: Users are free to download, store, access, use, copy, adapt, transform, alter, arrange, build upon, distribute and transmit this work and any derivative works. Attribution of the source must be provided, and further distribution of this work or derived work must maintain the same terms of data use and license as set forth in this Terms of Use. Copyright 2024. The Trustees of Columbia University in the City of New York. Data license: The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (https://creativecommons.org/licenses/by-sa/4.0/legalcode)",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (http://creativecommons.org/licenses/by-sa/4.0/legalcode)",
     "keywords": [
       "Settlements"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/D6GY-YH28",
+    "version": "3.1",
     "ciesin:resource_type": "other",
     "ciesin:category": "Settlements",
     "ciesin:tags": [
@@ -51,6 +66,9 @@
     "ciesin:version_status": "not_current",
     "ciesin:dois": [
       "10.7916/D6GY-YH28"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network"
     ],
     "ciesin:purpose": "The GRID3 COD - Settlement Extents v3.1 consists of a geographic representation of settlements in the Democratic Republic of the Congo, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Data inputs and methodology are described in the data release notes.",
     "ciesin:publication_date": null,
@@ -65,7 +83,8 @@
       "https://doi.org/10.7916/d6gy-yh28"
     ],
     "ciesin:metadata_sources": [
-      "Local XML"
+      "Local XML",
+      "Columbia Academic Commons"
     ],
     "ciesin:inventory_xml_location": "GRID3 COD - Settlement Extents v3.1.xml",
     "datetime": null,
@@ -144,28 +163,6 @@
       "ciesin:source": "XML data link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/hfsf-0111/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "xmlschema-instance": {
-      "href": "http://www.w3.org/2001/XMLSchema-instance",
-      "type": "text/html",
-      "title": "XMLSchema-instance",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "xmlschema": {
-      "href": "http://www.w3.org/2001/XMLSchema",
-      "type": "text/html",
-      "title": "XMLSchema",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
     "3.1.0": {

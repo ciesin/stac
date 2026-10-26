@@ -2,18 +2,35 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8jh3x65",
   "collection": "governance",
   "geometry": null,
   "properties": {
     "title": "Toward Implementation of the Global Earth Observation System of Systems Data Sharing Principles",
+    "description": "This White Paper reviews the background issues for implementing the GEOSS Data Sharing Principles and recommends Implementation Guidelines to ensure the strongest possible framework for data sharing, consistent with both the spirit and the “letter” of the Principles. As recognized by the 10-Year Implementation Plan, “ensuring that such information is available to those who need it is a function of governments and institutions at all levels.” It is therefore incumbent on governments and institutions participating in GEOSS to continue to develop and implement appropriate policies and procedures that enable and support the GEOSS Data Sharing Principles in fair and effective ways. The implementation approaches discussed here are intended to facilitate this process.",
     "license": "other",
     "keywords": [
       "Governance"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8jh3x65",
+    "ciesin:resource_type": "article",
     "ciesin:category": "Governance",
     "ciesin:tags": [
       "Governance"
@@ -23,7 +40,20 @@
     "ciesin:dois": [
       "10.7916/d8jh3x65"
     ],
+    "ciesin:authors": [
+      "Uhlir, Paul F.",
+      "Chen, Robert S.",
+      "Gabrynowicz, Joanne Irene",
+      "Janssen, Katleen"
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8JH3X65",
+      "https://academiccommons.columbia.edu/doi/10.7916/D851486F/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +92,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8jh3x65",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "35jsl201.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D851486F/download",
+      "type": "application/pdf",
+      "title": "35JSL201.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3283438,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D851486F/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

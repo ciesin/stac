@@ -2,18 +2,41 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8668d90",
   "collection": "governance",
   "geometry": null,
   "properties": {
     "title": "Using EIAs in our Research",
+    "description": "A description of how researchers at the Columbia Water Center use environmental impact assessments in their research projects.",
     "license": "other",
     "keywords": [
       "Governance"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Sabin Center for Climate Change Law",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8668d90",
+    "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
       "Governance"
@@ -23,7 +46,17 @@
     "ciesin:dois": [
       "10.7916/d8668d90"
     ],
+    "ciesin:authors": [
+      "Condon, Madison E."
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8668D90",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8ST7ZGZ/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +95,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8668d90",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "eis_database_condon.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8ST7ZGZ/download",
+      "type": "application/pdf",
+      "title": "EIS_Database_Condon.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1136887,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8ST7ZGZ/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

@@ -2,16 +2,32 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-s9yt-ad84",
   "collection": "settlements",
   "geometry": null,
   "properties": {
     "title": "GRID3 Burkina Faso Settlement Extents, Version 02",
+    "description": "The dataset consists of settlement extents across Burkina Faso, as well as accompanying settlement type based on the degrees of urbanization, place codes, and confidence level for each settlement extent. Updates in this version include: (1) The degree of urbanisation has replaced the previous classifications of built-up areas, small settlement areas, and hamlets (2) Boundary names have been removed, since the OCHA dataset is not an official set of boundaries and may not be accurate (3) Building count ranges have been included (4) Predicted false positives have been included (5) Population data have been removed until new constrained population numbers are available (6) Settlement status has been included, as it pertains to Version 01 of the settlement extents This work has been undertaken as part of the Geo-Referenced Infrastructure and Demographic Data for Development (GRID3) programme. The programme is funded by the Bill & Melinda Gates Foundation and the United Kingdom's Foreign, Commonwealth & Development Office. It is implemented by the Flowminder Foundation, WorldPop at the University of Southampton, the United Nations Population Fund, and the Center for International Earth Science Information Network (CIESIN) at Columbia University. Keywords: Settlements, Hamlets, Built-up Areas (BUA), Small Settlement Areas (SSA), Settlement Extents",
     "license": "other",
     "keywords": [
       "Settlements"
+    ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
     ],
     "sci:doi": "10.7916/s9yt-ad84",
     "ciesin:resource_type": "other",
@@ -24,7 +40,20 @@
     "ciesin:dois": [
       "10.7916/s9yt-ad84"
     ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network",
+      "Novel-T"
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/s9yt-ad84",
+      "https://academiccommons.columbia.edu/doi/10.7916/hqbn-4x96/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/q41v-fx40/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/s9yt-ad84#assets-panel"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -63,6 +92,32 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/s9yt-ad84",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "bfa_datareleasestatement_settlementextents_version02.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/hqbn-4x96/download",
+      "type": "application/pdf",
+      "title": "BFA_DataReleaseStatement_SettlementExtents_Version02.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1274453,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/hqbn-4x96/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_burkina_faso_settlement_extents_version_02.zip": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/q41v-fx40/download",
+      "type": "application/zip",
+      "title": "GRID3_Burkina_Faso_Settlement_Extents_Version_02.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 192576146,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/q41v-fx40/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

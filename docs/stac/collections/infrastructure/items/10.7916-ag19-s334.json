@@ -42,6 +42,20 @@
       "Infrastructure",
       "Latest"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/AG19-S334",
     "sci:citation": "Sierra Leone Ministry of Health and Sanitation (MoHS) and Center for International Earth Science Information Network (CIESIN), Columbia University. 2023. Sierra Leone National Health Facilities Dataset Version 01. Palisades, NY: Geo-Referenced Infrastructure and Demographic Data for Development (GRID3). https://doi.org/10.7916/ag19-s334. Accessed DAY MONTH YEAR",
     "ciesin:resource_type": "other",
@@ -54,6 +68,10 @@
     "ciesin:version_status": "current",
     "ciesin:dois": [
       "10.7916/AG19-S334"
+    ],
+    "ciesin:authors": [
+      "Center for International Earth Science Information Network",
+      "Sierra Leone Ministry of Health and Sanitation"
     ],
     "ciesin:purpose": "The dataset consists of health facility points with name, location (where available), facility type, functionality, and ownership in Sierra Leone",
     "ciesin:publication_date": null,
@@ -132,28 +150,6 @@
       "ciesin:source": "XML data link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/fhg4-qa91/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "xmlschema-instance": {
-      "href": "http://www.w3.org/2001/XMLSchema-instance",
-      "type": "text/html",
-      "title": "XMLSchema-instance",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "xmlschema": {
-      "href": "http://www.w3.org/2001/XMLSchema",
-      "type": "text/html",
-      "title": "XMLSchema",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
     "3.1.0": {

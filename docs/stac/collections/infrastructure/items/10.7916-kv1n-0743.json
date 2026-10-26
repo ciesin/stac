@@ -37,12 +37,27 @@
   "properties": {
     "title": "GRID3 NGA - Health Facilities v2.0",
     "description": "This current version supersedes the GRID3 NGA - Health Facilities dataset; the following changes were made: Change of data schema Update of data inputs to incorporate records from the Nigeria Health Facility Registry (HFR, 2024). Schema and data attributes’ standardization based on national guidelines For more information on the methodology and data sources used during the production of this data, see the Data Release Notes.",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution 4.0 International License, CC BY 4.0 (http://creativecommons.org/licenses/by/4.0) and specified in legal code (http://creativecommons.org/licenses/by/4.0/legalcode).",
     "keywords": [
       "Infrastructure"
     ],
+    "providers": [
+      {
+        "name": "Center for Integrated Earth System Information",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/KV1N-0743",
     "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University 2024. GRID3 NGA - Health Facilities v2.0. New York: GRID3. https://doi.org/10.7916/kv1n-0743. Accessed [DAY MONTH YEAR].",
+    "version": "2.0",
     "ciesin:resource_type": "other",
     "ciesin:category": "Infrastructure",
     "ciesin:tags": [
@@ -52,6 +67,9 @@
     "ciesin:version_status": "not_current",
     "ciesin:dois": [
       "10.7916/KV1N-0743"
+    ],
+    "ciesin:authors": [
+      "Center for Integrated Earth System Information"
     ],
     "ciesin:purpose": "The GRID3 NGA - Health Facilities v2.0 dataset is a non-exhaustive, non-validated geographic representation of health facility points in Nigeria. The dataset incorporates recent updates from both the Nigeria Health Facility Registry (HFR) and GRID3. This dataset is considered operational.",
     "ciesin:publication_date": "2024-11-13T00:00:00Z",
@@ -126,17 +144,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/bws3-8q75/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "about": {
-      "href": "https://data.grid3.org:443/datasets/GRID3::grid3-nga-health-facilities-/about",
-      "type": "text/html",
-      "title": "GRID3 NGA - Health Facilities",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     },
     "view": {
       "href": "https://drive.google.com/file/d/143q2gmfqhaKphuOZqZMwIyrUg8hizAjI/view?usp=drive_link",

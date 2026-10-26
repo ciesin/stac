@@ -2,18 +2,35 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8kd1x91",
   "collection": "marine-and-coastal",
   "geometry": null,
   "properties": {
     "title": "Trace metal dynamics in the sediments of a constructed and natural urban tidal marsh: The role of iron, sulfide, and organic complexation",
+    "description": "Two tidal marshes in the New Jersey Meadowlands, one constructed and one natural were characterized to compare their ability to immobilize trace metals (Cd, Cr, Cu, Mn, Pb, and Zn). Surface and pore waters were sampled four times a year between 2008 and 2010 and sediment cores were collected yearly in the constructed marsh and once in 2010 in the natural marsh. Interactions of trace metals with redox active species such as iron and sulfide as well as with organic matter were investigated. Precipitation with sulfides played a major role in immobilizing certain trace metals, including Cr, Mn, and Pb. At both sites, the presence of sulfide did not preclude the presence of dissolved trace metals in pore-water at concentrations exceeding their metal sulfide solubility product. Thermodynamic equilibrium modeling indicated these dissolved metals remained in solution due to an association with heterogeneous dissolved organic carbon. No net trace metal accumulation in the surficial sediments of the constructed marsh was noted between 2007 and 2010. This implied that a dynamic equilibrium of trace metal flux into and out of the sediments was established, rather than a long-term net accumulation of trace metals. In the constructed marsh, little difference was found between the immobilization potential in the area of intermittent flooding (high marsh) and the area of sustained flooding (low marsh). The newly constructed wetland immobilized significantly more Cr, Mn, and Zn than the natural marsh and similar concentrations of Cd, Cu, and Pb. This may be due to increased redox buffering through a larger FeS buffering pool against tidally induced oxygen delivery.",
     "license": "other",
     "keywords": [
       "Marine And Coastal"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8kd1x91",
+    "ciesin:resource_type": "article",
     "ciesin:category": "Marine and Coastal",
     "ciesin:tags": [
       "Marine And Coastal"
@@ -23,7 +40,19 @@
     "ciesin:dois": [
       "10.7916/d8kd1x91"
     ],
+    "ciesin:authors": [
+      "ElBishlawi, Hagar",
+      "Shin, Jin Young",
+      "Jaffe, Peter R."
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8KD1X91",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8F480VP/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +91,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8kd1x91",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "ecological_engineering_article.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8F480VP/download",
+      "type": "application/pdf",
+      "title": "Ecological_Engineering_Article.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3015689,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8F480VP/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

@@ -2,18 +2,35 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8hx19rz",
   "collection": "governance",
   "geometry": null,
   "properties": {
     "title": "Workflow for Evaluating SEDAC Data for Dissemination",
+    "description": "The depiction of the workflow for the evaluation of scientific data that are planned for dissemination by the NASA Socioeconomic Data and Applications Center (SEDAC) demonstrates the diversity of roles, groups, and activities that are involved in the evaluation of scientific data disseminated by SEDAC. The evaluation efforts described in the workflow include reviews, assessments, and testing activities of scientific data that are conducted throughout the data acquisition, product development, and dissemination processes.",
     "license": "other",
     "keywords": [
       "Governance"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8hx19rz",
+    "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
       "Governance"
@@ -23,7 +40,17 @@
     "ciesin:dois": [
       "10.7916/d8hx19rz"
     ],
+    "ciesin:authors": [
+      "Downs, Robert R."
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8HX19RZ",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8WS92SK/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +89,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8hx19rz",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "downsworkflowevalsedacdatafinal20140318.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8WS92SK/download",
+      "type": "application/pdf",
+      "title": "DownsWorkflowEvalSEDACDataFinal20140318.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 391227,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8WS92SK/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

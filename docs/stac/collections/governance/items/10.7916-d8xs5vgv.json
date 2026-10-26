@@ -2,18 +2,41 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8xs5vgv",
   "collection": "governance",
   "geometry": null,
   "properties": {
     "title": "Use Cases for EIS Databases",
+    "description": "An overview of use cases supporting the development of an online database of environmental impact statements.",
     "license": "other",
     "keywords": [
       "Governance"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Sabin Center for Climate Change Law",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8xs5vgv",
+    "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
       "Governance"
@@ -23,7 +46,17 @@
     "ciesin:dois": [
       "10.7916/d8xs5vgv"
     ],
+    "ciesin:authors": [
+      "Jaiteh, Malanding S."
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8XS5VGV",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8DJ5Q8F/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +95,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8xs5vgv",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "eis_database_jaiteh.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8DJ5Q8F/download",
+      "type": "application/pdf",
+      "title": "EIS_Database_Jaiteh.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 113819,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8DJ5Q8F/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

@@ -2,18 +2,35 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d84m9395",
   "collection": "poverty",
   "geometry": null,
   "properties": {
     "title": "What is the role for conservation organizations in poverty alleviation in the world’s wild places?",
+    "description": "In this paper we provide an empirically-based way to address the general question of the broad-scale spatial relationship between poverty occurrence and areas of interest to those seeking conservation of large wild areas. We address the question of the spatial relationship between poor people and areas less impacted by human activity by asking three questions about the global spatial relationship between poor people and ecological intactness and how it varies by major biome and geographical region. We use infant mortality rate as a proxy for poverty and the Human Footprint as a proxy for ecological intactness, comparing global terrestrial maps of both. The analysis shows that the vast majority of the world’s poor people live in extremely urban and very transformed (peri transformed) areas. Only a small percentage of the world’s most poor are found in areas that are somewhat or extremely wild: about 0.25% of the world’s population. This fact has implications for the calls being made for conservation organizations to undertake poverty alleviation, suggesting that at a global scale those groups with interest in conserving wild areas would be able to contribute little to globally significant poverty alleviation efforts. However, these conservation groups are well positioned to develop new partnerships for delivery of benefits to some of the least accessible poor people in the wildest places of the world.",
     "license": "other",
     "keywords": [
       "Poverty"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d84m9395",
+    "ciesin:resource_type": "article",
     "ciesin:category": "Poverty",
     "ciesin:tags": [
       "Poverty"
@@ -23,7 +40,20 @@
     "ciesin:dois": [
       "10.7916/d84m9395"
     ],
+    "ciesin:authors": [
+      "Redford, Kent H.",
+      "Levy, Marc A.",
+      "Sanderson, Eric W.",
+      "De Sherbinin, Alexander M."
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D84M9395",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8XK8S52/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +92,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d84m9395",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "orx-orx42_04-s0030605308001889a.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8XK8S52/download",
+      "type": "application/pdf",
+      "title": "-ORX-ORX42_04-S0030605308001889a.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 357328,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8XK8S52/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

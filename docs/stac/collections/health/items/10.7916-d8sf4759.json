@@ -2,18 +2,53 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8sf4759",
   "collection": "health",
   "geometry": null,
   "properties": {
     "title": "Temperature and humidity based projections of a rapid rise in global heat stress exposure during the 21st century",
+    "description": "As a result of global increases in both temperature and specific humidity, heat stress is projected to intensify throughout the 21st century. Some of the regions most susceptible to dangerous heat and humidity combinations are also among the most densely populated. Consequently, there is the potential for widespread exposure to wet bulb temperatures that approach and in some cases exceed postulated theoretical limits of human tolerance by mid- to late-century. We project that by 2080 the relative frequency of present-day extreme wet bulb temperature events could rise by a factor of 100–250 (approximately double the frequency change projected for temperature alone) in the tropics and parts of the mid-latitudes, areas which are projected to contain approximately half the world's population. In addition, population exposure to wet bulb temperatures that exceed recent deadly heat waves may increase by a factor of five to ten, with 150–750 million person-days of exposure to wet bulb temperatures above those seen in today's most severe heat waves by 2070–2080. Under RCP 8.5, exposure to wet bulb temperatures above 35 °C—the theoretical limit for human tolerance—could exceed a million person-days per year by 2080. Limiting emissions to follow RCP 4.5 entirely eliminates exposure to that extreme threshold. Some of the most affected regions, especially Northeast India and coastal West Africa, currently have scarce cooling infrastructure, relatively low adaptive capacity, and rapidly growing populations. In the coming decades heat stress may prove to be one of the most widely experienced and directly dangerous aspects of climate change, posing a severe threat to human health, energy infrastructure, and outdoor activities ranging from agricultural production to military training.",
     "license": "other",
     "keywords": [
       "Health"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Earth and Environmental Sciences",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Lamont-Doherty Earth Observatory",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Ocean and Climate Physics",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d8sf4759",
+    "ciesin:resource_type": "article",
     "ciesin:category": "Health",
     "ciesin:tags": [
       "Health"
@@ -23,7 +58,20 @@
     "ciesin:dois": [
       "10.7916/d8sf4759"
     ],
+    "ciesin:authors": [
+      "Coffel, Ethan",
+      "Horton, Radley M.",
+      "De Sherbinin, Alexander M."
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D8SF4759",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8NP3GCP/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8J11F5B/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +110,32 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8sf4759",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "coffel_2018_environ._res._lett._13_014001.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8NP3GCP/download",
+      "type": "application/pdf",
+      "title": "Coffel_2018_Environ._Res._Lett._13_014001.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 7416876,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8NP3GCP/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "erl_13_1_014001_suppdata.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8J11F5B/download",
+      "type": "application/pdf",
+      "title": "ERL_13_1_014001_suppdata.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1101531,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D8J11F5B/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

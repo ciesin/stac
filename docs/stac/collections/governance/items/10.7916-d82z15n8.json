@@ -2,18 +2,47 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d82z15n8",
   "collection": "governance",
   "geometry": null,
   "properties": {
     "title": "Designing and Maintaining an EIS Database: Lessons Learned in Developing Library-based Digital Repositories",
+    "description": "The Columbia University Libraries/Information Services (CUL/IS) have extensive experience building and maintaining systems for the discovery, access, and preservation of digital objects. This presentation discusses the lessons learned from Libraries projects and the current technologies in use for Libraries digital collections.",
     "license": "other",
     "keywords": [
       "Governance"
     ],
+    "providers": [
+      {
+        "name": "Center for International Earth Science Information Network",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Sabin Center for Climate Change Law",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Libraries",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
     "sci:doi": "10.7916/d82z15n8",
+    "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
       "Governance"
@@ -23,7 +52,17 @@
     "ciesin:dois": [
       "10.7916/d82z15n8"
     ],
+    "ciesin:authors": [
+      "Cartolano, Robert T."
+    ],
     "ciesin:publication_date": null,
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/D82Z15N8",
+      "https://academiccommons.columbia.edu/doi/10.7916/D86117Z2/download"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons"
+    ],
     "datetime": null,
     "start_datetime": null,
     "end_datetime": null
@@ -62,6 +101,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d82z15n8",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "2016-06-16_designing_maintaining_eis_database_-_library_perspectives.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D86117Z2/download",
+      "type": "application/pdf",
+      "title": "2016-06-16_Designing_Maintaining_EIS_Database_-_Library_Perspectives.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1915199,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/D86117Z2/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

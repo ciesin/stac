@@ -2,7 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-d8-r8gs-0695",
   "collection": "sustainability",
@@ -23,6 +24,7 @@
       }
     ],
     "sci:doi": "10.7916/d8-r8gs-0695",
+    "ciesin:resource_type": "article",
     "ciesin:category": "Sustainability",
     "ciesin:tags": [
       "Sustainability"
@@ -92,6 +94,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8-r8gs-0695",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "de-sherbinin-et-al-2021-citizen-science-data_frontiers.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-tqft-9036/download",
+      "type": "application/pdf",
+      "title": "de Sherbinin et al 2021 Citizen Science Data_Frontiers.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 202312,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/d8-tqft-9036/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

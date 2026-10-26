@@ -2,7 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "id": "10.7916-9cvh-t121",
   "collection": "land-use",
@@ -23,6 +24,7 @@
       }
     ],
     "sci:doi": "10.7916/9cvh-t121",
+    "ciesin:resource_type": "other",
     "ciesin:category": "Land Use",
     "ciesin:tags": [
       "Land Use"
@@ -81,6 +83,19 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/9cvh-t121",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+    },
+    "levy.webersik.2016.reducing-risk-of-conflict.resource-management.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/fztq-0p55/download",
+      "type": "application/pdf",
+      "title": "levy.webersik.2016.reducing risk of conflict.resource management.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 850368,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/fztq-0p55/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }
