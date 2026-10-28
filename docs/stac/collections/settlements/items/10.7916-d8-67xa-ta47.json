@@ -6,11 +6,37 @@
   ],
   "id": "10.7916-d8-67xa-ta47",
   "collection": "settlements",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          24.382408,
+          3.48991
+        ],
+        [
+          35.832589,
+          3.48991
+        ],
+        [
+          35.832589,
+          12.236757
+        ],
+        [
+          24.382408,
+          12.236757
+        ],
+        [
+          24.382408,
+          3.48991
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "GRID3 South Sudan Settlement Extents Version 01, Alpha",
     "description": "NOTE: This version of the South Sudan settlement extents has been superseded by \"GRID3 South Sudan Settlement Extents, Version 01.01\", now available here: https://doi.org/10.7916/d8-khpa-pq09 The database constitutes a comprehensive set of settlement polygons nationwide. It is in geodatabase format and consists of three feature classes for built up areas (BUA), small settlement areas (SSA), and hamlets (hamlets). This work has been undertaken as part of the Geo-referenced Infrastructure and Demographic Data for Development (GRID3) initiative in South Sudan. GRID3 works with countries to generate, validate and use geospatial data on population, settlements, infrastructure, and subnational boundaries. For more information, see https://grid3.org/ Keywords: built up areas, BUA, small settlement areas, SSA, hamlets, settlement aggregation, settlement extent, CIESIN, GRID3, Novel-T",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (http://creativecommons.org/licenses/by-sa/4.0/legalcode)",
     "keywords": [
       "Settlements"
     ],
@@ -29,7 +55,8 @@
       }
     ],
     "sci:doi": "10.7916/d8-67xa-ta47",
-    "ciesin:resource_type": "other",
+    "version": "1, Alpha",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
     "ciesin:tags": [
       "Settlements"
@@ -102,5 +129,11 @@
       "ciesin:source_identifier": "/doi/10.7916/d8-67xa-ta47",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    24.382408,
+    3.48991,
+    35.832589,
+    12.236757
+  ]
 }

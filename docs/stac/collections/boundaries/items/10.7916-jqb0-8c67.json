@@ -7,11 +7,37 @@
   ],
   "id": "10.7916-jqb0-8c67",
   "collection": "boundaries",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.200875,
+          -13.455996
+        ],
+        [
+          31.277242,
+          -13.455996
+        ],
+        [
+          31.277242,
+          5.392003
+        ],
+        [
+          12.200875,
+          5.392003
+        ],
+        [
+          12.200875,
+          -13.455996
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "GRID3 COD - Health Zones v2.0",
     "description": "The dataset consists of health zone boundaries with name, location, and other related attributes for eleven provinces in the Democratic Republic of the Congo. Province group 1: Haut-Katanga, Kasaï, Kasaï-Oriental, Kinshasa, and Lomami Province group 2: Haut-Lomami and Tanganyika Province group 3: Ituri and Kwilu Province group 4: Maniema Province group 5: Kasaï-Central This operational dataset has not been fully validated by government officials or ministries. The current version supersedes GRID3 COD - Health Zones v1.0 (https://doi.org/10.7916/hkxs-nn48). This current version includes the province of Kasaï-Central. Keywords: health areas, health zones",
-    "license": "The data and accompanying document are licensed under a Creative Commons Attribution 4.0 International License, CC BY 4.0 (http://creativecommons.org/licenses/by/4.0) and specified in legal code (http://creativecommons.org/licenses/by/4.0/legalcode).",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (https://creativecommons.org/licenses/by-sa/4.0/legalcode).",
     "keywords": [
       "Boundaries"
     ],
@@ -31,7 +57,7 @@
     ],
     "sci:doi": "10.7916/jqb0-8c67",
     "version": "2.0",
-    "ciesin:resource_type": "other",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Boundaries",
     "ciesin:tags": [
       "Boundaries"
@@ -274,5 +300,11 @@
       "ciesin:source_identifier": "/doi/10.7916/fznq-5h96/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    12.200875,
+    -13.455996,
+    31.277242,
+    5.392003
+  ]
 }

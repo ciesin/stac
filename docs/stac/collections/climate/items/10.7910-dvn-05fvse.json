@@ -7,10 +7,36 @@
   ],
   "id": "10.7910-dvn-05fvse",
   "collection": "climate",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "Global 0.25-Degree Future Drought Layers (1980-2100) Based on Downscaled CMIP6 Models and SSP-RCP Combinations, Version 1",
-    "description": "<b>The data for this project are stored on the <a href=\"https://nese.mghpcc.org/about-nese/\">Northeast Storage Exchange (NESE)</a></b>. Follow the instructions for large data download found on our website: <a href=\"https://github.com/IQSS/dataverse.harvard.edu/blob/master/doc/globus/download-quickstart.md\">Downloading data from NESE via Globus: Quick Start</a><br /><br /> Droughts are a natural phenomenon with significant impact on society and the environment. Their frequency and severity are projected to increase toward the end of the century, which makes urgent the analysis of future drought characteristics to inform stakeholders and to allow the investigation of their effects on different domains. In this study, we developed Future Global Drought Layers composed of SPI and SPEI indices for 23 GCMs of the NEX-GDDP-CMIP6 dataset, including historical (1980-2014) data and 4 future projections (2015-2100) under four climate scenarios: SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5. The drought indices were calculated for 3-, 6- and 12-month timescales. The data is gridded in a regular latitude-longitude format, with a spatial resolution of 0.25º (~25 km) and monthly time resolution.",
+    "description": "The data for this project are stored on the <a href=\"https://nese.mghpcc.org/about-nese/\">Northeast Storage Exchange (NESE)</a>. Follow the instructions for large data download found on our website: <a href=\"https://github.com/IQSS/dataverse.harvard.edu/blob/master/doc/globus/download-quickstart.md\">Downloading data from NESE via Globus: Quick Start</a><br /><br /> Droughts are a natural phenomenon with significant impact on society and the environment. Their frequency and severity are projected to increase toward the end of the century, which makes urgent the analysis of future drought characteristics to inform stakeholders and to allow the investigation of their effects on different domains. In this study, we developed Future Global Drought Layers composed of SPI and SPEI indices for 23 GCMs of the NEX-GDDP-CMIP6 dataset, including historical (1980-2014) data and 4 future projections (2015-2100) under four climate scenarios: SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5. The drought indices were calculated for 3-, 6- and 12-month timescales. The data is gridded in a regular latitude-longitude format, with a spatial resolution of 0.25º (~25 km) and monthly time resolution.",
     "license": "CC BY-SA 4.0",
     "keywords": [
       "Agricultural Sciences",
@@ -51,7 +77,11 @@
     "ciesin:metadata_sources": [
       "Harvard Dataverse"
     ],
-    "datetime": "2025-11-13T00:00:00Z"
+    "datetime": null,
+    "start_datetime": "1905-06-02T00:00:00Z",
+    "end_datetime": "1905-09-30T00:00:00Z",
+    "ciesin:temporal_start": "1905-06-02T00:00:00Z",
+    "ciesin:temporal_end": "1905-09-30T00:00:00Z"
   },
   "links": [
     {
@@ -400,5 +430,11 @@
       "ciesin:source_identifier": "13148262",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ]
 }

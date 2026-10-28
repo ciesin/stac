@@ -7,11 +7,37 @@
   ],
   "id": "10.7916-ss3g-n396",
   "collection": "boundaries",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.200875,
+          -13.455996
+        ],
+        [
+          31.277242,
+          -13.455996
+        ],
+        [
+          31.277242,
+          5.392003
+        ],
+        [
+          12.200875,
+          5.392003
+        ],
+        [
+          12.200875,
+          -13.455996
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "GRID3 COD - Health Areas v3.0",
     "description": "The GRID3 COD - Health Areas v3.0 dataset consists of health area boundaries with name, location, health zone, and other attributes for thirteen provinces in the Democratic Republic of the Congo (COD): Province group 1: Haut-Katanga, Kasaï, Kasaï-Oriental, Kinshasa, and Lomami Province group 2: Haut-Lomami and Tanganyika Province group 3: Ituri and Kwilu Province group 4: Maniema Province group 5: Kasaï-Central Province group 6: Tshopo and Mongala This operational dataset has not been fully validated by government officials or ministries. This data release supersedes the GRID3 COD - Health Areas v2.0 at https://doi.org/10.7916/2xbh-8346. The following changes were made: - Tshopo and Mongala Provinces have been added. Keywords: Health Areas",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (https://creativecommons.org/licenses/by-sa/4.0/legalcode).",
     "keywords": [
       "Boundaries"
     ],
@@ -32,7 +58,7 @@
     "sci:doi": "10.7916/ss3g-n396",
     "sci:citation": "Center for International Earth Science Information Network (CIESIN), Columbia University and Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo, 2024. GRID3 COD - Health Areas v3.0. New York: Geo-Referenced Infrastructure and Demographic Data for Development (GRID3). https://doi.org/10.7916/ss3g-n396. Accessed <DAY MONTH YEAR>.",
     "version": "3.0",
-    "ciesin:resource_type": "other",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Boundaries",
     "ciesin:tags": [
       "Boundaries"
@@ -317,5 +343,11 @@
       "ciesin:source_identifier": "/doi/10.7916/mk9w-et30/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    12.200875,
+    -13.455996,
+    31.277242,
+    5.392003
+  ]
 }

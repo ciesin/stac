@@ -7,11 +7,37 @@
   ],
   "id": "10.7916-sh27-rp38",
   "collection": "infrastructure",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.285411,
+          -13.2572
+        ],
+        [
+          31.266258,
+          -13.2572
+        ],
+        [
+          31.266258,
+          5.134033
+        ],
+        [
+          12.285411,
+          5.134033
+        ],
+        [
+          12.285411,
+          -13.2572
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "GRID3 COD - Health Facilities v7.0",
     "description": "The GRID3 COD - Health Facilities v7.0 dataset consists of health facility points with name, location, health zone, and health area, among other attributes, for twenty-two provinces in the Democratic Republic of the Congo (COD). Province group 1: Haut-Katanga, Kasaï, Kasaï-Oriental, Kinshasa, and Lomami Province group 2: Haut-Lomami and Tanganyika Province group 3: Ituri and Kwilu Province group 4: Maniema Province group 5: Kasaï-Central Province group 6: Tshopo and Mongala Province group 7: Sankuru Province group 8: Kongo-Central Province group 9: Lualaba, Mai-Ndombe, Sud-Ubangi, Tshuapa Province group 10: Equateur, Nord-Ubangi, Sud-Kivu This operational dataset has not been fully validated by government officials or ministries. This current version supersedes the GRID3 COD - Health Facilities v6.0 (https://doi.org/10.7916/jsq1-py89). The following changes were made: Added data for the provinces of Equateur, Nord-Ubangi, Sud-Kivu. Keywords: Health Facilities",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (https://creativecommons.org/licenses/by-sa/4.0/legalcode).",
     "keywords": [
       "Infrastructure"
     ],
@@ -32,7 +58,7 @@
     "sci:doi": "10.7916/sh27-rp38",
     "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University, Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo, and GRID3. 2025. GRID3 COD - Health Facilities v7.0. New York: GRID3. https://doi.org/10.7916/sh27-rp38 . Accessed <DAY MONTH YEAR>.",
     "version": "7.0",
-    "ciesin:resource_type": "other",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Infrastructure",
     "ciesin:tags": [
       "Infrastructure"
@@ -430,5 +456,11 @@
       "ciesin:source_identifier": "/doi/10.7916/ca62-y990/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    12.285411,
+    -13.2572,
+    31.266258,
+    5.134033
+  ]
 }

@@ -7,11 +7,37 @@
   ],
   "id": "10.7916-20k1-2a73",
   "collection": "settlements",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.218466,
+          -13.378057
+        ],
+        [
+          31.264838,
+          -13.378057
+        ],
+        [
+          31.264838,
+          5.143207
+        ],
+        [
+          12.218466,
+          5.143207
+        ],
+        [
+          12.218466,
+          -13.378057
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "GRID3 COD - Settlement Names v1.0",
     "description": "NOTE: This data release supersedes the following datasets: \"GRID3 DRC Settlements - Haut-Katanga, Kasaï, Kasaï-Oriental, Kinshasa, and Lomami Provinces, Version 01\" and \"GRID3 DRC Haut-Lomami and Tanganyika Settlements, Version 01\". The GRID3 COD - Settlement Names v1.0 dataset consists of settlement points with names and attributes in the following provinces of the Democratic Republic of the Congo (COD): Province group 1: Haut-Katanga, Kasaï, Kasaï-Oriental, Kinshasa, and Lomami Province group 2: Haut-Lomami and Tanganyika Province group 3: Ituri and Kwilu Province group 4: Maniema The GRID3 COD - Settlement Names v1.0 dataset is one of six datasets (Settlements, Health Facilities, Health Area Boundaries, Health Zone Boundaries, Schools and Religious Centers) included in this Version 1.0 release. This operational dataset has not been fully validated by government officials or ministries. The data are available for download in OGC Geopackage format. Funding for the development and dissemination of this dataset was provided by GRID3 Inc, the Bill & Melinda Gates Foundation, and Gavi, the Vaccine Alliance. Keywords: Settlements",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (http://creativecommons.org/licenses/by-sa/4.0/legalcode)",
     "keywords": [
       "Settlements"
     ],
@@ -32,7 +58,7 @@
     "sci:doi": "10.7916/20k1-2a73",
     "sci:citation": "Center for International Earth Science Information Network (CIESIN), Columbia University and Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo, 2024. GRID3 COD - Settlement Names v1.0 New York: GRID3. https://doi.org/10.7916/20k1-2a73. Accessed [DAY MONTH YEAR].",
     "version": "1.0",
-    "ciesin:resource_type": "other",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
     "ciesin:tags": [
       "Settlements"
@@ -261,5 +287,11 @@
       "ciesin:source_identifier": "/doi/10.7916/0ads-dz79/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    12.218466,
+    -13.378057,
+    31.264838,
+    5.143207
+  ]
 }

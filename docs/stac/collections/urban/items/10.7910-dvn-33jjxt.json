@@ -7,7 +7,33 @@
   ],
   "id": "10.7910-dvn-33jjxt",
   "collection": "urban",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -60.0
+        ],
+        [
+          180.0,
+          -60.0
+        ],
+        [
+          180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          85.0
+        ],
+        [
+          -180.0,
+          -60.0
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "EnvClim Grids: Global Urban Environmental Vulnerability and Climate Risk, 500m Resolution (circa 2020-2050)",
     "description": "EnvClim Grids is a global geospatial dataset characterizing current environmental vulnerability and future climate risk for urban populations, with a focus on lower- and middle-income countries (LMICs). The dataset covers 11,422 urban centers worldwide, as defined by the Global Human Settlement Urban Centres Database (GHS-UCDB 2024), including all cities with ≥50,000 residents. A novel socioeconomic vulnerability layer is included for cities in 91 LMICs, identifying neighborhood-scale “low SES” areas based on higher building density and lower road connectivity relative to similar-sized cities nationally. The dataset integrates 17 global public datasets into 7 indicators of current environmental vulnerability (unsafe air pollution, warm spells, extreme heat, water scarcity, hurricane-force winds, storm surge flooding, seasonal river/surface flooding) and 6 indicators of projected future climate risk (2050, SSP2-RCP4.5) (extreme heat, water scarcity, hurricane-force winds, storm surge flooding, seasonal river flooding, and landslide susceptibility). All indicators are harmonized to a ≈500×500 m grid for comparability across cities, enabling analysis of intersecting socioeconomic and environmental vulnerabilities at the sub-city level where data coverage allows. City-level and national summaries can be generated to support adaptation planning, risk prioritization, and investment targeting.",
@@ -56,7 +82,11 @@
     "ciesin:metadata_sources": [
       "Harvard Dataverse"
     ],
-    "datetime": "2026-08-15T00:00:00Z"
+    "datetime": null,
+    "start_datetime": "1905-07-12T00:00:00Z",
+    "end_datetime": "1905-08-11T00:00:00Z",
+    "ciesin:temporal_start": "1905-07-12T00:00:00Z",
+    "ciesin:temporal_end": "1905-08-11T00:00:00Z"
   },
   "links": [
     {
@@ -135,5 +165,11 @@
       "ciesin:source_identifier": "14144240",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    -180.0,
+    -60.0,
+    180.0,
+    85.0
+  ]
 }

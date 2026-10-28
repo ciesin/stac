@@ -7,7 +7,33 @@
   ],
   "id": "10.7916-4wqv-5t02",
   "collection": "settlements",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.202409,
+          -13.444257
+        ],
+        [
+          31.275922,
+          -13.444257
+        ],
+        [
+          31.275922,
+          5.250091
+        ],
+        [
+          12.202409,
+          5.250091
+        ],
+        [
+          12.202409,
+          -13.444257
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "GRID3 COD - Settlement Extents v3.0",
     "description": "The GRID3 COD - Settlement Extents v3.0 consists of a geographic representation of settlements in the Democratic Republic of the Congo, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Both layers include attributes as described in the codebooks. Data inputs and methodology to derive the 2 layers is described in this document. Keywords: settlement extents, settlement grid",
@@ -31,7 +57,7 @@
     ],
     "sci:doi": "10.7916/4wqv-5t02",
     "version": "3.0",
-    "ciesin:resource_type": "other",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
     "ciesin:tags": [
       "Settlements"
@@ -133,5 +159,11 @@
       "ciesin:source_identifier": "/doi/10.7916/xftc-p260/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    12.202409,
+    -13.444257,
+    31.275922,
+    5.250091
+  ]
 }

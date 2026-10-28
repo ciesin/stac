@@ -6,11 +6,37 @@
   ],
   "id": "10.7916-d8-n4yb-5a62",
   "collection": "settlements",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.699074,
+          -17.13009
+        ],
+        [
+          35.919259,
+          -17.13009
+        ],
+        [
+          35.919259,
+          -9.369076
+        ],
+        [
+          32.699074,
+          -9.369076
+        ],
+        [
+          32.699074,
+          -17.13009
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "GRID3 Malawi Settlement Extents Version 01, Alpha",
     "description": "NOTE: This version of the Malawi settlement extents has been superseded by \"GRID3 Malawi Settlement Extents, Version 01.01\", now available here: https://doi.org/10.7916/d8-0dn2-bz10 The database constitutes a comprehensive set of settlement polygons nationwide. It is in geodatabase format and consists of three feature classes for built up areas (BUA), small settlement areas (SSA), and hamlets (hamlets). This work has been undertaken as part of the Geo-referenced Infrastructure and Demographic Data for Development (GRID3) initiative in Malawi. GRID3 works with countries to generate, validate and use geospatial data on population, settlements, infrastructure, and subnational boundaries. For more information, see https://grid3.org/ Keywords: built up areas, BUA, small settlement areas, SSA, hamlets, settlement aggregation, settlement extent, CIESIN, GRID3, Novel-T",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (http://creativecommons.org/licenses/by-sa/4.0/legalcode)",
     "keywords": [
       "Settlements"
     ],
@@ -23,7 +49,8 @@
       }
     ],
     "sci:doi": "10.7916/d8-n4yb-5a62",
-    "ciesin:resource_type": "other",
+    "version": "1, Alpha",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
     "ciesin:tags": [
       "Settlements"
@@ -83,5 +110,11 @@
       "ciesin:source_identifier": "10.7916/d8-n4yb-5a62",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
     }
-  }
+  },
+  "bbox": [
+    32.699074,
+    -17.13009,
+    35.919259,
+    -9.369076
+  ]
 }

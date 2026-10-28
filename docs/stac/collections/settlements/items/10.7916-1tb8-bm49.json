@@ -7,11 +7,37 @@
   ],
   "id": "10.7916-1tb8-bm49",
   "collection": "settlements",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.682413,
+          4.274909
+        ],
+        [
+          14.675921,
+          4.274909
+        ],
+        [
+          14.675921,
+          13.885089
+        ],
+        [
+          2.682413,
+          13.885089
+        ],
+        [
+          2.682413,
+          4.274909
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "GRID3 Nigeria Settlement Extents, Version 01.02",
     "description": "Settlement extents are polygons representing areas where there is likely a human settlement based on the presence of buildings detected in satellite imagery. Settlement extents are not meant to represent the boundaries of an administrative unit or locality. A single settlement extent may be made up of multiple localities, especially in urban areas. Each settlement extent has an associated population estimate. Provided is information on the common operational boundary that the extent fully resides within along with their associated place codes (PCodes). The data are in geodatabase format and consist of a single-feature class. This data product contains all information contained in the previous “GRID3 Nigeria Settlement Extents, Version 01.01” product, with updates. Updates in this version include: The addition of the WorldPop GRID3 Gridded Population Estimates for Age and Sex. This work has been undertaken as part of the Geo-Referenced Infrastructure and Demographic Data for Development (GRID3) programme. The programme is funded by the Bill & Melinda Gates Foundation and the United Kingdom's Foreign, Commonwealth & Development Office. It is implemented by the Flowminder Foundation, WorldPop at the University of Southampton, the United Nations Population Fund, and the Center for International Earth Science Information Network (CIESIN) at Columbia University. Keywords: Settlements, Hamlets, Built-up Areas (BUA), Small Settlement Areas (SSA)",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (http://creativecommons.org/licenses/by-sa/4.0/legalcode)",
     "keywords": [
       "Settlements"
     ],
@@ -31,7 +57,8 @@
     ],
     "sci:doi": "10.7916/1tb8-bm49",
     "sci:citation": "Center for International Earth Science Information Network (CIESIN), Columbia University and Novel-T. 2022. GRID3 Nigeria Settlement Extents, Version 01.02. Palisades, NY: Geo-Referenced Infrastructure and Demographic Data for Development (GRID3). https://doi.org/10.7916/1tb8-bm49. Accessed DAY MONTH YEAR.",
-    "ciesin:resource_type": "other",
+    "version": "1.02",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
     "ciesin:tags": [
       "Settlements"
@@ -120,5 +147,11 @@
       "ciesin:source_identifier": "/doi/10.7916/fdxg-cq35/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    2.682413,
+    4.274909,
+    14.675921,
+    13.885089
+  ]
 }

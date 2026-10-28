@@ -36,14 +36,14 @@
   "properties": {
     "title": "Global Annual Average PM2.5 Grids from MODIS and MISR Aerosol Optical Depth (AOD)",
     "description": "The Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD) with GWR, 1998-2016 consist of annual concentrations (micrograms per cubic meter) of ground-level fine particulate matter (PM2.5), with dust and sea-salt removed. This data set combines AOD retrievals from multiple satellite instruments including the NASA Moderate Resolution Imaging Spectroradiometer (MODIS), Multi-angle Imaging SpectroRadiometer (MISR), and the Sea-Viewing Wide Field-of-View Sensor (SeaWiFS). The GEOS-Chem chemical transport model is used to relate this total column measure of aerosol to near-surface PM2.5 concentration. Geographically Weighted Regression (GWR) is used with global ground-based measurements to predict and adjust for the residual PM2.5 bias per grid cell in the initial satellite-derived values. These estimates are primarily intended to aid in large-scale studies. Gridded data sets at 0.01 degrees are provided to allow users to agglomerate data as best meets their particular needs. Data sets are gridded at the finest resolution of the information sources that were incorporated, but do not fully resolve PM2.5 gradients at the gridded resolution due to influence by information sources at coarser resolutions. The data are distributed as GeoTIFF files and are in WGS 84 projection.",
-    "license": "other",
+    "license": "This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided.",
     "keywords": [
-      "EARTH SCIENCE",
-      "ATMOSPHERE",
-      "AEROSOLS",
-      "PARTICULATE MATTER",
-      "AIR QUALITY",
-      "PARTICULATES"
+      "Earth Science",
+      "Atmosphere",
+      "Aerosols",
+      "Particulate Matter",
+      "Air Quality",
+      "Particulates"
     ],
     "providers": [
       {
@@ -64,12 +64,12 @@
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Health",
     "ciesin:tags": [
-      "EARTH SCIENCE",
-      "ATMOSPHERE",
-      "AEROSOLS",
-      "PARTICULATE MATTER",
-      "AIR QUALITY",
-      "PARTICULATES"
+      "Earth Science",
+      "Atmosphere",
+      "Aerosols",
+      "Particulate Matter",
+      "Air Quality",
+      "Particulates"
     ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "not_current",
@@ -80,10 +80,13 @@
       "van Donkelaar, A., R. V. Martin, M. Brauer, N. C. Hsu, R. A. Kahn, R. C. Levy, A. Lyapustin, A. M. Sayer, and D. M. Winker"
     ],
     "ciesin:publishers": [
-      "ESDIS"
+      "NASA Socioeconomic Data and Applications Center (SEDAC)"
+    ],
+    "ciesin:place": [
+      "Palisades, NY"
     ],
     "ciesin:purpose": "To provide an annual global surface of concentrations (micrograms per cubic meter) of mineral dust and sea-salt filtered fine particulate matter of 2.5 micrometers or smaller (PM2.5) for large-scale health and environmental research.",
-    "ciesin:publication_date": null,
+    "ciesin:publication_date": "2015-02-01T00:00:00Z",
     "ciesin:additional_resources": [
       "https://cmr.earthdata.nasa.gov/search/concepts/C3550191751-ESDIS",
       "http://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod/docs",

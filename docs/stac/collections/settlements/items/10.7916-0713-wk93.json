@@ -7,11 +7,37 @@
   ],
   "id": "10.7916-0713-wk93",
   "collection": "settlements",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.699074,
+          -17.13009
+        ],
+        [
+          35.919259,
+          -17.13009
+        ],
+        [
+          35.919259,
+          -9.369076
+        ],
+        [
+          32.699074,
+          -9.369076
+        ],
+        [
+          32.699074,
+          -17.13009
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "GRID3 Malawi Settlement Extents, Version 02",
     "description": "The dataset consists of settlement extents across Malawi, as well as accompanying settlement type based on the degrees of urbanization, place codes, and confidence level for each settlement extent. Updates in this version include: (1) The degree of urbanisation has replaced the previous classifications of built-up areas, small settlement areas, and hamlets (2) Boundary names have been removed, since the OCHA dataset is not an official set of boundaries and may not be accurate (3) Building count ranges have been included (4) Predicted false positives have been included (5) Population data have been removed until new constrained population numbers are available (6) Settlement status has been included, as it pertains to Version 01 of the settlement extents This work has been undertaken as part of the Geo-Referenced Infrastructure and Demographic Data for Development (GRID3) programme. The programme is funded by the Bill & Melinda Gates Foundation and the United Kingdom's Foreign, Commonwealth & Development Office. It is implemented by the Flowminder Foundation, WorldPop at the University of Southampton, the United Nations Population Fund, and the Center for International Earth Science Information Network (CIESIN) at Columbia University. Keywords: Settlements, Hamlets, Built-up Areas (BUA), Small Settlement Areas (SSA), Settlement Extents",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (http://creativecommons.org/licenses/by-sa/4.0/legalcode)",
     "keywords": [
       "Settlements"
     ],
@@ -25,7 +51,8 @@
     ],
     "sci:doi": "10.7916/0713-wk93",
     "sci:citation": "Center for International Earth Science Information Network (CIESIN), Columbia University and Novel-T. 2023. GRID3 Malawi Settlement Extents, V02. Palisades, NY: Geo-Referenced Infrastructure and Demographic Data for Development (GRID3). https://doi.org/10.7916/0713-wk93. Accessed DAY MONTH YEAR.",
-    "ciesin:resource_type": "other",
+    "version": "2",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
     "ciesin:tags": [
       "Settlements"
@@ -111,5 +138,11 @@
       "ciesin:source_identifier": "/doi/10.7916/wc13-1n41/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    32.699074,
+    -17.13009,
+    35.919259,
+    -9.369076
+  ]
 }

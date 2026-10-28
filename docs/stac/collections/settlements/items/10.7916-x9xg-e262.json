@@ -7,11 +7,37 @@
   ],
   "id": "10.7916-x9xg-e262",
   "collection": "settlements",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.682409,
+          4.27491
+        ],
+        [
+          14.675924,
+          4.27491
+        ],
+        [
+          14.675924,
+          13.885091
+        ],
+        [
+          2.682409,
+          13.885091
+        ],
+        [
+          2.682409,
+          4.27491
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "GRID3 NGA - Settlement Extents v3.1",
     "description": "The GRID3 NGA - Settlement Extents v3.1 consists of a geographic representation of settlements in Nigeria, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Both layers include attributes as described in the codebooks. Data inputs and methodology are described in the data release notes. The current version supersedes GRID3 NGA - Settlement Extents v3.0 (https://doi.org/10.7916/tbgr-4j86); the following changes were made: -Corrections on imputed values for building count and building areas. -Edits to the data release notes Keywords: settlement extents, settlement grid",
-    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (https://creativecommons.org/licenses/by-sa/4.0/legalcode)",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (http://creativecommons.org/licenses/by-sa/4.0/legalcode)",
     "keywords": [
       "Settlements"
     ],
@@ -25,7 +51,7 @@
     ],
     "sci:doi": "10.7916/x9xg-e262",
     "version": "3.1",
-    "ciesin:resource_type": "other",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
     "ciesin:tags": [
       "Settlements"
@@ -123,5 +149,11 @@
       "ciesin:source_identifier": "/doi/10.7916/g4sb-pm40/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    2.682409,
+    4.27491,
+    14.675924,
+    13.885091
+  ]
 }

@@ -7,11 +7,37 @@
   ],
   "id": "10.7916-2pfj-hq78",
   "collection": "boundaries",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.664273,
+          4.270098
+        ],
+        [
+          14.677968,
+          4.270098
+        ],
+        [
+          14.677968,
+          13.721438
+        ],
+        [
+          2.664273,
+          13.721438
+        ],
+        [
+          2.664273,
+          4.270098
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "GRID3 NGA - Operational Wards v3.0",
     "description": "The GRID3 NGA - Operational Wards v3.0 dataset provides operational ward boundary polygons for 24 states in Nigeria: Abia, Adamawa, Bauchi, Bayelsa, Borno, Delta, Enugu, FCT Abuja, Gombe, Jigawa, Kaduna, Kano, Katsina, Kebbi, Kogi, Kwara, Nasarawa, Niger, Ogun, Osun, Oyo, Sokoto, Yobe, and Zamfara. These boundaries are intended for operational use and have not yet undergone full validation by relevant government authorities. This release includes both newly added states and revisions to states previously published in GRID3 NGA - Operational Wards v2.0. Version 3.0 supersedes v2.0 for Adamawa, Bauchi, Bayelsa, Borno, Delta, Gombe, Jigawa, Kano, Katsina, Kwara, Niger, Ogun, Osun, Oyo, and Yobe. For all 24 states included in Version 3.0, ward geometries were updated and ward names were harmonized to support improved spatial consistency and standardized attribution. Newly included states in this release are Abia, Enugu, FCT Abuja, Kaduna, Kebbi, Kogi, Nasarawa, Sokoto, and Zamfara. Keywords: Boundary, Wards",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (http://creativecommons.org/licenses/by-sa/4.0/legalcode)",
     "keywords": [
       "Boundaries",
       "Latest"
@@ -27,7 +53,7 @@
     "sci:doi": "10.7916/2pfj-hq78",
     "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University. 2026. GRID3 NGA - Operational Wards v3.0. New York: Columbia University . https://doi.org/10.7916/2pfj-hq78. Accessed <DAY MONTH YEAR>.",
     "version": "3.0",
-    "ciesin:resource_type": "other",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Boundaries",
     "ciesin:tags": [
       "Boundaries",
@@ -126,5 +152,11 @@
       "ciesin:source_identifier": "/doi/10.7916/fe71-ep03/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    2.664273,
+    4.270098,
+    14.677968,
+    13.721438
+  ]
 }

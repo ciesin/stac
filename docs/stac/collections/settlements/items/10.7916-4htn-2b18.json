@@ -7,11 +7,37 @@
   ],
   "id": "10.7916-4htn-2b18",
   "collection": "settlements",
-  "geometry": null,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.218466,
+          -13.378057
+        ],
+        [
+          31.264838,
+          -13.378057
+        ],
+        [
+          31.264838,
+          5.143207
+        ],
+        [
+          12.218466,
+          5.143207
+        ],
+        [
+          12.218466,
+          -13.378057
+        ]
+      ]
+    ]
+  },
   "properties": {
     "title": "GRID3 COD - Settlement Names v6.0",
     "description": "The GRID3 COD - Settlement Names v6.0 dataset consists of settlement points with name and attributes for fifteen provinces in the Democratic Republic of the Congo (COD). Province group 1: Haut-Katanga, Kasaï, Kasaï-Oriental, Kinshasa, and Lomami Province group 2: Haut-Lomami and Tanganyika Province group 3: Ituri and Kwilu Province group 4: Maniema Province group 5: Kasaï-Central Province group 6: Tshopo and Mongala Province group 7: Sankuru Province group 8: Kongo-Central Province group 9: Lualaba, Mai-Ndombe, Sud-Ubangi, Tshuapa This operational dataset has not been fully validated by government officials or ministries. This current version supersedes the GRID3 COD - Settlement Names v5.0 (https://doi.org/10.7916/4j72-7t72). The following changes were made: Added data for the provinces of Lualaba, Mai-Ndombe, Sud-Ubangi and Tshuapa. Keywords: Settlements",
-    "license": "other",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (http://creativecommons.org/licenses/by-sa/4.0/legalcode)",
     "keywords": [
       "Settlements"
     ],
@@ -32,7 +58,7 @@
     "sci:doi": "10.7916/4htn-2b18",
     "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University, Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo, and GRID3. 2025. GRID3 COD - Settlement Names v6.0. New York: Columbia University. https://doi.org/10.7916/4htn-2b18. Accessed <DAY MONTH YEAR>.",
     "version": "6.0",
-    "ciesin:resource_type": "other",
+    "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
     "ciesin:tags": [
       "Settlements"
@@ -388,5 +414,11 @@
       "ciesin:source_identifier": "/doi/10.7916/ytez-wv50/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
-  }
+  },
+  "bbox": [
+    12.218466,
+    -13.378057,
+    31.264838,
+    5.143207
+  ]
 }
