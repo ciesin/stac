@@ -74,17 +74,18 @@
 
               <div class="category-card-stats">
                 <div>
-                  <strong>{{ row.count.toLocaleString() }}</strong>
-                  <span>Datasets</span>
+                  <strong>{{ row.current.toLocaleString() }}</strong>
+                  <span>Active Datasets</span>
+                </div>
+                <div>
+                  {{ row.count.toLocaleString() }}
+                  <span>Total Datasets</span>
                 </div>
                 <div>
                   <strong>{{ row.assets.toLocaleString() }}</strong>
                   <span>Assets</span>
                 </div>
-                <div>
-                  <strong>{{ row.current.toLocaleString() }}</strong>
-                  <span>Active</span>
-                </div>
+                
               </div>
 
               
@@ -254,8 +255,33 @@
           </div>
           
           <p class="description">{{ selectedProps.description || 'No description is available in the workbook or linked source metadata.' }}</p>
-          <div class="doi-links"><a v-for="doi in selectedIndex?.dois || []" :key="doi" :href="doiHref(doi)" target="_blank" rel="noopener">{{ doi }}</a><a :href="selectedIndex?.item_href" target="_blank" rel="noopener">STAC item JSON ↗</a></div>
+          <div class="doi-links">
+              <a
+                v-for="doi in selectedIndex?.dois || []"
+                :key="doi"
+                :href="doiHref(doi)"
+                target="_blank"
+                rel="noopener"
+              >
+                {{ doi }}
+              </a>
 
+              <a
+                :href="selectedIndex?.item_href"
+                target="_blank"
+                rel="noopener"
+              >
+                STAC item JSON ↗
+              </a>
+
+              <a
+                href="#"
+                @click.prevent="copyItemLink"
+                class="copy-link"
+              >
+                Copy STAC Browser link
+              </a>
+            </div>
           <div class="detail-layout">
             <section class="metadata-card"><div class="card-heading"><p class="eyebrow">Dataset record</p><h3>Metadata</h3></div>
               <dl class="metadata-list"><template v-for="field in metadataRows" :key="field.label"><dt>{{ field.label }}</dt><dd>{{ field.value }}</dd></template></dl>

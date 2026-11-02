@@ -155,15 +155,49 @@ createApp({
       },
   },
   async mounted() {
+    window.addEventListener("popstate", this.handleLocationChange);
+
     try {
       const response = await fetch("./stac/items-index.json");
-      if (!response.ok) throw new Error(`Could not read catalog index (HTTP ${response.status}).`);
+      if (!response.ok) {
+        throw new Error(`Could not read catalog index (HTTP ${response.status}).`);
+      }
+
       this.items = await response.json();
+
       const summaryResponse = await fetch("./stac/summary.json");
-      if (summaryResponse.ok) this.summary = await summaryResponse.json();
+      if (summaryResponse.ok) {
+        this.summary = await summaryResponse.json();
+      }
+
+      // Open a dataset directly when its ID is in the URL.
+      const params = new URLSearchParams(window.location.search);
+      const itemId = params.get("item");
+
+      if (itemId) {
+        const match = this.items.find(
+          (item) => String(item.id) === itemId
+        );
+
+        if (match) {
+          await this.openItem(match, { updateUrl: false });
+        } else {
+          this.loadError = `Dataset "${itemId}" was not found in the catalog.`;
+        }
+      }
     } catch (error) {
       this.loadError = `${error.message} Build the STAC data first, then serve this docs folder over HTTP.`;
-    } finally { this.loading = false; }
+    } finally {
+      this.loading = false;
+    }
+  },
+  beforeUnmount() {
+    window.removeEventListener("popstate", this.handleLocationChange);
+
+    if (this.mapInstance) {
+      this.mapInstance.remove();
+      this.mapInstance = null;
+    }
   },
   methods: {
     valueText(value) {
@@ -186,12 +220,27 @@ createApp({
     },
     openCategory(category) { this.categoryFilter = category; this.page = "home"; this.resultPage = 1; window.scrollTo({ top: 0, behavior: "smooth" }); },
     clearFilters() { this.query = ""; this.searchField = "all"; this.categoryFilter = ""; this.versionFilter = ""; this.resourceTypeFilter = ""; this.sortBy = "title"; this.resultPage = 1; },
-    goHome() { this.page = "home"; this.selectedItem = null; this.selectedIndex = null; this.categoryFilter = ""; this.mapReady = false; window.scrollTo({ top: 0, behavior: "smooth" }); },
-    goBack() { this.page = "home"; this.selectedItem = null; this.mapReady = false; window.scrollTo({ top: 0, behavior: "smooth" }); },
-    async openItem(index) {
-      this.selectedIndex = index; 
-      this.selectedItem = null; 
-      this.page = "item";   
+    goHome() {
+      const url = new URL(window.location.href);
+      url.searchParams.delete("item");
+      window.history.replaceState({}, "", url);
+
+      this.page = "home";
+      this.selectedItem = null;
+      this.selectedIndex = null;
+      this.categoryFilter = "";
+      this.mapReady = false;
+
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    },
+
+    goBack() {
+      this.goHome();
+    },
+    async openItem(index, { updateUrl = true } = {}) {
+      this.selectedIndex = index;
+      this.selectedItem = null;
+      this.page = "item";
       this.assetPage = 1;
 
       this.assetQuery = "";
@@ -202,12 +251,22 @@ createApp({
 
       try {
         const response = await fetch(`./${index.item_href}`);
+
         if (!response.ok) {
           throw new Error(`Could not read item record (HTTP ${response.status}).`);
         }
 
         this.selectedItem = await response.json();
- 
+
+        // Add the dataset ID to the URL without reloading the page.
+        if (updateUrl && index.id) {
+          const url = new URL(window.location.href);
+          url.searchParams.set("item", index.id);
+
+          if (url.href !== window.location.href) {
+            window.history.pushState({}, "", url);
+          }
+        }
 
         window.scrollTo({ top: 0, behavior: "smooth" });
       } catch (error) {
@@ -392,6 +451,49 @@ createApp({
       );
 
       map.resize();
+    },
+
+    handleLocationChange() {
+      const params = new URLSearchParams(window.location.search);
+      const itemId = params.get("item");
+
+      if (itemId) {
+        const match = this.items.find(
+          (item) => String(item.id) === itemId
+        );
+
+        if (match) {
+          this.openItem(match, { updateUrl: false });
+        }
+      } else {
+        // URL no longer identifies an item: return to the catalog.
+        this.page = "home";
+        this.selectedItem = null;
+        this.selectedIndex = null;
+        this.mapReady = false;
+      }
+    },
+
+    itemShareUrl() {
+      if (!this.selectedIndex?.id) return "";
+
+      const url = new URL(window.location.href);
+      url.searchParams.set("item", this.selectedIndex.id);
+
+      return url.href;
+    },
+
+    async copyItemLink() {
+      const url = this.itemShareUrl();
+
+      if (!url) return;
+
+      try {
+        await navigator.clipboard.writeText(url);
+        alert("Dataset link copied to clipboard.");
+      } catch (error) {
+        console.error("Could not copy dataset link:", error);
+      }
     },
   },
 }).mount("#app");
