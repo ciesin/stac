@@ -9,7 +9,7 @@ createApp({
       query: "", searchField: "all", categoryFilters: [], versionFilters: [],
       resourceTypeFilters: [], sortBy: "title", resultPage: 1, resultPageSize: 20,
       assetQuery: "", assetSubtype: "", assetSource: "", assetRole: "", assetPage: 1, assetPageSize: 10,
-      loading: true, loadError: "", mapInstance: null, mapReady: false, mapLoadPromise: null,
+      loading: true, loadError: "", mapInstance: null, mapReady: false, mapLoadPromise: null, toastMessage: "", toastTimeout: null
     };
   },
   computed: {
@@ -522,10 +522,20 @@ createApp({
 
       try {
         await navigator.clipboard.writeText(url);
-        alert("Dataset link copied to clipboard.");
+        this.showToast("Dataset link copied to clipboard.");
       } catch (error) {
         console.error("Could not copy dataset link:", error);
       }
+    },
+
+    showToast(message) {
+      this.toastMessage = message;
+
+      clearTimeout(this.toastTimeout);
+
+      this.toastTimeout = setTimeout(() => {
+        this.toastMessage = "";
+      }, 2000);
     },
   },
 }).mount("#app");

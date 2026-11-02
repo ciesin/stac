@@ -221,119 +221,83 @@
           <div class="filters">
 
             <!-- Categories -->
-            <div class="filter-group">
-              <div class="filter-group-heading">
-                <span>Categories</span>
-                <button
-                  v-if="categoryFilters.length"
-                  class="text-button"
-                  type="button"
-                  @click="categoryFilters = []"
-                >
-                  Clear
-                </button>
-              </div>
+            <details class="filter-dropdown" name="dataset-filters">
+              <summary>
+                Categories
+                <span v-if="categoryFilters.length" class="filter-count">
+                  {{ categoryFilters.length }} selected
+                </span>
+              </summary>
 
-              <div class="filter-options">
-                <label
-                  v-for="category in categories"
-                  :key="category"
-                  class="filter-option"
-                >
-                  <input
-                    type="checkbox"
-                    :value="category"
-                    v-model="categoryFilters"
-                  >
+              <div class="filter-dropdown-content">
+                <label v-for="category in categories"
+                      :key="category"
+                      class="filter-option">
+                  <input type="checkbox" :value="category" v-model="categoryFilters">
                   <span>{{ category }}</span>
                 </label>
               </div>
-            </div>
+            </details>
 
             <!-- Version status -->
-            <div class="filter-group">
-              <div class="filter-group-heading">
-                <span>Version status</span>
-                <button
-                  v-if="versionFilters.length"
-                  class="text-button"
-                  type="button"
-                  @click="versionFilters = []"
-                >
-                  Clear
-                </button>
-              </div>
+            <details class="filter-dropdown" name="dataset-filters">
+              <summary>
+                Version status
+                <span v-if="versionFilters.length" class="filter-count">
+                  {{ versionFilters.length }} selected
+                </span>
+              </summary>
 
-              <div class="filter-options">
+              <div class="filter-dropdown-content">
                 <label class="filter-option">
-                  <input
-                    type="checkbox"
-                    value="current"
-                    v-model="versionFilters"
-                  >
+                  <input type="checkbox" value="current" v-model="versionFilters">
                   <span>Active</span>
                 </label>
 
                 <label class="filter-option">
-                  <input
-                    type="checkbox"
-                    value="not_current"
-                    v-model="versionFilters"
-                  >
+                  <input type="checkbox" value="not_current" v-model="versionFilters">
                   <span>Inactive</span>
                 </label>
 
                 <label class="filter-option">
-                  <input
-                    type="checkbox"
-                    value="not specified"
-                    v-model="versionFilters"
-                  >
+                  <input type="checkbox" value="not specified" v-model="versionFilters">
                   <span>Not specified</span>
                 </label>
               </div>
-            </div>
+            </details>
 
             <!-- Resource type -->
-            <div class="filter-group">
-              <div class="filter-group-heading">
-                <span>Resource type</span>
-                <button
-                  v-if="resourceTypeFilters.length"
-                  class="text-button"
-                  type="button"
-                  @click="resourceTypeFilters = []"
-                >
-                  Clear
-                </button>
-              </div>
+            <details class="filter-dropdown" name="dataset-filters">
+              <summary>
+                Resource type
+                <span v-if="resourceTypeFilters.length" class="filter-count">
+                  {{ resourceTypeFilters.length }} selected
+                </span>
+              </summary>
 
-              <div class="filter-options">
-                <label
-                  v-for="type in resourceTypes"
-                  :key="type"
-                  class="filter-option"
-                >
-                  <input
-                    type="checkbox"
-                    :value="type"
-                    v-model="resourceTypeFilters"
-                  >
+              <div class="filter-dropdown-content">
+                <label v-for="type in resourceTypes"
+                      :key="type"
+                      class="filter-option">
+                  <input type="checkbox" :value="type" v-model="resourceTypeFilters">
                   <span>{{ type }}</span>
                 </label>
               </div>
-            </div>
+            </details>
 
-            <!-- Sorting remains single-select -->
-            <label class="sort-filter">
-              Sort by
-              <select v-model="sortBy">
-                <option value="title">Title</option>
-                <option value="category">Category</option>
-                <option value="assets">Asset count</option>
-                <option value="date">Publication date</option>
-              </select>
-            </label>
+            <!-- Sort -->
+            <details class="filter-dropdown" name="dataset-filters">
+              <summary>Sort by</summary>
+
+              <div class="filter-dropdown-content">
+                <select v-model="sortBy">
+                  <option value="title">Title</option>
+                  <option value="category">Category</option>
+                  <option value="assets">Asset count</option>
+                  <option value="date">Publication date</option>
+                </select>
+              </div>
+            </details>
 
           </div>
         </section> 
@@ -456,6 +420,9 @@
       </main>
       <div v-if="loading" class="loading-screen">Loading catalog records…</div>
       <div v-if="loadError" class="error-banner">{{ loadError }}</div>
+      <div v-if="toastMessage" class="toast-notification">
+        {{ toastMessage }}
+      </div>
     </div>
     <script type="module" src="./app.js"></script>
   </body>
