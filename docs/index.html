@@ -28,7 +28,7 @@
         <section v-if="page !== 'item'" class="intro" id="about">
           <div class="intro-copy">
             <!-- <p class="eyebrow">Center for Integrated Earth System Information</p> -->
-            <!-- <h1>Explore data about people and our changing planet.</h1> -->
+            <!-- <h1>Explore data about people and our hcanging planet.</h1> -->
             <p class="intro-lede">Find CIESIN datasets by category, topic, place, date, or source. Open a dataset to inspect its metadata, geographic coverage, version status, and associated assets.</p>
           </div>
           <div class="intro-mark" aria-hidden="true"><span>DATA</span><span>PEOPLE</span><span>PLACE</span></div>
@@ -55,7 +55,7 @@
           </div>
         </section>
 
-        <section v-if="page === 'home' && !categoryFilter" class="category-section">
+        <!-- <section v-if="page === 'home' && !categoryFilter" class="category-section">
           <div class="section-heading"><div><p class="eyebrow">Browse by subject</p><h2>Dataset categories</h2></div><span>Choose a category to see its collection overview.</span></div>
           <div class="category-grid">
             <button v-for="row in categoryCards" :key="row.name"  class="category-card"  type="button"  @click="openCategory(row.name)">
@@ -78,7 +78,7 @@
                   <span>Active Datasets</span>
                 </div>
                 <div>
-                  {{ row.count.toLocaleString() }}
+                  <strong>{{ row.count.toLocaleString() }}</strong>
                   <span>Total Datasets</span>
                 </div>
                 <div>
@@ -92,7 +92,7 @@
             </button>
 
           </div>
-        </section>
+        </section> -->
 
         <section
           v-if="page === 'home' && categoryFilter"
@@ -106,18 +106,48 @@
             ← All categories
           </button>
 
-          <div class="category-overview-header">
-            <div>
-              <p class="eyebrow">Category collection</p>
-              <h2>{{ categoryFilter }}</h2>
+          <section
+            v-if="page === 'home' && categoryFilters.length"
+            class="category-overview"
+          >
+            <button
+              class="back-link"
+              type="button"
+              @click="categoryFilters = []"
+            >
+              ← Clear category selection
+            </button>
+
+            <div class="category-overview-header">
+              <div>
+                <p class="eyebrow">Selected categories</p>
+                <h2>{{ selectedCategoryLabel }}</h2>
+              </div>
+
+              <div class="category-metrics">
+                <span>
+                  <b>{{ categoryItems.length.toLocaleString() }}</b>
+                  Datasets
+                </span>
+                <span>
+                  <b>{{ categoryAssets.toLocaleString() }}</b>
+                  Assets
+                </span>
+                <span>
+                  <b>{{ categoryCurrent.toLocaleString() }}</b>
+                  Active or not specified
+                </span>
+              </div>
             </div>
 
-            <div class="category-metrics">
-              <span><b>{{ categoryItems.length.toLocaleString() }}</b> Datasets</span>
-              <span><b>{{ categoryAssets.toLocaleString() }}</b> Assets</span>
-              <span><b>{{ categoryCurrent.toLocaleString() }}</b> Active</span>
-            </div>
-          </div>
+            <p class="category-overview-description">
+              Showing datasets assigned to the selected categories.
+            </p>
+
+            <p class="topic-line" v-if="categoryTopics.length">
+              <b>Common tags:</b> {{ categoryTopics.join(' · ') }}
+            </p>
+          </section>
 
           <p class="category-overview-description">
             {{ categoryDescription(categoryFilter) }}
@@ -189,45 +219,113 @@
           </div>
 
           <div class="filters">
-            <label>
-              Category
-              <select v-model="categoryFilter">
-                <option value="">All categories</option>
-                <option
+
+            <!-- Categories -->
+            <div class="filter-group">
+              <div class="filter-group-heading">
+                <span>Categories</span>
+                <button
+                  v-if="categoryFilters.length"
+                  class="text-button"
+                  type="button"
+                  @click="categoryFilters = []"
+                >
+                  Clear
+                </button>
+              </div>
+
+              <div class="filter-options">
+                <label
                   v-for="category in categories"
                   :key="category"
-                  :value="category"
+                  class="filter-option"
                 >
-                  {{ category }}
-                </option>
-              </select>
-            </label>
+                  <input
+                    type="checkbox"
+                    :value="category"
+                    v-model="categoryFilters"
+                  >
+                  <span>{{ category }}</span>
+                </label>
+              </div>
+            </div>
 
-            <label>
-              Version status
-              <select v-model="versionFilter">
-                <option value="">Any status</option>
-                <option value="current">Active</option>
-                <option value="not_current">Inactive</option>
-                <option value="unknown">Not specified</option>
-              </select>
-            </label>
+            <!-- Version status -->
+            <div class="filter-group">
+              <div class="filter-group-heading">
+                <span>Version status</span>
+                <button
+                  v-if="versionFilters.length"
+                  class="text-button"
+                  type="button"
+                  @click="versionFilters = []"
+                >
+                  Clear
+                </button>
+              </div>
 
-            <label>
-              Resource type
-              <select v-model="resourceTypeFilter">
-                <option value="">All types</option>
-                <option
+              <div class="filter-options">
+                <label class="filter-option">
+                  <input
+                    type="checkbox"
+                    value="current"
+                    v-model="versionFilters"
+                  >
+                  <span>Active</span>
+                </label>
+
+                <label class="filter-option">
+                  <input
+                    type="checkbox"
+                    value="not_current"
+                    v-model="versionFilters"
+                  >
+                  <span>Inactive</span>
+                </label>
+
+                <label class="filter-option">
+                  <input
+                    type="checkbox"
+                    value="not specified"
+                    v-model="versionFilters"
+                  >
+                  <span>Not specified</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Resource type -->
+            <div class="filter-group">
+              <div class="filter-group-heading">
+                <span>Resource type</span>
+                <button
+                  v-if="resourceTypeFilters.length"
+                  class="text-button"
+                  type="button"
+                  @click="resourceTypeFilters = []"
+                >
+                  Clear
+                </button>
+              </div>
+
+              <div class="filter-options">
+                <label
                   v-for="type in resourceTypes"
                   :key="type"
-                  :value="type"
+                  class="filter-option"
                 >
-                  {{ type }}
-                </option>
-              </select>
-            </label>
+                  <input
+                    type="checkbox"
+                    :value="type"
+                    v-model="resourceTypeFilters"
+                  >
+                  <span>{{ type }}</span>
+                </label>
+              </div>
+            </div>
 
-            <label>
+            <!-- Sorting remains single-select -->
+            <label class="sort-filter">
               Sort by
               <select v-model="sortBy">
                 <option value="title">Title</option>
@@ -236,6 +334,7 @@
                 <option value="date">Publication date</option>
               </select>
             </label>
+
           </div>
         </section> 
 
@@ -258,12 +357,12 @@
           <div class="doi-links">
               <a
                 v-for="doi in selectedIndex?.dois || []"
-                :key="doi"
+                :key="doi "
                 :href="doiHref(doi)"
                 target="_blank"
                 rel="noopener"
               >
-                {{ doi }}
+                {{ doi }} ↗
               </a>
 
               <a
@@ -279,7 +378,7 @@
                 @click.prevent="copyItemLink"
                 class="copy-link"
               >
-                Copy STAC Browser link
+                STAC Browser 🔗
               </a>
             </div>
           <div class="detail-layout">
@@ -308,8 +407,32 @@
         </section>
 
         <section v-if="page !== 'item'" class="results-section">
-          <div class="section-heading"><div><p class="eyebrow">Catalog results</p><h2>{{ categoryFilter ? categoryFilter + ' datasets' : 'All datasets' }}</h2></div><div class="pagination"><span>Page {{ resultPage }} of {{ resultPageCount }}</span><button type="button" :disabled="resultPage === 1" @click="resultPage--">Previous</button><button type="button" :disabled="resultPage === resultPageCount" @click="resultPage++">Next</button></div></div>
-          <div class="results-grid" v-if="pagedItems.length"><button class="result-card" v-for="item in pagedItems" :key="item.id" type="button" @click="openItem(item)"><span class="result-category">{{ item.category }} <span :class="['mini-status', 'status-' + (item.version_status || 'unknown')]">{{ item.version_status === 'current' ? 'Active' : item.version_status === 'not_current' ? 'Inactive' : 'Active' }}</span></span><strong>{{ item.title }}</strong><span class="result-description">{{ item.description || 'Description not available.' }}</span><span class="result-foot"><span>{{ (item.dois || []).slice(0, 1).join('') || 'No DOI listed' }}</span><span>{{ item.asset_count || 0 }} assets</span></span></button></div>
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Catalog results</p>
+              <h2>
+                {{ categoryFilters.length
+                  ? 'Filtered datasets'
+                  : 'All datasets'
+                }}
+              </h2>
+            </div>
+            <div class="pagination">
+              <span>Page {{ resultPage }} of {{ resultPageCount }}</span><button type="button" :disabled="resultPage === 1" @click="resultPage--">Previous</button><button type="button" :disabled="resultPage === resultPageCount" @click="resultPage++">Next</button></div></div>
+          <div class="results-grid" v-if="pagedItems.length">
+            <button class="result-card" v-for="item in pagedItems" :key="item.id" type="button" @click="openItem(item)">
+              <span class="result-category">
+                {{ item.category }} 
+                <span :class="['mini-status', 'status-' + (item.version_status || 'unknown')]">
+                  {{ item.version_status === 'current'
+                    ? 'Active'
+                    : item.version_status === 'not_current'
+                      ? 'Inactive'
+                      : 'Not specified'
+                  }}
+                </span>
+              </span>
+              <strong>{{ item.title }}</strong><span class="result-description">{{ item.description || 'Description not available.' }}</span><span class="result-foot"><span>{{ (item.dois || []).slice(0, 1).join('') || 'No DOI listed' }}</span><span>{{ item.asset_count || 0 }} assets</span></span></button></div>
           <p v-else class="empty-state">No datasets match these search criteria. Try another field or clear filters.</p>
         </section>
  

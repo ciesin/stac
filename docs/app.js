@@ -6,8 +6,8 @@ createApp({
   data() {
     return {
       items: [], summary: null, page: "home", selectedIndex: null, selectedItem: null,
-      query: "", searchField: "all", categoryFilter: "", versionFilter: "",
-      resourceTypeFilter: "", sortBy: "title", resultPage: 1, resultPageSize: 20,
+      query: "", searchField: "all", categoryFilters: [], versionFilters: [],
+      resourceTypeFilters: [], sortBy: "title", resultPage: 1, resultPageSize: 20,
       assetQuery: "", assetSubtype: "", assetSource: "", assetRole: "", assetPage: 1, assetPageSize: 10,
       loading: true, loadError: "", mapInstance: null, mapReady: false, mapLoadPromise: null,
     };
@@ -59,9 +59,20 @@ createApp({
         const haystack = selectedFields.flatMap((field) => fields[field] || [])
           .map((key) => this.valueText(item[key])).join(" ").toLocaleLowerCase();
         return (!needle || haystack.includes(needle))
-          && (!this.categoryFilter || item.category === this.categoryFilter)
-          && (!this.versionFilter || item.version_status === this.versionFilter)
-          && (!this.resourceTypeFilter || item.resource_type === this.resourceTypeFilter);
+            && (
+              !this.categoryFilters.length ||
+              this.categoryFilters.includes(item.category || "Uncategorized")
+            )
+            && (
+              !this.versionFilters.length ||
+              this.versionFilters.includes(
+                String(item.version_status || "not specified").trim().toLowerCase()
+              )
+            )
+            && (
+              !this.resourceTypeFilters.length ||
+              this.resourceTypeFilters.includes(item.resource_type)
+            );
       });
       rows = [...rows];
       if (this.sortBy === "assets") rows.sort((a, b) => Number(b.asset_count || 0) - Number(a.asset_count || 0) || a.title.localeCompare(b.title));
@@ -72,7 +83,13 @@ createApp({
     },
     resultPageCount() { return Math.max(1, Math.ceil(this.filteredItems.length / this.resultPageSize)); },
     pagedItems() { const start = (this.resultPage - 1) * this.resultPageSize; return this.filteredItems.slice(start, start + this.resultPageSize); },
-    categoryItems() { return this.items.filter((item) => item.category === this.categoryFilter); },
+    categoryItems() {
+      if (!this.categoryFilters.length) return [];
+
+      return this.items.filter((item) =>
+        this.categoryFilters.includes(item.category || "Uncategorized")
+      );
+    },
     categoryAssets() { return this.categoryItems.reduce((sum, item) => sum + Number(item.asset_count || 0), 0); },
     categoryCurrent() {
       return this.categoryItems.filter((item) => {
@@ -142,10 +159,15 @@ createApp({
       if (start && end) return `${this.formatDate(start)} — ${this.formatDate(end)}`;
       return start ? `From ${this.formatDate(start)}` : end ? `Through ${this.formatDate(end)}` : this.formatDate(p.datetime);
     },
+    selectedCategoryLabel() {
+      return this.categoryFilters.join(", ");
+    },
   },
   watch: {
-    query() { this.resultPage = 1; }, categoryFilter() { this.resultPage = 1; },
-    versionFilter() { this.resultPage = 1; }, resourceTypeFilter() { this.resultPage = 1; },
+    query() { this.resultPage = 1; },
+    categoryFilters() { this.resultPage = 1; },
+    versionFilters() { this.resultPage = 1; },
+    resourceTypeFilters() { this.resultPage = 1; },
     assetQuery() { this.assetPage = 1; }, assetSubtype() { this.assetPage = 1; }, assetSource() { this.assetPage = 1; }, assetRole() { this.assetPage = 1; },
     pagedAssets() { if (this.assetPage > this.assetPageCount) this.assetPage = this.assetPageCount; },
     async selectedItem() {
@@ -219,7 +241,15 @@ createApp({
       return `This collection contains ${count.toLocaleString()} datasets assigned to “${category}” in the CIESIN inventory. Browse the records below to compare descriptions, coverage, version status, and available assets.`;
     },
     openCategory(category) { this.categoryFilter = category; this.page = "home"; this.resultPage = 1; window.scrollTo({ top: 0, behavior: "smooth" }); },
-    clearFilters() { this.query = ""; this.searchField = "all"; this.categoryFilter = ""; this.versionFilter = ""; this.resourceTypeFilter = ""; this.sortBy = "title"; this.resultPage = 1; },
+    clearFilters() {
+      this.query = "";
+      this.searchField = "all";
+      this.categoryFilters = [];
+      this.versionFilters = [];
+      this.resourceTypeFilters = [];
+      this.sortBy = "title";
+      this.resultPage = 1;
+    },
     goHome() {
       const url = new URL(window.location.href);
       url.searchParams.delete("item");
@@ -228,7 +258,9 @@ createApp({
       this.page = "home";
       this.selectedItem = null;
       this.selectedIndex = null;
-      this.categoryFilter = "";
+      this.categoryFilters = [];
+      this.versionFilters = [];
+      this.resourceTypeFilters = [];
       this.mapReady = false;
 
       window.scrollTo({ top: 0, behavior: "smooth" });
