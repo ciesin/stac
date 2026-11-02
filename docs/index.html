@@ -212,10 +212,21 @@
           <div class="filter-divider"></div>
 
           <div class="filter-heading">
-            <span>Refine results</span>
-            <span class="result-count">
-              {{ filteredItems.length.toLocaleString() }} datasets
-            </span>
+            <div>
+              <span>Refine results</span>
+              <span class="result-count">
+                {{ filteredItems.length.toLocaleString() }} datasets
+              </span>
+            </div>
+
+            <button
+              v-if="categoryFilters.length || versionFilters.length || resourceTypeFilters.length"
+              class="text-button"
+              type="button"
+              @click="clearFilters()"
+            >
+              Clear all filters
+            </button>
           </div>
 
           <div class="filters">
@@ -223,9 +234,9 @@
             <!-- Categories -->
             <details class="filter-dropdown" name="dataset-filters">
               <summary>
-                Categories
-                <span v-if="categoryFilters.length" class="filter-count">
-                  {{ categoryFilters.length }} selected
+                <span>Categories</span>
+                <span class="filter-count" v-if="categoryFilters.length">
+                  {{ categoryFilters.length }}
                 </span>
               </summary>
 
@@ -242,9 +253,9 @@
             <!-- Version status -->
             <details class="filter-dropdown" name="dataset-filters">
               <summary>
-                Version status
-                <span v-if="versionFilters.length" class="filter-count">
-                  {{ versionFilters.length }} selected
+                <span>Version status</span>
+                <span class="filter-count" v-if="versionFilters.length">
+                  {{ versionFilters.length }}
                 </span>
               </summary>
 
@@ -269,9 +280,9 @@
             <!-- Resource type -->
             <details class="filter-dropdown" name="dataset-filters">
               <summary>
-                Resource type
-                <span v-if="resourceTypeFilters.length" class="filter-count">
-                  {{ resourceTypeFilters.length }} selected
+                <span>Resource type</span>
+                <span class="filter-count" v-if="resourceTypeFilters.length">
+                  {{ resourceTypeFilters.length }}
                 </span>
               </summary>
 
@@ -287,7 +298,9 @@
 
             <!-- Sort -->
             <details class="filter-dropdown" name="dataset-filters">
-              <summary>Sort by</summary>
+              <summary>
+                <span>Sort by</span>
+              </summary>
 
               <div class="filter-dropdown-content">
                 <select v-model="sortBy">
