@@ -163,22 +163,10 @@
     }
   ],
   "assets": {
-    "h46t0jq4": {
-      "href": "https://doi.org/10.7927/H46T0JQ4",
-      "type": "text/html",
-      "title": "DOI 10.7927/H46T0JQ4",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H46T0JQ4",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
     "cveuwf": {
       "href": "https://doi.org/10.7910/DVN/CVEUWF",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/CVEUWF",
+      "title": "Last of the Wild Project, Version 3 (LWP-3): 2009 Human Footprint, 2018 Release — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -187,10 +175,57 @@
       "ciesin:source_identifier": "10.7910/DVN/CVEUWF",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14222311": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FCVEUWF",
+      "type": "application/xhtml+xml",
+      "title": "Last of the Wild Project, Version 3 (LWP-3): 2009 Human Footprint, 2018 Release — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/CVEUWF",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h46t0jq4": {
+      "href": "https://doi.org/10.7927/H46T0JQ4",
+      "type": "text/html",
+      "title": "Last of the Wild Project, Version 3 (LWP-3): 2009 Human Footprint, 2018 Release — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H46T0JQ4",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540929803-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929803-ESDIS",
+      "type": "text/html",
+      "title": "Last of the Wild Project, Version 3 (LWP-3): 2009 Human Footprint, 2018 Release — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H46T0JQ4",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "wildareas-v3-2009-human-footprint-global-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/wildareas-v3/wildareas-v3-2009-human-footprint/wildareas-v3-2009-human-footprint-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Last of the Wild Project, Version 3 (LWP-3): 2009 Human Footprint, 2018 Release (wildareas v3 2009 human footprint global thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-last-of-the-wild-project-version-3-lwp-3-2009-human-footprint-2018-re": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222311",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Last of the Wild Project, Version 3 (LWP-3): 2009 Human Footprint, 2018 Release",
       "roles": [
         "data"
       ],
@@ -200,7 +235,79 @@
       "ciesin:source_identifier": "14222311",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815580": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929803-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Last of the Wild Project, Version 3 (LWP-3): 2009 Human Footprint, 2018 Release",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540929803-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540929803-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v3-2009-human-footprint/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v3-2009-human-footprint/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4h9938z": {
+      "href": "https://doi.org/10.7927/H4H9938Z",
+      "type": "text/html",
+      "title": "Related Publication: Last of the Wild Project, Version 3 (LWP-3): 1993 Human Footprint, 2018 Release. Venter, O., E. W. Sanderson, A. Magrach, J. R. Allan, J. Beher, K. R. Jones, H. P. Possingham, W. F. Laurance, P. Wood, B. M. Fekete, M. A. Levy, and J. E. Watson. NASA Socioeconomic Data and Applications Center (SEDAC). 2018",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "wildareas-v3-2009-human-footprint-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/wildareas-v3-2009-human-footprint-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/wildareas-v3-2009-human-footprint-citation2.txt",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/wildareas-v3-2009-human-footprint-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540929803-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/wildareas-v3-2009-human-footprint/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/wildareas-v3-2009-human-footprint/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/wildareas-v3-2009-human-footprint/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540929803-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
+    "wildareas-v3-2009-human-footprint-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815580",
       "type": "application/zip",
       "title": "wildareas-v3-2009-human-footprint-geotiff.zip",
@@ -212,64 +319,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "11815580",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3540929803-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929803-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H46T0JQ4",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "wildareas-v3-2009-human-footprint-citation2.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/wildareas-v3-2009-human-footprint-citation2.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H46T0JQ4",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929803-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H46T0JQ4",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "ncomms12558": {
-      "href": "https://doi.org/10.1038/ncomms12558",
-      "type": "text/html",
-      "title": "ncomms12558",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4h9938z": {
-      "href": "https://doi.org/10.7927/H4H9938Z",
-      "type": "text/html",
-      "title": "H4H9938Z",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

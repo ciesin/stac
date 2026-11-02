@@ -165,22 +165,47 @@
     }
   ],
   "assets": {
-    "3xxe-ap97": {
-      "href": "https://doi.org/10.7927/3XXE-AP97",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4NZ85MP",
+    "povmap-grdi-v1-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/povmap-grdi-v1-readme.txt",
+      "type": "text/plain",
+      "title": "Dataset documentation — Global Gridded Relative Deprivation Index (GRDI), Version 1",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/povmap-grdi-v1-readme.txt Type: VIEW RELATED INFORMATION Subtype: READ-ME Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/3XXE-AP97",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3540928876-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "xwf1-k532": {
+      "href": "https://doi.org/10.7927/xwf1-k532",
+      "type": "text/html",
+      "title": "Dataset documentation — Global Gridded Relative Deprivation Index (GRDI), Version 1",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "povmap-grdi-v1-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/povmap-grdi-v1-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — povmap grdi v1 documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/povmap-grdi-v1-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540928876-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "vosv99": {
       "href": "https://doi.org/10.7910/DVN/VOSV99",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H46M34RP",
+      "title": "Global Gridded Relative Deprivation Index (GRDI), Version 1 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -189,10 +214,57 @@
       "ciesin:source_identifier": "10.7910/DVN/VOSV99",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14202266": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FVOSV99",
+      "type": "application/xhtml+xml",
+      "title": "Global Gridded Relative Deprivation Index (GRDI), Version 1 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/VOSV99",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "3xxe-ap97": {
+      "href": "https://doi.org/10.7927/3XXE-AP97",
+      "type": "text/html",
+      "title": "Global Gridded Relative Deprivation Index (GRDI), Version 1 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/3XXE-AP97",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540928876-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540928876-ESDIS",
+      "type": "text/html",
+      "title": "Global Gridded Relative Deprivation Index (GRDI), Version 1 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/3XXE-AP97",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "povmap-grdi-v1-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/povmap/povmap-grdi-v1/povmap-grdi-v1-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Gridded Relative Deprivation Index (GRDI), Version 1 (povmap grdi v1 thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-gridded-relative-deprivation-index-grdi-version-1": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14202266",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4G73BM2",
+      "title": "Metadata package for Global Gridded Relative Deprivation Index (GRDI), Version 1",
       "roles": [
         "data"
       ],
@@ -202,10 +274,23 @@
       "ciesin:source_identifier": "14202266",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "12068297": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540928876-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global Gridded Relative Deprivation Index (GRDI), Version 1",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540928876-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540928876-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "povmap-grdi-v1-built-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=12068297",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H48913TX",
+      "title": "povmap-grdi-v1-built-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -215,10 +300,10 @@
       "ciesin:source_identifier": "12068297",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "12068296": {
+    "povmap-grdi-v1-cdr-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=12068296",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4SQ8XGT",
+      "title": "povmap-grdi-v1-cdr-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -228,10 +313,10 @@
       "ciesin:source_identifier": "12068296",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "12068295": {
+    "povmap-grdi-v1-filledmissingvalues-count-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=12068295",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/6t8a-es66",
+      "title": "povmap-grdi-v1-filledmissingvalues-count-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -241,10 +326,10 @@
       "ciesin:source_identifier": "12068295",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "12068309": {
+    "povmap-grdi-v1-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=12068309",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/r6mv-sv82",
+      "title": "povmap-grdi-v1-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -254,10 +339,10 @@
       "ciesin:source_identifier": "12068309",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "12068302": {
+    "povmap-grdi-v1-grdiv1-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=12068302",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/7ppx-6m60",
+      "title": "povmap-grdi-v1-grdiv1-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -267,10 +352,10 @@
       "ciesin:source_identifier": "12068302",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "12068300": {
+    "povmap-grdi-v1-imr-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=12068300",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/5bbs-e174",
+      "title": "povmap-grdi-v1-imr-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -280,10 +365,10 @@
       "ciesin:source_identifier": "12068300",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "12068299": {
+    "povmap-grdi-v1-shdi-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=12068299",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/80dp-h987",
+      "title": "povmap-grdi-v1-shdi-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -293,10 +378,10 @@
       "ciesin:source_identifier": "12068299",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "12068303": {
+    "povmap-grdi-v1-vnl-2020-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=12068303",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H49G5JRZ",
+      "title": "povmap-grdi-v1-vnl-2020-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -306,10 +391,10 @@
       "ciesin:source_identifier": "12068303",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "12068301": {
+    "povmap-grdi-v1-vnl-slope-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=12068301",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H45Q4T1N",
+      "title": "povmap-grdi-v1-vnl-slope-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -319,58 +404,21 @@
       "ciesin:source_identifier": "12068301",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3540928876-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540928876-ESDIS",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/povmap-grdi-v1/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H41Z4299",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR record",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/3XXE-AP97",
-      "ciesin:asset_match_basis": "exact DOI lookup"
+      "ciesin:asset_match_basis": "inventory XML location"
     },
-    "povmap-grdi-v1-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/povmap-grdi-v1-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Related Publication: https://doi.org/10.7927/H4NZ85MP",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/3XXE-AP97",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "povmap-grdi-v1-readme.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/povmap-grdi-v1-readme.txt",
-      "type": "text/plain",
-      "title": "Related Publication: https://doi.org/10.7927/H46M34RP",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/3XXE-AP97",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540928876-ESDIS",
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/povmap-grdi-v1/maps",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4G73BM2",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/3XXE-AP97",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "xwf1-k532": {
-      "href": "https://doi.org/10.7927/xwf1-k532",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H48913TX",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],

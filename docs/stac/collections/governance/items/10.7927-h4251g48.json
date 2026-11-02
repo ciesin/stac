@@ -116,22 +116,62 @@
     }
   ],
   "assets": {
-    "h4251g48": {
-      "href": "https://doi.org/10.7927/h4251g48",
-      "type": "text/html",
-      "title": "DOI 10.7927/h4251g48",
+    "sedac-logo.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/entri/entri-treaty-texts-collection/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Socioeconomic Data and Applications Center (SEDAC) Collection of Treaty Texts (sedac logo)",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/maps/entri/entri-treaty-texts-collection/sedac-logo.jpg Type: GET RELATED VISUALIZATION",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "C3553521376-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3553521376-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Socioeconomic Data and Applications Center (SEDAC) Collection of Treaty Texts",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/h4251g48",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3553521376-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/entri-treaty-texts-collection/data-download",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/entri-treaty-texts-collection/data-download",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/entri-treaty-texts-collection/data-download Type: GET DATA Description: Data Download Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3553521376-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4251g48": {
+      "href": "https://doi.org/10.7927/h4251g48",
+      "type": "text/html",
+      "title": "Socioeconomic Data and Applications Center (SEDAC) Collection of Treaty Texts — NASA CMR DOI",
+      "description": "Related URL: https://doi.org/10.7927/H4251G48 Type: DATA SET LANDING PAGE Description: Data Set DOI URL and Homepage",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/h4251g48; C3553521376-ESDIS",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi; exact DOI lookup"
     },
     "c3553521376-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3553521376-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Socioeconomic Data and Applications Center (SEDAC) Collection of Treaty Texts — NASA CMR record",
       "roles": [
         "metadata"
       ],

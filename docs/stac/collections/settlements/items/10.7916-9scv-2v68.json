@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-9scv-2v68",
   "collection": "settlements",
@@ -114,10 +113,21 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-gha---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/0qgz-a677/download",
+      "type": "text/html",
+      "title": "Dataset documentation — GRID3 GHA - Settlement Extents v3.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
     "9scv-2v68": {
       "href": "https://doi.org/10.7916/9SCV-2V68",
       "type": "text/html",
-      "title": "DOI 10.7916/9SCV-2V68",
+      "title": "GRID3 GHA - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -126,65 +136,26 @@
       "ciesin:source_identifier": "10.7916/9SCV-2V68",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
     },
-    "grid3_gha_settlement_extents_v3_0": {
+    "grid3_gha_settlement_extents_v3.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/0amv-wn81/download",
-      "type": "application/zip",
-      "title": "GRID3_GHA_settlement_extents_v3_0.zip",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_GHA_settlement_extents_v3.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 182973220,
       "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/0amv-wn81/download",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "download-2": {
+    "grid3_gha_settlement_grid_v3.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/pbaz-7a86/download",
-      "type": "application/zip",
-      "title": "GRID3_GHA_settlement_grid_v3_0.zip",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_GHA_settlement_grid_v3.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 87868874,
       "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/pbaz-7a86/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/0qgz-a677/download",
-      "type": "application/pdf",
-      "title": "GRID3 GHA - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 17326531,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/0qgz-a677/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "wqg1-m574": {
-      "href": "https://doi.org/10.7916/wqg1-m574",
-      "type": "text/html",
-      "title": "GRID3 GHA - Settlement Extents v2.0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "9scv-2v68-2": {
-      "href": "https://doi.org/doi:10.7916/9scv-2v68",
-      "type": "text/html",
-      "title": "9scv-2v68",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     }
   },

@@ -113,7 +113,7 @@
       "NASA Socioeconomic Data and Applications Center (SEDAC)"
     ],
     "ciesin:place": [
-      "Global"
+      "Palisades, NY"
     ],
     "ciesin:purpose": "To provide a high-resolution, longitudinal global data set of annual extreme humid-heat.",
     "ciesin:publication_date": "2023-08-11T00:00:00Z",
@@ -164,22 +164,10 @@
     }
   ],
   "assets": {
-    "hff0-k565": {
-      "href": "https://doi.org/10.7927/HFF0-K565",
-      "type": "text/html",
-      "title": "DOI 10.7927/HFF0-K565",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/HFF0-K565",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
     "gq7pwp": {
       "href": "https://doi.org/10.7910/DVN/GQ7PWP",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/GQ7PWP",
+      "title": "Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -188,10 +176,59 @@
       "ciesin:source_identifier": "10.7910/DVN/GQ7PWP",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14222219": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FGQ7PWP",
+      "type": "application/xhtml+xml",
+      "title": "Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/GQ7PWP",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "hff0-k565": {
+      "href": "https://doi.org/10.7927/HFF0-K565",
+      "type": "text/html",
+      "title": "Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/HFF0-K565",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540909361-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540909361-ESDIS",
+      "type": "text/html",
+      "title": "Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/HFF0-K565",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-high-res-extreme-heat-estimates-1983-2016-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-high-res-extreme-heat-estimates-1983-2016-readme.txt",
+      "type": "text/plain",
+      "title": "Dataset documentation — Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-high-res-extreme-heat-estimates-1983-2016-readme.txt Type: VIEW RELATED INFORMATION Subtype: READ-ME Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540909361-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "metadata-package-for-annual-global-high-resolution-extreme-heat-estimates-gehe-1983-2016": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222219",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016",
       "roles": [
         "data"
       ],
@@ -201,7 +238,31 @@
       "ciesin:source_identifier": "14222219",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715578": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540909361-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Annual Global High-Resolution Extreme Heat Estimates (GEHE), 1983-2016",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540909361-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540909361-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-high-res-extreme-heat-estimates-1983-2016/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax28-counts-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715578",
       "type": "application/zip",
       "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax28-counts-geotiff.zip",
@@ -214,7 +275,7 @@
       "ciesin:source_identifier": "11715578",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715576": {
+    "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax30-counts-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715576",
       "type": "application/zip",
       "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax30-counts-geotiff.zip",
@@ -227,7 +288,7 @@
       "ciesin:source_identifier": "11715576",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715577": {
+    "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax32-counts-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715577",
       "type": "application/zip",
       "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax32-counts-geotiff.zip",
@@ -240,7 +301,7 @@
       "ciesin:source_identifier": "11715577",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715575": {
+    "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax-trends-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715575",
       "type": "application/zip",
       "title": "sdei-high-res-extreme-heat-estimates-1983-2016-wbgtmax-trends-geotiff.zip",
@@ -252,53 +313,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "11715575",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3540909361-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540909361-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/HFF0-K565",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "sdei-high-res-extreme-heat-estimates-1983-2016-readme.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-high-res-extreme-heat-estimates-1983-2016-readme.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/HFF0-K565",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540909361-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/HFF0-K565",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "pnas.2024792118": {
-      "href": "https://doi.org/10.1073/pnas.2024792118",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/n934-y770",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

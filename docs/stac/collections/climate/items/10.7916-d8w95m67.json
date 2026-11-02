@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8w95m67",
   "collection": "climate",
@@ -30,6 +29,7 @@
       }
     ],
     "sci:doi": "10.7916/d8w95m67",
+    "sci:citation": "Chen, Robert S., & Robinson, Peter J. (1991). Generating Scenarios of Local Surface Temperature Using Time Series Methods. Columbia University. https://doi.org/10.7916/d8w95m67",
     "ciesin:resource_type": "article",
     "ciesin:category": "Climate",
     "ciesin:tags": [
@@ -43,6 +43,9 @@
     "ciesin:authors": [
       "Chen, Robert S.",
       "Robinson, Peter J."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -82,7 +85,7 @@
     "d8w95m67": {
       "href": "https://doi.org/10.7916/d8w95m67",
       "type": "text/html",
-      "title": "DOI 10.7916/d8w95m67",
+      "title": "Generating Scenarios of Local Surface Temperature Using Time Series Methods — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -90,19 +93,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8w95m67",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "1520-0442_281991_29004-0723_3agsolst-2_2e0_2eco_3b2.pdf": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8183HH5/download",
-      "type": "application/pdf",
-      "title": "1520-0442_281991_29004-0723_3Agsolst-2_2E0_2Eco_3B2.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 826771,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8183HH5/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

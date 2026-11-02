@@ -843,31 +843,44 @@
     }
   ],
   "assets": {
-    "h41834d6": {
-      "href": "https://doi.org/10.7927/H41834D6",
+    "472400a": {
+      "href": "https://doi.org/10.1038/472400a",
       "type": "text/html",
-      "title": "DOI 10.7927/H41834D6",
+      "title": "Data Set DOI URL and HOMEPAGE",
+      "description": "Data Set DOI URL and HOMEPAGE",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR granule",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H41834D6",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "G3550200443-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "d7lxd0": {
-      "href": "https://doi.org/10.7910/DVN/D7LXD0",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/D7LXD0",
+    "energy-pop-exposure-nuclear-plants-country-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/energy-pop-exposure-nuclear-plants-country-citation2.txt",
+      "type": "text/plain",
+      "title": "Dataset documentation — Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/D7LXD0",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+      "ciesin:source_identifier": "C3550185898-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11661542": {
+    "energy-pop-exposure-nuclear-plants-locations-and-country-aggregates-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/energy-pop-exposure-nuclear-plants-locations-and-country-aggregates-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — energy pop exposure nuclear plants locations and country aggregates documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550185898-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "energy-pop-exposure-nuclear-plants-country.xls": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11661542",
       "type": "application/vnd.ms-excel",
       "title": "energy-pop-exposure-nuclear-plants-country.xls",
@@ -880,7 +893,7 @@
       "ciesin:source_identifier": "11661542",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11661541": {
+    "energy-pop-exposure-nuclear-plants-locations-and-country-aggregates.pdf": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11661541",
       "type": "application/pdf",
       "title": "energy-pop-exposure-nuclear-plants-locations-and-country-aggregates.pdf",
@@ -893,10 +906,10 @@
       "ciesin:source_identifier": "11661541",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14171136": {
+    "metadata-package-for-population-exposure-estimates-in-proximity-to-nuclear-power-plants-co": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14171136",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates",
       "roles": [
         "data"
       ],
@@ -906,10 +919,70 @@
       "ciesin:source_identifier": "14171136",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "472400a": {
-      "href": "https://doi.org/10.1038/472400a",
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550185898-ESDIS",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1111/j.1466-8238.2010.00584.x",
+      "title": "NASA Earthdata granule search — Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550185898-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "d7lxd0": {
+      "href": "https://doi.org/10.7910/DVN/D7LXD0",
+      "type": "text/html",
+      "title": "Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/D7LXD0",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FD7LXD0",
+      "type": "application/xhtml+xml",
+      "title": "Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/D7LXD0",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h41834d6": {
+      "href": "https://doi.org/10.7927/H41834D6",
+      "type": "text/html",
+      "title": "Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H41834D6",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550185898-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550185898-ESDIS",
+      "type": "text/html",
+      "title": "Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H41834D6",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/energy-pop-exposure-nuclear-plants-country/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -920,13 +993,26 @@
     "h4wh2mxh": {
       "href": "https://doi.org/10.7927/H4WH2MXH",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4MS3QP8",
+      "title": "Related Publication: Population Exposure Estimates in Proximity to Nuclear Power Plants, Locations. Center for International Earth Science Information Network - CIESIN - Columbia University; Butler, D. NASA Socioeconomic Data and Applications Center (SEDAC). 2015",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "energy-pop-exposure-nuclear-plants-country.zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/energy/energy-pop-exposure-nuclear-plants-country/energy-pop-exposure-nuclear-plants-country.zip",
+      "type": "application/x-zip-compressed",
+      "title": "Tabular data in Excel format from the Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates data set.",
+      "description": "Tabular data in Excel format from the Population Exposure Estimates in Proximity to Nuclear Power Plants, Country-Level Aggregates data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "NASA CMR granule",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "G3550200443-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

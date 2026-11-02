@@ -166,22 +166,23 @@
     }
   ],
   "assets": {
-    "zz3b-8y61": {
-      "href": "https://doi.org/10.7927/ZZ3B-8Y61",
-      "type": "text/html",
-      "title": "DOI 10.7927/ZZ3B-8Y61",
+    "pend-gdis-1960-2018-codebook-general-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/pend-gdis-1960-2018-codebook-general-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — pend gdis 1960 2018 codebook general documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/pend-gdis-1960-2018-codebook-general-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/ZZ3B-8Y61",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3540930147-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "7uw1yk": {
       "href": "https://doi.org/10.7910/DVN/7UW1YK",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/7UW1YK",
+      "title": "Geocoded Disasters (GDIS) Dataset — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -190,10 +191,57 @@
       "ciesin:source_identifier": "10.7910/DVN/7UW1YK",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14202214": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F7UW1YK",
+      "type": "application/xhtml+xml",
+      "title": "Geocoded Disasters (GDIS) Dataset — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/7UW1YK",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "zz3b-8y61": {
+      "href": "https://doi.org/10.7927/ZZ3B-8Y61",
+      "type": "text/html",
+      "title": "Geocoded Disasters (GDIS) Dataset — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/ZZ3B-8Y61",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540930147-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540930147-ESDIS",
+      "type": "text/html",
+      "title": "Geocoded Disasters (GDIS) Dataset — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/ZZ3B-8Y61",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "pend-gdis-1960-2018-death-rate-africa-2009-2018-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/pend/pend-gdis-1960-2018/pend-gdis-1960-2018-death-rate-africa-2009-2018-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Geocoded Disasters (GDIS) Dataset (pend gdis 1960 2018 death rate africa 2009 2018 thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-geocoded-disasters-gdis-dataset": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14202214",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Geocoded Disasters (GDIS) Dataset",
       "roles": [
         "data"
       ],
@@ -203,7 +251,20 @@
       "ciesin:source_identifier": "14202214",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715968": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540930147-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Geocoded Disasters (GDIS) Dataset",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540930147-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540930147-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "pend-gdis-1960-2018-disasterlocations-csv.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715968",
       "type": "application/zip",
       "title": "pend-gdis-1960-2018-disasterlocations-csv.zip",
@@ -216,7 +277,7 @@
       "ciesin:source_identifier": "11715968",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715969": {
+    "pend-gdis-1960-2018-disasterlocations-gdb.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715969",
       "type": "application/zip",
       "title": "pend-gdis-1960-2018-disasterlocations-gdb.zip",
@@ -229,7 +290,7 @@
       "ciesin:source_identifier": "11715969",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715966": {
+    "pend-gdis-1960-2018-disasterlocations-gpkg.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715966",
       "type": "application/zip",
       "title": "pend-gdis-1960-2018-disasterlocations-gpkg.zip",
@@ -242,7 +303,7 @@
       "ciesin:source_identifier": "11715966",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715967": {
+    "pend-gdis-1960-2018-priogrid-key-csv.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715967",
       "type": "application/zip",
       "title": "pend-gdis-1960-2018-priogrid-key-csv.zip",
@@ -255,64 +316,40 @@
       "ciesin:source_identifier": "11715967",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3540930147-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540930147-ESDIS",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/pend-gdis-1960-2018/data-download",
       "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/ZZ3B-8Y61",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "pend-gdis-1960-2018-codebook-general-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/pend-gdis-1960-2018-codebook-general-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/ZZ3B-8Y61",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "pend-gdis-1960-2018-citation2.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/pend-gdis-1960-2018-citation2.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/ZZ3B-8Y61",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540930147-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/ZZ3B-8Y61",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "s41597-021-00846-6": {
-      "href": "https://doi.org/10.1038/s41597-021-00846-6",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H41N7Z2Z",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/pend-gdis-1960-2018/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "pend-gdis-1960-2018-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/pend-gdis-1960-2018-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/pend-gdis-1960-2018-citation2.txt",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/pend-gdis-1960-2018-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540930147-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

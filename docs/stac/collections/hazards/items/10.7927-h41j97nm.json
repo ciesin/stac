@@ -199,31 +199,20 @@
     }
   ],
   "assets": {
-    "h41j97nm": {
-      "href": "https://doi.org/10.7927/H41J97NM",
-      "type": "text/html",
-      "title": "DOI 10.7927/H41J97NM",
+    "ndh-synthesis-report-general-documentation.pdf": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — ndh synthesis report general documentation",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H41J97NM",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3550192145-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "oryxgl": {
-      "href": "https://doi.org/10.7910/DVN/ORYXGL",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/ORYXGL",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Harvard Dataverse DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/ORYXGL",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
-    },
-    "11805936": {
+    "gdmhzmrt.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11805936",
       "type": "application/zip",
       "title": "gdmhzmrt.zip",
@@ -236,10 +225,69 @@
       "ciesin:source_identifier": "11805936",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14202038": {
+    "oryxgl": {
+      "href": "https://doi.org/10.7910/DVN/ORYXGL",
+      "type": "text/html",
+      "title": "Global Multihazard Mortality Risks and Distribution — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/ORYXGL",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FORYXGL",
+      "type": "application/xhtml+xml",
+      "title": "Global Multihazard Mortality Risks and Distribution — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/ORYXGL",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h41j97nm": {
+      "href": "https://doi.org/10.7927/H41J97NM",
+      "type": "text/html",
+      "title": "Global Multihazard Mortality Risks and Distribution — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H41J97NM",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550192145-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192145-ESDIS",
+      "type": "text/html",
+      "title": "Global Multihazard Mortality Risks and Distribution — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H41J97NM",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "multihazard-mortality-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ndh/ndh-multihazard-mortality-risks-distribution/multihazard-mortality-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Multihazard Mortality Risks and Distribution (multihazard mortality thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-multihazard-mortality-risks-and-distribution": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14202038",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Multihazard Mortality Risks and Distribution",
       "roles": [
         "data"
       ],
@@ -249,45 +297,23 @@
       "ciesin:source_identifier": "14202038",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3550192145-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192145-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H41J97NM",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192145-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Global Multihazard Mortality Risks and Distribution",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550192145-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H41J97NM",
+      "ciesin:source_identifier": "C3550192145-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "wdi2000": {
-      "href": "http://www.worldbank.org/data/wdi2000",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-multihazard-mortality-risks-distribution/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1177/0956247807076960",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "natural-disaster-hotspots-a-global-risk-analysis": {
-      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4MW2F2J",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -295,10 +321,10 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "h4s180f9": {
-      "href": "https://doi.org/10.7927/H4S180F9",
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-multihazard-mortality-risks-distribution/maps",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4CC0XMD",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -309,7 +335,7 @@
     "h45718z5": {
       "href": "https://doi.org/10.7927/H45718Z5",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H47P8WB9",
+      "title": "Related Publication: Global Multihazard Frequency and Distribution. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -320,7 +346,7 @@
     "h4ws8r5b": {
       "href": "https://doi.org/10.7927/H4WS8R5B",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4CF9N1K",
+      "title": "Related Publication: Global Multihazard Proportional Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -328,10 +354,10 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "h4862dc5": {
-      "href": "https://doi.org/10.7927/H4862DC5",
+    "h4s180f9": {
+      "href": "https://doi.org/10.7927/H4S180F9",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4QJ7F8M",
+      "title": "Related Publication: Global Multihazard Total Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -339,82 +365,18 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "h4jh3j4n": {
-      "href": "https://doi.org/10.7927/H4JH3J4N",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4G44N76",
+    "ndh-citation2.txt": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "the-world-factbook": {
-      "href": "https://www.cia.gov/library/publications/the-world-factbook/",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1641/0006-3568(2005)055[0115:ASOIOR]2.0.CO;2",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "www.nga.mil": {
-      "href": "http://www.nga.mil",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4KW5CZ6",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "glcc.asp": {
-      "href": "http://edcdaac.usgs.gov/glcc/glcc.asp",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H47P8WB9",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4639mpp": {
-      "href": "https://doi.org/10.7927/H4639MPP",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4CF9N1K",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "hotspots": {
-      "href": "http://www.ldeo.columbia.edu/chrr/research/hotspots",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4V9860B",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4736nt2": {
-      "href": "https://doi.org/10.7927/H4736NT2",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4G44N76",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "C3550192145-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

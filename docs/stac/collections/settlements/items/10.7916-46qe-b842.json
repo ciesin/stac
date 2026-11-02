@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-46qe-b842",
   "collection": "settlements",
@@ -103,7 +102,7 @@
     "46qe-b842": {
       "href": "https://doi.org/10.7916/46qe-b842",
       "type": "text/html",
-      "title": "DOI 10.7916/46qe-b842",
+      "title": "GRID3 Guinea Settlement Extents, Version 02 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -111,32 +110,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/46qe-b842",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "gin_datareleasestatement_settlementextents_version02": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/7qm2-bq36/download",
-      "type": "application/pdf",
-      "title": "GIN_DataReleaseStatement_SettlementExtents_Version02.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 2698752,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/7qm2-bq36/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/gqh8-wx22/download",
-      "type": "application/zip",
-      "title": "GRID3_Guinea_Settlement_Extents_Version_02.zip",
-      "roles": [
-        "data"
-      ],
-      "file:size": 58733893,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/gqh8-wx22/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

@@ -71,8 +71,14 @@
       "10.7916/AG19-S334"
     ],
     "ciesin:authors": [
-      "Center for International Earth Science Information Network",
-      "Sierra Leone Ministry of Health and Sanitation"
+      "Sierra Leone Ministry of Health and Sanitation (MoHS)",
+      "Center for International Earth Science Information Network (CIESIN), Columbia University"
+    ],
+    "ciesin:publishers": [
+      "Geo-Referenced Infrastructure and Demographic Data for Development (GRID3)"
+    ],
+    "ciesin:place": [
+      "New York"
     ],
     "ciesin:purpose": "The dataset consists of health facility points with name, location (where available), facility type, functionality, and ownership in Sierra Leone",
     "ciesin:publication_date": null,
@@ -115,54 +121,45 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-sle---health-facilities-v1.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/514p-gz80/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 SLE - Health Facilities v1.0",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "file:size": 318244,
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/514p-gz80/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
     "ag19-s334": {
       "href": "https://doi.org/10.7916/AG19-S334",
       "type": "text/html",
-      "title": "DOI 10.7916/AG19-S334",
+      "title": "GRID3 SLE - Health Facilities v1.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/AG19-S334",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "data-release-notes-sierra-leone-national-health-facilities-version-01": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/514p-gz80/download",
-      "type": "application/pdf",
-      "title": "Data Release Notes Sierra Leone National Health Facilities Version 01.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 318244,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/514p-gz80/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-2": {
+    "sle_nationalhealthfacilites_v01.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/fhg4-qa91/download",
       "type": "application/zip",
-      "title": "SLE_NationalHealthFacilites_v01.zip",
+      "title": "GRID3 SLE - Health Facilities v1.0 — XML metadata link record",
       "roles": [
-        "data"
-      ],
-      "file:size": 594405,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/fhg4-qa91/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "3.1.0": {
-      "href": "http://www.esri.com/schemas/ArcGIS/3.1.0",
-      "type": "text/html",
-      "title": "3.1.0",
-      "roles": [
+        "data",
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "file:size": 594405,
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "/doi/10.7916/fhg4-qa91/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

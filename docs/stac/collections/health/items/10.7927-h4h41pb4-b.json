@@ -60,6 +60,7 @@
       }
     ],
     "sci:doi": "10.7927/H4H41PB4",
+    "sci:citation": "van Donkelaar, A., R. V. Martin, M. Brauer, N. C. Hsu, R. A. Kahn, R. C. Levy, A. Lyapustin, A. M. Sayer, and D. M. Winker. 2018-03-30. Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD) with GWR, 1998-2016. Version 1.00. ESDIS. Palisades, NY. https://doi.org/10.7927/H4ZK5DQS; van Donkelaar, A., R. V. Martin, M. Brauer, N. C. Hsu, R. A. Kahn, R. C. Levy, A. Lyapustin, A. M. Sayer, and D. M. Winker. 2016-02-01. Global Estimates of Fine Particulate Matter Using a Combined Geophysical-Statistical Method with Information from Satellites. Version 1.0. https://doi.org/10.1021/acs.est.5b05833",
     "version": "1.0",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Health",
@@ -127,7 +128,96 @@
       "type": "text/html"
     }
   ],
-  "assets": {},
+  "assets": {
+    "h4h41pb4": {
+      "href": "https://doi.org/10.7927/h4h41pb4",
+      "type": "text/html",
+      "title": "Global Annual Average PM2.5 Grids from MODIS and MISR Aerosol Optical Depth (AOD) — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/h4h41pb4",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550191751-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550191751-ESDIS",
+      "type": "text/html",
+      "title": "Global Annual Average PM2.5 Grids from MODIS and MISR Aerosol Optical Depth (AOD) — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/h4h41pb4",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550191751-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global Annual Average PM2.5 Grids from MODIS and MISR Aerosol Optical Depth (AOD)",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550191751-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550191751-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "docs": {
+      "href": "http://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod/docs",
+      "type": "text/html",
+      "title": "Related URL: http://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod/docs",
+      "description": "Related URL: http://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod/docs Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Documentation Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550191751-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Overview Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550191751-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550191751-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4h41pb4-2": {
+      "href": "https://doi.org/10.7927/H4H41PB4",
+      "type": "text/html",
+      "title": "Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD) with GWR, 1998-2016 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4H41PB4",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    }
+  },
   "bbox": [
     -180.0,
     -54.85,

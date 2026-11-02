@@ -154,31 +154,45 @@
     }
   ],
   "assets": {
-    "h4v985zg": {
-      "href": "https://doi.org/10.7927/H4V985ZG",
+    "houston3362.zip-2": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/pend/pend-summary-file1-2000-houston-msa/houston3362.zip",
+      "type": "application/x-zip-compressed",
+      "title": "7.5 arc-second grids data in ArcInfo Workspace format from the U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version data set.",
+      "description": "7.5 arc-second grids data in ArcInfo Workspace format from the U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "NASA CMR granule",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "G3552501622-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "esdis": {
+      "href": "https://www.earthdata.nasa.gov/about/esdis",
       "type": "text/html",
-      "title": "DOI 10.7927/H4V985ZG",
+      "title": "Earth Science Data Information System home page",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4V985ZG",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3540909166-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "84mmqy": {
-      "href": "https://doi.org/10.7910/DVN/84MMQY",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/84MMQY",
+    "demographics-2000-houston.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/pend/pend-summary-file1-2000-houston-msa/demographics-2000-houston.pdf",
+      "type": "application/pdf",
+      "title": "Houston, TX Metropolitan Area Demographics map in PDF format from the U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version data set.",
+      "description": "Houston, TX Metropolitan Area Demographics map in PDF format from the U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version data set.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source": "NASA CMR granule",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/84MMQY",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+      "ciesin:source_identifier": "G3552501622-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11835856": {
+    "houston3362.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835856",
       "type": "application/zip",
       "title": "houston3362.zip",
@@ -191,10 +205,46 @@
       "ciesin:source_identifier": "11835856",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14202216": {
+    "demographics-2000-houston-thumbnail.jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/pend/pend-summary-file1-2000-houston-msa/demographics-2000-houston-thumbnail.jpg",
+      "type": "image/png",
+      "title": "Map image — U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version (demographics 2000 houston thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR granule",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "G3552501622-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "demographics-2000-houston-thumbnail.jpg-2": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/pend/pend-summary-file1-2000-houston-msa/demographics-2000-houston-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version (demographics 2000 houston thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "demographics-2000-houston.png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/pend/pend-summary-file1-2000-houston-msa/demographics-2000-houston.png",
+      "type": "image/png",
+      "title": "Map image — U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version (demographics 2000 houston)",
+      "description": "Houston, TX Metropolitan Area Demographics map in PNG format from the U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR granule",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "G3552501622-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "metadata-package-for-u.s.-population-grids-summary-file-1-2000-houston-metropolitan-statis": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14202216",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version",
       "roles": [
         "data"
       ],
@@ -204,10 +254,33 @@
       "ciesin:source_identifier": "14202216",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "h4qj7f75": {
-      "href": "https://doi.org/10.7927/H4QJ7F75",
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540909166-ESDIS",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1177/0022343310378914",
+      "title": "NASA Earthdata granule search — U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540909166-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/pend-summary-file1-2000-houston-msa/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/pend-summary-file1-2000-houston-msa/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -218,7 +291,18 @@
     "h400001d": {
       "href": "https://doi.org/10.7927/H400001D",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H45T3HFZ",
+      "title": "Related Publication: U.S. Population Grids (Summary File 1), 2000: Alabama, Louisiana, Mississippi and Texas, Alpha Version. Seirup, L., and G. Yetman. NASA Socioeconomic Data and Applications Center (SEDAC). 2005",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4qj7f75": {
+      "href": "https://doi.org/10.7927/H4QJ7F75",
+      "type": "text/html",
+      "title": "Related Publication: U.S. Population Grids (Summary File 1), 2000: New Orleans Metropolitan Statistical Area, Alpha Version. Seirup, L., and G. Yetman. NASA Socioeconomic Data and Applications Center (SEDAC). 2005",
       "roles": [
         "metadata"
       ],
@@ -229,7 +313,7 @@
     "h4ks6phf": {
       "href": "https://doi.org/10.7927/H4KS6PHF",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4222RQJ",
+      "title": "Related Publication: U.S. Population Grids (Summary File 3), 2000: Alabama, Louisiana, and Mississippi, Alpha Version. Seirup, L., and G. Yetman. NASA Socioeconomic Data and Applications Center (SEDAC). 2005",
       "roles": [
         "metadata"
       ],
@@ -240,7 +324,7 @@
     "h4g15xs1": {
       "href": "https://doi.org/10.7927/H4G15XS1",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.3390/rs70201855",
+      "title": "Related Publication: U.S. Population Grids (Summary File 3), 2000: New Orleans Metropolitan Statistical Area, Alpha Version. Seirup, L., and G. Yetman. NASA Socioeconomic Data and Applications Center (SEDAC). 2005",
       "roles": [
         "metadata"
       ],
@@ -248,27 +332,54 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "ua_tgr2k.html": {
-      "href": "http://www.census.gov/geo/www/tiger/tigerua/ua_tgr2k.html",
+    "84mmqy": {
+      "href": "https://doi.org/10.7910/DVN/84MMQY",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4X9287N",
+      "title": "U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "Harvard Dataverse DOI",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "10.7910/DVN/84MMQY",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "sumfile1.html": {
-      "href": "http://www.census.gov/Press-Release/www/2001/sumfile1.html",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4SJ1HHX",
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F84MMQY",
+      "type": "application/xhtml+xml",
+      "title": "U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version — Harvard Dataverse record",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "Harvard Dataverse record",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "10.7910/DVN/84MMQY",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4v985zg": {
+      "href": "https://doi.org/10.7927/H4V985ZG",
+      "type": "text/html",
+      "title": "U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version — NASA CMR DOI",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI; NASA CMR granule",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4V985ZG; G3552501622-ESDIS",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi; exact DOI lookup"
+    },
+    "c3540909166-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540909166-ESDIS",
+      "type": "text/html",
+      "title": "U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4V985ZG",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

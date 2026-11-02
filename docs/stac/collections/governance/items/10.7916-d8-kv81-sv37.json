@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8-kv81-sv37",
   "collection": "governance",
@@ -42,6 +41,7 @@
       }
     ],
     "sci:doi": "10.7916/d8-kv81-sv37",
+    "sci:citation": "Downs, Robert R., & Lehnert, Kerstin A. (2020). Opportunities for Sharing Resources Among Research Data Repositories. Columbia University. https://doi.org/10.7916/d8-kv81-sv37",
     "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
@@ -55,6 +55,9 @@
     "ciesin:authors": [
       "Downs, Robert R.",
       "Lehnert, Kerstin A."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -94,7 +97,7 @@
     "d8-kv81-sv37": {
       "href": "https://doi.org/10.7916/d8-kv81-sv37",
       "type": "text/html",
-      "title": "DOI 10.7916/d8-kv81-sv37",
+      "title": "Opportunities for Sharing Resources Among Research Data Repositories — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -102,19 +105,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8-kv81-sv37",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "rda-vp16downsoppsharingresourcesamongdatarepo20201109": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-9ph2-wy94/download",
-      "type": "application/pdf",
-      "title": "RDA-VP16DownsOppSharingResourcesAmongDataRepo20201109.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 888549,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/d8-9ph2-wy94/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

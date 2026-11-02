@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-1fwh-9t75",
   "collection": "sustainability",
@@ -48,6 +47,7 @@
       }
     ],
     "sci:doi": "10.7916/1fwh-9t75",
+    "sci:citation": "Thalheimer, Lisa, Cottier, Fabien, Kruczkiewicz, Andrew J., Hultquist, Carolynne, Tuholske, Cascade, Benveniste, Hélène, … Horton, Radley M. (2025). Prioritizing involuntary immobility in climate policy and disaster planning. Columbia University. https://doi.org/10.7916/1fwh-9t75",
     "ciesin:resource_type": "article",
     "ciesin:category": "Sustainability",
     "ciesin:tags": [
@@ -73,6 +73,9 @@
       "Zimmer, Andrew",
       "De Sherbinin, Alexander M.",
       "Horton, Radley M."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -112,7 +115,7 @@
     "1fwh-9t75": {
       "href": "https://doi.org/10.7916/1fwh-9t75",
       "type": "text/html",
-      "title": "DOI 10.7916/1fwh-9t75",
+      "title": "Prioritizing involuntary immobility in climate policy and disaster planning — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -120,19 +123,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/1fwh-9t75",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "s41467-025-57679-9": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/22nx-gd76/download",
-      "type": "application/pdf",
-      "title": "s41467-025-57679-9.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 1225591,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/22nx-gd76/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

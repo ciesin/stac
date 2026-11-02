@@ -177,31 +177,20 @@
     }
   ],
   "assets": {
-    "h49021pw": {
-      "href": "https://doi.org/10.7927/H49021PW",
-      "type": "text/html",
-      "title": "DOI 10.7927/H49021PW",
+    "ndh-synthesis-report-general-documentation.pdf": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — ndh synthesis report general documentation",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H49021PW",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3550189781-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "tcehxi": {
-      "href": "https://doi.org/10.7910/DVN/TCEHXI",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/TCEHXI",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Harvard Dataverse DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/TCEHXI",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
-    },
-    "11804887": {
+    "gdlndgdp.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11804887",
       "type": "application/zip",
       "title": "gdlndgdp.zip",
@@ -214,10 +203,69 @@
       "ciesin:source_identifier": "11804887",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14201957": {
+    "tcehxi": {
+      "href": "https://doi.org/10.7910/DVN/TCEHXI",
+      "type": "text/html",
+      "title": "Global Landslide Total Economic Loss Risk Deciles — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/TCEHXI",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FTCEHXI",
+      "type": "application/xhtml+xml",
+      "title": "Global Landslide Total Economic Loss Risk Deciles — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/TCEHXI",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h49021pw": {
+      "href": "https://doi.org/10.7927/H49021PW",
+      "type": "text/html",
+      "title": "Global Landslide Total Economic Loss Risk Deciles — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H49021PW",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550189781-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550189781-ESDIS",
+      "type": "text/html",
+      "title": "Global Landslide Total Economic Loss Risk Deciles — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H49021PW",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "landslide-total-economic-loss-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ndh/ndh-landslide-total-economic-loss-risk-deciles/landslide-total-economic-loss-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Landslide Total Economic Loss Risk Deciles (landslide total economic loss thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-landslide-total-economic-loss-risk-deciles": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14201957",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Landslide Total Economic Loss Risk Deciles",
       "roles": [
         "data"
       ],
@@ -227,45 +275,34 @@
       "ciesin:source_identifier": "14201957",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3550189781-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550189781-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H49021PW",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550189781-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Global Landslide Total Economic Loss Risk Deciles",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550189781-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H49021PW",
+      "ciesin:source_identifier": "C3550189781-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "wdi2000": {
-      "href": "http://www.worldbank.org/data/wdi2000",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-landslide-total-economic-loss-risk-deciles/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H44Q7RWV",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "XML data link",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "natural-disaster-hotspots-a-global-risk-analysis": {
-      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-landslide-total-economic-loss-risk-deciles/maps",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H40Z715X",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -276,7 +313,7 @@
     "h4p848vz": {
       "href": "https://doi.org/10.7927/H4P848VZ",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4W66HPJ",
+      "title": "Related Publication: Global Landslide Hazard Distribution. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and Norwegian Geotechnical Institute - NGI; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -287,7 +324,7 @@
     "h4jh3j4n": {
       "href": "https://doi.org/10.7927/H4JH3J4N",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1038/nature02619",
+      "title": "Related Publication: Global Landslide Mortality Risks and Distribution. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -298,7 +335,7 @@
     "h4dr2sdx": {
       "href": "https://doi.org/10.7927/H4DR2SDX",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H48G8HMK",
+      "title": "Related Publication: Global Landslide Proportional Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -306,49 +343,31 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "the-world-factbook": {
-      "href": "https://www.cia.gov/library/publications/the-world-factbook/",
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-landslide-total-economic-loss-risk-deciles/maps/services",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H44Q7RWV",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ndh-landslide-total-economic-loss-risk-deciles/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ndh-landslide-total-economic-loss-risk-deciles/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "C3550189781-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     },
-    "www.nga.mil": {
-      "href": "http://www.nga.mil",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H40Z715X",
+    "ndh-citation2.txt": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "glcc.asp": {
-      "href": "http://edcdaac.usgs.gov/glcc/glcc.asp",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1038/sdata.2016.34",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4639mpp": {
-      "href": "https://doi.org/10.7927/H4639MPP",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.3390/rs9060566",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "C3550189781-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

@@ -30,6 +30,7 @@
       }
     ],
     "sci:doi": "10.7916/d8hx19rz",
+    "sci:citation": "Downs, Robert R. (2014). Workflow for Evaluating SEDAC Data for Dissemination. Columbia University. https://doi.org/10.7916/d8hx19rz",
     "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
@@ -42,6 +43,9 @@
     ],
     "ciesin:authors": [
       "Downs, Robert R."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -78,18 +82,6 @@
     }
   ],
   "assets": {
-    "d8hx19rz": {
-      "href": "https://doi.org/10.7916/d8hx19rz",
-      "type": "text/html",
-      "title": "DOI 10.7916/d8hx19rz",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/d8hx19rz",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
     "downsworkflowevalsedacdatafinal20140318.pdf": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/D8WS92SK/download",
       "type": "application/pdf",
@@ -99,9 +91,21 @@
       ],
       "file:size": 391227,
       "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/D8WS92SK/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "d8hx19rz": {
+      "href": "https://doi.org/10.7916/d8hx19rz",
+      "type": "text/html",
+      "title": "Workflow for Evaluating SEDAC Data for Dissemination — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8hx19rz",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     }
   }
 }

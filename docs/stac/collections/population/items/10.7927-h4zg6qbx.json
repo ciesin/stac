@@ -556,22 +556,10 @@
     }
   ],
   "assets": {
-    "h4zg6qbx": {
-      "href": "https://doi.org/10.7927/H4ZG6QBX",
-      "type": "text/html",
-      "title": "DOI 10.7927/H4ZG6QBX",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4ZG6QBX",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
     "lmcqgx": {
       "href": "https://doi.org/10.7910/DVN/LMCQGX",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/LMCQGX",
+      "title": "Historical Urban Population: 3700 BC - AD 2000 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -580,10 +568,57 @@
       "ciesin:source_identifier": "10.7910/DVN/LMCQGX",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14222260": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FLMCQGX",
+      "type": "application/xhtml+xml",
+      "title": "Historical Urban Population: 3700 BC - AD 2000 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/LMCQGX",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4zg6qbx": {
+      "href": "https://doi.org/10.7927/H4ZG6QBX",
+      "type": "text/html",
+      "title": "Historical Urban Population: 3700 BC - AD 2000 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4ZG6QBX",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550192384-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192384-ESDIS",
+      "type": "text/html",
+      "title": "Historical Urban Population: 3700 BC - AD 2000 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4ZG6QBX",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "urbanspatial-hist-urban-pop-3700bc-ad2000-number-records-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/urbanspatial/urbanspatial-hist-urban-pop-3700bc-ad2000/urbanspatial-hist-urban-pop-3700bc-ad2000-number-records-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Historical Urban Population: 3700 BC - AD 2000 (urbanspatial hist urban pop 3700bc ad2000 number records thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-historical-urban-population-3700-bc---ad-2000": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222260",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Historical Urban Population: 3700 BC - AD 2000",
       "roles": [
         "data"
       ],
@@ -593,7 +628,66 @@
       "ciesin:source_identifier": "14222260",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815396": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192384-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Historical Urban Population: 3700 BC - AD 2000",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550192384-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550192384-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/urbanspatial-hist-urban-pop-3700bc-ad2000/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/urbanspatial-hist-urban-pop-3700bc-ad2000/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "sdata.2016.34": {
+      "href": "https://doi.org/10.1038/sdata.2016.34",
+      "type": "text/html",
+      "title": "Related Publication: Spatializing 6,000 Years of Global Urbanization from 3700 BC to AD 2000. Reba, M. L., F. Reitsma, and K. C. Seto. 2016",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "urbanspatial-hist-urban-pop-3700bc-ad2000-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/urbanspatial-hist-urban-pop-3700bc-ad2000-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/urbanspatial-hist-urban-pop-3700bc-ad2000-citation2.txt",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/urbanspatial-hist-urban-pop-3700bc-ad2000-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550192384-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815396",
       "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "title": "urbanspatial-hist-urban-pop-3700bc-ad2000-xlsx.xlsx",
@@ -605,53 +699,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "11815396",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3550192384-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192384-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4ZG6QBX",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "urbanspatial-hist-urban-pop-3700bc-ad2000-citation2.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/urbanspatial-hist-urban-pop-3700bc-ad2000-citation2.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4ZG6QBX",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192384-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4ZG6QBX",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "sdata.2016.34": {
-      "href": "https://doi.org/10.1038/sdata.2016.34",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4QJ7F75",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

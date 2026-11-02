@@ -167,31 +167,20 @@
     }
   ],
   "assets": {
-    "h4vx0dft": {
-      "href": "https://doi.org/10.7927/H4VX0DFT",
-      "type": "text/html",
-      "title": "DOI 10.7927/H4VX0DFT",
+    "ndh-synthesis-report-general-documentation.pdf": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — ndh synthesis report general documentation",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4VX0DFT",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3550185878-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "triljn": {
-      "href": "https://doi.org/10.7910/DVN/TRILJN",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/TRILJN",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Harvard Dataverse DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/TRILJN",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
-    },
-    "11787127": {
+    "gddrg.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787127",
       "type": "application/zip",
       "title": "gddrg.zip",
@@ -204,10 +193,69 @@
       "ciesin:source_identifier": "11787127",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14201818": {
+    "triljn": {
+      "href": "https://doi.org/10.7910/DVN/TRILJN",
+      "type": "text/html",
+      "title": "Global Drought Hazard Frequency and Distribution — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/TRILJN",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FTRILJN",
+      "type": "application/xhtml+xml",
+      "title": "Global Drought Hazard Frequency and Distribution — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/TRILJN",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4vx0dft": {
+      "href": "https://doi.org/10.7927/H4VX0DFT",
+      "type": "text/html",
+      "title": "Global Drought Hazard Frequency and Distribution — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4VX0DFT",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550185878-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550185878-ESDIS",
+      "type": "text/html",
+      "title": "Global Drought Hazard Frequency and Distribution — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4VX0DFT",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "drought-frequency-distribution-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ndh/ndh-drought-hazard-frequency-distribution/drought-frequency-distribution-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Drought Hazard Frequency and Distribution (drought frequency distribution thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-drought-hazard-frequency-and-distribution": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14201818",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Drought Hazard Frequency and Distribution",
       "roles": [
         "data"
       ],
@@ -217,34 +265,23 @@
       "ciesin:source_identifier": "14201818",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3550185878-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550185878-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4VX0DFT",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550185878-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Global Drought Hazard Frequency and Distribution",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550185878-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4VX0DFT",
+      "ciesin:source_identifier": "C3550185878-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "natural-disaster-hotspots-a-global-risk-analysis": {
-      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-drought-hazard-frequency-distribution/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4ZP4415",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -252,10 +289,10 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "h4gq6vp4": {
-      "href": "https://doi.org/10.7927/H4GQ6VP4",
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-drought-hazard-frequency-distribution/maps",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4639MPP",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -266,7 +303,7 @@
     "h4r49nqv": {
       "href": "https://doi.org/10.7927/H4R49NQV",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/fjvb-6q59",
+      "title": "Related Publication: Global Drought Mortality Risks and Distribution. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -277,7 +314,7 @@
     "h4mg7mdv": {
       "href": "https://doi.org/10.7927/H4MG7MDV",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1175/2009EI288.1",
+      "title": "Related Publication: Global Drought Proportional Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -285,16 +322,42 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "wasp_indices.html": {
-      "href": "http://ingrid.ldeo.columbia.edu/maproom/.Global/.Precipitation/WASP_Indices.html",
+    "h4gq6vp4": {
+      "href": "https://doi.org/10.7927/H4GQ6VP4",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4KH0K81",
+      "title": "Related Publication: Global Drought Total Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-drought-hazard-frequency-distribution/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ndh-drought-hazard-frequency-distribution/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ndh-drought-hazard-frequency-distribution/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550185878-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
+    "ndh-citation2.txt": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550185878-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

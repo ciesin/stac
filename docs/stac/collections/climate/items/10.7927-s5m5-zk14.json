@@ -116,7 +116,7 @@
       "NASA Socioeconomic Data and Applications Center (SEDAC)"
     ],
     "ciesin:place": [
-      "Global"
+      "Palisades, NY"
     ],
     "ciesin:purpose": "To provide global estimates of the surface urban heat island intensity from monthly, seasonal, to annual scales for over 10,000 urban clusters developed using a simplified urban-extent algorithm.",
     "ciesin:publication_date": "2023-09-07T00:00:00Z",
@@ -169,34 +169,34 @@
     }
   ],
   "assets": {
-    "s5m5-zk14": {
-      "href": "https://doi.org/10.7927/S5M5-ZK14",
+    "bb9y-9h12": {
+      "href": "https://doi.org/10.7927/bb9y-9h12",
       "type": "text/html",
-      "title": "DOI 10.7927/S5M5-ZK14",
+      "title": "Dataset documentation — Yale Center for Earth Observation (YCEO) Surface Urban Heat Islands, Version 4, 2003-2018",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/S5M5-ZK14",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:asset_match_basis": "inventory XML location"
     },
-    "8zqynd": {
-      "href": "https://doi.org/10.7910/DVN/8ZQYND",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/8ZQYND",
+    "sdei-yceo-sfc-uhi-v4-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-yceo-sfc-uhi-v4-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — sdei yceo sfc uhi v4 documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-yceo-sfc-uhi-v4-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/8ZQYND",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+      "ciesin:source_identifier": "C3540909284-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14222222": {
+    "metadata-package-for-yale-center-for-earth-observation-yceo-surface-urban-heat-islands-ver": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222222",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Yale Center for Earth Observation (YCEO) Surface Urban Heat Islands, Version 4, 2003-2018",
       "roles": [
         "data"
       ],
@@ -206,7 +206,31 @@
       "ciesin:source_identifier": "14222222",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11844863": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540909284-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Yale Center for Earth Observation (YCEO) Surface Urban Heat Islands, Version 4, 2003-2018",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540909284-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540909284-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-yceo-sfc-uhi-v4/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "sdei-yceo-sfc-uhi-v4-summer-uhi-yearly-pixel-2003-2018-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11844863",
       "type": "application/zip",
       "title": "sdei-yceo-sfc-uhi-v4-summer-uhi-yearly-pixel-2003-2018-geotiff.zip",
@@ -219,7 +243,7 @@
       "ciesin:source_identifier": "11844863",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11844858": {
+    "sdei-yceo-sfc-uhi-v4-uhi-all-averaged-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11844858",
       "type": "application/zip",
       "title": "sdei-yceo-sfc-uhi-v4-uhi-all-averaged-geotiff.zip",
@@ -232,7 +256,7 @@
       "ciesin:source_identifier": "11844858",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11844861": {
+    "sdei-yceo-sfc-uhi-v4-uhi-monthly-averaged-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11844861",
       "type": "application/zip",
       "title": "sdei-yceo-sfc-uhi-v4-uhi-monthly-averaged-geotiff.zip",
@@ -245,7 +269,7 @@
       "ciesin:source_identifier": "11844861",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11844862": {
+    "sdei-yceo-sfc-uhi-v4-uhi-yearly-averaged-2003-2018-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11844862",
       "type": "application/zip",
       "title": "sdei-yceo-sfc-uhi-v4-uhi-yearly-averaged-2003-2018-geotiff.zip",
@@ -258,7 +282,7 @@
       "ciesin:source_identifier": "11844862",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11844857": {
+    "sdei-yceo-sfc-uhi-v4-uhi-yearly-pixel-2003-2018-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11844857",
       "type": "application/zip",
       "title": "sdei-yceo-sfc-uhi-v4-uhi-yearly-pixel-2003-2018-geotiff.zip",
@@ -271,7 +295,7 @@
       "ciesin:source_identifier": "11844857",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11844859": {
+    "sdei-yceo-sfc-uhi-v4-urban-cluster-means-shp.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11844859",
       "type": "application/zipped-shapefile",
       "title": "sdei-yceo-sfc-uhi-v4-urban-cluster-means-shp.zip",
@@ -284,7 +308,7 @@
       "ciesin:source_identifier": "11844859",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11844860": {
+    "sdei-yceo-sfc-uhi-v4-winter-uhi-yearly-pixel-2003-2018-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11844860",
       "type": "application/zip",
       "title": "sdei-yceo-sfc-uhi-v4-winter-uhi-yearly-pixel-2003-2018-geotiff.zip",
@@ -297,10 +321,46 @@
       "ciesin:source_identifier": "11844860",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
+    "8zqynd": {
+      "href": "https://doi.org/10.7910/DVN/8ZQYND",
+      "type": "text/html",
+      "title": "Yale Center for Earth Observation (YCEO) Surface Urban Heat Islands, Version 4, 2003-2018 — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/8ZQYND",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F8ZQYND",
+      "type": "application/xhtml+xml",
+      "title": "Yale Center for Earth Observation (YCEO) Surface Urban Heat Islands, Version 4, 2003-2018 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/8ZQYND",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "s5m5-zk14": {
+      "href": "https://doi.org/10.7927/S5M5-ZK14",
+      "type": "text/html",
+      "title": "Yale Center for Earth Observation (YCEO) Surface Urban Heat Islands, Version 4, 2003-2018 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/S5M5-ZK14",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
     "c3540909284-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540909284-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Yale Center for Earth Observation (YCEO) Surface Urban Heat Islands, Version 4, 2003-2018 — NASA CMR record",
       "roles": [
         "metadata"
       ],
@@ -308,63 +368,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7927/S5M5-ZK14",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "sdei-yceo-sfc-uhi-v4-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-yceo-sfc-uhi-v4-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/S5M5-ZK14",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540909284-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/S5M5-ZK14",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "j.jag.2018.09.015": {
-      "href": "https://doi.org/10.1016/j.jag.2018.09.015",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4R20Z93",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "global-surface-uhi-explorer": {
-      "href": "https://yceo.yale.edu/research/global-surface-uhi-explorer",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4M906KR",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "bb9y-9h12": {
-      "href": "https://doi.org/10.7927/bb9y-9h12",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4GH9FVG",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

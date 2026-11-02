@@ -73,6 +73,12 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network"
     ],
+    "ciesin:publishers": [
+      "GRID3"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 ETH - Settlement Extents v3.0 consists of a geographic representation of settlements in Ethiopia, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Both layers include attributes as described in the codebooks. Data inputs and methodology are described in data release notes.",
     "ciesin:publication_date": "2024-09-30T00:00:00Z",
     "ciesin:additional_resources": [
@@ -114,19 +120,33 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-eth---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/gz48-7g67/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 ETH - Settlement Extents v3.0",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "file:size": 17326364,
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/gz48-7g67/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
     "2hhy-yd24": {
       "href": "https://doi.org/10.7916/2HHY-YD24",
       "type": "text/html",
-      "title": "DOI 10.7916/2HHY-YD24",
+      "title": "GRID3 ETH - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/2HHY-YD24",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3_eth_settlement_extents_v3_0": {
+    "grid3_eth_settlement_extents_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/semw-3a05/download",
       "type": "application/zip",
       "title": "GRID3_ETH_settlement_extents_v3_0.zip",
@@ -134,12 +154,12 @@
         "data"
       ],
       "file:size": 1000554298,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/semw-3a05/download",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     },
-    "download-2": {
+    "grid3_eth_settlement_grid_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/nhwr-5c33/download",
       "type": "application/zip",
       "title": "GRID3_ETH_settlement_grid_v3_0.zip",
@@ -147,45 +167,10 @@
         "data"
       ],
       "file:size": 470296387,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/nhwr-5c33/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/gz48-7g67/download",
-      "type": "application/pdf",
-      "title": "GRID3 ETH - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 17326364,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/gz48-7g67/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "pp90-a718": {
-      "href": "https://doi.org/10.7916/pp90-a718",
-      "type": "text/html",
-      "title": "GRID3 ETH - Settlement Extents v2.0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "2hhy-yd24-2": {
-      "href": "https://doi.org/doi:10.7916/2hhy-yd24",
-      "type": "text/html",
-      "title": "2hhy-yd24",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

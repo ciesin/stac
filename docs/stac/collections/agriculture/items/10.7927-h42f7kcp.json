@@ -179,31 +179,20 @@
     }
   ],
   "assets": {
-    "h42f7kcp": {
-      "href": "https://doi.org/10.7927/H42F7KCP",
-      "type": "text/html",
-      "title": "DOI 10.7927/H42F7KCP",
+    "ndh-synthesis-report-general-documentation.pdf": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — ndh synthesis report general documentation",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H42F7KCP",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3550185779-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "igirmv": {
-      "href": "https://doi.org/10.7910/DVN/IGIRMV",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/IGIRMV",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Harvard Dataverse DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/IGIRMV",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
-    },
-    "11787234": {
+    "gdfldmrt.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787234",
       "type": "application/zip",
       "title": "gdfldmrt.zip",
@@ -216,10 +205,69 @@
       "ciesin:source_identifier": "11787234",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14201876": {
+    "igirmv": {
+      "href": "https://doi.org/10.7910/DVN/IGIRMV",
+      "type": "text/html",
+      "title": "Global Flood Mortality Risks and Distribution — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/IGIRMV",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FIGIRMV",
+      "type": "application/xhtml+xml",
+      "title": "Global Flood Mortality Risks and Distribution — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/IGIRMV",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h42f7kcp": {
+      "href": "https://doi.org/10.7927/H42F7KCP",
+      "type": "text/html",
+      "title": "Global Flood Mortality Risks and Distribution — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H42F7KCP",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550185779-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550185779-ESDIS",
+      "type": "text/html",
+      "title": "Global Flood Mortality Risks and Distribution — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H42F7KCP",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "flood-mortality-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ndh/ndh-flood-mortality-risks-distribution/flood-mortality-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Flood Mortality Risks and Distribution (flood mortality thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-flood-mortality-risks-and-distribution": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14201876",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Flood Mortality Risks and Distribution",
       "roles": [
         "data"
       ],
@@ -229,45 +277,34 @@
       "ciesin:source_identifier": "14201876",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3550185779-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550185779-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H42F7KCP",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550185779-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Global Flood Mortality Risks and Distribution",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550185779-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H42F7KCP",
+      "ciesin:source_identifier": "C3550185779-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "wdi2000": {
-      "href": "http://www.worldbank.org/data/wdi2000",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-flood-mortality-risks-distribution/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4TX3C9F",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "ciesin:source": "XML data link",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "natural-disaster-hotspots-a-global-risk-analysis": {
-      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-flood-mortality-risks-distribution/maps",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4T151KP",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -278,18 +315,7 @@
     "h4668b3d": {
       "href": "https://doi.org/10.7927/H4668B3D",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H49021PW",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4t151kp": {
-      "href": "https://doi.org/10.7927/H4T151KP",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4ZK5DMF",
+      "title": "Related Publication: Global Flood Hazard Frequency and Distribution. Center for Hazards and Risk Research - CHRR - Columbia University, and Center for International Earth Science Information Network - CIESIN - Columbia University; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -300,7 +326,7 @@
     "h4xs5s9q": {
       "href": "https://doi.org/10.7927/H4XS5S9Q",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4639MPP",
+      "title": "Related Publication: Global Flood Proportional Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -308,10 +334,10 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "the-world-factbook": {
-      "href": "https://www.cia.gov/library/publications/the-world-factbook/",
+    "h4t151kp": {
+      "href": "https://doi.org/10.7927/H4T151KP",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1088/1748-9326/11/8/084003",
+      "title": "Related Publication: Global Flood Total Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -319,38 +345,31 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "www.nga.mil": {
-      "href": "http://www.nga.mil",
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-flood-mortality-risks-distribution/maps/services",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1038/s41467-020-15788-7",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ndh-flood-mortality-risks-distribution/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ndh-flood-mortality-risks-distribution/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "C3550185779-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     },
-    "glcc.asp": {
-      "href": "http://edcdaac.usgs.gov/glcc/glcc.asp",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1111/j.1466-8238.2010.00587.x",
+    "ndh-citation2.txt": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4639mpp": {
-      "href": "https://doi.org/10.7927/H4639MPP",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1177/0959683609356587",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "C3550185779-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

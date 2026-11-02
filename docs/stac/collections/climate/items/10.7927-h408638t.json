@@ -189,22 +189,34 @@
     }
   ],
   "assets": {
-    "h408638t": {
-      "href": "https://doi.org/10.7927/H408638T",
+    "h48c9t68": {
+      "href": "https://doi.org/10.7927/H48C9T68",
       "type": "text/html",
-      "title": "DOI 10.7927/H408638T",
+      "title": "Dataset documentation — Global Summer Land Surface Temperature (LST) Grids, 2013",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H408638T",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "sdei-global-summer-lst-2013-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-global-summer-lst-2013-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — sdei global summer lst 2013 documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-global-summer-lst-2013-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550194059-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "9hhhsn": {
       "href": "https://doi.org/10.7910/DVN/9HHHSN",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/9HHHSN",
+      "title": "Global Summer Land Surface Temperature (LST) Grids, 2013 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -213,10 +225,57 @@
       "ciesin:source_identifier": "10.7910/DVN/9HHHSN",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14222216": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F9HHHSN",
+      "type": "application/xhtml+xml",
+      "title": "Global Summer Land Surface Temperature (LST) Grids, 2013 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/9HHHSN",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h408638t": {
+      "href": "https://doi.org/10.7927/H408638T",
+      "type": "text/html",
+      "title": "Global Summer Land Surface Temperature (LST) Grids, 2013 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H408638T",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550194059-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550194059-ESDIS",
+      "type": "text/html",
+      "title": "Global Summer Land Surface Temperature (LST) Grids, 2013 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H408638T",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-global-summer-lst-grids-2013-day-max-global-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-global-summer-lst-2013/sdei-global-summer-lst-grids-2013-day-max-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Summer Land Surface Temperature (LST) Grids, 2013 (sdei global summer lst grids 2013 day max global thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-summer-land-surface-temperature-lst-grids-2013": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222216",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Summer Land Surface Temperature (LST) Grids, 2013",
       "roles": [
         "data"
       ],
@@ -226,7 +285,66 @@
       "ciesin:source_identifier": "14222216",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808881": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550194059-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global Summer Land Surface Temperature (LST) Grids, 2013",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550194059-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550194059-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-summer-lst-2013/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-summer-lst-2013/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4h70crf": {
+      "href": "https://doi.org/10.7927/H4H70CRF",
+      "type": "text/html",
+      "title": "Related Publication: Global Urban Heat Island (UHI) Data Set, 2013. Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2016",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-summer-lst-2013/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/sdei-global-summer-lst-2013/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/sdei-global-summer-lst-2013/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550194059-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
+    "sdei-global-summer-lst-2013-africa.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808881",
       "type": "application/zip",
       "title": "sdei-global-summer-lst-2013-africa.zip",
@@ -239,7 +357,7 @@
       "ciesin:source_identifier": "11808881",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808880": {
+    "sdei-global-summer-lst-2013-americas.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808880",
       "type": "application/zip",
       "title": "sdei-global-summer-lst-2013-americas.zip",
@@ -252,7 +370,7 @@
       "ciesin:source_identifier": "11808880",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808883": {
+    "sdei-global-summer-lst-2013-asia.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808883",
       "type": "application/zip",
       "title": "sdei-global-summer-lst-2013-asia.zip",
@@ -265,7 +383,7 @@
       "ciesin:source_identifier": "11808883",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808882": {
+    "sdei-global-summer-lst-2013-europe.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808882",
       "type": "application/zip",
       "title": "sdei-global-summer-lst-2013-europe.zip",
@@ -278,7 +396,7 @@
       "ciesin:source_identifier": "11808882",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808878": {
+    "sdei-global-summer-lst-2013-global.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808878",
       "type": "application/zip",
       "title": "sdei-global-summer-lst-2013-global.zip",
@@ -291,7 +409,7 @@
       "ciesin:source_identifier": "11808878",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808879": {
+    "sdei-global-summer-lst-2013-oceania.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808879",
       "type": "application/zip",
       "title": "sdei-global-summer-lst-2013-oceania.zip",
@@ -303,75 +421,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "11808879",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3550194059-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550194059-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H408638T",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "sdei-global-summer-lst-2013-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-global-summer-lst-2013-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H408638T",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550194059-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H408638T",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "h408638t-2": {
-      "href": "http://doi.org/10.7927/H408638T",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4PZ56R2",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4h70crf": {
-      "href": "https://doi.org/10.7927/H4H70CRF",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H49P2ZKM",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h48c9t68": {
-      "href": "https://doi.org/10.7927/H48C9T68",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H45X26V8",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

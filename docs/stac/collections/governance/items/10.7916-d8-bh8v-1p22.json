@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8-bh8v-1p22",
   "collection": "governance",
@@ -24,6 +23,7 @@
       }
     ],
     "sci:doi": "10.7916/d8-bh8v-1p22",
+    "sci:citation": "Downs, Robert R. (2021). Collaboration in the Earth Science Data System Working Groups (ESDSWG). Columbia University. https://doi.org/10.7916/d8-bh8v-1p22",
     "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
@@ -36,6 +36,9 @@
     ],
     "ciesin:authors": [
       "Downs, Robert R."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -74,7 +77,7 @@
     "d8-bh8v-1p22": {
       "href": "https://doi.org/10.7916/d8-bh8v-1p22",
       "type": "text/html",
-      "title": "DOI 10.7916/d8-bh8v-1p22",
+      "title": "Collaboration in the Earth Science Data System Working Groups (ESDSWG) — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -82,19 +85,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8-bh8v-1p22",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "downscollaborationesdswg20210813": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-fkpn-k076/download",
-      "type": "application/pdf",
-      "title": "DownsCollaborationESDSWG20210813.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 85830,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/d8-fkpn-k076/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

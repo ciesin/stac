@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8s75tpc",
   "collection": "hazards",
@@ -30,6 +29,7 @@
       }
     ],
     "sci:doi": "10.7916/d8s75tpc",
+    "sci:citation": "De Sherbinin, Alexander M. (2013). Climate change hotspots mapping: what have we learned?. Columbia University. https://doi.org/10.7916/d8s75tpc",
     "ciesin:resource_type": "article",
     "ciesin:category": "Hazards",
     "ciesin:tags": [
@@ -42,6 +42,9 @@
     ],
     "ciesin:authors": [
       "De Sherbinin, Alexander M."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -81,7 +84,7 @@
     "d8s75tpc": {
       "href": "https://doi.org/10.7916/d8s75tpc",
       "type": "text/html",
-      "title": "DOI 10.7916/d8s75tpc",
+      "title": "Climate change hotspots mapping: what have we learned? — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -89,19 +92,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8s75tpc",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "desherbinin_2013_cchotspots_climaticchange": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D86H4VTP/download",
-      "type": "application/pdf",
-      "title": "deSherbinin_2013_CCHotspots_ClimaticChange.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 3705823,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D86H4VTP/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

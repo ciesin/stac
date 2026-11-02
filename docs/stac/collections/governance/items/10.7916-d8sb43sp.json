@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8sb43sp",
   "collection": "governance",
@@ -30,6 +29,7 @@
       }
     ],
     "sci:doi": "10.7916/d8sb43sp",
+    "sci:citation": "Downs, Robert R., Giaretta, David, & Hughes, J. Steven (2014). Policy Recommendations for Institutions to Serve as Trustworthy Stewards of Research Data. Columbia University. https://doi.org/10.7916/d8sb43sp",
     "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
@@ -44,6 +44,9 @@
       "Downs, Robert R.",
       "Giaretta, David",
       "Hughes, J. Steven"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -83,7 +86,7 @@
     "d8sb43sp": {
       "href": "https://doi.org/10.7916/d8sb43sp",
       "type": "text/html",
-      "title": "DOI 10.7916/d8sb43sp",
+      "title": "Policy Recommendations for Institutions to Serve as Trustworthy Stewards of Research Data — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -91,19 +94,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8sb43sp",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "downsgiarettahughes2014policyrecforinstfinal20140326": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8T15C5H/download",
-      "type": "application/pdf",
-      "title": "DownsGiarettaHughes2014PolicyRecforInstFinal20140326.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 564255,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8T15C5H/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

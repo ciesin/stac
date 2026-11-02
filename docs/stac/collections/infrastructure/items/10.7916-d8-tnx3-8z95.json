@@ -30,6 +30,7 @@
       }
     ],
     "sci:doi": "10.7916/d8-tnx3-8z95",
+    "sci:citation": "Ministère de la Santé Publique, République Démocratique du Congo (2020). GRID3 DRC Haut-Lomami and Tanganyika Health Facilities, Version 01 (Beta). Columbia University. https://doi.org/10.7916/d8-tnx3-8z95",
     "version": "1, Beta",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Infrastructure",
@@ -43,6 +44,9 @@
     ],
     "ciesin:authors": [
       "Ministère de la Santé Publique, République Démocratique du Congo"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -81,19 +85,44 @@
     }
   ],
   "assets": {
+    "d8-tnx3-8z95-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-tnx3-8z95#assets-panel",
+      "type": "application/octet-stream",
+      "title": "d8-tnx3-8z95",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/d8-tnx3-8z95",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "datareleasestatement_grid3_-drc_hlt_healthfacilities_v01beta.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-fyaa-r726/download",
+      "type": "application/pdf",
+      "title": "DataReleaseStatement_GRID3_ DRC_HLT_HealthFacilities_V01Beta.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1044513,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/d8-fyaa-r726/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
     "d8-tnx3-8z95": {
       "href": "https://doi.org/10.7916/d8-tnx3-8z95",
       "type": "text/html",
-      "title": "DOI 10.7916/d8-tnx3-8z95",
+      "title": "GRID3 DRC Haut-Lomami and Tanganyika Health Facilities, Version 01 (Beta) — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8-tnx3-8z95",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3_drc_hl_tn_health_facilities_v01_beta": {
+    "grid3_drc_hl_tn_health_facilities_v01_beta.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-xya1-em64/download",
       "type": "application/zip",
       "title": "GRID3_DRC_HL_TN_Health_Facilities_V01_Beta.zip",
@@ -104,19 +133,6 @@
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/d8-xya1-em64/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-fyaa-r726/download",
-      "type": "application/pdf",
-      "title": "DataReleaseStatement_GRID3_ DRC_HLT_HealthFacilities_V01Beta.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 1044513,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/d8-fyaa-r726/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }

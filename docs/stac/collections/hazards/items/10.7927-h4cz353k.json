@@ -164,31 +164,20 @@
     }
   ],
   "assets": {
-    "h4cz353k": {
-      "href": "https://doi.org/10.7927/H4CZ353K",
-      "type": "text/html",
-      "title": "DOI 10.7927/H4CZ353K",
+    "ndh-synthesis-report-general-documentation.pdf": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — ndh synthesis report general documentation",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4CZ353K",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3550190257-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "l9aivp": {
-      "href": "https://doi.org/10.7910/DVN/L9AIVP",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/L9AIVP",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Harvard Dataverse DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/L9AIVP",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
-    },
-    "11769806": {
+    "gdcyc.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11769806",
       "type": "application/zip",
       "title": "gdcyc.zip",
@@ -201,10 +190,69 @@
       "ciesin:source_identifier": "11769806",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14201813": {
+    "l9aivp": {
+      "href": "https://doi.org/10.7910/DVN/L9AIVP",
+      "type": "text/html",
+      "title": "Global Cyclone Hazard Frequency and Distribution — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/L9AIVP",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FL9AIVP",
+      "type": "application/xhtml+xml",
+      "title": "Global Cyclone Hazard Frequency and Distribution — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/L9AIVP",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4cz353k": {
+      "href": "https://doi.org/10.7927/H4CZ353K",
+      "type": "text/html",
+      "title": "Global Cyclone Hazard Frequency and Distribution — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4CZ353K",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550190257-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550190257-ESDIS",
+      "type": "text/html",
+      "title": "Global Cyclone Hazard Frequency and Distribution — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4CZ353K",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "cyclone-frequency-distribution-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ndh/ndh-cyclone-hazard-frequency-distribution/cyclone-frequency-distribution-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Cyclone Hazard Frequency and Distribution (cyclone frequency distribution thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-cyclone-hazard-frequency-and-distribution": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14201813",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Cyclone Hazard Frequency and Distribution",
       "roles": [
         "data"
       ],
@@ -214,34 +262,23 @@
       "ciesin:source_identifier": "14201813",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3550190257-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550190257-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4CZ353K",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550190257-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Global Cyclone Hazard Frequency and Distribution",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550190257-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4CZ353K",
+      "ciesin:source_identifier": "C3550190257-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "natural-disaster-hotspots-a-global-risk-analysis": {
-      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-cyclone-hazard-frequency-distribution/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4GQ6VP4",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -249,10 +286,10 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "h40p0wxq": {
-      "href": "https://doi.org/10.7927/H40P0WXQ",
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-cyclone-hazard-frequency-distribution/maps",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4MG7MDV",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -263,7 +300,7 @@
     "h4862dc5": {
       "href": "https://doi.org/10.7927/H4862DC5",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4639MPP",
+      "title": "Related Publication: Global Cyclone Mortality Risks and Distribution. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -274,7 +311,7 @@
     "h44f1nnf": {
       "href": "https://doi.org/10.7927/H44F1NNF",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4VX0DFT",
+      "title": "Related Publication: Global Cyclone Proportional Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -282,16 +319,42 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "rpi": {
-      "href": "http://www.bbsr.edu/rpi/",
+    "h40p0wxq": {
+      "href": "https://doi.org/10.7927/H40P0WXQ",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4GQ6VP4",
+      "title": "Related Publication: Global Cyclone Total Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-cyclone-hazard-frequency-distribution/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ndh-cyclone-hazard-frequency-distribution/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ndh-cyclone-hazard-frequency-distribution/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550190257-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
+    "ndh-citation2.txt": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550190257-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

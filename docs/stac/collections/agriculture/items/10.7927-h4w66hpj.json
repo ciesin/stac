@@ -166,22 +166,10 @@
     }
   ],
   "assets": {
-    "h4w66hpj": {
-      "href": "https://doi.org/10.7927/H4W66HPJ",
-      "type": "text/html",
-      "title": "DOI 10.7927/H4W66HPJ",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4W66HPJ",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
     "7hhsbi": {
       "href": "https://doi.org/10.7910/DVN/7HHSBI",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/7HHSBI",
+      "title": "HANPP Collection: Human Appropriation of Net Primary Productivity as a Percentage of Net Primary Productivity — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -190,7 +178,43 @@
       "ciesin:source_identifier": "10.7910/DVN/7HHSBI",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "11815394": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F7HHSBI",
+      "type": "application/xhtml+xml",
+      "title": "HANPP Collection: Human Appropriation of Net Primary Productivity as a Percentage of Net Primary Productivity — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/7HHSBI",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4w66hpj": {
+      "href": "https://doi.org/10.7927/H4W66HPJ",
+      "type": "text/html",
+      "title": "HANPP Collection: Human Appropriation of Net Primary Productivity as a Percentage of Net Primary Productivity — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4W66HPJ",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550192397-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192397-ESDIS",
+      "type": "text/html",
+      "title": "HANPP Collection: Human Appropriation of Net Primary Productivity as a Percentage of Net Primary Productivity — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4W66HPJ",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "hapctnpp-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815394",
       "type": "application/zip",
       "title": "hapctnpp-geotiff.zip",
@@ -203,7 +227,7 @@
       "ciesin:source_identifier": "11815394",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815393": {
+    "hapctnpp-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815393",
       "type": "application/zip",
       "title": "hapctnpp-grid.zip",
@@ -216,10 +240,21 @@
       "ciesin:source_identifier": "11815393",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14200115": {
+    "hanpp-percentage-npp-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/hanpp/hanpp-percentage-net-primary-productivity/hanpp-percentage-npp-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — HANPP Collection: Human Appropriation of Net Primary Productivity as a Percentage of Net Primary Productivity (hanpp percentage npp thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-hanpp-collection-human-appropriation-of-net-primary-productivity-as-a": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14200115",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for HANPP Collection: Human Appropriation of Net Primary Productivity as a Percentage of Net Primary Productivity",
       "roles": [
         "data"
       ],
@@ -229,46 +264,34 @@
       "ciesin:source_identifier": "14200115",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3550192397-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192397-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4W66HPJ",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "hanpp-percentage-net-primary-productivity-citation2.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/hanpp-percentage-net-primary-productivity-citation2.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4W66HPJ",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192397-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — HANPP Collection: Human Appropriation of Net Primary Productivity as a Percentage of Net Primary Productivity",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550192397-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4W66HPJ",
+      "ciesin:source_identifier": "C3550192397-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "2006jd007377": {
-      "href": "http://dx.doi.org/10.1029/2006JD007377",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/hanpp-percentage-net-primary-productivity/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4JS9NC2",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/hanpp-percentage-net-primary-productivity/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -279,18 +302,7 @@
     "nature02619": {
       "href": "https://doi.org/10.1038/nature02619",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4F18WNN",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h48g8hmk": {
-      "href": "https://doi.org/10.7927/H48G8HMK",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/593h-nq42",
+      "title": "Related Publication: Global Patterns in Human Consumption of Net Primary Production. Imhoff, M.L., L. Bounoua,T. Ricketts, C.Loucks, R. Harriss and W.T. Lawrence. 2004",
       "roles": [
         "metadata"
       ],
@@ -301,7 +313,7 @@
     "h44q7rwv": {
       "href": "https://doi.org/10.7927/H44Q7RWV",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1007/s11069-020-04385-y",
+      "title": "Related Publication: HANPP Collection: Global Patterns in Human Appropriation of Net Primary Productivity (HANPP). Imhoff, M.L., L. Bounoua, T. Ricketts, C. Loucks, R. Harriss, and W.T. Lawrence; Imhoff, M. L., and L. Bounoua. NASA Socioeconomic Data and Applications Center (SEDAC). 2004",
       "roles": [
         "metadata"
       ],
@@ -312,7 +324,7 @@
     "h40z715x": {
       "href": "https://doi.org/10.7927/H40Z715X",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H48P5XF7",
+      "title": "Related Publication: HANPP Collection: Global Patterns in Net Primary Productivity (NPP). Imhoff, M.L., L. Bounoua, T. Ricketts, C. Loucks, R. Harriss, and W.T. Lawrence; Imhoff, M. L., and L. Bounoua. NASA Socioeconomic Data and Applications Center (SEDAC). 2004",
       "roles": [
         "metadata"
       ],
@@ -320,16 +332,29 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "2006jd007377-2": {
-      "href": "http://www.agu.org/journals/jd/jd0622/2006JD007377/",
+    "h48g8hmk": {
+      "href": "https://doi.org/10.7927/H48G8HMK",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4DF6P5Z",
+      "title": "Related Publication: HANPP Collection: Human Appropriation of Net Primary Productivity (HANPP) by Country and Product. Imhoff, M.L., L. Bounoua, T. Ricketts, C. Loucks, R. Harriss, and W.T. Lawrence; Imhoff, M. L., and L. Bounoua. NASA Socioeconomic Data and Applications Center (SEDAC). 2004",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "hanpp-percentage-net-primary-productivity-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/hanpp-percentage-net-primary-productivity-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/hanpp-percentage-net-primary-productivity-citation2.txt",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/hanpp-percentage-net-primary-productivity-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550192397-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

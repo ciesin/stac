@@ -851,34 +851,22 @@
     }
   ],
   "assets": {
-    "h4cr5r8j": {
-      "href": "https://doi.org/10.7927/H4CR5R8J",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/doi:10.7916/2hhy-yd24",
+    "grump-v1-coastlines-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/grump-v1-coastlines-citation2.txt",
+      "type": "text/plain",
+      "title": "Dataset documentation — Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Coastlines",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4CR5R8J",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3540931322-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "pb9nru": {
-      "href": "https://doi.org/10.7910/DVN/PB9NRU",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7916/txd5-2208",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Harvard Dataverse DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/PB9NRU",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
-    },
-    "11715674": {
+    "gl_grumpv1_ntlbnd_shp.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715674",
       "type": "application/zipped-shapefile",
-      "title": "Related Publication: https://doi.org/doi:10.7916/zmc2-r660",
+      "title": "gl_grumpv1_ntlbnd_shp.zip",
       "roles": [
         "data"
       ],
@@ -888,10 +876,72 @@
       "ciesin:source_identifier": "11715674",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14172567": {
+    "data-download": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/data/set/grump-v1-coastlines/data-download",
+      "type": "text/html",
+      "title": "Global data in Shapefile format for the year 2000 from the Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Coastlines data set.",
+      "description": "Global data in Shapefile format for the year 2000 from the Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Coastlines data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "NASA CMR granule",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "G3552601218-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "pb9nru": {
+      "href": "https://doi.org/10.7910/DVN/PB9NRU",
+      "type": "text/html",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Coastlines — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/PB9NRU",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FPB9NRU",
+      "type": "application/xhtml+xml",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Coastlines — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/PB9NRU",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4cr5r8j": {
+      "href": "https://doi.org/10.7927/H4CR5R8J",
+      "type": "text/html",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Coastlines — NASA CMR DOI",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI; NASA CMR granule",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4CR5R8J; G3552601218-ESDIS",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi; exact DOI lookup"
+    },
+    "c3540931322-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540931322-ESDIS",
+      "type": "text/html",
+      "title": "Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Coastlines — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4CR5R8J",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "metadata-package-for-global-rural-urban-mapping-project-version-1-grumpv1-coastlines": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14172567",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7916/wqg1-m574",
+      "title": "Metadata package for Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Coastlines",
       "roles": [
         "data"
       ],
@@ -901,21 +951,22 @@
       "ciesin:source_identifier": "14172567",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "s0065-308x-05-62004-0": {
-      "href": "https://doi.org/10.1016/S0065-308X(05)62004-0",
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540931322-ESDIS",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/doi:10.7916/9scv-2v68",
+      "title": "NASA Earthdata granule search — Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Coastlines",
       "roles": [
-        "metadata"
+        "data"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "C3540931322-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "h4vt1q1h": {
-      "href": "https://doi.org/10.7927/H4VT1Q1H",
+    "data-download-2": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/grump-v1-coastlines/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7916/46qe-b842",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -926,7 +977,7 @@
     "h44b2z74": {
       "href": "https://doi.org/10.7927/H44B2Z74",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/doi:10.7916/7nqp-pj27",
+      "title": "Related Publication: Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): National Administrative Boundaries. Center for International Earth Science Information Network - CIESIN - Columbia University, International Food Policy Research Institute - IFPRI, The World Bank, and Centro Internacional de Agricultura Tropical - CIAT; Balk, D.L., U. Deichmann, G. Yetman, F. Pozzi, S. I. Hay, and A. Nelson. NASA Socioeconomic Data and Applications Center (SEDAC). 2011",
       "roles": [
         "metadata"
       ],
@@ -937,7 +988,18 @@
     "h40k26hs": {
       "href": "https://doi.org/10.7927/H40K26HS",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7916/j0n6-0n14",
+      "title": "Related Publication: Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): National Identifier Grid. Center for International Earth Science Information Network - CIESIN - Columbia University, International Food Policy Research Institute - IFPRI, The World Bank, and Centro Internacional de Agricultura Tropical - CIAT; Balk, D.L., U. Deichmann, G. Yetman, F. Pozzi, S. I. Hay, and A. Nelson. NASA Socioeconomic Data and Applications Center (SEDAC). 2011",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4vt1q1h": {
+      "href": "https://doi.org/10.7927/H4VT1Q1H",
+      "type": "text/html",
+      "title": "Related Publication: Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Population Count Grid. Center for International Earth Science Information Network - CIESIN - Columbia University, International Food Policy Research Institute - IFPRI, The World Bank, and Centro Internacional de Agricultura Tropical - CIAT; Balk, D.L., U. Deichmann, G. Yetman, F. Pozzi, S. I. Hay, and A. Nelson. NASA Socioeconomic Data and Applications Center (SEDAC). 2011",
       "roles": [
         "metadata"
       ],
@@ -948,7 +1010,7 @@
     "h4r20z93": {
       "href": "https://doi.org/10.7927/H4R20Z93",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/doi:10.7916/yyyg-g140",
+      "title": "Related Publication: Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Population Density Grid. Center for International Earth Science Information Network - CIESIN - Columbia University, International Food Policy Research Institute - IFPRI, The World Bank, and Centro Internacional de Agricultura Tropical - CIAT; Balk, D.L., U. Deichmann, G. Yetman, F. Pozzi, S. I. Hay, and A. Nelson. NASA Socioeconomic Data and Applications Center (SEDAC). 2011",
       "roles": [
         "metadata"
       ],
@@ -959,7 +1021,7 @@
     "h4m906kr": {
       "href": "https://doi.org/10.7927/H4M906KR",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7916/3c5r-ym35",
+      "title": "Related Publication: Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Settlement Points. Center for International Earth Science Information Network - CIESIN - Columbia University, International Food Policy Research Institute - IFPRI, The World Bank, and Centro Internacional de Agricultura Tropical - CIAT; Balk, D.L., U. Deichmann, G. Yetman, F. Pozzi, S. I. Hay, and A. Nelson. NASA Socioeconomic Data and Applications Center (SEDAC). 2011",
       "roles": [
         "metadata"
       ],
@@ -970,7 +1032,7 @@
     "h4gh9fvg": {
       "href": "https://doi.org/10.7927/H4GH9FVG",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/doi:10.7916/vp9v-f744",
+      "title": "Related Publication: Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Urban Extents Grid. Center for International Earth Science Information Network - CIESIN - Columbia University, International Food Policy Research Institute - IFPRI, The World Bank, and Centro Internacional de Agricultura Tropical - CIAT; Balk, D.L., U. Deichmann, G. Yetman, F. Pozzi, S. I. Hay, and A. Nelson. NASA Socioeconomic Data and Applications Center (SEDAC). 2011",
       "roles": [
         "metadata"
       ],

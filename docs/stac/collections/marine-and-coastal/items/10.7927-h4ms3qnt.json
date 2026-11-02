@@ -713,22 +713,10 @@
     }
   ],
   "assets": {
-    "h4ms3qnt": {
-      "href": "https://doi.org/10.7927/H4MS3QNT",
-      "type": "text/html",
-      "title": "DOI 10.7927/H4MS3QNT",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4MS3QNT",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
     "waicio": {
       "href": "https://doi.org/10.7910/DVN/WAICIO",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/WAICIO",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: The Wellbeing of Nations — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -737,7 +725,43 @@
       "ciesin:source_identifier": "10.7910/DVN/WAICIO",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "11715728": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FWAICIO",
+      "type": "application/xhtml+xml",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: The Wellbeing of Nations — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/WAICIO",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4ms3qnt": {
+      "href": "https://doi.org/10.7927/H4MS3QNT",
+      "type": "text/html",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: The Wellbeing of Nations — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4MS3QNT",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550186177-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550186177-ESDIS",
+      "type": "text/html",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: The Wellbeing of Nations — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4MS3QNT",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "csi-wellbeing.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715728",
       "type": "application/zip",
       "title": "csi-wellbeing.zip",
@@ -750,10 +774,21 @@
       "ciesin:source_identifier": "11715728",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14171127": {
+    "well-being-index-2001-global-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/cesic/cesic-wellbeing-of-nations/well-being-index-2001-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Compendium of Environmental Sustainability Indicator Collections: The Wellbeing of Nations (well being index 2001 global thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-compendium-of-environmental-sustainability-indicator-collections-the": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14171127",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Compendium of Environmental Sustainability Indicator Collections: The Wellbeing of Nations",
       "roles": [
         "data"
       ],
@@ -763,46 +798,34 @@
       "ciesin:source_identifier": "14171127",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3550186177-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550186177-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4MS3QNT",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "cesic-wellbeing-of-nations-citation2.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/cesic-wellbeing-of-nations-citation2.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4MS3QNT",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550186177-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Compendium of Environmental Sustainability Indicator Collections: The Wellbeing of Nations",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550186177-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4MS3QNT",
+      "ciesin:source_identifier": "C3550186177-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "19881": {
-      "href": "http://hdl.handle.net/10625/19881",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/cesic-wellbeing-of-nations/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1016/j.gloenvcha.2004.02.004",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/cesic-wellbeing-of-nations/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -813,29 +836,7 @@
     "h45h7d60": {
       "href": "https://doi.org/10.7927/H45H7D60",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4XW4GQ1",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "evi2004technicareport.pdf": {
-      "href": "https://www.sopac.org/sopac/evi/Files/EVI2004TechnicaReport.pdf",
-      "type": "application/pdf",
-      "title": "Related Publication: https://doi.org/10.7927/H4T43R01",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4b56gnc": {
-      "href": "https://doi.org/10.7927/H4B56GNC",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4NC5Z4X",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: 2004 Environmental Vulnerability Index (EVI). South Pacific Applied Geoscience Commission - SOPAC, and United Nations Environmental Program - UNEP; Kaly, U.L., C.R. Pratt, and J. Mitchell. NASA Socioeconomic Data and Applications Center (SEDAC). 2004",
       "roles": [
         "metadata"
       ],
@@ -846,7 +847,18 @@
     "h4rf5rzt": {
       "href": "https://doi.org/10.7927/H4RF5RZT",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4HQ3WTH",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: 2006 National Footprint Accounts (NFA). Global Footprint Network - GFN. Global Footprint Network (GFN). 2006",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4b56gnc": {
+      "href": "https://doi.org/10.7927/H4B56GNC",
+      "type": "text/html",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: Ancillary Data. Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2006",
       "roles": [
         "metadata"
       ],
@@ -857,7 +869,7 @@
     "h46d5qxn": {
       "href": "https://doi.org/10.7927/H46D5QXN",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1021/acs.est.0c01791",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: Complete Collection, Version 1.1. Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2006",
       "roles": [
         "metadata"
       ],
@@ -868,13 +880,26 @@
     "h42n506q": {
       "href": "https://doi.org/10.7927/H42N506Q",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1021/acs.est.0c01791",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: Rio to Johannesburg Dashboard of Sustainable Indicators. Consultative Group on Sustainable Development Indicators - CGSDI; O'Connor, J., and J. Jesinghaus. NASA Socioeconomic Data and Applications Center (SEDAC). 2002",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "cesic-wellbeing-of-nations-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/cesic-wellbeing-of-nations-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/cesic-wellbeing-of-nations-citation2.txt",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/cesic-wellbeing-of-nations-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550186177-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

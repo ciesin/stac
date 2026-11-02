@@ -30,6 +30,7 @@
       }
     ],
     "sci:doi": "10.7916/d8697g5p",
+    "sci:citation": "Downs, Robert R. (2009). Managing Risks to Scientific Data. Columbia University. https://doi.org/10.7916/d8697g5p",
     "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
@@ -42,6 +43,9 @@
     ],
     "ciesin:authors": [
       "Downs, Robert R."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -78,19 +82,7 @@
     }
   ],
   "assets": {
-    "d8697g5p": {
-      "href": "https://doi.org/10.7916/d8697g5p",
-      "type": "text/html",
-      "title": "DOI 10.7916/d8697g5p",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/d8697g5p",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "downs-managingrisksscidata20090424": {
+    "downs-managingrisksscidata20090424.pdf": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/D82J6QGD/download",
       "type": "application/pdf",
       "title": "Downs-ManagingRisksSciData20090424.pdf",
@@ -99,9 +91,21 @@
       ],
       "file:size": 96662,
       "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/D82J6QGD/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "d8697g5p": {
+      "href": "https://doi.org/10.7916/d8697g5p",
+      "type": "text/html",
+      "title": "Managing Risks to Scientific Data — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8697g5p",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     }
   }
 }

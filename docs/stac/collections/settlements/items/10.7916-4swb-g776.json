@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-4swb-g776",
   "collection": "settlements",
@@ -112,7 +111,7 @@
     "4swb-g776": {
       "href": "https://doi.org/10.7916/4swb-g776",
       "type": "text/html",
-      "title": "DOI 10.7916/4swb-g776",
+      "title": "GRID3 Togo Settlement Extents, Version 02 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -120,44 +119,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/4swb-g776",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "grid3_togo_settlement_extents_version_02": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/19k8-9j15/download",
-      "type": "application/zip",
-      "title": "GRID3_Togo_Settlement_Extents_Version_02.zip",
-      "roles": [
-        "data"
-      ],
-      "file:size": 46274987,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/19k8-9j15/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/nvc8-x186/download",
-      "type": "application/pdf",
-      "title": "TGO_DataReleaseStatement_SettlementExtents_Version02.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 2708804,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/nvc8-x186/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "4swb-g776-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/4swb-g776#assets-panel",
-      "type": "application/octet-stream",
-      "title": "4swb-g776",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/4swb-g776",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

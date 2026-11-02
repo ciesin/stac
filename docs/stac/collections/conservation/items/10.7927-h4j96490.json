@@ -159,31 +159,7 @@
     }
   ],
   "assets": {
-    "h4j96490": {
-      "href": "https://doi.org/10.7927/H4J96490",
-      "type": "text/html",
-      "title": "DOI 10.7927/H4J96490",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4J96490",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
-    "imjmdl": {
-      "href": "https://doi.org/10.7910/DVN/IMJMDL",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/IMJMDL",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Harvard Dataverse DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/IMJMDL",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
-    },
-    "11815489": {
+    "buffers.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815489",
       "type": "application/zipped-shapefile",
       "title": "buffers.zip",
@@ -196,7 +172,7 @@
       "ciesin:source_identifier": "11815489",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815488": {
+    "centroids.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815488",
       "type": "application/zipped-shapefile",
       "title": "centroids.zip",
@@ -209,10 +185,58 @@
       "ciesin:source_identifier": "11815488",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14200117": {
+    "imjmdl": {
+      "href": "https://doi.org/10.7910/DVN/IMJMDL",
+      "type": "text/html",
+      "title": "Indicators of Coastal Water Quality: Ancillary Data — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/IMJMDL",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FIMJMDL",
+      "type": "application/xhtml+xml",
+      "title": "Indicators of Coastal Water Quality: Ancillary Data — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/IMJMDL",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4j96490": {
+      "href": "https://doi.org/10.7927/H4J96490",
+      "type": "text/html",
+      "title": "Indicators of Coastal Water Quality: Ancillary Data — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4J96490",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550192741-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192741-ESDIS",
+      "type": "text/html",
+      "title": "Indicators of Coastal Water Quality: Ancillary Data — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4J96490",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "metadata-package-for-indicators-of-coastal-water-quality-ancillary-data": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14200117",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Indicators of Coastal Water Quality: Ancillary Data",
       "roles": [
         "data"
       ],
@@ -222,7 +246,64 @@
       "ciesin:source_identifier": "14200117",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815490": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192741-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Indicators of Coastal Water Quality: Ancillary Data",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550192741-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550192741-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/icwq-ancillary-data/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4dn4300": {
+      "href": "https://doi.org/10.7927/H4DN4300",
+      "type": "text/html",
+      "title": "Related Publication: Indicators of Coastal Water Quality: Annual Chlorophyll-a Concentration 1998-2007. Goddard Space Flight Center - GSFC, and Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2009",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h48w3b88": {
+      "href": "https://doi.org/10.7927/H48W3B88",
+      "type": "text/html",
+      "title": "Related Publication: Indicators of Coastal Water Quality: Change in Chlorophyll-a Concentration 1998-2007. Goddard Space Flight Center - GSFC, and Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2009",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "downloads.php": {
+      "href": "http://www.marineregions.org/downloads.php",
+      "type": "text/html",
+      "title": "Related Publication: Maritime Boundaries Geodatabase. Flanders Marine Institute (VLIZ). 2006",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "sequence.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815490",
       "type": "application/zip",
       "title": "sequence.zip",
@@ -234,63 +315,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "11815490",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3550192741-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192741-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4J96490",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192741-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4J96490",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "downloads.php": {
-      "href": "http://www.marineregions.org/downloads.php",
-      "type": "application/x-httpd-php",
-      "title": "Related Publication: https://doi.org/10.7927/H400001D",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4dn4300": {
-      "href": "https://doi.org/10.7927/H4DN4300",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4KS6PHF",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h48w3b88": {
-      "href": "https://doi.org/10.7927/H48W3B88",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4G15XS1",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

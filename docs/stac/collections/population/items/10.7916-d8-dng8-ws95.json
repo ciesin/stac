@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8-dng8-ws95",
   "collection": "population",
@@ -24,6 +23,7 @@
       }
     ],
     "sci:doi": "10.7916/d8-dng8-ws95",
+    "sci:citation": "World Health Organization Africa Regional Office GIS Center, Columbia University. Center For International Earth Science Information Network, & Novel-T (2020). Rapid Population Estimate (RPE) for the Republic of the Congo, cog_rpe_2020_08. Columbia University. https://doi.org/10.7916/d8-dng8-ws95",
     "ciesin:resource_type": "other",
     "ciesin:category": "Population",
     "ciesin:tags": [
@@ -38,6 +38,9 @@
       "World Health Organization Africa Regional Office GIS Center",
       "Columbia University. Center for International Earth Science Information Network",
       "Novel-T"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -76,7 +79,7 @@
     "d8-dng8-ws95": {
       "href": "https://doi.org/10.7916/d8-dng8-ws95",
       "type": "text/html",
-      "title": "DOI 10.7916/d8-dng8-ws95",
+      "title": "Rapid Population Estimate (RPE) for the Republic of the Congo, cog_rpe_2020_08 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -84,32 +87,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8-dng8-ws95",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "rpe_methodology": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-ntdm-qm91/download",
-      "type": "application/pdf",
-      "title": "RPE_Methodology.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 12090285,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/d8-ntdm-qm91/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-97ss-8d11/download",
-      "type": "application/zip",
-      "title": "COG.zip",
-      "roles": [
-        "data"
-      ],
-      "file:size": 1572487568,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/d8-97ss-8d11/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8q52nbc",
   "collection": "governance",
@@ -30,6 +29,7 @@
       }
     ],
     "sci:doi": "10.7916/d8q52nbc",
+    "sci:citation": "Downs, Robert R., Lenhardt, W. Christopher, Robinson, Erin, Davis, Ethan, & Weber, Nicholas (2014). Community Recommendations for Improving Sustainable Scientific Software Practices. Columbia University. https://doi.org/10.7916/d8q52nbc",
     "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
@@ -46,6 +46,9 @@
       "Robinson, Erin",
       "Davis, Ethan",
       "Weber, Nicholas"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -85,7 +88,7 @@
     "d8q52nbc": {
       "href": "https://doi.org/10.7916/d8q52nbc",
       "type": "text/html",
-      "title": "DOI 10.7916/d8q52nbc",
+      "title": "Community Recommendations for Improving Sustainable Scientific Software Practices — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -93,19 +96,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8q52nbc",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "downsearthscicommrecsustainablescisoftwarepracfinal20141116": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D88S4ZGT/download",
-      "type": "application/pdf",
-      "title": "DownsEarthSciCommRecSustainableSciSoftwarePracFinal20141116.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 80416,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D88S4ZGT/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

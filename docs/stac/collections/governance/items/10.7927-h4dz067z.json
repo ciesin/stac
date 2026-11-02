@@ -118,25 +118,65 @@
     "h4dz067z": {
       "href": "https://doi.org/10.7927/h4dz067z",
       "type": "text/html",
-      "title": "DOI 10.7927/h4dz067z",
+      "title": "Environmental Treaty Status Data Set, 2012 Release — NASA CMR DOI",
+      "description": "Related URL: https://doi.org/10.7927/H4DZ067Z Type: DATA SET LANDING PAGE Description: Data Set DOI URL and Homepage",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR DOI; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/h4dz067z",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "10.7927/h4dz067z; C3553518576-ESDIS",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi; exact DOI lookup"
     },
     "c3553518576-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3553518576-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Environmental Treaty Status Data Set, 2012 Release — NASA CMR record",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "NASA CMR record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7927/h4dz067z",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sedac-logo.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/entri/entri-treaty-status-2012/sedac-logo.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Environmental Treaty Status Data Set, 2012 Release (sedac logo)",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/maps/entri/entri-treaty-status-2012/sedac-logo.jpg Type: GET RELATED VISUALIZATION",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "C3553518576-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3553518576-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Environmental Treaty Status Data Set, 2012 Release",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3553518576-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/entri-treaty-status-2012/data-download",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/entri-treaty-status-2012/data-download",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/entri-treaty-status-2012/data-download Type: GET DATA Description: Data Download Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3553518576-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

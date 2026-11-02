@@ -179,31 +179,7 @@
     }
   ],
   "assets": {
-    "abr8-v666": {
-      "href": "https://doi.org/10.7927/ABR8-V666",
-      "type": "text/html",
-      "title": "DOI 10.7927/ABR8-V666",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/ABR8-V666",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
-    "cua92c": {
-      "href": "https://doi.org/10.7910/DVN/CUA92C",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/CUA92C",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Harvard Dataverse DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/CUA92C",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
-    },
-    "11835850": {
+    "crv-us-climate-risk-proj-county-2040-2049-shp.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835850",
       "type": "application/zipped-shapefile",
       "title": "crv-us-climate-risk-proj-county-2040-2049-shp.zip",
@@ -216,7 +192,7 @@
       "ciesin:source_identifier": "11835850",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11835851": {
+    "crv-us-climate-risk-proj-county-2040-2049-xlsx.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835851",
       "type": "application/zip",
       "title": "crv-us-climate-risk-proj-county-2040-2049-xlsx.zip",
@@ -229,10 +205,21 @@
       "ciesin:source_identifier": "11835851",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14171134": {
+    "crv-us-climate-risk-proj-county-2040-2049-vulnerability-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/crv/crv-us-climate-risk-proj-county-2040-2049/crv-us-climate-risk-proj-county-2040-2049-vulnerability-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — U.S. Climate Risk Projections by County, 2040-2049 (crv us climate risk proj county 2040 2049 vulnerability thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-u.s.-climate-risk-projections-by-county-2040-2049": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14171134",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for U.S. Climate Risk Projections by County, 2040-2049",
       "roles": [
         "data"
       ],
@@ -242,10 +229,94 @@
       "ciesin:source_identifier": "14171134",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540910480-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — U.S. Climate Risk Projections by County, 2040-2049",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540910480-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540910480-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/crv-us-climate-risk-proj-county-2040-2049/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/crv-us-climate-risk-proj-county-2040-2049/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "crv-us-climate-risk-proj-county-2040-2049-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/crv-us-climate-risk-proj-county-2040-2049-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/crv-us-climate-risk-proj-county-2040-2049-citation2.txt",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/crv-us-climate-risk-proj-county-2040-2049-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540910480-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "cua92c": {
+      "href": "https://doi.org/10.7910/DVN/CUA92C",
+      "type": "text/html",
+      "title": "U.S. Climate Risk Projections by County, 2040-2049 — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/CUA92C",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FCUA92C",
+      "type": "application/xhtml+xml",
+      "title": "U.S. Climate Risk Projections by County, 2040-2049 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/CUA92C",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "abr8-v666": {
+      "href": "https://doi.org/10.7927/ABR8-V666",
+      "type": "text/html",
+      "title": "U.S. Climate Risk Projections by County, 2040-2049 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/ABR8-V666",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
     "c3540910480-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540910480-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "U.S. Climate Risk Projections by County, 2040-2049 — NASA CMR record",
       "roles": [
         "metadata"
       ],
@@ -253,41 +324,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7927/ABR8-V666",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "crv-us-climate-risk-proj-county-2040-2049-citation2.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/crv-us-climate-risk-proj-county-2040-2049-citation2.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/ABR8-V666",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540910480-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/ABR8-V666",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "s11069-020-04385-y": {
-      "href": "https://doi.org/10.1007/s11069-020-04385-y",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4H41PCK",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

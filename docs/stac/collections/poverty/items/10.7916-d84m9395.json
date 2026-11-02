@@ -30,6 +30,7 @@
       }
     ],
     "sci:doi": "10.7916/d84m9395",
+    "sci:citation": "Redford, Kent H., Levy, Marc A., Sanderson, Eric W., & De Sherbinin, Alexander M. (2008). What is the role for conservation organizations in poverty alleviation in the world’s wild places?. Columbia University. https://doi.org/10.7916/d84m9395",
     "ciesin:resource_type": "article",
     "ciesin:category": "Poverty",
     "ciesin:tags": [
@@ -45,6 +46,9 @@
       "Levy, Marc A.",
       "Sanderson, Eric W.",
       "De Sherbinin, Alexander M."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -81,18 +85,6 @@
     }
   ],
   "assets": {
-    "d84m9395": {
-      "href": "https://doi.org/10.7916/d84m9395",
-      "type": "text/html",
-      "title": "DOI 10.7916/d84m9395",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/d84m9395",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
     "orx-orx42_04-s0030605308001889a.pdf": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/D8XK8S52/download",
       "type": "application/pdf",
@@ -102,9 +94,21 @@
       ],
       "file:size": 357328,
       "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/D8XK8S52/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "d84m9395": {
+      "href": "https://doi.org/10.7916/d84m9395",
+      "type": "text/html",
+      "title": "What is the role for conservation organizations in poverty alleviation in the world’s wild places? — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d84m9395",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     }
   }
 }

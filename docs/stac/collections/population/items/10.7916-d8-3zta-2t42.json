@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8-3zta-2t42",
   "collection": "population",
@@ -24,6 +23,7 @@
       }
     ],
     "sci:doi": "10.7916/d8-3zta-2t42",
+    "sci:citation": "World Health Organization Africa Regional Office GIS Center, Center For International Earth Science Information Network, & Novel-T (2020). Rapid Population Estimate (RPE) for the Republic of Mali, mli_rpe_2020_08. Columbia University. https://doi.org/10.7916/d8-3zta-2t42",
     "ciesin:resource_type": "other",
     "ciesin:category": "Population",
     "ciesin:tags": [
@@ -38,6 +38,9 @@
       "World Health Organization Africa Regional Office GIS Center",
       "Center for International Earth Science Information Network",
       "Novel-T"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -76,7 +79,7 @@
     "d8-3zta-2t42": {
       "href": "https://doi.org/10.7916/d8-3zta-2t42",
       "type": "text/html",
-      "title": "DOI 10.7916/d8-3zta-2t42",
+      "title": "Rapid Population Estimate (RPE) for the Republic of Mali, mli_rpe_2020_08 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -84,32 +87,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8-3zta-2t42",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "mli-002": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-6wan-d273/download",
-      "type": "application/zip",
-      "title": "MLI-002.zip",
-      "roles": [
-        "data"
-      ],
-      "file:size": 6029770485,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/d8-6wan-d273/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-8xt6-2737/download",
-      "type": "application/pdf",
-      "title": "RPE_Methodology.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 12090285,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/d8-8xt6-2737/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

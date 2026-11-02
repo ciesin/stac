@@ -155,22 +155,23 @@
     }
   ],
   "assets": {
-    "kd8b-2376": {
-      "href": "https://doi.org/10.7927/KD8B-2376",
-      "type": "text/html",
-      "title": "DOI 10.7927/KD8B-2376",
+    "spatialecon-lgii-measures-v1-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/spatialecon-lgii-measures-v1-readme.txt",
+      "type": "text/plain",
+      "title": "Dataset documentation — Global Database of Light-based Geospatial Income Inequality (LGII) Measures, Version 1",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/spatialecon-lgii-measures-v1-readme.txt Type: VIEW RELATED INFORMATION Subtype: READ-ME Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/KD8B-2376",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3540929863-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "segper": {
       "href": "https://doi.org/10.7910/DVN/SEGPER",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/SEGPER",
+      "title": "Global Database of Light-based Geospatial Income Inequality (LGII) Measures, Version 1 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -179,10 +180,46 @@
       "ciesin:source_identifier": "10.7910/DVN/SEGPER",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14222233": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FSEGPER",
+      "type": "application/xhtml+xml",
+      "title": "Global Database of Light-based Geospatial Income Inequality (LGII) Measures, Version 1 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/SEGPER",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "kd8b-2376": {
+      "href": "https://doi.org/10.7927/KD8B-2376",
+      "type": "text/html",
+      "title": "Global Database of Light-based Geospatial Income Inequality (LGII) Measures, Version 1 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/KD8B-2376",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540929863-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929863-ESDIS",
+      "type": "text/html",
+      "title": "Global Database of Light-based Geospatial Income Inequality (LGII) Measures, Version 1 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/KD8B-2376",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "metadata-package-for-global-database-of-light-based-geospatial-income-inequality-lgii-meas": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222233",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Database of Light-based Geospatial Income Inequality (LGII) Measures, Version 1",
       "roles": [
         "data"
       ],
@@ -192,7 +229,31 @@
       "ciesin:source_identifier": "14222233",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11783951": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929863-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global Database of Light-based Geospatial Income Inequality (LGII) Measures, Version 1",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540929863-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540929863-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/spatialecon-lgii-measures-v1/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "spatialecon-lgii-measures-v1-xlsx.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11783951",
       "type": "application/zip",
       "title": "spatialecon-lgii-measures-v1-xlsx.zip",
@@ -204,53 +265,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "11783951",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3540929863-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929863-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/KD8B-2376",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "spatialecon-lgii-measures-v1-readme.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/spatialecon-lgii-measures-v1-readme.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/KD8B-2376",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929863-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/KD8B-2376",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "lhad026": {
-      "href": "https://doi.org/10.1093/wber/lhad026",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4765C7S",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

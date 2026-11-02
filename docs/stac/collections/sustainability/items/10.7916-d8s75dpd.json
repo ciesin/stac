@@ -30,6 +30,7 @@
       }
     ],
     "sci:doi": "10.7916/d8s75dpd",
+    "sci:citation": "Downs, Robert R. (2014). Sustainable Software for the Future of Science: A User’s Perspective. Columbia University. https://doi.org/10.7916/d8s75dpd",
     "ciesin:resource_type": "other",
     "ciesin:category": "Sustainability",
     "ciesin:tags": [
@@ -42,6 +43,9 @@
     ],
     "ciesin:authors": [
       "Downs, Robert R."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -78,19 +82,7 @@
     }
   ],
   "assets": {
-    "d8s75dpd": {
-      "href": "https://doi.org/10.7916/d8s75dpd",
-      "type": "text/html",
-      "title": "DOI 10.7916/d8s75dpd",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/d8s75dpd",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "downssustainablesoftwarefinal20140709": {
+    "downssustainablesoftwarefinal20140709.pdf": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/D8JH3VPM/download",
       "type": "application/pdf",
       "title": "DownsSustainableSoftwareFinal20140709.pdf",
@@ -99,9 +91,21 @@
       ],
       "file:size": 108500,
       "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/D8JH3VPM/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "d8s75dpd": {
+      "href": "https://doi.org/10.7916/d8s75dpd",
+      "type": "text/html",
+      "title": "Sustainable Software for the Future of Science: A User’s Perspective — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8s75dpd",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     }
   }
 }

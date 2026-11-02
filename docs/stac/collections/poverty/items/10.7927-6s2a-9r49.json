@@ -126,10 +126,49 @@
     }
   ],
   "assets": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540910562-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — U.S. Social Vulnerability Index Grids",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540910562-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540910562-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "usgrid-us-social-vulnerability-index": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/usgrid-us-social-vulnerability-index",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/usgrid-us-social-vulnerability-index",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/usgrid-us-social-vulnerability-index Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Overview Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540910562-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "docs": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/usgrid-us-social-vulnerability-index/docs",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/usgrid-us-social-vulnerability-index/docs",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/usgrid-us-social-vulnerability-index/docs Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Documentation Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540910562-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
     "6s2a-9r49": {
       "href": "https://doi.org/10.7927/6s2a-9r49",
       "type": "text/html",
-      "title": "DOI 10.7927/6s2a-9r49",
+      "title": "U.S. Social Vulnerability Index Grids — NASA CMR DOI",
       "roles": [
         "metadata"
       ],
@@ -137,6 +176,18 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7927/6s2a-9r49",
       "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540910562-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540910562-ESDIS",
+      "type": "text/html",
+      "title": "U.S. Social Vulnerability Index Grids — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/6s2a-9r49",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

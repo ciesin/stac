@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-4ckh-d907",
   "collection": "governance",
@@ -24,6 +23,7 @@
       }
     ],
     "sci:doi": "10.7916/4ckh-d907",
+    "sci:citation": "Downs, Robert R. (2024). SERVIR West Africa 2024 Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 8, R06 Requirement. Columbia University. https://doi.org/10.7916/4ckh-d907",
     "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
@@ -36,6 +36,9 @@
     ],
     "ciesin:authors": [
       "Downs, Robert R."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -74,7 +77,7 @@
     "4ckh-d907": {
       "href": "https://doi.org/10.7916/4ckh-d907",
       "type": "text/html",
-      "title": "DOI 10.7916/4ckh-d907",
+      "title": "SERVIR West Africa 2024 Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 8, R06 Requirement — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -82,19 +85,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/4ckh-d907",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "downsservir2024trainingcts_r06_20241009": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/ebz5-fg39/download",
-      "type": "application/pdf",
-      "title": "DownsSERVIR2024TrainingCTS_R06_20241009.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 360675,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/ebz5-fg39/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

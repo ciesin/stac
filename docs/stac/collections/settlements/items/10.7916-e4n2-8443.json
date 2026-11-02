@@ -73,6 +73,12 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network"
     ],
+    "ciesin:publishers": [
+      "GRID3"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 MRT - Settlement Extents v3.0 consists of a geographic representation of settlements in Mauritania, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Both layers include attributes as described in the codebooks. Data inputs and methodology are described in data release notes.",
     "ciesin:publication_date": "2024-09-30T00:00:00Z",
     "ciesin:additional_resources": [
@@ -114,45 +120,33 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-mrt---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/77qv-4669/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 MRT - Settlement Extents v3.0",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "file:size": 17298911,
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/77qv-4669/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
     "e4n2-8443": {
       "href": "https://doi.org/10.7916/E4N2-8443",
       "type": "text/html",
-      "title": "DOI 10.7916/E4N2-8443",
+      "title": "GRID3 MRT - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/E4N2-8443",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3-mrt---settlement-extents-v3.0---data-release-notes": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/77qv-4669/download",
-      "type": "application/pdf",
-      "title": "GRID3 MRT - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 17298911,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/77qv-4669/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/rtf0-4v22/download",
-      "type": "application/zip",
-      "title": "GRID3_MRT_settlement_grid_v3_0.zip",
-      "roles": [
-        "data"
-      ],
-      "file:size": 18179217,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/rtf0-4v22/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-3": {
+    "grid3_mrt_settlement_extents_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/4sbt-ht67/download",
       "type": "application/zip",
       "title": "GRID3_MRT_settlement_extents_v3_0.zip",
@@ -160,32 +154,23 @@
         "data"
       ],
       "file:size": 36004744,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/4sbt-ht67/download",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     },
-    "g4yh-vt04": {
-      "href": "https://doi.org/10.7916/g4yh-vt04",
-      "type": "text/html",
-      "title": "GRID3 MRT - Settlement Extents v2.0",
+    "grid3_mrt_settlement_grid_v3_0.zip": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/rtf0-4v22/download",
+      "type": "application/zip",
+      "title": "GRID3_MRT_settlement_grid_v3_0.zip",
       "roles": [
-        "metadata"
+        "data"
       ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "e4n2-8443-2": {
-      "href": "https://doi.org/doi:10.7916/e4n2-8443",
-      "type": "text/html",
-      "title": "e4n2-8443",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "file:size": 18179217,
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/rtf0-4v22/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

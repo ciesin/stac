@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-k05s-vm85",
   "collection": "settlements",
@@ -51,7 +50,7 @@
       }
     ],
     "sci:doi": "10.7916/K05S-VM85",
-    "sci:citation": "Dataset citation: Center for International Earth Science Information Network (CIESIN), Columbia University. 2024. GRID3 SWZ- Settlement Extents v3.0. New York: GRID3. https://doi.org/doi:10.7916/k05s-vm85. Accessed [DAY MONTH YEAR].",
+    "sci:citation": "Center for International Earth Science Information Network (CIESIN), Columbia University. 2024. GRID3 SWZ- Settlement Extents v3.0. New York: GRID3. https://doi.org/doi:10.7916/k05s-vm85. Accessed [DAY MONTH YEAR].",
     "version": "3",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
@@ -114,10 +113,21 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-swz---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/s2e6-en44/download",
+      "type": "text/html",
+      "title": "Dataset documentation — GRID3 SWZ - Settlement Extents v3.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
     "k05s-vm85": {
       "href": "https://doi.org/10.7916/K05S-VM85",
       "type": "text/html",
-      "title": "DOI 10.7916/K05S-VM85",
+      "title": "GRID3 SWZ - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -126,65 +136,26 @@
       "ciesin:source_identifier": "10.7916/K05S-VM85",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
     },
-    "grid3_swz_settlement_grid_v3_0": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/q24d-0929/download",
-      "type": "application/zip",
-      "title": "GRID3_SWZ_settlement_grid_v3_0.zip",
-      "roles": [
-        "data"
-      ],
-      "file:size": 14646512,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/q24d-0929/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-2": {
+    "grid3_swz_settlement_extents_v3.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/84dm-7m05/download",
-      "type": "application/zip",
-      "title": "GRID3_SWZ_settlement_extents_v3_0.zip",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_SWZ_settlement_extents_v3.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 29883921,
       "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/84dm-7m05/download",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/s2e6-en44/download",
-      "type": "application/pdf",
-      "title": "GRID3 SWZ - Settlement Extents v3.0 - Data Release Notes .pdf",
+    "grid3_swz_settlement_grid_v3.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/q24d-0929/download",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_SWZ_settlement_grid_v3.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 17338250,
       "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/s2e6-en44/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "p21m-xs66": {
-      "href": "https://doi.org/10.7916/p21m-xs66",
-      "type": "text/html",
-      "title": "GRID3 SWZ - Settlement Extents v2.0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "k05s-vm85-2": {
-      "href": "https://doi.org/doi:10.7916/k05s-vm85",
-      "type": "text/html",
-      "title": "k05s-vm85",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     }
   },

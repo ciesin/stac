@@ -73,6 +73,12 @@
     "ciesin:authors": [
       "Center for Integrated Earth System Information"
     ],
+    "ciesin:publishers": [
+      "Columbia University"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 COD - Settlement Extents v4.0 dataset consists of a geographic representation of settlements in the Democratic Republic of the Congo. Settlement extents are further delineated into settlement blocks nested within urban and small settlement areas, generated from integrated road, railway, river, settlement extents, building footprints, and remote-sensing inputs. Each block is enriched with morphological, environmental, and building metrics.",
     "ciesin:publication_date": "2026-07-01T00:00:00Z",
     "ciesin:additional_resources": [
@@ -108,22 +114,10 @@
     }
   ],
   "assets": {
-    "bb5b-9b79": {
-      "href": "https://doi.org/10.7916/BB5B-9B79",
-      "type": "text/html",
-      "title": "DOI 10.7916/BB5B-9B79",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/BB5B-9B79",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "grid3-cod---settlement-extents-v4.0---data-release-notes": {
+    "dataset-documentation-grid3-cod---settlement-extents-v4.0": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/b09z-pt34/download",
       "type": "application/pdf",
-      "title": "GRID3 COD - Settlement Extents v4.0 - Data Release Notes.pdf",
+      "title": "Dataset documentation — GRID3 COD - Settlement Extents v4.0",
       "roles": [
         "data"
       ],
@@ -133,20 +127,30 @@
       "ciesin:source_identifier": "/doi/10.7916/b09z-pt34/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/baqh-yg06/download",
-      "type": "application/xml",
-      "title": "grid3_cod_settlement_extents_v4.xml",
+    "about": {
+      "href": "https://data.grid3.org/datasets/GRID3::grid3-cod-settlement-extents-v3-1/about",
+      "type": "text/html",
+      "title": "GRID3 COD - Settlement Extents v3.1",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "file:size": 11792,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/baqh-yg06/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
     },
-    "download-3": {
+    "bb5b-9b79": {
+      "href": "https://doi.org/10.7916/BB5B-9B79",
+      "type": "text/html",
+      "title": "GRID3 COD - Settlement Extents v4.0 — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/BB5B-9B79",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
+    },
+    "grid3_cod_settlement_extents_v4.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/n7b2-jd56/download",
       "type": "application/x-geopackage",
       "title": "grid3_cod_settlement_extents_v4.gpkg",
@@ -157,6 +161,19 @@
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/n7b2-jd56/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_settlement_extents_v4.xml": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/baqh-yg06/download",
+      "type": "application/xml",
+      "title": "grid3_cod_settlement_extents_v4.xml",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11792,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/baqh-yg06/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

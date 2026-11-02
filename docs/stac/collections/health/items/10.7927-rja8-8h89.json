@@ -112,7 +112,7 @@
       "NASA Socioeconomic Data and Applications Center (SEDAC)"
     ],
     "ciesin:place": [
-      "Global"
+      "Palisades, NY"
     ],
     "ciesin:purpose": "To provide an annual global surface of concentrations (micrograms per cubic meter) of mineral dust and sea-salt filtered fine particulate matter of 2.5 micrometers or smaller (PM2.5) in countries and urban areas for large-scale health and environmental research",
     "ciesin:publication_date": "2021-04-06T00:00:00Z",
@@ -162,22 +162,10 @@
     }
   ],
   "assets": {
-    "rja8-8h89": {
-      "href": "https://doi.org/10.7927/RJA8-8H89",
-      "type": "text/html",
-      "title": "DOI 10.7927/RJA8-8H89",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/RJA8-8H89",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
     "rhifkl": {
       "href": "https://doi.org/10.7910/DVN/RHIFKL",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/RHIFKL",
+      "title": "Annual PM2.5 Concentrations for Countries and Urban Areas, 1998-2016 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -186,10 +174,59 @@
       "ciesin:source_identifier": "10.7910/DVN/RHIFKL",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14222210": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FRHIFKL",
+      "type": "application/xhtml+xml",
+      "title": "Annual PM2.5 Concentrations for Countries and Urban Areas, 1998-2016 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/RHIFKL",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "rja8-8h89": {
+      "href": "https://doi.org/10.7927/RJA8-8H89",
+      "type": "text/html",
+      "title": "Annual PM2.5 Concentrations for Countries and Urban Areas, 1998-2016 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/RJA8-8H89",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550192203-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192203-ESDIS",
+      "type": "text/html",
+      "title": "Annual PM2.5 Concentrations for Countries and Urban Areas, 1998-2016 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/RJA8-8H89",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-annual-pm2-5-concentrations-countries-urban-areas-v1-1998-2016-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-annual-pm2-5-concentrations-countries-urban-areas-v1-1998-2016-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — sdei annual pm2 5 concentrations countries urban areas v1 1998 2016 documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-annual-pm2-5-concentrations-countries-urban-areas-v1-1998-2016-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550192203-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "metadata-package-for-annual-pm2.5-concentrations-for-countries-and-urban-areas-1998-2016": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222210",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Annual PM2.5 Concentrations for Countries and Urban Areas, 1998-2016",
       "roles": [
         "data"
       ],
@@ -199,7 +236,42 @@
       "ciesin:source_identifier": "14222210",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715594": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192203-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Annual PM2.5 Concentrations for Countries and Urban Areas, 1998-2016",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550192203-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550192203-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-annual-pm2-5-concentrations-countries-urban-areas-v1-1998-2016/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download-2": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-annual-pm2-5-concentrations-urban-areas-v1-1998-2016/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "sdei-annual-pm2-5-concentrations-countries-urban-areas-v1-1998-2016-urban-areas-shp.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715594",
       "type": "application/zipped-shapefile",
       "title": "sdei-annual-pm2-5-concentrations-countries-urban-areas-v1-1998-2016-urban-areas-shp.zip",
@@ -212,7 +284,7 @@
       "ciesin:source_identifier": "11715594",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715593": {
+    "sdei-annual-pm2-5-concentrations-countries-urban-areas-v1-1998-2016-xlsx.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715593",
       "type": "application/zip",
       "title": "sdei-annual-pm2-5-concentrations-countries-urban-areas-v1-1998-2016-xlsx.zip",
@@ -223,42 +295,6 @@
       "ciesin:source": "Harvard Dataverse file",
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "11715593",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3550192203-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192203-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/RJA8-8H89",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "sdei-annual-pm2-5-concentrations-countries-urban-areas-v1-1998-2016-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-annual-pm2-5-concentrations-countries-urban-areas-v1-1998-2016-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/RJA8-8H89",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192203-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/RJA8-8H89",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

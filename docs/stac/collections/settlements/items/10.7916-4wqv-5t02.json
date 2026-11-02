@@ -56,6 +56,7 @@
       }
     ],
     "sci:doi": "10.7916/4wqv-5t02",
+    "sci:citation": "Center for International Earth Science Information Network (2024). GRID3 COD - Settlement Extents v3.0. Columbia University. https://doi.org/10.7916/4wqv-5t02",
     "version": "3.0",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
@@ -69,6 +70,9 @@
     ],
     "ciesin:authors": [
       "Center for International Earth Science Information Network"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -108,19 +112,44 @@
     }
   ],
   "assets": {
+    "4wqv-5t02-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/4wqv-5t02#assets-panel",
+      "type": "application/octet-stream",
+      "title": "4wqv-5t02",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/4wqv-5t02",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "dataset-documentation-grid3-cod---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/xftc-p260/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 COD - Settlement Extents v3.0",
+      "roles": [
+        "data"
+      ],
+      "file:size": 17453132,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/xftc-p260/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
     "4wqv-5t02": {
       "href": "https://doi.org/10.7916/4wqv-5t02",
       "type": "text/html",
-      "title": "DOI 10.7916/4wqv-5t02",
+      "title": "GRID3 COD - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/4wqv-5t02",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3_cod_settlement_extents_v3_0_gpkg": {
+    "grid3_cod_settlement_extents_v3_0_gpkg.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/0dkf-5696/download",
       "type": "application/zip",
       "title": "GRID3_COD_settlement_extents_v3_0_gpkg.zip",
@@ -133,7 +162,7 @@
       "ciesin:source_identifier": "/doi/10.7916/0dkf-5696/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-2": {
+    "grid3_cod_settlement_grid_v3_0_gpkg.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/edjd-7d43/download",
       "type": "application/zip",
       "title": "GRID3_COD_settlement_grid_v3_0_gpkg.zip",
@@ -144,19 +173,6 @@
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/edjd-7d43/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/xftc-p260/download",
-      "type": "application/pdf",
-      "title": "GRID3 COD - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 17453132,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/xftc-p260/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

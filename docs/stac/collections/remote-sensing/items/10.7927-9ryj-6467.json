@@ -106,7 +106,7 @@
       "NASA Socioeconomic Data and Applications Center (SEDAC)"
     ],
     "ciesin:place": [
-      "Global"
+      "Palisades, NY"
     ],
     "ciesin:purpose": "To visualize changes in brightness and extent of global nighttime lights networks over two decades with improved radiometric accuracy and finer spatial resolution.",
     "ciesin:publication_date": "2020-06-23T00:00:00Z",
@@ -156,34 +156,81 @@
     }
   ],
   "assets": {
-    "9ryj-6467": {
-      "href": "https://doi.org/10.7927/9RYJ-6467",
-      "type": "text/html",
-      "title": "DOI 10.7927/9RYJ-6467",
+    "sdei-viirs-dmsp-dlight-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-viirs-dmsp-dlight-readme.txt",
+      "type": "text/plain",
+      "title": "Dataset documentation — VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT)",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/9RYJ-6467",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3550194672-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "dm3j1a": {
-      "href": "https://doi.org/10.7910/DVN/DM3J1A",
+    "69wp-8547": {
+      "href": "https://doi.org/10.7927/69wp-8547.",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/DM3J1A",
+      "title": "Dataset documentation — VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT)",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/DM3J1A",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+      "ciesin:asset_match_basis": "inventory XML location"
     },
-    "14222221": {
+    "sdei-viirs-dmsp-dlight-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-viirs-dmsp-dlight-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — sdei viirs dmsp dlight documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550194672-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-viirs-dmsp-dlight-thumbnail.jpg": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-viirs-dmsp-dlight/sdei-viirs-dmsp-dlight-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT) (sdei viirs dmsp dlight thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR granule",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "G3550259983-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-viirs-dmsp-dlight-thumbnail.jpg-2": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-viirs-dmsp-dlight/sdei-viirs-dmsp-dlight-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT) (sdei viirs dmsp dlight thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "sdei-viirs-dmsp-dlight.png": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-viirs-dmsp-dlight/sdei-viirs-dmsp-dlight.png",
+      "type": "image/png",
+      "title": "Map image — VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT) (sdei viirs dmsp dlight)",
+      "description": "VIIRS Plus DMSP Change in Lights map for the years 1992, 2002 and 2013 in PNG format from the VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT) data set.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR granule",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "G3550259983-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "metadata-package-for-viirs-plus-dmsp-change-in-lights-viirs-dmsp-dlight": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222221",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT)",
       "roles": [
         "data"
       ],
@@ -193,7 +240,53 @@
       "ciesin:source_identifier": "14222221",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11835910": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550194672-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT)",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550194672-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-viirs-dmsp-dlight/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-viirs-dmsp-dlight/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-viirs-dmsp-dlight/maps/services",
+      "type": "text/html",
+      "title": "Related link: Web Map Services accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550194672-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
+    "sdei-viirs-dmsp-dlight-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835910",
       "type": "application/zip",
       "title": "sdei-viirs-dmsp-dlight-geotiff.zip",
@@ -206,27 +299,78 @@
       "ciesin:source_identifier": "11835910",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "j.gloplacha.2018.03.005": {
-      "href": "https://doi.org/10.1016/j.gloplacha.2018.03.005",
-      "type": "text/html",
-      "title": "Related Publication: http://doi.org/10.3390/ijgi4042561",
+    "sdei-viirs-dmsp-dlight-geotiff.zip-2": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/sdei/sdei-viirs-dmsp-dlight/sdei-viirs-dmsp-dlight-geotiff.zip",
+      "type": "application/x-zip-compressed",
+      "title": "sdei-viirs-dmsp-dlight-geotiff.zip",
       "roles": [
-        "metadata"
+        "data"
       ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source": "NASA CMR granule",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "G3550259983-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "69wp-8547": {
-      "href": "https://doi.org/10.7927/69wp-8547",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1111/j.1466-8238.2010.00584.x",
+    "sdei-viirs-dmsp-dlight.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/maps/sdei/sdei-viirs-dmsp-dlight/sdei-viirs-dmsp-dlight.pdf",
+      "type": "application/pdf",
+      "title": "sdei-viirs-dmsp-dlight-geotiff.zip",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "NASA CMR granule",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "G3550259983-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "dm3j1a": {
+      "href": "https://doi.org/10.7910/DVN/DM3J1A",
+      "type": "text/html",
+      "title": "VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT) — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/DM3J1A",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FDM3J1A",
+      "type": "application/xhtml+xml",
+      "title": "VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT) — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/DM3J1A",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "9ryj-6467": {
+      "href": "https://doi.org/10.7927/9RYJ-6467",
+      "type": "text/html",
+      "title": "VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT) — NASA CMR DOI",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI; NASA CMR granule",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/9RYJ-6467; G3550259983-ESDIS",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi; exact DOI lookup"
+    },
+    "c3550194672-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550194672-ESDIS",
+      "type": "text/html",
+      "title": "VIIRS Plus DMSP Change in Lights (VIIRS+DMSP dLIGHT) — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/9RYJ-6467",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

@@ -158,10 +158,23 @@
     }
   ],
   "assets": {
+    "ndh-synthesis-report-general-documentation.pdf": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — ndh synthesis report general documentation",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550186947-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
     "h43f4mh2": {
       "href": "https://doi.org/10.7927/H43F4MH2",
       "type": "text/html",
-      "title": "DOI 10.7927/H43F4MH2",
+      "title": "Global Earthquake Mortality Risks and Distribution — NASA CMR DOI",
       "roles": [
         "metadata"
       ],
@@ -173,7 +186,7 @@
     "c3550186947-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550186947-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Global Earthquake Mortality Risks and Distribution — NASA CMR record",
       "roles": [
         "metadata"
       ],
@@ -182,33 +195,34 @@
       "ciesin:source_identifier": "10.7927/H43F4MH2",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550186947-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+    "earthquake-mortality-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ndh/ndh-earthquake-mortality-risks-distribution/earthquake-mortality-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Earthquake Mortality Risks and Distribution (earthquake mortality thumbnail)",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H43F4MH2",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "wdi2000": {
-      "href": "http://www.worldbank.org/data/wdi2000",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1073/pnas.0509842103",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "natural-disaster-hotspots-a-global-risk-analysis": {
-      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550186947-ESDIS",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1073/pnas.1017031108",
+      "title": "NASA Earthdata granule search — Global Earthquake Mortality Risks and Distribution",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550186947-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550186947-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-mortality-risks-distribution/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -216,10 +230,10 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "h4tx3c9f": {
-      "href": "https://doi.org/10.7927/H4TX3C9F",
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-mortality-risks-distribution/maps",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1073/pnas.2024792118",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -230,7 +244,7 @@
     "h4bz63zs": {
       "href": "https://doi.org/10.7927/H4BZ63ZS",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4P55KKF",
+      "title": "Related Publication: Global Earthquake Hazard Distribution - Peak Ground Acceleration. Center for Hazards and Risk Research - CHRR - Columbia University, and Center for International Earth Science Information Network - CIESIN - Columbia University; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -241,7 +255,7 @@
     "h4765c7s": {
       "href": "https://doi.org/10.7927/H4765C7S",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H48W3BCM",
+      "title": "Related Publication: Global Earthquake Hazard Frequency and Distribution. Center for Hazards and Risk Research - CHRR - Columbia University, and Center for International Earth Science Information Network - CIESIN - Columbia University; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -252,7 +266,7 @@
     "h4zp4415": {
       "href": "https://doi.org/10.7927/H4ZP4415",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1111/gcb.14549",
+      "title": "Related Publication: Global Earthquake Proportional Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -260,10 +274,10 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "the-world-factbook": {
-      "href": "https://www.cia.gov/library/publications/the-world-factbook/",
+    "h4tx3c9f": {
+      "href": "https://doi.org/10.7927/H4TX3C9F",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.2760/290498",
+      "title": "Related Publication: Global Earthquake Total Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -271,38 +285,31 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "www.nga.mil": {
-      "href": "http://www.nga.mil",
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-mortality-risks-distribution/maps/services",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/tg7r-n260",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-mortality-risks-distribution/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-mortality-risks-distribution/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "C3550186947-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     },
-    "glcc.asp": {
-      "href": "http://edcdaac.usgs.gov/glcc/glcc.asp",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H49021PW",
+    "ndh-citation2.txt": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4639mpp": {
-      "href": "https://doi.org/10.7927/H4639MPP",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4JH3J4N",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "C3550186947-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

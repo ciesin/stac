@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8js9psx",
   "collection": "conservation",
@@ -30,6 +29,7 @@
       }
     ],
     "sci:doi": "10.7916/d8js9psx",
+    "sci:citation": "ElBishlawi, Hagar, & Jaffe, Peter R. (2015). Characterization of dissolved organic matter from a restored urban marsh and its role in the mobilization of trace metals. Columbia University. https://doi.org/10.7916/d8js9psx",
     "ciesin:resource_type": "article",
     "ciesin:category": "Conservation",
     "ciesin:tags": [
@@ -43,6 +43,9 @@
     "ciesin:authors": [
       "ElBishlawi, Hagar",
       "Jaffe, Peter R."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -82,7 +85,7 @@
     "d8js9psx": {
       "href": "https://doi.org/10.7916/d8js9psx",
       "type": "text/html",
-      "title": "DOI 10.7916/d8js9psx",
+      "title": "Characterization of dissolved organic matter from a restored urban marsh and its role in the mobilization of trace metals — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -90,19 +93,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8js9psx",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "chemosphere_article": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8BG30QH/download",
-      "type": "application/pdf",
-      "title": "Chemosphere_Article.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 497227,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8BG30QH/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

@@ -73,6 +73,12 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network"
     ],
+    "ciesin:publishers": [
+      "GRID3"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 MDG - Settlement Extents v3.0 consists of a geographic representation of settlements in Madagascar, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Both layers include attributes as described in the codebooks. Data inputs and methodology are described in data release notes.",
     "ciesin:publication_date": "2024-09-30T00:00:00Z",
     "ciesin:additional_resources": [
@@ -114,32 +120,33 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-mdg---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vzvz-nn73/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 MDG - Settlement Extents v3.0",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "file:size": 17315774,
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/vzvz-nn73/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
     "q6ye-pn21": {
       "href": "https://doi.org/10.7916/Q6YE-PN21",
       "type": "text/html",
-      "title": "DOI 10.7916/Q6YE-PN21",
+      "title": "GRID3 MDG - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/Q6YE-PN21",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3-mdg---settlement-extents-v3.0---data-release-notes": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/vzvz-nn73/download",
-      "type": "application/pdf",
-      "title": "GRID3 MDG - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 17315774,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/vzvz-nn73/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-2": {
+    "grid3_mdg_settlement_extents_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/dk8t-ek85/download",
       "type": "application/zip",
       "title": "GRID3_MDG_settlement_extents_v3_0.zip",
@@ -147,12 +154,12 @@
         "data"
       ],
       "file:size": 409344473,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/dk8t-ek85/download",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     },
-    "download-3": {
+    "grid3_mdg_settlement_grid_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/t5dm-me29/download",
       "type": "application/zip",
       "title": "GRID3_MDG_settlement_grid_v3_0.zip",
@@ -160,32 +167,10 @@
         "data"
       ],
       "file:size": 110428753,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/t5dm-me29/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "aqgr-2b84": {
-      "href": "https://doi.org/10.7916/aqgr-2b84",
-      "type": "text/html",
-      "title": "GRID3 MDG - Settlement Extents v2.0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "q6ye-pn21-2": {
-      "href": "https://doi.org/doi:10.7916/q6ye-pn21",
-      "type": "text/html",
-      "title": "q6ye-pn21",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

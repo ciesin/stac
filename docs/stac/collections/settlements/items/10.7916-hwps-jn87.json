@@ -73,6 +73,12 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network"
     ],
+    "ciesin:publishers": [
+      "GRID3"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 DJI - Settlement Extents v3.0 consists of a geographic representation of settlements in Djibouti, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Both layers include attributes as described in the codebooks. Data inputs and methodology are described in data release notes.",
     "ciesin:publication_date": "2024-09-30T00:00:00Z",
     "ciesin:additional_resources": [
@@ -114,32 +120,33 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-dji---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/x1cz-4s77/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 DJI - Settlement Extents v3.0",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "file:size": 17302267,
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/x1cz-4s77/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
     "hwps-jn87": {
       "href": "https://doi.org/10.7916/HWPS-JN87",
       "type": "text/html",
-      "title": "DOI 10.7916/HWPS-JN87",
+      "title": "GRID3 DJI - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/HWPS-JN87",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3_dji_settlement_grid_v3_0": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/9cqx-v387/download",
-      "type": "application/zip",
-      "title": "GRID3_DJI_settlement_grid_v3_0.zip",
-      "roles": [
-        "data"
-      ],
-      "file:size": 1180942,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/9cqx-v387/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-2": {
+    "grid3_dji_settlement_extents_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/h5pw-9z73/download",
       "type": "application/zip",
       "title": "GRID3_DJI_settlement_extents_v3_0.zip",
@@ -147,45 +154,23 @@
         "data"
       ],
       "file:size": 2719346,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/h5pw-9z73/download",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/x1cz-4s77/download",
-      "type": "application/pdf",
-      "title": "GRID3 DJI - Settlement Extents v3.0 - Data Release Notes .pdf",
+    "grid3_dji_settlement_grid_v3_0.zip": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/9cqx-v387/download",
+      "type": "application/zip",
+      "title": "GRID3_DJI_settlement_grid_v3_0.zip",
       "roles": [
         "data"
       ],
-      "file:size": 17302267,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/x1cz-4s77/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "jjv8-t167": {
-      "href": "https://doi.org/10.7916/jjv8-t167",
-      "type": "text/html",
-      "title": "GRID3 DJI - Settlement Extents v2.0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "hwps-jn87-2": {
-      "href": "https://doi.org/doi:10.7916/hwps-jn87",
-      "type": "text/html",
-      "title": "hwps-jn87",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "file:size": 1180942,
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/9cqx-v387/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

@@ -50,6 +50,7 @@
       }
     ],
     "sci:doi": "10.7916/x9xg-e262",
+    "sci:citation": "Center for International Earth Science Information Network (2024). GRID3 NGA - Settlement Extents v3.1. Columbia University. https://doi.org/10.7916/x9xg-e262",
     "version": "3.1",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
@@ -63,6 +64,9 @@
     ],
     "ciesin:authors": [
       "Center for International Earth Science Information Network"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -98,22 +102,10 @@
     }
   ],
   "assets": {
-    "x9xg-e262": {
-      "href": "https://doi.org/10.7916/x9xg-e262",
-      "type": "text/html",
-      "title": "DOI 10.7916/x9xg-e262",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/x9xg-e262",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "grid3-nga---settlement-extents-v3.1---data-release-notes": {
+    "dataset-documentation-grid3-nga---settlement-extents-v3.1": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/g78y-7303/download",
       "type": "application/pdf",
-      "title": "GRID3 NGA - Settlement Extents v3.1 - Data Release Notes .pdf",
+      "title": "Dataset documentation — GRID3 NGA - Settlement Extents v3.1",
       "roles": [
         "data"
       ],
@@ -123,7 +115,19 @@
       "ciesin:source_identifier": "/doi/10.7916/g78y-7303/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-2": {
+    "x9xg-e262": {
+      "href": "https://doi.org/10.7916/x9xg-e262",
+      "type": "text/html",
+      "title": "GRID3 NGA - Settlement Extents v3.1 — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/x9xg-e262",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
+    },
+    "grid3_nga_settlement_extents_v3_1_gpkg.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/xrr3-bf34/download",
       "type": "application/zip",
       "title": "GRID3_NGA_settlement_extents_v3_1_gpkg.zip",
@@ -136,7 +140,7 @@
       "ciesin:source_identifier": "/doi/10.7916/xrr3-bf34/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-3": {
+    "grid3_nga_settlement_grid_v3_1_gpkg.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/g4sb-pm40/download",
       "type": "application/zip",
       "title": "GRID3_NGA_settlement_grid_v3_1_gpkg.zip",
@@ -147,6 +151,18 @@
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/g4sb-pm40/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "x9xg-e262-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/x9xg-e262#assets-panel",
+      "type": "application/octet-stream",
+      "title": "x9xg-e262",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/x9xg-e262",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

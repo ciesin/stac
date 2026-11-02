@@ -164,34 +164,45 @@
     }
   ],
   "assets": {
-    "h4tt4p2c": {
-      "href": "https://doi.org/10.7927/H4TT4P2C",
+    "h4q23xbz": {
+      "href": "https://doi.org/10.7927/h4q23xbz",
       "type": "text/html",
-      "title": "DOI 10.7927/H4TT4P2C",
+      "title": "Dataset documentation — Trends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE)",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4TT4P2C",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:asset_match_basis": "inventory XML location"
     },
-    "ydqau9": {
-      "href": "https://doi.org/10.7910/DVN/YDQAU9",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/YDQAU9",
+    "sdei-trends-freshwater-availability-grace-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-trends-freshwater-availability-grace-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — sdei trends freshwater availability grace documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-trends-freshwater-availability-grace-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/YDQAU9",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+      "ciesin:source_identifier": "C3540911301-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14222220": {
+    "sdei-trends-freshwater-availability-grace-global-2002-2016-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-trends-freshwater-availability-grace/sdei-trends-freshwater-availability-grace-global-2002-2016-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Trends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE) (sdei trends freshwater availability grace global 2002 2016 thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-trends-in-global-freshwater-availability-from-the-gravity-recovery-an": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222220",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Trends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE)",
       "roles": [
         "data"
       ],
@@ -201,7 +212,55 @@
       "ciesin:source_identifier": "14222220",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11835849": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540911301-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Trends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE)",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540911301-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540911301-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-trends-freshwater-availability-grace/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-trends-freshwater-availability-grace/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-trends-freshwater-availability-grace/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/sdei-trends-freshwater-availability-grace/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/sdei-trends-freshwater-availability-grace/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540911301-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
+    "sdei-trends-freshwater-availability-grace-2002-2016-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835849",
       "type": "application/zip",
       "title": "sdei-trends-freshwater-availability-grace-2002-2016-geotiff.zip",
@@ -214,10 +273,46 @@
       "ciesin:source_identifier": "11835849",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
+    "ydqau9": {
+      "href": "https://doi.org/10.7910/DVN/YDQAU9",
+      "type": "text/html",
+      "title": "Trends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE) — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/YDQAU9",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FYDQAU9",
+      "type": "application/xhtml+xml",
+      "title": "Trends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE) — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/YDQAU9",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4tt4p2c": {
+      "href": "https://doi.org/10.7927/H4TT4P2C",
+      "type": "text/html",
+      "title": "Trends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE) — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4TT4P2C",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
     "c3540911301-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540911301-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Trends in Global Freshwater Availability from the Gravity Recovery and Climate Experiment (GRACE) — NASA CMR record",
       "roles": [
         "metadata"
       ],
@@ -225,52 +320,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7927/H4TT4P2C",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "sdei-trends-freshwater-availability-grace-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-trends-freshwater-availability-grace-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4TT4P2C",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540911301-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4TT4P2C",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "s41586-018-0123-1": {
-      "href": "https://doi.org/10.1038/s41586-018-0123-1",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4H41PCK",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4q23xbz": {
-      "href": "https://doi.org/10.7927/h4q23xbz",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H49K485P",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

@@ -36,6 +36,7 @@
       }
     ],
     "sci:doi": "10.7916/d8r49phn",
+    "sci:citation": "Ceccato, Pietro N., Ghebremeskel, Tewolde, Jaiteh, Malanding S., Graves, Patricia M., Levy, Marc A., Ghebreselassie, Shashu, … Thomson, Madeleine C. (2007). Malaria Stratification, Climate, and Epidemic Early Warning in Eritrea. Columbia University. https://doi.org/10.7916/d8r49phn",
     "ciesin:resource_type": "article",
     "ciesin:category": "Health",
     "ciesin:tags": [
@@ -61,6 +62,9 @@
       "Fesseha, Issac",
       "Brantly, Eugene P.",
       "Thomson, Madeleine C."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -97,19 +101,7 @@
     }
   ],
   "assets": {
-    "d8r49phn": {
-      "href": "https://doi.org/10.7916/d8r49phn",
-      "type": "text/html",
-      "title": "DOI 10.7916/d8r49phn",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/d8r49phn",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "61.full": {
+    "61.full.pdf": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/D8QC0F4H/download",
       "type": "application/pdf",
       "title": "61.full.pdf",
@@ -118,9 +110,21 @@
       ],
       "file:size": 606866,
       "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/D8QC0F4H/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "d8r49phn": {
+      "href": "https://doi.org/10.7916/d8r49phn",
+      "type": "text/html",
+      "title": "Malaria Stratification, Climate, and Epidemic Early Warning in Eritrea — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8r49phn",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     }
   }
 }

@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-e6j5-2141",
   "collection": "settlements",
@@ -51,7 +50,7 @@
       }
     ],
     "sci:doi": "10.7916/E6J5-2141",
-    "sci:citation": "Dataset citation: Center for International Earth Science Information Network (CIESIN), Columbia University. 2024. GRID3 TCD - Settlement Extents v3.0. New York: GRID3. https://doi.org/doi:10.7916/e6j5-2141. Accessed [DAY MONTH YEAR].",
+    "sci:citation": "Center for International Earth Science Information Network (CIESIN), Columbia University. 2024. GRID3 TCD - Settlement Extents v3.0. New York: GRID3. https://doi.org/doi:10.7916/e6j5-2141. Accessed [DAY MONTH YEAR].",
     "version": "3",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
@@ -114,10 +113,21 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-tcd---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/q2t8-1c79/download",
+      "type": "text/html",
+      "title": "Dataset documentation — GRID3 TCD - Settlement Extents v3.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
     "e6j5-2141": {
       "href": "https://doi.org/10.7916/E6J5-2141",
       "type": "text/html",
-      "title": "DOI 10.7916/E6J5-2141",
+      "title": "GRID3 TCD - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -126,65 +136,26 @@
       "ciesin:source_identifier": "10.7916/E6J5-2141",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
     },
-    "grid3-tcd---settlement-extents-v3.0---data-release-notes": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/q2t8-1c79/download",
-      "type": "application/pdf",
-      "title": "GRID3 TCD - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 17323967,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/q2t8-1c79/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-2": {
+    "grid3_tcd_settlement_extents_v3.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/9qe7-zj16/download",
-      "type": "application/zip",
-      "title": "GRID3_TCD_settlement_extents_v3_0.zip",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_TCD_settlement_extents_v3.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 116061199,
       "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/9qe7-zj16/download",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "download-3": {
+    "grid3_tcd_settlement_grid_v3.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/3dwe-3a69/download",
-      "type": "application/zip",
-      "title": "GRID3_TCD_settlement_grid_v3_0.zip",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_TCD_settlement_grid_v3.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 50485482,
       "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/3dwe-3a69/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "ggvp-9b07": {
-      "href": "https://doi.org/10.7916/ggvp-9b07",
-      "type": "text/html",
-      "title": "GRID3 TCD - Settlement Extents v2.0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "e6j5-2141-2": {
-      "href": "https://doi.org/doi:10.7916/e6j5-2141",
-      "type": "text/html",
-      "title": "e6j5-2141",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     }
   },

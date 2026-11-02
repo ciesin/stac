@@ -878,10 +878,34 @@
     }
   ],
   "assets": {
+    "h48w3bcm": {
+      "href": "https://doi.org/10.7927/H48W3BCM",
+      "type": "text/html",
+      "title": "Dataset documentation — Global Human Built-up And Settlement Extent (HBASE) Dataset From Landsat",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "ulandsat-hbase-v1-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ulandsat-hbase-v1-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — ulandsat hbase v1 documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ulandsat-hbase-v1-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550193482-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
     "h4dn434s": {
       "href": "https://doi.org/10.7927/H4DN434S",
       "type": "text/html",
-      "title": "DOI 10.7927/H4DN434S",
+      "title": "Global Human Built-up And Settlement Extent (HBASE) Dataset From Landsat — NASA CMR DOI",
       "roles": [
         "metadata"
       ],
@@ -893,7 +917,7 @@
     "c3550193482-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550193482-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Global Human Built-up And Settlement Extent (HBASE) Dataset From Landsat — NASA CMR record",
       "roles": [
         "metadata"
       ],
@@ -902,34 +926,34 @@
       "ciesin:source_identifier": "10.7927/H4DN434S",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "ulandsat-hbase-v1-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ulandsat-hbase-v1-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Data Set Documentation",
+    "ulandsat-hbase-v1-hbase-extent-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ulandsat/ulandsat-hbase-v1/ulandsat-hbase-v1-hbase-extent-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Human Built-up And Settlement Extent (HBASE) Dataset From Landsat (ulandsat hbase v1 hbase extent thumbnail)",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4DN434S",
-      "ciesin:asset_match_basis": "exact DOI lookup"
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
     },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550193482-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Global Human Built-up And Settlement Extent (HBASE) Dataset From Landsat",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550193482-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4DN434S",
+      "ciesin:source_identifier": "C3550193482-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "h4p55kkf": {
-      "href": "https://doi.org/10.7927/H4P55KKF",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4639MPP",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -937,10 +961,32 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "h48w3bcm": {
-      "href": "https://doi.org/10.7927/H48W3BCM",
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/maps",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4BR8Q45",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/maps/services",
+      "type": "text/html",
+      "title": "Related link: Web Map Services accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4p55kkf": {
+      "href": "https://doi.org/10.7927/H4P55KKF",
+      "type": "text/html",
+      "title": "Related Publication: Global Man-made Impervious Surface (GMIS) Dataset From Landsat. Brown de Colstoun, E. C., C. Huang, P. Wang, J. C. Tilton, B. Tan, J. Phillips, S. Niemczura, P.-Y. Ling, and R. E. Wolfe. NASA Socioeconomic Data and Applications Center (SEDAC). 2017",
       "roles": [
         "metadata"
       ],

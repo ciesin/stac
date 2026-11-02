@@ -152,22 +152,10 @@
     }
   ],
   "assets": {
-    "nj0x-8y67": {
-      "href": "https://doi.org/10.7927/NJ0X-8Y67",
-      "type": "text/html",
-      "title": "DOI 10.7927/NJ0X-8Y67",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/NJ0X-8Y67",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
     "dmaetm": {
       "href": "https://doi.org/10.7910/DVN/DMAETM",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/DMAETM",
+      "title": "Global One-Eighth Degree Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -176,10 +164,57 @@
       "ciesin:source_identifier": "10.7910/DVN/DMAETM",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14222240": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FDMAETM",
+      "type": "application/xhtml+xml",
+      "title": "Global One-Eighth Degree Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/DMAETM",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "nj0x-8y67": {
+      "href": "https://doi.org/10.7927/NJ0X-8Y67",
+      "type": "text/html",
+      "title": "Global One-Eighth Degree Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/NJ0X-8Y67",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540909397-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540909397-ESDIS",
+      "type": "text/html",
+      "title": "Global One-Eighth Degree Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/NJ0X-8Y67",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-ssp5-2100-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ssp/ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100/ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-ssp5-2100-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global One-Eighth Degree Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100 (ssp 1 8th urban land extent projection base year ssp 2000 2100 ssp5 2100 thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-one-eighth-degree-urban-land-extent-projection-and-base-year-g": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222240",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global One-Eighth Degree Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100",
       "roles": [
         "data"
       ],
@@ -189,7 +224,53 @@
       "ciesin:source_identifier": "14222240",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808527": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540909397-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global One-Eighth Degree Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540909397-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540909397-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "data-download-2": {
+      "href": "https://sedac.ciesin.columbia.edu/data/setl/ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/setl/ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-ancillary-layers-geotiff.zi": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808527",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-ancillary-layers-geotiff.zip",
@@ -202,7 +283,7 @@
       "ciesin:source_identifier": "11808527",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808513": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-ancillary-layers-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808513",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-ancillary-layers-grid.zip",
@@ -215,7 +296,7 @@
       "ciesin:source_identifier": "11808513",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808520": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-ancillary-layers-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808520",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-ancillary-layers-netcdf.zip",
@@ -228,7 +309,7 @@
       "ciesin:source_identifier": "11808520",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808516": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-byr-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808516",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-byr-geotiff.zip",
@@ -241,7 +322,7 @@
       "ciesin:source_identifier": "11808516",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808517": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-byr-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808517",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-byr-grid.zip",
@@ -254,7 +335,7 @@
       "ciesin:source_identifier": "11808517",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808507": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-byr-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808507",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-byr-netcdf.zip",
@@ -267,7 +348,7 @@
       "ciesin:source_identifier": "11808507",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808519": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp1-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808519",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp1-geotiff.zip",
@@ -280,7 +361,7 @@
       "ciesin:source_identifier": "11808519",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808525": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp1-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808525",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp1-grid.zip",
@@ -293,7 +374,7 @@
       "ciesin:source_identifier": "11808525",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808518": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp1-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808518",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp1-netcdf.zip",
@@ -306,7 +387,7 @@
       "ciesin:source_identifier": "11808518",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808523": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp2-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808523",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp2-geotiff.zip",
@@ -319,7 +400,7 @@
       "ciesin:source_identifier": "11808523",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808521": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp2-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808521",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp2-grid.zip",
@@ -332,7 +413,7 @@
       "ciesin:source_identifier": "11808521",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808514": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp2-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808514",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp2-netcdf.zip",
@@ -345,7 +426,7 @@
       "ciesin:source_identifier": "11808514",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808526": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp3-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808526",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp3-geotiff.zip",
@@ -358,7 +439,7 @@
       "ciesin:source_identifier": "11808526",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808509": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp3-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808509",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp3-grid.zip",
@@ -371,7 +452,7 @@
       "ciesin:source_identifier": "11808509",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808522": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp3-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808522",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp3-netcdf.zip",
@@ -384,7 +465,7 @@
       "ciesin:source_identifier": "11808522",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808515": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp4-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808515",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp4-geotiff.zip",
@@ -397,7 +478,7 @@
       "ciesin:source_identifier": "11808515",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808511": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp4-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808511",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp4-grid.zip",
@@ -410,7 +491,7 @@
       "ciesin:source_identifier": "11808511",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808524": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp4-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808524",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp4-netcdf.zip",
@@ -423,7 +504,7 @@
       "ciesin:source_identifier": "11808524",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808512": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp5-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808512",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp5-geotiff.zip",
@@ -436,7 +517,7 @@
       "ciesin:source_identifier": "11808512",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808510": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp5-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808510",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp5-grid.zip",
@@ -449,7 +530,7 @@
       "ciesin:source_identifier": "11808510",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808508": {
+    "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp5-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808508",
       "type": "application/zip",
       "title": "ssp-1-8th-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp5-netcdf.zip",
@@ -461,41 +542,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "11808508",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3540909397-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540909397-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/NJ0X-8Y67",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540909397-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/NJ0X-8Y67",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "s41467-020-15788-7": {
-      "href": "https://doi.org/10.1038/s41467-020-15788-7",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4WH2MXH",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

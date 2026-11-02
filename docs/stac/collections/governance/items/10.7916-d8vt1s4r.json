@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8vt1s4r",
   "collection": "governance",
@@ -30,6 +29,7 @@
       }
     ],
     "sci:doi": "10.7916/d8vt1s4r",
+    "sci:citation": "Downs, Robert R., Duerr, Ruth, Donaldson, Devan Ray, & Ramdeen, Sarah (2015). Establishing Trustworthy Repositories of Scientific Data: Opportunities and Benefits. Columbia University. https://doi.org/10.7916/d8vt1s4r",
     "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
@@ -45,6 +45,9 @@
       "Duerr, Ruth",
       "Donaldson, Devan Ray",
       "Ramdeen, Sarah"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -86,7 +89,7 @@
     "d8vt1s4r": {
       "href": "https://doi.org/10.7916/d8vt1s4r",
       "type": "text/html",
-      "title": "DOI 10.7916/d8vt1s4r",
+      "title": "Establishing Trustworthy Repositories of Scientific Data: Opportunities and Benefits — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -94,45 +97,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8vt1s4r",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "downsduerrdonaldsonramdeenestablishingtrustworthyreposfinal20150918.pdf": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8902CDH/download",
-      "type": "application/pdf",
-      "title": "DownsDuerrDonaldsonRamdeenEstablishingTrustworthyReposFinal20150918.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 490652,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8902CDH/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "downsduerrdonaldsonramdeenipreslightning30final20151104.pdf": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8DR344X/download",
-      "type": "application/pdf",
-      "title": "DownsDuerrDonaldsonRamdeenIPRESLightning30Final20151104.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 94236,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8DR344X/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "downs_establishing-trustworthy-repositories-abstract.pdf": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8JH3VTD/download",
-      "type": "application/pdf",
-      "title": "downs_establishing-trustworthy-repositories-abstract.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 315832,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8JH3VTD/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

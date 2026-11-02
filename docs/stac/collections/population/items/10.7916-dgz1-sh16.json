@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-dgz1-sh16",
   "collection": "population",
@@ -91,7 +90,7 @@
     "dgz1-sh16": {
       "href": "https://doi.org/10.7916/dgz1-sh16",
       "type": "text/html",
-      "title": "DOI 10.7916/dgz1-sh16",
+      "title": "Generating and Evaluating Digitised Census Enumeration Areas — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -99,19 +98,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/dgz1-sh16",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "grid3_censusenumerationareas_june2022.pdf": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/9y6k-ac33/download",
-      "type": "application/pdf",
-      "title": "GRID3_CensusEnumerationAreas_June2022.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 18171679,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/9y6k-ac33/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

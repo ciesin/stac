@@ -278,22 +278,46 @@
     }
   ],
   "assets": {
-    "h4r78c4k": {
-      "href": "https://doi.org/10.7927/H4R78C4K",
+    "popdynamics-lac-pop-1990-2000-shp-xlsx.zip-2": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/popdynamics/popdynamics-lac-pop-1990-2000/popdynamics-lac-pop-1990-2000-shp-xlsx.zip",
+      "type": "application/x-zip-compressed",
+      "title": "Data in Shapefile and Excel Workbook format from the Latin America and the Caribbean Population Time Series data set.",
+      "description": "Data in Shapefile and Excel Workbook format from the Latin America and the Caribbean Population Time Series data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "NASA CMR granule",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "G3550200476-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4mg7mf9": {
+      "href": "https://doi.org/10.7927/H4MG7MF9",
       "type": "text/html",
-      "title": "DOI 10.7927/H4R78C4K",
+      "title": "Dataset documentation — Latin America and the Caribbean Population Time Series",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4R78C4K",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "popdynamics-lac-pop-1990-2000-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/popdynamics-lac-pop-1990-2000-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — popdynamics lac pop 1990 2000 documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550194187-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "iiblqt": {
       "href": "https://doi.org/10.7910/DVN/IIBLQT",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/IIBLQT",
+      "title": "Latin America and the Caribbean Population Time Series — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -302,10 +326,47 @@
       "ciesin:source_identifier": "10.7910/DVN/IIBLQT",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14202238": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FIIBLQT",
+      "type": "application/xhtml+xml",
+      "title": "Latin America and the Caribbean Population Time Series — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/IIBLQT",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4r78c4k": {
+      "href": "https://doi.org/10.7927/H4R78C4K",
+      "type": "text/html",
+      "title": "Latin America and the Caribbean Population Time Series — NASA CMR DOI",
+      "description": "DATA SET DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI; NASA CMR granule",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4R78C4K; G3550200476-ESDIS",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi; exact DOI lookup"
+    },
+    "c3550194187-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550194187-ESDIS",
+      "type": "text/html",
+      "title": "Latin America and the Caribbean Population Time Series — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4R78C4K",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "metadata-package-for-latin-america-and-the-caribbean-population-time-series": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14202238",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Latin America and the Caribbean Population Time Series",
       "roles": [
         "data"
       ],
@@ -315,7 +376,19 @@
       "ciesin:source_identifier": "14202238",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815583": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550194187-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Latin America and the Caribbean Population Time Series",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550194187-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "popdynamics-lac-pop-1990-2000-shp-xlsx.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815583",
       "type": "application/zipped-shapefile",
       "title": "popdynamics-lac-pop-1990-2000-shp-xlsx.zip",
@@ -328,21 +401,10 @@
       "ciesin:source_identifier": "11815583",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "j.1744-7429.2012.00908.x": {
-      "href": "http://doi.org/10.1111/j.1744-7429.2012.00908.x",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-lac-pop-1990-2000/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1016/j.gloplacha.2018.03.005",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4mg7mf9": {
-      "href": "https://doi.org/10.7927/H4MG7MF9",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/69wp-8547",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],

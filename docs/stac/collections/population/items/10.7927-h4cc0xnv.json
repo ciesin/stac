@@ -158,22 +158,34 @@
     }
   ],
   "assets": {
-    "h4cc0xnv": {
-      "href": "https://doi.org/10.7927/H4CC0XNV",
+    "h40r9mbw": {
+      "href": "https://doi.org/10.7927/H40R9MBW",
       "type": "text/html",
-      "title": "DOI 10.7927/H4CC0XNV",
+      "title": "Dataset documentation — Global Population Count Grid Time Series Estimates",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4CC0XNV",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "popdynamics-global-pop-count-time-series-estimates-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/popdynamics-global-pop-count-time-series-estimates-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — popdynamics global pop count time series estimates documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/popdynamics-global-pop-count-time-series-estimates-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550193299-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "bwkca6": {
       "href": "https://doi.org/10.7910/DVN/BWKCA6",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/BWKCA6",
+      "title": "Global Population Count Grid Time Series Estimates — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -182,10 +194,57 @@
       "ciesin:source_identifier": "10.7910/DVN/BWKCA6",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14202231": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FBWKCA6",
+      "type": "application/xhtml+xml",
+      "title": "Global Population Count Grid Time Series Estimates — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/BWKCA6",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4cc0xnv": {
+      "href": "https://doi.org/10.7927/H4CC0XNV",
+      "type": "text/html",
+      "title": "Global Population Count Grid Time Series Estimates — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4CC0XNV",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550193299-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550193299-ESDIS",
+      "type": "text/html",
+      "title": "Global Population Count Grid Time Series Estimates — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4CC0XNV",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "popdynamics-global-pop-count-time-series-estimates-1990-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/popdynamics/popdynamics-global-pop-count-time-series-estimates/popdynamics-global-pop-count-time-series-estimates-1990-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Population Count Grid Time Series Estimates (popdynamics global pop count time series estimates 1990 thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-population-count-grid-time-series-estimates": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14202231",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Population Count Grid Time Series Estimates",
       "roles": [
         "data"
       ],
@@ -195,7 +254,20 @@
       "ciesin:source_identifier": "14202231",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808549": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550193299-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global Population Count Grid Time Series Estimates",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550193299-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550193299-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "popdynamics-global-pop-count-time-series-estimates-1970-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808549",
       "type": "application/zip",
       "title": "popdynamics-global-pop-count-time-series-estimates-1970-geotiff.zip",
@@ -208,7 +280,7 @@
       "ciesin:source_identifier": "11808549",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808555": {
+    "popdynamics-global-pop-count-time-series-estimates-1980-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808555",
       "type": "application/zip",
       "title": "popdynamics-global-pop-count-time-series-estimates-1980-geotiff.zip",
@@ -221,7 +293,7 @@
       "ciesin:source_identifier": "11808555",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808556": {
+    "popdynamics-global-pop-count-time-series-estimates-1990-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808556",
       "type": "application/zip",
       "title": "popdynamics-global-pop-count-time-series-estimates-1990-geotiff.zip",
@@ -234,7 +306,7 @@
       "ciesin:source_identifier": "11808556",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808548": {
+    "popdynamics-global-pop-count-time-series-estimates-2000-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808548",
       "type": "application/zip",
       "title": "popdynamics-global-pop-count-time-series-estimates-2000-geotiff.zip",
@@ -247,46 +319,10 @@
       "ciesin:source_identifier": "11808548",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3550193299-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550193299-ESDIS",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-global-pop-count-time-series-estimates/data-download",
       "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4CC0XNV",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "popdynamics-global-pop-count-time-series-estimates-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/popdynamics-global-pop-count-time-series-estimates-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4CC0XNV",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550193299-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4CC0XNV",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "j.1466-8238.2010.00587.x": {
-      "href": "https://doi.org/10.1111/j.1466-8238.2010.00587.x",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1038/472400a",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -294,10 +330,10 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "0959683609356587": {
-      "href": "https://doi.org/10.1177/0959683609356587",
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-global-pop-count-time-series-estimates/maps",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H41834D6",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -308,7 +344,7 @@
     "h47m05w2": {
       "href": "https://doi.org/10.7927/H47M05W2",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4JM27JZ",
+      "title": "Related Publication: Global Population Density Grid Time Series Estimates. Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2017",
       "roles": [
         "metadata"
       ],
@@ -316,16 +352,40 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "h40r9mbw": {
-      "href": "https://doi.org/10.7927/H40R9MBW",
+    "0959683609356587": {
+      "href": "https://doi.org/10.1177/0959683609356587",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1016/j.gloenvcha.2003.10.008",
+      "title": "Related Publication: Long Term Dynamic Modeling of Global Population and Built-up Area in a Spatially Explicit Way: HYDE 3 .1.. Klein Goldewijk, K. , A. Beusen, and P. Janssen. 2010",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "j.1466-8238.2010.00587.x": {
+      "href": "https://doi.org/10.1111/j.1466-8238.2010.00587.x",
+      "type": "text/html",
+      "title": "Related Publication: The HYDE 3.1 Spatially Explicit Database of Human Induced Land Use Change Over the Past 12,000 Years. Klein Goldewijk, K. , A. Beusen, M. de Vos and G. van Drecht. 2011",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-global-pop-count-time-series-estimates/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/popdynamics-global-pop-count-time-series-estimates/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/popdynamics-global-pop-count-time-series-estimates/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550193299-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

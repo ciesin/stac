@@ -56,6 +56,7 @@
       }
     ],
     "sci:doi": "10.7916/ccv9-hp02",
+    "sci:citation": "Center for International Earth Science Information Network, & Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo (2024). GRID3 COD - Health Facilities v2.0. Columbia University. https://doi.org/10.7916/ccv9-hp02",
     "version": "2.0",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Infrastructure",
@@ -70,6 +71,9 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network",
       "Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -119,22 +123,22 @@
     }
   ],
   "assets": {
-    "ccv9-hp02": {
-      "href": "https://doi.org/10.7916/ccv9-hp02",
-      "type": "text/html",
-      "title": "DOI 10.7916/ccv9-hp02",
+    "ccv9-hp02-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ccv9-hp02#assets-panel",
+      "type": "application/octet-stream",
+      "title": "ccv9-hp02",
       "roles": [
-        "metadata"
+        "data"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/ccv9-hp02",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/ccv9-hp02",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "grid3-cod---health-facilities-v2.0-data-release-notes": {
+    "dataset-documentation-grid3-cod---health-facilities-v2.0": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/n4v5-ed96/download",
       "type": "application/pdf",
-      "title": "GRID3 COD - Health Facilities v2.0 Data Release Notes.pdf",
+      "title": "Dataset documentation — GRID3 COD - Health Facilities v2.0",
       "roles": [
         "data"
       ],
@@ -144,33 +148,19 @@
       "ciesin:source_identifier": "/doi/10.7916/n4v5-ed96/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/4304-n993/download",
-      "type": "application/octet-stream",
-      "title": "GRID3_COD_KasaiÌ_Central_health_facilities_v2_0.gpkg",
+    "ccv9-hp02": {
+      "href": "https://doi.org/10.7916/ccv9-hp02",
+      "type": "text/html",
+      "title": "GRID3 COD - Health Facilities v2.0 — Columbia Academic Commons DOI",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "file:size": 696320,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/4304-n993/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/ccv9-hp02",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/n10d-xq97/download",
-      "type": "application/octet-stream",
-      "title": "GRID3_COD_Haut-Lomami_health_facilities_v2_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 360448,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/n10d-xq97/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-4": {
+    "grid3_cod_haut-katanga_health_facilities_v2_0_gpkg.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/2p1e-3v41/download",
       "type": "application/zip",
       "title": "GRID3_COD_Haut-Katanga_health_facilities_v2_0_gpkg.zip",
@@ -183,33 +173,20 @@
       "ciesin:source_identifier": "/doi/10.7916/2p1e-3v41/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-5": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/7mn6-xz72/download",
+    "grid3_cod_haut-lomami_health_facilities_v2_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/n10d-xq97/download",
       "type": "application/octet-stream",
-      "title": "GRID3_COD_Ituri_health_facilities_v2_0.gpkg",
+      "title": "GRID3_COD_Haut-Lomami_health_facilities_v2_0.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 876544,
+      "file:size": 360448,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/7mn6-xz72/download",
+      "ciesin:source_identifier": "/doi/10.7916/n10d-xq97/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-6": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/cpxv-n964/download",
-      "type": "application/octet-stream",
-      "title": "GRID3_COD_KasaiÌ_health_facilities_v2_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 700416,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/cpxv-n964/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-7": {
+    "grid3_cod_health_facilities_v2_0_gpkg.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/55tw-kk69/download",
       "type": "application/zip",
       "title": "GRID3_COD_health_facilities_v2_0_gpkg.zip",
@@ -222,46 +199,46 @@
       "ciesin:source_identifier": "/doi/10.7916/55tw-kk69/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-8": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/c4yg-fn48/download",
+    "grid3_cod_ituri_health_facilities_v2_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/7mn6-xz72/download",
       "type": "application/octet-stream",
-      "title": "GRID3_COD_Maniema_health_facilities_v2_0.gpkg",
+      "title": "GRID3_COD_Ituri_health_facilities_v2_0.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 655360,
+      "file:size": 876544,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/c4yg-fn48/download",
+      "ciesin:source_identifier": "/doi/10.7916/7mn6-xz72/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-9": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/5eyg-zf54/download",
+    "grid3_cod_kasai-_central_health_facilities_v2_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/4304-n993/download",
       "type": "application/octet-stream",
-      "title": "GRID3_COD_Lomami_health_facilities_v2_0.gpkg",
+      "title": "GRID3_COD_KasaiÌ_Central_health_facilities_v2_0.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 663552,
+      "file:size": 696320,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/5eyg-zf54/download",
+      "ciesin:source_identifier": "/doi/10.7916/4304-n993/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-10": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/r2vk-3f96/download",
+    "grid3_cod_kasai-_health_facilities_v2_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/cpxv-n964/download",
       "type": "application/octet-stream",
-      "title": "GRID3_COD_Kwilu_health_facilities_v2_0.gpkg",
+      "title": "GRID3_COD_KasaiÌ_health_facilities_v2_0.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 798720,
+      "file:size": 700416,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/r2vk-3f96/download",
+      "ciesin:source_identifier": "/doi/10.7916/cpxv-n964/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-11": {
+    "grid3_cod_kasai-_oriental_health_facilities_v2_0.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/cqfz-h896/download",
       "type": "application/octet-stream",
       "title": "GRID3_COD_KasaiÌ_Oriental_health_facilities_v2_0.gpkg",
@@ -274,20 +251,7 @@
       "ciesin:source_identifier": "/doi/10.7916/cqfz-h896/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-12": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/q8pt-5n17/download",
-      "type": "application/octet-stream",
-      "title": "GRID3_COD_Tanganyika_health_facilities_v2_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 348160,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/q8pt-5n17/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-13": {
+    "grid3_cod_kinshasa_health_facilities_v2_0.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/gmhh-6b08/download",
       "type": "application/octet-stream",
       "title": "GRID3_COD_Kinshasa_health_facilities_v2_0.gpkg",
@@ -298,6 +262,58 @@
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/gmhh-6b08/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_kwilu_health_facilities_v2_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/r2vk-3f96/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Kwilu_health_facilities_v2_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 798720,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/r2vk-3f96/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_lomami_health_facilities_v2_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5eyg-zf54/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Lomami_health_facilities_v2_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 663552,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/5eyg-zf54/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_maniema_health_facilities_v2_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/c4yg-fn48/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Maniema_health_facilities_v2_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 655360,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/c4yg-fn48/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_tanganyika_health_facilities_v2_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/q8pt-5n17/download",
+      "type": "application/octet-stream",
+      "title": "GRID3_COD_Tanganyika_health_facilities_v2_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 348160,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/q8pt-5n17/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

@@ -108,7 +108,7 @@
       "NASA Socioeconomic Data and Applications Center (SEDAC)"
     ],
     "ciesin:place": [
-      "Global"
+      "Palisades, NY"
     ],
     "ciesin:purpose": "To provide satellite altimeter corrected digital elevation data for environmental, socioeconomic, climate and other related research, such as flood risk assessment, land deformations, landslide modelling, urban planning, and sea level rise impacts.",
     "ciesin:publication_date": "2019-03-22T00:00:00Z",
@@ -158,22 +158,10 @@
     }
   ],
   "assets": {
-    "h40g3h78": {
-      "href": "https://doi.org/10.7927/H40G3H78",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4QV3JG4",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H40G3H78",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
     "nayh7i": {
       "href": "https://doi.org/10.7910/DVN/NAYH7I",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H47W694W",
+      "title": "Altimeter Corrected Elevations, Version 2 (ACE2) — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -182,10 +170,59 @@
       "ciesin:source_identifier": "10.7910/DVN/NAYH7I",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "13958433": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FNAYH7I",
+      "type": "application/xhtml+xml",
+      "title": "Altimeter Corrected Elevations, Version 2 (ACE2) — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/NAYH7I",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h40g3h78": {
+      "href": "https://doi.org/10.7927/H40G3H78",
+      "type": "text/html",
+      "title": "Altimeter Corrected Elevations, Version 2 (ACE2) — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H40G3H78",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550196830-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550196830-ESDIS",
+      "type": "text/html",
+      "title": "Altimeter Corrected Elevations, Version 2 (ACE2) — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H40G3H78",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "dedc-ace-v2-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/dedc-ace-v2-readme.txt",
+      "type": "text/plain",
+      "title": "Dataset documentation — Altimeter Corrected Elevations, Version 2 (ACE2)",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/dedc-ace-v2-readme.txt Type: VIEW RELATED INFORMATION Subtype: READ-ME Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550196830-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "dedc-ace-v2_30sec.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13958433",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4445JDG",
+      "title": "dedc-ace-v2_30sec.zip",
       "roles": [
         "data"
       ],
@@ -195,10 +232,10 @@
       "ciesin:source_identifier": "13958433",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13958435": {
+    "dedc-ace-v2_3sec.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13958435",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H40C4SPR",
+      "title": "dedc-ace-v2_3sec.zip",
       "roles": [
         "data"
       ],
@@ -208,10 +245,10 @@
       "ciesin:source_identifier": "13958435",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13958432": {
+    "dedc-ace-v2_5min.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13958432",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.1641/0006-3568(2002)052[0891:THFATL]2.0.CO;2",
+      "title": "dedc-ace-v2_5min.zip",
       "roles": [
         "data"
       ],
@@ -221,10 +258,10 @@
       "ciesin:source_identifier": "13958432",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13958434": {
+    "dedc-ace-v2_9sec.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13958434",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4CN71V6",
+      "title": "dedc-ace-v2_9sec.zip",
       "roles": [
         "data"
       ],
@@ -234,10 +271,34 @@
       "ciesin:source_identifier": "13958434",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14171135": {
+    "dedc-ace-v2-documentation.zip": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/dedc-ace-v2-documentation.zip",
+      "type": "application/x-zip-compressed",
+      "title": "Documentation — dedc ace v2 documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/dedc-ace-v2-documentation.zip Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550196830-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "dedc-ace-v2-1994-2005-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/dedc/dedc-ace-v2/dedc-ace-v2-1994-2005-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Altimeter Corrected Elevations, Version 2 (ACE2) (dedc ace v2 1994 2005 thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-altimeter-corrected-elevations-version-2-ace2": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14171135",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4VM496V",
+      "title": "Metadata package for Altimeter Corrected Elevations, Version 2 (ACE2)",
       "roles": [
         "data"
       ],
@@ -247,58 +308,34 @@
       "ciesin:source_identifier": "14171135",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3550196830-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550196830-ESDIS",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4QV3JG4",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H40G3H78",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "dedc-ace-v2-documentation.zip": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/dedc-ace-v2-documentation.zip",
-      "type": "application/x-zip-compressed",
-      "title": "Related Publication: https://doi.org/10.7927/H4445JDG",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H40G3H78",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "dedc-ace-v2-readme.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/dedc-ace-v2-readme.txt",
-      "type": "text/plain",
-      "title": "Related Publication: https://doi.org/10.7927/H40C4SPR",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H40G3H78",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550196830-ESDIS",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1641/0006-3568(2002)052[0891:THFATL]2.0.CO;2",
+      "title": "NASA Earthdata granule search — Altimeter Corrected Elevations, Version 2 (ACE2)",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550196830-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H40G3H78",
+      "ciesin:source_identifier": "C3550196830-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "978-3-642-10634-7_30": {
-      "href": "https://doi.org/10.1007/978-3-642-10634-7_30",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/dedc-ace-v2/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4CN71V6",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/dedc-ace-v2/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],

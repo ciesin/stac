@@ -36,6 +36,7 @@
       }
     ],
     "sci:doi": "10.7916/d8668d90",
+    "sci:citation": "Condon, Madison E. (2016). Using EIAs in our Research. Columbia University. https://doi.org/10.7916/d8668d90",
     "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
@@ -48,6 +49,9 @@
     ],
     "ciesin:authors": [
       "Condon, Madison E."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -84,18 +88,6 @@
     }
   ],
   "assets": {
-    "d8668d90": {
-      "href": "https://doi.org/10.7916/d8668d90",
-      "type": "text/html",
-      "title": "DOI 10.7916/d8668d90",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/d8668d90",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
     "eis_database_condon.pdf": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/D8ST7ZGZ/download",
       "type": "application/pdf",
@@ -105,9 +97,21 @@
       ],
       "file:size": 1136887,
       "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/D8ST7ZGZ/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "d8668d90": {
+      "href": "https://doi.org/10.7916/d8668d90",
+      "type": "text/html",
+      "title": "Using EIAs in our Research — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8668d90",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     }
   }
 }

@@ -73,6 +73,12 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network"
     ],
+    "ciesin:publishers": [
+      "GRID3"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 SEN - Settlement Extents v3.0 consists of a geographic representation of settlements in Senegal, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Both layers include attributes as described in the codebooks. Data inputs and methodology are described in data release notes.",
     "ciesin:publication_date": "2024-09-30T00:00:00Z",
     "ciesin:additional_resources": [
@@ -114,32 +120,33 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-sen---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/z1g9-xa59/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 SEN - Settlement Extents v3.0",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "file:size": 17322850,
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/z1g9-xa59/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
     "4z4e-8x52": {
       "href": "https://doi.org/10.7916/4Z4E-8X52",
       "type": "text/html",
-      "title": "DOI 10.7916/4Z4E-8X52",
+      "title": "GRID3 SEN - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/4Z4E-8X52",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3-sen---settlement-extents-v3.0---data-release-notes": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/z1g9-xa59/download",
-      "type": "application/pdf",
-      "title": "GRID3 SEN - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 17322850,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/z1g9-xa59/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-2": {
+    "grid3_sen_settlement_extents_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/scgk-tb42/download",
       "type": "application/zip",
       "title": "GRID3_SEN_settlement_extents_v3_0.zip",
@@ -147,12 +154,12 @@
         "data"
       ],
       "file:size": 56964048,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/scgk-tb42/download",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     },
-    "download-3": {
+    "grid3_sen_settlement_grid_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/kpft-xy39/download",
       "type": "application/zip",
       "title": "GRID3_SEN_settlement_grid_v3_0.zip",
@@ -160,32 +167,10 @@
         "data"
       ],
       "file:size": 33042101,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/kpft-xy39/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "5hxp-en06": {
-      "href": "https://doi.org/10.7916/5hxp-en06",
-      "type": "text/html",
-      "title": "GRID3 SEN - Settlement Extents v2.0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "4z4e-8x52-2": {
-      "href": "https://doi.org/doi:10.7916/4z4e-8x52",
-      "type": "text/html",
-      "title": "4z4e-8x52",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

@@ -31,6 +31,7 @@
       }
     ],
     "sci:doi": "10.7916/6st4-w565",
+    "sci:citation": "Center for International Earth Science Information Network, & Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo (2022). GRID3 DRC Haut-Lomami and Tanganyika Settlements, Version 01. Columbia University. https://doi.org/10.7916/6st4-w565",
     "version": "1",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
@@ -46,6 +47,9 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network",
       "Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -84,22 +88,22 @@
     }
   ],
   "assets": {
-    "6st4-w565": {
-      "href": "https://doi.org/10.7916/6st4-w565",
-      "type": "text/html",
-      "title": "DOI 10.7916/6st4-w565",
+    "6st4-w565-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/6st4-w565#assets-panel",
+      "type": "application/octet-stream",
+      "title": "6st4-w565",
       "roles": [
-        "metadata"
+        "data"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/6st4-w565",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/6st4-w565",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "grid3-haut-lomami-and-tanganyika-settlements-data-release-notes-v01": {
+    "dataset-documentation-grid3-drc-haut-lomami-and-tanganyika-settlements-version-01": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/9mrt-t782/download",
       "type": "application/pdf",
-      "title": "GRID3 Haut-Lomami and Tanganyika Settlements Data Release Notes V01.pdf",
+      "title": "Dataset documentation — GRID3 DRC Haut-Lomami and Tanganyika Settlements, Version 01",
       "roles": [
         "data"
       ],
@@ -109,7 +113,19 @@
       "ciesin:source_identifier": "/doi/10.7916/9mrt-t782/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-2": {
+    "6st4-w565": {
+      "href": "https://doi.org/10.7916/6st4-w565",
+      "type": "text/html",
+      "title": "GRID3 DRC Haut-Lomami and Tanganyika Settlements, Version 01 — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/6st4-w565",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
+    },
+    "grid3_drc_hltn_settlement_names_v01.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/wk9g-ff19/download",
       "type": "application/zip",
       "title": "GRID3_DRC_HLTN_settlement_names_V01.zip",

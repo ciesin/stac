@@ -75,6 +75,12 @@
       "Statistics Sierra Leone",
       "Sierra Leone Ministry of Basic and Senior Secondary Education"
     ],
+    "ciesin:publishers": [
+      "Geo-Referenced Infrastructure and Demographic Data for Development (GRID3)"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 SLE - Settlement Names v1.0 dataset consists of settlement points with name, and location in Sierra Leone.",
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -116,40 +122,42 @@
     "bxa4-bv46": {
       "href": "https://doi.org/10.7916/BXA4-BV46",
       "type": "text/html",
-      "title": "DOI 10.7916/BXA4-BV46",
+      "title": "GRID3 SLE - Settlement Names v1.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/BXA4-BV46",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3_sle_settlementnames_v1": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/yjmg-jg61/download",
-      "type": "application/zip",
-      "title": "GRID3_SLE_SettlementNames_v1.zip",
-      "roles": [
-        "data"
-      ],
-      "file:size": 885690,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/yjmg-jg61/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-2": {
+    "grid3_sle_settlementnames_datareleasenotes_v1.pdf": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/ve3w-2h47/download",
       "type": "application/pdf",
       "title": "GRID3_SLE_SettlementNames_DataReleaseNotes_V1.pdf",
       "roles": [
-        "data"
+        "data",
+        "metadata"
       ],
       "file:size": 75056,
-      "ciesin:source": "XML data link",
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/ve3w-2h47/download",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
+    "grid3_sle_settlementnames_v1.zip": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/yjmg-jg61/download",
+      "type": "application/zip",
+      "title": "GRID3_SLE_SettlementNames_v1.zip",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "file:size": 885690,
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/yjmg-jg61/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

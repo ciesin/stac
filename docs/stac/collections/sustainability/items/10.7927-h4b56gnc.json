@@ -881,22 +881,10 @@
     }
   ],
   "assets": {
-    "h4b56gnc": {
-      "href": "https://doi.org/10.7927/H4B56GNC",
-      "type": "text/html",
-      "title": "DOI 10.7927/H4B56GNC",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4B56GNC",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
     "5zxp2h": {
       "href": "https://doi.org/10.7910/DVN/5ZXP2H",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/5ZXP2H",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: Ancillary Data — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -905,7 +893,43 @@
       "ciesin:source_identifier": "10.7910/DVN/5ZXP2H",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "11905223": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F5ZXP2H",
+      "type": "application/xhtml+xml",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: Ancillary Data — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/5ZXP2H",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4b56gnc": {
+      "href": "https://doi.org/10.7927/H4B56GNC",
+      "type": "text/html",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: Ancillary Data — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4B56GNC",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550191850-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550191850-ESDIS",
+      "type": "text/html",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: Ancillary Data — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4B56GNC",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "csi-ancillarydata.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11905223",
       "type": "application/zip",
       "title": "csi-ancillarydata.zip",
@@ -918,7 +942,7 @@
       "ciesin:source_identifier": "11905223",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715718": {
+    "csi-data-dictionary-v1-1.doc": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715718",
       "type": "application/msword",
       "title": "csi-data-dictionary-v1-1.doc",
@@ -931,7 +955,7 @@
       "ciesin:source_identifier": "11715718",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715720": {
+    "csi-data-dictionary-v1-1.pdf": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715720",
       "type": "application/pdf",
       "title": "csi-data-dictionary-v1-1.pdf",
@@ -944,7 +968,7 @@
       "ciesin:source_identifier": "11715720",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715719": {
+    "csi-data-dictionary-v1-1.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715719",
       "type": "application/zip",
       "title": "csi-data-dictionary-v1-1.zip",
@@ -957,10 +981,10 @@
       "ciesin:source_identifier": "11715719",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14171122": {
+    "metadata-package-for-compendium-of-environmental-sustainability-indicator-collections-anci": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14171122",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Compendium of Environmental Sustainability Indicator Collections: Ancillary Data",
       "roles": [
         "data"
       ],
@@ -970,67 +994,34 @@
       "ciesin:source_identifier": "14171122",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3550191850-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550191850-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4B56GNC",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550191850-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Compendium of Environmental Sustainability Indicator Collections: Ancillary Data",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550191850-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4B56GNC",
+      "ciesin:source_identifier": "C3550191850-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/cesic-ancillary-data/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
     },
     "h45h7d60": {
       "href": "https://doi.org/10.7927/H45H7D60",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H45H7D60",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "evi2004technicareport.pdf": {
-      "href": "https://www.sopac.org/sopac/evi/Files/EVI2004TechnicaReport.pdf",
-      "type": "application/pdf",
-      "title": "Related Publication: https://doi.org/10.7927/H4MS3QNT",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4ms3qnt": {
-      "href": "https://doi.org/10.7927/H4MS3QNT",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4B56GNC",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "19881": {
-      "href": "http://hdl.handle.net/10625/19881",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4RF5RZT",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: 2004 Environmental Vulnerability Index (EVI). South Pacific Applied Geoscience Commission - SOPAC, and United Nations Environmental Program - UNEP; Kaly, U.L., C.R. Pratt, and J. Mitchell. NASA Socioeconomic Data and Applications Center (SEDAC). 2004",
       "roles": [
         "metadata"
       ],
@@ -1041,7 +1032,7 @@
     "h4rf5rzt": {
       "href": "https://doi.org/10.7927/H4RF5RZT",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H46D5QXN",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: 2006 National Footprint Accounts (NFA). Global Footprint Network - GFN. Global Footprint Network (GFN). 2006",
       "roles": [
         "metadata"
       ],
@@ -1052,7 +1043,7 @@
     "h46d5qxn": {
       "href": "https://doi.org/10.7927/H46D5QXN",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H45H7D60",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: Complete Collection, Version 1.1. Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2006",
       "roles": [
         "metadata"
       ],
@@ -1063,7 +1054,18 @@
     "h42n506q": {
       "href": "https://doi.org/10.7927/H42N506Q",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4B56GNC",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: Rio to Johannesburg Dashboard of Sustainable Indicators. Consultative Group on Sustainable Development Indicators - CGSDI; O'Connor, J., and J. Jesinghaus. NASA Socioeconomic Data and Applications Center (SEDAC). 2002",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4ms3qnt": {
+      "href": "https://doi.org/10.7927/H4MS3QNT",
+      "type": "text/html",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: The Wellbeing of Nations. Prescott-Allen, R. Island Press. 2001",
       "roles": [
         "metadata"
       ],

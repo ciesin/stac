@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8125rdd",
   "collection": "conservation",
@@ -36,6 +35,7 @@
       }
     ],
     "sci:doi": "10.7916/d8125rdd",
+    "sci:citation": "Nelson, Gerald C., Bennett, Elena, Berhe, Asmeret A., Cassman, Kenneth, DeFries, Ruth S., Dietz, Thomas, … Zurek, Monika (2006). Anthropogenic Drivers of Ecosystem Change: an Overview. Columbia University. https://doi.org/10.7916/d8125rdd",
     "ciesin:resource_type": "article",
     "ciesin:category": "Conservation",
     "ciesin:tags": [
@@ -66,6 +66,9 @@
       "Pingali, Prabhu",
       "Watson, Robert",
       "Zurek, Monika"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -105,7 +108,7 @@
     "d8125rdd": {
       "href": "https://doi.org/10.7916/d8125rdd",
       "type": "text/html",
-      "title": "DOI 10.7916/d8125rdd",
+      "title": "Anthropogenic Drivers of Ecosystem Change: an Overview — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -113,19 +116,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8125rdd",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "levy_anthropogenic": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8T15F77/download",
-      "type": "application/pdf",
-      "title": "levy_anthropogenic.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 514846,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8T15F77/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

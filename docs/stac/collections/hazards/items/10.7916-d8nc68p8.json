@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8nc68p8",
   "collection": "hazards",
@@ -30,6 +29,7 @@
       }
     ],
     "sci:doi": "10.7916/d8nc68p8",
+    "sci:citation": "Dilley, Maxx, Chen, Robert S., Deichmann, Uwe, Lerner-Lam, Arthur L., & Arnold, Margaret (2005). Natural Disaster Hotspots: A Global Risk Analysis. Columbia University. https://doi.org/10.7916/d8nc68p8",
     "ciesin:resource_type": "report",
     "ciesin:category": "Hazards",
     "ciesin:tags": [
@@ -46,6 +46,9 @@
       "Deichmann, Uwe",
       "Lerner-Lam, Arthur L.",
       "Arnold, Margaret"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -85,7 +88,7 @@
     "d8nc68p8": {
       "href": "https://doi.org/10.7916/d8nc68p8",
       "type": "text/html",
-      "title": "DOI 10.7916/d8nc68p8",
+      "title": "Natural Disaster Hotspots: A Global Risk Analysis — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -93,19 +96,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8nc68p8",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "344230paper0na101official0use0only1": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8MC97FJ/download",
-      "type": "application/pdf",
-      "title": "344230PAPER0Na101official0use0only1.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 30853748,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8MC97FJ/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

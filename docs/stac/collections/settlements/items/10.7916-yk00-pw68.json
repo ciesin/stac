@@ -73,6 +73,12 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network"
     ],
+    "ciesin:publishers": [
+      "GRID3"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 BWA - Settlement Extents v3.0 consists of a geographic representation of settlements in Botswana, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Both layers include attributes as described in the codebooks. Data inputs and methodology are described in data release notes.",
     "ciesin:publication_date": "2024-09-30T00:00:00Z",
     "ciesin:additional_resources": [
@@ -114,55 +120,23 @@
     }
   ],
   "assets": {
-    "yk00-pw68": {
-      "href": "https://doi.org/10.7916/YK00-PW68",
-      "type": "text/html",
-      "title": "DOI 10.7916/YK00-PW68",
+    "dataset-documentation-grid3-bwa---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5dks-t291/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 BWA - Settlement Extents v3.0",
       "roles": [
-        "metadata"
+        "data"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "file:size": 17315433,
+      "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/YK00-PW68",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "view": {
-      "href": "https://drive.google.com/file/d/1Gd6a0euA5DwhqBmOjUQe_fMgyv-nPtWb/view?usp=drive_link",
-      "type": "text/html",
-      "title": "GRID3_BWA_settlement_extents_v3.gpkg",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "view-2": {
-      "href": "https://drive.google.com/file/d/1mUrz22gH_ke8NtkJNU9tWmuon7WuGPqD/view?usp=drive_link",
-      "type": "text/html",
-      "title": "GRID3_BWA_settlement_grid_v3.gpkg",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "e66g-ha24": {
-      "href": "https://doi.org/10.7916/e66g-ha24",
-      "type": "text/html",
-      "title": "GRID3 BWA - Settlement Extents v2.",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "/doi/10.7916/5dks-t291/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "view-3": {
       "href": "https://drive.google.com/file/d/1NFsHCAfsDFZoyZBw19RQMsCki5X0CtvX/view?usp=drive_link",
       "type": "text/html",
-      "title": "Data Release Notes",
+      "title": "Dataset documentation — GRID3 BWA - Settlement Extents v3.0",
       "roles": [
         "metadata"
       ],
@@ -170,15 +144,27 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "yk00-pw68-2": {
-      "href": "https://doi.org/doi:10.7916/yk00-pw68",
+    "yk00-pw68": {
+      "href": "https://doi.org/10.7916/YK00-PW68",
       "type": "text/html",
-      "title": "yk00-pw68",
+      "title": "GRID3 BWA - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/YK00-PW68",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
+    },
+    "view": {
+      "href": "https://drive.google.com/file/d/1Gd6a0euA5DwhqBmOjUQe_fMgyv-nPtWb/view?usp=drive_link",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_BWA_settlement_extents_v3.gpkg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     },
     "grid3_bwa_settlement_extents_v3_0.zip": {
@@ -194,6 +180,17 @@
       "ciesin:source_identifier": "/doi/10.7916/t4je-sg27/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
+    "view-2": {
+      "href": "https://drive.google.com/file/d/1mUrz22gH_ke8NtkJNU9tWmuon7WuGPqD/view?usp=drive_link",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_BWA_settlement_grid_v3.gpkg",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "XML data link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
     "grid3_bwa_settlement_grid_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/qm29-p779/download",
       "type": "application/zip",
@@ -205,19 +202,6 @@
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/qm29-p779/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "grid3-bwa---settlement-extents-v3.0---data-release-notes-.pdf": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/5dks-t291/download",
-      "type": "application/pdf",
-      "title": "GRID3 BWA - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 17315433,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/5dks-t291/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8rj4h77",
   "collection": "hazards",
@@ -36,6 +35,7 @@
       }
     ],
     "sci:doi": "10.7916/d8rj4h77",
+    "sci:citation": "De Sherbinin, Alexander M., Levy, Marc A., Adamo, Susana Beatriz, MacManus, Kytt, Yetman, Gregory G., Mara, Valentina, … Pistolesi, Linda I. (2012). Migration and risk: net migration in marginal ecosystems and hazardous areas. Columbia University. https://doi.org/10.7916/d8rj4h77",
     "ciesin:resource_type": "article",
     "ciesin:category": "Hazards",
     "ciesin:tags": [
@@ -58,6 +58,9 @@
       "Srebotnjak, Tanja",
       "Aichele, Cody",
       "Pistolesi, Linda I."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -97,7 +100,7 @@
     "d8rj4h77": {
       "href": "https://doi.org/10.7916/d8rj4h77",
       "type": "text/html",
-      "title": "DOI 10.7916/d8rj4h77",
+      "title": "Migration and risk: net migration in marginal ecosystems and hazardous areas — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -105,19 +108,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8rj4h77",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "1748-9326_7_4_045602": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8JH3XSS/download",
-      "type": "application/pdf",
-      "title": "1748-9326_7_4_045602.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 2645757,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8JH3XSS/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8hq47bt",
   "collection": "governance",
@@ -42,6 +41,7 @@
       }
     ],
     "sci:doi": "10.7916/d8hq47bt",
+    "sci:citation": "Blom, Ronald, Sutton, Paul, Yetman, Gregory G., Nghiem, Son, Balk, Deborah, Wannebo, Antoinette, … Neumann, Greg (2001). Global Infrastructure: The Potential of SRTM Data to Break New Ground. Columbia University. https://doi.org/10.7916/d8hq47bt",
     "ciesin:resource_type": "report",
     "ciesin:category": "Governance",
     "ciesin:tags": [
@@ -65,6 +65,9 @@
       "Rodriguez, Ernesto",
       "Houshmand, Bijan",
       "Neumann, Greg"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -104,7 +107,7 @@
     "d8hq47bt": {
       "href": "https://doi.org/10.7916/d8hq47bt",
       "type": "text/html",
-      "title": "DOI 10.7916/d8hq47bt",
+      "title": "Global Infrastructure: The Potential of SRTM Data to Break New Ground — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -112,19 +115,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8hq47bt",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "whitepaperfinal.pdf": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8R5005T/download",
-      "type": "application/pdf",
-      "title": "whitepaperfinal.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 5031155,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8R5005T/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

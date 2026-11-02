@@ -56,6 +56,7 @@
       }
     ],
     "sci:doi": "10.7927/h4028pfs",
+    "sci:citation": "van Donkelaar, A., R.V. Martin, M. Brauer, and B.L. BoysScience Information Network - CIESIN - Columbia University. 2015-01-01. Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2012. Version 1.0. ESDIS. Palisades, NY. https://doi.org/10.7927/H4028PFS",
     "version": "1.0",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Health",
@@ -116,19 +117,20 @@
     "h4028pfs": {
       "href": "https://doi.org/10.7927/h4028pfs",
       "type": "text/html",
-      "title": "DOI 10.7927/h4028pfs",
+      "title": "Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2012 — NASA CMR DOI",
+      "description": "Related URL: https://doi.org/10.7927/H4028PFS Type: DATA SET LANDING PAGE Description: Data Set DOI URL and Homepage",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR DOI; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/h4028pfs",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "10.7927/h4028pfs; C3540908981-ESDIS",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi; exact DOI lookup"
     },
     "c3540908981-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540908981-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2012 — NASA CMR record",
       "roles": [
         "metadata"
       ],
@@ -140,13 +142,40 @@
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540908981-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2012",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540908981-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540908981-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "docs": {
+      "href": "http://beta.sedac.ciesin.columbia.edu/data/set/sdei-global-annual-avg-pm2-5-modis-misr-seawifs-aod-1998-2012/docs",
+      "type": "text/html",
+      "title": "Related URL: http://beta.sedac.ciesin.columbia.edu/data/set/sdei-global-annual-avg-pm2-5-modis-misr-seawifs-aod-1998-2012/docs",
+      "description": "Related URL: http://beta.sedac.ciesin.columbia.edu/data/set/sdei-global-annual-avg-pm2-5-modis-misr-seawifs-aod-1998-2012/docs Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Documentation Page",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/h4028pfs",
+      "ciesin:source_identifier": "C3540908981-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "http://beta.sedac.ciesin.columbia.edu/data/set/sdei-global-annual-avg-pm2-5-modis-misr-seawifs-aod-1998-2012/maps/services",
+      "type": "text/html",
+      "title": "Related URL: http://beta.sedac.ciesin.columbia.edu/data/set/sdei-global-annual-avg-pm2-5-modis-misr-seawifs-aod-1998-2012/maps/services",
+      "description": "Related URL: http://beta.sedac.ciesin.columbia.edu/data/set/sdei-global-annual-avg-pm2-5-modis-misr-seawifs-aod-1998-2012/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Services",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540908981-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

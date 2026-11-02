@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-wr0f-sp79",
   "collection": "settlements",
@@ -114,10 +113,21 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-gnq---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/x7qw-5q86/download",
+      "type": "text/html",
+      "title": "Dataset documentation — GRID3 GNQ - Settlement Extents v3.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
     "wr0f-sp79": {
       "href": "https://doi.org/10.7916/WR0F-SP79",
       "type": "text/html",
-      "title": "DOI 10.7916/WR0F-SP79",
+      "title": "GRID3 GNQ - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -126,65 +136,26 @@
       "ciesin:source_identifier": "10.7916/WR0F-SP79",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
     },
-    "grid3-gnq---settlement-extents-v3.0---data-release-notes": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/x7qw-5q86/download",
-      "type": "application/pdf",
-      "title": "GRID3 GNQ - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 17318989,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/x7qw-5q86/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-2": {
+    "grid3_gnq_settlement_extents_v3.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/j5j7-qj20/download",
-      "type": "application/zip",
-      "title": "GRID3_GNQ_settlement_extents_v3_0.zip",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_GNQ_settlement_extents_v3.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 3157617,
       "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/j5j7-qj20/download",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "download-3": {
+    "grid3_gnq_settlement_grid_v3.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/ngsd-q949/download",
-      "type": "application/zip",
-      "title": "GRID3_GNQ_settlement_grid_v3_0.zip",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_GNQ_settlement_grid_v3.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 2679101,
       "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/ngsd-q949/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "aqzd-ze77": {
-      "href": "https://doi.org/10.7916/aqzd-ze77",
-      "type": "text/html",
-      "title": "GRID3 GNQ - Settlement Extents v2.0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "wr0f-sp79-2": {
-      "href": "https://doi.org/doi:10.7916/wr0f-sp79",
-      "type": "text/html",
-      "title": "wr0f-sp79",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     }
   },

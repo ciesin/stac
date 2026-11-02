@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-txd5-2208",
   "collection": "settlements",
@@ -103,7 +102,7 @@
     "txd5-2208": {
       "href": "https://doi.org/10.7916/txd5-2208",
       "type": "text/html",
-      "title": "DOI 10.7916/txd5-2208",
+      "title": "GRID3 Gabon Settlement Extents, Version 02 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -111,32 +110,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/txd5-2208",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "gab_datareleasestatement_settlementextents_version02": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/jkm4-vr57/download",
-      "type": "application/pdf",
-      "title": "GAB_DataReleaseStatement_SettlementExtents_Version02.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 2712148,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/jkm4-vr57/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/p6mz-sp19/download",
-      "type": "application/zip",
-      "title": "GRID3_Gabon_Settlement_Extents_Version_02.zip",
-      "roles": [
-        "data"
-      ],
-      "file:size": 7937836,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/p6mz-sp19/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

@@ -155,34 +155,35 @@
     }
   ],
   "assets": {
-    "h400001d": {
-      "href": "https://doi.org/10.7927/H400001D",
+    "usgrid.zip-2": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/data/pend/pend-summary-file1-2000-alabama-louisiana-mississippi-texas/usgrid.zip",
+      "type": "application/x-zip-compressed",
+      "title": "30 arc-second grids data in ArcInfo Workspace format from the U.S. Population Grids (Summary File 1), 2000: Alabama, Louisiana, Mississippi and Texas, Alpha Version data set.",
+      "description": "30 arc-second grids data in ArcInfo Workspace format from the U.S. Population Grids (Summary File 1), 2000: Alabama, Louisiana, Mississippi and Texas, Alpha Version data set.",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "NASA CMR granule",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "G3552501629-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "esdis": {
+      "href": "https://www.earthdata.nasa.gov/about/esdis",
       "type": "text/html",
-      "title": "DOI 10.7927/H400001D",
+      "title": "Earth Science Data Information System home page",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H400001D",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3540917634-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "zq8js0": {
-      "href": "https://doi.org/10.7910/DVN/ZQ8JS0",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/ZQ8JS0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Harvard Dataverse DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/ZQ8JS0",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
-    },
-    "14202215": {
+    "metadata-package-for-u.s.-population-grids-summary-file-1-2000-alabama-louisiana-mississip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14202215",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for U.S. Population Grids (Summary File 1), 2000: Alabama, Louisiana, Mississippi and Texas, Alpha Version",
       "roles": [
         "data"
       ],
@@ -192,7 +193,123 @@
       "ciesin:source_identifier": "14202215",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11835852": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540917634-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — U.S. Population Grids (Summary File 1), 2000: Alabama, Louisiana, Mississippi and Texas, Alpha Version",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540917634-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/pend-summary-file1-2000-alabama-louisiana-mississippi-texas/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4v985zg": {
+      "href": "https://doi.org/10.7927/H4V985ZG",
+      "type": "text/html",
+      "title": "Related Publication: U.S. Population Grids (Summary File 1), 2000: Houston Metropolitan Statistical Area, Alpha Version. Seirup, L., and G. Yetman. NASA Socioeconomic Data and Applications Center (SEDAC). 2005",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4qj7f75": {
+      "href": "https://doi.org/10.7927/H4QJ7F75",
+      "type": "text/html",
+      "title": "Related Publication: U.S. Population Grids (Summary File 1), 2000: New Orleans Metropolitan Statistical Area, Alpha Version. Seirup, L., and G. Yetman. NASA Socioeconomic Data and Applications Center (SEDAC). 2005",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4ks6phf": {
+      "href": "https://doi.org/10.7927/H4KS6PHF",
+      "type": "text/html",
+      "title": "Related Publication: U.S. Population Grids (Summary File 3), 2000: Alabama, Louisiana, and Mississippi, Alpha Version. Seirup, L., and G. Yetman. NASA Socioeconomic Data and Applications Center (SEDAC). 2005",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4g15xs1": {
+      "href": "https://doi.org/10.7927/H4G15XS1",
+      "type": "text/html",
+      "title": "Related Publication: U.S. Population Grids (Summary File 3), 2000: New Orleans Metropolitan Statistical Area, Alpha Version. Seirup, L., and G. Yetman. NASA Socioeconomic Data and Applications Center (SEDAC). 2005",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "zq8js0": {
+      "href": "https://doi.org/10.7910/DVN/ZQ8JS0",
+      "type": "text/html",
+      "title": "U.S. Population Grids (Summary File 1), 2000: Alabama, Louisiana, Mississippi and Texas, Alpha Version — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/ZQ8JS0",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FZQ8JS0",
+      "type": "application/xhtml+xml",
+      "title": "U.S. Population Grids (Summary File 1), 2000: Alabama, Louisiana, Mississippi and Texas, Alpha Version — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/ZQ8JS0",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h400001d": {
+      "href": "https://doi.org/10.7927/H400001D",
+      "type": "text/html",
+      "title": "U.S. Population Grids (Summary File 1), 2000: Alabama, Louisiana, Mississippi and Texas, Alpha Version — NASA CMR DOI",
+      "description": "Data Set DOI URL and HOMEPAGE",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI; NASA CMR granule",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H400001D; G3552501629-ESDIS",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi; exact DOI lookup"
+    },
+    "c3540917634-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540917634-ESDIS",
+      "type": "text/html",
+      "title": "U.S. Population Grids (Summary File 1), 2000: Alabama, Louisiana, Mississippi and Texas, Alpha Version — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H400001D",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "usgrid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835852",
       "type": "application/zip",
       "title": "usgrid.zip",
@@ -204,50 +321,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "11835852",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "h4qj7f75": {
-      "href": "https://doi.org/10.7927/H4QJ7F75",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4K0726D",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4v985zg": {
-      "href": "https://doi.org/10.7927/H4V985ZG",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1007/978-3-642-10634-7_30",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4ks6phf": {
-      "href": "https://doi.org/10.7927/H4KS6PHF",
-      "type": "text/html",
-      "title": "Related Publication: http://doi.org/10.3390/ijgi4042561",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4g15xs1": {
-      "href": "https://doi.org/10.7927/H4G15XS1",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4F769H4",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

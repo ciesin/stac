@@ -56,6 +56,7 @@
       }
     ],
     "sci:doi": "10.7927/h4pn93jj",
+    "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University. 2019-01-31. Global Subnational Infant Mortality Rates, Version 2. Version 2.0. ESDIS. Palisades, NY. https://doi.org/10.7927/H4PN93JJ",
     "version": "2.0",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Health",
@@ -116,19 +117,20 @@
     "h4pn93jj": {
       "href": "https://doi.org/10.7927/h4pn93jj",
       "type": "text/html",
-      "title": "DOI 10.7927/h4pn93jj",
+      "title": "Global Subnational Infant Mortality Rates, Version 2 — NASA CMR DOI",
+      "description": "Related URL: https://doi.org/10.7927/H4PN93JJ Type: DATA SET LANDING PAGE Description: Data Set DOI URL and Homepage",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR DOI; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/h4pn93jj",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "10.7927/h4pn93jj; C3540911790-ESDIS",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi; exact DOI lookup"
     },
     "c3540911790-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540911790-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Global Subnational Infant Mortality Rates, Version 2 — NASA CMR record",
       "roles": [
         "metadata"
       ],
@@ -140,13 +142,40 @@
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540911790-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Global Subnational Infant Mortality Rates, Version 2",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540911790-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540911790-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "docs": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/povmap-global-subnational-infant-mortality-rates-v2/docs",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/povmap-global-subnational-infant-mortality-rates-v2/docs",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/povmap-global-subnational-infant-mortality-rates-v2/docs Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Documentation Page",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/h4pn93jj",
+      "ciesin:source_identifier": "C3540911790-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/povmap-global-subnational-infant-mortality-rates-v2/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/povmap-global-subnational-infant-mortality-rates-v2/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/povmap-global-subnational-infant-mortality-rates-v2/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540911790-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

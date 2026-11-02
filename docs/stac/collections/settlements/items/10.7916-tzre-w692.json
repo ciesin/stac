@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-tzre-w692",
   "collection": "settlements",
@@ -73,6 +72,12 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network"
     ],
+    "ciesin:publishers": [
+      "GRID3"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 ZAF - Settlement Extents v3.0 consists of a geographic representation of settlements in South Africa, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Both layers include attributes as described in the codebooks. Data inputs and methodology are described in data release notes.",
     "ciesin:publication_date": "2024-09-30T00:00:00Z",
     "ciesin:additional_resources": [
@@ -114,10 +119,21 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-zaf---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/4np4-9972/download",
+      "type": "text/html",
+      "title": "Dataset documentation — GRID3 ZAF - Settlement Extents v3.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
     "tzre-w692": {
       "href": "https://doi.org/10.7916/TZRE-W692",
       "type": "text/html",
-      "title": "DOI 10.7916/TZRE-W692",
+      "title": "GRID3 ZAF - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -126,65 +142,26 @@
       "ciesin:source_identifier": "10.7916/TZRE-W692",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
     },
-    "grid3-zaf---settlement-extents-v3.0---data-release-notes": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/4np4-9972/download",
-      "type": "application/pdf",
-      "title": "GRID3 ZAF - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 17314716,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/4np4-9972/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-2": {
+    "grid3_zaf_settlement_extents_v3.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/x6vf-4n06/download",
-      "type": "application/zip",
-      "title": "GRID3_ZAF_settlement_extents_v3_0.zip",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_ZAF_settlement_extents_v3.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 473372892,
       "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/x6vf-4n06/download",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "download-3": {
+    "grid3_zaf_settlement_grid_v3.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/4kz8-f173/download",
-      "type": "application/zip",
-      "title": "GRID3_ZAF_settlement_grid_v3_0.zip",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_ZAF_settlement_grid_v3.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 319625439,
       "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/4kz8-f173/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "dj52-fb71": {
-      "href": "https://doi.org/10.7916/dj52-fb71",
-      "type": "text/html",
-      "title": "GRID3 ZAF- Settlement Extents v2.0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "tzre-w692-2": {
-      "href": "https://doi.org/doi:10.7916/tzre-w692",
-      "type": "text/html",
-      "title": "tzre-w692",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     }
   },

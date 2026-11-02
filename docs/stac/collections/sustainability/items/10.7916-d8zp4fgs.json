@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8zp4fgs",
   "collection": "sustainability",
@@ -42,6 +41,7 @@
       }
     ],
     "sci:doi": "10.7916/d8zp4fgs",
+    "sci:citation": "Chen, Robert S., & Downs, Robert R. (2013). Comparing Approaches for the Sustainability of Scientific Data Repositories. Columbia University. https://doi.org/10.7916/d8zp4fgs",
     "ciesin:resource_type": "other",
     "ciesin:category": "Sustainability",
     "ciesin:tags": [
@@ -55,6 +55,9 @@
     "ciesin:authors": [
       "Chen, Robert S.",
       "Downs, Robert R."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -94,7 +97,7 @@
     "d8zp4fgs": {
       "href": "https://doi.org/10.7916/d8zp4fgs",
       "type": "text/html",
-      "title": "DOI 10.7916/d8zp4fgs",
+      "title": "Comparing Approaches for the Sustainability of Scientific Data Repositories — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -102,19 +105,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8zp4fgs",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "downschen2013comparingapproachessustainability": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8DB8956/download",
-      "type": "application/pdf",
-      "title": "DownsChen2013ComparingApproachesSustainability.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 278169,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8DB8956/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

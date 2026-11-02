@@ -123,10 +123,24 @@
     }
   ],
   "assets": {
+    "dataset-documentation-global-urban-demographic-dataset-gudd-version-1": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13674920",
+      "type": "application/pdf",
+      "title": "Dataset documentation — Global Urban Demographic Dataset (GUDD), version 1",
+      "description": "README",
+      "roles": [
+        "data"
+      ],
+      "file:size": 6546504,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "13674920",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
     "gmv8wg": {
       "href": "https://doi.org/10.7910/DVN/GMV8WG",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/GMV8WG",
+      "title": "Global Urban Demographic Dataset (GUDD), version 1 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -135,7 +149,19 @@
       "ciesin:source_identifier": "10.7910/DVN/GMV8WG",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "13670832": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FGMV8WG",
+      "type": "application/xhtml+xml",
+      "title": "Global Urban Demographic Dataset (GUDD), version 1 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/GMV8WG",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "gudd_all_dynamic_boundaries.tab": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670832",
       "type": "text/tab-separated-values",
       "title": "gudd_all_dynamic_boundaries.tab",
@@ -149,7 +175,7 @@
       "ciesin:source_identifier": "13670832",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13669706": {
+    "gudd_all_static_boundaries.csv": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13669706",
       "type": "text/csv",
       "title": "gudd_all_static_boundaries.csv",
@@ -163,7 +189,7 @@
       "ciesin:source_identifier": "13669706",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13670834": {
+    "gudd_annual_metrics_dynamic_boundaries.tab": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670834",
       "type": "text/tab-separated-values",
       "title": "gudd_annual_metrics_dynamic_boundaries.tab",
@@ -177,7 +203,7 @@
       "ciesin:source_identifier": "13670834",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13669704": {
+    "gudd_annual_metrics_static_boundaries.tab": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13669704",
       "type": "text/tab-separated-values",
       "title": "gudd_annual_metrics_static_boundaries.tab",
@@ -191,7 +217,7 @@
       "ciesin:source_identifier": "13669704",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13670835": {
+    "gudd_change_2000_2020_dynamic_boundaries.tab": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670835",
       "type": "text/tab-separated-values",
       "title": "gudd_change_2000_2020_dynamic_boundaries.tab",
@@ -205,7 +231,7 @@
       "ciesin:source_identifier": "13670835",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13669707": {
+    "gudd_change_2000_2020_static_boundaries.tab": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13669707",
       "type": "text/tab-separated-values",
       "title": "gudd_change_2000_2020_static_boundaries.tab",
@@ -219,21 +245,7 @@
       "ciesin:source_identifier": "13669707",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13674920": {
-      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13674920",
-      "type": "application/pdf",
-      "title": "gudd_dataset_documentation_v1_0.pdf",
-      "description": "README",
-      "roles": [
-        "data"
-      ],
-      "file:size": 6546504,
-      "ciesin:source": "Harvard Dataverse file",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "13674920",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "13670833": {
+    "gudd_dynamic_boundaries_lookup.geoparquet": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13670833",
       "type": "application/octet-stream",
       "title": "gudd_dynamic_boundaries_lookup.geoparquet",
@@ -247,7 +259,7 @@
       "ciesin:source_identifier": "13670833",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13669705": {
+    "gudd_static_boundaries_lookup.geoparquet": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13669705",
       "type": "application/octet-stream",
       "title": "gudd_static_boundaries_lookup.geoparquet",

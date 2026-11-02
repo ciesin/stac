@@ -604,22 +604,10 @@
     }
   ],
   "assets": {
-    "h4rf5rzt": {
-      "href": "https://doi.org/10.7927/H4RF5RZT",
-      "type": "text/html",
-      "title": "DOI 10.7927/H4RF5RZT",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4RF5RZT",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
     "0qafiq": {
       "href": "https://doi.org/10.7910/DVN/0QAFIQ",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/0QAFIQ",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: 2006 National Footprint Accounts (NFA) — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -628,10 +616,46 @@
       "ciesin:source_identifier": "10.7910/DVN/0QAFIQ",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14171125": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F0QAFIQ",
+      "type": "application/xhtml+xml",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: 2006 National Footprint Accounts (NFA) — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/0QAFIQ",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4rf5rzt": {
+      "href": "https://doi.org/10.7927/H4RF5RZT",
+      "type": "text/html",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: 2006 National Footprint Accounts (NFA) — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4RF5RZT",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550195390-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550195390-ESDIS",
+      "type": "text/html",
+      "title": "Compendium of Environmental Sustainability Indicator Collections: 2006 National Footprint Accounts (NFA) — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4RF5RZT",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "metadata-package-for-compendium-of-environmental-sustainability-indicator-collections-2006": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14171125",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Compendium of Environmental Sustainability Indicator Collections: 2006 National Footprint Accounts (NFA)",
       "roles": [
         "data"
       ],
@@ -641,7 +665,20 @@
       "ciesin:source_identifier": "14171125",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11715717": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550195390-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Compendium of Environmental Sustainability Indicator Collections: 2006 National Footprint Accounts (NFA)",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550195390-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550195390-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "national-footprint-accounts-2006.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11715717",
       "type": "application/zip",
       "title": "national-footprint-accounts-2006.zip",
@@ -654,79 +691,21 @@
       "ciesin:source_identifier": "11715717",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3540912672-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540912672-ESDIS",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/cesic-national-footprint-accounts-2006/data-download",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR record",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4RF5RZT",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "cesic-national-footprint-accounts-2006-citation2.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/cesic-national-footprint-accounts-2006-citation2.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4RF5RZT",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540912672-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4RF5RZT",
-      "ciesin:asset_match_basis": "exact DOI lookup"
+      "ciesin:asset_match_basis": "inventory XML location"
     },
     "h45h7d60": {
       "href": "https://doi.org/10.7927/H45H7D60",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H46D5QXN",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "evi2004technicareport.pdf": {
-      "href": "https://www.sopac.org/sopac/evi/Files/EVI2004TechnicaReport.pdf",
-      "type": "application/pdf",
-      "title": "Related Publication: https://doi.org/10.7927/H42N506Q",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h4ms3qnt": {
-      "href": "https://doi.org/10.7927/H4MS3QNT",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H45H7D60",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "19881": {
-      "href": "http://hdl.handle.net/10625/19881",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4MS3QNT",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: 2004 Environmental Vulnerability Index (EVI). South Pacific Applied Geoscience Commission - SOPAC, and United Nations Environmental Program - UNEP; Kaly, U.L., C.R. Pratt, and J. Mitchell. NASA Socioeconomic Data and Applications Center (SEDAC). 2004",
       "roles": [
         "metadata"
       ],
@@ -737,7 +716,7 @@
     "h4b56gnc": {
       "href": "https://doi.org/10.7927/H4B56GNC",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4B56GNC",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: Ancillary Data. Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2006",
       "roles": [
         "metadata"
       ],
@@ -748,7 +727,7 @@
     "h46d5qxn": {
       "href": "https://doi.org/10.7927/H46D5QXN",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4RF5RZT",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: Complete Collection, Version 1.1. Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2006",
       "roles": [
         "metadata"
       ],
@@ -759,13 +738,37 @@
     "h42n506q": {
       "href": "https://doi.org/10.7927/H42N506Q",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H42N506Q",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: Rio to Johannesburg Dashboard of Sustainable Indicators. Consultative Group on Sustainable Development Indicators - CGSDI; O'Connor, J., and J. Jesinghaus. NASA Socioeconomic Data and Applications Center (SEDAC). 2002",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4ms3qnt": {
+      "href": "https://doi.org/10.7927/H4MS3QNT",
+      "type": "text/html",
+      "title": "Related Publication: Compendium of Environmental Sustainability Indicator Collections: The Wellbeing of Nations. Prescott-Allen, R. Island Press. 2001",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "cesic-rio-to-johannesburg-development-indicators-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/cesic-rio-to-johannesburg-development-indicators-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/cesic-rio-to-johannesburg-development-indicators-citation2.txt",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/cesic-rio-to-johannesburg-development-indicators-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550195390-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

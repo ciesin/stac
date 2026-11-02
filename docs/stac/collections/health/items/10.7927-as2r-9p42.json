@@ -165,22 +165,23 @@
     }
   ],
   "assets": {
-    "as2r-9p42": {
-      "href": "https://doi.org/10.7927/AS2R-9P42",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H48913TX",
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-readme.txt",
+      "type": "text/plain",
+      "title": "Dataset documentation — Global Annual PM2.5 Grids from MODIS, MISR, SeaWiFS and VIIRS Aerosol Optical Depth (AOD), 1998-2022, V5.GL.04",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-readme.txt Type: VIEW RELATED INFORMATION Subtype: READ-ME Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/AS2R-9P42",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3540908987-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "ccpjis": {
       "href": "https://doi.org/10.7910/DVN/CCPJIS",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/6t8a-es66",
+      "title": "Global Annual PM2.5 Grids from MODIS, MISR, SeaWiFS and VIIRS Aerosol Optical Depth (AOD), 1998-2022, V5.GL.04 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -189,10 +190,57 @@
       "ciesin:source_identifier": "10.7910/DVN/CCPJIS",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14222213": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FCCPJIS",
+      "type": "application/xhtml+xml",
+      "title": "Global Annual PM2.5 Grids from MODIS, MISR, SeaWiFS and VIIRS Aerosol Optical Depth (AOD), 1998-2022, V5.GL.04 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/CCPJIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "as2r-9p42": {
+      "href": "https://doi.org/10.7927/AS2R-9P42",
+      "type": "text/html",
+      "title": "Global Annual PM2.5 Grids from MODIS, MISR, SeaWiFS and VIIRS Aerosol Optical Depth (AOD), 1998-2022, V5.GL.04 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/AS2R-9P42",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540908987-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540908987-ESDIS",
+      "type": "text/html",
+      "title": "Global Annual PM2.5 Grids from MODIS, MISR, SeaWiFS and VIIRS Aerosol Optical Depth (AOD), 1998-2022, V5.GL.04 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/AS2R-9P42",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2022-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2022-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Annual PM2.5 Grids from MODIS, MISR, SeaWiFS and VIIRS Aerosol Optical Depth (AOD), 1998-2022, V5.GL.04 (sdei global annual gwr pm2 5 modis misr seawifs viirs aod v5 gl 04 2022 thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-annual-pm2.5-grids-from-modis-misr-seawifs-and-viirs-aerosol-o": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222213",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4MW2F7S",
+      "title": "Metadata package for Global Annual PM2.5 Grids from MODIS, MISR, SeaWiFS and VIIRS Aerosol Optical Depth (AOD), 1998-2022, V5.GL.04",
       "roles": [
         "data"
       ],
@@ -202,10 +250,45 @@
       "ciesin:source_identifier": "14222213",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717142": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540908987-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global Annual PM2.5 Grids from MODIS, MISR, SeaWiFS and VIIRS Aerosol Optical Depth (AOD), 1998-2022, V5.GL.04",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540908987-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540908987-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04/data-download/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-1998-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717142",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/r6mv-sv82",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-1998-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -215,10 +298,10 @@
       "ciesin:source_identifier": "11717142",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717522": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-1998-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717522",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/7ppx-6m60",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-1998-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -228,10 +311,10 @@
       "ciesin:source_identifier": "11717522",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717141": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-1999-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717141",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/5bbs-e174",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-1999-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -241,10 +324,10 @@
       "ciesin:source_identifier": "11717141",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717516": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-1999-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717516",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H49G5JRZ",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-1999-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -254,10 +337,10 @@
       "ciesin:source_identifier": "11717516",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717140": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2000-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717140",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H45Q4T1N",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2000-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -267,10 +350,10 @@
       "ciesin:source_identifier": "11717140",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717520": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2000-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717520",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H41Z4299",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2000-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -280,10 +363,10 @@
       "ciesin:source_identifier": "11717520",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717139": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2001-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717139",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4NZ85MP",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2001-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -293,10 +376,10 @@
       "ciesin:source_identifier": "11717139",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717517": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2001-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717517",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H46M34RP",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2001-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -306,10 +389,10 @@
       "ciesin:source_identifier": "11717517",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717143": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2002-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717143",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4G73BM2",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2002-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -319,10 +402,10 @@
       "ciesin:source_identifier": "11717143",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717521": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2002-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717521",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H48913TX",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2002-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -332,10 +415,10 @@
       "ciesin:source_identifier": "11717521",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717144": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2003-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717144",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4SQ8XGT",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2003-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -345,10 +428,10 @@
       "ciesin:source_identifier": "11717144",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717518": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2003-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717518",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/1bhq-xd95",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2003-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -358,10 +441,10 @@
       "ciesin:source_identifier": "11717518",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717145": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2004-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717145",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/r6mv-sv82",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2004-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -371,10 +454,10 @@
       "ciesin:source_identifier": "11717145",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717519": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2004-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717519",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/7ppx-6m60",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2004-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -384,10 +467,10 @@
       "ciesin:source_identifier": "11717519",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717147": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2005-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717147",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/5bbs-e174",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2005-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -397,10 +480,10 @@
       "ciesin:source_identifier": "11717147",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717527": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2005-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717527",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H49G5JRZ",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2005-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -410,10 +493,10 @@
       "ciesin:source_identifier": "11717527",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717148": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2006-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717148",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H45Q4T1N",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2006-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -423,10 +506,10 @@
       "ciesin:source_identifier": "11717148",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717523": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2006-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717523",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H41Z4299",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2006-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -436,10 +519,10 @@
       "ciesin:source_identifier": "11717523",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717146": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2007-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717146",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4NZ85MP",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2007-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -449,10 +532,10 @@
       "ciesin:source_identifier": "11717146",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717525": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2007-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717525",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H46M34RP",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2007-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -462,10 +545,10 @@
       "ciesin:source_identifier": "11717525",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717149": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2008-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717149",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4G73BM2",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2008-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -475,10 +558,10 @@
       "ciesin:source_identifier": "11717149",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717528": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2008-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717528",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H48913TX",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2008-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -488,10 +571,10 @@
       "ciesin:source_identifier": "11717528",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717152": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2009-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717152",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4SQ8XGT",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2009-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -501,10 +584,10 @@
       "ciesin:source_identifier": "11717152",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717526": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2009-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717526",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/6t8a-es66",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2009-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -514,10 +597,10 @@
       "ciesin:source_identifier": "11717526",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717153": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2010-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717153",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/bk1v-y091",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2010-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -527,10 +610,10 @@
       "ciesin:source_identifier": "11717153",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717524": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2010-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717524",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/7ppx-6m60",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2010-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -540,10 +623,10 @@
       "ciesin:source_identifier": "11717524",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717154": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2011-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717154",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/5bbs-e174",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2011-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -553,10 +636,10 @@
       "ciesin:source_identifier": "11717154",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717533": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2011-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717533",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H49G5JRZ",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2011-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -566,10 +649,10 @@
       "ciesin:source_identifier": "11717533",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717150": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2012-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717150",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H45Q4T1N",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2012-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -579,10 +662,10 @@
       "ciesin:source_identifier": "11717150",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717530": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2012-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717530",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H41Z4299",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2012-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -592,10 +675,10 @@
       "ciesin:source_identifier": "11717530",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717151": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2013-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717151",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4NZ85MP",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2013-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -605,10 +688,10 @@
       "ciesin:source_identifier": "11717151",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717534": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2013-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717534",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H46M34RP",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2013-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -618,10 +701,10 @@
       "ciesin:source_identifier": "11717534",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717157": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2014-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717157",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4G73BM2",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2014-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -631,10 +714,10 @@
       "ciesin:source_identifier": "11717157",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717532": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2014-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717532",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H48913TX",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2014-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -644,10 +727,10 @@
       "ciesin:source_identifier": "11717532",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717155": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2015-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717155",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4SQ8XGT",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2015-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -657,10 +740,10 @@
       "ciesin:source_identifier": "11717155",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717531": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2015-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717531",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/6t8a-es66",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2015-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -670,10 +753,10 @@
       "ciesin:source_identifier": "11717531",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717156": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2016-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717156",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/r6mv-sv82",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2016-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -683,10 +766,10 @@
       "ciesin:source_identifier": "11717156",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717529": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2016-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717529",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/n1br-dz33",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2016-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -696,10 +779,10 @@
       "ciesin:source_identifier": "11717529",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717158": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2017-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717158",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/5bbs-e174",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2017-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -709,10 +792,10 @@
       "ciesin:source_identifier": "11717158",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717536": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2017-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717536",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H49G5JRZ",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2017-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -722,10 +805,10 @@
       "ciesin:source_identifier": "11717536",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717160": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2018-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717160",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H45Q4T1N",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2018-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -735,10 +818,10 @@
       "ciesin:source_identifier": "11717160",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717535": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2018-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717535",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H41Z4299",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2018-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -748,10 +831,10 @@
       "ciesin:source_identifier": "11717535",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717159": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2019-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717159",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4NZ85MP",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2019-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -761,10 +844,10 @@
       "ciesin:source_identifier": "11717159",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717540": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2019-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717540",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H46M34RP",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2019-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -774,10 +857,10 @@
       "ciesin:source_identifier": "11717540",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717162": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2020-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717162",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4G73BM2",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2020-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -787,10 +870,10 @@
       "ciesin:source_identifier": "11717162",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717538": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2020-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717538",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H48913TX",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2020-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -800,10 +883,10 @@
       "ciesin:source_identifier": "11717538",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717161": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2021-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717161",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/H4SQ8XGT",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2021-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -813,10 +896,10 @@
       "ciesin:source_identifier": "11717161",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717537": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2021-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717537",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/6t8a-es66",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2021-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -826,10 +909,10 @@
       "ciesin:source_identifier": "11717537",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717163": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2022-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717163",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/r6mv-sv82",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2022-geotiff.zip",
       "roles": [
         "data"
       ],
@@ -839,10 +922,10 @@
       "ciesin:source_identifier": "11717163",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11717539": {
+    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2022-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11717539",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7927/7ppx-6m60",
+      "title": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-2022-netcdf.zip",
       "roles": [
         "data"
       ],
@@ -851,53 +934,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "11717539",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3540908987-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540908987-ESDIS",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/9dm2-qb82",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/AS2R-9P42",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-readme.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04-readme.txt",
-      "type": "text/plain",
-      "title": "Related Publication: https://doi.org/10.7927/H49G5JRZ",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/AS2R-9P42",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540908987-ESDIS",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H45Q4T1N",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/AS2R-9P42",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "acs.est.1c05309": {
-      "href": "https://doi.org/10.1021/acs.est.1c05309",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H41Z4299",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

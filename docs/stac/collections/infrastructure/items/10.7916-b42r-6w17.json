@@ -73,6 +73,12 @@
     "ciesin:authors": [
       "Center for Integrated Earth System Information"
     ],
+    "ciesin:publishers": [
+      "Columbia University"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 NGA - Roads v1.0 spatial dataset consists of road and path locations in Nigeria.",
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -114,32 +120,33 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-nga---roads-v1.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/t9xr-sz30/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 NGA - Roads v1.0",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "file:size": 720383,
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/t9xr-sz30/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
     "b42r-6w17": {
       "href": "https://doi.org/10.7916/B42R-6W17",
       "type": "text/html",
-      "title": "DOI 10.7916/B42R-6W17",
+      "title": "GRID3 NGA - Roads v1.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/B42R-6W17",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3-nga---roads-v1.0---data-release-notes": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/t9xr-sz30/download",
-      "type": "application/pdf",
-      "title": "GRID3 NGA - Roads v1.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 720383,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/t9xr-sz30/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-2": {
+    "grid3_nga_roads_v1.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/6d38-gw56/download",
       "type": "application/zip",
       "title": "GRID3_NGA_roads_v1.zip",
@@ -151,17 +158,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/6d38-gw56/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "thumbnail1758220573828.png": {
-      "href": "https://www.arcgis.com/sharing/rest/content/items/11f0f007bf68404dab4ecb96a535e52b/info/thumbnail/thumbnail1758220573828.png",
-      "type": "image/png",
-      "title": "thumbnail1758220573828.png",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

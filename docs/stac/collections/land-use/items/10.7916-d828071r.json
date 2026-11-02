@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d828071r",
   "collection": "land-use",
@@ -30,6 +29,7 @@
       }
     ],
     "sci:doi": "10.7916/d828071r",
+    "sci:citation": "Yang, Yuanyuan, Zhang, Shuwen, Yang, Jiuchun, Chang, Liping, Bu, Kun, & Xing, Xiaoshi (2014). A review of historical reconstruction methods of land use/land cover. Columbia University. https://doi.org/10.7916/d828071r",
     "ciesin:resource_type": "article",
     "ciesin:category": "Land Use",
     "ciesin:tags": [
@@ -47,6 +47,9 @@
       "Chang, Liping",
       "Bu, Kun",
       "Xing, Xiaoshi"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -86,7 +89,7 @@
     "d828071r": {
       "href": "https://doi.org/10.7916/d828071r",
       "type": "text/html",
-      "title": "DOI 10.7916/d828071r",
+      "title": "A review of historical reconstruction methods of land use/land cover — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -94,19 +97,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d828071r",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "a_review_of_historical_reconstruction_methods_of_land_use_and_land_cover": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8PN9HDS/download",
-      "type": "application/pdf",
-      "title": "A_review_of_historical_reconstruction_methods_of_land_use_and_land_cover.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 487490,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8PN9HDS/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

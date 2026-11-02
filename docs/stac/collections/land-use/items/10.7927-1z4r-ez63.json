@@ -154,22 +154,23 @@
     }
   ],
   "assets": {
-    "1z4r-ez63": {
-      "href": "https://doi.org/10.7927/1Z4R-EZ63",
-      "type": "text/html",
-      "title": "DOI 10.7927/1Z4R-EZ63",
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-readme.txt",
+      "type": "text/plain",
+      "title": "Dataset documentation — Global 1-km Downscaled Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-readme.txt Type: VIEW RELATED INFORMATION Subtype: READ-ME Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/1Z4R-EZ63",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3540931213-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "bdirtw": {
       "href": "https://doi.org/10.7910/DVN/BDIRTW",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/BDIRTW",
+      "title": "Global 1-km Downscaled Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -178,10 +179,46 @@
       "ciesin:source_identifier": "10.7910/DVN/BDIRTW",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14222241": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FBDIRTW",
+      "type": "application/xhtml+xml",
+      "title": "Global 1-km Downscaled Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/BDIRTW",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "1z4r-ez63": {
+      "href": "https://doi.org/10.7927/1Z4R-EZ63",
+      "type": "text/html",
+      "title": "Global 1-km Downscaled Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/1Z4R-EZ63",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540931213-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540931213-ESDIS",
+      "type": "text/html",
+      "title": "Global 1-km Downscaled Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/1Z4R-EZ63",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "metadata-package-for-global-1-km-downscaled-urban-land-extent-projection-and-base-year-gri": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222241",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global 1-km Downscaled Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100",
       "roles": [
         "data"
       ],
@@ -191,7 +228,31 @@
       "ciesin:source_identifier": "14222241",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592829": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540931213-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global 1-km Downscaled Urban Land Extent Projection and Base Year Grids by SSP Scenarios, 2000-2100",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540931213-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540931213-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-ancillary-layers": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592829",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-ancillary-layers-geotiff.zip",
@@ -204,7 +265,7 @@
       "ciesin:source_identifier": "13592829",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592836": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-ancillary-layers-2": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592836",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-ancillary-layers-netcdf.zip",
@@ -217,7 +278,7 @@
       "ciesin:source_identifier": "13592836",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592831": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-byr-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592831",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-byr-geotiff.zip",
@@ -230,7 +291,7 @@
       "ciesin:source_identifier": "13592831",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592833": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-byr-netcdf.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592833",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-byr-netcdf.zip",
@@ -243,7 +304,7 @@
       "ciesin:source_identifier": "13592833",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592840": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp1-geotiff": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592840",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp1-geotiff.zip",
@@ -256,7 +317,7 @@
       "ciesin:source_identifier": "13592840",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592827": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp1-netcdf": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592827",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp1-netcdf.zip",
@@ -269,7 +330,7 @@
       "ciesin:source_identifier": "13592827",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592837": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp2-geotiff": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592837",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp2-geotiff.zip",
@@ -282,7 +343,7 @@
       "ciesin:source_identifier": "13592837",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592834": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp2-netcdf": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592834",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp2-netcdf.zip",
@@ -295,7 +356,7 @@
       "ciesin:source_identifier": "13592834",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592839": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp3-geotiff": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592839",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp3-geotiff.zip",
@@ -308,7 +369,7 @@
       "ciesin:source_identifier": "13592839",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592838": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp3-netcdf": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592838",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp3-netcdf.zip",
@@ -321,7 +382,7 @@
       "ciesin:source_identifier": "13592838",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592835": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp4-geotiff": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592835",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp4-geotiff.zip",
@@ -334,7 +395,7 @@
       "ciesin:source_identifier": "13592835",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592832": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp4-netcdf": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592832",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp4-netcdf.zip",
@@ -347,7 +408,7 @@
       "ciesin:source_identifier": "13592832",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592828": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp5-geotiff": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592828",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp5-geotiff.zip",
@@ -360,7 +421,7 @@
       "ciesin:source_identifier": "13592828",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "13592830": {
+    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp5-netcdf": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=13592830",
       "type": "application/zip",
       "title": "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-proj-ssp5-netcdf.zip",
@@ -372,53 +433,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "13592830",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3540931213-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540931213-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/1Z4R-EZ63",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-readme.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ssp-1-km-downscaled-urban-land-extent-projection-base-year-ssp-2000-2100-readme.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/1Z4R-EZ63",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540931213-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/1Z4R-EZ63",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "s41597-021-01052-0": {
-      "href": "https://doi.org/10.1038/s41597-021-01052-0",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1093/wber/lhad026",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

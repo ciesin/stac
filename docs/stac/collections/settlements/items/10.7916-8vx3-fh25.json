@@ -73,6 +73,12 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network"
     ],
+    "ciesin:publishers": [
+      "GRID3"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 MYT - Settlement Extents v3.0 consists of a geographic representation of settlements in Mayotte, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Both layers include attributes as described in the codebooks. Data inputs and methodology are described in data release notes.",
     "ciesin:publication_date": "2024-09-30T00:00:00Z",
     "ciesin:additional_resources": [
@@ -113,19 +119,33 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-myt---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/tk5f-bs16/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 MYT - Settlement Extents v3.0",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "file:size": 7551456,
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/tk5f-bs16/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
     "8vx3-fh25": {
       "href": "https://doi.org/10.7916/8VX3-FH25",
       "type": "text/html",
-      "title": "DOI 10.7916/8VX3-FH25",
+      "title": "GRID3 MYT - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/8VX3-FH25",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3_myt_settlement_extents_v3_0": {
+    "grid3_myt_settlement_extents_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/1fbb-zb02/download",
       "type": "application/zip",
       "title": "GRID3_MYT_settlement_extents_v3_0.zip",
@@ -133,12 +153,12 @@
         "data"
       ],
       "file:size": 530463,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/1fbb-zb02/download",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     },
-    "download-2": {
+    "grid3_myt_settlement_grid_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/sbcd-y950/download",
       "type": "application/zip",
       "title": "GRID3_MYT_settlement_grid_v3_0.zip",
@@ -146,23 +166,10 @@
         "data"
       ],
       "file:size": 330613,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/sbcd-y950/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/tk5f-bs16/download",
-      "type": "application/pdf",
-      "title": "GRID3 MYT - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 7551456,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/tk5f-bs16/download",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

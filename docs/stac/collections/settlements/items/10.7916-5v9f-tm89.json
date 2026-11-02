@@ -73,6 +73,12 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network"
     ],
+    "ciesin:publishers": [
+      "GRID3"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 COM - Settlement Extents v3.0 consists of a geographic representation of settlements in Comoros, in two forms: 1) settlement polygons, and 2) spatial points depicting the centroids of settled grid cells at 3-arc seconds (or ~100 meters) contained within settlement polygons. Both layers include attributes as described in the codebooks. Data inputs and methodology are described in data release notes.",
     "ciesin:publication_date": "2024-09-30T00:00:00Z",
     "ciesin:additional_resources": [
@@ -114,32 +120,47 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-com---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/z09s-2y27/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 COM - Settlement Extents v3.0",
+      "roles": [
+        "data",
+        "metadata"
+      ],
+      "file:size": 17334232,
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/z09s-2y27/download",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
     "5v9f-tm89": {
       "href": "https://doi.org/10.7916/5V9F-TM89",
       "type": "text/html",
-      "title": "DOI 10.7916/5V9F-TM89",
+      "title": "GRID3 COM - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/5V9F-TM89",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3_com_settlement_extents_v3_0": {
+    "grid3_com_settlement_extents_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/zmsy-8r36/download",
       "type": "application/zip",
       "title": "GRID3_COM_settlement_extents_v3_0.zip",
       "roles": [
-        "data"
+        "data",
+        "metadata"
       ],
       "file:size": 1294450,
-      "ciesin:source": "XML data link",
+      "ciesin:source": "Columbia Academic Commons file; XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/zmsy-8r36/download",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     },
-    "download-2": {
+    "grid3_com_settlement_grid_v3_0.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/3y7e-2b80/download",
       "type": "application/zip",
       "title": "GRID3_COM_settlement_grid_v3_0.zip",
@@ -147,45 +168,10 @@
         "data"
       ],
       "file:size": 1177681,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source": "Columbia Academic Commons file; XML data link",
+      "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/3y7e-2b80/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/z09s-2y27/download",
-      "type": "application/pdf",
-      "title": "GRID3 COM - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 17334232,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/z09s-2y27/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "skj3-ac75": {
-      "href": "https://doi.org/10.7916/skj3-ac75",
-      "type": "text/html",
-      "title": "GRID3 COM - Settlement Extents v2.0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "5v9f-tm89-2": {
-      "href": "https://doi.org/doi:10.7916/5v9f-tm89",
-      "type": "text/html",
-      "title": "5v9f-tm89",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

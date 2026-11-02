@@ -56,6 +56,7 @@
       }
     ],
     "sci:doi": "10.7927/h44747x4",
+    "sci:citation": "Gao, J.. 2019-03-22. Global Population Projection Grids Based on Shared Socioeconomic Pathways (SSPs), Downscaled 1-km Grids, 2010-2100. Version 1.0. ESDIS. Palisades, NY. https://doi.org/10.7927/H44747X4",
     "version": "1.0",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Population",
@@ -116,19 +117,20 @@
     "h44747x4": {
       "href": "https://doi.org/10.7927/h44747x4",
       "type": "text/html",
-      "title": "DOI 10.7927/h44747x4",
+      "title": "Global Population Projection Grids Based on Shared Socioeconomic Pathways (SSPs), Downscaled 1-km Grids, 2010-2100 — NASA CMR DOI",
+      "description": "Related URL: https://doi.org/10.7927/H44747X4 Type: DATA SET LANDING PAGE Description: Data Set DOI URL and Homepage",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR DOI; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/h44747x4",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "10.7927/h44747x4; C3540911912-ESDIS",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi; exact DOI lookup"
     },
     "c3540911912-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540911912-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Global Population Projection Grids Based on Shared Socioeconomic Pathways (SSPs), Downscaled 1-km Grids, 2010-2100 — NASA CMR record",
       "roles": [
         "metadata"
       ],
@@ -140,13 +142,27 @@
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540911912-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Global Population Projection Grids Based on Shared Socioeconomic Pathways (SSPs), Downscaled 1-km Grids, 2010-2100",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540911912-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540911912-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "docs": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/popdynamics-pop-projection-ssp-downscaled-1km-2010-2100/docs",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/popdynamics-pop-projection-ssp-downscaled-1km-2010-2100/docs",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/popdynamics-pop-projection-ssp-downscaled-1km-2010-2100/docs Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Documentation Page",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/h44747x4",
+      "ciesin:source_identifier": "C3540911912-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

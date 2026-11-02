@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8r49pj3",
   "collection": "governance",
@@ -30,6 +29,7 @@
       }
     ],
     "sci:doi": "10.7916/d8r49pj3",
+    "sci:citation": "Downs, Robert R. (2015). Enabling Ongoing Access to Data Products and Services When Dependencies are No Longer Supported. Columbia University. https://doi.org/10.7916/d8r49pj3",
     "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
@@ -42,6 +42,9 @@
     ],
     "ciesin:authors": [
       "Downs, Robert R."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -81,7 +84,7 @@
     "d8r49pj3": {
       "href": "https://doi.org/10.7916/d8r49pj3",
       "type": "text/html",
-      "title": "DOI 10.7916/d8r49pj3",
+      "title": "Enabling Ongoing Access to Data Products and Services When Dependencies are No Longer Supported — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -89,19 +92,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8r49pj3",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "downs2015enablingongoingaccess20150106.pdf": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8126278/download",
-      "type": "application/pdf",
-      "title": "Downs2015EnablingOngoingAccess20150106.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 284067,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8126278/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

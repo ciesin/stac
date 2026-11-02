@@ -156,22 +156,34 @@
     }
   ],
   "assets": {
-    "0gdn-6y33": {
-      "href": "https://doi.org/10.7927/0GDN-6Y33",
+    "g739-5620": {
+      "href": "https://doi.org/10.7927/g739-5620",
       "type": "text/html",
-      "title": "DOI 10.7927/0GDN-6Y33",
+      "title": "Dataset documentation — Global Subnational Infant Mortality Rates, Version 2.01",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/0GDN-6Y33",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "povmap-global-subnational-infant-mortality-rates-v2-01-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/povmap-global-subnational-infant-mortality-rates-v2-01-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — povmap global subnational infant mortality rates v2 01 documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/povmap-global-subnational-infant-mortality-rates-v2-01-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540908956-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "xvkaq0": {
       "href": "https://doi.org/10.7910/DVN/XVKAQ0",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/XVKAQ0",
+      "title": "Global Subnational Infant Mortality Rates, Version 2.01 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -180,10 +192,57 @@
       "ciesin:source_identifier": "10.7910/DVN/XVKAQ0",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14202240": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FXVKAQ0",
+      "type": "application/xhtml+xml",
+      "title": "Global Subnational Infant Mortality Rates, Version 2.01 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/XVKAQ0",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "0gdn-6y33": {
+      "href": "https://doi.org/10.7927/0GDN-6Y33",
+      "type": "text/html",
+      "title": "Global Subnational Infant Mortality Rates, Version 2.01 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/0GDN-6Y33",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540908956-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540908956-ESDIS",
+      "type": "text/html",
+      "title": "Global Subnational Infant Mortality Rates, Version 2.01 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/0GDN-6Y33",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "povmap-global-subnational-infant-mortality-rates-v2-01-2015-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/povmap/povmap-global-subnational-infant-mortality-rates-v2-01/povmap-global-subnational-infant-mortality-rates-v2-01-2015-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Subnational Infant Mortality Rates, Version 2.01 (povmap global subnational infant mortality rates v2 01 2015 thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-subnational-infant-mortality-rates-version-2.01": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14202240",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Subnational Infant Mortality Rates, Version 2.01",
       "roles": [
         "data"
       ],
@@ -193,7 +252,20 @@
       "ciesin:source_identifier": "14202240",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808834": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540908956-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global Subnational Infant Mortality Rates, Version 2.01",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540908956-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540908956-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "povmap-global-subnational-infant-mortality-rates-v2-01-adm1-gdb.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808834",
       "type": "application/zip",
       "title": "povmap-global-subnational-infant-mortality-rates-v2-01-adm1-gdb.zip",
@@ -206,7 +278,7 @@
       "ciesin:source_identifier": "11808834",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808833": {
+    "povmap-global-subnational-infant-mortality-rates-v2-01-adm-used-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808833",
       "type": "application/zip",
       "title": "povmap-global-subnational-infant-mortality-rates-v2-01-adm-used-geotiff.zip",
@@ -219,7 +291,7 @@
       "ciesin:source_identifier": "11808833",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808830": {
+    "povmap-global-subnational-infant-mortality-rates-v2-01-births-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808830",
       "type": "application/zip",
       "title": "povmap-global-subnational-infant-mortality-rates-v2-01-births-geotiff.zip",
@@ -232,7 +304,7 @@
       "ciesin:source_identifier": "11808830",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808831": {
+    "povmap-global-subnational-infant-mortality-rates-v2-01-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808831",
       "type": "application/zip",
       "title": "povmap-global-subnational-infant-mortality-rates-v2-01-geotiff.zip",
@@ -245,7 +317,7 @@
       "ciesin:source_identifier": "11808831",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808829": {
+    "povmap-global-subnational-infant-mortality-rates-v2-01-infantdeaths-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808829",
       "type": "application/zip",
       "title": "povmap-global-subnational-infant-mortality-rates-v2-01-infantdeaths-geotiff.zip",
@@ -258,7 +330,7 @@
       "ciesin:source_identifier": "11808829",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808832": {
+    "povmap-global-subnational-infant-mortality-rates-v2-01-xlsx.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808832",
       "type": "application/zip",
       "title": "povmap-global-subnational-infant-mortality-rates-v2-01-xlsx.zip",
@@ -271,46 +343,10 @@
       "ciesin:source_identifier": "11808832",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3540908956-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540908956-ESDIS",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/povmap-global-subnational-infant-mortality-rates-v2-01/data-download",
       "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/0GDN-6Y33",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "povmap-global-subnational-infant-mortality-rates-v2-01-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/povmap-global-subnational-infant-mortality-rates-v2-01-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/0GDN-6Y33",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540908956-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/0GDN-6Y33",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "h4pz56r2": {
-      "href": "https://doi.org/10.7927/H4PZ56R2",
-      "type": "text/html",
-      "title": "H4PZ56R2",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -318,10 +354,21 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "g739-5620": {
-      "href": "https://doi.org/10.7927/g739-5620",
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/povmap-global-subnational-infant-mortality-rates-v2-01/maps",
       "type": "text/html",
-      "title": "g739-5620",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h4pz56r2": {
+      "href": "https://doi.org/10.7927/H4PZ56R2",
+      "type": "text/html",
+      "title": "Related Publication: Poverty Mapping Project: Global Subnational Infant Mortality Rates. Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2005",
       "roles": [
         "metadata"
       ],

@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8rb7d2t",
   "collection": "climate",
@@ -30,6 +29,7 @@
       }
     ],
     "sci:doi": "10.7916/d8rb7d2t",
+    "sci:citation": "Janetos, Anthony C., Chen, Robert S., Arndt, Deke, & Kenney, Melissa A. (2012). National Climate Assessment Indicators: Background, Development, and Examples. Columbia University. https://doi.org/10.7916/d8rb7d2t",
     "ciesin:resource_type": "report",
     "ciesin:category": "Climate",
     "ciesin:tags": [
@@ -45,6 +45,9 @@
       "Chen, Robert S.",
       "Arndt, Deke",
       "Kenney, Melissa A."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -84,7 +87,7 @@
     "d8rb7d2t": {
       "href": "https://doi.org/10.7916/d8rb7d2t",
       "type": "text/html",
-      "title": "DOI 10.7916/d8rb7d2t",
+      "title": "National Climate Assessment Indicators: Background, Development, and Examples — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -92,19 +95,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8rb7d2t",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "nca-indicators-technical-input-report-final--3-1-12": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8Q81NFC/download",
-      "type": "application/pdf",
-      "title": "NCA-Indicators-Technical-Input-Report-FINAL--3-1-12.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 8253519,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8Q81NFC/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

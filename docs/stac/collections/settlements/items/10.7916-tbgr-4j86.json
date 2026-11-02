@@ -50,6 +50,7 @@
       }
     ],
     "sci:doi": "10.7916/tbgr-4j86",
+    "sci:citation": "Center for International Earth Science Information Network (2024). GRID3 NGA - Settlement Extents v3.0. Columbia University. https://doi.org/10.7916/tbgr-4j86",
     "version": "3.0",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
@@ -63,6 +64,9 @@
     ],
     "ciesin:authors": [
       "Center for International Earth Science Information Network"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -98,19 +102,32 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-nga---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/45mm-sm68/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 NGA - Settlement Extents v3.0",
+      "roles": [
+        "data"
+      ],
+      "file:size": 17568014,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/45mm-sm68/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
     "tbgr-4j86": {
       "href": "https://doi.org/10.7916/tbgr-4j86",
       "type": "text/html",
-      "title": "DOI 10.7916/tbgr-4j86",
+      "title": "GRID3 NGA - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/tbgr-4j86",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3_nga_settlement_extents_v3_0_gpkg": {
+    "grid3_nga_settlement_extents_v3_0_gpkg.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/ye92-tw33/download",
       "type": "application/zip",
       "title": "GRID3_NGA_settlement_extents_v3_0_gpkg.zip",
@@ -123,7 +140,7 @@
       "ciesin:source_identifier": "/doi/10.7916/ye92-tw33/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-2": {
+    "grid3_nga_settlement_grid_v3_0_gpkg.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/917x-5j33/download",
       "type": "application/zip",
       "title": "GRID3_NGA_settlement_grid_v3_0_gpkg.zip",
@@ -136,17 +153,16 @@
       "ciesin:source_identifier": "/doi/10.7916/917x-5j33/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/45mm-sm68/download",
-      "type": "application/pdf",
-      "title": "GRID3 NGA - Settlement Extents v3.0 - Data Release Notes .pdf",
+    "tbgr-4j86-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/tbgr-4j86#assets-panel",
+      "type": "application/octet-stream",
+      "title": "tbgr-4j86",
       "roles": [
         "data"
       ],
-      "file:size": 17568014,
       "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/45mm-sm68/download",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/tbgr-4j86",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

@@ -155,22 +155,23 @@
     }
   ],
   "assets": {
-    "h4n014g5": {
-      "href": "https://doi.org/10.7927/H4N014G5",
-      "type": "text/html",
-      "title": "DOI 10.7927/H4N014G5",
+    "species-global-mammal-richness-2015-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/species-global-mammal-richness-2015-readme.txt",
+      "type": "text/plain",
+      "title": "Dataset documentation — Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/species-global-mammal-richness-2015-readme.txt Type: VIEW RELATED INFORMATION Subtype: READ-ME Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4N014G5",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3540910344-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "5zpwqi": {
       "href": "https://doi.org/10.7910/DVN/5ZPWQI",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/5ZPWQI",
+      "title": "Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -179,7 +180,43 @@
       "ciesin:source_identifier": "10.7910/DVN/5ZPWQI",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "11815084": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F5ZPWQI",
+      "type": "application/xhtml+xml",
+      "title": "Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/5ZPWQI",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4n014g5": {
+      "href": "https://doi.org/10.7927/H4N014G5",
+      "type": "text/html",
+      "title": "Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4N014G5",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540910344-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540910344-ESDIS",
+      "type": "text/html",
+      "title": "Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4N014G5",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "mammalia-all.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815084",
       "type": "application/zip",
       "title": "mammalia-all.zip",
@@ -192,7 +229,7 @@
       "ciesin:source_identifier": "11815084",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815082": {
+    "mammals-all-threats.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815082",
       "type": "application/octet-stream",
       "title": "mammals-all-threats.zip",
@@ -205,7 +242,7 @@
       "ciesin:source_identifier": "11815082",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815083": {
+    "mammals-critically-endangered.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815083",
       "type": "application/zip",
       "title": "mammals-critically-endangered.zip",
@@ -218,7 +255,7 @@
       "ciesin:source_identifier": "11815083",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815086": {
+    "mammals-endangered.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815086",
       "type": "application/zip",
       "title": "mammals-endangered.zip",
@@ -231,7 +268,7 @@
       "ciesin:source_identifier": "11815086",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815085": {
+    "mammals-vulnerable.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815085",
       "type": "application/zip",
       "title": "mammals-vulnerable.zip",
@@ -244,10 +281,21 @@
       "ciesin:source_identifier": "11815085",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14222235": {
+    "species-global-mammal-richness-2015-all-species-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/species/species-global-mammal-richness-2015/species-global-mammal-richness-2015-all-species-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release (species global mammal richness 2015 all species thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-gridded-species-distribution-global-mammal-richness-grids-2015-releas": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222235",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release",
       "roles": [
         "data"
       ],
@@ -257,46 +305,45 @@
       "ciesin:source_identifier": "14222235",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3540910344-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540910344-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4N014G5",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "species-global-mammal-richness-2015-readme.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/species-global-mammal-richness-2015-readme.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4N014G5",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540910344-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540910344-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4N014G5",
+      "ciesin:source_identifier": "C3540910344-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/species-global-mammal-richness-2015/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/species-global-mammal-richness-2015/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
     },
     "h4rr1w66": {
       "href": "https://doi.org/10.7927/H4RR1W66",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4N29TWJ",
+      "title": "Related Publication: Gridded Species Distribution: Global Amphibian Richness Grids, 2015 Release. International Union for Conservation of Nature - IUCN, and Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2015",
       "roles": [
         "metadata"
       ],
@@ -304,16 +351,18 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "www.iucnredlist.org": {
-      "href": "http://www.iucnredlist.org",
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/species-global-mammal-richness-2015/maps/services",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4RV0KMH",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/species-global-mammal-richness-2015/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/species-global-mammal-richness-2015/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "C3540910344-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

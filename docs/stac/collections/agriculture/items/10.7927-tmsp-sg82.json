@@ -259,34 +259,10 @@
     }
   ],
   "assets": {
-    "tmsp-sg82": {
-      "href": "https://doi.org/10.7927/TMSP-SG82",
-      "type": "text/html",
-      "title": "DOI 10.7927/TMSP-SG82",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/TMSP-SG82",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
-    "hmuphd": {
-      "href": "https://doi.org/10.7910/DVN/HMUPHD",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/HMUPHD",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Harvard Dataverse DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/HMUPHD",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
-    },
-    "11661612": {
+    "dataset-documentation-twentieth-century-crop-statistics-1900-2017": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11661612",
       "type": "application/pdf",
-      "title": "food-twentieth-century-crop-statistics-1900-2017-documentation.pdf",
+      "title": "Dataset documentation — Twentieth Century Crop Statistics, 1900-2017",
       "roles": [
         "data"
       ],
@@ -296,7 +272,31 @@
       "ciesin:source_identifier": "11661612",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11661613": {
+    "8zwk-nr08": {
+      "href": "https://doi.org/10.7927/8zwk-nr08",
+      "type": "text/html",
+      "title": "Dataset documentation — Twentieth Century Crop Statistics, 1900-2017",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "food-twentieth-century-crop-statistics-1900-2017-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/food-twentieth-century-crop-statistics-1900-2017-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — food twentieth century crop statistics 1900 2017 documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/food-twentieth-century-crop-statistics-1900-2017-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540919174-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "food-twentieth-century-crop-statistics-1900-2017-xlsx.xlsx": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11661613",
       "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "title": "food-twentieth-century-crop-statistics-1900-2017-xlsx.xlsx",
@@ -309,10 +309,10 @@
       "ciesin:source_identifier": "11661613",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14171159": {
+    "metadata-package-for-twentieth-century-crop-statistics-1900-2017": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14171159",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Twentieth Century Crop Statistics, 1900-2017",
       "roles": [
         "data"
       ],
@@ -322,10 +322,70 @@
       "ciesin:source_identifier": "14171159",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540919174-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Twentieth Century Crop Statistics, 1900-2017",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540919174-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540919174-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/food-twentieth-century-crop-statistics-1900-2017/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "hmuphd": {
+      "href": "https://doi.org/10.7910/DVN/HMUPHD",
+      "type": "text/html",
+      "title": "Twentieth Century Crop Statistics, 1900-2017 — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/HMUPHD",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FHMUPHD",
+      "type": "application/xhtml+xml",
+      "title": "Twentieth Century Crop Statistics, 1900-2017 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/HMUPHD",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "tmsp-sg82": {
+      "href": "https://doi.org/10.7927/TMSP-SG82",
+      "type": "text/html",
+      "title": "Twentieth Century Crop Statistics, 1900-2017 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/TMSP-SG82",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
     "c3540919174-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540919174-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Twentieth Century Crop Statistics, 1900-2017 — NASA CMR record",
       "roles": [
         "metadata"
       ],
@@ -333,52 +393,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7927/TMSP-SG82",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "food-twentieth-century-crop-statistics-1900-2017-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/food-twentieth-century-crop-statistics-1900-2017-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/TMSP-SG82",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540919174-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/TMSP-SG82",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "j.agrformet.2023.109321": {
-      "href": "https://doi.org/10.1016/j.agrformet.2023.109321",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1029/2007GB002947",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "8zwk-nr08": {
-      "href": "https://doi.org/10.7927/8zwk-nr08",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4K0726D",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

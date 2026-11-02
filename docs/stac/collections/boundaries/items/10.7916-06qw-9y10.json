@@ -75,6 +75,12 @@
       "Ministère de la Santé Publique, Hygiène et Prévention, Democratic Republic of the Congo",
       "GRID3"
     ],
+    "ciesin:publishers": [
+      "Columbia University"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 COD - Health Zones v9.0 dataset consists of health zone boundaries with name and other related attributes for all the twenty-six provinces in the Democratic Republic of the Congo (COD).",
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -145,22 +151,10 @@
     }
   ],
   "assets": {
-    "06qw-9y10": {
-      "href": "https://doi.org/10.7916/06QW-9Y10",
-      "type": "text/html",
-      "title": "DOI 10.7916/06QW-9Y10",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/06QW-9Y10",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "grid3-cod---health-zones-v9.0-data-release-notes": {
+    "dataset-documentation-grid3-cod---health-zones-v9.0": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/2aqh-9v92/download",
       "type": "application/pdf",
-      "title": "GRID3 COD - Health Zones v9.0 Data Release Notes.pdf",
+      "title": "Dataset documentation — GRID3 COD - Health Zones v9.0",
       "roles": [
         "data"
       ],
@@ -170,46 +164,30 @@
       "ciesin:source_identifier": "/doi/10.7916/2aqh-9v92/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/x62f-n579/download",
-      "type": "application/x-geopackage",
-      "title": "GRID3_COD_Haut-Katanga_health_zones_v9_0.gpkg",
+    "about": {
+      "href": "https://data.grid3.org/datasets/GRID3::grid3-cod-health-zones-v8-0/about",
+      "type": "text/html",
+      "title": "GRID3 COD - Health Zones v8.0",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "file:size": 2322432,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/x62f-n579/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
     },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/m4gn-hw63/download",
-      "type": "application/x-geopackage",
-      "title": "GRID3_COD_Haut-Lomami_health_zones_v9_0.gpkg",
+    "06qw-9y10": {
+      "href": "https://doi.org/10.7916/06QW-9Y10",
+      "type": "text/html",
+      "title": "GRID3 COD - Health Zones v9.0 — Columbia Academic Commons DOI",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "file:size": 2252800,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/m4gn-hw63/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/06QW-9Y10",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "download-4": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/hjwe-g979/download",
-      "type": "application/x-geopackage",
-      "title": "GRID3_COD_Haut-Uele_health_zones_v9_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 1626112,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/hjwe-g979/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-5": {
+    "grid3_cod_bas-uele_health_zones_v9_0.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/xgbt-rp10/download",
       "type": "application/x-geopackage",
       "title": "GRID3_COD_Bas-Uele_health_zones_v9_0.gpkg",
@@ -222,7 +200,7 @@
       "ciesin:source_identifier": "/doi/10.7916/xgbt-rp10/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-6": {
+    "grid3_cod_equateur_health_zones_v9_0.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/w8yt-vz83/download",
       "type": "application/x-geopackage",
       "title": "GRID3_COD_Equateur_health_zones_v9_0.gpkg",
@@ -235,163 +213,46 @@
       "ciesin:source_identifier": "/doi/10.7916/w8yt-vz83/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-7": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/abjn-4541/download",
+    "grid3_cod_haut-katanga_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/x62f-n579/download",
       "type": "application/x-geopackage",
-      "title": "GRID3_COD_Tanganyika_health_zones_v9_0.gpkg",
+      "title": "GRID3_COD_Haut-Katanga_health_zones_v9_0.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 3137536,
+      "file:size": 2322432,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/abjn-4541/download",
+      "ciesin:source_identifier": "/doi/10.7916/x62f-n579/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-8": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/pde1-mw41/download",
+    "grid3_cod_haut-lomami_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/m4gn-hw63/download",
       "type": "application/x-geopackage",
-      "title": "GRID3_COD_Tshuapa_health_zones_v9_0.gpkg",
+      "title": "GRID3_COD_Haut-Lomami_health_zones_v9_0.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 5201920,
+      "file:size": 2252800,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/pde1-mw41/download",
+      "ciesin:source_identifier": "/doi/10.7916/m4gn-hw63/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-9": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/jefa-k327/download",
+    "grid3_cod_haut-uele_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/hjwe-g979/download",
       "type": "application/x-geopackage",
-      "title": "GRID3_COD_Tshopo_health_zones_v9_0.gpkg",
+      "title": "GRID3_COD_Haut-Uele_health_zones_v9_0.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 3129344,
+      "file:size": 1626112,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/jefa-k327/download",
+      "ciesin:source_identifier": "/doi/10.7916/hjwe-g979/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-10": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/22hn-xe02/download",
-      "type": "application/x-geopackage",
-      "title": "GRID3_COD_KasaiÌ-Central_health_zones_v9_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 1482752,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/22hn-xe02/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-11": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/ncyq-kx65/download",
-      "type": "application/x-geopackage",
-      "title": "GRID3_COD_KasaiÌ-Oriental_health_zones_v9_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 884736,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/ncyq-kx65/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-12": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/8cxb-0a72/download",
-      "type": "application/x-geopackage",
-      "title": "GRID3_COD_Kongo-Central_health_zones_v9_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 3919872,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/8cxb-0a72/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-13": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/vyq4-2413/download",
-      "type": "application/x-geopackage",
-      "title": "GRID3_COD_Kwango_health_zones_v9_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 3698688,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/vyq4-2413/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-14": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/y0hx-9a66/download",
-      "type": "application/x-geopackage",
-      "title": "GRID3_COD_Kinshasa_health_zones_v9_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 1236992,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/y0hx-9a66/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-15": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/rbgj-cc05/download",
-      "type": "application/x-geopackage",
-      "title": "GRID3_COD_KasaiÌ_health_zones_v9_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 1269760,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/rbgj-cc05/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-16": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/zb3f-7k96/download",
-      "type": "application/x-geopackage",
-      "title": "GRID3_COD_Lomami_health_zones_v9_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 3772416,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/zb3f-7k96/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-17": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/wtzn-pk72/download",
-      "type": "application/x-geopackage",
-      "title": "GRID3_COD_Kwilu_health_zones_v9_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 3039232,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/wtzn-pk72/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-18": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/r00j-5047/download",
-      "type": "application/x-geopackage",
-      "title": "GRID3_COD_Ituri_health_zones_v9_0.gpkg",
-      "roles": [
-        "data"
-      ],
-      "file:size": 5009408,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/r00j-5047/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-19": {
+    "grid3_cod_health_zones_v9_0.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/p7e4-zf04/download",
       "type": "application/x-geopackage",
       "title": "GRID3_COD_health_zones_v9_0.gpkg",
@@ -404,7 +265,7 @@
       "ciesin:source_identifier": "/doi/10.7916/p7e4-zf04/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-20": {
+    "grid3_cod_health_zones_v9_0.xml": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/kvf0-ea35/download",
       "type": "application/xml",
       "title": "GRID3_COD_health_zones_v9_0.xml",
@@ -417,72 +278,124 @@
       "ciesin:source_identifier": "/doi/10.7916/kvf0-ea35/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-21": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/dtfp-s762/download",
+    "grid3_cod_ituri_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/r00j-5047/download",
       "type": "application/x-geopackage",
-      "title": "GRID3_COD_Nord-Ubangi_health_zones_v9_0.gpkg",
+      "title": "GRID3_COD_Ituri_health_zones_v9_0.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 3272704,
+      "file:size": 5009408,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/dtfp-s762/download",
+      "ciesin:source_identifier": "/doi/10.7916/r00j-5047/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-22": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/6fk3-r622/download",
+    "grid3_cod_kasai-_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/rbgj-cc05/download",
       "type": "application/x-geopackage",
-      "title": "GRID3_COD_Mongala_health_zones_v9_0.gpkg",
+      "title": "GRID3_COD_KasaiÌ_health_zones_v9_0.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 2056192,
+      "file:size": 1269760,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/6fk3-r622/download",
+      "ciesin:source_identifier": "/doi/10.7916/rbgj-cc05/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-23": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/3jpq-at96/download",
+    "grid3_cod_kasai--central_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/22hn-xe02/download",
       "type": "application/x-geopackage",
-      "title": "GRID3_COD_Sud-Ubangi_health_zones_v9_0.gpkg",
+      "title": "GRID3_COD_KasaiÌ-Central_health_zones_v9_0.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 1613824,
+      "file:size": 1482752,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/3jpq-at96/download",
+      "ciesin:source_identifier": "/doi/10.7916/22hn-xe02/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-24": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/kehf-rm61/download",
+    "grid3_cod_kasai--oriental_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ncyq-kx65/download",
       "type": "application/x-geopackage",
-      "title": "GRID3_COD_Mai-Ndombe_health_zones_v9_0.gpkg",
+      "title": "GRID3_COD_KasaiÌ-Oriental_health_zones_v9_0.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 647168,
+      "file:size": 884736,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/kehf-rm61/download",
+      "ciesin:source_identifier": "/doi/10.7916/ncyq-kx65/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-25": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/ncht-kh77/download",
+    "grid3_cod_kinshasa_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/y0hx-9a66/download",
       "type": "application/x-geopackage",
-      "title": "GRID3_COD_Nord-Kivu_health_zones_v9_0.gpkg",
+      "title": "GRID3_COD_Kinshasa_health_zones_v9_0.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 3973120,
+      "file:size": 1236992,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/ncht-kh77/download",
+      "ciesin:source_identifier": "/doi/10.7916/y0hx-9a66/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-26": {
+    "grid3_cod_kongo-central_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/8cxb-0a72/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Kongo-Central_health_zones_v9_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3919872,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/8cxb-0a72/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_kwango_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/vyq4-2413/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Kwango_health_zones_v9_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3698688,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/vyq4-2413/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_kwilu_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/wtzn-pk72/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Kwilu_health_zones_v9_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3039232,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/wtzn-pk72/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_lomami_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/zb3f-7k96/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Lomami_health_zones_v9_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3772416,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/zb3f-7k96/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_lualaba_health_zones_v9_0.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/nwvf-cd79/download",
       "type": "application/x-geopackage",
       "title": "GRID3_COD_Lualaba_health_zones_v9_0.gpkg",
@@ -495,7 +408,20 @@
       "ciesin:source_identifier": "/doi/10.7916/nwvf-cd79/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-27": {
+    "grid3_cod_mai-ndombe_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/kehf-rm61/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Mai-Ndombe_health_zones_v9_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 647168,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/kehf-rm61/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_maniema_health_zones_v9_0.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/kpj1-aj97/download",
       "type": "application/x-geopackage",
       "title": "GRID3_COD_Maniema_health_zones_v9_0.gpkg",
@@ -508,7 +434,46 @@
       "ciesin:source_identifier": "/doi/10.7916/kpj1-aj97/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-28": {
+    "grid3_cod_mongala_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/6fk3-r622/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Mongala_health_zones_v9_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2056192,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/6fk3-r622/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_nord-kivu_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ncht-kh77/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Nord-Kivu_health_zones_v9_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3973120,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/ncht-kh77/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_nord-ubangi_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/dtfp-s762/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Nord-Ubangi_health_zones_v9_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3272704,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/dtfp-s762/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_sankuru_health_zones_v9_0.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/jwt2-c503/download",
       "type": "application/x-geopackage",
       "title": "GRID3_COD_Sankuru_health_zones_v9_0.gpkg",
@@ -521,7 +486,7 @@
       "ciesin:source_identifier": "/doi/10.7916/jwt2-c503/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-29": {
+    "grid3_cod_sud-kivu_health_zones_v9_0.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/xrgb-ja74/download",
       "type": "application/x-geopackage",
       "title": "GRID3_COD_Sud-Kivu_health_zones_v9_0.gpkg",
@@ -532,6 +497,58 @@
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/xrgb-ja74/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_sud-ubangi_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/3jpq-at96/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Sud-Ubangi_health_zones_v9_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1613824,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/3jpq-at96/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_tanganyika_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/abjn-4541/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Tanganyika_health_zones_v9_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3137536,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/abjn-4541/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_tshopo_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/jefa-k327/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Tshopo_health_zones_v9_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 3129344,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/jefa-k327/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_cod_tshuapa_health_zones_v9_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/pde1-mw41/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_COD_Tshuapa_health_zones_v9_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5201920,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/pde1-mw41/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

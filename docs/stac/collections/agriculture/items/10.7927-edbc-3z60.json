@@ -176,22 +176,23 @@
     }
   ],
   "assets": {
-    "edbc-3z60": {
-      "href": "https://doi.org/10.7927/EDBC-3Z60",
-      "type": "text/html",
-      "title": "DOI 10.7927/EDBC-3Z60",
+    "lulc-human-modification-terrestrial-systems-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/lulc-human-modification-terrestrial-systems-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — lulc human modification terrestrial systems documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/lulc-human-modification-terrestrial-systems-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/EDBC-3Z60",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:source_identifier": "C3550185840-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "cawqvg": {
       "href": "https://doi.org/10.7910/DVN/CAWQVG",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/CAWQVG",
+      "title": "Global Human Modification of Terrestrial Systems — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -200,7 +201,43 @@
       "ciesin:source_identifier": "10.7910/DVN/CAWQVG",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "11804878": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FCAWQVG",
+      "type": "application/xhtml+xml",
+      "title": "Global Human Modification of Terrestrial Systems — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/CAWQVG",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "edbc-3z60": {
+      "href": "https://doi.org/10.7927/EDBC-3Z60",
+      "type": "text/html",
+      "title": "Global Human Modification of Terrestrial Systems — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/EDBC-3Z60",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550185840-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550185840-ESDIS",
+      "type": "text/html",
+      "title": "Global Human Modification of Terrestrial Systems — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/EDBC-3Z60",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "lulc-human-modification-terrestrial-systems-geographic-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11804878",
       "type": "application/zip",
       "title": "lulc-human-modification-terrestrial-systems-geographic-geotiff.zip",
@@ -213,7 +250,7 @@
       "ciesin:source_identifier": "11804878",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11804877": {
+    "lulc-human-modification-terrestrial-systems-mollweide-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11804877",
       "type": "application/octet-stream",
       "title": "lulc-human-modification-terrestrial-systems-mollweide-geotiff.zip",
@@ -226,10 +263,21 @@
       "ciesin:source_identifier": "11804877",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14200221": {
+    "lulc-human-modification-terrestrial-systems-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/lulc/lulc-human-modification-terrestrial-systems/lulc-human-modification-terrestrial-systems-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Human Modification of Terrestrial Systems (lulc human modification terrestrial systems thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-human-modification-of-terrestrial-systems": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14200221",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Human Modification of Terrestrial Systems",
       "roles": [
         "data"
       ],
@@ -239,52 +287,53 @@
       "ciesin:source_identifier": "14200221",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3550185840-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550185840-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/EDBC-3Z60",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "lulc-human-modification-terrestrial-systems-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/lulc-human-modification-terrestrial-systems-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/EDBC-3Z60",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550185840-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Global Human Modification of Terrestrial Systems",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550185840-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/EDBC-3Z60",
+      "ciesin:source_identifier": "C3550185840-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "gcb.14549": {
-      "href": "https://doi.org/10.1111/gcb.14549",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-human-modification-terrestrial-systems/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H43B5X3R",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-human-modification-terrestrial-systems/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/lulc-human-modification-terrestrial-systems/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/lulc-human-modification-terrestrial-systems/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/lulc-human-modification-terrestrial-systems/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550185840-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

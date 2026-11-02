@@ -71,6 +71,12 @@
     "ciesin:authors": [
       "Center for Integrated Earth System Information"
     ],
+    "ciesin:publishers": [
+      "GRID3"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
     "ciesin:purpose": "The GRID3 NGA - Operational Wards v2.0 dataset contains operational ward boundaries for the following states: Adamawa, Bauchi, Bayelsa, Borno, Delta, Gombe, Jigawa, Kano, Katsina, Kwara, Niger, Ogun, Osun, Oyo, Yobe. This dataset is considered operational and has not been fully validated by government officials.",
     "ciesin:publication_date": "2026-04-13T00:00:00Z",
     "ciesin:additional_resources": [
@@ -108,19 +114,43 @@
     }
   ],
   "assets": {
-    "gpv6-dq34": {
-      "href": "https://doi.org/10.7916/GPV6-DQ34",
+    "dataset-documentation-grid3-nga---operational-wards-v2.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/qxrp-bv92/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 NGA - Operational Wards v2.0",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2043696,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/qxrp-bv92/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "about": {
+      "href": "https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v1-0/about",
       "type": "text/html",
-      "title": "DOI 10.7916/GPV6-DQ34",
+      "title": "GRID3 NGA - Operational Wards v1.0",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "gpv6-dq34": {
+      "href": "https://doi.org/10.7916/GPV6-DQ34",
+      "type": "text/html",
+      "title": "GRID3 NGA - Operational Wards v2.0 — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/GPV6-DQ34",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3-nga---operational-wards-v2.0": {
+    "grid3-nga---operational-wards-v2.0.xml": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/dryf-8f61/download",
       "type": "application/xml",
       "title": "GRID3 NGA - Operational Wards v2.0.xml",
@@ -133,7 +163,7 @@
       "ciesin:source_identifier": "/doi/10.7916/dryf-8f61/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-2": {
+    "grid3_nga_operational_wards_v2_0.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/j5mj-bw50/download",
       "type": "application/x-geopackage",
       "title": "GRID3_NGA_operational_wards_v2_0.gpkg",
@@ -145,30 +175,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/j5mj-bw50/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/qxrp-bv92/download",
-      "type": "application/pdf",
-      "title": "GRID3 NGA - Operational Wards v2.0 Data Release Notes.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 2043696,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/qxrp-bv92/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "thumbnail1776111835871.png": {
-      "href": "https://www.arcgis.com/sharing/rest/content/items/9ab61cff803a497986bf2716898c6902/info/thumbnail/thumbnail1776111835871.png",
-      "type": "image/png",
-      "title": "thumbnail1776111835871.png",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     },
     "view": {
       "href": "https://drive.google.com/file/d/1-obm9JEAfAsVxmaNuRzOoT3047QFI5wP/view?usp=drive_link",

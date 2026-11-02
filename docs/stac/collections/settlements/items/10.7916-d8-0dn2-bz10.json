@@ -50,6 +50,7 @@
       }
     ],
     "sci:doi": "10.7916/d8-0dn2-bz10",
+    "sci:citation": "Center for International Earth Science Information Network, & Novel-T (2021). GRID3 Malawi Settlement Extents, Version 01.01. Columbia University. https://doi.org/10.7916/d8-0dn2-bz10",
     "version": "1.01",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
@@ -64,6 +65,9 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network",
       "Novel-T"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -99,32 +103,31 @@
     }
   ],
   "assets": {
-    "d8-0dn2-bz10": {
-      "href": "https://doi.org/10.7916/d8-0dn2-bz10",
-      "type": "text/html",
-      "title": "DOI 10.7916/d8-0dn2-bz10",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/d8-0dn2-bz10",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "malawi-grid3-settlement-extents-version-01.01": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-0syw-da13/download",
-      "type": "application/pdf",
-      "title": "Malawi GRID3 Settlement Extents Version 01.01.pdf",
+    "d8-0dn2-bz10-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-0dn2-bz10#assets-panel",
+      "type": "application/octet-stream",
+      "title": "d8-0dn2-bz10",
       "roles": [
         "data"
       ],
-      "file:size": 913833,
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/d8-0syw-da13/download",
+      "ciesin:source_identifier": "/doi/10.7916/d8-0dn2-bz10",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-2": {
+    "d8-0dn2-bz10": {
+      "href": "https://doi.org/10.7916/d8-0dn2-bz10",
+      "type": "text/html",
+      "title": "GRID3 Malawi Settlement Extents, Version 01.01 — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8-0dn2-bz10",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
+    },
+    "grid3_malawi_settlement_extents_version_1.1.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-y0b7-0d87/download",
       "type": "application/zip",
       "title": "GRID3_Malawi_Settlement_Extents_Version_1.1.zip",
@@ -135,6 +138,19 @@
       "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "/doi/10.7916/d8-y0b7-0d87/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "malawi-grid3-settlement-extents-version-01.01.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-0syw-da13/download",
+      "type": "application/pdf",
+      "title": "Malawi GRID3 Settlement Extents Version 01.01.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 913833,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/d8-0syw-da13/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },

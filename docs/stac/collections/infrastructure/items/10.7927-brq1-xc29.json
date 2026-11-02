@@ -163,22 +163,34 @@
     }
   ],
   "assets": {
-    "brq1-xc29": {
-      "href": "https://doi.org/10.7927/BRQ1-XC29",
+    "89j7-zw60": {
+      "href": "https://doi.org/10.7927/89j7-zw60",
       "type": "text/html",
-      "title": "DOI 10.7927/BRQ1-XC29",
+      "title": "Dataset documentation — Global Urban Polygons and Points Dataset (GUPPD), Version 1",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/BRQ1-XC29",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "urbanspatial-guppd-v1-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/urbanspatial-guppd-v1-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — urbanspatial guppd v1 documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/urbanspatial-guppd-v1-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540929235-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "er5nfr": {
       "href": "https://doi.org/10.7910/DVN/ER5NFR",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/ER5NFR",
+      "title": "Global Urban Polygons and Points Dataset (GUPPD), Version 1 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -187,10 +199,57 @@
       "ciesin:source_identifier": "10.7910/DVN/ER5NFR",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14222259": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FER5NFR",
+      "type": "application/xhtml+xml",
+      "title": "Global Urban Polygons and Points Dataset (GUPPD), Version 1 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/ER5NFR",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "brq1-xc29": {
+      "href": "https://doi.org/10.7927/BRQ1-XC29",
+      "type": "text/html",
+      "title": "Global Urban Polygons and Points Dataset (GUPPD), Version 1 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/BRQ1-XC29",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540929235-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929235-ESDIS",
+      "type": "text/html",
+      "title": "Global Urban Polygons and Points Dataset (GUPPD), Version 1 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/BRQ1-XC29",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "urbanspatial-guppd-v1-population-growth-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/urbanspatial/urbanspatial-guppd-v1/urbanspatial-guppd-v1-population-growth-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Urban Polygons and Points Dataset (GUPPD), Version 1 (urbanspatial guppd v1 population growth thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-urban-polygons-and-points-dataset-guppd-version-1": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222259",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Urban Polygons and Points Dataset (GUPPD), Version 1",
       "roles": [
         "data"
       ],
@@ -200,7 +259,42 @@
       "ciesin:source_identifier": "14222259",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11812647": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929235-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global Urban Polygons and Points Dataset (GUPPD), Version 1",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540929235-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540929235-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/urbanspatial-guppd-v1/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/urbanspatial-guppd-v1/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "urbanspatial-guppd-v1-gdb.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812647",
       "type": "application/zip",
       "title": "urbanspatial-guppd-v1-gdb.zip",
@@ -213,7 +307,7 @@
       "ciesin:source_identifier": "11812647",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11812646": {
+    "urbanspatial-guppd-v1-gpkg.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812646",
       "type": "application/zip",
       "title": "urbanspatial-guppd-v1-gpkg.zip",
@@ -225,75 +319,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "11812646",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3540929235-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929235-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/BRQ1-XC29",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "urbanspatial-guppd-v1-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/urbanspatial-guppd-v1-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/BRQ1-XC29",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929235-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/BRQ1-XC29",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "odbl": {
-      "href": "https://opendatacommons.org/licenses/odbl",
-      "type": "text/html",
-      "title": "odbl",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "copyright": {
-      "href": "https://www.openstreetmap.org/copyright",
-      "type": "text/html",
-      "title": "copyright",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "89j7-zw60": {
-      "href": "https://doi.org/10.7927/89j7-zw60",
-      "type": "text/html",
-      "title": "89j7-zw60",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

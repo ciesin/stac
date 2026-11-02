@@ -42,6 +42,7 @@
       }
     ],
     "sci:doi": "10.7916/d8959pvf",
+    "sci:citation": "DeFries, Ruth S., Fanzo, Jessica C., Mondal, Pinki, Remans, Roseline, & Wood, Stephen Andrew (2017). Is voluntary certification of tropical agricultural commodities achieving sustainability goals for small-scale producers? A review of the evidence. Columbia University. https://doi.org/10.7916/d8959pvf",
     "ciesin:resource_type": "article",
     "ciesin:category": "Agriculture",
     "ciesin:tags": [
@@ -58,6 +59,9 @@
       "Mondal, Pinki",
       "Remans, Roseline",
       "Wood, Stephen Andrew"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -96,19 +100,33 @@
     }
   ],
   "assets": {
-    "d8959pvf": {
-      "href": "https://doi.org/10.7916/d8959pvf",
-      "type": "text/html",
-      "title": "DOI 10.7916/d8959pvf",
+    "defries_2017_environ._res._lett._12_033001.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8H42141/download",
+      "type": "application/pdf",
+      "title": "DeFries_2017_Environ._Res._Lett._12_033001.pdf",
       "roles": [
-        "metadata"
+        "data"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "file:size": 836495,
+      "ciesin:source": "Columbia Academic Commons file",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/d8959pvf",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:source_identifier": "/doi/10.7916/D8H42141/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "erlaa625e_tables2": {
+    "erlaa625e_suppdata.pdf": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8CC18CV/download",
+      "type": "application/pdf",
+      "title": "erlaa625e_suppdata.pdf",
+      "roles": [
+        "data"
+      ],
+      "file:size": 219948,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/D8CC18CV/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "erlaa625e_tables2.xlsx": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/D87M0HN4/download",
       "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "title": "erlaa625e_tableS2.xlsx",
@@ -121,31 +139,17 @@
       "ciesin:source_identifier": "/doi/10.7916/D87M0HN4/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8CC18CV/download",
-      "type": "application/pdf",
-      "title": "erlaa625e_suppdata.pdf",
+    "d8959pvf": {
+      "href": "https://doi.org/10.7916/d8959pvf",
+      "type": "text/html",
+      "title": "Is voluntary certification of tropical agricultural commodities achieving sustainability goals for small-scale producers? A review of the evidence — Columbia Academic Commons DOI",
       "roles": [
-        "data"
+        "metadata"
       ],
-      "file:size": 219948,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8CC18CV/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D8H42141/download",
-      "type": "application/pdf",
-      "title": "DeFries_2017_Environ._Res._Lett._12_033001.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 836495,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D8H42141/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8959pvf",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     }
   }
 }

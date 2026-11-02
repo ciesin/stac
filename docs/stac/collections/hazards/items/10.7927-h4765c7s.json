@@ -146,10 +146,23 @@
     }
   ],
   "assets": {
+    "ndh-synthesis-report-general-documentation.pdf": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — ndh synthesis report general documentation",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-synthesis-report-general-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550191893-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
     "h4765c7s": {
       "href": "https://doi.org/10.7927/H4765C7S",
       "type": "text/html",
-      "title": "DOI 10.7927/H4765C7S",
+      "title": "Global Earthquake Hazard Frequency and Distribution — NASA CMR DOI",
       "roles": [
         "metadata"
       ],
@@ -161,7 +174,7 @@
     "c3550191893-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550191893-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Global Earthquake Hazard Frequency and Distribution — NASA CMR record",
       "roles": [
         "metadata"
       ],
@@ -170,22 +183,34 @@
       "ciesin:source_identifier": "10.7927/H4765C7S",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550191893-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+    "earthquake-frequency-distribution-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ndh/ndh-earthquake-frequency-distribution/earthquake-frequency-distribution-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Earthquake Hazard Frequency and Distribution (earthquake frequency distribution thumbnail)",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550191893-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global Earthquake Hazard Frequency and Distribution",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550191893-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4765C7S",
+      "ciesin:source_identifier": "C3550191893-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "natural-disaster-hotspots-a-global-risk-analysis": {
-      "href": "http://documents.worldbank.org/curated/en/621711468175150317/Natural-disaster-hotspots-A-global-risk-analysis",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-frequency-distribution/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4668B3D",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -193,10 +218,10 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "h4tx3c9f": {
-      "href": "https://doi.org/10.7927/H4TX3C9F",
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-frequency-distribution/maps",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H42F7KCP",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -207,7 +232,7 @@
     "h4bz63zs": {
       "href": "https://doi.org/10.7927/H4BZ63ZS",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4XS5S9Q",
+      "title": "Related Publication: Global Earthquake Hazard Distribution - Peak Ground Acceleration. Center for Hazards and Risk Research - CHRR - Columbia University, and Center for International Earth Science Information Network - CIESIN - Columbia University; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -218,7 +243,7 @@
     "h43f4mh2": {
       "href": "https://doi.org/10.7927/H43F4MH2",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4639MPP",
+      "title": "Related Publication: Global Earthquake Mortality Risks and Distribution. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -229,7 +254,7 @@
     "h4zp4415": {
       "href": "https://doi.org/10.7927/H4ZP4415",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1073/pnas.1211658109",
+      "title": "Related Publication: Global Earthquake Proportional Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
@@ -237,16 +262,42 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "cnss": {
-      "href": "http://quake.geo.berkeley.edu/cnss/",
+    "h4tx3c9f": {
+      "href": "https://doi.org/10.7927/H4TX3C9F",
       "type": "text/html",
-      "title": "Related Publication: http://doi.org/10.7927/H42V2D1C",
+      "title": "Related Publication: Global Earthquake Total Economic Loss Risk Deciles. Center for Hazards and Risk Research - CHRR - Columbia University, Center for International Earth Science Information Network - CIESIN - Columbia University, and International Bank for Reconstruction and Development - The World Bank; Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman. Center for Hazards and Risk Research (CHRR)/Columbia University. 2005",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-frequency-distribution/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-frequency-distribution/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-frequency-distribution/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550191893-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
+    "ndh-citation2.txt": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/downloads/docs-repo/ndh-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550191893-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

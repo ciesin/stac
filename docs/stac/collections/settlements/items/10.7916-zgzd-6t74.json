@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-zgzd-6t74",
   "collection": "settlements",
@@ -51,7 +50,7 @@
       }
     ],
     "sci:doi": "10.7916/ZGZD-6T74",
-    "sci:citation": "Dataset citation: Center for International Earth Science Information Network (CIESIN), Columbia University. 2024. GRID3 UGA - Settlement Extents v3.0. New York: GRID3. https://doi.org/doi:10.7916/zgzd-6t74. Accessed [DAY MONTH YEAR].",
+    "sci:citation": "Center for International Earth Science Information Network (CIESIN), Columbia University. 2024. GRID3 UGA - Settlement Extents v3.0. New York: GRID3. https://doi.org/doi:10.7916/zgzd-6t74. Accessed [DAY MONTH YEAR].",
     "version": "3",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
@@ -114,10 +113,21 @@
     }
   ],
   "assets": {
+    "dataset-documentation-grid3-uga---settlement-extents-v3.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/9xwn-k572/download",
+      "type": "text/html",
+      "title": "Dataset documentation — GRID3 UGA - Settlement Extents v3.0",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
     "zgzd-6t74": {
       "href": "https://doi.org/10.7916/ZGZD-6T74",
       "type": "text/html",
-      "title": "DOI 10.7916/ZGZD-6T74",
+      "title": "GRID3 UGA - Settlement Extents v3.0 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -126,65 +136,26 @@
       "ciesin:source_identifier": "10.7916/ZGZD-6T74",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
     },
-    "grid3_uga_settlement_extents_v3_0": {
+    "grid3_uga_settlement_extents_v3.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/hx1j-b416/download",
-      "type": "application/zip",
-      "title": "GRID3_UGA_settlement_extents_v3_0.zip",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_UGA_settlement_extents_v3.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 349220526,
       "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/hx1j-b416/download",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "download-2": {
+    "grid3_uga_settlement_grid_v3.gpkg": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/qkb2-7q05/download",
-      "type": "application/zip",
-      "title": "GRID3_UGA_settlement_grid_v3_0.zip",
+      "type": "application/geopackage+sqlite3",
+      "title": "GRID3_UGA_settlement_grid_v3.gpkg",
       "roles": [
         "data"
       ],
-      "file:size": 254133345,
       "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/qkb2-7q05/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "download-3": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/9xwn-k572/download",
-      "type": "application/pdf",
-      "title": "GRID3 UGA - Settlement Extents v3.0 - Data Release Notes .pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 17320289,
-      "ciesin:source": "XML data link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "/doi/10.7916/9xwn-k572/download",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "bqv9-ry72": {
-      "href": "https://doi.org/10.7916/bqv9-ry72",
-      "type": "text/html",
-      "title": "GRID3 UGA - Settlement Extents v2.0",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "zgzd-6t74-2": {
-      "href": "https://doi.org/doi:10.7916/zgzd-6t74",
-      "type": "text/html",
-      "title": "zgzd-6t74",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_subtype": "Data",
       "ciesin:asset_match_basis": "inventory XML location"
     }
   },

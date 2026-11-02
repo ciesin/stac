@@ -48,6 +48,7 @@
       }
     ],
     "sci:doi": "10.7916/d8sf4759",
+    "sci:citation": "Coffel, Ethan, Horton, Radley M., & De Sherbinin, Alexander M. (2017). Temperature and humidity based projections of a rapid rise in global heat stress exposure during the 21st century. Columbia University. https://doi.org/10.7916/d8sf4759",
     "ciesin:resource_type": "article",
     "ciesin:category": "Health",
     "ciesin:tags": [
@@ -62,6 +63,9 @@
       "Coffel, Ethan",
       "Horton, Radley M.",
       "De Sherbinin, Alexander M."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -99,18 +103,6 @@
     }
   ],
   "assets": {
-    "d8sf4759": {
-      "href": "https://doi.org/10.7916/d8sf4759",
-      "type": "text/html",
-      "title": "DOI 10.7916/d8sf4759",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Columbia Academic Commons DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7916/d8sf4759",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
     "coffel_2018_environ._res._lett._13_014001.pdf": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/D8NP3GCP/download",
       "type": "application/pdf",
@@ -120,7 +112,7 @@
       ],
       "file:size": 7416876,
       "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/D8NP3GCP/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
@@ -133,9 +125,21 @@
       ],
       "file:size": 1101531,
       "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/D8J11F5B/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "d8sf4759": {
+      "href": "https://doi.org/10.7916/d8sf4759",
+      "type": "text/html",
+      "title": "Temperature and humidity based projections of a rapid rise in global heat stress exposure during the 21st century — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/d8sf4759",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     }
   }
 }

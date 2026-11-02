@@ -189,22 +189,34 @@
     }
   ],
   "assets": {
-    "h4h70crf": {
-      "href": "https://doi.org/10.7927/H4H70CRF",
+    "h44m92hc": {
+      "href": "https://doi.org/10.7927/H44M92HC",
       "type": "text/html",
-      "title": "DOI 10.7927/H4H70CRF",
+      "title": "Dataset documentation — Global Urban Heat Island (UHI) Data Set, 2013",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR DOI",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4H70CRF",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "sdei-global-uhi-2013-documentation.pdf": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-global-uhi-2013-documentation.pdf",
+      "type": "application/pdf",
+      "title": "Documentation — sdei global uhi 2013 documentation",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-global-uhi-2013-documentation.pdf Type: VIEW RELATED INFORMATION Subtype: USER'S GUIDE Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550192492-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     },
     "kxwf35": {
       "href": "https://doi.org/10.7910/DVN/KXWF35",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/KXWF35",
+      "title": "Global Urban Heat Island (UHI) Data Set, 2013 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -213,10 +225,57 @@
       "ciesin:source_identifier": "10.7910/DVN/KXWF35",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14222217": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FKXWF35",
+      "type": "application/xhtml+xml",
+      "title": "Global Urban Heat Island (UHI) Data Set, 2013 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/KXWF35",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4h70crf": {
+      "href": "https://doi.org/10.7927/H4H70CRF",
+      "type": "text/html",
+      "title": "Global Urban Heat Island (UHI) Data Set, 2013 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4H70CRF",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550192492-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192492-ESDIS",
+      "type": "text/html",
+      "title": "Global Urban Heat Island (UHI) Data Set, 2013 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4H70CRF",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "sdei-global-uhi-2013-urban-day-mean-global-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/sdei/sdei-global-uhi-2013/sdei-global-uhi-2013-urban-day-mean-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Urban Heat Island (UHI) Data Set, 2013 (sdei global uhi 2013 urban day mean global thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-urban-heat-island-uhi-data-set-2013": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222217",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Urban Heat Island (UHI) Data Set, 2013",
       "roles": [
         "data"
       ],
@@ -226,7 +285,66 @@
       "ciesin:source_identifier": "14222217",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11812639": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192492-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global Urban Heat Island (UHI) Data Set, 2013",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550192492-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550192492-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-uhi-2013/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-uhi-2013/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "h408638t": {
+      "href": "http://doi.org/10.7927/H408638T",
+      "type": "text/html",
+      "title": "Related Publication: Global Summer Land Surface Temperature (LST) Grids, 2013. Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2016",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/sdei-global-uhi-2013/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/sdei-global-uhi-2013/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/sdei-global-uhi-2013/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550192492-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
+    "sdei-global-uhi-2013-shp.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812639",
       "type": "application/zipped-shapefile",
       "title": "sdei-global-uhi-2013-shp.zip",
@@ -239,7 +357,7 @@
       "ciesin:source_identifier": "11812639",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11812640": {
+    "sdei-global-uhi-2013-xlsx.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11812640",
       "type": "application/zip",
       "title": "sdei-global-uhi-2013-xlsx.zip",
@@ -251,64 +369,6 @@
       "ciesin:asset_subtype": "Data",
       "ciesin:source_identifier": "11812640",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3550192492-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192492-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4H70CRF",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "sdei-global-uhi-2013-documentation.pdf": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/sdei-global-uhi-2013-documentation.pdf",
-      "type": "application/pdf",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4H70CRF",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192492-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4H70CRF",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "h408638t": {
-      "href": "http://doi.org/10.7927/H408638T",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4FF3Q9B",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
-    },
-    "h44m92hc": {
-      "href": "https://doi.org/10.7927/H44M92HC",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4PZ56R2",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

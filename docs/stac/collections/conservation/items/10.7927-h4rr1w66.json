@@ -155,31 +155,7 @@
     }
   ],
   "assets": {
-    "h4rr1w66": {
-      "href": "https://doi.org/10.7927/H4RR1W66",
-      "type": "text/html",
-      "title": "DOI 10.7927/H4RR1W66",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4RR1W66",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
-    "xetuhw": {
-      "href": "https://doi.org/10.7910/DVN/XETUHW",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/XETUHW",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Harvard Dataverse DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/XETUHW",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
-    },
-    "11815080": {
+    "amphibia-all.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815080",
       "type": "application/octet-stream",
       "title": "amphibia-all.zip",
@@ -192,7 +168,7 @@
       "ciesin:source_identifier": "11815080",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815078": {
+    "amphibians-all-threats.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815078",
       "type": "application/octet-stream",
       "title": "amphibians-all-threats.zip",
@@ -205,7 +181,7 @@
       "ciesin:source_identifier": "11815078",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815079": {
+    "amphibians-critically-endangered.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815079",
       "type": "application/zip",
       "title": "amphibians-critically-endangered.zip",
@@ -218,7 +194,7 @@
       "ciesin:source_identifier": "11815079",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815077": {
+    "amphibians-endangered.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815077",
       "type": "application/octet-stream",
       "title": "amphibians-endangered.zip",
@@ -231,7 +207,7 @@
       "ciesin:source_identifier": "11815077",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11815076": {
+    "amphibians-vulnerable.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11815076",
       "type": "application/zip",
       "title": "amphibians-vulnerable.zip",
@@ -244,10 +220,82 @@
       "ciesin:source_identifier": "11815076",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14222234": {
+    "species-global-amphibian-richness-2015-readme.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/species-global-amphibian-richness-2015-readme.txt",
+      "type": "text/plain",
+      "title": "Dataset documentation — Gridded Species Distribution: Global Amphibian Richness Grids, 2015 Release",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/species-global-amphibian-richness-2015-readme.txt Type: VIEW RELATED INFORMATION Subtype: READ-ME Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540929287-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "xetuhw": {
+      "href": "https://doi.org/10.7910/DVN/XETUHW",
+      "type": "text/html",
+      "title": "Gridded Species Distribution: Global Amphibian Richness Grids, 2015 Release — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/XETUHW",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FXETUHW",
+      "type": "application/xhtml+xml",
+      "title": "Gridded Species Distribution: Global Amphibian Richness Grids, 2015 Release — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/XETUHW",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4rr1w66": {
+      "href": "https://doi.org/10.7927/H4RR1W66",
+      "type": "text/html",
+      "title": "Gridded Species Distribution: Global Amphibian Richness Grids, 2015 Release — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4RR1W66",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540929287-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929287-ESDIS",
+      "type": "text/html",
+      "title": "Gridded Species Distribution: Global Amphibian Richness Grids, 2015 Release — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4RR1W66",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "species-global-amphibian-richness-2015-all-species-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/species/species-global-amphibian-richness-2015/species-global-amphibian-richness-2015-all-species-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Gridded Species Distribution: Global Amphibian Richness Grids, 2015 Release (species global amphibian richness 2015 all species thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-gridded-species-distribution-global-amphibian-richness-grids-2015-rel": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14222234",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Gridded Species Distribution: Global Amphibian Richness Grids, 2015 Release",
       "roles": [
         "data"
       ],
@@ -257,46 +305,45 @@
       "ciesin:source_identifier": "14222234",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3540929287-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929287-ESDIS",
-      "type": "text/html",
-      "title": "NASA CMR record page",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4RR1W66",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "species-global-amphibian-richness-2015-readme.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/species-global-amphibian-richness-2015-readme.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4RR1W66",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929287-ESDIS",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
+      "title": "NASA Earthdata granule search — Gridded Species Distribution: Global Amphibian Richness Grids, 2015 Release",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540929287-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4RR1W66",
+      "ciesin:source_identifier": "C3540929287-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/species-global-amphibian-richness-2015/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/species-global-amphibian-richness-2015/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
     },
     "h4n014g5": {
       "href": "https://doi.org/10.7927/H4N014G5",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.1038/s41558-020-00952-0",
+      "title": "Related Publication: Gridded Species Distribution: Global Mammal Richness Grids, 2015 Release. International Union for Conservation of Nature - IUCN, and Center for International Earth Science Information Network - CIESIN - Columbia University. NASA Socioeconomic Data and Applications Center (SEDAC). 2015",
       "roles": [
         "metadata"
       ],
@@ -304,16 +351,18 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
     },
-    "www.iucnredlist.org": {
-      "href": "http://www.iucnredlist.org",
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/species-global-amphibian-richness-2015/maps/services",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.3390/data4010035",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/species-global-amphibian-richness-2015/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/species-global-amphibian-richness-2015/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "XML metadata link",
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
+      "ciesin:source_identifier": "C3540929287-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

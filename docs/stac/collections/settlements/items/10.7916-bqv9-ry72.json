@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-bqv9-ry72",
   "collection": "settlements",
@@ -112,7 +111,7 @@
     "bqv9-ry72": {
       "href": "https://doi.org/10.7916/bqv9-ry72",
       "type": "text/html",
-      "title": "DOI 10.7916/bqv9-ry72",
+      "title": "GRID3 Uganda Settlement Extents, Version 02 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -120,44 +119,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/bqv9-ry72",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "grid3_uganda_settlement_extents_version_02": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/5zkc-z623/download",
-      "type": "application/zip",
-      "title": "GRID3_Uganda_Settlement_Extents_Version_02.zip",
-      "roles": [
-        "data"
-      ],
-      "file:size": 284829990,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/5zkc-z623/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "download-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/y24r-ef31/download",
-      "type": "application/pdf",
-      "title": "UGA_DataReleaseStatement_SettlementExtents_Version02.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 2696494,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/y24r-ef31/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "bqv9-ry72-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/bqv9-ry72#assets-panel",
-      "type": "application/octet-stream",
-      "title": "bqv9-ry72",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/bqv9-ry72",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

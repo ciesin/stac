@@ -56,6 +56,7 @@
       }
     ],
     "sci:doi": "10.7916/d8-18p8-6m89",
+    "sci:citation": "Center for International Earth Science Information Network, & Novel-T (2021). GRID3 Zambia Settlement Extents, Version 01.01. Columbia University. https://doi.org/10.7916/d8-18p8-6m89",
     "version": "1.02",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
@@ -70,6 +71,9 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network",
       "Novel-T"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -108,19 +112,31 @@
     }
   ],
   "assets": {
+    "d8-18p8-6m89-2": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-18p8-6m89#assets-panel",
+      "type": "application/octet-stream",
+      "title": "d8-18p8-6m89",
+      "roles": [
+        "data"
+      ],
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/d8-18p8-6m89",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
     "d8-18p8-6m89": {
       "href": "https://doi.org/10.7916/d8-18p8-6m89",
       "type": "text/html",
-      "title": "DOI 10.7916/d8-18p8-6m89",
+      "title": "GRID3 Zambia Settlement Extents, Version 01.01 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "Columbia Academic Commons DOI",
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8-18p8-6m89",
-      "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
     },
-    "grid3_zambia_settlement_extents_version_1.1": {
+    "grid3_zambia_settlement_extents_version_1.1.zip": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-dkad-e222/download",
       "type": "application/zip",
       "title": "GRID3_Zambia_Settlement_Extents_Version_1.1.zip",
@@ -133,7 +149,7 @@
       "ciesin:source_identifier": "/doi/10.7916/d8-dkad-e222/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "download-2": {
+    "zambia-grid3-settlement-extents-version-01.01.pdf": {
       "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-4sjq-6998/download",
       "type": "application/pdf",
       "title": "Zambia GRID3 Settlement Extents Version 01.01.pdf",
@@ -142,7 +158,7 @@
       ],
       "file:size": 921599,
       "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "/doi/10.7916/d8-4sjq-6998/download",
       "ciesin:asset_match_basis": "exact DOI lookup"
     }

@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8dn432z",
   "collection": "governance",
@@ -30,6 +29,7 @@
       }
     ],
     "sci:doi": "10.7916/d8dn432z",
+    "sci:citation": "Downs, Robert R. (2013). Scientific Data Infrastructure: Research Opportunities and Challenges. Columbia University. https://doi.org/10.7916/d8dn432z",
     "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
     "ciesin:tags": [
@@ -42,6 +42,9 @@
     ],
     "ciesin:authors": [
       "Downs, Robert R."
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -81,7 +84,7 @@
     "d8dn432z": {
       "href": "https://doi.org/10.7916/d8dn432z",
       "type": "text/html",
-      "title": "DOI 10.7916/d8dn432z",
+      "title": "Scientific Data Infrastructure: Research Opportunities and Challenges — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -89,19 +92,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8dn432z",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "downssdiresearchoppchal20140108finalrev2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/D81J9KBS/download",
-      "type": "application/pdf",
-      "title": "DownsSDIResearchOppChal20140108FinalRev2.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 80123,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/D81J9KBS/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   }
 }

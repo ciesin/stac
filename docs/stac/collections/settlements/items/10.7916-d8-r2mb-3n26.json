@@ -2,8 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8-r2mb-3n26",
   "collection": "settlements",
@@ -56,6 +55,7 @@
       }
     ],
     "sci:doi": "10.7916/d8-r2mb-3n26",
+    "sci:citation": "Center for International Earth Science Information Network, & Novel-T (2021). GRID3 Benin Settlement Extents, Version 01.01. Columbia University. https://doi.org/10.7916/d8-r2mb-3n26",
     "version": "1.01",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
@@ -70,6 +70,9 @@
     "ciesin:authors": [
       "Center for International Earth Science Information Network",
       "Novel-T"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
     ],
     "ciesin:publication_date": null,
     "ciesin:additional_resources": [
@@ -111,7 +114,7 @@
     "d8-r2mb-3n26": {
       "href": "https://doi.org/10.7916/d8-r2mb-3n26",
       "type": "text/html",
-      "title": "DOI 10.7916/d8-r2mb-3n26",
+      "title": "GRID3 Benin Settlement Extents, Version 01.01 — Columbia Academic Commons DOI",
       "roles": [
         "metadata"
       ],
@@ -119,44 +122,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7916/d8-r2mb-3n26",
       "ciesin:asset_match_basis": "inventory column columbia_ac_doi"
-    },
-    "grid3_benin_settlement_extents_version_1.1.zip": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-gakv-tc51/download",
-      "type": "application/zip",
-      "title": "GRID3_Benin_Settlement_Extents_Version_1.1.zip",
-      "roles": [
-        "data"
-      ],
-      "file:size": 36105013,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/d8-gakv-tc51/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "benin-grid3-settlement-extents-version-01.01.pdf": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-njzg-n943/download",
-      "type": "application/pdf",
-      "title": "Benin GRID3 Settlement Extents Version 01.01.pdf",
-      "roles": [
-        "data"
-      ],
-      "file:size": 913698,
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/d8-njzg-n943/download",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "d8-r2mb-3n26-2": {
-      "href": "https://academiccommons.columbia.edu/doi/10.7916/d8-r2mb-3n26#assets-panel",
-      "type": "application/octet-stream",
-      "title": "d8-r2mb-3n26",
-      "roles": [
-        "data"
-      ],
-      "ciesin:source": "Columbia Academic Commons file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "/doi/10.7916/d8-r2mb-3n26",
-      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [

@@ -179,22 +179,10 @@
     }
   ],
   "assets": {
-    "h49z92td": {
-      "href": "https://doi.org/10.7927/H49Z92TD",
-      "type": "text/html",
-      "title": "DOI 10.7927/H49Z92TD",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H49Z92TD",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
     "p8mwow": {
       "href": "https://doi.org/10.7910/DVN/P8MWOW",
       "type": "text/html",
-      "title": "DOI 10.7910/DVN/P8MWOW",
+      "title": "Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -203,10 +191,57 @@
       "ciesin:source_identifier": "10.7910/DVN/P8MWOW",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14171157": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FP8MWOW",
+      "type": "application/xhtml+xml",
+      "title": "Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/P8MWOW",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h49z92td": {
+      "href": "https://doi.org/10.7927/H49Z92TD",
+      "type": "text/html",
+      "title": "Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H49Z92TD",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3550185791-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550185791-ESDIS",
+      "type": "text/html",
+      "title": "Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H49Z92TD",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "phosphorus-in-manure-global-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/ferman-v1/ferman-v1-phosphorus-in-manure-production/phosphorus-in-manure-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production (phosphorus in manure global thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-fertilizer-and-manure-version-1-phosphorus-in-manure-productio": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14171157",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production",
       "roles": [
         "data"
       ],
@@ -216,7 +251,20 @@
       "ciesin:source_identifier": "14171157",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787230": {
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550185791-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Global Fertilizer and Manure, Version 1: Phosphorus in Manure Production",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550185791-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550185791-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "phosphorus-manure-africa-geotif.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787230",
       "type": "application/zip",
       "title": "phosphorus-manure-africa-geotif.zip",
@@ -229,7 +277,7 @@
       "ciesin:source_identifier": "11787230",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787219": {
+    "phosphorus-manure-africa-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787219",
       "type": "application/zip",
       "title": "phosphorus-manure-africa-grid.zip",
@@ -242,7 +290,7 @@
       "ciesin:source_identifier": "11787219",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787228": {
+    "phosphorus-manure-asia-geotif.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787228",
       "type": "application/zip",
       "title": "phosphorus-manure-asia-geotif.zip",
@@ -255,7 +303,7 @@
       "ciesin:source_identifier": "11787228",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787221": {
+    "phosphorus-manure-asia-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787221",
       "type": "application/zip",
       "title": "phosphorus-manure-asia-grid.zip",
@@ -268,7 +316,7 @@
       "ciesin:source_identifier": "11787221",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787218": {
+    "phosphorus-manure-europe-geotif.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787218",
       "type": "application/zip",
       "title": "phosphorus-manure-europe-geotif.zip",
@@ -281,7 +329,7 @@
       "ciesin:source_identifier": "11787218",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787225": {
+    "phosphorus-manure-europe-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787225",
       "type": "application/zip",
       "title": "phosphorus-manure-europe-grid.zip",
@@ -294,7 +342,7 @@
       "ciesin:source_identifier": "11787225",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787224": {
+    "phosphorus-manure-global-geotif.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787224",
       "type": "application/zip",
       "title": "phosphorus-manure-global-geotif.zip",
@@ -307,7 +355,7 @@
       "ciesin:source_identifier": "11787224",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787227": {
+    "phosphorus-manure-global-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787227",
       "type": "application/zip",
       "title": "phosphorus-manure-global-grid.zip",
@@ -320,7 +368,7 @@
       "ciesin:source_identifier": "11787227",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787231": {
+    "phosphorus-manure-namerica-geotif.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787231",
       "type": "application/zip",
       "title": "phosphorus-manure-namerica-geotif.zip",
@@ -333,7 +381,7 @@
       "ciesin:source_identifier": "11787231",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787229": {
+    "phosphorus-manure-namerica-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787229",
       "type": "application/zip",
       "title": "phosphorus-manure-namerica-grid.zip",
@@ -346,7 +394,7 @@
       "ciesin:source_identifier": "11787229",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787226": {
+    "phosphorus-manure-oceania-geotif.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787226",
       "type": "application/zip",
       "title": "phosphorus-manure-oceania-geotif.zip",
@@ -359,7 +407,7 @@
       "ciesin:source_identifier": "11787226",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787222": {
+    "phosphorus-manure-oceania-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787222",
       "type": "application/zip",
       "title": "phosphorus-manure-oceania-grid.zip",
@@ -372,7 +420,7 @@
       "ciesin:source_identifier": "11787222",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787220": {
+    "phosphorus-manure-samerica-geotif.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787220",
       "type": "application/zip",
       "title": "phosphorus-manure-samerica-geotif.zip",
@@ -385,7 +433,7 @@
       "ciesin:source_identifier": "11787220",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11787223": {
+    "phosphorus-manure-samerica-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11787223",
       "type": "application/zip",
       "title": "phosphorus-manure-samerica-grid.zip",
@@ -398,46 +446,21 @@
       "ciesin:source_identifier": "11787223",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "c3550185791-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550185791-ESDIS",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ferman-v1-phosphorus-in-manure-production/data-download",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Related link: Data accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR record",
+      "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H49Z92TD",
-      "ciesin:asset_match_basis": "exact DOI lookup"
+      "ciesin:asset_match_basis": "inventory XML location"
     },
-    "ferman-v1-phosphorus-fertilizer-application-citation2.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ferman-v1-phosphorus-fertilizer-application-citation2.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H49Z92TD",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550185791-ESDIS",
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ferman-v1-phosphorus-in-manure-production/maps",
       "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H49Z92TD",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "2009ei288.1": {
-      "href": "https://doi.org/10.1175/2009EI288.1",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4736NT2",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -448,7 +471,7 @@
     "h4q81b0r": {
       "href": "https://doi.org/10.7927/H4Q81B0R",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4S180F9",
+      "title": "Related Publication: Global Fertilizer and Manure, Version 1: Nitrogen Fertilizer Application. Potter, P., N. Ramankutty, E.M. Bennett, and S.D. Donner. NASA Socioeconomic Data and Applications Center (SEDAC). 2012",
       "roles": [
         "metadata"
       ],
@@ -459,7 +482,7 @@
     "h4kh0k81": {
       "href": "https://doi.org/10.7927/H4KH0K81",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H45718Z5",
+      "title": "Related Publication: Global Fertilizer and Manure, Version 1: Nitrogen in Manure Production. Potter, P., N. Ramankutty, E.M. Bennett, and S.D. Donner. NASA Socioeconomic Data and Applications Center (SEDAC). 2012",
       "roles": [
         "metadata"
       ],
@@ -470,13 +493,39 @@
     "h4fq9tjr": {
       "href": "https://doi.org/10.7927/H4FQ9TJR",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H41J97NM",
+      "title": "Related Publication: Global Fertilizer and Manure, Version 1: Phosphorus Fertilizer Application. Potter, P., N. Ramankutty, E.M. Bennett, and S.D. Donner. NASA Socioeconomic Data and Applications Center (SEDAC). 2012",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "ferman-v1-phosphorus-fertilizer-application-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ferman-v1-phosphorus-fertilizer-application-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ferman-v1-phosphorus-fertilizer-application-citation2.txt",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/ferman-v1-phosphorus-fertilizer-application-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550185791-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/ferman-v1-phosphorus-in-manure-production/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ferman-v1-phosphorus-in-manure-production/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/ferman-v1-phosphorus-in-manure-production/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550185791-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
     }
   },
   "bbox": [

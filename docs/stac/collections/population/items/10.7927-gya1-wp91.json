@@ -150,31 +150,7 @@
     }
   ],
   "assets": {
-    "gya1-wp91": {
-      "href": "https://doi.org/10.7927/GYA1-WP91",
-      "type": "text/html",
-      "title": "DOI 10.7927/GYA1-WP91",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/GYA1-WP91",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
-    "oeyn3z": {
-      "href": "https://doi.org/10.7910/DVN/OEYN3Z",
-      "type": "text/html",
-      "title": "DOI 10.7910/DVN/OEYN3Z",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "Harvard Dataverse DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7910/DVN/OEYN3Z",
-      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
-    },
-    "11835841": {
+    "india-spatial-india-census-2011-area-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835841",
       "type": "application/zip",
       "title": "india-spatial-india-census-2011-area-grid.zip",
@@ -187,7 +163,7 @@
       "ciesin:source_identifier": "11835841",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11835847": {
+    "india-spatial-india-census-2011-area-states-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835847",
       "type": "application/zip",
       "title": "india-spatial-india-census-2011-area-states-geotiff.zip",
@@ -200,7 +176,7 @@
       "ciesin:source_identifier": "11835847",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11835846": {
+    "india-spatial-india-census-2011-census-class-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835846",
       "type": "application/zip",
       "title": "india-spatial-india-census-2011-census-class-geotiff.zip",
@@ -213,7 +189,7 @@
       "ciesin:source_identifier": "11835846",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11835842": {
+    "india-spatial-india-census-2011-census-ghsl-1pct-shp.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835842",
       "type": "application/zipped-shapefile",
       "title": "india-spatial-india-census-2011-census-ghsl-1pct-shp.zip",
@@ -226,7 +202,7 @@
       "ciesin:source_identifier": "11835842",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11835840": {
+    "india-spatial-india-census-2011-census-ghsl-50pct-shp.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835840",
       "type": "application/zipped-shapefile",
       "title": "india-spatial-india-census-2011-census-ghsl-50pct-shp.zip",
@@ -239,7 +215,7 @@
       "ciesin:source_identifier": "11835840",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11835844": {
+    "india-spatial-india-census-2011-data-dictionary-xlsx.xlsx": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835844",
       "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "title": "india-spatial-india-census-2011-data-dictionary-xlsx.xlsx",
@@ -252,7 +228,7 @@
       "ciesin:source_identifier": "11835844",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11835843": {
+    "india-spatial-india-census-2011-population-grid.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835843",
       "type": "application/zip",
       "title": "india-spatial-india-census-2011-population-grid.zip",
@@ -265,7 +241,7 @@
       "ciesin:source_identifier": "11835843",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11835845": {
+    "india-spatial-india-census-2011-population-states-geotiff.zip": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11835845",
       "type": "application/zip",
       "title": "india-spatial-india-census-2011-population-states-geotiff.zip",
@@ -278,10 +254,21 @@
       "ciesin:source_identifier": "11835845",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "14200148": {
+    "india-spatial-india-census-2011-census-class-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/india/india-spatial-india-census-2011/india-spatial-india-census-2011-census-class-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Spatial Data from the 2011 India Census (india spatial india census 2011 census class thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-spatial-data-from-the-2011-india-census": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14200148",
       "type": "application/zip",
-      "title": "-metadata.zip",
+      "title": "Metadata package for Spatial Data from the 2011 India Census",
       "roles": [
         "data"
       ],
@@ -291,10 +278,107 @@
       "ciesin:source_identifier": "14200148",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
+    "granules": {
+      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192751-ESDIS",
+      "type": "text/html",
+      "title": "NASA Earthdata granule search — Spatial Data from the 2011 India Census",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3550192751-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550192751-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/india-spatial-india-census-2011/data-download",
+      "type": "text/html",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/india-spatial-india-census-2011/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "india-spatial-india-census-2011-citation2.txt": {
+      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/india-spatial-india-census-2011-citation2.txt",
+      "type": "text/plain",
+      "title": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/india-spatial-india-census-2011-citation2.txt",
+      "description": "Related URL: https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/india-spatial-india-census-2011-citation2.txt Type: VIEW RELATED INFORMATION Subtype: GENERAL DOCUMENTATION Description: Data Set Documentation",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550192751-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/india-spatial-india-census-2011/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/india-spatial-india-census-2011/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/india-spatial-india-census-2011/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3550192751-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
+    "oeyn3z": {
+      "href": "https://doi.org/10.7910/DVN/OEYN3Z",
+      "type": "text/html",
+      "title": "Spatial Data from the 2011 India Census — Harvard Dataverse DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/OEYN3Z",
+      "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
+    },
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FOEYN3Z",
+      "type": "application/xhtml+xml",
+      "title": "Spatial Data from the 2011 India Census — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/OEYN3Z",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "gya1-wp91": {
+      "href": "https://doi.org/10.7927/GYA1-WP91",
+      "type": "text/html",
+      "title": "Spatial Data from the 2011 India Census — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/GYA1-WP91",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
     "c3550192751-esdis": {
       "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550192751-ESDIS",
       "type": "text/html",
-      "title": "NASA CMR record page",
+      "title": "Spatial Data from the 2011 India Census — NASA CMR record",
       "roles": [
         "metadata"
       ],
@@ -302,41 +386,6 @@
       "ciesin:asset_subtype": "Metadata",
       "ciesin:source_identifier": "10.7927/GYA1-WP91",
       "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "india-spatial-india-census-2011-citation2.txt": {
-      "href": "https://data.earthdata.nasa.gov/nasa-earth/human-dimensions/sedac-root/downloads/docs-repo/india-spatial-india-census-2011-citation2.txt",
-      "type": "text/plain",
-      "title": "Data Set Documentation",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/GYA1-WP91",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "granules": {
-      "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550192751-ESDIS",
-      "type": "text/html",
-      "title": "NASA Earthdata Granule Search",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR collection related URL",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/GYA1-WP91",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "data4010035": {
-      "href": "https://doi.org/10.3390/data4010035",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7927/H4SJ1HHX",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "XML metadata link",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:asset_match_basis": "inventory XML location"
     }
   },
   "bbox": [

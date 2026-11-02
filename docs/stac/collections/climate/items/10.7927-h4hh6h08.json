@@ -168,22 +168,10 @@
     }
   ],
   "assets": {
-    "h4hh6h08": {
-      "href": "https://doi.org/10.7927/H4HH6H08",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7916/v45y-m080",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR DOI",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4HH6H08",
-      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
-    },
     "gshd33": {
       "href": "https://doi.org/10.7910/DVN/GSHD33",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/doi:10.7916/yen9-aj46",
+      "title": "Global Reservoir and Dam Database, Version 1 (GRanDv1): Reservoirs, Revision 01 — Harvard Dataverse DOI",
       "roles": [
         "metadata"
       ],
@@ -192,10 +180,57 @@
       "ciesin:source_identifier": "10.7910/DVN/GSHD33",
       "ciesin:asset_match_basis": "inventory column stac_harvard_doi"
     },
-    "14172548": {
+    "dataset.xhtml": {
+      "href": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FGSHD33",
+      "type": "application/xhtml+xml",
+      "title": "Global Reservoir and Dam Database, Version 1 (GRanDv1): Reservoirs, Revision 01 — Harvard Dataverse record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Harvard Dataverse record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7910/DVN/GSHD33",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "h4hh6h08": {
+      "href": "https://doi.org/10.7927/H4HH6H08",
+      "type": "text/html",
+      "title": "Global Reservoir and Dam Database, Version 1 (GRanDv1): Reservoirs, Revision 01 — NASA CMR DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR DOI",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4HH6H08",
+      "ciesin:asset_match_basis": "inventory column stac_nasa_doi"
+    },
+    "c3540929415-esdis": {
+      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929415-ESDIS",
+      "type": "text/html",
+      "title": "Global Reservoir and Dam Database, Version 1 (GRanDv1): Reservoirs, Revision 01 — NASA CMR record",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7927/H4HH6H08",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "reservoirs-rev01-global-thumbnail.jpg": {
+      "href": "https://sedac.ciesin.columbia.edu/downloads/maps/grand-v1/grand-v1-reservoirs-rev01/reservoirs-rev01-global-thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Map image — Global Reservoir and Dam Database, Version 1 (GRanDv1): Reservoirs, Revision 01 (reservoirs rev01 global thumbnail)",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "metadata-package-for-global-reservoir-and-dam-database-version-1-grandv1-reservoirs-revisi": {
       "href": "https://dataverse.harvard.edu/file.xhtml?fileId=14172548",
       "type": "application/zip",
-      "title": "Related Publication: https://doi.org/10.7916/s9yt-ad84",
+      "title": "Metadata package for Global Reservoir and Dam Database, Version 1 (GRanDv1): Reservoirs, Revision 01",
       "roles": [
         "data"
       ],
@@ -205,47 +240,34 @@
       "ciesin:source_identifier": "14172548",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "11808591": {
-      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808591",
-      "type": "application/zipped-shapefile",
-      "title": "Related Publication: https://doi.org/doi:10.7916/4z03-2v66",
-      "roles": [
-        "data"
-      ],
-      "file:size": 34118405,
-      "ciesin:source": "Harvard Dataverse file",
-      "ciesin:asset_subtype": "Data",
-      "ciesin:source_identifier": "11808591",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
-    "c3540929415-esdis": {
-      "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3540929415-ESDIS",
-      "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7916/e66g-ha24",
-      "roles": [
-        "metadata"
-      ],
-      "ciesin:source": "NASA CMR record",
-      "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4HH6H08",
-      "ciesin:asset_match_basis": "exact DOI lookup"
-    },
     "granules": {
       "href": "https://search.earthdata.nasa.gov/search/granules?p=C3540929415-ESDIS",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/doi:10.7916/yk00-pw68",
+      "title": "NASA Earthdata granule search — Global Reservoir and Dam Database, Version 1 (GRanDv1): Reservoirs, Revision 01",
+      "description": "Search, discover, and access all granules associated with this dataset in NASA Earthdata Search.; Related URL: https://search.earthdata.nasa.gov/search/granules?p=C3540929415-ESDIS Type: GET DATA Subtype: Earthdata Search Description: Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
       "roles": [
         "metadata"
       ],
-      "ciesin:source": "NASA CMR collection related URL",
+      "ciesin:source": "NASA CMR collection; NASA CMR collection related URL",
       "ciesin:asset_subtype": "Metadata",
-      "ciesin:source_identifier": "10.7927/H4HH6H08",
+      "ciesin:source_identifier": "C3540929415-ESDIS",
       "ciesin:asset_match_basis": "exact DOI lookup"
     },
-    "100125": {
-      "href": "https://doi.org/10.1890/100125",
+    "data-download": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/grand-v1-reservoirs-rev01/data-download",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/10.7916/sf0z-7s29",
+      "title": "Related link: Data accessible via the data set landing page.",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "maps": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/grand-v1-reservoirs-rev01/maps",
+      "type": "text/html",
+      "title": "Related link: Maps accessible via the data set landing page.",
       "roles": [
         "metadata"
       ],
@@ -256,13 +278,39 @@
     "h4n877qk": {
       "href": "https://doi.org/10.7927/H4N877QK",
       "type": "text/html",
-      "title": "Related Publication: https://doi.org/doi:10.7916/b3h7-2k33",
+      "title": "Related Publication: Global Reservoir and Dam Database, Version 1 (GRanDv1): Dams, Revision 01. Lehner, B., C. Reidy Liermann, C. Revenga, C. Vorosmarty, B. Fekete, P. Crouzet, P. Doll, M. Endejan, K. Frenken, J. Magome, C. Nilsson, J.C. Robertson, R. Rodel, N. Sindorf, and D. Wisser; Lehner, B., C. Reidy Liermann, C. Revenga, C. Vörösmarty, B. Fekete, P. Crouzet, P. Döll, M. Endejan, K. Frenken, J. Magome, C. Nilsson, J.C. Robertson, R. Rodel, N. Sindorf, and D. Wisser. Global Water System Project (GWSP). 2011",
       "roles": [
         "metadata"
       ],
       "ciesin:source": "XML metadata link",
       "ciesin:asset_subtype": "Metadata",
       "ciesin:asset_match_basis": "inventory XML location"
+    },
+    "services": {
+      "href": "https://sedac.ciesin.columbia.edu/data/set/grand-v1-reservoirs-rev01/maps/services",
+      "type": "text/html",
+      "title": "Related URL: https://sedac.ciesin.columbia.edu/data/set/grand-v1-reservoirs-rev01/maps/services",
+      "description": "Related URL: https://sedac.ciesin.columbia.edu/data/set/grand-v1-reservoirs-rev01/maps/services Type: USE SERVICE API Subtype: WEB MAP SERVICE (WMS) Description: Web Map Service Page",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "NASA CMR collection related URL; XML metadata link",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "C3540929415-ESDIS",
+      "ciesin:asset_match_basis": "exact DOI lookup; inventory XML location"
+    },
+    "reservoirs-rev01-global-shp.zip": {
+      "href": "https://dataverse.harvard.edu/file.xhtml?fileId=11808591",
+      "type": "application/zipped-shapefile",
+      "title": "reservoirs-rev01-global-shp.zip",
+      "roles": [
+        "data"
+      ],
+      "file:size": 34118405,
+      "ciesin:source": "Harvard Dataverse file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "11808591",
+      "ciesin:asset_match_basis": "exact DOI lookup"
     }
   },
   "bbox": [
