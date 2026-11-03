@@ -213,11 +213,11 @@
 
           <div class="filter-heading">
             <div>
-              <span>Refine results</span>
+              <span>Refine results: </span>
               <span class="result-count">
                 {{ filteredItems.length.toLocaleString() }} datasets
               </span>
-            </div>
+            </div>Cna
 
             <button
               v-if="categoryFilters.length || versionFilters.length || resourceTypeFilters.length"
@@ -236,17 +236,34 @@
               <summary>
                 <span>Categories</span>
                 <span class="filter-count" v-if="categoryFilters.length">
-                  {{ categoryFilters.length }}
+                  {{ categoryFilters.length }} selected
                 </span>
               </summary>
 
               <div class="filter-dropdown-content">
+
+                <label class="filter-option">
+                  <input
+                    type="checkbox"
+                    :checked="categoryFilters.length === 0"
+                    @change="categoryFilters = []"
+                  >
+                  <span><strong>All categories</strong></span>
+                </label>
+
+                <div class="filter-option-divider"></div>
+
                 <label v-for="category in categories"
                       :key="category"
                       class="filter-option">
-                  <input type="checkbox" :value="category" v-model="categoryFilters">
+                  <input
+                    type="checkbox"
+                    :value="category"
+                    v-model="categoryFilters"
+                  >
                   <span>{{ category }}</span>
                 </label>
+
               </div>
             </details>
 

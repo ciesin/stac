@@ -371,14 +371,17 @@
 
     .filter-option {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 8px;
-    min-width: 0;
-    font-size: 0.9rem;
+    justify-content: flex-start;
+    gap: 9px;
+    padding: 7px 3px;
+    font-size: 0.88rem;
     cursor: pointer;
     }
 
-    .filter-option input {
+    .filter-option input[type="checkbox"] {
+    flex: 0 0 16px;
     width: 16px;
     height: 16px;
     margin: 0;
@@ -387,7 +390,18 @@
     }
 
     .filter-option span {
-    overflow-wrap: anywhere;
+    order: 1;
+    text-align: left;
+    }
+
+    .filter-option-divider {
+    border-top: 1px solid var(--line);
+    margin: 6px 0;
+    }
+
+    .filter-option-divider {
+    border-top: 1px solid var(--line);
+    margin: 6px 0;
     }
 
     .sort-filter {
