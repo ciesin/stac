@@ -361,11 +361,12 @@
             <details class="filter-dropdown" name="dataset-filters">
               <summary>
                 <span>Resource type</span>
+
+              
                 <span class="filter-count" v-if="resourceTypeFilters.length">
                   {{ resourceTypeFilters.length }}
                 </span>
               </summary>
-
               <div class="filter-dropdown-content">
                 <label v-for="type in resourceTypes"
                       :key="type"
@@ -376,10 +377,10 @@
               </div>
             </details>
 
-            <!-- Sort -->
-            <details class="filter-dropdown" name="dataset-filters">
-              <summary>
-                <span>Sort by</span>
+              <!-- Sort -->
+              <details class="filter-dropdown" name="dataset-filters">
+                <summary>
+                  <span>Sort by</span>
               </summary>
 
               <div class="filter-dropdown-content">
