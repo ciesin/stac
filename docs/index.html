@@ -464,22 +464,17 @@
             <div class="pagination">
               <span>Page {{ resultPage }} of {{ resultPageCount }}</span><button type="button" :disabled="resultPage === 1" @click="resultPage--">Previous</button><button type="button" :disabled="resultPage === resultPageCount" @click="resultPage++">Next</button></div>
             </div>
-            <div class="sort-controls">
-                <!-- Sort -->
-              <details class="filter-dropdown" name="dataset-filters">
-                <summary>
-                  <span>Sort by</span>
-                </summary>
-
-                <div class="filter-dropdown-content">
-                  <select v-model="sortBy">
-                    <option value="title">Title</option>
-                    <option value="category">Category</option>
-                    <option value="assets">Asset count</option>
-                    <option value="date">Publication date</option>
-                  </select>
-                </div>
-              </details>
+            <div class="sort-filter">
+                <!-- Sort -->  
+                <label for="sortBy">Sort by</label>
+                
+ 
+                <select v-model="sortBy" id=""sortBy>
+                  <option value="title">Title</option>
+                  <option value="category">Category</option>
+                  <option value="assets">Asset count</option>
+                  <option value="date">Publication date</option>
+                </select> 
             </div>
             <div class="results-grid" v-if="pagedItems.length">
             <button class="result-card" v-for="item in pagedItems" :key="item.id" type="button" @click="openItem(item)">
