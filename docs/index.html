@@ -162,10 +162,10 @@
           <div class="search-heading">
             <div>
               <p class="eyebrow">DATA DISCOVERY</p>
-              <h2>Find a dataset</h2>
+              <!-- <h2>Find a dataset</h2>
               <p class="search-subtitle">
                 Search and filter the CIESIN data catalog.
-              </p>
+              </p> -->
             </div>
 
             <button
@@ -217,7 +217,7 @@
               <span class="result-count">
                 {{ filteredItems.length.toLocaleString() }} datasets
               </span>
-            </div>Cna
+            </div>
 
             <button
               v-if="categoryFilters.length || versionFilters.length || resourceTypeFilters.length"
@@ -264,6 +264,69 @@
                   <span>{{ category }}</span>
                 </label>
 
+              </div>
+            </details>
+            <!-- Publisher -->
+            <details class="filter-dropdown" name="dataset-filters">
+              <summary>
+                <span>Publisher</span>
+                <span class="filter-count" v-if="publisherFilters.length">
+                  {{ publisherFilters.length }}
+                </span>
+              </summary>
+              <div class="filter-dropdown-content">
+                <label v-for="publisher in publishers" :key="publisher" class="filter-option">
+                  <input type="checkbox" :value="publisher" v-model="publisherFilters">
+                  <span>{{ publisher }}</span>
+                </label>
+              </div>
+            </details>
+
+            <!-- Provider -->
+            <details class="filter-dropdown" name="dataset-filters">
+              <summary>
+                <span>Provider</span>
+                <span class="filter-count" v-if="providerFilters.length">
+                  {{ providerFilters.length }}
+                </span>
+              </summary>
+              <div class="filter-dropdown-content">
+                <label v-for="provider in providers" :key="provider" class="filter-option">
+                  <input type="checkbox" :value="provider" v-model="providerFilters">
+                  <span>{{ provider }}</span>
+                </label>
+              </div>
+            </details>
+
+            <!-- Metadata source -->
+            <details class="filter-dropdown" name="dataset-filters">
+              <summary>
+                <span>Metadata source</span>
+                <span class="filter-count" v-if="metadataSourceFilters.length">
+                  {{ metadataSourceFilters.length }}
+                </span>
+              </summary>
+              <div class="filter-dropdown-content">
+                <label v-for="source in metadataSources" :key="source" class="filter-option">
+                  <input type="checkbox" :value="source" v-model="metadataSourceFilters">
+                  <span>{{ source }}</span>
+                </label>
+              </div>
+            </details>
+
+            <!-- Geographic coverage -->
+            <details class="filter-dropdown" name="dataset-filters">
+              <summary>
+                <span>Geographic coverage</span>
+                <span class="filter-count" v-if="placeFilters.length">
+                  {{ placeFilters.length }}
+                </span>
+              </summary>
+              <div class="filter-dropdown-content">
+                <label v-for="place in places" :key="place" class="filter-option">
+                  <input type="checkbox" :value="place" v-model="placeFilters">
+                  <span>{{ place }}</span>
+                </label>
               </div>
             </details>
 

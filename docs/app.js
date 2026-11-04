@@ -7,7 +7,7 @@ createApp({
     return {
       items: [], summary: null, page: "home", selectedIndex: null, selectedItem: null,
       query: "", searchField: "all", categoryFilters: [], versionFilters: [],
-      resourceTypeFilters: [], sortBy: "title", resultPage: 1, resultPageSize: 20,
+      resourceTypeFilters: [], publisherFilters: [], providerFilters: [], placeFilters: [], sortBy: "title", resultPage: 1, resultPageSize: 20,
       assetQuery: "", assetSubtype: "", assetSource: "", assetRole: "", assetPage: 1, assetPageSize: 10,
       loading: true, loadError: "", mapInstance: null, mapReady: false, mapLoadPromise: null, toastMessage: "", toastTimeout: null
     };
@@ -18,6 +18,24 @@ createApp({
     },
     resourceTypes() {
       return [...new Set(this.items.map((item) => item.resource_type).filter(Boolean))].sort();
+    },
+    
+    publishers() {
+      return [...new Set(
+        this.items.flatMap(item => item.publishers || [])
+      )].filter(Boolean).sort();
+    },
+
+    providers() {
+      return [...new Set(
+        this.items.flatMap(item => item.providers || [])
+      )].filter(Boolean).sort();
+    },
+
+    places() {
+      return [...new Set(
+        this.items.flatMap(item => item.place || [])
+      )].filter(Boolean).sort();
     },
     totalAssets() { return this.items.reduce((sum, item) => sum + Number(item.asset_count || 0), 0); },
     currentCount() { return this.items.filter((item) => !item.version_status || item.version_status === "unknown" || item.version_status === "current").length; },
@@ -45,42 +63,111 @@ createApp({
             rows.find((item) => item.description)?.description?.slice(0, 105) || ""
         };
       }).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+
+    
     },
 
+    
     filteredItems() {
       const needle = this.query.trim().toLocaleLowerCase();
+
       const fields = {
-        title: ["title"], doi: ["dois"], tags: ["keywords", "tags"], description: ["description"],
-        authors: ["authors"], publishers: ["publishers"], providers: ["providers"], place: ["place"],
-        purpose: ["purpose"], citation: ["citation"], version: ["version"],
+        title: ["title"],
+        doi: ["dois"],
+        tags: ["keywords", "tags"],
+        description: ["description"],
+        authors: ["authors"],
+        publishers: ["publishers"],
+        providers: ["providers"],
+        place: ["place"],
+        purpose: ["purpose"],
+        citation: ["citation"],
+        version: ["version"],
       };
+
       let rows = this.items.filter((item) => {
-        const selectedFields = this.searchField === "all" ? Object.keys(fields) : [this.searchField];
-        const haystack = selectedFields.flatMap((field) => fields[field] || [])
-          .map((key) => this.valueText(item[key])).join(" ").toLocaleLowerCase();
-        return (!needle || haystack.includes(needle))
-            && (
-              !this.categoryFilters.length ||
-              this.categoryFilters.includes(item.category || "Uncategorized")
-            )
-            && (
-              !this.versionFilters.length ||
-              this.versionFilters.includes(
-                String(item.version_status || "not specified").trim().toLowerCase()
-              )
-            )
-            && (
-              !this.resourceTypeFilters.length ||
-              this.resourceTypeFilters.includes(item.resource_type)
-            );
+        // Search
+        const selectedFields = this.searchField === "all"
+          ? Object.keys(fields)
+          : [this.searchField];
+
+        const haystack = selectedFields
+          .flatMap(field => fields[field] || [])
+          .map(key => this.valueText(item[key]))
+          .join(" ")
+          .toLocaleLowerCase();
+
+        const matchesSearch = !needle || haystack.includes(needle);
+
+        // Publisher
+        const matchesPublisher =
+          !this.publisherFilters.length ||
+          this.publisherFilters.some(value =>
+            (item.publishers || []).includes(value)
+          );
+
+        // Provider
+        const matchesProvider =
+          !this.providerFilters.length ||
+          this.providerFilters.some(value =>
+            (item.providers || []).includes(value)
+          );
+
+        // Geographic coverage
+        const matchesPlace =
+          !this.placeFilters.length ||
+          this.placeFilters.some(value =>
+            (item.place || []).includes(value)
+          );
+
+        // Existing filters
+        const matchesCategory =
+          !this.categoryFilters.length ||
+          this.categoryFilters.includes(item.category || "Uncategorized");
+
+        const matchesVersion =
+          !this.versionFilters.length ||
+          this.versionFilters.includes(
+            String(item.version_status || "not specified").trim().toLowerCase()
+          );
+
+        const matchesResourceType =
+          !this.resourceTypeFilters.length ||
+          this.resourceTypeFilters.includes(item.resource_type);
+
+        return matchesSearch &&
+          matchesPublisher &&
+          matchesProvider &&
+          matchesPlace &&
+          matchesCategory &&
+          matchesVersion &&
+          matchesResourceType;
       });
+
       rows = [...rows];
-      if (this.sortBy === "assets") rows.sort((a, b) => Number(b.asset_count || 0) - Number(a.asset_count || 0) || a.title.localeCompare(b.title));
-      else if (this.sortBy === "category") rows.sort((a, b) => a.category.localeCompare(b.category) || a.title.localeCompare(b.title));
-      else if (this.sortBy === "date") rows.sort((a, b) => this.dateValue(b.publication_date) - this.dateValue(a.publication_date) || a.title.localeCompare(b.title));
-      else rows.sort((a, b) => a.title.localeCompare(b.title));
+
+      if (this.sortBy === "assets") {
+        rows.sort((a, b) =>
+          Number(b.asset_count || 0) - Number(a.asset_count || 0) ||
+          a.title.localeCompare(b.title)
+        );
+      } else if (this.sortBy === "category") {
+        rows.sort((a, b) =>
+          a.category.localeCompare(b.category) ||
+          a.title.localeCompare(b.title)
+        );
+      } else if (this.sortBy === "date") {
+        rows.sort((a, b) =>
+          this.dateValue(b.publication_date) - this.dateValue(a.publication_date) ||
+          a.title.localeCompare(b.title)
+        );
+      } else {
+        rows.sort((a, b) => a.title.localeCompare(b.title));
+      }
+
       return rows;
     },
+
     resultPageCount() { return Math.max(1, Math.ceil(this.filteredItems.length / this.resultPageSize)); },
     pagedItems() { const start = (this.resultPage - 1) * this.resultPageSize; return this.filteredItems.slice(start, start + this.resultPageSize); },
     categoryItems() {
@@ -162,12 +249,32 @@ createApp({
     selectedCategoryLabel() {
       return this.categoryFilters.join(", ");
     },
+    publishers() {
+      return [...new Set(
+        this.items.flatMap(item => item.publishers || [])
+      )].filter(Boolean).sort();
+    },
+
+    providers() {
+      return [...new Set(
+        this.items.flatMap(item => item.providers || [])
+      )].filter(Boolean).sort();
+    },
+
+    places() {
+      return [...new Set(
+        this.items.flatMap(item => item.place || [])
+      )].filter(Boolean).sort();
+    },
   },
   watch: {
     query() { this.resultPage = 1; },
     categoryFilters() { this.resultPage = 1; },
     versionFilters() { this.resultPage = 1; },
     resourceTypeFilters() { this.resultPage = 1; },
+    publisherFilters() { this.resultPage = 1; },
+    providerFilters() { this.resultPage = 1; },
+    placeFilters() { this.resultPage = 1; },
     assetQuery() { this.assetPage = 1; }, assetSubtype() { this.assetPage = 1; }, assetSource() { this.assetPage = 1; }, assetRole() { this.assetPage = 1; },
     pagedAssets() { if (this.assetPage > this.assetPageCount) this.assetPage = this.assetPageCount; },
     async selectedItem() {
@@ -249,6 +356,9 @@ createApp({
       this.resourceTypeFilters = [];
       this.sortBy = "title";
       this.resultPage = 1;
+      this.publisherFilters = [];
+      this.providerFilters = [];
+      this.placeFilters = [];
     },
     goHome() {
       const url = new URL(window.location.href);
