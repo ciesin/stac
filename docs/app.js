@@ -7,7 +7,7 @@ createApp({
     return {
       items: [], summary: null, page: "home", selectedIndex: null, selectedItem: null,
       query: "", searchField: "all", categoryFilters: [], versionFilters: [],
-      resourceTypeFilters: [], publisherFilters: [], providerFilters: [], placeFilters: [], sortBy: "title", resultPage: 1, resultPageSize: 20,
+      resourceTypeFilters: [], publisherFilters: [], providerFilters: [], placeFilters: [], sortBy: "date", resultPage: 1, resultPageSize: 20,
       assetQuery: "", assetSubtype: "", assetSource: "", assetRole: "", assetPage: 1, assetPageSize: 10,
       loading: true, loadError: "", mapInstance: null, mapReady: false, mapLoadPromise: null, toastMessage: "", toastTimeout: null
     };
