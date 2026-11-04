@@ -81,9 +81,26 @@
         }
 
     .search-icon {
-        color: var(--muted);
-        font-size: 22px;
-        }
+        width: 15px;
+        height: 15px;
+        flex: 0 0 15px;
+        border: 2px solid var(--muted);
+        border-radius: 50%;
+        position: relative;
+        margin-right: 3px;
+    }
+
+    .search-icon::after {
+        content: "";
+        position: absolute;
+        width: 6px;
+        height: 2px;
+        background: var(--muted);
+        right: -5px;
+        bottom: -2px;
+        transform: rotate(45deg);
+        border-radius: 2px;
+    }
 
         
     .search-input-wrap input {
