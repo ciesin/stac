@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8-hswp-my53",
   "collection": "marine-and-coastal",
@@ -27,9 +27,6 @@
     "sci:citation": "De Sherbinin, Alexander M., & Bardy, Guillem (2016). Social vulnerability to floods in two coastal megacities: New York City and Mumbai. Columbia University. https://doi.org/10.7916/d8-hswp-my53",
     "ciesin:resource_type": "article",
     "ciesin:category": "Marine and Coastal",
-    "ciesin:tags": [
-      "Marine And Coastal"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "unknown",
     "ciesin:dois": [
@@ -49,7 +46,8 @@
     "ciesin:metadata_sources": [
       "Columbia Academic Commons"
     ],
-    "datetime": "2016-01-01T00:00:00Z"
+    "datetime": "2016-01-01T00:00:00Z",
+    "ciesin:stac_datetime_basis": "publication_date"
   },
   "links": [
     {

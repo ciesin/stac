@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7927-a49b-sm16",
   "collection": "remote-sensing",
@@ -80,17 +80,6 @@
     "version": "1.00; 2; 1.0",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Remote Sensing",
-    "ciesin:tags": [
-      "Country",
-      "Earth Science",
-      "Human Dimensions",
-      "Boundaries",
-      "Remote Sensing",
-      "Society",
-      "United States Of America",
-      "Urban",
-      "Earth And Environmental Sciences"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "unknown",
     "ciesin:dois": [
@@ -122,11 +111,12 @@
       "NASA CMR"
     ],
     "ciesin:inventory_xml_location": "urbanspatial-urban-extents-viirs-modis-us-2015.xml",
+    "ciesin:temporal_start": "2015-01-01",
+    "ciesin:temporal_end": "2015-12-31",
     "datetime": null,
     "start_datetime": "2015-01-01T00:00:00Z",
     "end_datetime": "2015-12-31T00:00:00Z",
-    "ciesin:temporal_start": "2015-01-01T00:00:00Z",
-    "ciesin:temporal_end": "2015-12-31T00:00:00Z"
+    "ciesin:stac_datetime_basis": "temporal_extent"
   },
   "links": [
     {

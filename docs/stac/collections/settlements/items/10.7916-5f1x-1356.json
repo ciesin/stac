@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-5f1x-1356",
   "collection": "settlements",
@@ -61,10 +61,6 @@
     "version": "3.0",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Settlements",
-    "ciesin:tags": [
-      "Settlements",
-      "Latest"
-    ],
     "ciesin:is_latest_version": true,
     "ciesin:version_status": "current",
     "ciesin:dois": [
@@ -95,7 +91,8 @@
       "Local XML"
     ],
     "ciesin:inventory_xml_location": "GRID3 CIV - Settlement Extents v3.0.xml",
-    "datetime": "2024-09-30T00:00:00Z"
+    "datetime": "2024-09-30T00:00:00Z",
+    "ciesin:stac_datetime_basis": "publication_date"
   },
   "links": [
     {

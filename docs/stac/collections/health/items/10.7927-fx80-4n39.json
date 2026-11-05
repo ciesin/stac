@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7927-fx80-4n39",
   "collection": "health",
@@ -84,21 +84,6 @@
     "version": "4.03; 2",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Health",
-    "ciesin:tags": [
-      "Earth Science",
-      "Atmosphere",
-      "Aerosols",
-      "Particulate Matter",
-      "Air Quality",
-      "Particulates",
-      "Environment",
-      "Global",
-      "Health",
-      "Remote Sensing",
-      "Sustainability",
-      "Urban",
-      "Earth And Environmental Sciences"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "not_current",
     "ciesin:dois": [
@@ -130,11 +115,12 @@
       "NASA CMR"
     ],
     "ciesin:inventory_xml_location": "sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-aod-v4-gl-03.xml",
+    "ciesin:temporal_start": "1998-01-01",
+    "ciesin:temporal_end": "2019-12-31",
     "datetime": null,
     "start_datetime": "1998-01-01T00:00:00Z",
     "end_datetime": "2019-12-31T00:00:00Z",
-    "ciesin:temporal_start": "1998-01-01T00:00:00Z",
-    "ciesin:temporal_end": "2019-12-31T00:00:00Z"
+    "ciesin:stac_datetime_basis": "temporal_extent"
   },
   "links": [
     {

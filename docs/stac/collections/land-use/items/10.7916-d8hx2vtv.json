@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8hx2vtv",
   "collection": "land-use",
@@ -33,9 +33,6 @@
     "sci:citation": "Walsh, Markus (2017). Tanzania ensemble predictions, 2017: probability of cropland present (Geosurvey based). Columbia University. https://doi.org/10.7916/d8hx2vtv",
     "ciesin:resource_type": "other",
     "ciesin:category": "Land Use",
-    "ciesin:tags": [
-      "Land Use"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "unknown",
     "ciesin:dois": [
@@ -56,11 +53,12 @@
     "ciesin:metadata_sources": [
       "Columbia Academic Commons"
     ],
+    "ciesin:temporal_start": "2017-01-01",
+    "ciesin:temporal_end": "2017-12-31",
     "datetime": null,
     "start_datetime": "2017-01-01T00:00:00Z",
     "end_datetime": "2017-12-31T00:00:00Z",
-    "ciesin:temporal_start": "2017-01-01T00:00:00Z",
-    "ciesin:temporal_end": "2017-12-31T00:00:00Z"
+    "ciesin:stac_datetime_basis": "temporal_extent"
   },
   "links": [
     {

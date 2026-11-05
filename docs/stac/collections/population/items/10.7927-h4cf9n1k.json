@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7927-h4cf9n1k",
   "collection": "population",
@@ -105,42 +105,6 @@
     "version": "1.00; 2; 1.0",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Population",
-    "ciesin:tags": [
-      "CIESIN",
-      "Human Attitudes, Preferences, And Behavior",
-      "Consumer Behavior",
-      "Poverty",
-      "Human And Environmental Health",
-      "Nutrition And Hunger",
-      "Famines",
-      "Vital Statistics",
-      "Infant Mortality",
-      "Population Dynamics",
-      "Demographic Characteristics",
-      "Population Distribution",
-      "Population Size",
-      "Human Settlements",
-      "Rural Areas",
-      "Urbanization",
-      "Global Population Estimates",
-      "Earth Science",
-      "Human Dimensions",
-      "Population",
-      "Global",
-      "Global Population",
-      "Health",
-      "Malnutrition",
-      "Population Count",
-      "Population Density",
-      "Population Estimates",
-      "Population Projections",
-      "Population Studies",
-      "Rural Population",
-      "Society",
-      "Underweight",
-      "Urban Population",
-      "Earth And Environmental Sciences"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "unknown",
     "ciesin:dois": [
@@ -176,11 +140,12 @@
       "NASA CMR"
     ],
     "ciesin:inventory_xml_location": "ma-population.xml",
+    "ciesin:temporal_start": "1990-01-01",
+    "ciesin:temporal_end": "2002-12-31",
     "datetime": null,
     "start_datetime": "1990-01-01T00:00:00Z",
     "end_datetime": "2002-12-31T00:00:00Z",
-    "ciesin:temporal_start": "1990-01-01T00:00:00Z",
-    "ciesin:temporal_end": "2002-12-31T00:00:00Z"
+    "ciesin:stac_datetime_basis": "temporal_extent"
   },
   "links": [
     {

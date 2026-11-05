@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-8w2m-vr54",
   "collection": "governance",
@@ -27,9 +27,6 @@
     "sci:citation": "Downs, Robert R. (2024). SERVIR West Africa Training Program on Data Stewardship and the CoreTrustSeal Requirements: Session 1, R07 & R08 Requirements. Columbia University. https://doi.org/10.7916/8w2m-vr54",
     "ciesin:resource_type": "other",
     "ciesin:category": "Governance",
-    "ciesin:tags": [
-      "Governance"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "unknown",
     "ciesin:dois": [
@@ -48,7 +45,8 @@
     "ciesin:metadata_sources": [
       "Columbia Academic Commons"
     ],
-    "datetime": "2024-01-01T00:00:00Z"
+    "datetime": "2024-01-01T00:00:00Z",
+    "ciesin:stac_datetime_basis": "publication_date"
   },
   "links": [
     {

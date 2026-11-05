@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7927-h4kk98ps",
   "collection": "boundaries",
@@ -84,21 +84,6 @@
     "version": "1.00; 1",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Boundaries",
-    "ciesin:tags": [
-      "Boundaries",
-      "China",
-      "City",
-      "Country",
-      "County",
-      "Earth Science",
-      "Human Dimensions",
-      "Administrative Divisions",
-      "Political Divisions",
-      "Framework Data",
-      "Province",
-      "Society",
-      "Earth And Environmental Sciences"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "unknown",
     "ciesin:dois": [
@@ -139,11 +124,12 @@
       "NASA CMR"
     ],
     "ciesin:inventory_xml_location": "cddc-china-guobiao-codes-admin-divisions.xml",
+    "ciesin:temporal_start": "1982-01-01",
+    "ciesin:temporal_end": "1992-12-31",
     "datetime": null,
     "start_datetime": "1982-01-01T00:00:00Z",
     "end_datetime": "1992-12-31T00:00:00Z",
-    "ciesin:temporal_start": "1982-01-01T00:00:00Z",
-    "ciesin:temporal_end": "1992-12-31T00:00:00Z"
+    "ciesin:stac_datetime_basis": "temporal_extent"
   },
   "links": [
     {

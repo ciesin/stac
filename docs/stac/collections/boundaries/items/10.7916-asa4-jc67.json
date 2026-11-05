@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-asa4-jc67",
   "collection": "boundaries",
@@ -60,9 +60,6 @@
     "version": "8.0",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Boundaries",
-    "ciesin:tags": [
-      "Boundaries"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "not_current",
     "ciesin:dois": [
@@ -122,7 +119,8 @@
       "Columbia Academic Commons"
     ],
     "ciesin:inventory_xml_location": "GRID3 COD - Health Zones v8.0.xml",
-    "datetime": "2025-01-01T00:00:00Z"
+    "datetime": "2025-01-01T00:00:00Z",
+    "ciesin:stac_datetime_basis": "publication_date"
   },
   "links": [
     {

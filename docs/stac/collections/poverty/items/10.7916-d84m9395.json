@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d84m9395",
   "collection": "poverty",
@@ -33,9 +33,6 @@
     "sci:citation": "Redford, Kent H., Levy, Marc A., Sanderson, Eric W., & De Sherbinin, Alexander M. (2008). What is the role for conservation organizations in poverty alleviation in the world’s wild places?. Columbia University. https://doi.org/10.7916/d84m9395",
     "ciesin:resource_type": "article",
     "ciesin:category": "Poverty",
-    "ciesin:tags": [
-      "Poverty"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "unknown",
     "ciesin:dois": [
@@ -58,7 +55,8 @@
     "ciesin:metadata_sources": [
       "Columbia Academic Commons"
     ],
-    "datetime": "2008-01-01T00:00:00Z"
+    "datetime": "2008-01-01T00:00:00Z",
+    "ciesin:stac_datetime_basis": "publication_date"
   },
   "links": [
     {

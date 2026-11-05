@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d81j99km",
   "collection": "agriculture",
@@ -33,9 +33,6 @@
     "sci:citation": "Yang, Yuanyuan, Zhang, Shuwen, Wang, Dongyan, Yang, Jiuchun, & Xing, Xiaoshi (2015). Spatiotemporal Changes of Farming-Pastoral Ecotone in Northern China, 1954–2005: A Case Study in Zhenlai County, Jilin Province. Columbia University. https://doi.org/10.7916/d81j99km",
     "ciesin:resource_type": "article",
     "ciesin:category": "Agriculture",
-    "ciesin:tags": [
-      "Agriculture"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "unknown",
     "ciesin:dois": [
@@ -59,11 +56,12 @@
     "ciesin:metadata_sources": [
       "Columbia Academic Commons"
     ],
+    "ciesin:temporal_start": "1954",
+    "ciesin:temporal_end": "2005",
     "datetime": null,
-    "start_datetime": "1905-05-07T00:00:00Z",
-    "end_datetime": "1905-06-27T00:00:00Z",
-    "ciesin:temporal_start": "1905-05-07T00:00:00Z",
-    "ciesin:temporal_end": "1905-06-27T00:00:00Z"
+    "start_datetime": "1954-01-01T00:00:00Z",
+    "end_datetime": "2005-01-01T00:00:00Z",
+    "ciesin:stac_datetime_basis": "temporal_extent"
   },
   "links": [
     {

@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7916-d8pk1t3r",
   "collection": "marine-and-coastal",
@@ -33,9 +33,6 @@
     "sci:citation": "Mondal, Pinki, Trzaska, Sylwia A., & De Sherbinin, Alexander M. (2018). Landsat-Derived Estimates of Mangrove Extents in the Sierra Leone Coastal Landscape Complex during 1990–2016. Columbia University. https://doi.org/10.7916/d8pk1t3r",
     "ciesin:resource_type": "article",
     "ciesin:category": "Marine and Coastal",
-    "ciesin:tags": [
-      "Marine And Coastal"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "unknown",
     "ciesin:dois": [
@@ -57,11 +54,12 @@
     "ciesin:metadata_sources": [
       "Columbia Academic Commons"
     ],
+    "ciesin:temporal_start": "1990",
+    "ciesin:temporal_end": "2016",
     "datetime": null,
-    "start_datetime": "1905-06-12T00:00:00Z",
-    "end_datetime": "1905-07-08T00:00:00Z",
-    "ciesin:temporal_start": "1905-06-12T00:00:00Z",
-    "ciesin:temporal_end": "1905-07-08T00:00:00Z"
+    "start_datetime": "1990-01-01T00:00:00Z",
+    "end_datetime": "2016-01-01T00:00:00Z",
+    "ciesin:stac_datetime_basis": "temporal_extent"
   },
   "links": [
     {

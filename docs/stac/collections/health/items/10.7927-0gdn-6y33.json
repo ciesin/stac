@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7927-0gdn-6y33",
   "collection": "health",
@@ -80,17 +80,6 @@
     "version": "2.01; 2",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Health",
-    "ciesin:tags": [
-      "Earth Science",
-      "Human Dimensions",
-      "Population",
-      "Global",
-      "Health",
-      "Poverty",
-      "Society",
-      "Earth And Environmental Sciences",
-      "Latest"
-    ],
     "ciesin:is_latest_version": true,
     "ciesin:version_status": "current",
     "ciesin:dois": [
@@ -122,11 +111,12 @@
       "NASA CMR"
     ],
     "ciesin:inventory_xml_location": "povmap-global-subnational-infant-mortality-rates-v2-01.xml",
+    "ciesin:temporal_start": "2015-01-01",
+    "ciesin:temporal_end": "2015-12-31",
     "datetime": null,
     "start_datetime": "2015-01-01T00:00:00Z",
     "end_datetime": "2015-12-31T00:00:00Z",
-    "ciesin:temporal_start": "2015-01-01T00:00:00Z",
-    "ciesin:temporal_end": "2015-12-31T00:00:00Z"
+    "ciesin:stac_datetime_basis": "temporal_extent"
   },
   "links": [
     {

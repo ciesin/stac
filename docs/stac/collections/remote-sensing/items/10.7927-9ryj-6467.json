@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7927-9ryj-6467",
   "collection": "remote-sensing",
@@ -75,24 +75,6 @@
     "version": "1.00; 2",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Remote Sensing",
-    "ciesin:tags": [
-      "Earth Science",
-      "Human Dimensions",
-      "Economic Resources",
-      "Energy Production/use",
-      "Human Settlements",
-      "Infrastructure",
-      "Electricity",
-      "Population",
-      "Population Distribution",
-      "Sustainability",
-      "Sustainable Development",
-      "Global",
-      "Remote Sensing",
-      "Society",
-      "Urban",
-      "Earth And Environmental Sciences"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "unknown",
     "ciesin:dois": [
@@ -122,11 +104,12 @@
       "Harvard Dataverse"
     ],
     "ciesin:inventory_xml_location": "sdei-viirs-dmsp-dlight.xml",
+    "ciesin:temporal_start": "1992-01-01",
+    "ciesin:temporal_end": "1992-01-01",
     "datetime": null,
     "start_datetime": "1992-01-01T00:00:00Z",
     "end_datetime": "1992-01-01T00:00:00Z",
-    "ciesin:temporal_start": "1992-01-01T00:00:00Z",
-    "ciesin:temporal_end": "1992-01-01T00:00:00Z"
+    "ciesin:stac_datetime_basis": "temporal_extent"
   },
   "links": [
     {

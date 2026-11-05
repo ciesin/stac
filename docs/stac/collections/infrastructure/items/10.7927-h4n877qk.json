@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7927-h4n877qk",
   "collection": "infrastructure",
@@ -86,23 +86,6 @@
     "version": "1.01; 2",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Infrastructure",
-    "ciesin:tags": [
-      "Climate",
-      "Continent",
-      "Earth Science",
-      "Terrestrial Hydrosphere",
-      "Surface Water",
-      "Surface Water Features",
-      "Lakes/reservoirs",
-      "Global",
-      "Infrastructure",
-      "Inland Waters",
-      "Land Use",
-      "Population",
-      "Water",
-      "Earth And Environmental Sciences",
-      "Latest"
-    ],
     "ciesin:is_latest_version": true,
     "ciesin:version_status": "current",
     "ciesin:dois": [
@@ -134,11 +117,12 @@
       "NASA CMR"
     ],
     "ciesin:inventory_xml_location": "grand-v1-dams-rev01.xml",
+    "ciesin:temporal_start": "2011-01-01",
+    "ciesin:temporal_end": "2011-12-31",
     "datetime": null,
     "start_datetime": "2011-01-01T00:00:00Z",
     "end_datetime": "2011-12-31T00:00:00Z",
-    "ciesin:temporal_start": "2011-01-01T00:00:00Z",
-    "ciesin:temporal_end": "2011-12-31T00:00:00Z"
+    "ciesin:stac_datetime_basis": "temporal_extent"
   },
   "links": [
     {

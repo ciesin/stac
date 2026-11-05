@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7927-h48p5xf7",
   "collection": "hazards",
@@ -75,24 +75,6 @@
     "version": "2.00; 2",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Hazards",
-    "ciesin:tags": [
-      "Country",
-      "Earth Science",
-      "Human Dimensions",
-      "Environmental Governance/management",
-      "Environmental Assessments",
-      "Public Health",
-      "Environment",
-      "Hazards",
-      "Health",
-      "Infrastructure",
-      "Land Use",
-      "Population",
-      "Society",
-      "United States Of America",
-      "Urban",
-      "Earth And Environmental Sciences"
-    ],
     "ciesin:is_latest_version": false,
     "ciesin:version_status": "unknown",
     "ciesin:dois": [
@@ -121,11 +103,12 @@
       "Harvard Dataverse"
     ],
     "ciesin:inventory_xml_location": "superfund-atsdr-hazardous-waste-site-v2.xml",
+    "ciesin:temporal_start": "2010-05-26",
+    "ciesin:temporal_end": "2010-05-26",
     "datetime": null,
     "start_datetime": "2010-05-26T00:00:00Z",
     "end_datetime": "2010-05-26T00:00:00Z",
-    "ciesin:temporal_start": "2010-05-26T00:00:00Z",
-    "ciesin:temporal_end": "2010-05-26T00:00:00Z"
+    "ciesin:stac_datetime_basis": "temporal_extent"
   },
   "links": [
     {

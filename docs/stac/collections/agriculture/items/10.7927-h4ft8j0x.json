@@ -2,8 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
   ],
   "id": "10.7927-h4ft8j0x",
   "collection": "agriculture",
@@ -93,30 +93,6 @@
     "version": "2.01; 2",
     "ciesin:resource_type": "dataset",
     "ciesin:category": "Agriculture",
-    "ciesin:tags": [
-      "Africa",
-      "Agriculture",
-      "Antarctica",
-      "Arctic",
-      "Asia",
-      "Australia",
-      "Central America",
-      "Climate",
-      "Climatology/Meteorology/Atmosphere",
-      "Conservation",
-      "Earth Science",
-      "Human Dimensions",
-      "Environmental Impacts",
-      "Environment",
-      "Europe",
-      "Global",
-      "Marine And Coastal",
-      "North America",
-      "Society",
-      "Water",
-      "Earth And Environmental Sciences",
-      "Latest"
-    ],
     "ciesin:is_latest_version": true,
     "ciesin:version_status": "current",
     "ciesin:dois": [
@@ -154,11 +130,12 @@
       "NASA CMR"
     ],
     "ciesin:inventory_xml_location": "ipcc-ar5-observed-climate-impacts-v2-01.xml",
+    "ciesin:temporal_start": "2007-01-01",
+    "ciesin:temporal_end": "2014-12-31",
     "datetime": null,
     "start_datetime": "2007-01-01T00:00:00Z",
     "end_datetime": "2014-12-31T00:00:00Z",
-    "ciesin:temporal_start": "2007-01-01T00:00:00Z",
-    "ciesin:temporal_end": "2014-12-31T00:00:00Z"
+    "ciesin:stac_datetime_basis": "temporal_extent"
   },
   "links": [
     {
