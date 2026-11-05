@@ -432,7 +432,12 @@ createApp({
       this.mapReady = false;
 
       try {
-        const response = await fetch(`./${index.item_href}`);
+        const itemUrl = new URL(
+          `./stac/${index.item_href}`,
+          window.location.href
+        );
+
+        const response = await fetch(itemUrl);
 
         if (!response.ok) {
           throw new Error(`Could not read item record (HTTP ${response.status}).`);
