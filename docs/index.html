@@ -30,29 +30,32 @@
             <!-- <p class="eyebrow">Center for Integrated Earth System Information</p> -->
             <!-- <h1>Explore data about people and our hcanging planet.</h1> -->
             <p class="intro-lede">Find CIESIN datasets by category, topic, place, date, or source. Open a dataset to inspect its metadata, geographic coverage, version status, and associated assets.</p>
+            
+            <div class="catalog-stats" aria-label="Catalog summary">
+              <div>
+                <strong>
+                  {{ currentCount.toLocaleString() }}
+                  <span>of</span>
+                  {{ items.length.toLocaleString() }}
+                </strong>
+                <span>Active datasets</span>
+              </div>
+
+              <div>
+                <strong>{{ categories.length.toLocaleString() }}</strong>
+                <span>Categories</span>
+              </div>
+
+              <div>
+                <strong>{{ totalAssets.toLocaleString() }}</strong>
+                <span>Total assets</span>
+              </div>
+            </div>
+          
           </div>
           <div class="intro-mark" aria-hidden="true"><span>DATA</span><span>PEOPLE</span><span>PLACE</span></div>
-        </section>
-
-        <section class="catalog-stats" aria-label="Catalog summary">
-          <div>
-            <strong>
-              {{ currentCount.toLocaleString() }}
-              <span>of</span>
-              {{ items.length.toLocaleString() }}
-            </strong>
-            <span>Active datasets</span>
-          </div>
-
-          <div>
-            <strong>{{ categories.length.toLocaleString() }}</strong>
-            <span>Categories</span>
-          </div>
-
-          <div>
-            <strong>{{ totalAssets.toLocaleString() }}</strong>
-            <span>Total assets</span>
-          </div>
+          
+      
         </section>
 
         <!-- <section v-if="page === 'home' && !categoryFilter" class="category-section">
@@ -446,7 +449,9 @@
               </article>
             </div>
             <p v-else class="empty-state">No assets match these filters.</p>
-            <div class="pagination" v-if="assetPageCount > 1"><span>{{ assetPage }} / {{ assetPageCount }}</span><button type="button" :disabled="assetPage === 1" @click="assetPage--">Previous</button><button type="button" :disabled="assetPage === assetPageCount" @click="assetPage++">Next</button></div>
+            <div class="asset-bottom-results">
+              <div class="pagination" v-if="assetPageCount > 1"><span>{{ assetPage }} / {{ assetPageCount }}</span><button type="button" :disabled="assetPage === 1" @click="assetPage--">Previous</button><button type="button" :disabled="assetPage === assetPageCount" @click="assetPage++">Next</button></div>
+            </div>
           </section>
         </section>
 
@@ -461,37 +466,140 @@
                 }}
               </h2>
             </div>
-            <div class="pagination">
-              <span>Page {{ resultPage }} of {{ resultPageCount }}</span><button type="button" :disabled="resultPage === 1" @click="resultPage--">Previous</button><button type="button" :disabled="resultPage === resultPageCount" @click="resultPage++">Next</button></div>
+
+            <div class="results-heading-controls">
+              <div class="sort-filter">
+                <details
+                  class="filter-dropdown"
+                  ref="sortDropdown"
+                  name="dataset-filters"
+                >
+                  <summary>
+                    <span>Sort by</span>
+                  </summary>
+
+                  <div class="filter-dropdown-content">
+                    <label class="filter-option">
+                      <input type="radio" value="title" v-model="sortBy" @change="closeSortDropdown">
+                      <span>Title</span>
+                    </label>
+
+                    <label class="filter-option">
+                      <input type="radio" value="category" v-model="sortBy" @change="closeSortDropdown">
+                      <span>Category</span>
+                    </label>
+
+                    <label class="filter-option">
+                      <input type="radio" value="assets" v-model="sortBy" @change="closeSortDropdown">
+                      <span>Asset count</span>
+                    </label>
+
+                    <label class="filter-option">
+                      <input type="radio" value="date" v-model="sortBy" @change="closeSortDropdown">
+                      <span>Publication date</span>
+                    </label>
+                  </div>
+                </details>
+              </div>
+
+              <!-- Top pagination -->
+              <div class="pagination" v-if="pagedItems.length">
+                <span>Page {{ resultPage }} of {{ resultPageCount }}</span>
+                <button type="button" :disabled="resultPage === 1" @click="resultPage--">Previous</button>
+                <button type="button" :disabled="resultPage === resultPageCount" @click="resultPage++">Next</button>
+              </div>
             </div>
-            <div class="sort-filter">
-                <!-- Sort -->  
-                <label for="sortBy">Sort by</label>
-                
- 
-                <select v-model="sortBy" id=""sortBy>
-                  <option value="title">Title</option>
-                  <option value="category">Category</option>
-                  <option value="assets">Asset count</option>
-                  <option value="date">Publication date</option>
-                </select> 
-            </div>
-            <div class="results-grid" v-if="pagedItems.length">
-            <button class="result-card" v-for="item in pagedItems" :key="item.id" type="button" @click="openItem(item)">
-              <span class="result-category">
-                {{ item.category }} 
-                <span :class="['mini-status', 'status-' + (item.version_status || 'unknown')]">
-                  {{ item.version_status === 'current'
-                    ? 'Active'
-                    : item.version_status === 'not_current'
-                      ? 'Inactive'
-                      : 'Not specified'
-                  }}
+          </div>
+
+          <!-- Results -->
+          <div v-if="pagedItems.length">
+            <div class="results-grid">
+              <button
+                class="result-card"
+                v-for="item in pagedItems"
+                :key="item.id"
+                type="button"
+                @click="openItem(item)"
+              >
+                <span class="result-category">
+                  {{ item.category }}
+
+                  <span :class="['mini-status', 'status-' + (item.version_status || 'unknown')]">
+                    {{ item.version_status === 'current'
+                      ? 'Active'
+                      : item.version_status === 'not_current'
+                        ? 'Inactive'
+                        : 'Not specified'
+                    }}
+                  </span>
                 </span>
-              </span>
-              <strong>{{ item.title }}</strong><span class="result-description">{{ item.description || 'Description not available.' }}</span><span class="result-foot"><span>{{ (item.dois || []).slice(0, 1).join('') || 'No DOI listed' }}</span><span>{{ item.asset_count || 0 }} assets</span></span></button></div>
-          <p v-else class="empty-state">No datasets match these search criteria. Try another field or clear filters.</p>
+
+                <strong>{{ item.title }}</strong>
+
+
+                
+
+                <div class="result-metadata">
+                  <div> 
+                    <span>{{ item.publication_date ? formatDate(item.publication_date) : 'Not specified' }}</span>
+                  </div>
+                  <div>
+                    <span class="metadata-label">Authors</span>
+                    <span>{{ valueText(item.authors) || 'Not specified' }}</span>
+                  </div>
+
+                  
+
+                  <div>
+                    <span class="metadata-label">Publisher</span>
+                    <span>{{ valueText(item.publishers) || 'Not specified' }}</span>
+                    
+                  </div>
+
+                  <div>
+                    <span class="metadata-label">Temporal extent</span> 
+                    <span>
+                      {{ formatTemporalExtent(
+                        item.start_datetime || item.temporal_start,
+                        item.end_datetime || item.temporal_end
+                      ) }}
+                    </span>
+
+                  </div>
+                </div>
+
+                <span class="result-foot">
+                  <span>
+                    {{ item.dois?.length ? 'DOI: ' + item.dois.slice(0, 1).join('') : 'No DOI listed' }}
+                  </span>
+                  <span>{{ item.asset_count || 0 }} assets</span>
+                </span>
+              </button>
+            </div>
+
+            <!-- Bottom pagination -->
+            <div class="results-bottom-controls">
+              <div class="pagination">
+                <span>Page {{ resultPage }} of {{ resultPageCount }}</span>
+
+                <button type="button" :disabled="resultPage === 1" @click="resultPage--">
+                  Previous
+                </button>
+
+                <button type="button" :disabled="resultPage === resultPageCount" @click="resultPage++">
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <p v-else class="empty-state">
+            No datasets match these search criteria. Try another field or clear filters.
+          </p>
         </section>
+      
+        
+      </section>
  
         <footer>
           <div class="footer-brand">

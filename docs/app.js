@@ -266,6 +266,7 @@ createApp({
         this.items.flatMap(item => item.place || [])
       )].filter(Boolean).sort();
     },
+    
   },
   watch: {
     query() { this.resultPage = 1; },
@@ -329,6 +330,45 @@ createApp({
     }
   },
   methods: {
+
+    
+    formatTemporalExtent(start, end) {
+      if (!start && !end) return "Not specified";
+
+      const format = (value) => {
+        if (!value) return "";
+
+        const str = String(value).trim();
+
+        // Year only: 2020
+        if (/^\d{4}$/.test(str)) {
+          return str;
+        }
+
+        // Full date or datetime
+        if (/^\d{4}-\d{2}-\d{2}/.test(str)) {
+          return this.formatDate(str);
+        }
+
+        return str;
+      };
+
+      const startDate = format(start);
+      const endDate = format(end);
+
+      if (startDate && endDate) {
+        return startDate === endDate
+          ? startDate
+          : `${startDate} – ${endDate}`;
+      }
+
+      return startDate || endDate;
+    },
+
+    
+    closeSortDropdown() {
+      this.$refs.sortDropdown.open = false;
+    },
     valueText(value) {
       if (value === null || value === undefined || value === "") return "";
       if (Array.isArray(value)) return value.map((entry) => this.valueText(entry)).filter(Boolean).join("; ");
@@ -648,4 +688,7 @@ createApp({
       }, 2000);
     },
   },
+
+  
+  
 }).mount("#app");
