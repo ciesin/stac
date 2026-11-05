@@ -415,6 +415,13 @@ createApp({
 
       window.scrollTo({ top: 0, behavior: "smooth" });
     },
+    itemJsonUrl(index) {
+      if (!index?.item_href) return "#";
+
+      const stacBase = new URL("./stac/", window.location.href);
+      return new URL(index.item_href, stacBase).href;
+    },
+
 
     goBack() {
       this.goHome();
@@ -432,15 +439,16 @@ createApp({
       this.mapReady = false;
 
       try {
-        const itemUrl = new URL(
-          `./stac/${index.item_href}`,
-          window.location.href
-        );
+        const stacBase = new URL("./stac/", window.location.href);
+
+        const itemUrl = new URL(index.item_href, stacBase);
+
+        console.log("Loading STAC item:", itemUrl.href);
 
         const response = await fetch(itemUrl);
 
         if (!response.ok) {
-          throw new Error(`Could not read item record (HTTP ${response.status}).`);
+          throw new Error(`Could not read item record (HTTP ${response.status}): ${itemUrl.href}`);
         }
 
         this.selectedItem = await response.json();
