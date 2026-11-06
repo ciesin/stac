@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Browse CIESIN datasets, metadata, spatial coverage, and assets.">
+ 
     <title>CIESIN Data Browser</title>
     <link rel="preconnect" href="https://tiles.openfreemap.org">
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.css">
@@ -14,7 +15,7 @@
     <div id="app" v-cloak>
       <header class="site-header">
         <a class="brand" href="#" @click.prevent="goHome">
-          <!-- <span class="brand-mark">C</span> -->
+          <!-- <span class="brand-mark">C</span> --> 
           <span><b>CIESIN STAC browser</b></span>
         </a>
         <nav aria-label="Main navigation">
@@ -170,14 +171,7 @@
                 Search and filter the CIESIN data catalog.
               </p> -->
             </div>
-
-            <button
-              class="text-button"
-              type="button"
-              @click="clearFilters"
-            >
-              Reset filters ↺
-            </button>
+ 
           </div>
 
           <div class="search-main">
@@ -223,12 +217,20 @@
             </div>
 
             <button
-              v-if="categoryFilters.length || versionFilters.length || resourceTypeFilters.length"
+              v-if="
+                query ||
+                searchField !== 'all' ||
+                categoryFilters.length ||
+                versionFilters.length ||
+                resourceTypeFilters.length ||
+                dateRangeFilter.start ||
+                dateRangeFilter.end
+              "
               class="text-button"
               type="button"
-              @click="clearFilters()"
+              @click="clearFilters"
             >
-              Clear all filters
+              Reset filters ↺
             </button>
           </div>
 
@@ -270,7 +272,7 @@
               </div>
             </details>
             <!-- Publisher -->
-            <details class="filter-dropdown" name="dataset-filters">
+            <!-- <details class="filter-dropdown" name="dataset-filters">
               <summary>
                 <span>Publisher</span>
                 <span class="filter-count" v-if="publisherFilters.length">
@@ -283,10 +285,10 @@
                   <span>{{ publisher }}</span>
                 </label>
               </div>
-            </details>
+            </details> -->
 
             <!-- Provider -->
-            <details class="filter-dropdown" name="dataset-filters">
+            <!-- <details class="filter-dropdown" name="dataset-filters">
               <summary>
                 <span>Provider</span>
                 <span class="filter-count" v-if="providerFilters.length">
@@ -299,7 +301,7 @@
                   <span>{{ provider }}</span>
                 </label>
               </div>
-            </details>
+            </details> -->
 
             <!-- Metadata source -->
             <!-- <details class="filter-dropdown" name="dataset-filters">
@@ -318,7 +320,7 @@
             </details> -->
 
             <!-- Geographic coverage -->
-            <details class="filter-dropdown" name="dataset-filters">
+            <!-- <details class="filter-dropdown" name="dataset-filters">
               <summary>
                 <span>Geographic coverage</span>
                 <span class="filter-count" v-if="placeFilters.length">
@@ -331,7 +333,7 @@
                   <span>{{ place }}</span>
                 </label>
               </div>
-            </details>
+            </details> -->
 
             <!-- Version status -->
             <details class="filter-dropdown" name="dataset-filters">
@@ -380,6 +382,36 @@
               </div>
             </details>
 
+            <!-- Publication date range -->
+            <details class="filter-dropdown">
+              <summary>
+                <span>Temporal extent</span>
+                <span class="filter-count" v-if="dateRangeFilter.start || dateRangeFilter.end">
+                  {{ dateRangeFilter.start || 'Any' }} – {{ dateRangeFilter.end || 'Any' }}
+                </span>
+              </summary>
+
+              <div class="filter-dropdown-content">
+                <label class="filter-option">
+                  <span>Start year</span>
+                  <input
+                    type="number"
+                    v-model.number="dateRangeFilter.start"
+                    placeholder="YYYY"
+                  >
+                </label>
+
+                <label class="filter-option">
+                  <span>End year</span>
+                  <input
+                    type="number"
+                    v-model.number="dateRangeFilter.end"
+                    placeholder="YYYY"
+                  >
+                </label>
+              </div>
+            </details>
+
              
 
           </div>
@@ -396,7 +428,19 @@
                 metadataRows.find(field => field.label === 'Authors')?.value
                 || selectedIndex?.authors
               }}
-            </h4></div>
+            </h4>
+
+            {{
+              formatPublicationDate(
+                metadataRows.find(field => field.label === 'Publication date')?.value
+                || selectedIndex?.publication_date
+              )
+            }}
+ 
+
+
+          
+            </div>
             <span class="version-badge" :class="'status-' + versionStatus">{{ versionLabel }}</span> 
           </div>
           
@@ -540,8 +584,8 @@
                 
 
                 <div class="result-metadata">
-                  <div> 
-                    <span>{{ item.publication_date ? formatDate(item.publication_date) : 'Not specified' }}</span>
+                  <div>
+                    <span>{{ item.publication_date ? formatPublicationDate(item.publication_date) : 'Not specified' }}</span>
                   </div>
                   <div>
                     <span class="metadata-label">Authors</span>
@@ -556,16 +600,16 @@
                     
                   </div>
 
-                  <div>
-                    <span class="metadata-label">Temporal extent</span> 
+                  <div> 
+                    <span class="metadata-label">Temporal extent</span>
+
                     <span>
                       {{ formatTemporalExtent(
-                        item.start_datetime || item.temporal_start,
-                        item.end_datetime || item.temporal_end
+                        item["ciesin:temporal_start"] || item.temporal_start || item.start_datetime,
+                        item["ciesin:temporal_end"] || item.temporal_end || item.end_datetime
                       ) }}
                     </span>
-
-                  </div>
+                  </div> 
                 </div>
 
                 <span class="result-foot">

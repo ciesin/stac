@@ -7,9 +7,10 @@ createApp({
     return {
       items: [], summary: null, page: "home", selectedIndex: null, selectedItem: null,
       query: "", searchField: "all", categoryFilters: [], versionFilters: [],
-      resourceTypeFilters: [], publisherFilters: [], providerFilters: [], placeFilters: [], sortBy: "date", resultPage: 1, resultPageSize: 20,
+      resourceTypeFilters: [], publisherFilters: [], providerFilters: [], placeFilters: [], sortBy: "date", resultPage: 1, resultPageSize: 24,
       assetQuery: "", assetSubtype: "", assetSource: "", assetRole: "", assetPage: 1, assetPageSize: 10,
-      loading: true, loadError: "", mapInstance: null, mapReady: false, mapLoadPromise: null, toastMessage: "", toastTimeout: null
+      loading: true, loadError: "", mapInstance: null, mapReady: false, mapLoadPromise: null, toastMessage: "", toastTimeout: null,
+      dateRangeFilter: { start: null, end: null }
     };
   },
   computed: {
@@ -37,6 +38,10 @@ createApp({
         this.items.flatMap(item => item.place || [])
       )].filter(Boolean).sort();
     },
+
+     
+
+
     totalAssets() { return this.items.reduce((sum, item) => sum + Number(item.asset_count || 0), 0); },
     currentCount() { return this.items.filter((item) => !item.version_status || item.version_status === "unknown" || item.version_status === "current").length; },
     
@@ -135,6 +140,28 @@ createApp({
           !this.resourceTypeFilters.length ||
           this.resourceTypeFilters.includes(item.resource_type);
 
+
+        const temporalStart = item.start_datetime
+          ? Number(String(item.start_datetime).slice(0, 4))
+          : null;
+
+        const temporalEnd = item.end_datetime
+          ? Number(String(item.end_datetime).slice(0, 4))
+          : null;
+
+        if (
+          this.dateRangeFilter.start &&
+          (!temporalEnd || temporalEnd < this.dateRangeFilter.start)
+        ) return false;
+
+        if (
+          this.dateRangeFilter.end &&
+          (!temporalStart || temporalStart > this.dateRangeFilter.end)
+        ) return false;
+
+
+        
+
         return matchesSearch &&
           matchesPublisher &&
           matchesProvider &&
@@ -228,23 +255,32 @@ createApp({
         ["Resource type", p["ciesin:resource_type"] || this.selectedIndex?.resource_type],
         ["Version status", this.versionLabel], ["Version", p.version || this.selectedIndex?.version],
         ["DOIs", p["ciesin:dois"] || this.selectedIndex?.dois],
-        ["Publication date", p["ciesin:publication_date"] || this.selectedIndex?.publication_date],
-        ["Data coverage", this.coverageLabel], ["Bounding box (W, S, E, N)", this.hasBbox ? this.selectedItem.bbox : ""],
+        ["Publication date", this.formatPublicationDate(
+          p["ciesin:publication_date"] || this.selectedIndex?.publication_date
+        )],
+        ["Temporal extent", this.coverageLabel], ["Bounding box (W, S, E, N)", this.hasBbox ? this.selectedItem.bbox : ""],
         ["Tags", p["ciesin:tags"] || p.keywords], ["License", p.license],
-        ["Providers", p.providers], ["Authors", p["ciesin:authors"]], ["Publishers", p["ciesin:publishers"]],
+        ["Providers", p.providers], 
+        ["Authors", p["ciesin:authors"]], 
+        ["Publishers", p["ciesin:publishers"]],
         ["Place", p["ciesin:place"]], ["Citation", p["sci:citation"] || this.selectedIndex?.citation],
         ["Purpose", p["ciesin:purpose"] || this.selectedIndex?.purpose],
         ["Additional resources", p["ciesin:additional_resources"] || this.selectedIndex?.additional_resources],
-        ["Metadata sources", p["ciesin:metadata_sources"]], ["XML metadata location", p["ciesin:inventory_xml_location"]],
+        ["Metadata sources", p["ciesin:metadata_sources"]], 
+        // ["XML metadata location", p["ciesin:inventory_xml_location"]],
       ];
       return rows.map(([label, value]) => ({ label, value: this.valueText(value) })).filter((row) => row.value);
     },
     coverageLabel() {
       const p = this.selectedProps;
-      const start = p.start_datetime || p["ciesin:temporal_start"];
-      const end = p.end_datetime || p["ciesin:temporal_end"];
-      if (start && end) return `${this.formatDate(start)} — ${this.formatDate(end)}`;
-      return start ? `From ${this.formatDate(start)}` : end ? `Through ${this.formatDate(end)}` : this.formatDate(p.datetime);
+
+      const start =
+        p.start_datetime || p["ciesin:temporal_start"];
+
+      const end =
+        p.end_datetime || p["ciesin:temporal_end"];
+
+      return this.formatTemporalExtent(start, end);
     },
     selectedCategoryLabel() {
       return this.categoryFilters.join(", ");
@@ -353,6 +389,8 @@ createApp({
         return str;
       };
 
+
+
       const startDate = format(start);
       const endDate = format(end);
 
@@ -363,6 +401,35 @@ createApp({
       }
 
       return startDate || endDate;
+    },
+
+    formatPublicationDate(value) {
+      if (!value) return "Not specified";
+
+      const text = String(value).trim();
+
+      // Keep year-only values as years.
+      if (/^\d{4}$/.test(text)) {
+        return text;
+      }
+
+      // Handle BCE years.
+      if (/^-\d+$/.test(text)) {
+        return `${Math.abs(Number(text)).toLocaleString()} BCE`;
+      }
+
+      const parsed = new Date(text);
+
+      if (Number.isNaN(parsed.getTime())) {
+        return text;
+      }
+
+      return new Intl.DateTimeFormat("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+        timeZone: "UTC"
+      }).format(parsed);
     },
 
     
@@ -376,7 +443,76 @@ createApp({
       return String(value);
     },
     dateValue(value) { const time = Date.parse(value || ""); return Number.isFinite(time) ? time : 0; },
-    formatDate(value) { if (!value) return ""; const date = new Date(value); return Number.isNaN(date.getTime()) ? String(value) : new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeZone: "UTC" }).format(date); },
+    formatDate(value) {
+      if (!value) return "";
+
+      const match = String(value).match(
+        /^(-?\d{1,6})-(\d{2})-(\d{2})/
+      );
+
+      if (!match) return String(value);
+
+      const year = Number(match[1]);
+      const month = Number(match[2]);
+      const day = Number(match[3]);
+
+      const monthNames = [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+      ];
+
+      const monthName = monthNames[month - 1];
+
+      if (!monthName || day < 1 || day > 31) {
+        return String(value);
+      }
+
+      if (year < 0) {
+        return `${monthName} ${day}, ${Math.abs(year)} BCE`;
+      }
+
+      if (year === 0) {
+        return `${monthName} ${day}, 1 BCE`;
+      }
+
+      return `${monthName} ${day}, ${year}`;
+    },
+    formatTemporalExtent(start, end) {
+      const formatTemporalValue = (value) => {
+        if (value === null || value === undefined || value === "") {
+          return null;
+        }
+
+        const text = String(value).trim();
+
+        // Preserve BCE and year-only values without JavaScript Date parsing.
+        if (/^-\d+$/.test(text)) {
+          return `${Math.abs(Number(text)).toLocaleString()} BCE`;
+        }
+
+        if (/^\d{1,4}$/.test(text)) {
+          return `${Number(text).toLocaleString()} CE`;
+        }
+
+        return this.formatDate(text);
+      };
+
+      const formattedStart = formatTemporalValue(start);
+      const formattedEnd = formatTemporalValue(end);
+
+      if (formattedStart && formattedEnd) {
+        if (formattedStart === formattedEnd) {
+          return formattedStart;
+        }
+
+        return `${formattedStart} – ${formattedEnd}`;
+      }
+
+      if (formattedStart) return `From ${formattedStart}`;
+      if (formattedEnd) return `Through ${formattedEnd}`;
+
+      return "Not specified";
+    },
     formatBytes(value) { const bytes = Number(value); if (!Number.isFinite(bytes)) return ""; if (bytes < 1024) return `${bytes} B`; const units = ["KB", "MB", "GB", "TB"]; let size = bytes / 1024; let unit = 0; while (size >= 1024 && unit < units.length - 1) { size /= 1024; unit++; } return `${size.toFixed(1)} ${units[unit]}`; },
     doiHref(doi) { return `https://doi.org/${String(doi || "").replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")}`; },
     safeHref(value) { try { const url = new URL(value); return ["https:", "http:"].includes(url.protocol) ? url.href : "#"; } catch { return "#"; } },
@@ -389,17 +525,20 @@ createApp({
     },
     openCategory(category) { this.categoryFilter = category; this.page = "home"; this.resultPage = 1; window.scrollTo({ top: 0, behavior: "smooth" }); },
     clearFilters() {
-      this.query = "";
-      this.searchField = "all";
+      this.query = '';
+      this.searchField = 'all';
+
       this.categoryFilters = [];
       this.versionFilters = [];
       this.resourceTypeFilters = [];
-      this.sortBy = "title";
-      this.resultPage = 1;
-      this.publisherFilters = [];
-      this.providerFilters = [];
-      this.placeFilters = [];
+
+      this.dateRangeFilter = {
+        start: null,
+        end: null
+      };
     },
+
+    
     goHome() {
       const url = new URL(window.location.href);
       url.searchParams.delete("item");
