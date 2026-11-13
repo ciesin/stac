@@ -30,7 +30,7 @@
           <div class="intro-copy">
             <!-- <p class="eyebrow">Center for Integrated Earth System Information</p> -->
             <!-- <h1>Explore data about people and our hcanging planet.</h1> -->
-            <p class="intro-lede">Find CIESIN datasets by category, topic, place, date, or source. Open a dataset to inspect its metadata, geographic coverage, version status, and associated assets.</p>
+            <p class="intro-lede">Find CIESIN datasets. Open a dataset to inspect its metadata, geographic coverage, version status, and associated assets.</p>
             
             <div class="catalog-stats" aria-label="Catalog summary">
               <div>
@@ -182,7 +182,7 @@
                 <input
                   v-model.trim="query"
                   type="search"
-                  placeholder="Search titles, authors, DOI, keywords, or places..."
+                  placeholder="Search titles, authors, DOI, keywords, or other..."
                 >
               </div>
             </label>
@@ -197,8 +197,8 @@
                 <option value="description">Description</option>
                 <option value="authors">Authors</option>
                 <option value="publishers">Publishers</option>
-                <option value="providers">Providers</option>
-                <option value="place">Place</option>
+                <!-- <option value="providers">Providers</option> -->
+                <option value="place">Publication Place</option>
                 <option value="purpose">Purpose</option>
                 <option value="citation">Citation</option>
                 <option value="version">Version</option>
@@ -222,7 +222,7 @@
                 searchField !== 'all' ||
                 categoryFilters.length ||
                 versionFilters.length ||
-                resourceTypeFilters.length ||
+                <!-- resourceTypeFilters.length || -->
                 dateRangeFilter.start ||
                 dateRangeFilter.end
               "
@@ -363,7 +363,7 @@
             </details>
 
             <!-- Resource type -->
-            <details class="filter-dropdown" name="dataset-filters">
+            <!-- <details class="filter-dropdown" name="dataset-filters">
               <summary>
                 <span>Resource type</span>
 
@@ -380,7 +380,7 @@
                   <span>{{ type }}</span>
                 </label>
               </div>
-            </details>
+            </details> -->
 
             <!-- Publication date range -->
             <details class="filter-dropdown">
@@ -423,7 +423,7 @@
         <section v-if="page === 'item' && selectedItem" class="item-detail">
           <button class="back-link" type="button" @click="goBack">← Back to results</button>
           <div class="detail-title-row">
-            <div><p class="eyebrow">{{ selectedIndex?.category || 'CIESIN dataset' }} <span v-if="selectedIndex?.resource_type">· {{ selectedIndex.resource_type }}</span></p><h2>{{ selectedProps.title || selectedIndex?.title }}</h2><h4>
+            <div><p class="eyebrow">{{ selectedIndex?.category || 'CIESIN dataset' }}  </p><h2>{{ selectedProps.title || selectedIndex?.title }}</h2><h4>
               {{
                 metadataRows.find(field => field.label === 'Authors')?.value
                 || selectedIndex?.authors
@@ -485,7 +485,9 @@
 
           <section class="assets-section">
             <div class="section-heading"><div><p class="eyebrow">Files and references</p><h2>Assets <span class="sub-count">{{ filteredAssets.length.toLocaleString() }}</span></h2></div><p>Showing 10 assets per page.</p></div>
-            <div class="asset-filters"><label>Find assets<input v-model.trim="assetQuery" type="search" placeholder="Name, URL, source, subtype, or DOI"></label><label>Subtype<select v-model="assetSubtype"><option value="">All subtypes</option><option v-for="subtype in assetSubtypes" :key="subtype" :value="subtype">{{ subtype }}</option></select></label><label>Source<select v-model="assetSource"><option value="">All sources</option><option v-for="source in assetSources" :key="source" :value="source">{{ source }}</option></select></label><label>Role<select v-model="assetRole"><option value="">All roles</option><option v-for="role in assetRoles" :key="role" :value="role">{{ role }}</option></select></label></div>
+            <div class="asset-filters"><label>Find assets<input v-model.trim="assetQuery" type="search" placeholder="Name, URL, source, media format, or DOI"></label><label>Asset Type<select v-model="assetSubtype"><option value="">All</option><option v-for="subtype in assetSubtypes" :key="subtype" :value="subtype">{{ subtype }}</option></select></label><label>Source<select v-model="assetSource"><option value="">All sources</option><option v-for="source in assetSources" :key="source" :value="source">{{ source }}</option></select></label>
+              <!-- <label>Role<select v-model="assetRole"><option value="">All roles</option><option v-for="role in assetRoles" :key="role" :value="role">{{ role }}</option></select></label> -->
+            </div>
             <div class="asset-list" v-if="pagedAssets.length">
               <article class="asset-row" v-for="asset in pagedAssets" :key="asset.key">
                 <div class="asset-icon" aria-hidden="true">↗</div><div class="asset-main"><a :href="safeHref(asset.href)" target="_blank" rel="noopener">{{ asset.title || asset.key }}</a><p>{{ asset.description || asset.href }}</p><div class="asset-meta"><span>{{ asset.subtype }}</span><span>{{ asset.source || 'Source not specified' }}</span><span>{{ (asset.roles || []).join(', ') || 'role not specified' }}</span><span>{{ asset.type || 'type not specified' }}</span><span v-if="asset['file:size']">{{ formatBytes(asset['file:size']) }}</span></div></div>

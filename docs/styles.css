@@ -224,7 +224,7 @@
         
     .search-heading h2,.section-heading h2{font-size:25px}
     .text-button,.back-link{border:0;background:none;color:var(--green);font-weight:700;font-size:12px;padding:8px 0}
-    .filters{display:grid;grid-template-columns:2fr repeat(3,minmax(100px,2fr));gap:12px}
+    .filters{display:grid;grid-template-columns:2fr repeat(2,minmax(100px,2fr));gap:12px}
     .asset-filters label {
         display: flex;
         flex-direction: column;
@@ -233,7 +233,8 @@
         color: var(--muted);
         font-weight: 700;
     }
-    .filters input,.filters select,.asset-filters input,.asset-filters select{width:100%;height:42px;padding:0 12px;color:var(--ink);border:1px solid var(--line);border-radius:9px;background:#fbfcfa;font-size:12px;outline:none}.filters input:focus,.filters select:focus,.asset-filters input:focus,.asset-filters select:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(18,103,95,.11)}.result-count{font-size:11px;color:var(--muted);margin:14px 0 0}.category-section,.results-section,.assets-section{margin:0 0 42px}
+    .filters input,.filters select,
+    .asset-filters input,.asset-filters select{width:100%;height:42px;padding:0 12px;color:var(--ink);border:1px solid var(--line);border-radius:9px;background:#fbfcfa;font-size:12px;outline:none}.filters input:focus,.filters select:focus,.asset-filters input:focus,.asset-filters select:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(18,103,95,.11)}.result-count{font-size:11px;color:var(--muted);margin:14px 0 0}.category-section,.results-section,.assets-section{margin:0 0 42px}
     .section-heading{align-items:center}
     .section-heading h2{font-size:25px}
     .section-heading>span,.section-heading>p{font-size:12px;color:var(--muted);margin:0}
@@ -371,7 +372,7 @@
     .card-heading{margin-bottom:17px}
     .card-heading h3{font-size:19px}
     .metadata-list{display:grid;grid-template-columns:minmax(50px, .34fr) 1fr;gap:0 15px;margin:0}.metadata-list dt,.metadata-list dd{margin:0;padding:5px 0;border-top:1px solid #edf1ee;font-size:11px;line-height:1.55;overflow-wrap:anywhere}.metadata-list dt{color:var(--muted);font-weight:600}.metadata-list dd{color:var(--ink)}.map-wrap{height:360px;position:relative;border-radius:12px;overflow:hidden;background:#e7eeea}.map-wrap #coverage-map{position:absolute;inset:0}.map-message{position:absolute;inset:0;display:grid;place-items:center;margin:0;padding:20px;text-align:center;color:#5f726e;background:rgba(245,247,244,.74);font-size:13px;pointer-events:none}.map-caption,.bbox-text{font-size:10px;color:var(--muted);margin:10px 0 0}.bbox-text{font-family:ui-monospace,Consolas,monospace}.assets-section{background:white;padding:26px;border:1px solid var(--line);border-radius:17px}.sub-count{font:600 14px 'DM Sans';color:var(--muted);letter-spacing:0}
-    .asset-filters{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:12px;margin:15px 0}
+    .asset-filters{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;margin:15px 0}
     .asset-list{border-top:1px solid var(--line)}
     .asset-row{display:grid;grid-template-columns:36px 1fr auto;align-items:start;gap:13px;padding:5px 4px;border-bottom:1px solid #edf1ee}.asset-icon{width:32px;height:32px;display:grid;place-items:center;background:var(--blue);color:var(--green);border-radius:9px;font-size:15px}.asset-main>a{font-size:12px;font-weight:700;overflow-wrap:anywhere}.asset-main p{font-size:11px;color:var(--muted);line-height:1.5;margin:4px 0 7px;overflow-wrap:anywhere}.asset-meta{display:flex;flex-wrap:wrap;gap:6px}.asset-meta span{font-size:9px;color:#51635f;background:#f0f4f1;padding:4px 7px;border-radius:999px}.open-asset{font-size:10px;font-weight:700;padding:7px 9px;border:1px solid var(--line);border-radius:7px;white-space:nowrap}.pagination{display:flex;align-items:center;gap:8px}.pagination span{font-size:10px;color:var(--muted);padding:0 6px}.pagination button{border:1px solid var(--line);background:white;color:var(--green);border-radius:7px;padding:8px 11px;font-size:10px;font-weight:700}
     .pagination button:disabled{opacity:.4;cursor:default}

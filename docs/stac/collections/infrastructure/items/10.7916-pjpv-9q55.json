@@ -1,0 +1,628 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "10.7916-pjpv-9q55",
+  "collection": "infrastructure",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.713684,
+          4.282
+        ],
+        [
+          14.636384,
+          4.282
+        ],
+        [
+          14.636384,
+          13.865246
+        ],
+        [
+          2.713684,
+          13.865246
+        ],
+        [
+          2.713684,
+          4.282
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "title": "GRID3 NGA - Health Facilities v4.0",
+    "description": "GRID3 NGA - Health Facilities v4.0 includes operational health facility points for all 36 states in Nigeria, as well as for the Federal Capital Territory (FCT). The dataset is a non-exhaustive, non-validated geographic representation of health facility points for all 36 states and the FCT. This release supersedes v3.0 (https://doi.org/10.7916/s6cq-1q98), which updated 23 states and the FCT, and supersedes GRID3 NGA Health Facilities v2.0 ( https://doi.org/10.7916/kv1n-0743 ), the last complete national release. The following changes were made: For all states and the FCT, the ward boundary attribute is updated based on the GRID3 NGA – Operational Wards v4.0 dataset. As a result, the flag5 attribute is updated, which indicates if health facility points fall outside the current operational ward boundary layer Major updates for the 13 states not included in v3.0: Akwa Ibom, Anambra, Benue, Cross River, Ebonyi, Edo, Ekiti, Imo, Lagos, Ondo, Plateau, Rivers and Taraba Minor updates for 11 states included in v3.0: Bauchi, Borno, Kaduna, Kano, Kogi, Kwara, Nasarawa, Niger, Ogun, Osun and Sokoto. Small numbers of health facilities were added or removed, mostly among records without xy coordinates No health facilities added or removed in the remainder of v3.0: Abia, Adamawa, Bayelsa, Delta, Enugu, Gombe, Jigawa, Katsina, Kebbi, Oyo, Yobe, Zamfara and the FCT. Keywords: Health Facilities",
+    "license": "The data and accompanying document are licensed under a Creative Commons Attribution-ShareAlike 4.0 International, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) and specified in legal code (http://creativecommons.org/licenses/by-sa/4.0/legalcode)",
+    "keywords": [
+      "Geospatial data",
+      "Sustainable development",
+      "Economic development",
+      "GRID3",
+      "Infrastructure",
+      "latest"
+    ],
+    "providers": [
+      {
+        "name": "Center for Integrated Earth System Information",
+        "roles": [
+          "host"
+        ]
+      },
+      {
+        "name": "Columbia Academic Commons",
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "sci:doi": "10.7916/pjpv-9q55",
+    "sci:citation": "Center for Integrated Earth System Information (CIESIN), Columbia University 2026. GRID3 NGA - Health Facilities v4.0. New York: Columbia University. https://doi.org/10.7916/pjpv-9q55. Accessed [DAY MONTH YEAR].",
+    "version": "4.0",
+    "ciesin:resource_type": "Data",
+    "ciesin:category": "Infrastructure",
+    "ciesin:is_latest_version": true,
+    "ciesin:version_status": "current",
+    "ciesin:dois": [
+      "10.7916/pjpv-9q55"
+    ],
+    "ciesin:authors": [
+      "Center for Integrated Earth System Information"
+    ],
+    "ciesin:publishers": [
+      "Columbia University"
+    ],
+    "ciesin:place": [
+      "New York"
+    ],
+    "ciesin:publication_date": "2026-01-01T00:00:00Z",
+    "ciesin:additional_resources": [
+      "https://doi.org/10.7916/pjpv-9q55",
+      "https://academiccommons.columbia.edu/doi/10.7916/4mtn-sh66/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/rdhh-gm68/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/mx0z-ce76/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/57vy-zd84/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/tcsb-rk58/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/8y1d-ar14/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/3gh1-nk63/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/010v-km30/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/p59q-3z11/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/sbag-p445/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/16ha-rp28/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/z5ft-yw36/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/es98-5576/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/fm5x-cb35/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/yp0x-0713/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/x74j-gf36/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/2fp1-g882/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/mver-rx29/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/v7pg-t696/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/913a-kv69/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/5j1n-ey66/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/0tkx-7330/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/ngz5-tw63/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/cybd-a844/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/4fnt-rn33/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/45tb-6z52/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/azw3-xn10/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/c8wm-4727/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/b6v0-t279/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/ptw0-3q44/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/na2v-kc29/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/z0ym-sp78/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/j8zf-0276/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/6dk6-7c22/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/59h9-rk72/download",
+      "https://academiccommons.columbia.edu/doi/10.7916/pjpv-9q55#assets-panel"
+    ],
+    "ciesin:metadata_sources": [
+      "Columbia Academic Commons",
+      "DataCite"
+    ],
+    "ciesin:temporal_start": null,
+    "ciesin:temporal_end": null,
+    "datetime": "2026-01-01T00:00:00Z",
+    "ciesin:stac_datetime_basis": "publication_date"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./10.7916-pjpv-9q55.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.7916/pjpv-9q55",
+      "type": "text/html"
+    }
+  ],
+  "assets": {
+    "pjpv-9q55": {
+      "href": "https://doi.org/10.7916/pjpv-9q55",
+      "type": "text/html",
+      "title": "GRID3 NGA - Health Facilities v4.0 — Columbia Academic Commons DOI",
+      "roles": [
+        "metadata"
+      ],
+      "ciesin:source": "Columbia Academic Commons DOI; Columbia Academic Commons record",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "10.7916/pjpv-9q55",
+      "ciesin:asset_match_basis": "inventory column columbia_ac_doi; exact DOI lookup"
+    },
+    "dataset-documentation-grid3-nga---health-facilities-v4.0": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/4mtn-sh66/download",
+      "type": "application/pdf",
+      "title": "Dataset documentation — GRID3 NGA - Health Facilities v4.0",
+      "roles": [
+        "data"
+      ],
+      "file:size": 480173,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Metadata",
+      "ciesin:source_identifier": "/doi/10.7916/4mtn-sh66/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_abia_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/rdhh-gm68/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Abia_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 905216,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/rdhh-gm68/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_akwa_ibom_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/mx0z-ce76/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Akwa_Ibom_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 663552,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/mx0z-ce76/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_anambra_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/57vy-zd84/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Anambra_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1134592,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/57vy-zd84/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_adamawa_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/tcsb-rk58/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Adamawa_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 757760,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/tcsb-rk58/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_bayelsa_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/8y1d-ar14/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Bayelsa_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 368640,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/8y1d-ar14/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_ekiti_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/3gh1-nk63/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Ekiti_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 565248,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/3gh1-nk63/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_edo_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/010v-km30/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Edo_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 782336,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/010v-km30/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_borno_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/p59q-3z11/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Borno_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 495616,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/p59q-3z11/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_enugu_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/sbag-p445/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Enugu_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 872448,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/sbag-p445/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_fct_abuja_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/16ha-rp28/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_FCT_Abuja_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 512000,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/16ha-rp28/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_health_facilities_v4_0.xml": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/z5ft-yw36/download",
+      "type": "application/xml",
+      "title": "GRID3_NGA_Health_Facilities_v4_0.xml",
+      "roles": [
+        "data"
+      ],
+      "file:size": 12405,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/z5ft-yw36/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_gombe_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/es98-5576/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Gombe_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 667648,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/es98-5576/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_imo_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/fm5x-cb35/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Imo_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1179648,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/fm5x-cb35/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_katsina_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/yp0x-0713/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Katsina_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1224704,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/yp0x-0713/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_kebbi_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/x74j-gf36/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Kebbi_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 684032,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/x74j-gf36/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_kogi_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/2fp1-g882/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Kogi_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 978944,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/2fp1-g882/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_kwara_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/mver-rx29/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Kwara_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 704512,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/mver-rx29/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_kaduna_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/v7pg-t696/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Kaduna_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 954368,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/v7pg-t696/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_kano_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/913a-kv69/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Kano_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 999424,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/913a-kv69/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_health_facility_v4.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/5j1n-ey66/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_health_facility_v4.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 27598848,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/5j1n-ey66/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_jigawa_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/0tkx-7330/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Jigawa_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 626688,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/0tkx-7330/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_lagos_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ngz5-tw63/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Lagos_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1560576,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/ngz5-tw63/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_niger_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/cybd-a844/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Niger_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1404928,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/cybd-a844/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_delta_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/4fnt-rn33/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Delta_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 659456,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/4fnt-rn33/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_bauchi_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/45tb-6z52/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Bauchi_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 864256,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/45tb-6z52/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_nasarawa_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/azw3-xn10/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Nasarawa_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 811008,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/azw3-xn10/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_yobe_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/c8wm-4727/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Yobe_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 471040,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/c8wm-4727/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_zamfara_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/b6v0-t279/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Zamfara_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 602112,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/b6v0-t279/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_rivers_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/ptw0-3q44/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Rivers_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 696320,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/ptw0-3q44/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_sokoto_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/na2v-kc29/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Sokoto_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 655360,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/na2v-kc29/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_osun_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/z0ym-sp78/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Osun_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1093632,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/z0ym-sp78/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_oyo_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/j8zf-0276/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Oyo_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1265664,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/j8zf-0276/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_ondo_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/6dk6-7c22/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Ondo_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 761856,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/6dk6-7c22/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    },
+    "grid3_nga_ogun_health_facilities_v4_0.gpkg": {
+      "href": "https://academiccommons.columbia.edu/doi/10.7916/59h9-rk72/download",
+      "type": "application/x-geopackage",
+      "title": "GRID3_NGA_Ogun_health_facilities_v4_0.gpkg",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1015808,
+      "ciesin:source": "Columbia Academic Commons file",
+      "ciesin:asset_subtype": "Data",
+      "ciesin:source_identifier": "/doi/10.7916/59h9-rk72/download",
+      "ciesin:asset_match_basis": "exact DOI lookup"
+    }
+  },
+  "bbox": [
+    2.713684,
+    4.282,
+    14.636384,
+    13.865246
+  ]
+}
