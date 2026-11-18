@@ -353,7 +353,7 @@
 
                 <label class="filter-option">
                   <input type="checkbox" value="not_current" v-model="versionFilters">
-                  <span>Inactive</span>
+                  <span>Deprecated</span>
                 </label>
 
                 <label class="filter-option">
@@ -575,7 +575,7 @@
                     {{ item.version_status === 'current'
                       ? 'Active'
                       : item.version_status === 'not_current'
-                        ? 'Inactive'
+                        ? 'Deprecated'
                         : 'Not specified'
                     }}
                   </span>
