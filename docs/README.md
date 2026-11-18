@@ -1,4 +1,4 @@
-# CIESIN STAC and STAC Browser - Alpha
+# CIESIN STAC and STAC Browser - Beta
 
 This repository houses all of the related files to building the CIESIN STAC. 
 
