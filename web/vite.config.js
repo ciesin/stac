@@ -1,5 +1,7 @@
 import { defineConfig } from "vite";
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
 export default defineConfig({
   resolve: {
     // app.js mounts an in-DOM template (index.html), which needs Vue's
@@ -8,4 +10,5 @@ export default defineConfig({
       vue: "vue/dist/vue.esm-bundler.js",
     },
   },
+  plugins: [cloudflare()],
 });
