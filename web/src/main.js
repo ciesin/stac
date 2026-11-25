@@ -1,6 +1,7 @@
-import * as maplibregl from "https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.mjs";
-
-const { createApp, nextTick, markRaw } = Vue;
+import { createApp, nextTick, markRaw } from "vue";
+import * as maplibregl from "maplibre-gl";
+import "maplibre-gl/dist/maplibre-gl.css";
+import "./style.css";
 
 createApp({
   data() {
